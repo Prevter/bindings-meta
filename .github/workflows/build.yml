@@ -67,6 +67,9 @@ jobs:
     name: Publish results
     
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Download all artifacts to "codegen"
         uses: actions/download-artifact@v4
         with: 
