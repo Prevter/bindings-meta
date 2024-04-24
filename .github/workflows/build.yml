@@ -80,4 +80,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          export LATEST_COMMIT=${{ needs.check.outputs.latest_commit }}
+          export PREVIOUS_COMMIT=${{ needs.check.outputs.previous_commit }}
           gh release create $LATEST_COMMIT -t "Bindings commit $LATEST_COMMIT" -n "Codegen output for https://github.com/geode-sdk/bindings/compare/$PREVIOUS_COMMIT...$LATEST_COMMIT" codegen/*
