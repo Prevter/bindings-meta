@@ -37,13 +37,7 @@ jobs:
     strategy:
       matrix:
         config:
-          - { platform: Win32, version: "2.113" }
-          - { platform: Win32, version: "2.200" }
-          - { platform: Win32, version: "2.201" }
-          - { platform: Win32, version: "2.202" }
-          - { platform: Win32, version: "2.203" }
           - { platform: Win32, version: "2.204" }
-          - { platform: MacOS, version: "2.113" }
           - { platform: MacOS, version: "2.200" }
           
     needs: check
