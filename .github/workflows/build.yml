@@ -27,8 +27,8 @@ jobs:
           export LATEST_RELEASE=$(curl -s https://api.github.com/repos/prevter/bindings-meta/releases/latest | jq -r '.tag_name')
 
           # Compare the latest commit with the latest release tag
-          echo "Latest commit: $LATEST_COMMIT"
-          echo "Latest release: $LATEST_RELEASE"
+          export LATEST_COMMIT=$(echo $LATEST_COMMIT | cut -c1-7)
+          export LATEST_RELEASE=$(echo $LATEST_RELEASE | cut -c1-7)
           if [ "$LATEST_COMMIT" == "$LATEST_RELEASE" ]; then
             echo "No new commits since last release"
             exit 1
@@ -80,6 +80,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          export LATEST_COMMIT=$(echo ${{ needs.check.outputs.latest_commit }} | cut -c1-7)
-          export PREVIOUS_COMMIT=$(echo ${{ needs.check.outputs.previous_commit }} | cut -c1-7) 
-          gh release create ${{ needs.check.outputs.latest_commit }} -t "Bindings commit $LATEST_COMMIT" -n "Codegen output for https://github.com/geode-sdk/bindings/compare/$PREVIOUS_COMMIT...$LATEST_COMMIT" codegen/*
+          gh release create LATEST_COMMIT -t "Bindings commit $LATEST_COMMIT" -n "Codegen output for https://github.com/geode-sdk/bindings/compare/$PREVIOUS_COMMIT...$LATEST_COMMIT" codegen/*
