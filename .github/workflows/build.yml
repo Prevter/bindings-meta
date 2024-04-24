@@ -10,6 +10,7 @@ jobs:
   check:
     outputs:
       latest_commit: ${{ steps.fetch.outputs.LATEST_COMMIT }}
+      previous_commit: ${{ steps.fetch.outputs.PREVIOUS_COMMIT }}
     runs-on: ubuntu-latest
     name: Check for new commits
     steps:
@@ -35,6 +36,7 @@ jobs:
 
           # Export the latest commit to be used in the next step
           echo "LATEST_COMMIT=$LATEST_COMMIT" >> $GITHUB_OUTPUT
+          echo "PREVIOUS_COMMIT=$LATEST_RELEASE" >> $GITHUB_OUTPUT
 
   generate:
     strategy:
@@ -71,21 +73,10 @@ jobs:
           path: codegen
   
       - name: Create a new release
-        uses: actions/create-release@v1
-        id: create_release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ needs.check.outputs.latest_commit }}
-          release_name: "Bindings codegen ${{ needs.check.outputs.latest_commit }}"
-          body: "Codegen output for https://github.com/geode-sdk/bindings/commit/${{ needs.check.outputs.latest_commit }}"
-          draft: false
-          prerelease: false
-          
-      - name: Upload codegen
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: codegen/*
-          tag: ${{ needs.check.outputs.latest_commit }}
-          file_glob: true
+        run: |
+          export LATEST_COMMIT=$(echo ${{ needs.check.outputs.latest_commit }} | cut -c1-7)
+          export PREVIOUS_COMMIT=$(echo ${{ needs.check.outputs.previous_commit }} | cut -c1-7)
+
+          gh release create ${{ needs.check.outputs.latest_commit }} -t "Bindings commit $LATEST_COMMIT" -n "Codegen output for https://github.com/geode-sdk/bindings/compare/$PREVIOUS_COMMIT...$LATEST_COMMIT" codegen/*
