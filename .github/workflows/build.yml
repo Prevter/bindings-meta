@@ -1,0 +1,91 @@
+name: Rebuild codegen
+
+# on:
+#   schedule:
+#     - cron: '0 */4 * * *'
+
+on: workflow_dispatch
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    name: Check for new commits
+    steps:
+      - run: |
+          # Get latest geode-sdk/bindings commit and store it to a ENV variable
+          git clone https://github.com/geode-sdk/bindings.git
+          cd bindings
+          export LATEST_COMMIT=$(git rev-parse HEAD)
+          cd ..
+
+          # Get latest release tag
+          export LATEST_RELEASE=$(curl -s https://api.github.com/repos/prevter/bindings-meta/releases/latest | jq -r '.tag_name')
+
+          # Compare the latest commit with the latest release tag
+          echo "Latest commit: $LATEST_COMMIT"
+          echo "Latest release: $LATEST_RELEASE"
+          if [ "$LATEST_COMMIT" == "$LATEST_RELEASE" ]; then
+            echo "No new commits since last release"
+            exit 1
+          fi
+
+          # Export the latest commit to be used in the next step
+          echo "LATEST_COMMIT=$LATEST_COMMIT" >> $GITHUB_ENV
+
+  generate:
+    strategy:
+      matrix:
+        config:
+          - name: "Windows"
+            platform: "Win32"
+            version: ["2.113", "2.200", "2.201", "2.202", "2.203", "2.204"]
+          - name: "macOS"
+            platform: "MacOS"
+            version: ["2.113", "2.200"]
+          
+    needs: check
+    runs-on: ubuntu-latest
+    name: Run codegen
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure CMake
+        run: cmake -B build -S . -DGEODE_TARGET_PLATFORM=${{ matrix.config.platform }} -DGEODE_GD_VERSION=${{ matrix.config.version }}
+      
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.config.name }}-${{ matrix.config.version }}
+          path: ./output
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    name: Publish results
+    
+    steps:
+      - name: Download all artifacts to "codegen"
+        uses: actions/download-artifact@v4
+        with: 
+          path: codegen
+  
+      - name: Create a new release
+        uses: actions/create-release@v1
+        id: create_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.LATEST_COMMIT }}
+          release_name: "Bindings codegen ${{ env.LATEST_COMMIT }}"
+          body: "Codegen output for https://github.com/geode-sdk/bindings/commit/${{ env.LATEST_COMMIT }}"
+          draft: false
+          prerelease: false
+          
+      - name: Upload codegen
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: codegen/*
+          tag: ${{ env.LATEST_COMMIT }}
+          file_glob: true
