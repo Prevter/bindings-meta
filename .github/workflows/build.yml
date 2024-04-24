@@ -77,8 +77,8 @@ jobs:
         run: |
           export LATEST_COMMIT=$(echo ${{ needs.check.outputs.latest_commit }} | cut -c1-7)
           export PREVIOUS_COMMIT=$(echo ${{ needs.check.outputs.previous_commit }} | cut -c1-7)
-          echo title="Bindings commit $LATEST_COMMIT" >> $GITHUB_OUTPUTS
-          echo body="Codegen output for https://github.com/geode-sdk/bindings/compare/$PREVIOUS_COMMIT...$LATEST_COMMIT" >> $GITHUB_OUTPUTS
+          echo title="Bindings commit $LATEST_COMMIT" >> $GITHUB_OUTPUT
+          echo body="Codegen output for https://github.com/geode-sdk/bindings/compare/$PREVIOUS_COMMIT...$LATEST_COMMIT" >> $GITHUB_OUTPUT
   
       - name: Create Release
         uses: softprops/action-gh-release@v1
