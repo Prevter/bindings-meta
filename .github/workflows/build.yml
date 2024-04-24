@@ -8,10 +8,13 @@ on: workflow_dispatch
 
 jobs:
   check:
+    outputs:
+      latest_commit: ${{ steps.fetch.outputs.LATEST_COMMIT }}
     runs-on: ubuntu-latest
     name: Check for new commits
     steps:
       - name: Check for new commits
+        id: fetch
         run: |
           # Get latest geode-sdk/bindings commit and store it to a ENV variable
           git clone https://github.com/geode-sdk/bindings.git
@@ -31,7 +34,7 @@ jobs:
           fi
 
           # Export the latest commit to be used in the next step
-          echo "LATEST_COMMIT=$LATEST_COMMIT" >> $GITHUB_ENV
+          echo "LATEST_COMMIT=$LATEST_COMMIT" >> $GITHUB_OUTPUT
 
   generate:
     strategy:
@@ -53,11 +56,11 @@ jobs:
       - name: Save output
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.config.name }}-${{ matrix.config.version }}
+          name: ${{ matrix.config.platform }}-${{ matrix.config.version }}
           path: ./output
 
   publish:
-    needs: generate
+    needs: [generate, check]
     runs-on: ubuntu-latest
     name: Publish results
     
@@ -73,9 +76,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ env.LATEST_COMMIT }}
-          release_name: "Bindings codegen ${{ env.LATEST_COMMIT }}"
-          body: "Codegen output for https://github.com/geode-sdk/bindings/commit/${{ env.LATEST_COMMIT }}"
+          tag_name: ${{ needs.check.outputs.latest_commit }}
+          release_name: "Bindings codegen ${{ needs.check.outputs.latest_commit }}"
+          body: "Codegen output for https://github.com/geode-sdk/bindings/commit/${{ needs.check.outputs.latest_commit }}"
           draft: false
           prerelease: false
           
@@ -84,5 +87,5 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: codegen/*
-          tag: ${{ env.LATEST_COMMIT }}
+          tag: ${{ needs.check.outputs.latest_commit }}
           file_glob: true
