@@ -1,10 +1,10 @@
 name: Rebuild codegen
 
-# on:
-#   schedule:
-#     - cron: '0 */4 * * *'
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */4 * * *'
 
-on: workflow_dispatch
 
 jobs:
   check:
