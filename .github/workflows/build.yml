@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Check for new commits
     steps:
-      - run: |
+      - name: Check for new commits
+        run: |
           # Get latest geode-sdk/bindings commit and store it to a ENV variable
           git clone https://github.com/geode-sdk/bindings.git
           cd bindings
@@ -36,12 +37,14 @@ jobs:
     strategy:
       matrix:
         config:
-          - name: "Windows"
-            platform: "Win32"
-            version: ["2.113", "2.200", "2.201", "2.202", "2.203", "2.204"]
-          - name: "macOS"
-            platform: "MacOS"
-            version: ["2.113", "2.200"]
+          - { platform: Win32, version: "2.113" }
+          - { platform: Win32, version: "2.200" }
+          - { platform: Win32, version: "2.201" }
+          - { platform: Win32, version: "2.202" }
+          - { platform: Win32, version: "2.203" }
+          - { platform: Win32, version: "2.204" }
+          - { platform: MacOS, version: "2.113" }
+          - { platform: MacOS, version: "2.200" }
           
     needs: check
     runs-on: ubuntu-latest
