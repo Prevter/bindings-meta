@@ -67,19 +67,26 @@ jobs:
     name: Publish results
     
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Download all artifacts to "codegen"
+      - name: Download artifacts
         uses: actions/download-artifact@v4
         with: 
           path: codegen
-  
-      - name: Create a new release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Prepare release body
+        id: prepare_release
         run: |
           export LATEST_COMMIT=$(echo ${{ needs.check.outputs.latest_commit }} | cut -c1-7)
           export PREVIOUS_COMMIT=$(echo ${{ needs.check.outputs.previous_commit }} | cut -c1-7)
-
-          gh release create ${{ needs.check.outputs.latest_commit }} -t "Bindings commit $LATEST_COMMIT" -n "Codegen output for https://github.com/geode-sdk/bindings/compare/$PREVIOUS_COMMIT...$LATEST_COMMIT" codegen/*
+          echo title="Bindings commit $LATEST_COMMIT" >> $GITHUB_OUTPUTS
+          echo body="Codegen output for https://github.com/geode-sdk/bindings/compare/$PREVIOUS_COMMIT...$LATEST_COMMIT" >> $GITHUB_OUTPUTS
+  
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ needs.check.outputs.latest_commit }}
+          name: ${{ steps.prepare_release.outputs.title }}
+          body: ${{ steps.prepare_release.outputs.body }}
+          draft: true
+          files: codegen/*
