@@ -86,11 +86,15 @@ jobs:
   
       - name: Prepare index.html
         run: |
-          echo "<html><head><title>Codegen output</title></head><body><h1>Codegen output</h1><ul>" > ./codegen/index.html
-          for file in ./codegen/*; do
-            echo "<li><a href=\"./$file\">$file</a></li>" >> ./codegen/index.html
+          echo "<html><head><title>Codegen output</title></head><body>" > index.html
+          echo "<h1>Codegen output</h1>" >> index.html
+          echo "<ul>" >> index.html
+          for file in codegen/*; do
+            echo "<li><a href=\"$(basename $file)\">$(basename $file)</a></li>" >> index.html
           done
-          echo "</ul></body></html>" >> ./codegen/index.html
+          echo "</ul>" >> index.html
+          echo "</body></html>" >> index.html
+          cp index.html codegen/index.html
 
       - name: Deploy pages
         uses: peaceiris/actions-gh-pages@v3
