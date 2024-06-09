@@ -44,6 +44,9 @@ jobs:
         config:
           - { platform: Win32, version: "2.204" }
           - { platform: MacOS, version: "2.200" }
+          - { platform: Win32, version: "2.206" }
+          - { platform: mac-intel, version: "2.206" }
+          - { platform: mac-arm, version: "2.206" }
           
     needs: check
     runs-on: ubuntu-latest
