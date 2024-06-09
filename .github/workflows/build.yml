@@ -42,11 +42,10 @@ jobs:
     strategy:
       matrix:
         config:
-          - { platform: Win32, version: "2.204" }
-          - { platform: MacOS, version: "2.200" }
-          - { platform: Win32, version: "2.206" }
-          - { platform: mac-intel, version: "2.206" }
-          - { platform: mac-arm, version: "2.206" }
+          - { platform: Win32, version: "2.204", id: "windows" }
+          - { platform: Win32, version: "2.206", id: "windows" }
+          - { platform: macOS, version: "2.206", id: "mac-intel", extra: "-DCMAKE_OSX_ARCHITECTURES='x86_64'" }
+          - { platform: macOS, version: "2.206", id: "mac-arm", extra: "-DCMAKE_OSX_ARCHITECTURES='arm64'"  }
           
     needs: check
     runs-on: ubuntu-latest
@@ -56,12 +55,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Configure CMake
-        run: cmake -B build -S . -DGEODE_TARGET_PLATFORM=${{ matrix.config.platform }} -DGEODE_GD_VERSION=${{ matrix.config.version }}
+        run: cmake -B build -S . -DGEODE_TARGET_PLATFORM=${{ matrix.config.platform }} -DGEODE_GD_VERSION=${{ matrix.config.version }} ${{ matrix.config.extra }}
       
       - name: Save output
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.config.platform }}-${{ matrix.config.version }}
+          name: ${{ matrix.config.id }}-${{ matrix.config.version }}
           path: ./output
 
   publish:
