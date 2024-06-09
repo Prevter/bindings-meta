@@ -58,7 +58,7 @@ jobs:
       - name: Save output
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.config.id }}-${{ matrix.config.version }}
+          name: ${{ matrix.config.platform }}-${{ matrix.config.version }}
           path: ./output
 
   publish:
