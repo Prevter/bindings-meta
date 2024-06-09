@@ -44,8 +44,8 @@ jobs:
         config:
           - { platform: Win32, version: "2.204", id: "windows" }
           - { platform: Win32, version: "2.206", id: "windows" }
-          - { platform: macOS, version: "2.206", id: "mac-intel", extra: "-DCMAKE_OSX_ARCHITECTURES='x86_64'" }
-          - { platform: macOS, version: "2.206", id: "mac-arm", extra: "-DCMAKE_OSX_ARCHITECTURES='arm64'"  }
+          - { platform: MacOS, version: "2.206", id: "mac-intel", extra: "-DCMAKE_OSX_ARCHITECTURES='x86_64'" }
+          - { platform: MacOS, version: "2.206", id: "mac-arm", extra: "-DCMAKE_OSX_ARCHITECTURES='arm64'"  }
           
     needs: check
     runs-on: ubuntu-latest
