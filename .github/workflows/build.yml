@@ -84,6 +84,14 @@ jobs:
           export PREVIOUS_COMMIT=${{ needs.check.outputs.previous_commit }}
           gh release create $LATEST_COMMIT -t "Bindings commit $LATEST_COMMIT" -n "Codegen output for https://github.com/geode-sdk/bindings/compare/$PREVIOUS_COMMIT...$LATEST_COMMIT" codegen/*
   
+      - name: Prepare index.html
+        run: |
+          echo "<html><head><title>Codegen output</title></head><body><h1>Codegen output</h1><ul>" > ./codegen/index.html
+          for file in ./codegen/*; do
+            echo "<li><a href=\"./$file\">$file</a></li>" >> ./codegen/index.html
+          done
+          echo "</ul></body></html>" >> ./codegen/index.html
+
       - name: Deploy pages
         uses: peaceiris/actions-gh-pages@v3
         with:
