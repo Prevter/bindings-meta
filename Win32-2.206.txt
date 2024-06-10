@@ -1777,6 +1777,7 @@ ProfilePage::onBlockUser - 0x3a07e0
 ProfilePage::onClose - 0x3a15b0
 ProfilePage::onComment - 0x3a0230
 ProfilePage::onCommentHistory - 0x3a01a0
+ProfilePage::onCopyName - 0x39f870
 ProfilePage::onFollow - 0x3a0a30
 ProfilePage::onFriend - 0x3a03f0
 ProfilePage::onFriends - 0x3a20c0
