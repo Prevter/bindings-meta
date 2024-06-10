@@ -1864,9 +1864,9 @@ SecretLayer3::keyBackClicked - 0x3c9c80
 SecretLayer3::dialogClosed - 0x3c9680
 SecretLayer4::init - 0x3ca010
 SecretLayer4::keyBackClicked - 0x3cdb70
+SecretRewardsLayer::scene - 0x3ae160
 SecretRewardsLayer::init - 0x3ae2c0
 SecretRewardsLayer::onShop - 0x3b19e0
-SecretRewardsLayer::scene - 0x3ae160
 SecretRewardsLayer::switchToOpenedState - 0x3b2120
 SecretRewardsLayer::updateUnlockedLabel - 0x3b2200
 SecretRewardsLayer::keyBackClicked - 0x3b26d0
