@@ -218,7 +218,6 @@ CCBlockLayer::hideLayer - 0x41810
 CCBlockLayer::layerVisible - 0x41820
 CCBlockLayer::layerHidden - 0x41830
 CCCircleWave::create - 0x41980
-CCCircleWave::create - 0x41980
 CCCircleWave::init - 0x41a30
 CCCircleWave::updatePosition - 0x41cb0
 CCCircleWave::setPosition - 0x41c70
@@ -698,7 +697,6 @@ GameLevelManager::deleteUserMessages - 0x155680
 GameLevelManager::downloadLevel - 0x14c650
 GameLevelManager::encodeDataTo - 0x1458b0
 GameLevelManager::getBasePostString - 0x146db0
-GameLevelManager::getBoolForKey - 0x2f1800
 GameLevelManager::getCompletedLevels - 0x142d40
 GameLevelManager::getGJChallenges - 0x15fee0
 GameLevelManager::getGJDailyLevelState - 0x161140
@@ -1400,6 +1398,7 @@ LevelPage::updateDynamicPage - 0x2fa200
 LevelPage::ccTouchBegan - 0x2fdcc0
 LevelPage::dialogClosed - 0x2fd200
 LevelSearchLayer::scene - 0x2ebb10
+LevelSearchLayer::checkDiff - 0x2f1800
 LevelSearchLayer::checkTime - 0x2f1dc0
 LevelSearchLayer::getLevelLenKey - 0x147f60
 LevelSearchLayer::getSearchObject - 0x2ef7b0
@@ -1836,8 +1835,11 @@ RateStarsLayer::keyBackClicked - 0x3a7180
 RateStarsLayer::uploadActionFinished - 0x3a6f80
 RateStarsLayer::uploadActionFailed - 0x3a7000
 RateStarsLayer::onClosePopup - 0x3a70c0
+RetryLevelLayer::onMenu - 0x3a8110
+RetryLevelLayer::setupLastProgress - 0x3a7a50
 RetryLevelLayer::keyBackClicked - 0x3a8230
 RetryLevelLayer::keyDown - 0x3a80c0
+RetryLevelLayer::customSetup - 0x3a72f0
 RetryLevelLayer::rewardedVideoFinished - 0x3a7ff0
 RewardsPage::onFreeStuff - 0x3a9c20
 RewardsPage::onReward - 0x3a9460
