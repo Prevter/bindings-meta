@@ -643,15 +643,19 @@ FMODAudioEngine::clearAllAudio - 0x54460
 FMODAudioEngine::fadeInMusic - 0x5b170
 FMODAudioEngine::fadeOutMusic - 0x5b2b0
 FMODAudioEngine::getChannelGroup - 0x55c70
+FMODAudioEngine::getMusicLengthMS - 0x5b0e0
+FMODAudioEngine::getMusicTimeMS - 0x5b080
 FMODAudioEngine::isMusicPlaying - 0x58f20
 FMODAudioEngine::isMusicPlaying - 0x58e50
 FMODAudioEngine::loadMusic - 0x592b0
 FMODAudioEngine::playEffect - 0x55f60
 FMODAudioEngine::playEffect - 0x55ee0
 FMODAudioEngine::playEffectAdvanced - 0x56050
+FMODAudioEngine::playMusic - 0x59140
 FMODAudioEngine::preloadEffect - 0x583b0
 FMODAudioEngine::resumeAllMusic - 0x58ec0
 FMODAudioEngine::setChannelVolumeMod - 0x580d0
+FMODAudioEngine::setMusicTimeMS - 0x5af40
 FMODAudioEngine::setup - 0x52d40
 FMODAudioEngine::setupAudioEngine - 0x53220
 FMODAudioEngine::start - 0x54400
@@ -770,6 +774,7 @@ GameManager::fadeInMenuMusic - 0x173140
 GameManager::fadeInMusic - 0x173230
 GameManager::getGameVariable - 0x17a0e0
 GameManager::getIntGameVariable - 0x17a6e0
+GameManager::getMenuMusicFile - 0x172db0
 GameManager::getUGV - 0x17a470
 GameManager::iconKey - 0x1735d0
 GameManager::iconTypeToUnlockType - 0x1738a0
@@ -778,6 +783,7 @@ GameManager::isIconUnlocked - 0x173800
 GameManager::loadBackground - 0x179870
 GameManager::loadGround - 0x179c20
 GameManager::loadIcon - 0x178e70
+GameManager::playMenuMusic - 0x172ec0
 GameManager::reloadAll - 0x1807b0
 GameManager::reloadAllStep2 - 0x180850
 GameManager::reloadAllStep3 - 0x180a10
@@ -1306,6 +1312,7 @@ LevelCell::draw - 0xaf740
 LevelEditorLayer::create - 0x2be3b0
 LevelEditorLayer::createObjectsFromString - 0x2c0690
 LevelEditorLayer::getLevelString - 0x2c31b0
+LevelEditorLayer::getNextFreeGroupID - 0x2c6cb0
 LevelEditorLayer::handleAction - 0x2c2ab0
 LevelEditorLayer::init - 0x2be440
 LevelEditorLayer::onPlaytest - 0x2cbf90
@@ -1539,6 +1546,7 @@ MultilineBitmapFont::moveSpecialDescriptors - 0x6bbb0
 MultilineBitmapFont::readColorInfo - 0x6b2e0
 MultilineBitmapFont::stringWithMaxWidth - 0x6bc40
 MultilineBitmapFont::setOpacity - 0x6b260
+MusicBrowser::update - 0x318ad0
 MusicBrowser::keyBackClicked - 0x31a1b0
 MusicBrowser::musicActionFinished - 0x3193d0
 MusicBrowser::musicActionFailed - 0x319440
