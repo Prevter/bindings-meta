@@ -1380,7 +1380,16 @@ LevelLeaderboard::FLAlert_Clicked - 0x2e1b10
 LevelLeaderboard::updateUserScoreFinished - 0x2e2130
 LevelLeaderboard::updateUserScoreFailed - 0x2e2140
 LevelListCell::loadFromList - 0xbc320
+LevelListCell::onClick - 0xbd700
+LevelListLayer::create - 0x2e2f60
+LevelListLayer::confirmOwnerDelete - 0x2e8070
+LevelListLayer::init - 0x2e3190
+LevelListLayer::onFavorite - 0x2e7200
+LevelListLayer::onListInfo - 0x2e4c10
+LevelListLayer::updateSideButtons - 0x2e7680
+LevelListLayer::updateStatsArt - 0x2e4c70
 LevelListLayer::loadLevelsFinished - 0x2e63a0
+LevelListLayer::onBack - 0x2bc85c
 LevelListLayer::shareCommentClosed - 0x2e7400
 LevelListLayer::FLAlert_Clicked - 0x2e7020
 LevelListLayer::setIDPopupClosed - 0x2e6b50
