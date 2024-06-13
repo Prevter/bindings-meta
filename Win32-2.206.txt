@@ -433,6 +433,7 @@ CustomSongWidget::create - 0xc56f0
 CustomSongWidget::deleteSong - 0xc7360
 CustomSongWidget::init - 0xc5900
 CustomSongWidget::onDownload - 0xc7ed0
+CustomSongWidget::onPlayback - 0xc81d0
 CustomSongWidget::onSelect - 0xc8170
 CustomSongWidget::showError - 0xca910
 CustomSongWidget::updateMultiAssetInfo - 0xc9960
