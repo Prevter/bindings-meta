@@ -433,6 +433,7 @@ CustomSongWidget::create - 0xc56f0
 CustomSongWidget::deleteSong - 0xc7360
 CustomSongWidget::init - 0xc5900
 CustomSongWidget::onDownload - 0xc7ed0
+CustomSongWidget::onSelect - 0xc8170
 CustomSongWidget::showError - 0xca910
 CustomSongWidget::updateMultiAssetInfo - 0xc9960
 CustomSongWidget::updateSongInfo - 0xc8800
@@ -462,6 +463,9 @@ DailyLevelPage::levelDownloadFinished - 0xcce80
 DailyLevelPage::levelDownloadFailed - 0xccee0
 DemonFilterSelectLayer::init - 0x2f72c0
 DemonFilterSelectLayer::keyBackClicked - 0x2f7a10
+DemonInfoPopup::create - 0x3a3280
+DemonInfoPopup::createFromString - 0x3a2eb0
+DemonInfoPopup::init - 0x3a33e0
 DialogLayer::animateInRandomSide - 0xd09b0
 DialogLayer::createDialogLayer - 0xcfcd0
 DialogLayer::displayDialogObject - 0xd02e0
@@ -1354,6 +1358,7 @@ LevelCell::loadCustomLevelCell - 0xac110
 LevelCell::loadFromLevel - 0xabf30
 LevelCell::loadLocalLevelCell - 0xaea50
 LevelCell::onClick - 0xaf4e0
+LevelCell::onToggle - 0xac0f0
 LevelCell::onViewProfile - 0xaf700
 LevelCell::init - 0xabf10
 LevelCell::draw - 0xaf740
@@ -1660,6 +1665,7 @@ OptionsLayer::onOptions - 0x3512f0
 OptionsLayer::onSecretVault - 0x351450
 OptionsLayer::sfxSliderChanged - 0x351210
 OptionsLayer::customSetup - 0x3504c0
+OptionsLayer::layerHidden - 0x351cb0
 OptionsScrollLayer::keyBackClicked - 0x31a670
 ParticleGameObject::updateParticle - 0x474740
 PauseLayer::goEdit - 0x35cac0
@@ -1687,6 +1693,7 @@ PlayerObject::bumpPlayer - 0x37d6b0
 PlayerObject::collidedWithObject - 0x36fa40
 PlayerObject::collidedWithObjectInternal - 0x36fb00
 PlayerObject::collidedWithSlopeInternal - 0x36d8a0
+PlayerObject::copyAttributes - 0x37e4b0
 PlayerObject::createFadeOutDartStreak - 0x376690
 PlayerObject::createRobot - 0x366050
 PlayerObject::createSpider - 0x366410
@@ -1875,6 +1882,7 @@ ProfilePage::onPrevPage - 0x3a2b30
 ProfilePage::onRequests - 0x3a20f0
 ProfilePage::onSendMessage - 0x3a01e0
 ProfilePage::onSettings - 0x3a1ee0
+ProfilePage::onStatInfo - 0x39f6a0
 ProfilePage::onTwitch - 0x3a1d40
 ProfilePage::onTwitter - 0x3a1bb0
 ProfilePage::onUpdate - 0x39c360
@@ -2097,6 +2105,10 @@ SongSelectNode::getSongFileName - 0xc52c0
 SongSelectNode::getLevelSettings - 0xc5380
 SongsLayer::customSetup - 0x468670
 SpriteAnimationManager::overridePrio - 0x72f30
+StarInfoPopup::create - 0x3a42a0
+StarInfoPopup::createFromString - 0x3a3d10
+StarInfoPopup::createFromStringMoons - 0x3a3ff0
+StarInfoPopup::init - 0x3a43e0
 StatsCell::loadFromObject - 0xb0a20
 StatsCell::draw - 0xabd00
 SupportLayer::onLowDetail - 0x49d0c0
