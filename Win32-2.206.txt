@@ -956,7 +956,7 @@ GJBaseGameLayer::createTextLayers - 0x1ffa50
 GJBaseGameLayer::destroyObject - 0x206b50
 GJBaseGameLayer::exitStaticCamera - 0x22e7a0
 GJBaseGameLayer::flipGravity - 0x203660
-GJBaseGameLayer::gameEventTriggered - 0x221fb
+GJBaseGameLayer::gameEventTriggered - 0x221fb0
 GJBaseGameLayer::getGroundHeightForMode - 0x2028b0
 GJBaseGameLayer::getGroup - 0x214a70
 GJBaseGameLayer::getMaxPortalY - 0x2042d0
