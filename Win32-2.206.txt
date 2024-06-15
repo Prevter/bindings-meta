@@ -483,6 +483,7 @@ DialogObject::create - 0xcfb10
 DrawGridLayer::create - 0x2cfe50
 DrawGridLayer::update - 0x2d0350
 DrawGridLayer::draw - 0x2d0550
+EditButtonBar::create - 0xd0cb0
 EditButtonBar::loadFromItems - 0xd0e10
 EditLevelLayer::~EditLevelLayer - 0xd1980
 EditLevelLayer::init - 0xd1c80
@@ -1415,6 +1416,8 @@ LevelInfoLayer::onLevelInfo - 0x2deba0
 LevelInfoLayer::onPlay - 0x2dc520
 LevelInfoLayer::onRate - 0x2ddd70
 LevelInfoLayer::onViewProfile - 0x2deaf0
+LevelInfoLayer::playStep2 - 0x2dd1a0
+LevelInfoLayer::playStep3 - 0x2dd280
 LevelInfoLayer::setupLevelInfo - 0x2daf80
 LevelInfoLayer::setupPlatformerStats - 0x2da440
 LevelInfoLayer::setupProgressBars - 0x2da870
