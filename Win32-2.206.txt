@@ -1155,6 +1155,7 @@ GJLevelList::create - 0x16de90
 GJLevelList::dataLoaded - 0x16f3c0
 GJLevelList::getUnpackedDescription - 0x16e2b0
 GJLevelList::showListInfo - 0x16eff0
+GJLevelList::encodeWithCoder - 0x16f6e0
 GJLevelScoreCell::loadFromScore - 0xb7760
 GJListLayer::create - 0x26d5e0
 GJListLayer::init - 0x26d710
