@@ -1962,6 +1962,7 @@ RateDemonLayer::uploadActionFailed - 0x3a5700
 RateDemonLayer::onClosePopup - 0x3a57d0
 RateLevelLayer::init - 0x3a59b0
 RateLevelLayer::keyBackClicked - 0x3a60a0
+RateStarsLayer::init - 0x3a6380
 RateStarsLayer::onClose - 0x3a7140
 RateStarsLayer::onFeature - 0x3a6a30
 RateStarsLayer::onRate - 0x3a6d90
