@@ -486,6 +486,8 @@ DrawGridLayer::update - 0x2d0350
 DrawGridLayer::draw - 0x2d0550
 EditButtonBar::create - 0xd0cb0
 EditButtonBar::loadFromItems - 0xd0e10
+EditButtonBar::onLeft - 0xd1800
+EditButtonBar::onRight - 0xd1790
 EditLevelLayer::~EditLevelLayer - 0xd1980
 EditLevelLayer::init - 0xd1c80
 EditLevelLayer::onLevelInfo - 0xd3270
@@ -513,6 +515,9 @@ EditorPauseLayer::onResume - 0xd9d40
 EditorPauseLayer::onSave - 0xda7e0
 EditorPauseLayer::onSaveAndExit - 0xda910
 EditorPauseLayer::onSaveAndPlay - 0xda5a0
+EditorPauseLayer::onSelectAll - 0xd9470
+EditorPauseLayer::onSelectAllLeft - 0xd95a0
+EditorPauseLayer::onSelectAllRight - 0xd95c0
 EditorPauseLayer::playStep2 - 0xda620
 EditorPauseLayer::playStep3 - 0xda740
 EditorPauseLayer::saveLevel - 0xd9f10
@@ -534,6 +539,8 @@ EditorUI::deactivateScaleControl - 0x111010
 EditorUI::deactivateTransformControl - 0x111660
 EditorUI::deselectAll - 0x10d920
 EditorUI::deselectObject - 0x10d800
+EditorUI::doCopyObjects - 0x10f490
+EditorUI::doPasteObjects - 0x10f620
 EditorUI::editGroup - 0x11b410
 EditorUI::editObject - 0x1180a0
 EditorUI::editObject2 - 0x11a030
@@ -546,6 +553,7 @@ EditorUI::getGroupCenter - 0x11ed20
 EditorUI::getLimitedPosition - 0x11c280
 EditorUI::getSelectedObjects - 0x10d320
 EditorUI::init - 0xdba20
+EditorUI::moveForCommand - 0x11b9b0
 EditorUI::moveGamelayer - 0xdf250
 EditorUI::moveObject - 0x11be20
 EditorUI::moveObjectCall - 0x11bb90
@@ -556,6 +564,7 @@ EditorUI::onCreate - 0x10b8b0
 EditorUI::onCreateButton - 0x10b420
 EditorUI::onCreateObject - 0x10bab0
 EditorUI::onDelete - 0xe2300
+EditorUI::onDeleteCustomItem - 0xe0a20
 EditorUI::onDeleteSelected - 0xe2920
 EditorUI::onDeleteSelectedType - 0xe2eb0
 EditorUI::onDeleteStartPos - 0xe2f00
@@ -576,10 +585,14 @@ EditorUI::onPasteState - 0x1106d0
 EditorUI::onPause - 0xddf70
 EditorUI::onPlayback - 0x10df30
 EditorUI::onPlaytest - 0x10e540
+EditorUI::onSelectBuildTab - 0x110af0
 EditorUI::onSettings - 0xddf10
 EditorUI::onStopPlaytest - 0x10e8d0
 EditorUI::onUngroupSticky - 0x10ecc0
+EditorUI::orderDownCustomItem - 0xe0bf0
+EditorUI::orderUpCustomItem - 0xe0b60
 EditorUI::playtestStopped - 0x10e910
+EditorUI::redoLastAction - 0x10dd30
 EditorUI::reloadCustomItems - 0xe1190
 EditorUI::removeOffset - 0x11e840
 EditorUI::repositionObjectsToCenter - 0x1105b0
@@ -591,6 +604,7 @@ EditorUI::selectObjects - 0x10cce0
 EditorUI::setupCreateMenu - 0xe44b0
 EditorUI::showMaxError - 0x10ed00
 EditorUI::showUI - 0x10dda0
+EditorUI::sliderChanged - 0xdef40
 EditorUI::toggleEditObjectButton - 0x116aa0
 EditorUI::toggleEnableRotate - 0x10c6a0
 EditorUI::toggleFreeMove - 0x10c520
