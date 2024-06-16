@@ -553,6 +553,7 @@ EditorUI::getGroupCenter - 0x11ed20
 EditorUI::getLimitedPosition - 0x11c280
 EditorUI::getSelectedObjects - 0x10d320
 EditorUI::init - 0xdba20
+EditorUI::isSpecialSnapObject - 0x124e40
 EditorUI::moveForCommand - 0x11b9b0
 EditorUI::moveGamelayer - 0xdf250
 EditorUI::moveObject - 0x11be20
@@ -1400,7 +1401,6 @@ LevelEditorLayer::objectAtPosition - 0x2c16a0
 LevelEditorLayer::onPlaytest - 0x2cbf90
 LevelEditorLayer::onResumePlaytest - 0x2cc9c0
 LevelEditorLayer::onStopPlaytest - 0x2ccbb0
-LevelEditorLayer::redoLastAction - 0x10dd30
 LevelEditorLayer::removeAllObjectsOfType - 0x2c2830
 LevelEditorLayer::removeSpecial - 0x2c4830
 LevelEditorLayer::tryUpdateSpeedObject - 0x2c4e10
