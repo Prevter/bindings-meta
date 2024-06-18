@@ -161,6 +161,10 @@ EffectGameObject::getSaveString - 0x47f960
 AnimatedGameObject::setOpacity - 0x477be0
 AnimatedGameObject::animationFinished - 0x477cf0
 AnimatedGameObject::displayFrameChanged - 0x478fd0
+CCAnimatedSprite::initWithType - 0x3f140
+CCAnimatedSprite::loadType - 0x3f360
+CCAnimatedSprite::runAnimation - 0x3fe00
+CCAnimatedSprite::switchToMode - 0x3fe70
 CCAnimatedSprite::tweenToAnimation - 0x3fe70
 CCAnimatedSprite::tweenToAnimationFinished - 0x40140
 CCAnimatedSprite::setOpacity - 0x401f0
@@ -1236,7 +1240,9 @@ GJRequestCell::uploadActionFailed - 0xba910
 GJRewardItem::encodeWithCoder - 0x1e7b00
 GJRewardObject::encodeWithCoder - 0x1e71d0
 GJRobotSprite::create - 0x294360
+GJRobotSprite::init - 0x294410
 GJRobotSprite::updateColors - 0x294ba0
+GJRobotSprite::updateFrame - 0x295150
 GJRobotSprite::setOpacity - 0x295050
 GJRobotSprite::hideSecondary - 0x295740
 GJRotationControl::finishTouch - 0x125490
