@@ -1863,7 +1863,7 @@ PlayerObject::animationFinished - 0x3808b0
 PlayLayer::~PlayLayer - 0x382540
 PlayLayer::addObject - 0x38a990
 PlayLayer::applyCustomEnterEffect - 0x38d580
-PlayLayer::applyEnterEffect - 0x38cbe2
+PlayLayer::applyEnterEffect - 0x38e270
 PlayLayer::createCheckpoint - 0x391b00
 PlayLayer::createObjectsFromSetupFinished - 0x38a4f0
 PlayLayer::delayedResetLevel - 0x395700
