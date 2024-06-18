@@ -43,7 +43,10 @@ jobs:
       matrix:
         config:
           - { platform: Win32, version: "2.204" }
-          - { platform: Win32, version: "2.206" }
+          - { platform: MacOS, version: "2.200" }
+          - { platform: Win64, version: "2.206" }
+          - { platform: MacOS, version: "2.206" }
+          - { platform: iOS, version: "2.206" }
           
     needs: check
     runs-on: ubuntu-latest
