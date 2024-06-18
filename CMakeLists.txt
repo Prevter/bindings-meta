@@ -58,9 +58,11 @@ endfunction()
 
 # Export CodegenData.txt to CodegenData-<platform>-<gd_version>.txt
 # Note: macOS 2.206+ exports CodegenDataIntel.txt and CodegenDataArm.txt, so we have to handle that as well
-if (${GEODE_TARGET_PLATFORM} STREQUAL "MacOS" AND NOT ${GEODE_GD_VERSION} STREQUAL "2.200")
+if (${GEODE_TARGET_PLATFORM} STREQUAL "MacOS")
 	copy_bindings_data("CodegenDataIntel.txt" "${GEODE_TARGET_PLATFORM}-${GEODE_GD_VERSION}-Intel.txt")
-	copy_bindings_data("CodegenDataArm.txt" "${GEODE_TARGET_PLATFORM}-${GEODE_GD_VERSION}-Arm.txt")
+	if (NOT ${GEODE_GD_VERSION} STREQUAL "2.200")
+		copy_bindings_data("CodegenDataArm.txt" "${GEODE_TARGET_PLATFORM}-${GEODE_GD_VERSION}-Arm.txt")
+	endif()
 else()
 	copy_bindings_data("CodegenData.txt" "${GEODE_TARGET_PLATFORM}-${GEODE_GD_VERSION}.txt")
 endif()
