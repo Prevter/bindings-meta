@@ -2183,6 +2183,7 @@ SongOptionsLayer::keyBackClicked - 0xc2b20
 SongSelectNode::audioNext - 0xc4cb0
 SongSelectNode::audioPrevious - 0xc4cf0
 SongSelectNode::init - 0xc42b0
+SongSelectNode::updateAudioLabel - 0xc4bc0
 SongSelectNode::FLAlert_Clicked - 0xc51e0
 SongSelectNode::customSongLayerClosed - 0xc5270
 SongSelectNode::songIDChanged - 0xc52a0
