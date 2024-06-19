@@ -27,11 +27,14 @@ cocos2d::CCSet::count - 0x7bfd00
 cocos2d::CCShaderCache::sharedShaderCache - 0x1fc770
 cocos2d::CCShaderCache::programForKey - 0x1fd650
 cocos2d::CCParticleSystem::create - 0x7d3960
+cocos2d::CCParticleSystem::initParticle - 0x7d5a60
 cocos2d::CCParticleSystem::initWithDictionary - 0x7d3ca0
 cocos2d::CCParticleSystem::initWithDictionary - 0x7d55d0
 cocos2d::CCParticleSystem::initWithFile - 0x7d39c0
+cocos2d::CCParticleSystem::resetSystem - 0x7d6b20
 cocos2d::CCParticleSystem::resumeSystem - 0x7d6b10
 cocos2d::CCParticleSystem::stopSystem - 0x7d6ae0
+cocos2d::CCParticleSystem::update - 0x7d6cd0
 cocos2d::CCParticleSystemQuad::create - 0x60dce0
 cocos2d::CCProgressTimer::create - 0x60f290
 cocos2d::CCFadeIn::create - 0x3bde30
@@ -429,6 +432,8 @@ cocos2d::CCSprite::isOpacityModifyRGB - 0x286b00
 cocos2d::CCSprite::setTexture - 0x2871d0
 cocos2d::CCSprite::getTexture - 0x287340
 cocos2d::CCLabelBMFont::create - 0x5e0fa0
+cocos2d::CCLabelBMFont::create - 0x5e0ef0
+cocos2d::CCLabelBMFont::create - 0x5e0e50
 cocos2d::CCLabelBMFont::create - 0x5e0d30
 cocos2d::CCLabelBMFont::setFntFile - 0x5e4670
 cocos2d::CCLabelBMFont::createFontChars - 0x5e1780
