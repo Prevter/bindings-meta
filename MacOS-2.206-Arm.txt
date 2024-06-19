@@ -896,6 +896,7 @@ BrowseSmartKeyLayer::onBack - 0x450094
 ButtonSprite::create - 0x8295c
 ButtonSprite::create - 0x82188
 ButtonSprite::setString - 0x82d08
+ButtonSprite::updateBGImage - 0x830ac
 CameraTriggerGameObject::triggerObject - 0x18fd50
 CameraTriggerGameObject::customObjectSetup - 0x193104
 CameraTriggerGameObject::getSaveString - 0x18ff0c
@@ -1415,6 +1416,7 @@ GameStatsManager::toggleEnableItem - 0x6b1cc
 GameStatsManager::init - 0x518d8
 GameToolbox::addBackButton - 0x45326c
 GameToolbox::addRThumbScrollButton - 0x453354
+GameToolbox::createToggleButton - 0x4528d0
 GauntletLayer::create - 0x31d474
 GauntletLayer::init - 0x31d624
 GauntletLayer::keyBackClicked - 0x31f6f8
