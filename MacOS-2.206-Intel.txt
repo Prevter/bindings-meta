@@ -347,6 +347,7 @@ cocos2d::CCTouchHandler::getDelegate - 0x48a010
 cocos2d::CCTouchHandler::getPriority - 0x48a090
 cocos2d::CCEGLView::swapBuffers - 0x50e130
 cocos2d::CCImage::initWithImageData - 0x492d80
+cocos2d::CCImage::initWithImageFile - 0x492b70
 cocos2d::CCImage::CCImage - 0x492a70
 cocos2d::CCImage::~CCImage - 0x492af0
 cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x4c5c10
@@ -1482,6 +1483,7 @@ GameManager::loadBackground - 0x384b90
 GameManager::loadIcon - 0x383830
 GameManager::reloadAll - 0x38d750
 GameManager::reloadAllStep2 - 0x38d7f0
+GameManager::reloadAllStep5 - 0x38d9e0
 GameManager::returnToLastScene - 0x38d180
 GameManager::safePopScene - 0x38d5b0
 GameManager::setGameVariable - 0x3854a0

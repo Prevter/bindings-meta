@@ -1402,6 +1402,7 @@ LevelBrowserLayer::setTextPopupClosed - 0x2bb830
 LevelBrowserLayer::FLAlert_Clicked - 0x2bc060
 LevelBrowserLayer::setIDPopupClosed - 0x2b95e0
 LevelBrowserLayer::updateResultArray - 0x2b54e0
+LevelCell::LevelCell - 0xabe60
 LevelCell::loadCustomLevelCell - 0xac110
 LevelCell::loadFromLevel - 0xabf30
 LevelCell::loadLocalLevelCell - 0xaea50

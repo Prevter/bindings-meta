@@ -333,6 +333,7 @@ cocos2d::CCTouchHandler::getDelegate - 0x3efbb0
 cocos2d::CCTouchHandler::getPriority - 0x3efc24
 cocos2d::CCEGLView::swapBuffers - 0x464e30
 cocos2d::CCImage::initWithImageData - 0x3f7f58
+cocos2d::CCImage::initWithImageFile - 0x3f7d24
 cocos2d::CCImage::CCImage - 0x3f7c40
 cocos2d::CCImage::~CCImage - 0x3f7ca8
 cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x425098
@@ -473,7 +474,9 @@ cocos2d::CCDictionary::create - 0x2a0fac
 cocos2d::CCDictionary::createWithContentsOfFile - 0x2a1138
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2a1030
 cocos2d::CCDictionary::setObject - 0x29f8f0
+cocos2d::CCDictionary::objectForKey - 0x29f408
 cocos2d::CCDictionary::removeAllObjects - 0x29ee04
+cocos2d::CCDictionary::removeObjectForKey - 0x2a0608
 cocos2d::CCRenderTexture::create - 0x526fe4
 cocos2d::CCRenderTexture::create - 0x526adc
 cocos2d::CCRenderTexture::create - 0x526bbc
@@ -1255,6 +1258,7 @@ DrawGridLayer::draw - 0xdc064
 DungeonBarsSprite::init - 0x414e48
 DungeonBarsSprite::visit - 0x414ec8
 EditLevelLayer::~EditLevelLayer - 0x1a7544
+EditLevelLayer::create - 0x1a757c
 EditLevelLayer::init - 0x1a7764
 EditLevelLayer::onShare - 0x1a90d4
 EditLevelLayer::keyBackClicked - 0x1abb90
@@ -1284,6 +1288,9 @@ EditorUI::onPlaytest - 0xe948
 EditorUI::onStopPlaytest - 0xeb88
 EditorUI::showUI - 0x392e4
 EditorUI::updateObjectInfoLabel - 0x2fc24
+EditorUI::updateZoom - 0x39504
+EditorUI::zoomIn - 0xec6c
+EditorUI::zoomOut - 0xecbc
 EditorUI::draw - 0x47170
 EditorUI::ccTouchBegan - 0x47b58
 EditorUI::ccTouchMoved - 0x48138
@@ -1373,6 +1380,8 @@ FMODAudioEngine::setup - 0x36103c
 FMODAudioEngine::stopAllEffects - 0x362154
 FMODAudioEngine::stopAllMusic - 0x362440
 FMODAudioEngine::update - 0x362540
+FMODLevelVisualizer::create - 0x24d2e4
+FMODLevelVisualizer::updateVisualizer - 0x24d7dc
 FMODLevelVisualizer::init - 0x24d36c
 FollowRewardPage::init - 0x39c0dc
 FollowRewardPage::registerWithTouchDispatcher - 0x39e0c0
@@ -1449,6 +1458,7 @@ GameManager::loadBackground - 0x30e7ec
 GameManager::loadIcon - 0x30d514
 GameManager::reloadAll - 0x3166d4
 GameManager::reloadAllStep2 - 0x316774
+GameManager::reloadAllStep5 - 0x316948
 GameManager::returnToLastScene - 0x316184
 GameManager::safePopScene - 0x31652c
 GameManager::setGameVariable - 0x30f154
@@ -2292,6 +2302,9 @@ PlayerObject::updateRotation - 0x38c360
 PlayerObject::updateStreakBlend - 0x10994c
 PlayerObject::updateTimeMod - 0x37e3e4
 PlayerObject::update - 0x37ec58
+PlayerObject::setScaleX - 0x39a4ec
+PlayerObject::setScaleY - 0x39a4f0
+PlayerObject::setScale - 0x39a4f4
 PlayerObject::setPosition - 0x3973cc
 PlayerObject::setVisible - 0x39a4f8
 PlayerObject::setRotation - 0x39a47c
