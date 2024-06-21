@@ -1986,6 +1986,7 @@ ProfilePage::commentDeleteFailed - 0x3a2cb0
 ProfilePage::onClosePopup - 0x3a12f0
 ProfilePage::uploadActionFinished - 0x3a1340
 ProfilePage::uploadActionFailed - 0x3a1500
+RateDemonLayer::onRate - 0x3a54d0
 RateDemonLayer::selectRating - 0x3a5350
 RateDemonLayer::keyBackClicked - 0x3a5890
 RateDemonLayer::uploadActionFinished - 0x3a5670
@@ -2207,6 +2208,7 @@ StarInfoPopup::init - 0x3a43e0
 StatsCell::loadFromObject - 0xb0a20
 StatsCell::draw - 0xabd00
 SupportLayer::onLowDetail - 0x49d0c0
+SupportLayer::onRequestAccess - 0x49cca0
 SupportLayer::uploadActionFinished - 0x49cef0
 SupportLayer::uploadActionFailed - 0x49d030
 SupportLayer::onClosePopup - 0x49ceb0
@@ -2250,6 +2252,8 @@ UIOptionsLayer::ccTouchEnded - 0x291c50
 UpdateAccountSettingsPopup::keyBackClicked - 0x282f90
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x282c10
 UpdateAccountSettingsPopup::updateSettingsFailed - 0x282d10
+UploadActionPopup::create - 0x282fa0
+UploadActionPopup::showSuccessMessage - 0x283540
 UploadActionPopup::keyBackClicked - 0x2837a0
 UploadListPopup::listUploadFinished - 0x2eb1e0
 UploadListPopup::listUploadFailed - 0x2eb3b0
