@@ -1317,6 +1317,7 @@ HSVLiveOverlay::keyBackClicked - 0x2a7c80
 HSVLiveOverlay::hsvChanged - 0x2a7cd0
 HSVWidgetPopup::keyBackClicked - 0x95130
 InfoAlertButton::create - 0x2a7e50
+InfoAlertButton::activate - 0x2a8050
 InfoLayer::create - 0x2a82d0
 InfoLayer::confirmReport - 0x2aa850
 InfoLayer::getSpriteButton - 0x2aa3b0
