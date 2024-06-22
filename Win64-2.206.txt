@@ -545,6 +545,7 @@ EditorPauseLayer::keyDown - 0xdac90
 EditorPauseLayer::customSetup - 0xd6d50
 EditorPauseLayer::FLAlert_Clicked - 0xdab60
 EditorUI::activateRotationControl - 0x11efb0
+EditorUI::activateTransformControl - 0x111460
 EditorUI::applyOffset - 0x11e8d0
 EditorUI::checkDiffAfterTransformAnchor - 0x111c70
 EditorUI::clickOnPosition - 0xdebe0

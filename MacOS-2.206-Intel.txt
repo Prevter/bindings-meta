@@ -41,12 +41,14 @@ cocos2d::CCParticleSystem::initParticle - 0x7d5a60
 cocos2d::CCParticleSystem::initWithDictionary - 0x7d3ca0
 cocos2d::CCParticleSystem::initWithDictionary - 0x7d55d0
 cocos2d::CCParticleSystem::initWithFile - 0x7d39c0
+cocos2d::CCParticleSystem::~CCParticleSystem - 0x7d5860
 cocos2d::CCParticleSystem::resetSystem - 0x7d6b20
 cocos2d::CCParticleSystem::resumeSystem - 0x7d6b10
 cocos2d::CCParticleSystem::stopSystem - 0x7d6ae0
 cocos2d::CCParticleSystem::update - 0x7d6cd0
 cocos2d::CCParticleSystemQuad::create - 0x60dce0
 cocos2d::CCParticleSystemQuad::create - 0x60f030
+cocos2d::CCParticleSystemQuad::~CCParticleSystemQuad - 0x60dc00
 cocos2d::CCProgressTimer::create - 0x60f290
 cocos2d::CCFadeIn::create - 0x3bde30
 cocos2d::CCFadeIn::copyWithZone - 0x3bded0
@@ -2052,6 +2054,8 @@ LevelLeaderboard::updateUserScoreFailed - 0x3dfcc0
 LevelListCell::loadFromList - 0x240be0
 LevelListCell::init - 0x2550a0
 LevelListCell::draw - 0x2551e0
+LevelListLayer::create - 0x35c730
+LevelListLayer::init - 0x35c820
 LevelListLayer::onShare - 0x35eeb0
 LevelListLayer::onEnter - 0x35ff50
 LevelListLayer::onExit - 0x35ff80
