@@ -2318,6 +2318,7 @@ PlayerObject::getObjectRotation - 0x3997d8
 PlayerObject::animationFinished - 0x39a5d0
 PlayLayer::~PlayLayer - 0x9a050
 PlayLayer::create - 0x9a148
+PlayLayer::addObject - 0x9f734
 PlayLayer::canPauseGame - 0xaac6c
 PlayLayer::delayedResetLevel - 0xa79c8
 PlayLayer::fullReset - 0xaa510
@@ -2333,12 +2334,14 @@ PlayLayer::playPlatformerEndAnimationToPos - 0xa3bb8
 PlayLayer::prepareCreateObjectsFromSetup - 0x9b03c
 PlayLayer::processCreateObjectsFromSetup - 0x9b3fc
 PlayLayer::resetLevel - 0xa01f0
+PlayLayer::resetLevelFromStart - 0xaa7c0
 PlayLayer::resumeAndRestart - 0xaaddc
 PlayLayer::scene - 0x9a088
 PlayLayer::setupHasCompleted - 0x9bc4c
 PlayLayer::showCompleteEffect - 0xa1b28
 PlayLayer::showCompleteText - 0xa1f00
 PlayLayer::showNewBest - 0xa2ac8
+PlayLayer::startMusic - 0xa0f20
 PlayLayer::togglePracticeMode - 0xaa64c
 PlayLayer::updateProgressbar - 0x9f28c
 PlayLayer::onEnterTransitionDidFinish - 0xab0c4
