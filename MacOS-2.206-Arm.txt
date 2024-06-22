@@ -1423,7 +1423,7 @@ GameLevelManager::downloadLevel - 0x49bed4
 GameLevelManager::getGJUserInfo - 0x4a36d8
 GameLevelManager::getLevelSaveData - 0x498ffc
 GameLevelManager::getMainLevel - 0x486454
-GameLevelManager::getOnlineLevels - 0x49a918
+GameLevelManager::getOnlineLevels - 0x497fc0
 GameLevelManager::getSavedDailyLevel - 0x490530
 GameLevelManager::getSavedLevel - 0x490718
 GameLevelManager::getStoredOnlineLevels - 0x4914d8

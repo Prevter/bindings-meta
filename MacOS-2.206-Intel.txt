@@ -1443,7 +1443,7 @@ GameLevelManager::getLevelComments - 0x557010
 GameLevelManager::getLevelSaveData - 0x548020
 GameLevelManager::getLowestLevelOrder - 0x53c1e0
 GameLevelManager::getMainLevel - 0x532cb0
-GameLevelManager::getOnlineLevels - 0x549df0
+GameLevelManager::getOnlineLevels - 0x546bd0
 GameLevelManager::getSavedDailyLevel - 0x53e2d0
 GameLevelManager::getSavedDailyLevelFromLevelID - 0x53e5a0
 GameLevelManager::getSavedLevel - 0x53e4b0
@@ -1559,6 +1559,7 @@ GJBaseGameLayer::processAreaEffects - 0x1358e0
 GJBaseGameLayer::processAreaVisualActions - 0x1389e0
 GJBaseGameLayer::processCommands - 0x148740
 GJBaseGameLayer::processQueuedButtons - 0x13fbc0
+GJBaseGameLayer::queueButton - 0x13fa20
 GJBaseGameLayer::refreshKeyframeAnims - 0x111860
 GJBaseGameLayer::removeObjectFromSection - 0x1332c0
 GJBaseGameLayer::reorderObjectSection - 0x11f2d0
