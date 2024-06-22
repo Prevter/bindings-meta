@@ -735,6 +735,7 @@ FMODAudioEngine::playEffect - 0x55ee0
 FMODAudioEngine::playEffectAdvanced - 0x56050
 FMODAudioEngine::playMusic - 0x59140
 FMODAudioEngine::preloadEffect - 0x583b0
+FMODAudioEngine::queueStartMusic - 0x59a40
 FMODAudioEngine::resumeAllMusic - 0x58ec0
 FMODAudioEngine::setChannelVolumeMod - 0x580d0
 FMODAudioEngine::setMusicTimeMS - 0x5af40
@@ -944,6 +945,7 @@ GameToolbox::createToggleButton - 0x63080
 GameToolbox::getEasedValue - 0x67550
 GameToolbox::getRelativeOffset - 0x63380
 GameToolbox::getTimeString - 0x64830
+GameToolbox::intToShortString - 0x67b30
 GameToolbox::intToString - 0x67a70
 GameToolbox::particleFromStruct - 0x66a10
 GameToolbox::particleStringToStruct - 0x65f50
@@ -2059,6 +2061,7 @@ SecretLayer4::init - 0x3ca010
 SecretLayer4::keyBackClicked - 0x3cdb70
 SecretRewardsLayer::scene - 0x3ae160
 SecretRewardsLayer::init - 0x3ae2c0
+SecretRewardsLayer::onBack - 0x3b24f0
 SecretRewardsLayer::onShop - 0x3b19e0
 SecretRewardsLayer::switchToOpenedState - 0x3b2120
 SecretRewardsLayer::updateUnlockedLabel - 0x3b2200

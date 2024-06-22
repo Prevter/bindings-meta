@@ -232,6 +232,7 @@ cocos2d::CCArray::stringAtIndex - 0x259c14
 cocos2d::CCDictionary::create - 0x42d318
 cocos2d::CCDictionary::setObject - 0x42c778
 cocos2d::CCDictionary::objectForKey - 0x42bb44
+cocos2d::CCDictionary::valueForKey - 0x42bab0
 cocos2d::CCRepeatForever::create - 0x1964d4
 cocos2d::CCTransitionFade::create - 0x1d79bc
 cocos2d::CCTransitionScene::~CCTransitionScene - 0x1d72d4
@@ -244,6 +245,7 @@ cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x3c5734
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x3c5bcc
 cocos2d::CCString::createWithData - 0x278a38
 cocos2d::CCString::getCString - 0x2786d0
+cocos2d::CCString::boolValue - 0x278884
 cocos2d::CCMenuItem::~CCMenuItem - 0x531c4
 cocos2d::CCMenuItem::initWithTarget - 0x53154
 cocos2d::CCMenuItem::setEnabled - 0x53218
@@ -401,6 +403,8 @@ GameManager::getGameVariable - 0x322f5c
 GameManager::getIntGameVariable - 0x329d2c
 GameManager::getMenuMusicFile - 0x322c64
 GameManager::getUGV - 0x329ba0
+GameManager::isColorUnlocked - 0x3239a4
+GameManager::isIconUnlocked - 0x3235d4
 GameManager::loadVideoSettings - 0x32bcec
 GameManager::playMenuMusic - 0x322df4
 GameManager::queueReloadMenu - 0x32e304
@@ -418,7 +422,9 @@ GameStatsManager::sharedState - 0x33601c
 GameStatsManager::countSecretChests - 0x34d200
 GameStatsManager::countUnlockedSecretChests - 0x34d244
 GameStatsManager::getChallenge - 0x343c80
+GameStatsManager::getItemUnlockState - 0x345cf8
 GameStatsManager::getStat - 0x33c328
+GameStatsManager::isItemEnabled - 0x345d80
 GameStatsManager::isItemUnlocked - 0x33fda8
 GameToolbox::addBackButton - 0x4abd0
 GameToolbox::createToggleButton - 0x4a4f8
@@ -434,8 +440,14 @@ GJGroundLayer::positionGround - 0x32fcc
 GJGameLevel::create - 0x95224
 GJGarageLayer::node - 0x312750
 GJGarageLayer::onPaint - 0x31520c
+GJGarageLayer::onToggleItem - 0x316c4c
 GJGarageLayer::scene - 0x31270c
+GJGarageLayer::setupPage - 0x315810
+GJGarageLayer::setupSpecialPage - 0x315de0
 GJGarageLayer::init - 0x3127c4
+GJItemIcon::changeToLockedState - 0x316ab8
+GJItemIcon::init - 0x3186d4
+GJItemIcon::toggleEnabledState - 0x316b94
 GJListLayer::create - 0x8325c
 GJListLayer::init - 0x83350
 GJMoreGamesLayer::customSetup - 0x6bedc

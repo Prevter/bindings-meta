@@ -1495,6 +1495,7 @@ GameStatsManager::init - 0x518d8
 GameToolbox::addBackButton - 0x45326c
 GameToolbox::addRThumbScrollButton - 0x453354
 GameToolbox::createToggleButton - 0x4528d0
+GameToolbox::intToShortString - 0x459ec8
 GauntletLayer::create - 0x31d474
 GauntletLayer::init - 0x31d624
 GauntletLayer::keyBackClicked - 0x31f6f8
