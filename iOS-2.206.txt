@@ -458,6 +458,7 @@ GJSearchObject::create - 0xb1dd4
 GJShopLayer::dialogClosed - 0x158204
 GJUserCell::onUnblockUser - 0x112c38
 GooglePlayManager::sharedState - 0x4819c
+LevelBrowserLayer::LevelBrowserLayer - 0x259734
 LevelBrowserLayer::create - 0x41d1c4
 LevelBrowserLayer::scene - 0x41d178
 LevelBrowserLayer::init - 0x41d238

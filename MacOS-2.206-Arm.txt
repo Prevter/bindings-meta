@@ -1995,8 +1995,9 @@ LevelLeaderboard::updateUserScoreFailed - 0x360234
 LevelListCell::loadFromList - 0x1eb538
 LevelListCell::init - 0x1fdf5c
 LevelListCell::draw - 0x1fe074
-LevelListLayer::create - 0x2e9f54
+LevelListLayer::create - 0x2e9ff4
 LevelListLayer::init - 0x2ea074
+LevelListLayer::scene - 0x2e9f54
 LevelListLayer::onEnter - 0x2ed43c
 LevelListLayer::onExit - 0x2ed474
 LevelListLayer::loadLevelsFinished - 0x2ed888
