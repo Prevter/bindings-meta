@@ -1686,6 +1686,7 @@ GJGameLevel::canEncode - 0x4b4778
 GJGameLevel::init - 0x4b0c4c
 GJGameLoadingLayer::loadLevel - 0x129940
 GJGarageLayer::getItems - 0x2fb2e8
+GJGarageLayer::node - 0x2f6a6c
 GJGarageLayer::onSelect - 0x2fb710
 GJGarageLayer::playRainbowEffect - 0x2fc130
 GJGarageLayer::selectTab - 0x2fa4f4

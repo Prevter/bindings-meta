@@ -1164,6 +1164,7 @@ GJGameLoadingLayer::transitionToLoadingLayer - 0x237ed0
 GJGarageLayer::descriptionForUnlock - 0x266240
 GJGarageLayer::getItems - 0x264710
 GJGarageLayer::getItems - 0x2647d0
+GJGarageLayer::node - 0x260f90
 GJGarageLayer::onArrow - 0x263e50
 GJGarageLayer::onBack - 0x266f60
 GJGarageLayer::onInfo - 0x262a50
