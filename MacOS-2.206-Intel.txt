@@ -1072,6 +1072,7 @@ GJChallengeItem::encodeWithCoder - 0x8ec40
 GJChallengeItem::canEncode - 0x8ed10
 ChallengeNode::create - 0x3a1490
 ChallengeNode::init - 0x3a1a50
+CharacterColorPage::create - 0x669c10
 CharacterColorPage::createColorMenu - 0x66ae50
 CharacterColorPage::onMode - 0x66ab00
 CharacterColorPage::onPlayerColor - 0x66b7c0
@@ -1731,6 +1732,7 @@ GJMessageCell::FLAlert_Clicked - 0x2544e0
 GJMessageCell::uploadActionFinished - 0x254670
 GJMessageCell::uploadActionFailed - 0x254850
 GJMessageCell::onClosePopup - 0x2549c0
+GJMessagePopup::loadFromGJMessage - 0x2a2980
 GJMessagePopup::keyBackClicked - 0x2a3920
 GJMessagePopup::downloadMessageFinished - 0x2a3990
 GJMessagePopup::downloadMessageFailed - 0x2a3a50
@@ -1873,6 +1875,7 @@ GJUserCell::onClosePopup - 0x252e80
 GJUserMessage::create - 0x567830
 GJUserMessage::init - 0x5678d0
 GJUserScore::create - 0x567170
+GJUserScore::isCurrentUser - 0x567360
 GJUserScore::init - 0x5672d0
 GJWriteMessagePopup::registerWithTouchDispatcher - 0x2a5ab0
 GJWriteMessagePopup::keyBackClicked - 0x2a5a80

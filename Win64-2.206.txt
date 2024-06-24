@@ -300,6 +300,7 @@ CharacterColorPage::toggleGlow - 0x87550
 CharacterColorPage::toggleShip - 0x87430
 CharacterColorPage::updateIconColors - 0x88d30
 CharacterColorPage::init - 0x866e0
+CharacterColorPage::registerWithTouchDispatcher - 0x41750
 CharacterColorPage::keyBackClicked - 0x88f90
 GJValueTween::step - 0x1f61c0
 GJGameState::processStateTriggers - 0x1f63a0
@@ -1164,7 +1165,6 @@ GJGameLoadingLayer::transitionToLoadingLayer - 0x237ed0
 GJGarageLayer::descriptionForUnlock - 0x266240
 GJGarageLayer::getItems - 0x264710
 GJGarageLayer::getItems - 0x2647d0
-GJGarageLayer::node - 0x260f90
 GJGarageLayer::onArrow - 0x263e50
 GJGarageLayer::onBack - 0x266f60
 GJGarageLayer::onInfo - 0x262a50
@@ -1220,6 +1220,7 @@ GJMessageCell::init - 0xb99b0
 GJMessageCell::FLAlert_Clicked - 0xbb7d0
 GJMessageCell::uploadActionFinished - 0xbb970
 GJMessageCell::uploadActionFailed - 0xbbaf0
+GJMessagePopup::loadFromGJMessage - 0x285be0
 GJMessagePopup::downloadMessageFinished - 0x286930
 GJMessagePopup::downloadMessageFailed - 0x286980
 GJMessagePopup::uploadActionFinished - 0x2869c0
@@ -1327,6 +1328,7 @@ GJUserCell::onClosePopup - 0xb9840
 GJUserMessage::create - 0x16b5f0
 GJUserScore::create - 0x1688d0
 GJUserScore::GJUserScore - 0x13d890
+GJUserScore::isCurrentUser - 0x16a2c0
 GJUserScore::init - 0x16a270
 GJWriteMessagePopup::keyBackClicked - 0x288550
 GJWriteMessagePopup::textChanged - 0x288560

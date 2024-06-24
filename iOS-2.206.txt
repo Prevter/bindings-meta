@@ -447,6 +447,7 @@ GJColorSetupLayer::updateSpriteColor - 0x19a2e8
 GJGroundLayer::create - 0x32198
 GJGroundLayer::positionGround - 0x32fcc
 GJGameLevel::create - 0x95224
+GJGarageLayer::GJGarageLayer - 0x31a060
 GJGarageLayer::node - 0x312750
 GJGarageLayer::onPaint - 0x31520c
 GJGarageLayer::onToggleItem - 0x316c4c
@@ -459,6 +460,7 @@ GJItemIcon::init - 0x3186d4
 GJItemIcon::toggleEnabledState - 0x316b94
 GJListLayer::create - 0x8325c
 GJListLayer::init - 0x83350
+GJMessagePopup::loadFromGJMessage - 0x2eb808
 GJMoreGamesLayer::customSetup - 0x6bedc
 GJObjectDecoder::sharedDecoder - 0x227094
 GJRotationControl::create - 0x3cfa48
