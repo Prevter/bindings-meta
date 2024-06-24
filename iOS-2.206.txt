@@ -228,6 +228,9 @@ cocos2d::CCLabelBMFont::~CCLabelBMFont - 0x30bcdc
 cocos2d::CCActionManager::addAction - 0x304c44
 cocos2d::CCApplication::sharedApplication - 0x1b7dcc
 cocos2d::CCArray::createWithCapacity - 0x259b9c
+cocos2d::CCArray::addObject - 0x259b6c
+cocos2d::CCArray::addObjectsFromArray - 0x259bfc
+cocos2d::CCArray::fastRemoveObject - 0x259ce8
 cocos2d::CCArray::stringAtIndex - 0x259c14
 cocos2d::CCDictionary::create - 0x42d318
 cocos2d::CCDictionary::setObject - 0x42c778
@@ -378,6 +381,12 @@ DialogLayer::createWithObjects - 0x8a318
 DialogLayer::updateChatPlacement - 0x8ab34
 DialogObject::create - 0x8a034
 EditLevelLayer::onShare - 0xebd04
+EditorUI::deactivateRotationControl - 0x3cfabc
+EditorUI::deactivateScaleControl - 0x3cfb8c
+EditorUI::deactivateTransformControl - 0x3cfca0
+EditorUI::getModeBtn - 0x247d9c
+EditorUI::init - 0x3cda60
+EditorUI::sliderChanged - 0x3cf9b4
 FMODAudioEngine::FMODAudioEngine - 0x145344
 FMODAudioEngine::sharedEngine - 0x13e590
 FMODAudioEngine::getBackgroundMusicVolume - 0x14341c
@@ -452,10 +461,13 @@ GJListLayer::create - 0x8325c
 GJListLayer::init - 0x83350
 GJMoreGamesLayer::customSetup - 0x6bedc
 GJObjectDecoder::sharedDecoder - 0x227094
+GJRotationControl::create - 0x3cfa48
+GJScaleControl::create - 0x3cfb18
 GJSearchObject::create - 0xb1b88
 GJSearchObject::create - 0xb1ee4
 GJSearchObject::create - 0xb1dd4
 GJShopLayer::dialogClosed - 0x158204
+GJTransformControl::create - 0x3cfc2c
 GJUserCell::onUnblockUser - 0x112c38
 GooglePlayManager::sharedState - 0x4819c
 LevelBrowserLayer::LevelBrowserLayer - 0x259734
