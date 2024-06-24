@@ -512,6 +512,7 @@ EditButtonBar::onRight - 0xd1790
 EditLevelLayer::~EditLevelLayer - 0xd1980
 EditLevelLayer::init - 0xd1c80
 EditLevelLayer::onLevelInfo - 0xd3270
+EditLevelLayer::onSetFolder - 0xd5d20
 EditLevelLayer::onShare - 0xd4c80
 EditLevelLayer::scene - 0xd1af0
 EditLevelLayer::keyBackClicked - 0xd62d0
@@ -786,6 +787,7 @@ GameLevelManager::createNewLevel - 0x13fe60
 GameLevelManager::createNewLevelList - 0x140910
 GameLevelManager::dataLoaded - 0x145db0
 GameLevelManager::deleteLevel - 0x140640
+GameLevelManager::deleteLevelList - 0x140ef0
 GameLevelManager::deleteServerLevel - 0x14eb70
 GameLevelManager::deleteUserMessages - 0x155680
 GameLevelManager::downloadLevel - 0x14c650
@@ -977,6 +979,7 @@ GhostTrailEffect::create - 0x68b50
 GhostTrailEffect::trailSnapshot - 0x68c90
 GhostTrailEffect::init - 0x68c30
 GJAccountManager::sharedState - 0x1f1220
+GJAccountManager::backupAccount - 0x1f2bc0
 GJAccountManager::getShaPassword - 0x1f4ff0
 GJAccountManager::init - 0x1f17e0
 GJAccountSettingsLayer::init - 0x27fcd0
@@ -1686,6 +1689,9 @@ LocalLevelManager::sharedState - 0x30f5d0
 LocalLevelManager::getAllLevelsInDict - 0x30fa40
 LocalLevelManager::getMainLevelString - 0x30f930
 LocalLevelManager::init - 0x30f670
+LocalLevelManager::encodeDataTo - 0x310040
+LocalLevelManager::dataLoaded - 0x3100a0
+LocalLevelManager::firstLoad - 0x30ffb0
 MapPackCell::loadFromMapPack - 0xaf940
 MapPackCell::init - 0xaf8e0
 MenuGameLayer::destroyPlayer - 0x3129e0
