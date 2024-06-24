@@ -629,6 +629,10 @@ cocos2d::CCMenu::ccTouchEnded - 0x79efa0
 cocos2d::CCMenu::ccTouchCancelled - 0x79f020
 cocos2d::CCRotateBy::create - 0x3baf60
 cocos2d::CCDelayTime::create - 0x3ba690
+DS_Dictionary::DS_Dictionary - 0x174e70
+DS_Dictionary::loadRootSubDictFromString - 0x1766d0
+DS_Dictionary::saveRootSubDictToString - 0x177d40
+DS_Dictionary::stepIntoSubDictWithKey - 0x178380
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x356900
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x3fe8f0
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x3fe810
@@ -649,6 +653,10 @@ cocos2d::extension::CCHttpClient::destroyInstance - 0x441e60
 cocos2d::extension::CCHttpClient::send - 0x442d10
 cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x442160
 cocos2d::extension::CCHttpClient::dispatchResponseCallbacks - 0x441ea0
+cocos2d::ZipUtils::ccDeflateMemory - 0x1ff6c0
+cocos2d::ZipUtils::compressString - 0x1ff430
+pugi::xml_document::xml_document - 0x64d800
+pugi::xml_document::~xml_document - 0x64d950
 GJDropDownLayer::init - 0x5f18a0
 GJDropDownLayer::init - 0x5f1cd0
 GJDropDownLayer::create - 0x5f1770
@@ -1682,7 +1690,10 @@ GJFollowCommandLayer::onClose - 0x2d43a0
 GJFollowCommandLayer::textChanged - 0x2d3de0
 GJFriendRequest::init - 0x567640
 GJGameLevel::create - 0x533810
+GJGameLevel::create - 0x535f20
+GJGameLevel::dataLoaded - 0x564a60
 GJGameLevel::demonIconForDifficulty - 0x566800
+GJGameLevel::getAudioFileName - 0x562f90
 GJGameLevel::getAverageDifficulty - 0x562d50
 GJGameLevel::getLengthKey - 0x562c70
 GJGameLevel::lengthKeyToString - 0x562cb0
@@ -1715,6 +1726,9 @@ GJGarageLayer::playerColorChanged - 0x370470
 GJGarageLayer::rewardedVideoFinished - 0x36de00
 GJGradientLayer::init - 0x159cf0
 GJItemIcon::setOpacity - 0x372e20
+GJLevelList::create - 0x5346e0
+GJLevelList::create - 0x534200
+GJLevelList::dataLoaded - 0x56ac60
 GJLevelList::encodeWithCoder - 0x56afa0
 GJLevelList::canEncode - 0x56b210
 GJLevelList::init - 0x569080
@@ -2259,10 +2273,12 @@ MusicBrowser::setTextPopupClosed - 0x61af20
 MusicBrowser::cellPerformedAction - 0x61aea0
 MusicBrowser::getSelectedCellIdx - 0x61af00
 MusicBrowser::FLAlert_Clicked - 0x61b130
+MusicDownloadManager::sharedState - 0x5912f0
 MusicDownloadManager::addDLToActive - 0x597180
 MusicDownloadManager::downloadCustomSong - 0x596ad0
 MusicDownloadManager::downloadSong - 0x5965c0
 MusicDownloadManager::getSongInfoObject - 0x592c90
+MusicDownloadManager::pathForSong - 0x596410
 MusicDownloadManager::init - 0x592600
 MusicSearchResult::updateObjects - 0x5a2410
 MusicSearchResult::stateChanged - 0x5a23b0

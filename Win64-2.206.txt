@@ -76,6 +76,7 @@ GameObject::GameObject - 0x133690
 GameObject::addColorSprite - 0x1847f0
 GameObject::commonSetup - 0x183d30
 GameObject::copyGroups - 0x192980
+GameObject::createWithFrame - 0x183c60
 GameObject::createWithKey - 0x181810
 GameObject::determineSlopeDirection - 0x192300
 GameObject::duplicateValues - 0x197e00
@@ -150,6 +151,7 @@ GameObject::getOrientedRectDirty - 0x133b10
 GameObject::setOrientedRectDirty - 0x133b20
 GameObject::setType - 0x133b40
 EnhancedGameObject::updateUserCoin - 0x19c930
+EnhancedGameObject::customSetup - 0x19afb0
 EnhancedGameObject::resetObject - 0x19a970
 EffectGameObject::playTriggerEffect - 0x4798b0
 EffectGameObject::updateSpeedModType - 0x47f6c0

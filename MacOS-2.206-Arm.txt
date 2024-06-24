@@ -675,6 +675,7 @@ cocos2d::extension::CCHttpClient::send - 0x3b4ac0
 cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x3b4074
 cocos2d::extension::CCHttpClient::dispatchResponseCallbacks - 0x3b3da4
 cocos2d::ZipUtils::ccDeflateMemory - 0x1b1220
+cocos2d::ZipUtils::compressString - 0x1b0f10
 pugi::xml_document::xml_document - 0x56bb98
 pugi::xml_document::~xml_document - 0x56bcec
 GJDropDownLayer::init - 0x519eac
@@ -1678,6 +1679,7 @@ GJFollowCommandLayer::determineStartValues - 0x270af8
 GJFollowCommandLayer::onClose - 0x2714c8
 GJFollowCommandLayer::textChanged - 0x271070
 GJGameLevel::create - 0x486e78
+GJGameLevel::create - 0x4891fc
 GJGameLevel::dataLoaded - 0x4b2db0
 GJGameLevel::getAudioFileName - 0x4b1710
 GJGameLevel::getAverageDifficulty - 0x4b14cc
@@ -1710,6 +1712,7 @@ GJGradientLayer::init - 0x12942c
 GJItemIcon::create - 0x2fe438
 GJItemIcon::setOpacity - 0x2fea70
 GJLevelList::create - 0x487c24
+GJLevelList::create - 0x4877e8
 GJLevelList::dataLoaded - 0x4b8464
 GJLevelList::encodeWithCoder - 0x4b8794
 GJLevelList::canEncode - 0x4b89cc
