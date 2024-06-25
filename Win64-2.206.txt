@@ -779,6 +779,7 @@ FriendRequestPopup::uploadActionFailed - 0x284f90
 FriendRequestPopup::onClosePopup - 0x285050
 FriendRequestPopup::FLAlert_Clicked - 0x2850b0
 FriendsProfilePage::init - 0x13b830
+FriendsProfilePage::onClose - 0x13c6b0
 FriendsProfilePage::setupUsersBrowser - 0x13bf40
 FriendsProfilePage::keyBackClicked - 0x13c770
 FriendsProfilePage::getUserListFinished - 0x13c2a0
