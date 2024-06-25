@@ -487,6 +487,8 @@ DailyLevelPage::dailyStatusFinished - 0xcc8d0
 DailyLevelPage::dailyStatusFailed - 0xccb90
 DailyLevelPage::levelDownloadFinished - 0xcce80
 DailyLevelPage::levelDownloadFailed - 0xccee0
+DemonFilterSelectLayer::onClose - 0x2f79c0
+DemonFilterSelectLayer::selectRating - 0x2f7900
 DemonFilterSelectLayer::init - 0x2f72c0
 DemonFilterSelectLayer::keyBackClicked - 0x2f7a10
 DemonInfoPopup::create - 0x3a3280
@@ -1632,8 +1634,10 @@ LevelSearchLayer::onMostRecent - 0x2f0da0
 LevelSearchLayer::onSearch - 0x2f10a0
 LevelSearchLayer::onSearchMode - 0x2edf50
 LevelSearchLayer::onSearchUser - 0x2f12e0
+LevelSearchLayer::onSpecialDemon - 0x2edbb0
 LevelSearchLayer::onSuggested - 0x2f0b60
 LevelSearchLayer::onTrending - 0x2f0c20
+LevelSearchLayer::toggleDifficulty - 0x2f18e0
 LevelSearchLayer::toggleDifficultyNum - 0x2f1c40
 LevelSearchLayer::toggleTimeNum - 0x2f2050
 LevelSearchLayer::updateSearchLabel - 0x2ef440

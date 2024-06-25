@@ -507,6 +507,7 @@ cocos2d::CCRenderTexture::getSprite - 0x526a34
 cocos2d::CCRenderTexture::setSprite - 0x526a3c
 cocos2d::CCRepeat::create - 0x33daf8
 cocos2d::CCRepeatForever::create - 0x33e16c
+cocos2d::CCTransitionMoveInT::create - 0xc0d10
 cocos2d::CCTransitionFade::create - 0xc36e4
 cocos2d::CCTransitionRotoZoom::onEnter - 0xc0184
 cocos2d::CCTransitionScene::~CCTransitionScene - 0xbf8d4
@@ -1279,6 +1280,9 @@ RingObject::shouldDrawEditorHitbox - 0x16df64
 RingObject::powerOnObject - 0x16dd94
 DashRingObject::customObjectSetup - 0x16eaac
 DashRingObject::getSaveString - 0x16ec04
+DemonFilterSelectLayer::create - 0x5584ec
+DemonFilterSelectLayer::onClose - 0x55c2f4
+DemonFilterSelectLayer::selectRating - 0x55c22c
 DemonFilterSelectLayer::init - 0x55bd74
 DemonFilterSelectLayer::keyBackClicked - 0x55c354
 DemonInfoPopup::create - 0x6d2c7c
@@ -1502,8 +1506,10 @@ GameManager::colorForIdx - 0x30b4e0
 GameManager::countForType - 0x30c648
 GameManager::didExitPlayscene - 0x315cb0
 GameManager::fadeInMenuMusic - 0x3045f8
+GameManager::fadeInMusic - 0x3046f0
 GameManager::getBGTexture - 0x30f070
 GameManager::getGameVariable - 0x304480
+GameManager::getMenuMusicFile - 0x303f34
 GameManager::iconTypeToUnlockType - 0x304f3c
 GameManager::isColorUnlocked - 0x30533c
 GameManager::isIconUnlocked - 0x304e2c
@@ -2140,6 +2146,8 @@ LevelPage::registerWithTouchDispatcher - 0x3b364c
 LevelPage::dialogClosed - 0x3b3254
 LevelSearchLayer::scene - 0x5544e0
 LevelSearchLayer::init - 0x5546b0
+LevelSearchLayer::onSpecialDemon - 0x557ee4
+LevelSearchLayer::toggleDifficulty - 0x557a00
 LevelSearchLayer::keyBackClicked - 0x559628
 LevelSearchLayer::textInputOpened - 0x558b40
 LevelSearchLayer::textInputClosed - 0x558c20
