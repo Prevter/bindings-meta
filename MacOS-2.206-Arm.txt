@@ -1414,6 +1414,12 @@ FindBPMLayer::registerTouch - 0x46bd88
 FindBPMLayer::onRecord - 0x46bc0c
 FindBPMLayer::recordingDidStop - 0x46bc44
 SetIDPopup::create - 0x24875c
+SetIDPopup::init - 0x248a7c
+SetIDPopup::onCancel - 0x2493fc
+SetIDPopup::onClose - 0x2492fc
+SetIDPopup::onItemIDArrow - 0x2493a0
+SetIDPopup::onResetValue - 0x249394
+SetIDPopup::updateTextInputLabel - 0x24949c
 SetIDPopup::keyBackClicked - 0x2497c0
 SetIDPopup::show - 0x24973c
 SetIDPopup::textInputClosed - 0x2495c8
@@ -1514,6 +1520,7 @@ GameManager::iconTypeToUnlockType - 0x304f3c
 GameManager::isColorUnlocked - 0x30533c
 GameManager::isIconUnlocked - 0x304e2c
 GameManager::loadBackground - 0x30e7ec
+GameManager::loadDeathEffect - 0x30e674
 GameManager::loadIcon - 0x30d514
 GameManager::reloadAll - 0x3166d4
 GameManager::reloadAllStep2 - 0x316774
@@ -1523,6 +1530,7 @@ GameManager::returnToLastScene - 0x316184
 GameManager::safePopScene - 0x31652c
 GameManager::setGameVariable - 0x30f154
 GameManager::sheetNameForIcon - 0x30cad8
+GameManager::toggleGameVariable - 0x30f3c8
 GameManager::update - 0x315d5c
 GameManager::init - 0x303cd0
 GameManager::encodeDataTo - 0x3151c4
@@ -1714,6 +1722,7 @@ GJGameLoadingLayer::loadLevel - 0x129940
 GJGarageLayer::getItems - 0x2fb2e8
 GJGarageLayer::node - 0x2f6a6c
 GJGarageLayer::onSelect - 0x2fb710
+GJGarageLayer::onSpecial - 0x2fb65c
 GJGarageLayer::playRainbowEffect - 0x2fc130
 GJGarageLayer::selectTab - 0x2fa4f4
 GJGarageLayer::setupPage - 0x2fa624
@@ -1981,6 +1990,9 @@ LevelBrowserLayer::create - 0x3f8e88
 LevelBrowserLayer::scene - 0x3f8e3c
 LevelBrowserLayer::init - 0x3f8fc4
 LevelBrowserLayer::loadPage - 0x3fc3cc
+LevelBrowserLayer::onGoToPage - 0x3faab0
+LevelBrowserLayer::onNextPage - 0x3fa970
+LevelBrowserLayer::onPrevPage - 0x3fa93c
 LevelBrowserLayer::setupLevelBrowser - 0x3fda3c
 LevelBrowserLayer::onEnter - 0x3ff9cc
 LevelBrowserLayer::ccTouchBegan - 0x3ffc98

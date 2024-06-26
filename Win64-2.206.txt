@@ -724,9 +724,14 @@ FindBPMLayer::onRecord - 0x99c90
 FindBPMLayer::recordingDidStop - 0x99e50
 SetIDPopup::create - 0x289030
 SetIDPopup::init - 0x289160
+SetIDPopup::onCancel - 0x289dd0
+SetIDPopup::onClose - 0x289e70
+SetIDPopup::onItemIDArrow - 0x289b20
+SetIDPopup::onResetValue - 0x289b70
 SetIDPopup::updateTextInputLabel - 0x289c90
 SetIDPopup::keyBackClicked - 0x289f10
 SetIDPopup::show - 0x289d40
+SetIDPopup::textInputClosed - 0x89f80
 SetIDPopup::textChanged - 0x289b90
 FMODAudioEngine::FMODAudioEngine - 0x52250
 FMODAudioEngine::channelForChannelID - 0x575d0
