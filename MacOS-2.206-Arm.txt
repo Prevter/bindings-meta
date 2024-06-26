@@ -478,10 +478,6 @@ cocos2d::CCActionManager::pauseTarget - 0x1dcc88
 cocos2d::CCActionManager::resumeTarget - 0x1dcd84
 cocos2d::CCApplication::sharedApplication - 0x2b7f38
 cocos2d::CCApplication::openURL - 0x2b877c
-cocos2d::CCArray::createWithArray - 0x63faac
-cocos2d::CCArray::addObject - 0x63faa4
-cocos2d::CCArray::removeAllObjects - 0x63ff34
-cocos2d::CCArray::removeObjectAtIndex - 0x63ff18
 cocos2d::CCDictionary::create - 0x2a0fac
 cocos2d::CCDictionary::createWithContentsOfFile - 0x2a1138
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2a1030

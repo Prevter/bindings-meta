@@ -20,6 +20,9 @@ cocos2d::CCNode::convertToNodeSpace - 0x24d424
 cocos2d::CCNode::convertToWorldSpace - 0x24d46c
 cocos2d::CCNode::resumeSchedulerAndActions - 0x24c6fc
 cocos2d::CCNode::runAction - 0x24ca08
+cocos2d::CCNode::schedule - 0x24cb34
+cocos2d::CCNode::schedule - 0x24cb58
+cocos2d::CCNode::scheduleUpdate - 0x24cab0
 cocos2d::CCNode::stopActionByTag - 0x24ca40
 cocos2d::CCNode::stopAllActions - 0x24bd0c
 cocos2d::CCNode::update - 0x24cba4
@@ -152,6 +155,8 @@ cocos2d::CCLayer::getPreviousPriority - 0xa7a8
 cocos2d::CCLayer::didAccelerate - 0x1535d4
 cocos2d::CCLayer::keyBackClicked - 0x1537c8
 cocos2d::CCLayer::keyMenuClicked - 0x153824
+cocos2d::CCLayerGradient::create - 0x154a80
+cocos2d::CCLayerGradient::setVector - 0x154efc
 cocos2d::CCObject::CCObject - 0x88324
 cocos2d::CCObject::~CCObject - 0x8836c
 cocos2d::CCObject::autorelease - 0x88458
@@ -182,6 +187,7 @@ cocos2d::CCTexture2D::setTexParameters - 0x134600
 cocos2d::CCTextureCache::purgeSharedTextureCache - 0x114a78
 cocos2d::CCTextureCache::sharedTextureCache - 0x114948
 cocos2d::CCTextureCache::addImage - 0x115540
+cocos2d::CCTextureCache::addUIImage - 0x115efc
 cocos2d::CCTextureCache::prepareAsyncLoading - 0x114aa4
 cocos2d::CCTextureCache::textureForKey - 0x1160fc
 cocos2d::CCTouch::getLocation - 0x30f2b0
@@ -191,6 +197,9 @@ cocos2d::CCTouchDispatcher::findHandler - 0x159ef0
 cocos2d::CCTouchDispatcher::registerForcePrio - 0x159944
 cocos2d::CCTouchDispatcher::removeDelegate - 0x159dbc
 cocos2d::CCTouchDispatcher::unregisterForcePrio - 0x1599c0
+cocos2d::CCImage::initWithImageData - 0x31938
+cocos2d::CCImage::CCImage - 0x317a4
+cocos2d::CCImage::~CCImage - 0x317d0
 cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x1dd354
 cocos2d::CCIMEDispatcher::sharedDispatcher - 0x1dd254
 cocos2d::CCIMEDispatcher::removeDelegate - 0x1dd398
@@ -213,6 +222,7 @@ cocos2d::CCSequence::createWithVariableList - 0x195fb4
 cocos2d::CCSprite::create - 0x247ca0
 cocos2d::CCSprite::createWithSpriteFrame - 0x247d1c
 cocos2d::CCSprite::createWithSpriteFrameName - 0x247d9c
+cocos2d::CCSprite::createWithTexture - 0x247c14
 cocos2d::CCSprite::setFlipX - 0x249688
 cocos2d::CCSprite::setFlipY - 0x2496bc
 cocos2d::CCSprite::CCSprite - 0x2481c8
@@ -227,10 +237,6 @@ cocos2d::CCLabelBMFont::limitLabelWidth - 0x30d9bc
 cocos2d::CCLabelBMFont::~CCLabelBMFont - 0x30bcdc
 cocos2d::CCActionManager::addAction - 0x304c44
 cocos2d::CCApplication::sharedApplication - 0x1b7dcc
-cocos2d::CCArray::createWithCapacity - 0x259b9c
-cocos2d::CCArray::addObject - 0x259b6c
-cocos2d::CCArray::addObjectsFromArray - 0x259bfc
-cocos2d::CCArray::fastRemoveObject - 0x259ce8
 cocos2d::CCArray::stringAtIndex - 0x259c14
 cocos2d::CCDictionary::create - 0x42d318
 cocos2d::CCDictionary::setObject - 0x42c778
@@ -380,6 +386,7 @@ DialogLayer::createDialogLayer - 0x8a28c
 DialogLayer::createWithObjects - 0x8a318
 DialogLayer::updateChatPlacement - 0x8ab34
 DialogObject::create - 0x8a034
+DrawGridLayer::removeFromSpeedObjects - 0x36ce70
 EditLevelLayer::onShare - 0xebd04
 EditorUI::deactivateRotationControl - 0x3cfabc
 EditorUI::deactivateScaleControl - 0x3cfb8c

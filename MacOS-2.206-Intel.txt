@@ -494,8 +494,6 @@ cocos2d::CCActionManager::pauseTarget - 0x22f210
 cocos2d::CCActionManager::resumeTarget - 0x22f2f0
 cocos2d::CCApplication::sharedApplication - 0x328170
 cocos2d::CCApplication::openURL - 0x328f80
-cocos2d::CCArray::initWithCapacity - 0x72cbb0
-cocos2d::CCArray::addObject - 0x72cf20
 cocos2d::CCDictionary::create - 0x30f260
 cocos2d::CCDictionary::createWithContentsOfFile - 0x30f3e0
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x30f2e0
