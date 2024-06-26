@@ -1923,6 +1923,7 @@ HardStreak::addPoint - 0x8d3d4
 HardStreak::reset - 0x8d3b0
 HardStreak::resumeStroke - 0x8d368
 HardStreak::stopStroke - 0x8d374
+HardStreak::updateStroke - 0x8cc2c
 HardStreak::init - 0x8cac0
 HSVLiveOverlay::keyBackClicked - 0x20e0dc
 HSVLiveOverlay::show - 0x20e194
