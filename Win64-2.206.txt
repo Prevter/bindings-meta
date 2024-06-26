@@ -21,6 +21,7 @@ AccountLayer::syncAccountFinished - 0x7d9c0
 AccountLayer::syncAccountFailed - 0x7db80
 AccountLayer::accountStatusChanged - 0x7d120
 AccountLayer::FLAlert_Clicked - 0x7dd10
+FLAlertLayer::~FLAlertLayer - 0x50960
 FLAlertLayer::create - 0x50ac0
 FLAlertLayer::create - 0x50a10
 FLAlertLayer::init - 0x50ce0
@@ -57,10 +58,16 @@ AchievementManager::sharedState - 0x7d50
 AchievementManager::achievementForUnlock - 0x39390
 AchievementManager::addAchievement - 0x7ea0
 AchievementManager::addManualAchievements - 0x83c0
+AchievementManager::getAllAchievementsSorted - 0x38d20
 AchievementManager::isAchievementEarned - 0x38c40
+AchievementManager::percentForAchievement - 0x38c60
 AchievementManager::init - 0x7e10
 AchievementNotifier::sharedState - 0x39cd0
+AchievementsLayer::loadPage - 0x80cd0
+AchievementsLayer::onNextPage - 0x80eb0
+AchievementsLayer::onPrevPage - 0x80ec0
 AchievementsLayer::keyDown - 0x80c30
+AchievementsLayer::customSetup - 0x80980
 CCSpritePlus::setScaleX - 0x47350
 CCSpritePlus::setScaleY - 0x473d0
 CCSpritePlus::setScale - 0x47460
@@ -559,6 +566,7 @@ EditorUI::checkDiffAfterTransformAnchor - 0x111c70
 EditorUI::clickOnPosition - 0xdebe0
 EditorUI::constrainGameLayerPosition - 0x11e960
 EditorUI::createCustomItems - 0xe0c80
+EditorUI::createMoveMenu - 0x116ee0
 EditorUI::createObject - 0x10c3e0
 EditorUI::createRockBases - 0x12b590
 EditorUI::createUndoObject - 0x10d3d0
@@ -580,6 +588,8 @@ EditorUI::getCreateBtn - 0x10ae40
 EditorUI::getGroupCenter - 0x11ed20
 EditorUI::getLimitedPosition - 0x11c280
 EditorUI::getSelectedObjects - 0x10d320
+EditorUI::getSpriteButton - 0xded70
+EditorUI::getSpriteButton - 0xdee00
 EditorUI::init - 0xdba20
 EditorUI::isSpecialSnapObject - 0x124e40
 EditorUI::moveForCommand - 0x11b9b0
@@ -651,6 +661,7 @@ EditorUI::updateDeleteButtons - 0xe3b50
 EditorUI::updateGridNodeSize - 0xdf100
 EditorUI::updateObjectInfoLabel - 0xdf360
 EditorUI::updateSlider - 0xdf040
+EditorUI::updateZoom - 0x10ea80
 EditorUI::zoomIn - 0x10e9e0
 EditorUI::zoomOut - 0x10ea30
 EditorUI::draw - 0x11ecb0
@@ -1050,6 +1061,7 @@ GJBaseGameLayer::refreshCounterLabels - 0x225560
 GJBaseGameLayer::removeFromGroups - 0x2148b0
 GJBaseGameLayer::removeObjectFromSection - 0x2175f0
 GJBaseGameLayer::resetActiveEnterEffects - 0x1ff150
+GJBaseGameLayer::resetAreaObjectValues - 0x2184c0
 GJBaseGameLayer::resetAudio - 0x227690
 GJBaseGameLayer::resetCamera - 0x22ec30
 GJBaseGameLayer::resetGradientLayers - 0x211790
@@ -1474,6 +1486,7 @@ LevelEditorLayer::objectAtPosition - 0x2c16a0
 LevelEditorLayer::onPlaytest - 0x2cbf90
 LevelEditorLayer::onResumePlaytest - 0x2cc9c0
 LevelEditorLayer::onStopPlaytest - 0x2ccbb0
+LevelEditorLayer::quickUpdateAllPositions - 0x2cbd20
 LevelEditorLayer::removeAllObjectsOfType - 0x2c2830
 LevelEditorLayer::removeSpecial - 0x2c4830
 LevelEditorLayer::tryUpdateSpeedObject - 0x2c4e10
@@ -2088,6 +2101,7 @@ RewardsPage::updateTimers - 0x3a9860
 RewardsPage::init - 0x3a8710
 RewardsPage::rewardsStatusFinished - 0x3a95a0
 RewardsPage::rewardsStatusFailed - 0x3a9790
+RewardUnlockLayer::playRewardEffect - 0x3aad20
 RewardUnlockLayer::currencyWillExit - 0x3ad1f0
 ScrollingLayer::ccTouchBegan - 0x6fb00
 ScrollingLayer::ccTouchMoved - 0x6fbf0

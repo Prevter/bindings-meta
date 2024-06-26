@@ -1549,6 +1549,7 @@ GameStatsManager::getGauntletRewardKey - 0x78b30
 GameStatsManager::getItemKey - 0x65010
 GameStatsManager::getItemUnlockState - 0x78400
 GameStatsManager::getStat - 0x657a0
+GameStatsManager::hasClaimedListReward - 0x74400
 GameStatsManager::hasCompletedLevel - 0x6d1d0
 GameStatsManager::hasCompletedMainLevel - 0x6d160
 GameStatsManager::hasPendingUserCoin - 0x6f5b0
@@ -2144,6 +2145,8 @@ LevelListLayer::init - 0x35c820
 LevelListLayer::onSelectIcon - 0x35ee60
 LevelListLayer::onShare - 0x35eeb0
 LevelListLayer::scene - 0x35c730
+LevelListLayer::updateSideButtons - 0x35f010
+LevelListLayer::updateStatsArt - 0x35f0a0
 LevelListLayer::onEnter - 0x35ff50
 LevelListLayer::onExit - 0x35ff80
 LevelListLayer::loadLevelsFinished - 0x360390

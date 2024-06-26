@@ -1319,6 +1319,7 @@ EditorPauseLayer::create - 0x230728
 EditorPauseLayer::init - 0x230800
 EditorPauseLayer::onResume - 0x234290
 EditorPauseLayer::onSaveAndPlay - 0x232ce8
+EditorPauseLayer::saveLevel - 0x233bac
 EditorPauseLayer::keyBackClicked - 0x234290
 EditorPauseLayer::keyDown - 0x234370
 EditorPauseLayer::customSetup - 0x23116c
@@ -1473,6 +1474,7 @@ GameCell::init - 0x29e8cc
 GameCell::draw - 0x29e9a0
 GameLevelManager::sharedState - 0x478590
 GameLevelManager::deleteLevel - 0x4874e4
+GameLevelManager::deleteLevelList - 0x487d30
 GameLevelManager::deleteServerLevel - 0x49e9a0
 GameLevelManager::deleteUserMessages - 0x4a5858
 GameLevelManager::downloadLevel - 0x49bed4
@@ -1547,6 +1549,7 @@ GameStatsManager::getItemKey - 0x5a2d4
 GameStatsManager::getItemUnlockState - 0x6ad24
 GameStatsManager::getLevelKey - 0x60dcc
 GameStatsManager::getStat - 0x5aa1c
+GameStatsManager::hasClaimedListReward - 0x67584
 GameStatsManager::hasCompletedLevel - 0x61134
 GameStatsManager::hasCompletedMainLevel - 0x610a0
 GameStatsManager::hasPendingUserCoin - 0x63484
@@ -1987,6 +1990,7 @@ LevelBrowserLayer::create - 0x3f8e88
 LevelBrowserLayer::scene - 0x3f8e3c
 LevelBrowserLayer::init - 0x3f8fc4
 LevelBrowserLayer::loadPage - 0x3fc3cc
+LevelBrowserLayer::onDeleteSelected - 0x3fabe0
 LevelBrowserLayer::onGoToPage - 0x3faab0
 LevelBrowserLayer::onNextPage - 0x3fa970
 LevelBrowserLayer::onPrevPage - 0x3fa93c
@@ -2114,6 +2118,8 @@ LevelListLayer::create - 0x2e9ff4
 LevelListLayer::init - 0x2ea074
 LevelListLayer::onSelectIcon - 0x2ec3f0
 LevelListLayer::scene - 0x2e9f54
+LevelListLayer::updateSideButtons - 0x2ec578
+LevelListLayer::updateStatsArt - 0x2ec60c
 LevelListLayer::onEnter - 0x2ed43c
 LevelListLayer::onExit - 0x2ed474
 LevelListLayer::loadLevelsFinished - 0x2ed888
