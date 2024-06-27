@@ -1821,6 +1821,7 @@ MusicSearchResult::stateChanged - 0x325ae0
 NewgroundsInfoLayer::FLAlert_Clicked - 0xc3890
 NumberInputLayer::init - 0x326bb0
 OBB2D::create - 0x6c390
+OBB2D::calculateWithCenter - 0x6c560
 OBB2D::orderCorners - 0x6c880
 OBB2D::overlaps1Way - 0x6cc10
 ObjectToolbox::sharedState - 0x327460

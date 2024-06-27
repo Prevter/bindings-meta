@@ -2316,6 +2316,7 @@ NewgroundsInfoLayer::FLAlert_Clicked - 0x1c3a64
 NumberInputLayer::init - 0x4000ac
 NumberInputLayer::registerWithTouchDispatcher - 0x400b3c
 NumberInputLayer::keyBackClicked - 0x400ac0
+OBB2D::calculateWithCenter - 0x5250c0
 ObjectControlGameObject::init - 0x19d0a0
 ObjectControlGameObject::customObjectSetup - 0x19d544
 ObjectControlGameObject::getSaveString - 0x19d0f0
