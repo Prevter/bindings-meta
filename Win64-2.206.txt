@@ -453,6 +453,7 @@ CustomSongWidget::deleteSong - 0xc7360
 CustomSongWidget::downloadAssetFailed - 0xca6a0
 CustomSongWidget::downloadAssetFinished - 0xca5e0
 CustomSongWidget::downloadFailed - 0xca840
+CustomSongWidget::getSongInfoIfUnloaded - 0xc7cf0
 CustomSongWidget::init - 0xc5900
 CustomSongWidget::onCancelDownload - 0xc7db0
 CustomSongWidget::onDelete - 0xc7240
@@ -467,10 +468,13 @@ CustomSongWidget::showError - 0xca910
 CustomSongWidget::startDownload - 0xc80b0
 CustomSongWidget::startMultiAssetDownload - 0xca2a0
 CustomSongWidget::updateDownloadProgress - 0xc6ac0
+CustomSongWidget::updateError - 0xca840
 CustomSongWidget::updateMultiAssetInfo - 0xc9960
+CustomSongWidget::updatePlaybackBtn - 0xc85b0
 CustomSongWidget::updateProgressBar - 0xc86a0
 CustomSongWidget::updateSongInfo - 0xc8800
 CustomSongWidget::updateWithMultiAssets - 0xc9610
+CustomSongWidget::positionInfoObjects - 0xc6ac0
 CustomSongWidget::loadSongInfoFinished - 0xc9f40
 CustomSongWidget::loadSongInfoFailed - 0xca090
 CustomSongWidget::downloadSongFinished - 0xca120
@@ -912,6 +916,7 @@ GameManager::reportPercentageForLevel - 0x1748a0
 GameManager::returnToLastScene - 0x180350
 GameManager::safePopScene - 0x180700
 GameManager::setGameVariable - 0x179e80
+GameManager::setIntGameVariable - 0x17a5e0
 GameManager::setUGV - 0x17a310
 GameManager::sheetNameForIcon - 0x179460
 GameManager::toggleGameVariable - 0x17a260
@@ -1802,6 +1807,7 @@ MusicDownloadManager::downloadCustomSong - 0x31f240
 MusicDownloadManager::downloadSong - 0x31d960
 MusicDownloadManager::downloadSongFailed - 0x323250
 MusicDownloadManager::generateCustomContentURL - 0x3227c0
+MusicDownloadManager::getCustomContentURL - 0x31ee40
 MusicDownloadManager::getDLObject - 0x38f40
 MusicDownloadManager::getDownloadedSongs - 0x31d5a0
 MusicDownloadManager::getSongInfo - 0x31c680
