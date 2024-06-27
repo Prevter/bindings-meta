@@ -1713,6 +1713,7 @@ GJGameLevel::create - 0x4891fc
 GJGameLevel::dataLoaded - 0x4b2db0
 GJGameLevel::getAudioFileName - 0x4b1710
 GJGameLevel::getAverageDifficulty - 0x4b14cc
+GJGameLevel::lengthKeyToString - 0x4b13f4
 GJGameLevel::savePercentage - 0xf06c4
 GJGameLevel::encodeWithCoder - 0x4b3c80
 GJGameLevel::canEncode - 0x4b4778

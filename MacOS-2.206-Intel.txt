@@ -1309,6 +1309,7 @@ EditorOptionsLayer::setupOptions - 0x299e90
 EditorPauseLayer::create - 0x28ce10
 EditorPauseLayer::init - 0x28cf10
 EditorPauseLayer::onSaveAndPlay - 0x28f650
+EditorPauseLayer::saveLevel - 0x290670
 EditorPauseLayer::keyBackClicked - 0x290db0
 EditorPauseLayer::keyDown - 0x290ea0
 EditorPauseLayer::customSetup - 0x28d840
@@ -1467,6 +1468,7 @@ GameCell::init - 0x30c840
 GameCell::draw - 0x30c900
 GameLevelManager::sharedState - 0x5233f0
 GameLevelManager::deleteLevel - 0x533f10
+GameLevelManager::deleteLevelList - 0x534810
 GameLevelManager::deleteSentFriendRequest - 0x55bc60
 GameLevelManager::deleteServerLevel - 0x54e760
 GameLevelManager::deleteUserMessages - 0x5566e0
@@ -2015,6 +2017,7 @@ LevelBrowserLayer::create - 0x494190
 LevelBrowserLayer::scene - 0x494150
 LevelBrowserLayer::init - 0x494360
 LevelBrowserLayer::loadPage - 0x497710
+LevelBrowserLayer::onDeleteSelected - 0x496030
 LevelBrowserLayer::onGoToPage - 0x495f20
 LevelBrowserLayer::onNextPage - 0x495dc0
 LevelBrowserLayer::onPrevPage - 0x495d80
