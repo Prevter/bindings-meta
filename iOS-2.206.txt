@@ -542,6 +542,7 @@ MenuLayer::willClose - 0x275e78
 MenuLayer::init - 0x27604c
 MenuLayer::keyBackClicked - 0x277b74
 MenuLayer::FLAlert_Clicked - 0x277c30
+MoreOptionsLayer::MoreOptionsLayer - 0xf508c
 MoreOptionsLayer::create - 0xeed0c
 MoreOptionsLayer::addToggle - 0xf00d0
 MoreOptionsLayer::goToPage - 0xf07e4
