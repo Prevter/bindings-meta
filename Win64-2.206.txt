@@ -1856,6 +1856,7 @@ OptionsLayer::layerHidden - 0x351cb0
 OptionsScrollLayer::keyBackClicked - 0x31a670
 ParticleGameObject::updateParticle - 0x474740
 PauseLayer::goEdit - 0x35cac0
+PauseLayer::init - 0x41660
 PauseLayer::onEdit - 0x35c8f0
 PauseLayer::onNormalMode - 0x35c640
 PauseLayer::onPracticeMode - 0x35c560

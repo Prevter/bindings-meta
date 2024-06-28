@@ -1319,7 +1319,9 @@ DrawGridLayer::draw - 0xf9b90
 DungeonBarsSprite::init - 0x4b2440
 DungeonBarsSprite::visit - 0x4b24c0
 EditLevelLayer::~EditLevelLayer - 0x1f42c0
+EditLevelLayer::create - 0x1f45e0
 EditLevelLayer::init - 0x1f4710
+EditLevelLayer::scene - 0x1f4480
 EditLevelLayer::keyBackClicked - 0x1f8d50
 EditLevelLayer::keyDown - 0x1f8d80
 EditLevelLayer::setIDPopupClosed - 0x1f8c50

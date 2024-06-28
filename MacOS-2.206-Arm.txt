@@ -502,7 +502,7 @@ cocos2d::CCRenderTexture::draw - 0x527814
 cocos2d::CCRenderTexture::visit - 0x527788
 cocos2d::CCRenderTexture::getSprite - 0x526a34
 cocos2d::CCRenderTexture::setSprite - 0x526a3c
-cocos2d::CCRepeat::create - 0x33daf8
+cocos2d::CCRepeat::create - 0x33daf0
 cocos2d::CCRepeatForever::create - 0x33e16c
 cocos2d::CCTransitionMoveInT::create - 0xc0d10
 cocos2d::CCTransitionFade::create - 0xc36e4
@@ -1326,9 +1326,10 @@ DrawGridLayer::draw - 0xdc064
 DungeonBarsSprite::init - 0x414e48
 DungeonBarsSprite::visit - 0x414ec8
 EditLevelLayer::~EditLevelLayer - 0x1a7544
-EditLevelLayer::create - 0x1a757c
+EditLevelLayer::create - 0x1a7680
 EditLevelLayer::init - 0x1a7764
 EditLevelLayer::onShare - 0x1a90d4
+EditLevelLayer::scene - 0x1a757c
 EditLevelLayer::keyBackClicked - 0x1abb90
 EditLevelLayer::keyDown - 0x1abb9c
 EditLevelLayer::setIDPopupClosed - 0x1aba88
