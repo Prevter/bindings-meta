@@ -1477,6 +1477,7 @@ LevelCell::loadLocalLevelCell - 0xaea50
 LevelCell::onClick - 0xaf4e0
 LevelCell::onToggle - 0xac0f0
 LevelCell::onViewProfile - 0xaf700
+LevelCell::updateCellMode - 0xaf250
 LevelCell::init - 0xabf10
 LevelCell::draw - 0xaf740
 LevelEditorLayer::create - 0x2be3b0
