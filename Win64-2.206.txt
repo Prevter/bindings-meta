@@ -645,6 +645,7 @@ EditorUI::selectBuildTab - 0x110b20
 EditorUI::selectObject - 0x10c9f0
 EditorUI::selectObjects - 0x10cce0
 EditorUI::setupCreateMenu - 0xe44b0
+EditorUI::shouldDeleteObject - 0xe27f0
 EditorUI::showMaxError - 0x10ed00
 EditorUI::showUI - 0x10dda0
 EditorUI::sliderChanged - 0xdef40
