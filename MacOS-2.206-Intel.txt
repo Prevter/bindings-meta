@@ -1348,6 +1348,7 @@ EditorUI::create - 0x9460
 EditorUI::editGroup - 0x2c790
 EditorUI::init - 0x94c0
 EditorUI::onPause - 0x2abd0
+EditorUI::onPlayback - 0xc7a0
 EditorUI::onPlaytest - 0xca00
 EditorUI::onStopPlaytest - 0xcc40
 EditorUI::showUI - 0x3dd70
