@@ -1850,8 +1850,11 @@ OBB2D::overlaps1Way - 0x6cc10
 ObjectToolbox::sharedState - 0x327460
 OptionsCell::loadFromObject - 0xb2d00
 OptionsLayer::musicSliderChanged - 0x351110
+OptionsLayer::onAccount - 0x351bd0
+OptionsLayer::onHelp - 0x351b80
 OptionsLayer::onOptions - 0x3512f0
 OptionsLayer::onSecretVault - 0x351450
+OptionsLayer::onSupport - 0x351c90
 OptionsLayer::sfxSliderChanged - 0x351210
 OptionsLayer::customSetup - 0x3504c0
 OptionsLayer::layerHidden - 0x351cb0
