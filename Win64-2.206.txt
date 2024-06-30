@@ -174,7 +174,6 @@ AnimatedGameObject::displayFrameChanged - 0x478fd0
 CCAnimatedSprite::initWithType - 0x3f140
 CCAnimatedSprite::loadType - 0x3f360
 CCAnimatedSprite::runAnimation - 0x3fe00
-CCAnimatedSprite::switchToMode - 0x3fe70
 CCAnimatedSprite::tweenToAnimation - 0x3fe70
 CCAnimatedSprite::tweenToAnimationFinished - 0x40140
 CCAnimatedSprite::setOpacity - 0x401f0
@@ -452,7 +451,6 @@ CustomSongWidget::create - 0xc56f0
 CustomSongWidget::deleteSong - 0xc7360
 CustomSongWidget::downloadAssetFailed - 0xca6a0
 CustomSongWidget::downloadAssetFinished - 0xca5e0
-CustomSongWidget::downloadFailed - 0xca840
 CustomSongWidget::getSongInfoIfUnloaded - 0xc7cf0
 CustomSongWidget::init - 0xc5900
 CustomSongWidget::onCancelDownload - 0xc7db0
@@ -474,7 +472,6 @@ CustomSongWidget::updatePlaybackBtn - 0xc85b0
 CustomSongWidget::updateProgressBar - 0xc86a0
 CustomSongWidget::updateSongInfo - 0xc8800
 CustomSongWidget::updateWithMultiAssets - 0xc9610
-CustomSongWidget::positionInfoObjects - 0xc6ac0
 CustomSongWidget::loadSongInfoFinished - 0xc9f40
 CustomSongWidget::loadSongInfoFailed - 0xca090
 CustomSongWidget::downloadSongFinished - 0xca120
@@ -498,6 +495,7 @@ DailyLevelPage::dailyStatusFinished - 0xcc8d0
 DailyLevelPage::dailyStatusFailed - 0xccb90
 DailyLevelPage::levelDownloadFinished - 0xcce80
 DailyLevelPage::levelDownloadFailed - 0xccee0
+RingObject::create - 0x475b70
 DemonFilterSelectLayer::onClose - 0x2f79c0
 DemonFilterSelectLayer::selectRating - 0x2f7900
 DemonFilterSelectLayer::init - 0x2f72c0
@@ -929,6 +927,7 @@ GameManager::init - 0x172b80
 GameManager::encodeDataTo - 0x17f3a0
 GameManager::dataLoaded - 0x17d3e0
 GameManager::firstLoad - 0x17eae0
+GameObjectCopy::resetObject - 0x2cfda0
 GameOptionsLayer::onPracticeMusicSync - 0x28e010
 GameStatsManager::sharedState - 0x1c6e60
 GameStatsManager::addStoreItem - 0x1ca0b0
@@ -1060,10 +1059,18 @@ GJBaseGameLayer::playerWillSwitchMode - 0x203a50
 GJBaseGameLayer::playExitDualEffect - 0x207710
 GJBaseGameLayer::positionForShaderTarget - 0x213d40
 GJBaseGameLayer::processActivatedAudioTriggers - 0x232a70
+GJBaseGameLayer::processAdvancedFollowActions - 0x21f8e0
+GJBaseGameLayer::processAreaActions - 0x2197d0
 GJBaseGameLayer::processCommands - 0x229830
+GJBaseGameLayer::processDynamicObjectActions - 0x21ea80
+GJBaseGameLayer::processFollowActions - 0x220d80
+GJBaseGameLayer::processMoveActions - 0x21ddb0
 GJBaseGameLayer::processMoveActionsStep - 0x21bde0
+GJBaseGameLayer::processPlayerFollowActions - 0x21e6d0
 GJBaseGameLayer::processQueuedAudioTriggers - 0x22ac10
 GJBaseGameLayer::processQueuedButtons - 0x221f00
+GJBaseGameLayer::processRotationActions - 0x21c000
+GJBaseGameLayer::processTransformActions - 0x21ce90
 GJBaseGameLayer::refreshCounterLabels - 0x225560
 GJBaseGameLayer::removeFromGroups - 0x2148b0
 GJBaseGameLayer::removeObjectFromSection - 0x2175f0
@@ -1104,7 +1111,6 @@ GJBaseGameLayer::updateGuideArt - 0x235770
 GJBaseGameLayer::updateLevelColors - 0x1fd240
 GJBaseGameLayer::updateMaxGameplayY - 0x229ff0
 GJBaseGameLayer::updateMGOffsetY - 0x226060
-GJBaseGameLayer::updateOBB2 - 0x6c560
 GJBaseGameLayer::updateProximityVolumeEffects - 0x231420
 GJBaseGameLayer::updateShaderLayer - 0x212aa0
 GJBaseGameLayer::updateSpecialGroupData - 0x1fecf0
@@ -1343,6 +1349,7 @@ GJSongBrowser::customSetup - 0x2a4e00
 GJSongBrowser::FLAlert_Clicked - 0x2a5540
 GJSpecialColorSelect::keyBackClicked - 0x2a6440
 GJSpiderSprite::create - 0x2957b0
+GJTransformControl::refreshControl - 0x127180
 GJTransformControl::updateButtons - 0x127460
 GJTransformControl::ccTouchBegan - 0x1282c0
 GJTransformControl::ccTouchMoved - 0x128490
@@ -2368,6 +2375,7 @@ UILayer::keyUp - 0x4a1230
 UIOptionsLayer::ccTouchBegan - 0x2919d0
 UIOptionsLayer::ccTouchMoved - 0x291b20
 UIOptionsLayer::ccTouchEnded - 0x291c50
+UndoObject::init - 0x2cfca0
 UpdateAccountSettingsPopup::keyBackClicked - 0x282f90
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x282c10
 UpdateAccountSettingsPopup::updateSettingsFailed - 0x282d10
