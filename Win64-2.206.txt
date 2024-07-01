@@ -1194,6 +1194,7 @@ GJGameLevel::dataLoaded - 0x1658e0
 GJGameLevel::getAudioFileName - 0x164b80
 GJGameLevel::getAverageDifficulty - 0x1649c0
 GJGameLevel::getUnpackedLevelDescription - 0x1678e0
+GJGameLevel::handleStatsConflict - 0x167410
 GJGameLevel::lengthKeyToString - 0x164860
 GJGameLevel::savePercentage - 0x164540
 GJGameLevel::encodeWithCoder - 0x166820
@@ -1242,6 +1243,7 @@ GJItemIcon::toggleEnabledState - 0x269400
 GJItemIcon::setOpacity - 0x2690b0
 GJLevelList::create - 0x16de90
 GJLevelList::create - 0x16d5a0
+GJLevelList::completedLevels - 0x16ef90
 GJLevelList::dataLoaded - 0x16f3c0
 GJLevelList::getUnpackedDescription - 0x16e2b0
 GJLevelList::showListInfo - 0x16eff0
@@ -1737,6 +1739,8 @@ LoadingLayer::updateProgress - 0x30e380
 LocalLevelManager::sharedState - 0x30f5d0
 LocalLevelManager::getAllLevelsInDict - 0x30fa40
 LocalLevelManager::getMainLevelString - 0x30f930
+LocalLevelManager::updateLevelOrder - 0x30ff30
+LocalLevelManager::updateLevelRevision - 0x30fba0
 LocalLevelManager::init - 0x30f670
 LocalLevelManager::encodeDataTo - 0x310040
 LocalLevelManager::dataLoaded - 0x3100a0

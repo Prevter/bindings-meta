@@ -479,10 +479,13 @@ cocos2d::CCActionManager::pauseTarget - 0x1dcc88
 cocos2d::CCActionManager::resumeTarget - 0x1dcd84
 cocos2d::CCApplication::sharedApplication - 0x2b7f38
 cocos2d::CCApplication::openURL - 0x2b877c
+cocos2d::CCArray::removeObject - 0x63ff10
+cocos2d::CCArray::stringAtIndex - 0x63fd9c
 cocos2d::CCDictionary::create - 0x2a0fac
 cocos2d::CCDictionary::createWithContentsOfFile - 0x2a1138
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2a1030
 cocos2d::CCDictionary::setObject - 0x29f8f0
+cocos2d::CCDictionary::allKeys - 0x29efec
 cocos2d::CCDictionary::count - 0x29efd0
 cocos2d::CCDictionary::objectForKey - 0x29f408
 cocos2d::CCDictionary::objectForKey - 0x29f714
@@ -629,6 +632,8 @@ cocos2d::CCMenu::ccTouchCancelled - 0x6a7548
 cocos2d::CCRotateBy::create - 0x33f2a0
 cocos2d::CCDelayTime::create - 0x33eab0
 DS_Dictionary::DS_Dictionary - 0x13e1c8
+DS_Dictionary::getArrayForKey - 0x14497c
+DS_Dictionary::getIntegerForKey - 0x141c08
 DS_Dictionary::loadRootSubDictFromString - 0x13f9b4
 DS_Dictionary::saveRootSubDictToString - 0x140bcc
 DS_Dictionary::stepIntoSubDictWithKey - 0x14113c
@@ -1652,7 +1657,6 @@ GJBaseGameLayer::queueButton - 0x114c98
 GJBaseGameLayer::refreshCounterLabels - 0x117998
 GJBaseGameLayer::refreshKeyframeAnims - 0xeecfc
 GJBaseGameLayer::removeObjectFromSection - 0xfb364
-GJBaseGameLayer::reparentObject - 0x63fd70
 GJBaseGameLayer::resetActiveEnterEffects - 0xef414
 GJBaseGameLayer::resetAudio - 0x11a408
 GJBaseGameLayer::resetCamera - 0x11fd2c
@@ -1754,6 +1758,7 @@ GJGameLevel::create - 0x4891fc
 GJGameLevel::dataLoaded - 0x4b2db0
 GJGameLevel::getAudioFileName - 0x4b1710
 GJGameLevel::getAverageDifficulty - 0x4b14cc
+GJGameLevel::handleStatsConflict - 0x495334
 GJGameLevel::lengthKeyToString - 0x4b13f4
 GJGameLevel::savePercentage - 0xf06c4
 GJGameLevel::encodeWithCoder - 0x4b3c80
@@ -2246,6 +2251,8 @@ LoadingLayer::init - 0x32bec4
 LoadingLayer::loadAssets - 0x32c720
 LoadingLayer::scene - 0x32bd2c
 LocalLevelManager::sharedState - 0x527e4c
+LocalLevelManager::getLevelsInNameGroups - 0x528540
+LocalLevelManager::updateLevelRevision - 0x528ad0
 LocalLevelManager::init - 0x527fcc
 LocalLevelManager::encodeDataTo - 0x52936c
 LocalLevelManager::dataLoaded - 0x5293c4

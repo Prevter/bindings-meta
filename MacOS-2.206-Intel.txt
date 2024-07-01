@@ -1770,6 +1770,7 @@ GJGameLevel::demonIconForDifficulty - 0x566800
 GJGameLevel::getAudioFileName - 0x562f90
 GJGameLevel::getAverageDifficulty - 0x562d50
 GJGameLevel::getLengthKey - 0x562c70
+GJGameLevel::handleStatsConflict - 0x543750
 GJGameLevel::lengthKeyToString - 0x562cb0
 GJGameLevel::savePercentage - 0x562730
 GJGameLevel::encodeWithCoder - 0x565af0
