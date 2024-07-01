@@ -1402,6 +1402,8 @@ EditorUI::scaleChangeBegin - 0x3b070
 EditorUI::scaleXChanged - 0x3b094
 EditorUI::scaleYChanged - 0x3b6cc
 EditorUI::scaleXYChanged - 0x3b810
+EditTriggersPopup::create - 0x239848
+EditTriggersPopup::init - 0x2399d0
 EndLevelLayer::keyBackClicked - 0x42bd68
 EndLevelLayer::keyDown - 0x42c500
 EndLevelLayer::customSetup - 0x428e80

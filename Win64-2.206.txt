@@ -702,6 +702,8 @@ EditorUI::scaleChangeBegin - 0x111240
 EditorUI::scaleXChanged - 0x111250
 EditorUI::scaleYChanged - 0x111300
 EditorUI::scaleXYChanged - 0x1113b0
+EditTriggersPopup::create - 0x27c920
+EditTriggersPopup::init - 0x27ca30
 EndLevelLayer::coinEnterFinished - 0x131d20
 EndLevelLayer::coinEnterFinishedO - 0x131ce0
 EndLevelLayer::currencyEnterFinished - 0x1323d0

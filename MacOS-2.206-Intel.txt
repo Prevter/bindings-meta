@@ -1390,6 +1390,8 @@ EditorUI::scaleChangeBegin - 0x3fd70
 EditorUI::scaleXChanged - 0x3fdd0
 EditorUI::scaleYChanged - 0x40540
 EditorUI::scaleXYChanged - 0x40690
+EditTriggersPopup::create - 0x296a30
+EditTriggersPopup::init - 0x296c60
 EditTriggersPopup::determineStartValues - 0x296f20
 EditTriggersPopup::onClose - 0x296f30
 EndLevelLayer::keyBackClicked - 0x4ccf00
@@ -2516,6 +2518,7 @@ PlayerObject::toggleSwingMode - 0x420890
 PlayerObject::updateEffects - 0x40bd80
 PlayerObject::updateGlowColor - 0x423390
 PlayerObject::updateJump - 0x407100
+PlayerObject::updatePlayerArt - 0x41f0a0
 PlayerObject::updatePlayerBirdFrame - 0x4205f0
 PlayerObject::updatePlayerDartFrame - 0x4216e0
 PlayerObject::updatePlayerFrame - 0x420f90
