@@ -1511,6 +1511,7 @@ GameLevelManager::deleteServerLevel - 0x49e9a0
 GameLevelManager::deleteUserMessages - 0x4a5858
 GameLevelManager::downloadLevel - 0x49bed4
 GameLevelManager::getCompletedLevels - 0x48e9e0
+GameLevelManager::getFolderName - 0x4935bc
 GameLevelManager::getGJRewards - 0x4ae6d4
 GameLevelManager::getGJUserInfo - 0x4a36d8
 GameLevelManager::getLevelSaveData - 0x498ffc
@@ -1530,6 +1531,7 @@ GameLevelManager::hasRatedLevelStars - 0x49e4e8
 GameLevelManager::isFollowingUser - 0x492fc8
 GameLevelManager::isTimeValid - 0x4915d8
 GameLevelManager::isUpdateValid - 0x49d9dc
+GameLevelManager::setFolderName - 0x493740
 GameLevelManager::storeUserName - 0x4885f4
 GameLevelManager::updateUserScore - 0x49f9d0
 GameLevelManager::uploadUserMessage - 0x4a5270
@@ -2650,6 +2652,11 @@ ScrollingLayer::ccTouchMoved - 0x640844
 ScrollingLayer::ccTouchEnded - 0x640940
 ScrollingLayer::ccTouchCancelled - 0x640978
 SetTextPopup::create - 0x24af3c
+SetTextPopup::init - 0x24b7b4
+SetTextPopup::onCancel - 0x24bff4
+SetTextPopup::onClose - 0x24be84
+SetTextPopup::onResetValue - 0x24bfc4
+SetTextPopup::updateTextInputLabel - 0x24c000
 SetTextPopup::keyBackClicked - 0x24c27c
 SetTextPopup::show - 0x24c230
 SetTextPopup::textInputClosed - 0x24c0f4
@@ -2703,6 +2710,9 @@ SequenceTriggerGameObject::triggerObject - 0x17ba0c
 SequenceTriggerGameObject::customObjectSetup - 0x17be98
 SequenceTriggerGameObject::getSaveString - 0x17c314
 SetColorIDPopup::colorSelectClosed - 0x249f14
+SetFolderPopup::create - 0x24a738
+SetFolderPopup::init - 0x24a920
+SetFolderPopup::onSetFolderName - 0x24abe0
 SetFolderPopup::valueChanged - 0x24add0
 SetFolderPopup::setTextPopupClosed - 0x24b3b8
 SetGroupIDLayer::create - 0x2a305c

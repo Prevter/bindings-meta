@@ -819,6 +819,7 @@ GameLevelManager::downloadLevel - 0x14c650
 GameLevelManager::encodeDataTo - 0x1458b0
 GameLevelManager::getBasePostString - 0x146db0
 GameLevelManager::getCompletedLevels - 0x142d40
+GameLevelManager::getFolderName - 0x1453c0
 GameLevelManager::getGJChallenges - 0x15fee0
 GameLevelManager::getGJDailyLevelState - 0x161140
 GameLevelManager::getGJRewards - 0x15eaa0
@@ -1680,6 +1681,7 @@ LevelSearchLayer::textInputOpened - 0x2ef220
 LevelSearchLayer::textInputClosed - 0x2ef370
 LevelSearchLayer::FLAlert_Clicked - 0x2ef1e0
 LevelSearchLayer::demonFilterSelectClosed - 0x2edd10
+LevelSelectLayer::create - 0x2f7c30
 LevelSelectLayer::colorForPage - 0x2f8ee0
 LevelSelectLayer::init - 0x2f7d60
 LevelSelectLayer::onBack - 0x2f9380
@@ -1724,6 +1726,8 @@ LoadingCircle::create - 0x6a3c0
 LoadingCircle::fadeAndRemove - 0x6a6a0
 LoadingCircle::show - 0x6a5a0
 LoadingCircle::init - 0x6a4c0
+LoadingLayer::create - 0x30da50
+LoadingLayer::getLoadingString - 0x30ee90
 LoadingLayer::init - 0x30db60
 LoadingLayer::loadAssets - 0x30e400
 LoadingLayer::scene - 0x30da50
@@ -2124,6 +2128,7 @@ RateStarsLayer::keyBackClicked - 0x3a7180
 RateStarsLayer::uploadActionFinished - 0x3a6f80
 RateStarsLayer::uploadActionFailed - 0x3a7000
 RateStarsLayer::onClosePopup - 0x3a70c0
+RetryLevelLayer::create - 0x389490
 RetryLevelLayer::onMenu - 0x3a8110
 RetryLevelLayer::setupLastProgress - 0x3a7a50
 RetryLevelLayer::keyBackClicked - 0x3a8230
@@ -2145,8 +2150,12 @@ SearchButton::create - 0x2f21f0
 SearchButton::init - 0x2f22c0
 SetTextPopup::create - 0x28ac50
 SetTextPopup::init - 0x28adc0
+SetTextPopup::onCancel - 0x28b7f0
+SetTextPopup::onClose - 0x28b880
+SetTextPopup::onResetValue - 0x28b6a0
 SetTextPopup::keyBackClicked - 0x28b910
 SetTextPopup::show - 0x8a220
+SetTextPopup::textInputClosed - 0x89f80
 SetTextPopup::textChanged - 0x28b700
 SecretLayer::onBack - 0x3bc630
 SecretLayer::onSubmit - 0x3b85c0
@@ -2200,6 +2209,7 @@ SetColorIDPopup::colorSelectClosed - 0x28a170
 SetFolderPopup::create - 0x28a310
 SetFolderPopup::init - 0x28a450
 SetFolderPopup::onSetFolderName - 0x28a810
+SetFolderPopup::valueChanged - 0x28a6d0
 SetFolderPopup::setTextPopupClosed - 0x28aa10
 SetGroupIDLayer::init - 0x3cde60
 SetGroupIDLayer::keyBackClicked - 0x3d2ee0
