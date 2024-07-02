@@ -770,6 +770,7 @@ GameObject::copyGroups - 0x5c70a0
 GameObject::createSpriteColor - 0x5aaaf0
 GameObject::createWithFrame - 0x5aa890
 GameObject::determineSlopeDirection - 0x5c6ad0
+GameObject::getGroupDisabled - 0x5c73e0
 GameObject::getGroupID - 0x5c7080
 GameObject::getLastPosition - 0x5d3a00
 GameObject::groupOpacityMod - 0x5c7ab0
@@ -1360,6 +1361,7 @@ EditorOptionsLayer::onClose - 0x29a840
 EditorOptionsLayer::setupOptions - 0x299e90
 EditorPauseLayer::create - 0x28ce10
 EditorPauseLayer::init - 0x28cf10
+EditorPauseLayer::onResume - 0x28f5e0
 EditorPauseLayer::onSaveAndPlay - 0x28f650
 EditorPauseLayer::saveLevel - 0x290670
 EditorPauseLayer::keyBackClicked - 0x290db0
@@ -2530,8 +2532,10 @@ PlayerFireBoostSprite::animateFireOut - 0x421230
 PlayerFireBoostSprite::loopFireAnimation - 0x420f00
 PlayerFireBoostSprite::init - 0x4262a0
 PlayerObject::create - 0x403500
+PlayerObject::activateStreak - 0x40c550
 PlayerObject::addToTouchedRings - 0x41ecf0
 PlayerObject::animatePlatformerJump - 0x40cdb0
+PlayerObject::boostPlayer - 0x40f770
 PlayerObject::bumpPlayer - 0x423f30
 PlayerObject::collidedWithObject - 0x40fa20
 PlayerObject::collidedWithObject - 0x416340
@@ -2554,6 +2558,7 @@ PlayerObject::playDeathEffect - 0x206990
 PlayerObject::playerDestroyed - 0x41cdd0
 PlayerObject::playingEndEffect - 0x423eb0
 PlayerObject::playSpiderDashEffect - 0x417a50
+PlayerObject::postCollision - 0x40d9d0
 PlayerObject::propellPlayer - 0x424240
 PlayerObject::pushButton - 0x41d330
 PlayerObject::releaseAllButtons - 0x423a90
@@ -2636,6 +2641,9 @@ PlayLayer::setupHasCompleted - 0xadb00
 PlayLayer::showCompleteEffect - 0xb4f00
 PlayLayer::showCompleteText - 0xb5380
 PlayLayer::showNewBest - 0xb5fd0
+PlayLayer::startGame - 0xb3e30
+PlayLayer::startMusic - 0xb4130
+PlayLayer::storeCheckpoint - 0xbe2a0
 PlayLayer::togglePracticeMode - 0xbefe0
 PlayLayer::updateEffectPositions - 0xbba40
 PlayLayer::updateInfoLabel - 0xb0120
@@ -3011,6 +3019,7 @@ SFXTriggerGameObject::getSaveString - 0x1c4b10
 ShaderGameObject::customSetup - 0x198980
 ShaderGameObject::customObjectSetup - 0x19d750
 ShaderGameObject::getSaveString - 0x1989f0
+ShaderLayer::performCalculations - 0x3d55f0
 ShaderLayer::update - 0x3cfaa0
 ShaderLayer::init - 0x3ce300
 ShaderLayer::visit - 0x3d5910

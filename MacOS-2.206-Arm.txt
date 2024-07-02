@@ -780,6 +780,7 @@ GameObject::addToCustomScaleY - 0x4f407c
 GameObject::commonSetup - 0x4ed04c
 GameObject::createSpriteColor - 0x4ed1f8
 GameObject::createWithFrame - 0x4ecf80
+GameObject::getGroupDisabled - 0x4f660c
 GameObject::init - 0x4ed010
 GameObject::isFacingDown - 0x50012c
 GameObject::isFacingLeft - 0x5001d8
@@ -2524,6 +2525,7 @@ PlayerObject::playDeathEffect - 0x1b7ef4
 PlayerObject::playerDestroyed - 0x392264
 PlayerObject::playingEndEffect - 0x398a84
 PlayerObject::playSpiderDashEffect - 0x38d940
+PlayerObject::postCollision - 0x385734
 PlayerObject::preCollision - 0x3855d8
 PlayerObject::propellPlayer - 0x398e28
 PlayerObject::pushButton - 0x27f4b0
