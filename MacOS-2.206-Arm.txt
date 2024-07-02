@@ -1792,6 +1792,8 @@ GJItemIcon::setOpacity - 0x2fea70
 GJLevelList::create - 0x487c24
 GJLevelList::create - 0x4877e8
 GJLevelList::dataLoaded - 0x4b8464
+GJLevelList::handleStatsConflict - 0x4b6d14
+GJLevelList::hasMatchingLevels - 0x4b6d2c
 GJLevelList::encodeWithCoder - 0x4b8794
 GJLevelList::canEncode - 0x4b89cc
 GJLevelList::init - 0x4b6c9c

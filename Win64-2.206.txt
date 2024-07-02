@@ -1246,6 +1246,7 @@ GJLevelList::create - 0x16d5a0
 GJLevelList::completedLevels - 0x16ef90
 GJLevelList::dataLoaded - 0x16f3c0
 GJLevelList::getUnpackedDescription - 0x16e2b0
+GJLevelList::hasMatchingLevels - 0x16e0a0
 GJLevelList::showListInfo - 0x16eff0
 GJLevelList::encodeWithCoder - 0x16f6e0
 GJLevelScoreCell::loadFromScore - 0xb7760
@@ -1730,7 +1731,6 @@ LoadingCircle::create - 0x6a3c0
 LoadingCircle::fadeAndRemove - 0x6a6a0
 LoadingCircle::show - 0x6a5a0
 LoadingCircle::init - 0x6a4c0
-LoadingLayer::create - 0x30da50
 LoadingLayer::getLoadingString - 0x30ee90
 LoadingLayer::init - 0x30db60
 LoadingLayer::loadAssets - 0x30e400
