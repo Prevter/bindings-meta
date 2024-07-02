@@ -1756,14 +1756,17 @@ LocalLevelManager::firstLoad - 0x30ffb0
 MapPackCell::loadFromMapPack - 0xaf940
 MapPackCell::init - 0xaf8e0
 MenuGameLayer::destroyPlayer - 0x3129e0
+MenuGameLayer::getBGColor - 0x311340
 MenuGameLayer::resetPlayer - 0x311db0
 MenuGameLayer::tryJump - 0x311610
 MenuGameLayer::updateColor - 0x3111f0
 MenuGameLayer::update - 0x3118e0
 MenuGameLayer::init - 0x310ac0
 MenuGameLayer::ccTouchBegan - 0x312c60
+MenuGameLayer::ccTouchCancelled - 0x6fd20
 MenuGameLayer::registerWithTouchDispatcher - 0x312e10
 MenuLayer::scene - 0x312f60
+MenuLayer::endGame - 0x315a30
 MenuLayer::firstNetworkTest - 0x314950
 MenuLayer::onAchievements - 0x314e80
 MenuLayer::onCreator - 0x315390

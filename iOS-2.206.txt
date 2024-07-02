@@ -513,6 +513,7 @@ LoadingLayer::scene - 0x1df968
 LoadingLayer::updateProgress - 0x1e01a0
 LocalLevelManager::sharedState - 0x1d1c58
 LocalLevelManager::tryLoadMainLevelString - 0x1d1db8
+MenuGameLayer::MenuGameLayer - 0x3a4d88
 MenuGameLayer::create - 0x3a3858
 MenuLayer::scene - 0x275ef0
 MenuLayer::endGame - 0x277ddc
