@@ -3,6 +3,9 @@ cocos2d::CCEGLViewProtocol::setTouchDelegate - 0x518010
 cocos2d::CCEaseIn::create - 0x51cbe0
 cocos2d::CCEaseOut::create - 0x51ce00
 cocos2d::CCEaseInOut::create - 0x51d020
+cocos2d::CCEaseBackOut::create - 0x51f5f0
+cocos2d::CCEaseElasticOut::create - 0x51e430
+cocos2d::CCEaseElasticOut::create - 0x51e350
 cocos2d::CCEaseExponentialOut::create - 0x51d480
 cocos2d::CCEaseSineIn::create - 0x51d8a0
 cocos2d::CCEaseSineOut::create - 0x51da90
@@ -29,6 +32,7 @@ cocos2d::CCMoveBy::create - 0x3bb420
 cocos2d::CCMoveTo::create - 0x3bb800
 cocos2d::CCScaleBy::create - 0x3bd6d0
 cocos2d::CCScaleTo::create - 0x3bd2f0
+cocos2d::CCScaleTo::create - 0x3bd3f0
 cocos2d::CCTintTo::create - 0x3be5f0
 cocos2d::CCScene::create - 0x28cbf0
 cocos2d::CCScene::getHighestChildZ - 0x28cca0
@@ -342,6 +346,7 @@ cocos2d::CCTouchDispatcher::addTargetedDelegate - 0x4d59b0
 cocos2d::CCTouchDispatcher::findHandler - 0x4d5fe0
 cocos2d::CCTouchDispatcher::isUsingForcePrio - 0x4d5980
 cocos2d::CCTouchDispatcher::registerForcePrio - 0x4d5890
+cocos2d::CCTouchDispatcher::removeDelegate - 0x4d5e40
 cocos2d::CCTouchDispatcher::touches - 0x4d62a0
 cocos2d::CCTouchDispatcher::unregisterForcePrio - 0x4d5930
 cocos2d::CCTouchDispatcher::touchesBegan - 0x4d68e0
@@ -362,6 +367,7 @@ cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x4c6140
 cocos2d::CCIMEDispatcher::dispatchDeleteForward - 0x4c6160
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x4c6110
 cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x1fdbe0
+cocos2d::CCKeyboardDispatcher::keyToString - 0x1fdeb0
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x1fde80
 cocos2d::CCDirector::sharedDirector - 0x48b350
 cocos2d::CCDirector::getWinSize - 0x48c750
@@ -454,10 +460,12 @@ cocos2d::CCSprite::setOpacityModifyRGB - 0x2869b0
 cocos2d::CCSprite::isOpacityModifyRGB - 0x286b00
 cocos2d::CCSprite::setTexture - 0x2871d0
 cocos2d::CCSprite::getTexture - 0x287340
+cocos2d::CCLabelBMFont::CCLabelBMFont - 0x5e1420
 cocos2d::CCLabelBMFont::create - 0x5e0fa0
 cocos2d::CCLabelBMFont::create - 0x5e0ef0
 cocos2d::CCLabelBMFont::create - 0x5e0e50
 cocos2d::CCLabelBMFont::create - 0x5e0d30
+cocos2d::CCLabelBMFont::initWithString - 0x5e1050
 cocos2d::CCLabelBMFont::setFntFile - 0x5e4670
 cocos2d::CCLabelBMFont::createFontChars - 0x5e1780
 cocos2d::CCLabelBMFont::limitLabelWidth - 0x5e4790
@@ -666,6 +674,7 @@ cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x442160
 cocos2d::extension::CCHttpClient::dispatchResponseCallbacks - 0x441ea0
 cocos2d::ZipUtils::ccDeflateMemory - 0x1ff6c0
 cocos2d::ZipUtils::compressString - 0x1ff430
+cocos2d::CCSpeed::create - 0x5feea0
 pugi::xml_document::xml_document - 0x64d800
 pugi::xml_document::~xml_document - 0x64d950
 GJDropDownLayer::init - 0x5f18a0
@@ -1053,6 +1062,12 @@ CCSpriteWithHue::initWithSpriteFrame - 0x5fab60
 CCSpriteWithHue::getShaderName - 0x5fa3e0
 CCSpriteWithHue::shaderBody - 0x5faca0
 CCSpriteWithHue::updateColor - 0x5facc0
+CCSpriteGrayscale::create - 0x5fb690
+CCSpriteGrayscale::create - 0x5fb5d0
+CCSpriteGrayscale::createWithSpriteFrame - 0x5fb930
+CCSpriteGrayscale::createWithSpriteFrameName - 0x5fba10
+CCSpriteGrayscale::createWithTexture - 0x5fb860
+CCSpriteGrayscale::createWithTexture - 0x5fb760
 CCSpriteGrayscale::getShaderName - 0x5fb5b0
 CCSpriteGrayscale::shaderBody - 0x5fb3b0
 CCSpritePart::setVisible - 0x377410
@@ -1195,6 +1210,7 @@ CreateParticlePopup::textInputShouldOffset - 0x481060
 CreateParticlePopup::textInputReturn - 0x481120
 CreateParticlePopup::textInputClosed - 0x4807c0
 CreateParticlePopup::textChanged - 0x480800
+CreatorLayer::onChallenge - 0x2948b0
 CreatorLayer::init - 0x2934c0
 CreatorLayer::keyBackClicked - 0x295bf0
 CreatorLayer::sceneWillResume - 0x295b70
@@ -1326,6 +1342,7 @@ DungeonBarsSprite::visit - 0x4b24c0
 EditLevelLayer::~EditLevelLayer - 0x1f42c0
 EditLevelLayer::create - 0x1f45e0
 EditLevelLayer::init - 0x1f4710
+EditLevelLayer::onShare - 0x1f61c0
 EditLevelLayer::scene - 0x1f4480
 EditLevelLayer::keyBackClicked - 0x1f8d50
 EditLevelLayer::keyDown - 0x1f8d80
@@ -1612,6 +1629,8 @@ GameToolbox::createToggleButton - 0x4f9b80
 GameToolbox::getEasedAction - 0x4fc400
 GameToolbox::intToShortString - 0x501e80
 GameToolbox::particleFromString - 0x500b10
+GameToolbox::postClipVisit - 0x4f99e0
+GameToolbox::preVisitWithClippingRect - 0x4f98e0
 GameToolbox::stringSetupToDict - 0x4fbb70
 GauntletLayer::create - 0x3954e0
 GauntletLayer::init - 0x3956d0
@@ -1620,6 +1639,7 @@ GauntletLayer::loadLevelsFinished - 0x396e80
 GauntletLayer::loadLevelsFailed - 0x397010
 GauntletNode::init - 0x57abf0
 GauntletSelectLayer::init - 0x578d40
+GauntletSelectLayer::onBack - 0x579880
 GauntletSelectLayer::setupGauntlets - 0x579a60
 GauntletSelectLayer::onExit - 0x57ab60
 GauntletSelectLayer::keyBackClicked - 0x57aa30
@@ -1653,6 +1673,7 @@ GJBaseGameLayer::loadLevelSettings - 0x14cce0
 GJBaseGameLayer::objectTypeToGameEvent - 0x118d00
 GJBaseGameLayer::pauseAudio - 0x146fa0
 GJBaseGameLayer::playerTouchedRing - 0x11ca30
+GJBaseGameLayer::playerWillSwitchMode - 0x118a30
 GJBaseGameLayer::processAreaEffects - 0x1358e0
 GJBaseGameLayer::processAreaVisualActions - 0x1389e0
 GJBaseGameLayer::processCommands - 0x148740
@@ -1666,8 +1687,10 @@ GJBaseGameLayer::resetCamera - 0x14e1b0
 GJBaseGameLayer::resetLevelVariables - 0x14d150
 GJBaseGameLayer::setStartPosObject - 0x1176d0
 GJBaseGameLayer::shakeCamera - 0x14f790
+GJBaseGameLayer::switchToFlyMode - 0x118300
 GJBaseGameLayer::toggleAudioVisualizer - 0x1047d0
 GJBaseGameLayer::toggleDualMode - 0x117fa0
+GJBaseGameLayer::toggleFlipped - 0x11c4e0
 GJBaseGameLayer::toggleGroup - 0x131520
 GJBaseGameLayer::togglePlayerStreakBlend - 0x131910
 GJBaseGameLayer::triggerGradientCommand - 0x12d9e0
@@ -1806,6 +1829,15 @@ GJGarageLayer::dialogClosed - 0x371220
 GJGarageLayer::playerColorChanged - 0x370470
 GJGarageLayer::rewardedVideoFinished - 0x36de00
 GJGradientLayer::init - 0x159cf0
+GJItemIcon::create - 0x3727b0
+GJItemIcon::changeToLockedState - 0x36fcd0
+GJItemIcon::createBrowserItem - 0x36f580
+GJItemIcon::createStoreItem - 0x372780
+GJItemIcon::darkenStoreItem - 0x372fc0
+GJItemIcon::darkenStoreItem - 0x36fc60
+GJItemIcon::init - 0x3728c0
+GJItemIcon::scaleForType - 0x36f5b0
+GJItemIcon::unlockedColorForType - 0x372f60
 GJItemIcon::setOpacity - 0x372e20
 GJLevelList::create - 0x5346e0
 GJLevelList::create - 0x534200
@@ -2394,6 +2426,7 @@ MusicDownloadManager::getCustomContentURL - 0x5986c0
 MusicDownloadManager::getSongInfo - 0x592de0
 MusicDownloadManager::getSongInfoObject - 0x592c90
 MusicDownloadManager::isSongDownloaded - 0x5977f0
+MusicDownloadManager::pathForSFX - 0x597c20
 MusicDownloadManager::pathForSong - 0x596410
 MusicDownloadManager::pathForSongFolder - 0x5975b0
 MusicDownloadManager::songStateChanged - 0x592c00
@@ -2460,6 +2493,7 @@ PauseLayer::onQuit - 0x3db980
 PauseLayer::onRestart - 0x3db4b0
 PauseLayer::onRestartFull - 0x3db2c0
 PauseLayer::onResume - 0x3db280
+PauseLayer::onSettings - 0x3db4f0
 PauseLayer::tryQuit - 0x3db3b0
 PauseLayer::keyBackClicked - 0x3dbba0
 PauseLayer::keyDown - 0x3dbaa0
@@ -2494,6 +2528,7 @@ PlayerObject::init - 0x403590
 PlayerObject::isFlying - 0x40a810
 PlayerObject::loadFromCheckpoint - 0x425520
 PlayerObject::lockPlayer - 0x423ad0
+PlayerObject::modeDidChange - 0x4201b0
 PlayerObject::playCompleteEffect - 0x20eb00
 PlayerObject::playDeathEffect - 0x206990
 PlayerObject::playerDestroyed - 0x41cdd0
@@ -2559,6 +2594,7 @@ PlayerObject::animationFinished - 0x425df0
 PlayLayer::~PlayLayer - 0xab7d0
 PlayLayer::create - 0xabbf0
 PlayLayer::addObject - 0xb24e0
+PlayLayer::createObjectsFromSetupFinished - 0xb7740
 PlayLayer::delayedResetLevel - 0xbb940
 PlayLayer::fullReset - 0xbee70
 PlayLayer::incrementJumps - 0xbf5a0
@@ -2969,6 +3005,9 @@ ShareCommentLayer::textChanged - 0x5eac70
 ShareCommentLayer::uploadActionFinished - 0x5eaed0
 ShareCommentLayer::uploadActionFailed - 0x5eafd0
 ShareCommentLayer::onClosePopup - 0x5eb0f0
+ShareLevelLayer::create - 0x27c0a0
+ShareLevelLayer::init - 0x27c1f0
+ShareLevelLayer::onShare - 0x27d380
 ShareLevelLayer::keyBackClicked - 0x27da30
 ShareLevelSettingsLayer::keyBackClicked - 0x27f550
 ShareListLayer::keyBackClicked - 0x3649d0
@@ -3021,6 +3060,11 @@ SongInfoLayer::keyBackClicked - 0x60d190
 SongInfoObject::encodeWithCoder - 0x5a01f0
 SongInfoObject::canEncode - 0x5a03b0
 SongOptionsLayer::keyBackClicked - 0x211f30
+SongSelectNode::create - 0x213480
+SongSelectNode::audioNext - 0x213f00
+SongSelectNode::audioPrevious - 0x213ec0
+SongSelectNode::init - 0x2135a0
+SongSelectNode::updateAudioLabel - 0x213dd0
 SongSelectNode::FLAlert_Clicked - 0x2142e0
 SongSelectNode::customSongLayerClosed - 0x2143c0
 SongSelectNode::songIDChanged - 0x214420

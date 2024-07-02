@@ -50,7 +50,9 @@ AccountRegisterLayer::textInputReturn - 0x7a030
 AccountRegisterLayer::allowTextInput - 0x7a080
 AccountRegisterLayer::registerAccountFinished - 0x786a0
 AccountRegisterLayer::registerAccountFailed - 0x788c0
+AchievementBar::AchievementBar - 0x7eff0
 AchievementBar::init - 0x7f040
+AchievementBar::show - 0x805f0
 AchievementBar::setOpacity - 0x80870
 TableViewCell::TableViewCell - 0x755e0
 AchievementCell::loadFromDict - 0xaa740
@@ -63,6 +65,8 @@ AchievementManager::isAchievementEarned - 0x38c40
 AchievementManager::percentForAchievement - 0x38c60
 AchievementManager::init - 0x7e10
 AchievementNotifier::sharedState - 0x39cd0
+AchievementNotifier::notifyAchievement - 0x39db0
+AchievementNotifier::showNextAchievement - 0x39e90
 AchievementsLayer::loadPage - 0x80cd0
 AchievementsLayer::onNextPage - 0x80eb0
 AchievementsLayer::onPrevPage - 0x80ec0
@@ -295,6 +299,7 @@ ChallengesPage::createChallengeNode - 0x849f0
 ChallengesPage::exitNodeAtSlot - 0x84c80
 ChallengesPage::updateTimers - 0x84d70
 ChallengesPage::init - 0x83ca0
+ChallengesPage::registerWithTouchDispatcher - 0x41750
 ChallengesPage::keyBackClicked - 0x85190
 ChallengesPage::challengeStatusFinished - 0x84690
 ChallengesPage::challengeStatusFailed - 0x848d0
@@ -1001,6 +1006,7 @@ GauntletNode::init - 0x1edf90
 GauntletNode::nameForType - 0x1f0590
 GauntletSelectLayer::create - 0x1ebc50
 GauntletSelectLayer::init - 0x1ebd80
+GauntletSelectLayer::onBack - 0x1ed7b0
 GauntletSelectLayer::setupGauntlets - 0x1ece70
 GauntletSelectLayer::keyBackClicked - 0x1ed860
 GauntletSelectLayer::scrollLayerWillScrollToPage - 0x1ed770
@@ -1236,7 +1242,9 @@ GJGarageLayer::playerColorChanged - 0x265980
 GJGarageLayer::rewardedVideoFinished - 0x262c40
 GJItemIcon::changeToLockedState - 0x2694c0
 GJItemIcon::createBrowserItem - 0x268880
+GJItemIcon::createStoreItem - 0x268750
 GJItemIcon::darkenStoreItem - 0x2691d0
+GJItemIcon::darkenStoreItem - 0x269150
 GJItemIcon::init - 0x2689a0
 GJItemIcon::scaleForType - 0x2695a0
 GJItemIcon::toggleEnabledState - 0x269400
@@ -1812,10 +1820,14 @@ MoreOptionsLayer::textInputShouldOffset - 0x79fd0
 MoreOptionsLayer::textInputReturn - 0x7a030
 MoreOptionsLayer::googlePlaySignedIn - 0x355110
 MoreOptionsLayer::dropDownLayerWillClose - 0x354c60
+MoreSearchLayer::audioNext - 0x2f6180
+MoreSearchLayer::audioPrevious - 0x2f62a0
 MoreSearchLayer::createToggleButton - 0x2f6c50
 MoreSearchLayer::onClose - 0x2f6eb0
 MoreSearchLayer::onSongFilter - 0x2f57e0
 MoreSearchLayer::onSongMode - 0x2f6500
+MoreSearchLayer::selectSong - 0x2f63c0
+MoreSearchLayer::updateAudioLabel - 0x2f5ec0
 MoreSearchLayer::init - 0x2f2540
 MoreSearchLayer::keyBackClicked - 0x2f72b0
 MoreVideoOptionsLayer::keyBackClicked - 0x359960

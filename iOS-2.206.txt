@@ -230,6 +230,7 @@ cocos2d::CCSprite::~CCSprite - 0x248250
 cocos2d::CCSprite::init - 0x247e38
 cocos2d::CCSprite::setVertexZ - 0x24b664
 cocos2d::CCSprite::initWithFile - 0x248030
+cocos2d::CCLabelBMFont::CCLabelBMFont - 0x30bc1c
 cocos2d::CCLabelBMFont::create - 0x30b814
 cocos2d::CCLabelBMFont::create - 0x30b754
 cocos2d::CCLabelBMFont::initWithString - 0x30b864
