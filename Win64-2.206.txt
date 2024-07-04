@@ -328,6 +328,8 @@ ColorAction::setupFromMap - 0x247e40
 ColorAction::setupFromString - 0x247d60
 ColorAction::step - 0x247270
 ColorChannelSprite::create - 0x246c10
+ColorChannelSprite::updateBlending - 0x247000
+ColorChannelSprite::updateCopyLabel - 0x246cf0
 ColorChannelSprite::updateOpacity - 0x246eb0
 ColorSelectLiveOverlay::create - 0x8a440
 ColorSelectLiveOverlay::init - 0x8a590
@@ -418,7 +420,10 @@ CustomizeObjectLayer::getActiveMode - 0xa72a0
 CustomizeObjectLayer::getButtonByTag - 0xa7b10
 CustomizeObjectLayer::highlightSelected - 0xa7dc0
 CustomizeObjectLayer::init - 0xa32f0
+CustomizeObjectLayer::onClose - 0xa7ef0
+CustomizeObjectLayer::onSelectColor - 0xa7b90
 CustomizeObjectLayer::onSelectMode - 0xa6ed0
+CustomizeObjectLayer::onUpdateCustomColor - 0xa7490
 CustomizeObjectLayer::toggleVisible - 0xa70e0
 CustomizeObjectLayer::updateColorSprite - 0xa6410
 CustomizeObjectLayer::updateCustomColorLabels - 0xa7a80
@@ -562,11 +567,13 @@ EditorPauseLayer::onSelectAllRight - 0xd95c0
 EditorPauseLayer::playStep2 - 0xda620
 EditorPauseLayer::playStep3 - 0xda740
 EditorPauseLayer::saveLevel - 0xd9f10
+EditorPauseLayer::togglePreviewAnim - 0xd9810
 EditorPauseLayer::keyBackClicked - 0xdac80
 EditorPauseLayer::keyDown - 0xdac90
 EditorPauseLayer::customSetup - 0xd6d50
 EditorPauseLayer::FLAlert_Clicked - 0xdab60
 EditorUI::activateRotationControl - 0x11efb0
+EditorUI::activateScaleControl - 0x110e10
 EditorUI::activateTransformControl - 0x111460
 EditorUI::applyOffset - 0x11e8d0
 EditorUI::checkDiffAfterTransformAnchor - 0x111c70
@@ -599,9 +606,11 @@ EditorUI::getSpriteButton - 0xded70
 EditorUI::getSpriteButton - 0xdee00
 EditorUI::init - 0xdba20
 EditorUI::isSpecialSnapObject - 0x124e40
+EditorUI::menuItemFromObjectString - 0x10ac30
 EditorUI::moveForCommand - 0x11b9b0
 EditorUI::moveGamelayer - 0xdf250
 EditorUI::moveObject - 0x11be20
+EditorUI::moveObjectCall - 0x11bb60
 EditorUI::moveObjectCall - 0x11bb90
 EditorUI::offsetForKey - 0x122780
 EditorUI::onCopy - 0x10f480
@@ -642,6 +651,7 @@ EditorUI::redoLastAction - 0x10dd30
 EditorUI::reloadCustomItems - 0xe1190
 EditorUI::removeOffset - 0x11e840
 EditorUI::repositionObjectsToCenter - 0x1105b0
+EditorUI::resetUI - 0xe1270
 EditorUI::rotateObjects - 0x11d040
 EditorUI::scaleObjects - 0x11d460
 EditorUI::selectBuildTab - 0x110b20
@@ -652,6 +662,7 @@ EditorUI::shouldDeleteObject - 0xe27f0
 EditorUI::showMaxError - 0x10ed00
 EditorUI::showUI - 0x10dda0
 EditorUI::sliderChanged - 0xdef40
+EditorUI::spriteFromObjectString - 0x10a330
 EditorUI::toggleEditObjectButton - 0x116aa0
 EditorUI::toggleEnableRotate - 0x10c6a0
 EditorUI::toggleFreeMove - 0x10c520
@@ -1388,6 +1399,8 @@ GJSongBrowser::onPrevPage - 0x2a5420
 GJSongBrowser::init - 0x2a4d00
 GJSongBrowser::customSetup - 0x2a4e00
 GJSongBrowser::FLAlert_Clicked - 0x2a5540
+GJSpecialColorSelect::init - 0x2a5850
+GJSpecialColorSelect::textForColorIdx - 0x2a6490
 GJSpecialColorSelect::keyBackClicked - 0x2a6440
 GJSpiderSprite::create - 0x2957b0
 GJTransformControl::onToggleLockScale - 0x127310
@@ -1555,6 +1568,7 @@ LevelEditorLayer::updateEditorMode - 0x2c7a90
 LevelEditorLayer::updateLevelFont - 0x2cb350
 LevelEditorLayer::updateObjectColors - 0x2c6410
 LevelEditorLayer::updateObjectLabel - 0x2c3bc0
+LevelEditorLayer::updateOptions - 0x2bf650
 LevelEditorLayer::updatePreviewParticles - 0x2cdb20
 LevelEditorLayer::postUpdate - 0x2cd530
 LevelEditorLayer::updateVisibility - 0x2c5380
@@ -1910,6 +1924,7 @@ OBB2D::calculateWithCenter - 0x6c560
 OBB2D::orderCorners - 0x6c880
 OBB2D::overlaps1Way - 0x6cc10
 ObjectToolbox::sharedState - 0x327460
+ObjectToolbox::gridNodeSizeForKey - 0x34f350
 OptionsCell::loadFromObject - 0xb2d00
 OptionsLayer::musicSliderChanged - 0x351110
 OptionsLayer::onAccount - 0x351bd0
@@ -2263,6 +2278,7 @@ SetFolderPopup::onSetFolderName - 0x28a810
 SetFolderPopup::valueChanged - 0x28a6d0
 SetFolderPopup::setTextPopupClosed - 0x28aa10
 SetGroupIDLayer::init - 0x3cde60
+SetGroupIDLayer::updateGroupIDLabel - 0x3d26d0
 SetGroupIDLayer::keyBackClicked - 0x3d2ee0
 SetGroupIDLayer::textChanged - 0x3d1000
 SetItemIDLayer::onClose - 0x3d6ad0
@@ -2414,6 +2430,7 @@ TextAlertPopup::init - 0x28ba50
 TextArea::create - 0x75960
 TextArea::setString - 0x75ba0
 TextArea::setOpacity - 0x760d0
+TextGameObject::create - 0x19d4f0
 TextGameObject::updateTextObject - 0x19d5e0
 TopArtistsLayer::init - 0x49df70
 TopArtistsLayer::show - 0x84fb0
