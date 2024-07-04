@@ -2365,6 +2365,14 @@ LevelSettingsObject::objectFromDict - 0xfb9f0
 LevelSettingsObject::objectFromString - 0xe35f0
 LevelSettingsObject::init - 0xfb840
 LikeItemLayer::keyBackClicked - 0x604020
+ListButtonBar::create - 0x3f8aa0
+ListButtonBar::getPage - 0x3f9200
+ListButtonBar::goToPage - 0x3f9220
+ListButtonBar::init - 0x3f8b70
+ListButtonBar::onLeft - 0x3f90d0
+ListButtonBar::onRight - 0x3f9170
+ListButtonPage::create - 0x3f8fc0
+ListButtonPage::init - 0x3f92a0
 ListCell::init - 0x30c690
 ListCell::draw - 0x30c720
 LoadingCircle::create - 0x4c8dc0
@@ -2662,6 +2670,8 @@ PlayerObject::updatePlayerRollFrame - 0x421ac0
 PlayerObject::updatePlayerShipFrame - 0x41fb40
 PlayerObject::updatePlayerSpiderFrame - 0x423a70
 PlayerObject::updatePlayerSwingFrame - 0x420cd0
+PlayerObject::updateRotation - 0x40bab0
+PlayerObject::updateRotation - 0x416180
 PlayerObject::updateStreakBlend - 0x405e50
 PlayerObject::updateTimeMod - 0x405680
 PlayerObject::update - 0x405f60

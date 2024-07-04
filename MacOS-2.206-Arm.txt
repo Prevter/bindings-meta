@@ -1831,7 +1831,7 @@ GJGameLevel::getAudioFileName - 0x4b1710
 GJGameLevel::getAverageDifficulty - 0x4b14cc
 GJGameLevel::handleStatsConflict - 0x495334
 GJGameLevel::lengthKeyToString - 0x4b13f4
-GJGameLevel::savePercentage - 0xf06c4
+GJGameLevel::savePercentage - 0x4b0f44
 GJGameLevel::encodeWithCoder - 0x4b3c80
 GJGameLevel::canEncode - 0x4b4778
 GJGameLevel::init - 0x4b0c4c
@@ -2332,6 +2332,14 @@ LevelSettingsLayer::textInputClosed - 0x211868
 LevelSettingsLayer::textChanged - 0x211884
 LevelSettingsObject::init - 0xdd638
 LikeItemLayer::keyBackClicked - 0x52a750
+ListButtonBar::create - 0x372be8
+ListButtonBar::getPage - 0x3732ec
+ListButtonBar::goToPage - 0x3732f8
+ListButtonBar::init - 0x372ccc
+ListButtonBar::onLeft - 0x3731d4
+ListButtonBar::onRight - 0x373260
+ListButtonPage::create - 0x3730cc
+ListButtonPage::init - 0x373374
 ListCell::init - 0x29e7b4
 ListCell::draw - 0x29e800
 LoadingCircle::create - 0x4280fc
@@ -2629,6 +2637,8 @@ PlayerObject::updatePlayerRollFrame - 0x3968c4
 PlayerObject::updatePlayerShipFrame - 0x394ac8
 PlayerObject::updatePlayerSpiderFrame - 0x39864c
 PlayerObject::updatePlayerSwingFrame - 0x395b5c
+PlayerObject::updateRotation - 0x383a84
+PlayerObject::updateRotation - 0x38c360
 PlayerObject::updateStreakBlend - 0x10994c
 PlayerObject::updateTimeMod - 0x37e3e4
 PlayerObject::update - 0x37ec58

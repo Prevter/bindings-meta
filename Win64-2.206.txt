@@ -501,6 +501,7 @@ DailyLevelPage::getDailyTimeString - 0xcd4f0
 DailyLevelPage::init - 0xcb4c0
 DailyLevelPage::tryGetDailyStatus - 0xccf00
 DailyLevelPage::updateTimers - 0xce170
+DailyLevelPage::show - 0xccb90
 DailyLevelPage::dailyStatusFinished - 0xcc8d0
 DailyLevelPage::dailyStatusFailed - 0xccb90
 DailyLevelPage::levelDownloadFinished - 0xcce80
@@ -1776,7 +1777,10 @@ LikeItemLayer::onDislike - 0x30d8e0
 LikeItemLayer::onLike - 0x30d8d0
 LikeItemLayer::triggerLike - 0x30d8f0
 ListButtonBar::create - 0x698f0
+ListButtonBar::goToPage - 0x69f00
 ListButtonBar::init - 0x69a00
+ListButtonBar::onLeft - 0x69fb0
+ListButtonBar::onRight - 0x69f90
 ListButtonPage::create - 0x69fd0
 ListCell::draw - 0x3b8a0
 LoadingCircle::create - 0x6a3c0
