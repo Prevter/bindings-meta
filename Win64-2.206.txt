@@ -499,6 +499,7 @@ DailyLevelPage::create - 0xcb380
 DailyLevelPage::createDailyNode - 0xcd130
 DailyLevelPage::getDailyTimeString - 0xcd4f0
 DailyLevelPage::init - 0xcb4c0
+DailyLevelPage::onTheSafe - 0xce960
 DailyLevelPage::tryGetDailyStatus - 0xccf00
 DailyLevelPage::updateTimers - 0xce170
 DailyLevelPage::show - 0xccb90
@@ -876,6 +877,7 @@ GameLevelManager::limitSavedLevels - 0x144b70
 GameLevelManager::makeTimeStamp - 0x144730
 GameLevelManager::markLevelAsDownloaded - 0x14dd80
 GameLevelManager::onGetFriendRequestsCompleted - 0x159b50
+GameLevelManager::onGetGJDailyLevelStateCompleted - 0x1614b0
 GameLevelManager::onGetMapPacksCompleted - 0x149ef0
 GameLevelManager::onGetOnlineLevelsCompleted - 0x148cd0
 GameLevelManager::onProcessHttpRequestCompleted - 0x13e3d0
@@ -1182,6 +1184,8 @@ GJBaseGameLayer::claimCustomParticle - 0x230190
 GJBaseGameLayer::unclaimCustomParticle - 0x230390
 GJBaseGameLayer::checkpointActivated - 0x235b70
 GJBaseGameLayer::addKeyframe - 0x223b30
+GJChestSprite::create - 0x3ad250
+GJChestSprite::switchToState - 0x3ad450
 GJChestSprite::setOpacity - 0x3ad3e0
 GJChestSprite::setColor - 0x3ad320
 GJColorSetupLayer::keyBackClicked - 0x2453e0
