@@ -556,6 +556,9 @@ EditorOptionsLayer::onButtonsPerRow - 0x27f460
 EditorOptionsLayer::setupOptions - 0x27eb80
 EditorPauseLayer::doResetUnused - 0x2c7800
 EditorPauseLayer::init - 0xd66f0
+EditorPauseLayer::onAlignX - 0xd95e0
+EditorPauseLayer::onAlignY - 0xd9610
+EditorPauseLayer::onBuildHelper - 0xd93b0
 EditorPauseLayer::onCreateExtras - 0xd9360
 EditorPauseLayer::onExitEditor - 0xda950
 EditorPauseLayer::onExitNoSave - 0xdaa20
