@@ -1725,6 +1725,7 @@ GJBaseGameLayer::checkCameraLimitAfterTeleport - 0x115690
 GJBaseGameLayer::checkCollisions - 0x119810
 GJBaseGameLayer::collisionCheckObjects - 0x11a8f0
 GJBaseGameLayer::createBackground - 0x107650
+GJBaseGameLayer::destroyObject - 0x11cd80
 GJBaseGameLayer::enterDualMode - 0x11e160
 GJBaseGameLayer::flipGravity - 0x118870
 GJBaseGameLayer::gameEventTriggered - 0x115740
@@ -1733,6 +1734,7 @@ GJBaseGameLayer::handleButton - 0x13fc40
 GJBaseGameLayer::loadLevelSettings - 0x14cce0
 GJBaseGameLayer::objectTypeToGameEvent - 0x118d00
 GJBaseGameLayer::pauseAudio - 0x146fa0
+GJBaseGameLayer::pickupItem - 0x11cf50
 GJBaseGameLayer::playerTouchedRing - 0x11ca30
 GJBaseGameLayer::playerWillSwitchMode - 0x118a30
 GJBaseGameLayer::processAreaEffects - 0x1358e0

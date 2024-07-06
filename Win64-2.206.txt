@@ -961,8 +961,8 @@ GameStatsManager::createSpecialChestItems - 0x1dae20
 GameStatsManager::createStoreItems - 0x1c78e0
 GameStatsManager::dataLoaded - 0x1e5c00
 GameStatsManager::encodeDataTo - 0x1e5950
-GameStatsManager::getAwardedCurrencyForLevel - 0x1d6020
-GameStatsManager::getBaseCurrencyForLevel - 0x1d62c0
+GameStatsManager::getAwardedCurrencyForLevel - 0x1d62c0
+GameStatsManager::getBaseCurrencyForLevel - 0x1d6020
 GameStatsManager::getChallenge - 0x1d76f0
 GameStatsManager::getCollectedCoinsForLevel - 0x1d37d0
 GameStatsManager::getGauntletRewardKey - 0x1de640
