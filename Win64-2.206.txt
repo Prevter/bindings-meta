@@ -2290,6 +2290,7 @@ SetFolderPopup::onSetFolderName - 0x28a810
 SetFolderPopup::valueChanged - 0x28a6d0
 SetFolderPopup::setTextPopupClosed - 0x28aa10
 SetGroupIDLayer::init - 0x3cde60
+SetGroupIDLayer::onNextGroupID1 - 0x3d14d0
 SetGroupIDLayer::updateGroupIDLabel - 0x3d26d0
 SetGroupIDLayer::keyBackClicked - 0x3d2ee0
 SetGroupIDLayer::textChanged - 0x3d1000
