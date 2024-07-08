@@ -393,7 +393,14 @@ cocos2d::CCNodeRGBA::isCascadeOpacityEnabled - 0x2715b0
 cocos2d::CCNodeRGBA::setCascadeOpacityEnabled - 0x2715d0
 cocos2d::CCNodeRGBA::updateDisplayedOpacity - 0x271420
 cocos2d::CCSequence::create - 0x3b8e10
+cocos2d::CCSequence::createWithTwoActions - 0x3b8970
 cocos2d::CCSequence::createWithVariableList - 0x3b8b50
+cocos2d::CCSequence::initWithTwoActions - 0x3b8a40
+cocos2d::CCSequence::copyWithZone - 0x3b9050
+cocos2d::CCSequence::update - 0x3b92f0
+cocos2d::CCSequence::startWithTarget - 0x3b9280
+cocos2d::CCSequence::stop - 0x3b92c0
+cocos2d::CCSequence::reverse - 0x3b9440
 cocos2d::CCSprite::create - 0x2843b0
 cocos2d::CCSprite::create - 0x2846b0
 cocos2d::CCSprite::createWithSpriteFrame - 0x284590
