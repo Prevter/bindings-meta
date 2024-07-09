@@ -2857,6 +2857,7 @@ RetryLevelLayer::showLayer - 0x503d60
 RetryLevelLayer::enterAnimFinished - 0x503e60
 RetryLevelLayer::rewardedVideoFinished - 0x504260
 RetryLevelLayer::shouldOffsetRewardCurrency - 0x5043a0
+RewardsPage::create - 0x214b50
 RewardsPage::init - 0x214cc0
 RewardsPage::registerWithTouchDispatcher - 0x216580
 RewardsPage::keyBackClicked - 0x216510
