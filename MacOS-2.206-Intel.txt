@@ -1736,6 +1736,7 @@ GJBaseGameLayer::destroyObject - 0x11cd80
 GJBaseGameLayer::enterDualMode - 0x11e160
 GJBaseGameLayer::flipGravity - 0x118870
 GJBaseGameLayer::gameEventTriggered - 0x115740
+GJBaseGameLayer::getModifiedDelta - 0x147090
 GJBaseGameLayer::gravBumpPlayer - 0x11c8e0
 GJBaseGameLayer::handleButton - 0x13fc40
 GJBaseGameLayer::loadLevelSettings - 0x14cce0
@@ -1766,6 +1767,7 @@ GJBaseGameLayer::togglePlayerStreakBlend - 0x131910
 GJBaseGameLayer::triggerGradientCommand - 0x12d9e0
 GJBaseGameLayer::tryGetMainObject - 0x11ea90
 GJBaseGameLayer::updateAudioVisualizer - 0x1485d0
+GJBaseGameLayer::updateBGArtSpeed - 0x14de70
 GJBaseGameLayer::updateCamera - 0x148c00
 GJBaseGameLayer::updateCameraOffsetX - 0x144270
 GJBaseGameLayer::updateCameraOffsetY - 0x144370
@@ -2220,6 +2222,7 @@ LevelEditorLayer::getNextFreeGroupID - 0xef5f0
 LevelEditorLayer::init - 0xdeba0
 LevelEditorLayer::onPlaytest - 0xf4c80
 LevelEditorLayer::processLoadedMoveActions - 0xb7be0
+LevelEditorLayer::updateEditor - 0xe1720
 LevelEditorLayer::updateEditorMode - 0xe2af0
 LevelEditorLayer::updateGameObjects - 0xe1b20
 LevelEditorLayer::updatePreviewParticle - 0x1ad850
