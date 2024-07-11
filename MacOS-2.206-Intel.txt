@@ -358,6 +358,7 @@ cocos2d::CCTouchHandler::getPriority - 0x48a090
 cocos2d::CCEGLView::swapBuffers - 0x50e130
 cocos2d::CCImage::initWithImageData - 0x492d80
 cocos2d::CCImage::initWithImageFile - 0x492b70
+cocos2d::CCImage::initWithImageFileThreadSafe - 0x493370
 cocos2d::CCImage::CCImage - 0x492a70
 cocos2d::CCImage::~CCImage - 0x492af0
 cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x4c5c10
