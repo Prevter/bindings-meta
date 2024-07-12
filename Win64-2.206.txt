@@ -2150,6 +2150,7 @@ PlayLayer::processCreateObjectsFromSetup - 0x389d00
 PlayLayer::removeCheckpoint - 0x394910
 PlayLayer::resetLevel - 0x3958b0
 PlayLayer::resetLevelFromStart - 0x395710
+PlayLayer::resume - 0x396f80
 PlayLayer::resumeAndRestart - 0x396d10
 PlayLayer::scanDynamicSaveObjects - 0x394aa0
 PlayLayer::scene - 0x3827e0
