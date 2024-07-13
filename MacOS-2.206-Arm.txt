@@ -1690,6 +1690,7 @@ GameLevelManager::deleteUserMessages - 0x4a5858
 GameLevelManager::downloadLevel - 0x49bed4
 GameLevelManager::encodeDataTo - 0x493d1c
 GameLevelManager::getActiveDailyID - 0x4af82c
+GameLevelManager::getBoolForKey - 0x4b0870
 GameLevelManager::getCompletedLevels - 0x48e9e0
 GameLevelManager::getDailyID - 0x4af7f8
 GameLevelManager::getDailyTimer - 0x4af860
@@ -1698,7 +1699,11 @@ GameLevelManager::getGJChallenges - 0x4aee38
 GameLevelManager::getGJDailyLevelState - 0x4af28c
 GameLevelManager::getGJRewards - 0x4ae6d4
 GameLevelManager::getGJUserInfo - 0x4a36d8
+GameLevelManager::getIntForKey - 0x4b0678
 GameLevelManager::getLeaderboardScores - 0x4a1918
+GameLevelManager::getLengthStr - 0x497484
+GameLevelManager::getLevelComments - 0x4a60f0
+GameLevelManager::getLevelLists - 0x49a918
 GameLevelManager::getLevelSaveData - 0x498ffc
 GameLevelManager::getMainLevel - 0x486454
 GameLevelManager::getOnlineLevels - 0x497fc0
@@ -1710,6 +1715,7 @@ GameLevelManager::getSavedLevels - 0x48e4e0
 GameLevelManager::getStoredLevelComments - 0x4a8244
 GameLevelManager::getStoredOnlineLevels - 0x4914d8
 GameLevelManager::getStoredUserList - 0x4abfa8
+GameLevelManager::getTimeLeft - 0x491bd8
 GameLevelManager::getUserList - 0x4aca14
 GameLevelManager::getUsers - 0x4a32f0
 GameLevelManager::handleIt - 0x478b88
@@ -1727,6 +1733,7 @@ GameLevelManager::isFollowingUser - 0x492fc8
 GameLevelManager::isTimeValid - 0x4915d8
 GameLevelManager::isUpdateValid - 0x49d9dc
 GameLevelManager::limitSavedLevels - 0x4927c8
+GameLevelManager::makeTimeStamp - 0x49139c
 GameLevelManager::onDownloadLevelCompleted - 0x47c25c
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x4841cc
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x47cce0
@@ -1734,7 +1741,9 @@ GameLevelManager::onProcessHttpRequestCompleted - 0x478800
 GameLevelManager::ProcessHttpRequest - 0x478a20
 GameLevelManager::processOnDownloadLevelCompleted - 0x49c744
 GameLevelManager::purgeUnusedLevels - 0x4929cc
+GameLevelManager::resetCommentTimersForLevelID - 0x4a9328
 GameLevelManager::resetDailyLevelState - 0x4af77c
+GameLevelManager::resetStoredUserInfo - 0x4a3f74
 GameLevelManager::responseToDict - 0x48aeb8
 GameLevelManager::setFolderName - 0x493740
 GameLevelManager::storeUserName - 0x4885f4
@@ -2082,6 +2091,7 @@ GJLevelList::frameForListDifficulty - 0x4b89d4
 GJLevelList::getUnpackedDescription - 0x4b6ecc
 GJLevelList::handleStatsConflict - 0x4b6d14
 GJLevelList::hasMatchingLevels - 0x4b6d2c
+GJLevelList::showListInfo - 0x4b8028
 GJLevelList::totalLevels - 0x4b7fb4
 GJLevelList::encodeWithCoder - 0x4b8794
 GJLevelList::canEncode - 0x4b89cc
@@ -2233,6 +2243,7 @@ GJSmartPrefab::encodeWithCoder - 0x3a4d64
 GJSmartPrefab::canEncode - 0x3a4c04
 GJSmartTemplate::encodeWithCoder - 0x3a49f8
 GJSmartTemplate::canEncode - 0x3a4604
+GJSongBrowser::create - 0x52f558
 GJSongBrowser::init - 0x52f844
 GJSongBrowser::customSetup - 0x52faec
 GJSongBrowser::exitLayer - 0x52fabc
@@ -2327,6 +2338,7 @@ InfoLayer::commentUploadFailed - 0x6c5270
 InfoLayer::updateUserScoreFinished - 0x6c4fd0
 InfoLayer::FLAlert_Clicked - 0x6c4474
 ItemInfoPopup::create - 0x2fc484
+ItemInfoPopup::init - 0x2fed78
 ItemInfoPopup::keyBackClicked - 0x300394
 ItemTriggerGameObject::customSetup - 0x195664
 ItemTriggerGameObject::triggerObject - 0x19569c
@@ -2495,7 +2507,15 @@ LevelInfoLayer::rateLevelClosed - 0x260148
 LevelInfoLayer::likedItem - 0x260154
 LevelInfoLayer::FLAlert_Clicked - 0x26028c
 LevelInfoLayer::setIDPopupClosed - 0x25e098
+LevelLeaderboard::create - 0x35e5e4
+LevelLeaderboard::getSpriteButton - 0x35f688
 LevelLeaderboard::init - 0x35e720
+LevelLeaderboard::loadScores - 0x35fb00
+LevelLeaderboard::onChangeMode - 0x35f858
+LevelLeaderboard::onClose - 0x35f980
+LevelLeaderboard::onDeleteLocalScores - 0x35f8a8
+LevelLeaderboard::onUpdate - 0x35f9bc
+LevelLeaderboard::setupLeaderboard - 0x35fd04
 LevelLeaderboard::registerWithTouchDispatcher - 0x360434
 LevelLeaderboard::keyBackClicked - 0x3603b8
 LevelLeaderboard::show - 0x360908
@@ -2565,7 +2585,12 @@ LevelPage::ccTouchCancelled - 0x3b3630
 LevelPage::registerWithTouchDispatcher - 0x3b364c
 LevelPage::dialogClosed - 0x3b3254
 LevelSearchLayer::scene - 0x5544e0
+LevelSearchLayer::checkDiff - 0x559410
+LevelSearchLayer::checkTime - 0x559508
+LevelSearchLayer::getSearchDiffKey - 0x5591f0
+LevelSearchLayer::getSearchObject - 0x558e54
 LevelSearchLayer::init - 0x5546b0
+LevelSearchLayer::onMostDownloaded - 0x557634
 LevelSearchLayer::onSpecialDemon - 0x557ee4
 LevelSearchLayer::toggleDifficulty - 0x557a00
 LevelSearchLayer::keyBackClicked - 0x559628
@@ -2715,6 +2740,7 @@ MessagesProfilePage::loadMessagesFailed - 0x1d897c
 MessagesProfilePage::forceReloadMessages - 0x1d8aa8
 MessagesProfilePage::setupPageInfo - 0x1d8adc
 MoreOptionsLayer::create - 0x6ae8a4
+MoreOptionsLayer::onSongBrowser - 0x6b0790
 MoreOptionsLayer::init - 0x6aed54
 MoreOptionsLayer::keyBackClicked - 0x6b1f1c
 MoreOptionsLayer::textInputShouldOffset - 0x6b1f28
@@ -3108,6 +3134,7 @@ RewardsPage::show - 0x1c6fec
 RewardsPage::rewardsStatusFinished - 0x1c6c90
 RewardsPage::rewardsStatusFailed - 0x1c6ee8
 RewardUnlockLayer::create - 0x1c6b60
+RewardUnlockLayer::init - 0x1c74a0
 RewardUnlockLayer::showCollectReward - 0x1c6e24
 RewardUnlockLayer::currencyWillExit - 0x1ca7c8
 RotateGameplayGameObject::init - 0x19fa90
