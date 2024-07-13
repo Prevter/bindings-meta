@@ -758,6 +758,8 @@ FLAlertLayer::create - 0x4085d8
 FLAlertLayer::incrementForcePrio - 0x409224
 FLAlertLayer::init - 0x4086f8
 FLAlertLayer::init - 0x409150
+FLAlertLayer::onBtn1 - 0x409274
+FLAlertLayer::onBtn2 - 0x4092d4
 FLAlertLayer::ccTouchBegan - 0x4094f8
 FLAlertLayer::ccTouchMoved - 0x4097a8
 FLAlertLayer::ccTouchEnded - 0x409658
@@ -1712,6 +1714,7 @@ GameLevelManager::getSavedDailyLevelFromLevelID - 0x49080c
 GameLevelManager::getSavedLevel - 0x490718
 GameLevelManager::getSavedLevelList - 0x49af28
 GameLevelManager::getSavedLevels - 0x48e4e0
+GameLevelManager::getSearchScene - 0x491f18
 GameLevelManager::getStoredLevelComments - 0x4a8244
 GameLevelManager::getStoredOnlineLevels - 0x4914d8
 GameLevelManager::getStoredUserList - 0x4abfa8
@@ -2228,6 +2231,7 @@ GJScoreCell::FLAlert_Clicked - 0x1fae78
 GJSearchObject::create - 0x4b59c8
 GJSearchObject::create - 0x4b5e00
 GJSearchObject::create - 0x4b5d94
+GJSearchObject::createFromKey - 0x491f3c
 GJSearchObject::getKey - 0x498c5c
 GJSearchObject::isLevelSearchObject - 0x4b684c
 GJShopLayer::onExit - 0x2b3cb0
@@ -3141,6 +3145,8 @@ RotateGameplayGameObject::init - 0x19fa90
 RotateGameplayGameObject::updateStartValues - 0x1a11f4
 RotateGameplayGameObject::customObjectSetup - 0x1a0f04
 RotateGameplayGameObject::getSaveString - 0x19fae0
+ScrollingLayer::create - 0x6402a4
+ScrollingLayer::setStartOffset - 0x6406b0
 ScrollingLayer::draw - 0x640530
 ScrollingLayer::visit - 0x6405d4
 ScrollingLayer::ccTouchBegan - 0x6406e8
