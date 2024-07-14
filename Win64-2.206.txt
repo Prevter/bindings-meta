@@ -199,6 +199,7 @@ AppDelegate::trySaveGame - 0x81e30
 AppDelegate::willSwitchToScene - 0x81f10
 ArtistCell::loadFromObject - 0xb31a0
 AudioEffectsLayer::audioStep - 0x83720
+BitmapFontCache::fontWithConfigFile - 0x3a530
 BoomListView::init - 0x3b190
 BoomListView::setupList - 0x3b500
 BoomListView::cellHeightForRowAtIndexPath - 0x3b590
@@ -512,6 +513,7 @@ DailyLevelNode::init - 0xcea30
 DailyLevelNode::onClaimReward - 0xcf660
 DailyLevelNode::FLAlert_Clicked - 0xcf9a0
 DailyLevelPage::create - 0xcb380
+DailyLevelPage::claimLevelReward - 0xce4c0
 DailyLevelPage::createDailyNode - 0xcd130
 DailyLevelPage::getDailyTimeString - 0xcd4f0
 DailyLevelPage::init - 0xcb4c0
@@ -838,6 +840,7 @@ FMODLevelVisualizer::updateVisualizer - 0x28cb10
 FollowRewardPage::FLAlert_Clicked - 0x138cc0
 FollowRewardPage::rewardedVideoFinished - 0x137a30
 FollowRewardPage::updateRate - 0x137640
+FontObject::parseConfigFile - 0x3a7d0
 FRequestProfilePage::init - 0x139500
 FRequestProfilePage::setupCommentsBrowser - 0x13b100
 FRequestProfilePage::keyBackClicked - 0x13a960
@@ -998,6 +1001,7 @@ GameStatsManager::addStoreItem - 0x1ca0b0
 GameStatsManager::awardCurrencyForLevel - 0x1d6500
 GameStatsManager::checkAchievement - 0x1cb460
 GameStatsManager::checkCoinAchievement - 0x1d3430
+GameStatsManager::completedDailyLevel - 0x1d8680
 GameStatsManager::createSpecialChestItems - 0x1dae20
 GameStatsManager::createStoreItems - 0x1c78e0
 GameStatsManager::dataLoaded - 0x1e5c00
@@ -2288,6 +2292,7 @@ RewardsPage::registerWithTouchDispatcher - 0x41750
 RewardsPage::show - 0x3a18c0
 RewardsPage::rewardsStatusFinished - 0x3a95a0
 RewardsPage::rewardsStatusFailed - 0x3a9790
+RewardUnlockLayer::create - 0x3a9c50
 RewardUnlockLayer::playRewardEffect - 0x3aad20
 RewardUnlockLayer::currencyWillExit - 0x3ad1f0
 ScrollingLayer::ccTouchBegan - 0x6fb00
@@ -2519,6 +2524,7 @@ TextArea::update - 0x761c0
 TextArea::setOpacity - 0x760d0
 TextGameObject::create - 0x19d4f0
 TextGameObject::updateTextObject - 0x19d5e0
+TextStyleSection::create - 0x6c320
 TopArtistsLayer::init - 0x49df70
 TopArtistsLayer::show - 0x84fb0
 TopArtistsLayer::loadListFinished - 0x49e710

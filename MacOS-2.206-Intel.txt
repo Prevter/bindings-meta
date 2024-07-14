@@ -988,7 +988,10 @@ AudioEffectsLayer::updateTweenAction - 0x4b9b30
 AudioLineGuideGameObject::init - 0x1e4460
 AudioLineGuideGameObject::customObjectSetup - 0x1e51c0
 AudioLineGuideGameObject::getSaveString - 0x1e44b0
+BitmapFontCache::sharedFontCache - 0x21a640
 BitmapFontCache::fontWithConfigFile - 0x21a7e0
+BitmapFontCache::init - 0x21a6c0
+BitmapFontCache::purgeSharedFontCache - 0x21a6f0
 BoomListView::create - 0x30ba20
 BoomListView::init - 0x30bb50
 BoomListView::lockList - 0x30bd00
@@ -1405,6 +1408,7 @@ CustomSongWidget::musicActionFailed - 0x62c990
 CustomSongWidget::songStateChanged - 0x62ad60
 CustomSongWidget::FLAlert_Clicked - 0x62ca30
 DailyLevelNode::init - 0x22e0c0
+DailyLevelNode::onClaimReward - 0x22eb10
 DailyLevelNode::FLAlert_Clicked - 0x22edd0
 DailyLevelPage::init - 0x22bbd0
 DailyLevelPage::updateTimers - 0x22cc30
@@ -1634,6 +1638,10 @@ FollowRewardPage::show - 0x42a550
 FollowRewardPage::FLAlert_Clicked - 0x42a6d0
 FollowRewardPage::rewardedVideoFinished - 0x42a530
 FollowRewardPage::updateRate - 0x429e20
+FontObject::createWithConfigFile - 0x21aa40
+FontObject::getFontWidth - 0x21b480
+FontObject::initWithConfigFile - 0x21aab0
+FontObject::parseConfigFile - 0x21aac0
 ForceBlockGameObject::customObjectSetup - 0x1e63c0
 ForceBlockGameObject::getSaveString - 0x1e5440
 FRequestProfilePage::registerWithTouchDispatcher - 0x79d050
@@ -1803,6 +1811,7 @@ GameOptionsTrigger::getSaveString - 0x1a9b50
 GameStatsManager::sharedState - 0x5aea0
 GameStatsManager::checkCoinAchievement - 0x6c870
 GameStatsManager::completedChallenge - 0x74180
+GameStatsManager::completedDailyLevel - 0x74840
 GameStatsManager::completedDemonLevel - 0x6d6f0
 GameStatsManager::completedLevel - 0x6d5d0
 GameStatsManager::completedStarLevel - 0x6d880
@@ -2811,6 +2820,10 @@ MPLobbyLayer::uploadActionFinished - 0x49dc70
 MPLobbyLayer::uploadActionFailed - 0x49de90
 MPLobbyLayer::onClosePopup - 0x49e030
 MultilineBitmapFont::createWithFont - 0x490240
+MultilineBitmapFont::initWithFont - 0x490410
+MultilineBitmapFont::moveSpecialDescriptors - 0x4921d0
+MultilineBitmapFont::readColorInfo - 0x490de0
+MultilineBitmapFont::stringWithMaxWidth - 0x491aa0
 MultilineBitmapFont::setOpacity - 0x4920d0
 MultiplayerLayer::init - 0x39de70
 MultiplayerLayer::keyBackClicked - 0x39df60
@@ -3599,6 +3612,12 @@ TextGameObject::customObjectSetup - 0x5da200
 TextGameObject::getSaveString - 0x5da380
 TextGameObject::updateTextKerning - 0x5d9f80
 TextGameObject::getTextKerning - 0x5dad80
+TextStyleSection::create - 0x4925f0
+TextStyleSection::createColoredSection - 0x492260
+TextStyleSection::createDelaySection - 0x3f76c0
+TextStyleSection::createInstantSection - 0x4922e0
+TextStyleSection::createShakeSection - 0x492360
+TextStyleSection::init - 0x492660
 TimerTriggerGameObject::triggerObject - 0x1dc950
 TimerTriggerGameObject::customObjectSetup - 0x1de820
 TimerTriggerGameObject::getSaveString - 0x1dca60

@@ -1001,7 +1001,10 @@ AudioEffectsLayer::updateTweenAction - 0x41ae04
 AudioLineGuideGameObject::init - 0x199d18
 AudioLineGuideGameObject::customObjectSetup - 0x19a800
 AudioLineGuideGameObject::getSaveString - 0x199d68
+BitmapFontCache::sharedFontCache - 0x1cad50
 BitmapFontCache::fontWithConfigFile - 0x1caed8
+BitmapFontCache::init - 0x1cadc8
+BitmapFontCache::purgeSharedFontCache - 0x1cadf4
 BoomListView::create - 0x29dce8
 BoomListView::init - 0x29ddf4
 BoomListView::setupList - 0x29dff8
@@ -1425,6 +1428,7 @@ CustomSongWidget::musicActionFailed - 0x54da9c
 CustomSongWidget::songStateChanged - 0x54c158
 CustomSongWidget::FLAlert_Clicked - 0x54db38
 DailyLevelNode::init - 0x1dba2c
+DailyLevelNode::onClaimReward - 0x1dc504
 DailyLevelNode::FLAlert_Clicked - 0x1dc7fc
 DailyLevelPage::claimLevelReward - 0x1db618
 DailyLevelPage::createDailyNode - 0x1da8ac
@@ -1651,6 +1655,10 @@ FollowRewardPage::show - 0x39de2c
 FollowRewardPage::FLAlert_Clicked - 0x39dfb0
 FollowRewardPage::rewardedVideoFinished - 0x39de1c
 FollowRewardPage::updateRate - 0x39d754
+FontObject::createWithConfigFile - 0x1cb140
+FontObject::getFontWidth - 0x1cba44
+FontObject::initWithConfigFile - 0x1cb1b4
+FontObject::parseConfigFile - 0x1cb1cc
 ForceBlockGameObject::customObjectSetup - 0x19b710
 ForceBlockGameObject::getSaveString - 0x19aa80
 FRequestProfilePage::registerWithTouchDispatcher - 0x6a53c0
@@ -2817,6 +2825,10 @@ MPLobbyLayer::uploadActionFinished - 0x401f18
 MPLobbyLayer::uploadActionFailed - 0x402134
 MPLobbyLayer::onClosePopup - 0x4022e8
 MultilineBitmapFont::createWithFont - 0x3f5744
+MultilineBitmapFont::initWithFont - 0x3f5910
+MultilineBitmapFont::moveSpecialDescriptors - 0x3f7494
+MultilineBitmapFont::readColorInfo - 0x3f6170
+MultilineBitmapFont::stringWithMaxWidth - 0x3f6dd8
 MultilineBitmapFont::setOpacity - 0x3f73b4
 MultiplayerLayer::keyBackClicked - 0x3253e8
 MusicBrowser::update - 0x53d678
@@ -3589,6 +3601,12 @@ TextGameObject::customObjectSetup - 0x504f98
 TextGameObject::getSaveString - 0x50514c
 TextGameObject::updateTextKerning - 0x504ce4
 TextGameObject::getTextKerning - 0x505998
+TextStyleSection::create - 0x3f786c
+TextStyleSection::createColoredSection - 0x3f7530
+TextStyleSection::createDelaySection - 0x3f76c0
+TextStyleSection::createInstantSection - 0x3f75b4
+TextStyleSection::createShakeSection - 0x3f7638
+TextStyleSection::init - 0x3f78e0
 TimerTriggerGameObject::triggerObject - 0x1938cc
 TimerTriggerGameObject::customObjectSetup - 0x195154
 TimerTriggerGameObject::getSaveString - 0x1939d4
