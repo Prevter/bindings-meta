@@ -1433,6 +1433,7 @@ CustomSongWidget::FLAlert_Clicked - 0x54db38
 DailyLevelNode::init - 0x1dba2c
 DailyLevelNode::onClaimReward - 0x1dc504
 DailyLevelNode::FLAlert_Clicked - 0x1dc7fc
+DailyLevelPage::create - 0x1d91d8
 DailyLevelPage::claimLevelReward - 0x1db618
 DailyLevelPage::createDailyNode - 0x1da8ac
 DailyLevelPage::exitDailyNode - 0x1dace0

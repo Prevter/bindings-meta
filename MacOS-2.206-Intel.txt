@@ -1412,6 +1412,7 @@ CustomSongWidget::FLAlert_Clicked - 0x62ca30
 DailyLevelNode::init - 0x22e0c0
 DailyLevelNode::onClaimReward - 0x22eb10
 DailyLevelNode::FLAlert_Clicked - 0x22edd0
+DailyLevelPage::create - 0x22ba40
 DailyLevelPage::init - 0x22bbd0
 DailyLevelPage::updateTimers - 0x22cc30
 DailyLevelPage::registerWithTouchDispatcher - 0x22dc60
