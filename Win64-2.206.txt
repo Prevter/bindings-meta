@@ -338,6 +338,7 @@ ColorChannelSprite::create - 0x246c10
 ColorChannelSprite::updateBlending - 0x247000
 ColorChannelSprite::updateCopyLabel - 0x246cf0
 ColorChannelSprite::updateOpacity - 0x246eb0
+ColorChannelSprite::init - 0x246cd0
 ColorSelectLiveOverlay::create - 0x8a440
 ColorSelectLiveOverlay::init - 0x8a590
 ColorSelectLiveOverlay::keyBackClicked - 0x8b9a0
@@ -397,7 +398,9 @@ CreateGuidelinesLayer::registerTouch - 0x99850
 CreateGuidelinesLayer::onInfo - 0x99600
 CreateGuidelinesLayer::onRecord - 0x98d00
 CreateGuidelinesLayer::recordingDidStop - 0x98ff0
+CreateParticlePopup::create - 0x400d80
 CreateParticlePopup::init - 0x400f70
+CreateParticlePopup::onClose - 0x409b20
 CreateParticlePopup::ccTouchBegan - 0x409c70
 CreateParticlePopup::ccTouchMoved - 0x409d70
 CreateParticlePopup::ccTouchEnded - 0x40a1a0
@@ -517,6 +520,7 @@ DailyLevelPage::claimLevelReward - 0xce4c0
 DailyLevelPage::createDailyNode - 0xcd130
 DailyLevelPage::getDailyTimeString - 0xcd4f0
 DailyLevelPage::init - 0xcb4c0
+DailyLevelPage::onClose - 0x85150
 DailyLevelPage::onTheSafe - 0xce960
 DailyLevelPage::tryGetDailyStatus - 0xccf00
 DailyLevelPage::updateTimers - 0xce170
@@ -533,15 +537,19 @@ DemonFilterSelectLayer::keyBackClicked - 0x2f7a10
 DemonInfoPopup::create - 0x3a3280
 DemonInfoPopup::createFromString - 0x3a2eb0
 DemonInfoPopup::init - 0x3a33e0
+DialogLayer::addToMainScene - 0xd07e0
 DialogLayer::animateInRandomSide - 0xd09b0
 DialogLayer::createDialogLayer - 0xcfcd0
 DialogLayer::displayDialogObject - 0xd02e0
 DialogLayer::displayNextObject - 0xd0280
+DialogLayer::handleDialogTap - 0xd06b0
 DialogLayer::init - 0xcfe20
+DialogLayer::onClose - 0xd0850
 DialogLayer::updateNavButtonFrame - 0xd0630
 DialogLayer::ccTouchBegan - 0xd08d0
 DialogLayer::ccTouchEnded - 0xd0900
 DialogLayer::ccTouchCancelled - 0xd0920
+DialogLayer::registerWithTouchDispatcher - 0x51ee0
 DialogLayer::keyBackClicked - 0xd0840
 DialogLayer::keyDown - 0xd0bf0
 DialogLayer::fadeInTextFinished - 0xd0940
@@ -1053,6 +1061,7 @@ GameToolbox::particleFromStruct - 0x66a10
 GameToolbox::particleStringToStruct - 0x65f50
 GameToolbox::pointsToString - 0x68170
 GameToolbox::preVisitWithClippingRect - 0x62fd0
+GameToolbox::saveParticleToString - 0x64ce0
 GameToolbox::stringSetupToDict - 0x64640
 GameToolbox::stringSetupToMap - 0x642a0
 GameToolbox::timestampToHumanReadable - 0x67cd0
@@ -2018,6 +2027,7 @@ OptionsLayer::sfxSliderChanged - 0x351210
 OptionsLayer::customSetup - 0x3504c0
 OptionsLayer::layerHidden - 0x351cb0
 OptionsScrollLayer::keyBackClicked - 0x31a670
+ParticleGameObject::setParticleString - 0x4746b0
 ParticleGameObject::updateParticle - 0x474740
 PauseLayer::goEdit - 0x35cac0
 PauseLayer::init - 0x41660
