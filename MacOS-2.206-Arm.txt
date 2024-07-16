@@ -1669,6 +1669,11 @@ FMODAudioEngine::update - 0x362540
 FMODLevelVisualizer::create - 0x24d2e4
 FMODLevelVisualizer::updateVisualizer - 0x24d7dc
 FMODLevelVisualizer::init - 0x24d36c
+FollowRewardPage::create - 0x39bfcc
+FollowRewardPage::onClose - 0x39cfd8
+FollowRewardPage::onRewardedVideo - 0x39da94
+FollowRewardPage::onSpecialItem - 0x39d014
+FollowRewardPage::switchToOpenedState - 0x39d668
 FollowRewardPage::init - 0x39c0dc
 FollowRewardPage::registerWithTouchDispatcher - 0x39e0c0
 FollowRewardPage::keyBackClicked - 0x39e044
@@ -2446,6 +2451,7 @@ LevelBrowserLayer::onPrevPage - 0x3fa93c
 LevelBrowserLayer::onRefresh - 0x3fba5c
 LevelBrowserLayer::setSearchObject - 0x3fa8f4
 LevelBrowserLayer::setupLevelBrowser - 0x3fda3c
+LevelBrowserLayer::show - 0x3ffc14
 LevelBrowserLayer::onEnter - 0x3ff9cc
 LevelBrowserLayer::ccTouchBegan - 0x3ffc98
 LevelBrowserLayer::registerWithTouchDispatcher - 0x3ffbc4
@@ -2682,6 +2688,7 @@ LevelSettingsLayer::selectSettingClosed - 0x211654
 LevelSettingsLayer::textInputClosed - 0x211868
 LevelSettingsLayer::textChanged - 0x211884
 LevelSettingsObject::init - 0xdd638
+LevelTools::verifyLevelIntegrity - 0x46365c
 LikeItemLayer::create - 0x52a0d0
 LikeItemLayer::init - 0x52a1f4
 LikeItemLayer::onClose - 0x52a5a8
@@ -3087,6 +3094,7 @@ PlayLayer::storeCheckpoint - 0xa99ac
 PlayLayer::togglePracticeMode - 0xaa64c
 PlayLayer::updateAttempts - 0xaa844
 PlayLayer::updateProgressbar - 0x9f28c
+PlayLayer::updateTestModeLabel - 0xa0d3c
 PlayLayer::onEnterTransitionDidFinish - 0xab0c4
 PlayLayer::onExit - 0xab108
 PlayLayer::postUpdate - 0xa7b08
@@ -3188,6 +3196,7 @@ RetryLevelLayer::enterAnimFinished - 0x45bc88
 RetryLevelLayer::rewardedVideoFinished - 0x45c04c
 RetryLevelLayer::shouldOffsetRewardCurrency - 0x45c140
 RewardsPage::create - 0x1c590c
+RewardsPage::onFreeStuff - 0x1c668c
 RewardsPage::init - 0x1c5a20
 RewardsPage::registerWithTouchDispatcher - 0x1c71c0
 RewardsPage::keyBackClicked - 0x1c7144

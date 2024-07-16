@@ -845,6 +845,14 @@ FMODAudioEngine::updateTemporaryEffects - 0x5a220
 FMODAudioEngine::update - 0x54510
 FMODLevelVisualizer::create - 0x28c5d0
 FMODLevelVisualizer::updateVisualizer - 0x28cb10
+FollowRewardPage::create - 0x135ab0
+FollowRewardPage::onClose - 0x82fc0
+FollowRewardPage::onSpecialItem - 0x137a40
+FollowRewardPage::switchToOpenedState - 0x138be0
+FollowRewardPage::init - 0x135bd0
+FollowRewardPage::registerWithTouchDispatcher - 0x41750
+FollowRewardPage::keyBackClicked - 0x82ff0
+FollowRewardPage::show - 0x84fb0
 FollowRewardPage::FLAlert_Clicked - 0x138cc0
 FollowRewardPage::rewardedVideoFinished - 0x137a30
 FollowRewardPage::updateRate - 0x137640
@@ -2152,6 +2160,7 @@ PlayerObject::setColor - 0x37b320
 PlayerObject::setFlipX - 0x3807a0
 PlayerObject::animationFinished - 0x3808b0
 PlayLayer::~PlayLayer - 0x382540
+PlayLayer::PlayLayer - 0x381b80
 PlayLayer::addObject - 0x38a990
 PlayLayer::applyCustomEnterEffect - 0x38d580
 PlayLayer::applyEnterEffect - 0x38e270

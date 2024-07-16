@@ -1,5 +1,17 @@
 cocos2d::CCEGLViewProtocol::getViewPortRect - 0x518860
+cocos2d::CCEGLViewProtocol::getFrameSize - 0x517f00
+cocos2d::CCEGLViewProtocol::setFrameSize - 0x517f10
+cocos2d::CCEGLViewProtocol::getVisibleSize - 0x517f50
+cocos2d::CCEGLViewProtocol::getVisibleOrigin - 0x517fa0
+cocos2d::CCEGLViewProtocol::setDesignResolutionSize - 0x517db0
+cocos2d::CCEGLViewProtocol::getDesignResolutionSize - 0x517ef0
 cocos2d::CCEGLViewProtocol::setTouchDelegate - 0x518010
+cocos2d::CCEGLViewProtocol::setViewPortInPoints - 0x50e1c0
+cocos2d::CCEGLViewProtocol::setScissorInPoints - 0x50e2b0
+cocos2d::CCEGLViewProtocol::isScissorEnabled - 0x5180a0
+cocos2d::CCEGLViewProtocol::getScissorRect - 0x5180c0
+cocos2d::CCEGLViewProtocol::setViewName - 0x518160
+cocos2d::CCEGLViewProtocol::pollInputEvents - 0x518890
 cocos2d::CCEaseIn::create - 0x51cbe0
 cocos2d::CCEaseOut::create - 0x51ce00
 cocos2d::CCEaseInOut::create - 0x51d020
@@ -1647,6 +1659,11 @@ FMODAudioEngine::update - 0x3e2ac0
 FMODLevelVisualizer::create - 0x2ac1c0
 FMODLevelVisualizer::updateVisualizer - 0x2ac670
 FMODLevelVisualizer::init - 0x2ac230
+FollowRewardPage::create - 0x4283d0
+FollowRewardPage::onClose - 0x429630
+FollowRewardPage::onRewardedVideo - 0x42a170
+FollowRewardPage::onSpecialItem - 0x429660
+FollowRewardPage::switchToOpenedState - 0x429d50
 FollowRewardPage::init - 0x428540
 FollowRewardPage::registerWithTouchDispatcher - 0x42a7f0
 FollowRewardPage::keyBackClicked - 0x42a780
@@ -1844,6 +1861,7 @@ GameStatsManager::getQueuedChallenge - 0x73d90
 GameStatsManager::getStat - 0x657a0
 GameStatsManager::getTotalCollectedCurrency - 0x750a0
 GameStatsManager::hasClaimedListReward - 0x74400
+GameStatsManager::hasCompletedDailyLevel - 0x74730
 GameStatsManager::hasCompletedLevel - 0x6d1d0
 GameStatsManager::hasCompletedMainLevel - 0x6d160
 GameStatsManager::hasPendingUserCoin - 0x6f5b0
@@ -2436,6 +2454,7 @@ LevelBrowserLayer::onPrevPage - 0x495d80
 LevelBrowserLayer::onRefresh - 0x496e10
 LevelBrowserLayer::setSearchObject - 0x495d30
 LevelBrowserLayer::setupLevelBrowser - 0x4990a0
+LevelBrowserLayer::show - 0x49b600
 LevelBrowserLayer::onEnter - 0x49b3f0
 LevelBrowserLayer::onEnterTransitionDidFinish - 0x49b590
 LevelBrowserLayer::ccTouchBegan - 0x49b680
@@ -2467,10 +2486,12 @@ LevelEditorLayer::create - 0xdeb30
 LevelEditorLayer::getNextFreeGroupID - 0xef5f0
 LevelEditorLayer::init - 0xdeba0
 LevelEditorLayer::onPlaytest - 0xf4c80
+LevelEditorLayer::onStopPlaytest - 0xf5870
 LevelEditorLayer::processLoadedMoveActions - 0xb7be0
 LevelEditorLayer::updateEditor - 0xe1720
 LevelEditorLayer::updateEditorMode - 0xe2af0
 LevelEditorLayer::updateGameObjects - 0xe1b20
+LevelEditorLayer::updateOptions - 0xe03a0
 LevelEditorLayer::updatePreviewParticle - 0x1ad850
 LevelEditorLayer::draw - 0xf90a0
 LevelEditorLayer::postUpdate - 0xf5f20
@@ -2670,6 +2691,7 @@ LevelSettingsLayer::textChanged - 0x26aea0
 LevelSettingsObject::objectFromDict - 0xfb9f0
 LevelSettingsObject::objectFromString - 0xe35f0
 LevelSettingsObject::init - 0xfb840
+LevelTools::verifyLevelIntegrity - 0x50c670
 LikeItemLayer::create - 0x603930
 LikeItemLayer::init - 0x603aa0
 LikeItemLayer::onClose - 0x603e70
@@ -2892,6 +2914,7 @@ NewgroundsInfoLayer::FLAlert_Clicked - 0x2129f0
 NumberInputLayer::init - 0x49bbe0
 NumberInputLayer::registerWithTouchDispatcher - 0x49c650
 NumberInputLayer::keyBackClicked - 0x49c5e0
+OBB2D::calculateWithCenter - 0x5fdf50
 ObjectControlGameObject::init - 0x1e81c0
 ObjectControlGameObject::customObjectSetup - 0x1e8710
 ObjectControlGameObject::getSaveString - 0x1e8210
@@ -3066,6 +3089,7 @@ PlayLayer::playPlatformerEndAnimationToPos - 0xb7260
 PlayLayer::prepareCreateObjectsFromSetup - 0xaccb0
 PlayLayer::processCreateObjectsFromSetup - 0xad0e0
 PlayLayer::resetLevel - 0xb32d0
+PlayLayer::resetLevelFromStart - 0xbf160
 PlayLayer::resumeAndRestart - 0xbf770
 PlayLayer::scene - 0xabb40
 PlayLayer::setupHasCompleted - 0xadb00
@@ -3076,9 +3100,11 @@ PlayLayer::startGame - 0xb3e30
 PlayLayer::startMusic - 0xb4130
 PlayLayer::storeCheckpoint - 0xbe2a0
 PlayLayer::togglePracticeMode - 0xbefe0
+PlayLayer::updateAttempts - 0xbf1f0
 PlayLayer::updateEffectPositions - 0xbba40
 PlayLayer::updateInfoLabel - 0xb0120
 PlayLayer::updateProgressbar - 0xb1f90
+PlayLayer::updateTestModeLabel - 0xb3f40
 PlayLayer::onEnterTransitionDidFinish - 0xbfa80
 PlayLayer::onExit - 0xbfab0
 PlayLayer::postUpdate - 0xbbb10
@@ -3183,6 +3209,7 @@ RetryLevelLayer::enterAnimFinished - 0x503e60
 RetryLevelLayer::rewardedVideoFinished - 0x504260
 RetryLevelLayer::shouldOffsetRewardCurrency - 0x5043a0
 RewardsPage::create - 0x214b50
+RewardsPage::onFreeStuff - 0x215a40
 RewardsPage::init - 0x214cc0
 RewardsPage::registerWithTouchDispatcher - 0x216580
 RewardsPage::keyBackClicked - 0x216510
