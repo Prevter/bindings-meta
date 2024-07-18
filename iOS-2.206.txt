@@ -593,6 +593,7 @@ ProfilePage::show - 0x1a7a68
 ProfilePage::getUserInfoFinished - 0x1a7ba0
 ScrollingLayer::create - 0x1c33cc
 ScrollingLayer::init - 0x1c3480
+SecretRewardsLayer::SecretRewardsLayer - 0x2ff01c
 SecretRewardsLayer::create - 0x2f8c5c
 SecretRewardsLayer::scene - 0x2f8c10
 SecretRewardsLayer::createSecondaryLayer - 0x2fadf4
@@ -616,7 +617,6 @@ Slider::create - 0x2ff908
 Slider::setBarVisibility - 0x2ffdc8
 Slider::setValue - 0x2ffccc
 Slider::updateBar - 0x2ff85c
-TableView::TableView - 0x30f3f4
 TableView::create - 0x30f340
 TableView::cancelAndStoleTouch - 0x310134
 TableView::reloadData - 0x30fbfc
