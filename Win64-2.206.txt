@@ -2452,6 +2452,7 @@ SFXBrowser::sortSelectClosed - 0x4545c0
 SFXBrowser::setTextPopupClosed - 0x4548a0
 SFXSearchResult::updateObjects - 0x3264f0
 ShaderLayer::performCalculations - 0x45c4b0
+ShaderLayer::prepareTargetContainer - 0x45a4e0
 ShaderLayer::resetAllShaders - 0x45d940
 ShaderLayer::setupShader - 0x455f60
 ShaderLayer::update - 0x455e50
