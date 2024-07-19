@@ -2057,6 +2057,7 @@ ParticleGameObject::setParticleString - 0x4746b0
 ParticleGameObject::updateParticle - 0x474740
 PauseLayer::goEdit - 0x35cac0
 PauseLayer::init - 0x41660
+PauseLayer::musicSliderChanged - 0x35c4d0
 PauseLayer::onEdit - 0x35c8f0
 PauseLayer::onNormalMode - 0x35c640
 PauseLayer::onPracticeMode - 0x35c560
@@ -2495,11 +2496,13 @@ SFXBrowser::setTextPopupClosed - 0x4548a0
 SFXSearchResult::updateObjects - 0x3264f0
 ShaderLayer::performCalculations - 0x45c4b0
 ShaderLayer::prepareTargetContainer - 0x45a4e0
+ShaderLayer::prePixelateShader - 0x45a300
 ShaderLayer::resetAllShaders - 0x45d940
 ShaderLayer::setupShader - 0x455f60
+ShaderLayer::toggleAntiAlias - 0x456c90
 ShaderLayer::updateEffectOffsets - 0x456fb0
-ShaderLayer::update - 0x455e50
-ShaderLayer::init - 0x456d00
+ShaderLayer::init - 0x455e50
+ShaderLayer::update - 0x456d00
 ShaderLayer::visit - 0x45ce00
 ShardsPage::init - 0x45de70
 ShareCommentLayer::create - 0x460fe0

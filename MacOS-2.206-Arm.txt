@@ -1668,6 +1668,8 @@ FMODAudioEngine::playEffect - 0x366d7c
 FMODAudioEngine::playEffect - 0x366c7c
 FMODAudioEngine::playEffectAdvanced - 0x364de4
 FMODAudioEngine::playMusic - 0x3697a8
+FMODAudioEngine::setBackgroundMusicVolume - 0x369284
+FMODAudioEngine::setEffectsVolume - 0x3692a4
 FMODAudioEngine::setup - 0x36103c
 FMODAudioEngine::stopAllEffects - 0x362154
 FMODAudioEngine::stopAllMusic - 0x362440
@@ -1835,6 +1837,7 @@ GameManager::loadBackground - 0x30e7ec
 GameManager::loadDeathEffect - 0x30e674
 GameManager::loadDpadFromString - 0x312b6c
 GameManager::loadIcon - 0x30d514
+GameManager::playMenuMusic - 0x304208
 GameManager::prepareDPadSettings - 0x312eb0
 GameManager::recountUserStats - 0x310600
 GameManager::reloadAll - 0x3166d4
@@ -2919,7 +2922,9 @@ ObjectDecoder::sharedDecoder - 0x6a61f4
 ObjectManager::init - 0x6a957c
 ObjectToolbox::init - 0x592004
 OptionsLayer::create - 0x6ad67c
+OptionsLayer::musicSliderChanged - 0x6ae7b8
 OptionsLayer::onOptions - 0x6ae1f8
+OptionsLayer::sfxSliderChanged - 0x6ae828
 OptionsLayer::customSetup - 0x6ad80c
 OptionsLayer::layerHidden - 0x6aebcc
 OptionsScrollLayer::registerWithTouchDispatcher - 0x53ee20
@@ -2957,6 +2962,7 @@ ParticlePreviewLayer::visit - 0x3e7d74
 PauseLayer::create - 0x35a7b4
 PauseLayer::goEdit - 0x35c470
 PauseLayer::init - 0x475acc
+PauseLayer::musicSliderChanged - 0x35c06c
 PauseLayer::onEdit - 0x35bd28
 PauseLayer::onNormalMode - 0x35bebc
 PauseLayer::onPracticeMode - 0x35be64
@@ -2965,6 +2971,7 @@ PauseLayer::onRestart - 0x35c00c
 PauseLayer::onRestartFull - 0x35be28
 PauseLayer::onResume - 0x35bdf0
 PauseLayer::onSettings - 0x35c048
+PauseLayer::sfxSliderChanged - 0x35c0ac
 PauseLayer::tryQuit - 0x35bf08
 PauseLayer::keyBackClicked - 0x35c734
 PauseLayer::keyDown - 0x35c658
@@ -3531,8 +3538,8 @@ ShaderLayer::performCalculations - 0x356bf8
 ShaderLayer::setupShader - 0x350c14
 ShaderLayer::updateMotionBlurSpeedX - 0x355f40
 ShaderLayer::updateMotionBlurSpeedY - 0x355f74
-ShaderLayer::update - 0x352250
 ShaderLayer::init - 0x350b50
+ShaderLayer::update - 0x352250
 ShaderLayer::visit - 0x356eb0
 ShardsPage::init - 0x42df74
 ShardsPage::registerWithTouchDispatcher - 0x42fcc8

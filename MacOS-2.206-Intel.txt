@@ -1658,6 +1658,7 @@ FMODAudioEngine::channelForChannelID - 0x3e4320
 FMODAudioEngine::clearAllAudio - 0x3e1f70
 FMODAudioEngine::fadeOutMusic - 0x3ef250
 FMODAudioEngine::getActiveMusicChannel - 0x3e5fd0
+FMODAudioEngine::getBackgroundMusicVolume - 0x3eba30
 FMODAudioEngine::getEffectsVolume - 0x3eba70
 FMODAudioEngine::getMeteringValue - 0x3e7ec0
 FMODAudioEngine::isMusicPlaying - 0x3ebaa0
@@ -1668,6 +1669,8 @@ FMODAudioEngine::playEffectAdvanced - 0x3e6190
 FMODAudioEngine::playMusic - 0x3ebff0
 FMODAudioEngine::resumeAllAudio - 0x3e1f20
 FMODAudioEngine::resumeAllMusic - 0x3ebb30
+FMODAudioEngine::setBackgroundMusicVolume - 0x3eba40
+FMODAudioEngine::setEffectsVolume - 0x3eba80
 FMODAudioEngine::setup - 0x3e0e30
 FMODAudioEngine::stopAllEffects - 0x3e2040
 FMODAudioEngine::stopAllMusic - 0x3e2820
@@ -1833,6 +1836,7 @@ GameManager::loadBackground - 0x384b90
 GameManager::loadDeathEffect - 0x384a10
 GameManager::loadDpadFromString - 0x3897c0
 GameManager::loadIcon - 0x383830
+GameManager::playMenuMusic - 0x378b00
 GameManager::prepareDPadSettings - 0x389af0
 GameManager::recountUserStats - 0x3869d0
 GameManager::reloadAll - 0x38d750
@@ -2941,7 +2945,9 @@ ObjectDecoder::init - 0x79ded0
 ObjectManager::init - 0x7a1760
 ObjectToolbox::init - 0x6777a0
 OptionsLayer::create - 0x7a60c0
+OptionsLayer::musicSliderChanged - 0x7a72e0
 OptionsLayer::onOptions - 0x7a6d70
+OptionsLayer::sfxSliderChanged - 0x7a7350
 OptionsLayer::customSetup - 0x7a6300
 OptionsLayer::layerHidden - 0x7a7790
 OptionsScrollLayer::registerWithTouchDispatcher - 0x61bc10
@@ -2979,6 +2985,7 @@ ParticlePreviewLayer::visit - 0x4817a0
 PauseLayer::create - 0x3d9bb0
 PauseLayer::goEdit - 0x3db8e0
 PauseLayer::init - 0x5208d0
+PauseLayer::musicSliderChanged - 0x3db520
 PauseLayer::onEdit - 0x3db1b0
 PauseLayer::onNormalMode - 0x3db360
 PauseLayer::onPracticeMode - 0x3db300
@@ -2987,6 +2994,7 @@ PauseLayer::onRestart - 0x3db4b0
 PauseLayer::onRestartFull - 0x3db2c0
 PauseLayer::onResume - 0x3db280
 PauseLayer::onSettings - 0x3db4f0
+PauseLayer::sfxSliderChanged - 0x3db560
 PauseLayer::tryQuit - 0x3db3b0
 PauseLayer::keyBackClicked - 0x3dbba0
 PauseLayer::keyDown - 0x3dbaa0
@@ -3559,8 +3567,8 @@ ShaderGameObject::customSetup - 0x198980
 ShaderGameObject::customObjectSetup - 0x19d750
 ShaderGameObject::getSaveString - 0x1989f0
 ShaderLayer::performCalculations - 0x3d55f0
-ShaderLayer::update - 0x3cfaa0
 ShaderLayer::init - 0x3ce300
+ShaderLayer::update - 0x3cfaa0
 ShaderLayer::visit - 0x3d5910
 ShardsPage::init - 0x4cf860
 ShardsPage::registerWithTouchDispatcher - 0x4d1890
