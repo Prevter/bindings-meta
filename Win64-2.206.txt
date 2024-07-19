@@ -2497,6 +2497,7 @@ ShaderLayer::performCalculations - 0x45c4b0
 ShaderLayer::prepareTargetContainer - 0x45a4e0
 ShaderLayer::resetAllShaders - 0x45d940
 ShaderLayer::setupShader - 0x455f60
+ShaderLayer::updateEffectOffsets - 0x456fb0
 ShaderLayer::update - 0x455e50
 ShaderLayer::init - 0x456d00
 ShaderLayer::visit - 0x45ce00
