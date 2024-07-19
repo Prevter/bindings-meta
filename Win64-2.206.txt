@@ -2575,6 +2575,7 @@ TableView::ccTouchBegan - 0x73d60
 TableView::ccTouchMoved - 0x73ff0
 TableView::ccTouchEnded - 0x73f10
 TableView::ccTouchCancelled - 0x73f70
+TableView::registerWithTouchDispatcher - 0x3d720
 TableView::scrollWheel - 0x745a0
 TeleportPortalObject::create - 0x485d20
 TeleportPortalObject::getTeleportXOff - 0x485fa0
