@@ -838,6 +838,7 @@ FMODAudioEngine::clearAllAudio - 0x54460
 FMODAudioEngine::fadeInMusic - 0x5b170
 FMODAudioEngine::fadeOutMusic - 0x5b2b0
 FMODAudioEngine::getChannelGroup - 0x55c70
+FMODAudioEngine::getFMODStatus - 0x5ba00
 FMODAudioEngine::getMusicLengthMS - 0x5b0e0
 FMODAudioEngine::getMusicTimeMS - 0x5b080
 FMODAudioEngine::isMusicPlaying - 0x58f20
@@ -848,6 +849,7 @@ FMODAudioEngine::playEffect - 0x55ee0
 FMODAudioEngine::playEffectAdvanced - 0x56050
 FMODAudioEngine::playMusic - 0x59140
 FMODAudioEngine::preloadEffect - 0x583b0
+FMODAudioEngine::queuePlayEffect - 0x56a70
 FMODAudioEngine::queueStartMusic - 0x59a40
 FMODAudioEngine::resumeAllMusic - 0x58ec0
 FMODAudioEngine::setChannelVolumeMod - 0x580d0
@@ -856,6 +858,7 @@ FMODAudioEngine::setup - 0x52d40
 FMODAudioEngine::setupAudioEngine - 0x53220
 FMODAudioEngine::start - 0x54400
 FMODAudioEngine::stopAllEffects - 0x58a00
+FMODAudioEngine::stopChannel - 0x57960
 FMODAudioEngine::unloadAllEffects - 0x58bf0
 FMODAudioEngine::updateQueuedEffects - 0x59cd0
 FMODAudioEngine::updateReverb - 0x53580
@@ -2474,6 +2477,9 @@ SetupPulsePopup::textChanged - 0x410d50
 SetupPulsePopup::colorValueChanged - 0x410a90
 SetupPulsePopup::colorSelectClosed - 0x410320
 SetupRandTriggerPopup::textChanged - 0x4154e0
+SetupSFXPopup::create - 0x41ba10
+SetupSFXPopup::init - 0x41bb60
+SetupSFXPopup::onClose - 0x41cab0
 SetupSFXPopup::getActiveSFXID - 0x41d1a0
 SetupSFXPopup::overridePlaySFX - 0x41d1b0
 SetupSFXPopup::sfxBrowserClosed - 0x41d8d0

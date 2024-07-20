@@ -347,6 +347,7 @@ cocos2d::CCTextureCache::addImage - 0x5f7450
 cocos2d::CCTextureCache::addImageAsync - 0x5f6650
 cocos2d::CCTextureCache::addUIImage - 0x5f8250
 cocos2d::CCTextureCache::textureForKey - 0x5f8850
+cocos2d::CCTouch::getLocationInView - 0x5a4f0
 cocos2d::CCTouch::getLocation - 0x5a550
 cocos2d::CCTouch::getPreviousLocation - 0x5a580
 cocos2d::CCTouch::getStartLocation - 0x5a5b0
@@ -809,6 +810,7 @@ GameObject::commonSetup - 0x5aa930
 GameObject::copyGroups - 0x5c70a0
 GameObject::createSpriteColor - 0x5aaaf0
 GameObject::createWithFrame - 0x5aa890
+GameObject::createWithKey - 0x5a5d30
 GameObject::determineSlopeDirection - 0x5c6ad0
 GameObject::getGroupDisabled - 0x5c73e0
 GameObject::getGroupID - 0x5c7080
@@ -977,6 +979,7 @@ CCAnimatedSprite::animationFinished - 0x351200
 CCAnimatedSprite::animationFinishedO - 0x3511d0
 AnimatedShopKeeper::animationFinished - 0x3273d0
 AppDelegate::get - 0x669430
+AppDelegate::resumeSound - 0x669780
 AppDelegate::applicationDidFinishLaunching - 0x6692b0
 AppDelegate::applicationDidEnterBackground - 0x669550
 AppDelegate::applicationWillEnterForeground - 0x669690
@@ -1500,6 +1503,9 @@ DrawGridLayer::update - 0xf9a00
 DrawGridLayer::draw - 0xf9b90
 DungeonBarsSprite::init - 0x4b2440
 DungeonBarsSprite::visit - 0x4b24c0
+EditButtonBar::create - 0x5eb350
+EditButtonBar::init - 0x5eb440
+EditButtonBar::loadFromItems - 0x5eb4f0
 EditLevelLayer::~EditLevelLayer - 0x1f42c0
 EditLevelLayer::create - 0x1f45e0
 EditLevelLayer::closeTextInputs - 0x1f7980
@@ -1557,9 +1563,16 @@ EditorUI::init - 0x94c0
 EditorUI::onPause - 0x2abd0
 EditorUI::onPlayback - 0xc7a0
 EditorUI::onPlaytest - 0xca00
+EditorUI::onSelectBuildTab - 0x341c0
 EditorUI::onStopPlaytest - 0xcc40
+EditorUI::resetUI - 0x2aac0
+EditorUI::selectBuildTab - 0x341f0
 EditorUI::showUI - 0x3dd70
 EditorUI::toggleLockUI - 0x2d5a0
+EditorUI::toggleMode - 0x2ad80
+EditorUI::updateCreateMenu - 0x2e500
+EditorUI::updateDeleteButtons - 0x32420
+EditorUI::updateGridNodeSize - 0x2f410
 EditorUI::updateObjectInfoLabel - 0x2f660
 EditorUI::draw - 0x4eba0
 EditorUI::ccTouchBegan - 0x4f660
@@ -1663,12 +1676,18 @@ FMODAudioEngine::getEffectsVolume - 0x3eba70
 FMODAudioEngine::getMeteringValue - 0x3e7ec0
 FMODAudioEngine::isMusicPlaying - 0x3ebaa0
 FMODAudioEngine::isMusicPlaying - 0x3ebb90
+FMODAudioEngine::loadMusic - 0x3e5890
+FMODAudioEngine::pauseAllAudio - 0x3e1ed0
+FMODAudioEngine::pauseAllMusic - 0x3ebae0
 FMODAudioEngine::playEffect - 0x3e8a40
 FMODAudioEngine::playEffect - 0x3e8960
 FMODAudioEngine::playEffectAdvanced - 0x3e6190
 FMODAudioEngine::playMusic - 0x3ebff0
+FMODAudioEngine::preloadEffect - 0x3e1580
 FMODAudioEngine::resumeAllAudio - 0x3e1f20
+FMODAudioEngine::resumeAllEffects - 0x3eb510
 FMODAudioEngine::resumeAllMusic - 0x3ebb30
+FMODAudioEngine::resumeAudio - 0x3e1d90
 FMODAudioEngine::setBackgroundMusicVolume - 0x3eba40
 FMODAudioEngine::setEffectsVolume - 0x3eba80
 FMODAudioEngine::setup - 0x3e0e30
@@ -2032,6 +2051,7 @@ GJBaseGameLayer::playerTookDamage - 0xc0020
 GJBaseGameLayer::opacityForObject - 0x146f00
 GJBaseGameLayer::addToSpeedObjects - 0xc0030
 GJBaseGameLayer::objectsCollided - 0x11faa0
+GJBaseGameLayer::updateColor - 0x131310
 GJBaseGameLayer::toggleGroupTriggered - 0x1314b0
 GJBaseGameLayer::spawnGroup - 0x1210c0
 GJBaseGameLayer::spawnObject - 0x121460
@@ -2089,6 +2109,8 @@ GJDifficultySprite::updateFeatureStateFromLevel - 0x2b2cd0
 GJEffectManager::activeColorForIndex - 0x2da1c0
 GJEffectManager::colorActionChanged - 0x2db560
 GJEffectManager::colorExists - 0x2db530
+GJEffectManager::getColorAction - 0x2da050
+GJEffectManager::getColorSprite - 0x2da210
 GJEffectManager::isGroupEnabled - 0x2e64b0
 GJEffectManager::loadFromState - 0x2ea7b0
 GJEffectManager::objectsCollided - 0x2dc570
@@ -2506,6 +2528,7 @@ LevelCell::updateCellMode - 0x24a0e0
 LevelCell::init - 0x24a6e0
 LevelCell::draw - 0x24de30
 LevelEditorLayer::create - 0xdeb30
+LevelEditorLayer::createObject - 0xe4590
 LevelEditorLayer::getNextFreeGroupID - 0xef5f0
 LevelEditorLayer::init - 0xdeba0
 LevelEditorLayer::onPlaytest - 0xf4c80
@@ -3510,6 +3533,8 @@ SetupRotateGameplayPopup::valueDidChange - 0x7a45e0
 SetupRotatePopup::onClose - 0x5a59e0
 SetupRotatePopup::onCustomToggleTriggerValue - 0x5a5a70
 SetupSequenceTriggerPopup::onCustomToggleTriggerValue - 0x4e8ae0
+SetupSFXPopup::create - 0x4c27a0
+SetupSFXPopup::init - 0x4c2a10
 SetupSFXPopup::pageChanged - 0x4c3dc0
 SetupSFXPopup::onClose - 0x4c3e10
 SetupSFXPopup::onPlusButton - 0x4c43b0

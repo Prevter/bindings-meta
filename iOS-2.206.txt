@@ -190,6 +190,7 @@ cocos2d::CCTextureCache::addImage - 0x115540
 cocos2d::CCTextureCache::addUIImage - 0x115efc
 cocos2d::CCTextureCache::prepareAsyncLoading - 0x114aa4
 cocos2d::CCTextureCache::textureForKey - 0x1160fc
+cocos2d::CCTouch::getLocationInView - 0x30f2a4
 cocos2d::CCTouch::getLocation - 0x30f2b0
 cocos2d::CCTouchDispatcher::addPrioTargetedDelegate - 0x159a34
 cocos2d::CCTouchDispatcher::addTargetedDelegate - 0x159a4c

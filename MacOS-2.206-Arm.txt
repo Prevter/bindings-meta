@@ -333,6 +333,7 @@ cocos2d::CCTextureCache::addImage - 0x51f2d0
 cocos2d::CCTextureCache::addImageAsync - 0x51e554
 cocos2d::CCTextureCache::addUIImage - 0x520194
 cocos2d::CCTextureCache::textureForKey - 0x5207c8
+cocos2d::CCTouch::getLocationInView - 0x50bc4
 cocos2d::CCTouch::getLocation - 0x50be8
 cocos2d::CCTouch::getPreviousLocation - 0x50c14
 cocos2d::CCTouch::getStartLocation - 0x50c40
@@ -363,6 +364,7 @@ cocos2d::CCKeyboardDispatcher::keyToString - 0x1b06d8
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x1b06c0
 cocos2d::CCDirector::sharedDirector - 0x3f0da8
 cocos2d::CCDirector::getWinSize - 0x3f1edc
+cocos2d::CCDirector::convertToGL - 0x3f236c
 cocos2d::CCDirector::drawScene - 0x3f1560
 cocos2d::CCDirector::popSceneWithTransition - 0x3f2950
 cocos2d::CCDirector::pushScene - 0x3f269c
@@ -817,6 +819,7 @@ GameObject::addToCustomScaleY - 0x4f407c
 GameObject::commonSetup - 0x4ed04c
 GameObject::createSpriteColor - 0x4ed1f8
 GameObject::createWithFrame - 0x4ecf80
+GameObject::createWithKey - 0x4ecab8
 GameObject::getGroupDisabled - 0x4f660c
 GameObject::init - 0x4ed010
 GameObject::isFacingDown - 0x50012c
@@ -825,6 +828,8 @@ GameObject::makeInvisible - 0x4f4c30
 GameObject::objectFromVector - 0x4f775c
 GameObject::playShineEffect - 0x4f4cac
 GameObject::setLastPosition - 0x501178
+GameObject::updateCustomScaleX - 0x4ee91c
+GameObject::updateCustomScaleY - 0x4ee97c
 GameObject::update - 0x4ef094
 GameObject::setScaleX - 0x4f3d18
 GameObject::setScaleY - 0x4f3db8
@@ -977,6 +982,7 @@ CCAnimatedSprite::animationFinished - 0x2e0300
 CCAnimatedSprite::animationFinishedO - 0x2e02cc
 AnimatedShopKeeper::animationFinished - 0x2b7254
 AppDelegate::get - 0x585208
+AppDelegate::resumeSound - 0x585520
 AppDelegate::applicationDidFinishLaunching - 0x585084
 AppDelegate::applicationDidEnterBackground - 0x5852fc
 AppDelegate::applicationWillEnterForeground - 0x585434
@@ -1503,6 +1509,9 @@ DrawGridLayer::update - 0xdbf54
 DrawGridLayer::draw - 0xdc064
 DungeonBarsSprite::init - 0x414e48
 DungeonBarsSprite::visit - 0x414ec8
+EditButtonBar::create - 0x5141a0
+EditButtonBar::init - 0x514294
+EditButtonBar::loadFromItems - 0x514340
 EditLevelLayer::~EditLevelLayer - 0x1a7544
 EditLevelLayer::create - 0x1a7680
 EditLevelLayer::closeTextInputs - 0x1aa858
@@ -1559,10 +1568,17 @@ EditorUI::init - 0xb790
 EditorUI::onPause - 0x2ba08
 EditorUI::onPlayback - 0xe734
 EditorUI::onPlaytest - 0xe948
+EditorUI::onSelectBuildTab - 0x3442c
 EditorUI::onStopPlaytest - 0xeb88
 EditorUI::recreateButtonTabs - 0x322b8
+EditorUI::resetUI - 0x2b8f4
+EditorUI::selectBuildTab - 0x34460
 EditorUI::showUI - 0x392e4
 EditorUI::toggleLockUI - 0x2dc08
+EditorUI::toggleMode - 0x2bb88
+EditorUI::updateCreateMenu - 0x2eaf8
+EditorUI::updateDeleteButtons - 0x32754
+EditorUI::updateGridNodeSize - 0x2fa1c
 EditorUI::updateObjectInfoLabel - 0x2fc24
 EditorUI::updateZoom - 0x39504
 EditorUI::zoomIn - 0xec6c
@@ -1664,10 +1680,18 @@ FMODAudioEngine::getBackgroundMusicVolume - 0x36927c
 FMODAudioEngine::getEffectsVolume - 0x36929c
 FMODAudioEngine::isMusicPlaying - 0x369394
 FMODAudioEngine::isMusicPlaying - 0x3692b8
+FMODAudioEngine::loadMusic - 0x364748
+FMODAudioEngine::pauseAllAudio - 0x362018
+FMODAudioEngine::pauseAllMusic - 0x3692f4
 FMODAudioEngine::playEffect - 0x366d7c
 FMODAudioEngine::playEffect - 0x366c7c
 FMODAudioEngine::playEffectAdvanced - 0x364de4
 FMODAudioEngine::playMusic - 0x3697a8
+FMODAudioEngine::preloadEffect - 0x3616a4
+FMODAudioEngine::resumeAllAudio - 0x362064
+FMODAudioEngine::resumeAllEffects - 0x368fcc
+FMODAudioEngine::resumeAllMusic - 0x369340
+FMODAudioEngine::resumeAudio - 0x361edc
 FMODAudioEngine::setBackgroundMusicVolume - 0x369284
 FMODAudioEngine::setEffectsVolume - 0x3692a4
 FMODAudioEngine::setup - 0x36103c
@@ -2038,6 +2062,7 @@ GJBaseGameLayer::playerTookDamage - 0xab56c
 GJBaseGameLayer::opacityForObject - 0x11a318
 GJBaseGameLayer::addToSpeedObjects - 0xab570
 GJBaseGameLayer::objectsCollided - 0xfbafc
+GJBaseGameLayer::updateColor - 0x1093d4
 GJBaseGameLayer::toggleGroupTriggered - 0x109540
 GJBaseGameLayer::spawnGroup - 0xfcb44
 GJBaseGameLayer::spawnObject - 0xfcf18
@@ -2092,6 +2117,8 @@ GJDifficultySprite::updateDifficultyFrame - 0x253350
 GJDifficultySprite::updateFeatureState - 0x2534c8
 GJDifficultySprite::updateFeatureStateFromLevel - 0x253490
 GJEffectManager::activeColorForIndex - 0x276598
+GJEffectManager::getColorAction - 0x276444
+GJEffectManager::getColorSprite - 0x2765f8
 GJEffectManager::loadFromState - 0x2827a8
 GJEffectManager::init - 0x275984
 GJGroundLayer::create - 0x51c2d0
@@ -2491,6 +2518,7 @@ LevelCell::updateCellMode - 0x1f4538
 LevelCell::init - 0x1f4a88
 LevelCell::draw - 0x1f7ee4
 LevelEditorLayer::create - 0xc5550
+LevelEditorLayer::createObject - 0xca138
 LevelEditorLayer::getNextFreeGroupID - 0xd37e0
 LevelEditorLayer::init - 0xc55e4
 LevelEditorLayer::onPlaytest - 0xd7e60
@@ -3482,6 +3510,8 @@ SetupRotateGameplayPopup::valueDidChange - 0x6abed4
 SetupRotatePopup::onClose - 0x4ec7f4
 SetupRotatePopup::onCustomToggleTriggerValue - 0x4ec878
 SetupSequenceTriggerPopup::onCustomToggleTriggerValue - 0x443f38
+SetupSFXPopup::create - 0x4226d8
+SetupSFXPopup::init - 0x42287c
 SetupSFXPopup::pageChanged - 0x423934
 SetupSFXPopup::onClose - 0x423988
 SetupSFXPopup::onPlusButton - 0x423e6c
