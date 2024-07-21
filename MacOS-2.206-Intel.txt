@@ -1444,6 +1444,7 @@ DailyLevelNode::init - 0x22e0c0
 DailyLevelNode::onClaimReward - 0x22eb10
 DailyLevelNode::FLAlert_Clicked - 0x22edd0
 DailyLevelPage::create - 0x22ba40
+DailyLevelPage::getDailyTimeString - 0x22c8a0
 DailyLevelPage::init - 0x22bbd0
 DailyLevelPage::updateTimers - 0x22cc30
 DailyLevelPage::registerWithTouchDispatcher - 0x22dc60
@@ -1551,6 +1552,7 @@ EditorOptionsLayer::setupOptions - 0x299e90
 EditorPauseLayer::create - 0x28ce10
 EditorPauseLayer::init - 0x28cf10
 EditorPauseLayer::onResume - 0x28f5e0
+EditorPauseLayer::onSaveAndExit - 0x28f6c0
 EditorPauseLayer::onSaveAndPlay - 0x28f650
 EditorPauseLayer::saveLevel - 0x290670
 EditorPauseLayer::keyBackClicked - 0x290db0

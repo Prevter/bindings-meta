@@ -1558,6 +1558,7 @@ EditorOptionsLayer::setupOptions - 0x23c570
 EditorPauseLayer::create - 0x230728
 EditorPauseLayer::init - 0x230800
 EditorPauseLayer::onResume - 0x232c7c
+EditorPauseLayer::onSaveAndExit - 0x232d78
 EditorPauseLayer::onSaveAndPlay - 0x232ce8
 EditorPauseLayer::saveLevel - 0x233bac
 EditorPauseLayer::keyBackClicked - 0x234290

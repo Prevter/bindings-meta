@@ -573,6 +573,7 @@ DialogLayer::keyDown - 0xd0bf0
 DialogLayer::fadeInTextFinished - 0xd0940
 DialogObject::create - 0xcfb10
 DrawGridLayer::create - 0x2cfe50
+DrawGridLayer::loadTimeMarkers - 0x2d0030
 DrawGridLayer::update - 0x2d0350
 DrawGridLayer::draw - 0x2d0550
 EditButtonBar::create - 0xd0cb0
@@ -1866,6 +1867,7 @@ LevelTools::getAudioTitle - 0x307130
 LevelTools::getLevel - 0x304880
 LevelTools::nameForArtist - 0x308950
 LevelTools::ngURLForArtist - 0x309f70
+LevelTools::posForTimeInternal - 0x30c400
 LevelTools::urlForAudio - 0x308c50
 LevelTools::verifyLevelIntegrity - 0x30ca60
 LevelTools::ytURLForArtist - 0x30a410
@@ -1945,7 +1947,9 @@ MenuLayer::keyBackClicked - 0x3155e0
 MenuLayer::keyDown - 0x3159c0
 MenuLayer::googlePlaySignedIn - 0x314fe0
 MenuLayer::FLAlert_Clicked - 0x3157b0
+MessagesProfilePage::deleteSelected - 0x316cf0
 MessagesProfilePage::init - 0x315d70
+MessagesProfilePage::onClose - 0x317110
 MessagesProfilePage::setupCommentsBrowser - 0x317690
 MessagesProfilePage::keyBackClicked - 0x3171d0
 MessagesProfilePage::FLAlert_Clicked - 0x316f70
