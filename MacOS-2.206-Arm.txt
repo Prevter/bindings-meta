@@ -364,6 +364,7 @@ cocos2d::CCKeyboardDispatcher::keyToString - 0x1b06d8
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x1b06c0
 cocos2d::CCDirector::sharedDirector - 0x3f0da8
 cocos2d::CCDirector::getWinSize - 0x3f1edc
+cocos2d::CCDirector::setViewport - 0x3f2298
 cocos2d::CCDirector::convertToGL - 0x3f236c
 cocos2d::CCDirector::drawScene - 0x3f1560
 cocos2d::CCDirector::popSceneWithTransition - 0x3f2950
