@@ -3044,6 +3044,7 @@ PlayerObject::playCompleteEffect - 0x1bfebc
 PlayerObject::playDeathEffect - 0x1b7ef4
 PlayerObject::playerDestroyed - 0x392264
 PlayerObject::playingEndEffect - 0x398a84
+PlayerObject::playSpawnEffect - 0x391bb4
 PlayerObject::playSpiderDashEffect - 0x38d940
 PlayerObject::postCollision - 0x385734
 PlayerObject::preCollision - 0x3855d8
@@ -3749,6 +3750,7 @@ UILayer::enableMenu - 0x431538
 UILayer::handleKeypress - 0x43103c
 UILayer::init - 0x42fe64
 UILayer::isJumpButtonPressed - 0x431774
+UILayer::onPause - 0x430634
 UILayer::resetAllButtons - 0x431688
 UILayer::resetUINodeState - 0x430d58
 UILayer::toggleMenuVisibility - 0x43154c
