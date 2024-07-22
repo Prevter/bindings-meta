@@ -1267,6 +1267,12 @@ CommentCell::init - 0x250990
 CommentCell::draw - 0x250cb0
 CommentCell::likedItem - 0x250d80
 CommentCell::FLAlert_Clicked - 0x251120
+CommunityCreditNode::create - 0x31cd40
+CommunityCreditNode::init - 0x31cec0
+CommunityCreditsPage::create - 0x31d260
+CommunityCreditsPage::goToPage - 0x31f610
+CommunityCreditsPage::onClose - 0x31f5a0
+CommunityCreditsPage::onSwitchPage - 0x31f5d0
 CommunityCreditsPage::init - 0x31d3b0
 CommunityCreditsPage::registerWithTouchDispatcher - 0x31f930
 CommunityCreditsPage::keyBackClicked - 0x31f8c0
