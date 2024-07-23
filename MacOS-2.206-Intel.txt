@@ -1029,6 +1029,7 @@ BoomScrollLayer::getTotalPages - 0x3a8ca0
 BoomScrollLayer::init - 0x3a7dc0
 BoomScrollLayer::instantMoveToPage - 0x3a9760
 BoomScrollLayer::moveToPage - 0x3a9840
+BoomScrollLayer::moveToPageEnded - 0x3a95d0
 BoomScrollLayer::pageNumberForPosition - 0x3a93b0
 BoomScrollLayer::positionForPageWithNumber - 0x3a9710
 BoomScrollLayer::quickUpdate - 0x3a9ab0
