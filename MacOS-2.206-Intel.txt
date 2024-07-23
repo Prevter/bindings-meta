@@ -1095,7 +1095,15 @@ CCContentLayer::~CCContentLayer - 0x4bc530
 CCContentLayer::setPosition - 0x7cf6c0
 CCCountdown::init - 0x7d32c0
 CCCountdown::setOpacity - 0x7d3690
+CCLightFlash::create - 0x50e4e0
+CCLightFlash::cleanupFlash - 0x50edd0
+CCLightFlash::fadeAndRemove - 0x50ebf0
+CCLightFlash::playEffect - 0x50e560
+CCLightFlash::removeLights - 0x50ed70
+CCLightFlash::showFlash - 0x50eab0
 CCLightFlash::init - 0x50e550
+CCLightStrip::create - 0x50ea00
+CCLightStrip::init - 0x50eee0
 CCLightStrip::draw - 0x50f020
 CCLightStrip::updateTweenAction - 0x50f1b0
 CCMenuItemSpriteExtra::create - 0x272d00

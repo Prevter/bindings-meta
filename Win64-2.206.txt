@@ -263,6 +263,12 @@ CCCircleWave::removeMeAndCleanup - 0x42080
 CCCircleWave::draw - 0x41f50
 CCCircleWave::updateTweenAction - 0x41cf0
 CCContentLayer::setPosition - 0x420f0
+CCLightFlash::cleanupFlash - 0x42e00
+CCLightFlash::playEffect - 0x42520
+CCLightFlash::removeLights - 0x42da0
+CCLightFlash::showFlash - 0x42a60
+CCLightStrip::draw - 0x42e30
+CCLightStrip::updateTweenAction - 0x42ff0
 CCMenuItemSpriteExtra::create - 0x43cc0
 CCMenuItemSpriteExtra::init - 0x43d60
 CCMenuItemSpriteExtra::activate - 0x43ec0
