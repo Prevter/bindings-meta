@@ -931,6 +931,7 @@ GameCell::draw - 0x3bda0
 GameLevelManager::sharedState - 0x13e1e0
 GameLevelManager::addDLToActive - 0x1445c0
 GameLevelManager::cleanupDailyLevels - 0x1450c0
+GameLevelManager::createAndGetMapPacks - 0x142370
 GameLevelManager::createNewLevel - 0x13fe60
 GameLevelManager::createNewLevelList - 0x140910
 GameLevelManager::dataLoaded - 0x145db0
@@ -1034,6 +1035,7 @@ GameManager::loadGround - 0x179c20
 GameManager::loadIcon - 0x178e70
 GameManager::loadMiddleground - 0x1799d0
 GameManager::playMenuMusic - 0x172ec0
+GameManager::recountUserStats - 0x17ba50
 GameManager::reloadAll - 0x1807b0
 GameManager::reloadAllStep2 - 0x180850
 GameManager::reloadAllStep3 - 0x180a10
@@ -1065,6 +1067,7 @@ GameStatsManager::awardCurrencyForLevel - 0x1d6500
 GameStatsManager::checkAchievement - 0x1cb460
 GameStatsManager::checkCoinAchievement - 0x1d3430
 GameStatsManager::completedDailyLevel - 0x1d8680
+GameStatsManager::completedMapPack - 0x1d49a0
 GameStatsManager::createSpecialChestItems - 0x1dae20
 GameStatsManager::createStoreItems - 0x1c78e0
 GameStatsManager::dataLoaded - 0x1e5c00
@@ -1093,15 +1096,20 @@ GameStatsManager::incrementStat - 0x1ca5b0
 GameStatsManager::isItemUnlocked - 0x1dabe0
 GameStatsManager::isSpecialChestUnlocked - 0x1de960
 GameStatsManager::isStoreItemUnlocked - 0x1dec10
+GameStatsManager::postLoadGameStats - 0x1e6d40
 GameStatsManager::preSaveGameStats - 0x1e6f10
 GameStatsManager::processChallengeQueue - 0x1d81d0
 GameStatsManager::recountSpecialStats - 0x1d9a20
 GameStatsManager::removeErrorFromSpecialChests - 0x1e6c00
+GameStatsManager::setStarsForMapPack - 0x1d4c00
 GameStatsManager::setStat - 0x1cb2f0
 GameStatsManager::setupIconCredits - 0x1ba150
 GameStatsManager::toggleEnableItem - 0x1dad90
+GameStatsManager::tryFixPathBug - 0x1ca870
 GameStatsManager::trySelectActivePath - 0x1ca740
 GameStatsManager::uncompleteLevel - 0x1d4740
+GameStatsManager::verifyPathAchievements - 0x1caf70
+GameStatsManager::verifyUserCoins - 0x1d57a0
 GameStatsManager::init - 0x1c7280
 GameToolbox::addBackButton - 0x63a20
 GameToolbox::addRThumbScrollButton - 0x63b00
@@ -2056,6 +2064,7 @@ MusicBrowser::FLAlert_Clicked - 0x31a0c0
 MusicDownloadManager::sharedState - 0x31bca0
 MusicDownloadManager::addDLToActive - 0x31def0
 MusicDownloadManager::addMusicDownloadDelegate - 0x31c430
+MusicDownloadManager::clearUnusedSongs - 0x31d660
 MusicDownloadManager::createArtistsInfo - 0x31d150
 MusicDownloadManager::createSongsInfo - 0x31cda0
 MusicDownloadManager::dataLoaded - 0x31e950

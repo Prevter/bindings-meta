@@ -421,7 +421,7 @@ cocos2d::CCSequence::startWithTarget - 0x33d7f4
 cocos2d::CCSequence::stop - 0x33d83c
 cocos2d::CCSequence::reverse - 0x33da10
 cocos2d::CCSprite::create - 0x22905c
-cocos2d::CCSprite::create - 0x22905c
+cocos2d::CCSprite::create - 0x229354
 cocos2d::CCSprite::createWithSpriteFrame - 0x229240
 cocos2d::CCSprite::createWithSpriteFrameName - 0x22932c
 cocos2d::CCSprite::createWithTexture - 0x228df0
