@@ -265,6 +265,7 @@ cocos2d::CCMenu::create - 0x1e1940
 cocos2d::CCMenu::alignItemsHorizontallyWithPadding - 0x1e220c
 cocos2d::CCRotateBy::create - 0x196f24
 cocos2d::CCDelayTime::create - 0x1968fc
+ObjectDecoder::sharedDecoder - 0x246034
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x1ba76c
 cocos2d::extension::CCScale9Sprite::create - 0x2261a8
 cocos2d::extension::CCScale9Sprite::CCScale9Sprite - 0x224b84
@@ -559,7 +560,6 @@ MoreOptionsLayer::onSongBrowser - 0xf0568
 MoreOptionsLayer::init - 0xeefb4
 MultilineBitmapFont::createWithFont - 0x244948
 MultilineBitmapFont::initWithFont - 0x244a6c
-ObjectDecoder::sharedDecoder - 0x246034
 ObjectManager::instance - 0x25c9a8
 ObjectManager::purgeObjectManager - 0x25ca10
 ObjectManager::setup - 0x25cea8

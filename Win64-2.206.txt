@@ -503,6 +503,7 @@ CustomListView::loadCell - 0xa94f0
 CustomSongCell::loadFromObject - 0xb2220
 CustomSongCell::songIDChanged - 0xb23e0
 CustomSongCell::getSongFileName - 0xb2440
+CustomSongCell::getLevelSettings - 0x81fb0
 CustomMusicCell::loadFromObject - 0xb2a00
 CustomSFXCell::loadFromObject - 0xb2740
 CustomSFXCell::updateBGColor - 0xb2870
@@ -1851,6 +1852,7 @@ LevelSearchLayer::checkTime - 0x2f1dc0
 LevelSearchLayer::getLevelLenKey - 0x147f60
 LevelSearchLayer::getSearchObject - 0x2ef7b0
 LevelSearchLayer::init - 0x2ebc60
+LevelSearchLayer::onClearFreeSearch - 0x2f1520
 LevelSearchLayer::onFollowed - 0x2f0fe0
 LevelSearchLayer::onFriends - 0x2f0f20
 LevelSearchLayer::onLatestStars - 0x2f0e60
@@ -1886,6 +1888,8 @@ LevelSelectLayer::keyBackClicked - 0x2f93d0
 LevelSelectLayer::keyDown - 0x2f9420
 LevelSelectLayer::updatePageWithObject - 0x2f8b50
 LevelSelectLayer::scrollLayerMoved - 0x2f8bc0
+LevelSettingsLayer::create - 0x2fe200
+LevelSettingsLayer::init - 0x2fe3f0
 LevelSettingsLayer::keyBackClicked - 0x301b50
 LevelSettingsLayer::colorSelectClosed - 0x3013e0
 LevelSettingsLayer::selectArtClosed - 0x301800
@@ -2098,7 +2102,6 @@ OptionsScrollLayer::keyBackClicked - 0x31a670
 ParticleGameObject::setParticleString - 0x4746b0
 ParticleGameObject::updateParticle - 0x474740
 PauseLayer::goEdit - 0x35cac0
-PauseLayer::init - 0x41660
 PauseLayer::musicSliderChanged - 0x35c4d0
 PauseLayer::onEdit - 0x35c8f0
 PauseLayer::onNormalMode - 0x35c640
@@ -2112,6 +2115,7 @@ PauseLayer::tryQuit - 0x35cb90
 PauseLayer::keyBackClicked - 0x35cf90
 PauseLayer::keyDown - 0x35cec0
 PauseLayer::customSetup - 0x35abc0
+PauseLayer::FLAlert_Clicked - 0x35cd20
 PlayerCheckpoint::create - 0x3979a0
 PlayerFireBoostSprite::create - 0x380cd0
 PlayerFireBoostSprite::loopFireAnimation - 0x380dd0
