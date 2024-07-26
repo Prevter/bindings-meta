@@ -332,6 +332,7 @@ CCTextInputNode::keyboardWillHide - 0x4f4f0
 CCTextInputNode::onTextFieldInsertText - 0x4f620
 CCTextInputNode::onTextFieldAttachWithIME - 0x4fa00
 CCTextInputNode::onTextFieldDetachWithIME - 0x4fd30
+ChallengesPage::claimItem - 0x851e0
 ChallengesPage::createChallengeNode - 0x849f0
 ChallengesPage::exitNodeAtSlot - 0x84c80
 ChallengesPage::updateTimers - 0x84d70
