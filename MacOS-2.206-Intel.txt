@@ -708,8 +708,6 @@ DS_Dictionary::setFloatForKey - 0x17a7a0
 DS_Dictionary::setIntegerForKey - 0x17a2a0
 DS_Dictionary::setStringForKey - 0x17aa90
 DS_Dictionary::stepIntoSubDictWithKey - 0x178380
-ObjectDecoder::sharedDecoder - 0x79de60
-ObjectDecoder::init - 0x79ded0
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x356900
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x3fe8f0
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x3fe810
@@ -2665,6 +2663,7 @@ LevelCell::onClick - 0x24dca0
 LevelCell::onToggle - 0x24dc80
 LevelCell::onViewProfile - 0x24de00
 LevelCell::updateCellMode - 0x24a0e0
+LevelCell::updateToggle - 0x24a0b0
 LevelCell::init - 0x24a6e0
 LevelCell::draw - 0x24de30
 LevelEditorLayer::create - 0xdeb30

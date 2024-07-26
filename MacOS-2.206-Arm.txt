@@ -554,7 +554,7 @@ cocos2d::CCRenderTexture::draw - 0x527814
 cocos2d::CCRenderTexture::visit - 0x527788
 cocos2d::CCRenderTexture::getSprite - 0x526a34
 cocos2d::CCRenderTexture::setSprite - 0x526a3c
-cocos2d::CCRepeat::create - 0x33daf0
+cocos2d::CCRepeat::create - 0x33daf8
 cocos2d::CCRepeatForever::create - 0x33e16c
 cocos2d::CCTransitionMoveInT::create - 0xc0d10
 cocos2d::CCTransitionFade::create - 0xc36e4
@@ -708,7 +708,6 @@ DS_Dictionary::setFloatForKey - 0x143084
 DS_Dictionary::setIntegerForKey - 0x142c30
 DS_Dictionary::setStringForKey - 0x143308
 DS_Dictionary::stepIntoSubDictWithKey - 0x14113c
-ObjectDecoder::sharedDecoder - 0x6a61f4
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x2e4df4
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x377de4
 cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x377ce0
@@ -2651,6 +2650,7 @@ LevelCell::onClick - 0x1f7d40
 LevelCell::onToggle - 0x1f7d28
 LevelCell::onViewProfile - 0x1f7ea4
 LevelCell::updateCellMode - 0x1f4538
+LevelCell::updateToggle - 0x1f451c
 LevelCell::init - 0x1f4a88
 LevelCell::draw - 0x1f7ee4
 LevelEditorLayer::create - 0xc5550

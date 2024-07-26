@@ -190,6 +190,7 @@ CCAnimatedSprite::CCAnimatedSprite - 0x3f030
 CCAnimatedSprite::initWithType - 0x3f140
 CCAnimatedSprite::loadType - 0x3f360
 CCAnimatedSprite::runAnimation - 0x3fe00
+CCAnimatedSprite::switchToMode - 0x3fe70
 CCAnimatedSprite::tweenToAnimation - 0x3fe70
 CCAnimatedSprite::tweenToAnimationFinished - 0x40140
 CCAnimatedSprite::setOpacity - 0x401f0
@@ -528,6 +529,7 @@ CustomSongWidget::create - 0xc56f0
 CustomSongWidget::deleteSong - 0xc7360
 CustomSongWidget::downloadAssetFailed - 0xca6a0
 CustomSongWidget::downloadAssetFinished - 0xca5e0
+CustomSongWidget::downloadFailed - 0xca840
 CustomSongWidget::getSongInfoIfUnloaded - 0xc7cf0
 CustomSongWidget::init - 0xc5900
 CustomSongWidget::onCancelDownload - 0xc7db0
@@ -549,6 +551,7 @@ CustomSongWidget::updatePlaybackBtn - 0xc85b0
 CustomSongWidget::updateProgressBar - 0xc86a0
 CustomSongWidget::updateSongInfo - 0xc8800
 CustomSongWidget::updateWithMultiAssets - 0xc9610
+CustomSongWidget::positionInfoObjects - 0xc6ac0
 CustomSongWidget::loadSongInfoFinished - 0xc9f40
 CustomSongWidget::loadSongInfoFailed - 0xca090
 CustomSongWidget::downloadSongFinished - 0xca120
