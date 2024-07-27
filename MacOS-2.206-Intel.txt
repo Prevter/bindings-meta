@@ -492,6 +492,7 @@ cocos2d::CCLabelBMFont::create - 0x5e0ef0
 cocos2d::CCLabelBMFont::create - 0x5e0e50
 cocos2d::CCLabelBMFont::create - 0x5e0d30
 cocos2d::CCLabelBMFont::initWithString - 0x5e1050
+cocos2d::CCLabelBMFont::getFntFile - 0x5e4750
 cocos2d::CCLabelBMFont::setFntFile - 0x5e4670
 cocos2d::CCLabelBMFont::createFontChars - 0x5e1780
 cocos2d::CCLabelBMFont::limitLabelWidth - 0x5e4790
