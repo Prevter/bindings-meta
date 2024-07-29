@@ -2402,6 +2402,8 @@ PurchaseItemPopup::init - 0x29c6c0
 PurchaseItemPopup::onClose - 0x82fc0
 PurchaseItemPopup::onPurchase - 0x29d570
 PurchaseItemPopup::keyBackClicked - 0x82ff0
+RateDemonLayer::init - 0x3a4d80
+RateDemonLayer::onClose - 0x3a5850
 RateDemonLayer::onRate - 0x3a54d0
 RateDemonLayer::selectRating - 0x3a5350
 RateDemonLayer::keyBackClicked - 0x3a5890
@@ -2409,7 +2411,12 @@ RateDemonLayer::uploadActionFinished - 0x3a5670
 RateDemonLayer::uploadActionFailed - 0x3a5700
 RateDemonLayer::onClosePopup - 0x3a57d0
 RateLevelLayer::init - 0x3a59b0
+RateLevelLayer::onClose - 0x3a6060
+RateLevelLayer::onRate - 0x3a6010
+RateLevelLayer::selectRating - 0x3a5ec0
 RateLevelLayer::keyBackClicked - 0x3a60a0
+RateStarsLayer::create - 0x3a6230
+RateStarsLayer::getStarsButton - 0x3a6a60
 RateStarsLayer::init - 0x3a6380
 RateStarsLayer::onClose - 0x3a7140
 RateStarsLayer::onFeature - 0x3a6a30
