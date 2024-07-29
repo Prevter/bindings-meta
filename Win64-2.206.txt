@@ -1059,6 +1059,7 @@ GameManager::safePopScene - 0x180700
 GameManager::setGameVariable - 0x179e80
 GameManager::setIntGameVariable - 0x17a5e0
 GameManager::setUGV - 0x17a310
+GameManager::setupGameAnimations - 0x1a1830
 GameManager::sheetNameForIcon - 0x179460
 GameManager::stringForCustomObject - 0x17a940
 GameManager::toggleGameVariable - 0x17a260
@@ -1216,6 +1217,8 @@ GJBaseGameLayer::destroyObject - 0x206b50
 GJBaseGameLayer::exitStaticCamera - 0x22e7a0
 GJBaseGameLayer::flipGravity - 0x203660
 GJBaseGameLayer::gameEventTriggered - 0x221fb0
+GJBaseGameLayer::getAreaObjectValue - 0x2188d0
+GJBaseGameLayer::getEasedAreaValue - 0x218ac0
 GJBaseGameLayer::getGroundHeightForMode - 0x2028b0
 GJBaseGameLayer::getGroup - 0x214a70
 GJBaseGameLayer::getMaxPortalY - 0x2042d0
@@ -1228,6 +1231,7 @@ GJBaseGameLayer::increaseBatchNodeCapacity - 0x1fd9d0
 GJBaseGameLayer::loadLevelSettings - 0x229e30
 GJBaseGameLayer::loadStartPosObject - 0x225710
 GJBaseGameLayer::loadUpToPosition - 0x2258b0
+GJBaseGameLayer::moveAreaObject - 0x21b2c0
 GJBaseGameLayer::objectTypeToGameEvent - 0x222520
 GJBaseGameLayer::pauseAudio - 0x227430
 GJBaseGameLayer::pickupItem - 0x206c70
@@ -1240,6 +1244,10 @@ GJBaseGameLayer::positionForShaderTarget - 0x213d40
 GJBaseGameLayer::processActivatedAudioTriggers - 0x232a70
 GJBaseGameLayer::processAdvancedFollowActions - 0x21f8e0
 GJBaseGameLayer::processAreaActions - 0x2197d0
+GJBaseGameLayer::processAreaEffects - 0x218c40
+GJBaseGameLayer::processAreaMoveGroupAction - 0x21ace0
+GJBaseGameLayer::processAreaRotateGroupAction - 0x21a5a0
+GJBaseGameLayer::processAreaTransformGroupAction - 0x219a30
 GJBaseGameLayer::processCommands - 0x229830
 GJBaseGameLayer::processDynamicObjectActions - 0x21ea80
 GJBaseGameLayer::processFollowActions - 0x220d80
