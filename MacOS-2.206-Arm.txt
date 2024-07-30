@@ -2024,6 +2024,7 @@ GameStatsManager::init - 0x518d8
 GameToolbox::addBackButton - 0x45326c
 GameToolbox::addRThumbScrollButton - 0x453354
 GameToolbox::createToggleButton - 0x4528d0
+GameToolbox::fast_srand - 0x45516c
 GameToolbox::getEasedAction - 0x454f34
 GameToolbox::getResponse - 0x452480
 GameToolbox::getTimeString - 0x454db4
@@ -2937,6 +2938,7 @@ LocalLevelManager::init - 0x527fcc
 LocalLevelManager::encodeDataTo - 0x52936c
 LocalLevelManager::dataLoaded - 0x5293c4
 LocalLevelManager::firstLoad - 0x5292f0
+MapPackCell::loadFromMapPack - 0x1ea984
 MapPackCell::init - 0x1f824c
 MapPackCell::draw - 0x1f8744
 MapSelectLayer::update - 0x20c178
@@ -3223,6 +3225,7 @@ PlayerObject::isSafeFlip - 0x38b488
 PlayerObject::loadFromCheckpoint - 0x399e74
 PlayerObject::lockPlayer - 0x3986a8
 PlayerObject::modeDidChange - 0x395100
+PlayerObject::placeStreakPoint - 0x384544
 PlayerObject::playCompleteEffect - 0x1bfebc
 PlayerObject::playDeathEffect - 0x1b7ef4
 PlayerObject::playerDestroyed - 0x392264
@@ -3312,6 +3315,7 @@ PlayLayer::prepareCreateObjectsFromSetup - 0x9b03c
 PlayLayer::processCreateObjectsFromSetup - 0x9b3fc
 PlayLayer::resetLevel - 0xa01f0
 PlayLayer::resetLevelFromStart - 0xaa7c0
+PlayLayer::resume - 0xaaf4c
 PlayLayer::resumeAndRestart - 0xaaddc
 PlayLayer::scene - 0x9a088
 PlayLayer::setupHasCompleted - 0x9bc4c
