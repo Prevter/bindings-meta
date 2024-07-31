@@ -3032,6 +3032,8 @@ MessagesProfilePage::forceReloadMessages - 0x22b250
 MessagesProfilePage::setupPageInfo - 0x22b290
 MoreOptionsLayer::create - 0x7a73e0
 MoreOptionsLayer::addToggle - 0x7a8ca0
+MoreOptionsLayer::onFMODDebug - 0x7a9480
+MoreOptionsLayer::onKeybindings - 0x7a9d10
 MoreOptionsLayer::onSongBrowser - 0x7a9420
 MoreOptionsLayer::init - 0x7a79a0
 MoreOptionsLayer::keyBackClicked - 0x7aac00
@@ -3816,6 +3818,11 @@ ShaderLayer::updateMotionBlurSpeedY - 0x3d4740
 ShaderLayer::init - 0x3ce300
 ShaderLayer::update - 0x3cfaa0
 ShaderLayer::visit - 0x3d5910
+ShardsPage::create - 0x4cf720
+ShardsPage::goToPage - 0x4d1540
+ShardsPage::onClose - 0x4d14a0
+ShardsPage::onIconInfo - 0x4d14d0
+ShardsPage::onSwitchPage - 0x4d1500
 ShardsPage::init - 0x4cf860
 ShardsPage::registerWithTouchDispatcher - 0x4d1890
 ShardsPage::keyBackClicked - 0x4d1820

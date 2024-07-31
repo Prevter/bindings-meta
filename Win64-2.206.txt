@@ -1826,12 +1826,12 @@ LevelLeaderboard::updateUserScoreFinished - 0x2e2130
 LevelLeaderboard::updateUserScoreFailed - 0x2e2140
 LevelListCell::loadFromList - 0xbc320
 LevelListCell::onClick - 0xbd700
+LevelListLayer::cloneList - 0x2e7cb0
 LevelListLayer::confirmClone - 0x2e7bc0
 LevelListLayer::confirmDelete - 0x2e7f40
 LevelListLayer::confirmOwnerDelete - 0x2e8070
 LevelListLayer::init - 0x2e3190
 LevelListLayer::onClaimReward - 0x2e5bb0
-LevelListLayer::onDelete - 0x2e7cb0
 LevelListLayer::onDescription - 0x2e7330
 LevelListLayer::onFavorite - 0x2e7200
 LevelListLayer::onInfo - 0x2e7500
@@ -2626,7 +2626,13 @@ ShaderLayer::updateEffectOffsets - 0x456fb0
 ShaderLayer::init - 0x455e50
 ShaderLayer::update - 0x456d00
 ShaderLayer::visit - 0x45ce00
+ShardsPage::onClose - 0x82fc0
+ShardsPage::onIconInfo - 0x460cc0
+ShardsPage::onSwitchPage - 0x460d00
 ShardsPage::init - 0x45de70
+ShardsPage::registerWithTouchDispatcher - 0x41750
+ShardsPage::keyBackClicked - 0x82ff0
+ShardsPage::show - 0x84fb0
 ShareCommentLayer::create - 0x460fe0
 ShareCommentLayer::init - 0x4611f0
 ShareCommentLayer::onShare - 0x462440
