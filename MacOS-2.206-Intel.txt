@@ -2012,7 +2012,7 @@ GameStatsManager::hasCompletedDailyLevel - 0x74730
 GameStatsManager::hasCompletedLevel - 0x6d1d0
 GameStatsManager::hasCompletedMainLevel - 0x6d160
 GameStatsManager::hasPendingUserCoin - 0x6f5b0
-GameStatsManager::hasSecretCoin - 0x6cd6
+GameStatsManager::hasSecretCoin - 0x6cd60
 GameStatsManager::hasUserCoin - 0x6f690
 GameStatsManager::incrementStat - 0x65ad0
 GameStatsManager::isItemUnlocked - 0x6a450
