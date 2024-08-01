@@ -2111,6 +2111,7 @@ GJBaseGameLayer::gameEventTriggered - 0x115740
 GJBaseGameLayer::getModifiedDelta - 0x147090
 GJBaseGameLayer::gravBumpPlayer - 0x11c8e0
 GJBaseGameLayer::handleButton - 0x13fc40
+GJBaseGameLayer::hasUniqueCoin - 0x11ce50
 GJBaseGameLayer::loadLevelSettings - 0x14cce0
 GJBaseGameLayer::objectTypeToGameEvent - 0x118d00
 GJBaseGameLayer::pauseAudio - 0x146fa0
@@ -2121,6 +2122,7 @@ GJBaseGameLayer::preResumeGame - 0x146f90
 GJBaseGameLayer::processAreaEffects - 0x1358e0
 GJBaseGameLayer::processAreaVisualActions - 0x1389e0
 GJBaseGameLayer::processCommands - 0x148740
+GJBaseGameLayer::processOptionsTrigger - 0x1316f0
 GJBaseGameLayer::processQueuedButtons - 0x13fbc0
 GJBaseGameLayer::queueButton - 0x13fa20
 GJBaseGameLayer::refreshCounterLabels - 0x143350

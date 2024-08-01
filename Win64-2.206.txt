@@ -107,6 +107,8 @@ GameObject::isFacingDown - 0x197950
 GameObject::isFacingLeft - 0x197a10
 GameObject::objectFromVector - 0x193220
 GameObject::playDestroyObjectAnim - 0x1a04e0
+GameObject::playPickupAnimation - 0x1a0000
+GameObject::playPickupAnimation - 0x19ff10
 GameObject::playShineEffect - 0x18f3f0
 GameObject::slopeYPos - 0x1973f0
 GameObject::updateCustomScaleX - 0x18e690
@@ -175,6 +177,7 @@ GameObject::getStartPos - 0x133b50
 EnhancedGameObject::updateUserCoin - 0x19c930
 EnhancedGameObject::customSetup - 0x19afb0
 EnhancedGameObject::resetObject - 0x19a970
+EnhancedGameObject::updateSyncedAnimation - 0x19ddf0
 EffectGameObject::playTriggerEffect - 0x4798b0
 EffectGameObject::updateSpeedModType - 0x47f6c0
 EffectGameObject::setOpacity - 0x479d90
@@ -1253,6 +1256,7 @@ GJBaseGameLayer::processDynamicObjectActions - 0x21ea80
 GJBaseGameLayer::processFollowActions - 0x220d80
 GJBaseGameLayer::processMoveActions - 0x21ddb0
 GJBaseGameLayer::processMoveActionsStep - 0x21bde0
+GJBaseGameLayer::processOptionsTrigger - 0x214540
 GJBaseGameLayer::processPlayerFollowActions - 0x21e6d0
 GJBaseGameLayer::processQueuedAudioTriggers - 0x22ac10
 GJBaseGameLayer::processQueuedButtons - 0x221f00
