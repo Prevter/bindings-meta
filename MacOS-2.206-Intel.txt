@@ -2323,7 +2323,7 @@ GJListLayer::create - 0x5dadf0
 GJListLayer::init - 0x5daf00
 GJLocalLevelScoreCell::init - 0x251820
 GJLocalLevelScoreCell::draw - 0x251840
-GJMapPack::hasCompletedMapPack - 0x57b857
+GJMapPack::hasCompletedMapPack - 0x566ef0
 GJMapPack::init - 0x566dc0
 GJMessageCell::init - 0x254100
 GJMessageCell::draw - 0x254410
