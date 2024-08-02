@@ -3139,6 +3139,7 @@ ObjectToolbox::init - 0x592004
 OptionsLayer::create - 0x6ad67c
 OptionsLayer::musicSliderChanged - 0x6ae7b8
 OptionsLayer::onOptions - 0x6ae1f8
+OptionsLayer::onSecretVault - 0x6ae50c
 OptionsLayer::sfxSliderChanged - 0x6ae828
 OptionsLayer::customSetup - 0x6ad80c
 OptionsLayer::layerHidden - 0x6aebcc
@@ -3519,6 +3520,7 @@ SecretLayer::textInputOpened - 0x52e828
 SecretLayer::textInputClosed - 0x52e908
 SecretLayer::textChanged - 0x52ea18
 SecretLayer2::onBack - 0x40b4ec
+SecretLayer2::onDoor - 0x40ca48
 SecretLayer2::onSubmit - 0x40b560
 SecretLayer2::updateSearchLabel - 0x40b294
 SecretLayer2::init - 0x40a32c

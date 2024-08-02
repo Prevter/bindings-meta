@@ -2507,6 +2507,7 @@ SecretLayer2::keyBackClicked - 0x3c3fb0
 SecretLayer2::textInputOpened - 0x3c1430
 SecretLayer2::textInputClosed - 0x3c1580
 SecretLayer2::dialogClosed - 0x3bed40
+SecretLayer3::onClick - 0x3c6980
 SecretLayer3::init - 0x3c4540
 SecretLayer3::keyBackClicked - 0x3c9c80
 SecretLayer3::dialogClosed - 0x3c9680
