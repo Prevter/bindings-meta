@@ -2558,12 +2558,17 @@ SetGroupIDLayer::onArrowLeft - 0x3d0580
 SetGroupIDLayer::onArrowRight - 0x3d05b0
 SetGroupIDLayer::onNextFreeEditorLayer1 - 0x3d23b0
 SetGroupIDLayer::onNextFreeEditorLayer2 - 0x3d2420
+SetGroupIDLayer::onNextFreeOrderChannel - 0x3d28c0
 SetGroupIDLayer::onNextGroupID1 - 0x3d14d0
 SetGroupIDLayer::updateEditorLabel - 0x3d2520
 SetGroupIDLayer::updateEditorLabel2 - 0x3d25b0
 SetGroupIDLayer::updateEditorLayerID - 0x3d22b0
 SetGroupIDLayer::updateEditorLayerID2 - 0x3d2330
+SetGroupIDLayer::updateEditorOrder - 0x3d2a90
+SetGroupIDLayer::updateEditorOrderLabel - 0x3d2760
 SetGroupIDLayer::updateGroupIDLabel - 0x3d26d0
+SetGroupIDLayer::updateOrderChannel - 0x3d29c0
+SetGroupIDLayer::updateOrderChannelLabel - 0x3d2810
 SetGroupIDLayer::updateZOrder - 0x3d2490
 SetGroupIDLayer::updateZOrderLabel - 0x3d2640
 SetGroupIDLayer::keyBackClicked - 0x3d2ee0
