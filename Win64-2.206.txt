@@ -1437,10 +1437,13 @@ GJItemIcon::toggleEnabledState - 0x269400
 GJItemIcon::setOpacity - 0x2690b0
 GJLevelList::create - 0x16de90
 GJLevelList::create - 0x16d5a0
+GJLevelList::addLevelToList - 0x16e610
 GJLevelList::completedLevels - 0x16ef90
 GJLevelList::dataLoaded - 0x16f3c0
+GJLevelList::getListLevelsArray - 0x16e890
 GJLevelList::getUnpackedDescription - 0x16e2b0
 GJLevelList::hasMatchingLevels - 0x16e0a0
+GJLevelList::reorderLevel - 0x16e7a0
 GJLevelList::showListInfo - 0x16eff0
 GJLevelList::encodeWithCoder - 0x16f6e0
 GJLevelScoreCell::loadFromScore - 0xb7760
