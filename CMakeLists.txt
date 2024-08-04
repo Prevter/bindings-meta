@@ -80,4 +80,4 @@ else()
 endif()
 
 # Export JSON data with all classes
-copy_bindings_data("CodegenData.json" "CodegenData.json")
+copy_bindings_data("CodegenData.json" "CodegenData-${GEODE_GD_VERSION}.json")
