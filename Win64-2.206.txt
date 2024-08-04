@@ -2788,3 +2788,5 @@ URLCell::loadFromObject - 0xbd870
 VideoOptionsLayer::create - 0x355140
 VideoOptionsLayer::init - 0x355250
 VideoOptionsLayer::keyBackClicked - 0x356df0
+WinMain - 0x4a2a90
+__scrt_common_main_seh - 0x4a4054
