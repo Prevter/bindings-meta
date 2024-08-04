@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import StatsContainer from '../components/StatsContainer.astro';
 import PlatformCard from '../components/PlatformCard.astro';
 
 type Platform = {
@@ -48,10 +49,7 @@ const bindings : Platform[] = fs.readdirSync('./public').map(bindings => {
 			<strong><a href="https://github.com/geode-sdk/bindings">Geode bindings repository</a></strong>.
 		</p>
 		<div class="block">
-			<p style="text-align: center;">
-				Statistics are not available yet. 😅<br/>
-				Please check back later!
-			</p>
+			<StatsContainer />
 		</div>
 
 		<!-- Download links -->
@@ -75,6 +73,12 @@ const bindings : Platform[] = fs.readdirSync('./public').map(bindings => {
 				versions={bindings.filter(binding => binding.platform === 'iOS')}
 			/>
 		</div>
+
+		<!-- Footer -->
+		<footer>
+			Made with ❤️ by <a href="https://github.com/prevter">prevter</a><br/>
+			<a href="https://github.com/prevter/bindings-meta">View the source code</a>
+		</footer>
 	</main>
 </Layout>
 
@@ -139,5 +143,19 @@ const bindings : Platform[] = fs.readdirSync('./public').map(bindings => {
 		.platform-cards {
 			flex-direction: column;
 		}
+	}
+
+	footer {
+		text-align: center;
+		margin-top: 1rem;
+		font-size: 0.8rem;
+		color: rgba(255, 255, 255, 0.7);
+	}
+	footer a {
+		color: rgba(200, 200, 255, 0.8);
+		text-decoration: none;
+	}
+	footer a:hover {
+		text-decoration: underline;
 	}
 </style>

@@ -78,3 +78,6 @@ if (${GEODE_TARGET_PLATFORM} STREQUAL "MacOS")
 else()
 	copy_bindings_data("CodegenData.txt" "${GEODE_TARGET_PLATFORM}-${GEODE_GD_VERSION}.txt")
 endif()
+
+# Export JSON data with all classes
+copy_bindings_data("CodegenData.json" "CodegenData.json")

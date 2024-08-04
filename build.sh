@@ -6,8 +6,9 @@
 # Configure CMake project to generate bindings
 cmake -S . -B build
 
-# Copy all txt files from './output' to './website/public'
+# Copy all txt and json files from './output' to './website/public'
 cp -r output/*.txt website/public
+cp -r output/*.json website/public
 
 # Build the website
 cd website

@@ -1,0 +1,122 @@
+---
+import CodegenData from '../../public/CodegenData.json';
+
+// Here we do the actual parsing 🥰
+const classes = CodegenData.classes;
+/*
+Schema:
+{
+    "classes": [
+        {
+            "name": "cocos2d::CCEGLViewProtocol",
+            "functions": [
+                {
+                    "name": "CCEGLViewProtocol",
+                    "args": [],
+                    "const": false,
+                    "virtual": false,
+                    "static": false,
+                    "bindings": {
+                        "win": "link",
+                        "imac": null,
+                        "m1": null,
+                        "ios": null,
+                        "android32": "link",
+                        "android64": "link"
+                    }
+                }
+            ]
+        }
+    ]
+}
+*/
+
+function getTotalFunctions() {
+    let total = 0;
+    classes.forEach((cls) => {
+        total += cls.functions.length;
+    });
+    return total;
+}
+
+type Platform = 'win' | 'imac' | 'm1' | 'ios' | 'android32' | 'android64';
+type FunctionBindings = {
+    total: number;
+    linked: number;
+    inlines: number;
+}
+type PlatformCount = {
+    platform: Platform;
+    cocos: FunctionBindings
+    gd: FunctionBindings
+}
+
+function getPlatformCount(platform): PlatformCount {
+    let cocos = { total: 0, linked: 0, inlines: 0 };
+    let gd = { total: 0, linked: 0, inlines: 0 };
+    classes.forEach(cls => {
+        const isCocos = cls.name.startsWith('cocos2d') 
+            || cls.name.startsWith('DS_Dictionary')
+            || cls.name.startsWith('pugi::xml_');
+        cls.functions.forEach(fn => {
+            if (fn.bindings[platform] === 'link') {
+                isCocos ? cocos.linked++ : gd.linked++;
+            } else if (fn.bindings[platform] === 'inline') {
+                isCocos ? cocos.inlines++ : gd.inlines++;
+            } else if (fn.bindings[platform] !== null) {
+                isCocos ? cocos.total++ : gd.total++;
+            }
+        });
+    });
+    return { platform, cocos, gd };
+}
+
+function getPlatformProgress(platform: PlatformCount): number {
+    const { cocos, gd } = platform;
+    const total = cocos.total + gd.total;
+    const linked = cocos.linked + gd.linked;
+    const inlines = cocos.inlines + gd.inlines;
+    return Math.round((linked + inlines + total) / getTotalFunctions() * 100);
+}
+
+const platformNames = {
+    win: 'Windows',
+    imac: 'macOS (Intel)',
+    m1: 'macOS (M1)',
+    ios: 'iOS',
+    android32: 'Android (32-bit)',
+    android64: 'Android (64-bit)'
+};
+
+---
+<div>
+    <h2>Statistics</h2>
+    <p>
+        Total classes: {CodegenData.classes.length} <br/>
+        Total functions: {getTotalFunctions()}
+    </p>
+    <p>
+        Total functions available for:
+    </p>
+    <ul>
+        {['win', 'imac', 'm1', 'ios', 'android32', 'android64'].map(platform => {
+            const data = getPlatformCount(platform);
+            const { cocos, gd } = data;
+            return (
+                <li>
+                    <strong>{platformNames[platform]}</strong>
+                    (Progress: {getPlatformProgress(data)}%)
+                    <ul>
+                        <li>
+                            <b>cocos2d</b>: {cocos.total} addresses, {cocos.linked} linked, {cocos.inlines} inlines
+                        </li>
+                        <li>
+                            <b>Geometry Dash</b>: {gd.total} addresses, {gd.linked} linked, {gd.inlines} inlines
+                        </li>
+                    </ul>
+                </li>
+            );
+        })}
+    </ul>
+    <p><small>Note: This page is still a work in progress.</small></p>
+</div>

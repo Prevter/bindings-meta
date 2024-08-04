@@ -1,6 +1,7 @@
 # build output
 dist/
 public/*.txt
+public/CodegenData.json
 
 # generated types
 .astro/
