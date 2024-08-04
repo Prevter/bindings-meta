@@ -1836,6 +1836,7 @@ GameLevelManager::accountIDForUserID - 0x5359a0
 GameLevelManager::addDLToActive - 0x53f890
 GameLevelManager::cleanupDailyLevels - 0x540c30
 GameLevelManager::createAndGetLevels - 0x535c60
+GameLevelManager::createNewLevelList - 0x538bb0
 GameLevelManager::dataLoaded - 0x542370
 GameLevelManager::deleteLevel - 0x533f10
 GameLevelManager::deleteLevelList - 0x534810
@@ -1846,7 +1847,7 @@ GameLevelManager::downloadLevel - 0x54b6c0
 GameLevelManager::encodeDataTo - 0x541e10
 GameLevelManager::getActiveDailyID - 0x560ec0
 GameLevelManager::getBasePostString - 0x543ce0
-GameLevelManager::getBoolForKey - 0x3c0d2c
+GameLevelManager::getBoolForKey - 0x561e50
 GameLevelManager::getCompletedLevels - 0x53c430
 GameLevelManager::getDailyID - 0x560e90
 GameLevelManager::getDailyTimer - 0x560ef0
@@ -2305,7 +2306,7 @@ GJItemIcon::scaleForType - 0x36f5b0
 GJItemIcon::unlockedColorForType - 0x372f60
 GJItemIcon::setOpacity - 0x372e20
 GJLevelList::create - 0x5346e0
-GJLevelList::create - 0x534200
+GJLevelList::create - 0x538bb0
 GJLevelList::completedLevels - 0x56a800
 GJLevelList::dataLoaded - 0x56ac60
 GJLevelList::frameForListDifficulty - 0x56b220
