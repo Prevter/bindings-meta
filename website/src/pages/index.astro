@@ -61,17 +61,17 @@ const bindings : Platform[] = fs.readdirSync('./public').map(bindings => {
 		<div class="platform-cards">
 			<PlatformCard
 				name="Windows"
-				icon="/windows.svg"
+				icon="./windows.svg"
 				versions={bindings.filter(binding => binding.platform === 'Windows')}
 			/>
 			<PlatformCard
 				name="macOS"
-				icon="/apple.svg"
+				icon="./apple.svg"
 				versions={bindings.filter(binding => binding.platform === 'macOS')}
 			/>
 			<PlatformCard
 				name="iOS"
-				icon="/apple.svg"
+				icon="./apple.svg"
 				versions={bindings.filter(binding => binding.platform === 'iOS')}
 			/>
 		</div>
