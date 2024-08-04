@@ -1,0 +1,59 @@
+# This workflow will force a rebuild of the site
+# Note: it does not create a release
+name: Force rebuild
+
+on: 
+    workflow_dispatch:
+
+jobs:
+  generate:
+    strategy:
+      matrix:
+        config:
+          - { platform: Win32, version: "2.204" }
+          - { platform: MacOS, version: "2.200" }
+          - { platform: Win64, version: "2.206" }
+          - { platform: MacOS, version: "2.206" }
+          - { platform: iOS, version: "2.206" }
+
+    runs-on: ubuntu-latest
+    name: Run codegen
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure CMake
+        run: cmake -B build -S . -DGEODE_TARGET_PLATFORM=${{ matrix.config.platform }} -DGEODE_GD_VERSION=${{ matrix.config.version }}
+      
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.config.platform }}-${{ matrix.config.version }}
+          path: ./output
+
+  website:
+    runs-on: ubuntu-latest
+    needs: generate
+    name: Build website
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with: 
+          path: website/public
+          merge-multiple: true
+  
+      - name: Build website
+        run: |
+          cd website
+          npm install
+          npm run build
+          cd ..
+
+      - name: Deploy pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./website/dist
