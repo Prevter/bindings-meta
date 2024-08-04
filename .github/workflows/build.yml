@@ -82,7 +82,7 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with: 
-          path: website/codegen
+          path: website/public
           merge-multiple: true
   
       - name: Create Release
@@ -93,20 +93,15 @@ jobs:
           export PREVIOUS_COMMIT=${{ needs.check.outputs.previous_commit }}
           gh release create $LATEST_COMMIT -t "Bindings commit $LATEST_COMMIT" -n "Codegen output for https://github.com/geode-sdk/bindings/compare/$PREVIOUS_COMMIT...$LATEST_COMMIT" codegen/*
   
-      - name: Prepare index.html
+      - name: Build website
         run: |
-          echo "<html><head><title>Codegen output</title></head><body>" > index.html
-          echo "<h1>Codegen output</h1>" >> index.html
-          echo "<ul>" >> index.html
-          for file in codegen/*; do
-            echo "<li><a href=\"$(basename $file)\">$(basename $file)</a></li>" >> index.html
-          done
-          echo "</ul>" >> index.html
-          echo "</body></html>" >> index.html
-          cp index.html codegen/index.html
+          cd website
+          npm install
+          npm run build
+          cd ..
 
       - name: Deploy pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./codegen
+          publish_dir: ./website/dist

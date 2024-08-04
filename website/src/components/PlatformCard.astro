@@ -1,0 +1,97 @@
+---
+type Platform = {
+	platform: string;
+	version: string;
+	arch?: string;
+	file: string;
+};
+
+interface Props {
+    name: string;
+    icon: string;
+    versions: Platform[];
+}
+
+const { name, icon, versions } = Astro.props;
+versions.sort((a, b) => b.version.localeCompare(a.version));
+---
+
+<div class="platform-card">
+    <img src={icon} alt={name} />
+    <h2>{name}</h2>
+    <hr/>
+    <div class="versions">
+        {versions.map(version => {
+            return (<a href={`./${version.file}`} class="version-btn">
+                {version.version}
+                <span class="subtitle">
+                    { version.arch ? `(${version.arch})` : '' }
+                </span>
+            </a>)
+        })}
+    </div>
+</div>
+<style>
+    .platform-card {
+        background-color: #23262d;
+        border-radius: 8px;
+        padding: 1rem;
+        text-align: center;
+        color: white;
+        margin: 1rem;
+    }
+
+    @media (min-width: 769px) {
+        .platform-card {
+            width: 200px;
+        }
+    }
+
+    .platform-card img {
+        width: 100px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .platform-card h2 {
+        margin: 0.5rem 0;
+    }
+
+    .platform-card hr {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin: 0.5rem 0;
+    }
+
+    .versions {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .version-btn {
+        background-color: #2f3241;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        width: 160px;
+    }
+
+    .version-btn .subtitle {
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.5);
+        vertical-align: top;
+    }
+
+    .version-btn:hover {
+        background-color: #3f4251;
+    }
+
+    .version-btn:active {
+        background-color: #1f2141;
+    }
+</style>

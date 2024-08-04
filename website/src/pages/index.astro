@@ -1,0 +1,143 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PlatformCard from '../components/PlatformCard.astro';
+
+type Platform = {
+	platform: string;
+	version: string;
+	arch?: string;
+	file: string;
+};
+
+import fs from 'fs';
+const bindings : Platform[] = fs.readdirSync('./public').map(bindings => {
+	if (bindings.startsWith('Win32') || bindings.startsWith('Win64')) {
+		const version = bindings.split('-')[1].replace('.txt', '');
+		return {
+			platform: 'Windows',
+			version: version,
+			file: bindings
+		};
+	} else if (bindings.startsWith('MacOS')) {
+		const version = bindings.split('-')[1];
+		const arch = bindings.split('-')[2].replace('.txt', '');
+		return {
+			platform: 'macOS',
+			version: version,
+			arch: arch,
+			file: bindings
+		};
+	} else if (bindings.startsWith('iOS')) {
+		const version = bindings.split('-')[1].replace('.txt', '');
+		return {
+			platform: 'iOS',
+			version: version,
+			file: bindings
+		};
+	}
+}).filter(Boolean);
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<h1><span class="text-gradient">Geometry Dash</span> Bindings</h1>
+		<!-- Stats -->
+		<p class="block-header">
+			Welcome to the Geometry Dash bindings! Here you can find the latest generated bindings for the game and
+			check out how many of them are available. All of the bindings are generated using the latest version of the
+			<strong><a href="https://github.com/geode-sdk/bindings">Geode bindings repository</a></strong>.
+		</p>
+		<div class="block">
+			<p style="text-align: center;">
+				Statistics are not available yet. 😅<br/>
+				Please check back later!
+			</p>
+		</div>
+
+		<!-- Download links -->
+		<p class="block-header">
+			If you're looking to download the latest generated bindings, you can find them here:
+		</p>
+		<div class="platform-cards">
+			<PlatformCard
+				name="Windows"
+				icon="/windows.svg"
+				versions={bindings.filter(binding => binding.platform === 'Windows')}
+			/>
+			<PlatformCard
+				name="macOS"
+				icon="/apple.svg"
+				versions={bindings.filter(binding => binding.platform === 'macOS')}
+			/>
+			<PlatformCard
+				name="iOS"
+				icon="/apple.svg"
+				versions={bindings.filter(binding => binding.platform === 'iOS')}
+			/>
+		</div>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 0.2rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.block-header {
+		margin-bottom: 1rem;
+		border: 1px solid rgba(var(--secondary), 25%);
+		background: rgba(var(--secondary), 6%);
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+	.block-header code {
+		font-size: 0.8em;
+		font-weight: bold;
+		background: rgba(var(--secondary), 12%);
+		color: rgb(var(--secondary));
+		border-radius: 4px;
+		padding: 0.3em 0.4em;
+	}
+	.block-header a {
+		color: rgb(var(--secondary));
+		text-decoration: none;
+	}
+	.block-header a:hover {
+		text-decoration: underline;
+	}
+	.block-header strong {
+		color: rgb(var(--secondary));
+	}
+	.block {
+		padding: 0.2rem;
+	}
+	.platform-cards {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	@media (max-width: 768px) {
+		.platform-cards {
+			flex-direction: column;
+		}
+	}
+</style>
