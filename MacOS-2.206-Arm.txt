@@ -1830,7 +1830,7 @@ GameLevelManager::accountIDForUserID - 0x488ce0
 GameLevelManager::addDLToActive - 0x4919e4
 GameLevelManager::cleanupDailyLevels - 0x492c64
 GameLevelManager::createAndGetLevels - 0x488f5c
-GameLevelManager::createNewLevelList - 0x48b638
+GameLevelManager::createNewLevelList - 0x4877e8
 GameLevelManager::dataLoaded - 0x4941e4
 GameLevelManager::deleteLevel - 0x4874e4
 GameLevelManager::deleteLevelList - 0x487d30
