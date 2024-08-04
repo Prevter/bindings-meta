@@ -1,0 +1,2 @@
+WinMain - 0x4a2a90
+__scrt_common_main_seh - 0x4a4054

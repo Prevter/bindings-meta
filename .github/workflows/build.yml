@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */4 * * *'
+  push:
+    branches:
+      - main
 
 
 jobs:
@@ -31,12 +34,14 @@ jobs:
           export LATEST_RELEASE=$(echo $LATEST_RELEASE | cut -c1-7)
           if [ "$LATEST_COMMIT" == "$LATEST_RELEASE" ]; then
             echo "No new commits since last release"
-            exit 1
+            echo "HAS_NEW_COMMITS=false" >> $GITHUB_OUTPUT
+            exit 0
           fi
 
           # Export the latest commit to be used in the next step
           echo "LATEST_COMMIT=$LATEST_COMMIT" >> $GITHUB_OUTPUT
           echo "PREVIOUS_COMMIT=$LATEST_RELEASE" >> $GITHUB_OUTPUT
+          echo "HAS_NEW_COMMITS=true" >> $GITHUB_OUTPUT
 
   generate:
     strategy:
@@ -49,6 +54,7 @@ jobs:
           - { platform: iOS, version: "2.206" }
           
     needs: check
+    if: needs.check.outputs.has_new_commits == 'true'
     runs-on: ubuntu-latest
     name: Run codegen
     steps:
@@ -65,7 +71,7 @@ jobs:
           path: ./output
 
   publish:
-    needs: [generate, check]
+    needs: generate
     runs-on: ubuntu-latest
     name: Publish results
     
@@ -76,7 +82,7 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with: 
-          path: codegen
+          path: website/codegen
           merge-multiple: true
   
       - name: Create Release
