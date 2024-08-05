@@ -47,7 +47,7 @@ const bindings: Platform[] = fs
 	.filter(Boolean);
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout>
 	<main>
 		<h1><span class="text-gradient">Geometry Dash</span> Bindings</h1>
 		<!-- Stats -->
@@ -74,21 +74,21 @@ const bindings: Platform[] = fs
 		<div class="platform-cards">
 			<PlatformCard
 				name="Windows"
-				icon="./windows.svg"
+				icon="windows.svg"
 				versions={bindings.filter(
 					(binding) => binding.platform === "Windows",
 				)}
 			/>
 			<PlatformCard
 				name="macOS"
-				icon="./apple.svg"
+				icon="apple.svg"
 				versions={bindings.filter(
 					(binding) => binding.platform === "macOS",
 				)}
 			/>
 			<PlatformCard
 				name="iOS"
-				icon="./apple.svg"
+				icon="apple.svg"
 				versions={bindings.filter(
 					(binding) => binding.platform === "iOS",
 				)}
