@@ -1,0 +1,144 @@
+---
+const { data } = Astro.props;
+
+// calculate percentages
+const total = data.available + data.linked + data.inlines + data.missing;
+
+const available = (data.available / total) * 100;
+const linked = (data.linked / total) * 100;
+const inlines = (data.inlines / total) * 100;
+const missing = (data.missing / total) * 100;
+const found = data.available + data.linked + data.inlines;
+const filled = available + linked + inlines;
+---
+
+<div class="progress-bar-bg">
+    <div class="subtitle">
+        <div class="bigger-subtitle">
+            <strong>Found:</strong>
+            {found}
+            (<i>{filled.toFixed(2)}%</i>)
+        </div>
+    </div>
+    <div>
+        <div
+            class="progress-bar"
+            style={{
+                width: `${available}%`,
+                backgroundColor: "var(--progress-available)",
+            }}
+        >
+        </div>
+        <div
+            class="progress-bar"
+            style={{
+                width: `${linked}%`,
+                backgroundColor: "var(--progress-linked)",
+            }}
+        >
+        </div>
+        <div
+            class="progress-bar"
+            style={{
+                width: `${inlines}%`,
+                backgroundColor: "var(--progress-inlines)",
+            }}
+        >
+        </div>
+    </div>
+    <span class="subtitle">
+        <div>
+            <span class="circle available"></span>
+            <strong>Available:</strong>
+            {data.available}
+            (<i>{available.toFixed(2)}%</i>)
+        </div>
+        <div>
+            <span class="circle linked"></span>
+            <strong>Linked:</strong>
+            {data.linked}
+            (<i>{linked.toFixed(2)}%</i>)
+        </div>
+        <div>
+            <span class="circle inlines"></span>
+            <strong>Inlines:</strong>
+            {data.inlines}
+            (<i>{inlines.toFixed(2)}%</i>)
+        </div>
+        <div>
+            <strong>Missing:</strong>
+            {data.missing}
+            (<i>{missing.toFixed(2)}%</i>)
+        </div>
+    </span>
+</div>
+
+<style>
+    :root {
+        --progress-available: #49a149;
+        --progress-linked: #2082bb;
+        --progress-inlines: #ff4800;
+        --progress-missing: #393241;
+        --progress-radius: 8px;
+    }
+
+    .progress-bar-bg {
+        background-color: var(--progress-missing);
+        border-radius: var(--progress-radius);
+        text-align: center;
+        color: white;
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+    }
+
+    .progress-bar-bg > div {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .progress-bar {
+        text-align: center;
+        display: inline-block;
+        height: 16px;
+    }
+
+    .progress-bar-bg .subtitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.5rem;
+        gap: 0.25rem;
+        font-size: 0.8rem;
+    }
+
+    .progress-bar-bg .bigger-subtitle {
+        font-size: 1rem;
+    }
+
+    .circle {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 0.2rem;
+    }
+
+    .available {
+        background-color: var(--progress-available);
+    }
+
+    .linked {
+        background-color: var(--progress-linked);
+    }
+
+    .inlines {
+        background-color: var(--progress-inlines);
+    }
+
+    .missing {
+        background-color: var(--progress-missing);
+    }
+</style>

@@ -1,122 +1,134 @@
 ---
-import CodegenData from '../../public/CodegenData-2.206.json';
+const GD_VERSION = "2.206";
+const PATH = `./public/CodegenData-${GD_VERSION}.json`;
 
-// Here we do the actual parsing 🥰
-const classes = CodegenData.classes;
-/*
-Schema:
-{
-    "classes": [
-        {
-            "name": "cocos2d::CCEGLViewProtocol",
-            "functions": [
-                {
-                    "name": "CCEGLViewProtocol",
-                    "args": [],
-                    "const": false,
-                    "virtual": false,
-                    "static": false,
-                    "bindings": {
-                        "win": "link",
-                        "imac": null,
-                        "m1": null,
-                        "ios": null,
-                        "android32": "link",
-                        "android64": "link"
-                    }
-                }
-            ]
-        }
-    ]
-}
-*/
+import StatsCard from "./StatsCard.astro";
 
+const CodegenData = JSON.parse(fs.readFileSync(PATH, "utf-8"));
 function getTotalFunctions() {
     let total = 0;
-    classes.forEach((cls) => {
+    CodegenData.classes.forEach((cls) => {
         total += cls.functions.length;
     });
     return total;
 }
 
-type Platform = 'win' | 'imac' | 'm1' | 'ios' | 'android32' | 'android64';
+type Platform = "win" | "imac" | "m1" | "ios" | "android32" | "android64";
 type FunctionBindings = {
-    total: number;
+    available: number;
     linked: number;
     inlines: number;
-}
+    missing: number;
+};
 type PlatformCount = {
     platform: Platform;
-    cocos: FunctionBindings
-    gd: FunctionBindings
-}
+    cocos: FunctionBindings;
+    gd: FunctionBindings;
+};
 
 function getPlatformCount(platform): PlatformCount {
-    let cocos = { total: 0, linked: 0, inlines: 0 };
-    let gd = { total: 0, linked: 0, inlines: 0 };
-    classes.forEach(cls => {
-        const isCocos = cls.name.startsWith('cocos2d') 
-            || cls.name.startsWith('DS_Dictionary')
-            || cls.name.startsWith('pugi::xml_');
-        cls.functions.forEach(fn => {
-            if (fn.bindings[platform] === 'link') {
+    let cocos = { available: 0, linked: 0, inlines: 0, missing: 0 };
+    let gd = { available: 0, linked: 0, inlines: 0, missing: 0 };
+    CodegenData.classes.forEach((cls) => {
+        const isCocos =
+            cls.name.startsWith("cocos2d") ||
+            cls.name.startsWith("DS_Dictionary") ||
+            cls.name.startsWith("pugi::xml_");
+        cls.functions.forEach((fn) => {
+            if (fn.bindings[platform] === "link") {
                 isCocos ? cocos.linked++ : gd.linked++;
-            } else if (fn.bindings[platform] === 'inline') {
+            } else if (fn.bindings[platform] === "inline") {
                 isCocos ? cocos.inlines++ : gd.inlines++;
-            } else if (fn.bindings[platform] !== null) {
-                isCocos ? cocos.total++ : gd.total++;
+            } else if (fn.bindings[platform] === null) {
+                isCocos ? cocos.missing++ : gd.missing++;
+            } else {
+                isCocos ? cocos.available++ : gd.available++;
             }
         });
     });
     return { platform, cocos, gd };
 }
 
-function getPlatformProgress(platform: PlatformCount): number {
-    const { cocos, gd } = platform;
-    const total = cocos.total + gd.total;
-    const linked = cocos.linked + gd.linked;
-    const inlines = cocos.inlines + gd.inlines;
-    return Math.round((linked + inlines + total) / getTotalFunctions() * 100);
-}
-
 const platformNames = {
-    win: 'Windows',
-    imac: 'macOS (Intel)',
-    m1: 'macOS (M1)',
-    ios: 'iOS',
-    android32: 'Android (32-bit)',
-    android64: 'Android (64-bit)'
+    win: "Windows",
+    imac: "macOS (Intel)",
+    m1: "macOS (Arm)",
+    ios: "iOS",
+    android32: "Android (32-bit)",
+    android64: "Android (64-bit)",
 };
 
+const platformIcons = {
+    win: "./windows.svg",
+    imac: "./apple.svg",
+    m1: "./apple.svg",
+    ios: "./apple.svg",
+    android32: "./android.svg",
+    android64: "./android.svg",
+};
 ---
+
 <div>
-    <h2>Statistics</h2>
-    <p>
-        Total classes: {CodegenData.classes.length} <br/>
-        Total functions: {getTotalFunctions()}
+    <div class="total-stats">
+        <span>
+            Found
+            <code>{getTotalFunctions()}</code> functions in
+            <code>{CodegenData.classes.length}</code> classes
+        </span>
+    </div>
+    <div class="grid-container">
+        {
+            ["win", "android32", "android64", "imac", "m1", "ios"].map(
+                (platform) => {
+                    const data = getPlatformCount(platform);
+                    return (
+                        <StatsCard
+                            icon={platformIcons[platform]}
+                            name={platformNames[platform]}
+                            data={data}
+                        />
+                    );
+                },
+            )
+        }
+    </div>
+    <p class="text-muted">
+        <small>
+            Geometry Dash bindings for version {GD_VERSION}
+        </small>
     </p>
-    <p>
-        Total functions available for:
-    </p>
-    <ul>
-        {['win', 'imac', 'm1', 'ios', 'android32', 'android64'].map(platform => {
-            const data = getPlatformCount(platform);
-            const { cocos, gd } = data;
-            return (
-                <li>
-                    <strong>{platformNames[platform]}</strong>
-                    (Progress: {getPlatformProgress(data)}%)
-                    <ul>
-                        <li>
-                            <b>cocos2d</b>: {cocos.total} addresses, {cocos.linked} linked, {cocos.inlines} inlines
-                        </li>
-                        <li>
-                            <b>Geometry Dash</b>: {gd.total} addresses, {gd.linked} linked, {gd.inlines} inlines
-                        </li>
-                    </ul>
-                </li>
-            );
-        })}
-    </ul>
-    <p><small>Note: This page is still a work in progress.</small></p>
 </div>
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 1rem;
+    }
+
+    .text-muted {
+        opacity: 0.5;
+        text-align: center;
+    }
+
+    .total-stats {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .total-stats span {
+        background-color: #23262d;
+        padding: 0.5rem;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .total-stats code {
+        margin: 0 0.2rem;
+        background-color: #393241;
+        padding: 0.3rem 0.5rem;
+        border-radius: 4px;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>

@@ -1,9 +1,9 @@
 ---
 type Platform = {
-	platform: string;
-	version: string;
-	arch?: string;
-	file: string;
+    platform: string;
+    version: string;
+    arch?: string;
+    file: string;
 };
 
 interface Props {
@@ -19,16 +19,20 @@ versions.sort((a, b) => b.version.localeCompare(a.version));
 <div class="platform-card">
     <img src={icon} alt={name} />
     <h2>{name}</h2>
-    <hr/>
+    <hr />
     <div class="versions">
-        {versions.map(version => {
-            return (<a href={`./${version.file}`} class="version-btn">
-                {version.version}
-                <span class="subtitle">
-                    { version.arch ? `(${version.arch})` : '' }
-                </span>
-            </a>)
-        })}
+        {
+            versions.map((version) => {
+                return (
+                    <a href={`./${version.file}`} class="version-btn">
+                        {version.version}
+                        <span class="subtitle">
+                            {version.arch ? `(${version.arch})` : ""}
+                        </span>
+                    </a>
+                );
+            })
+        }
     </div>
 </div>
 <style>

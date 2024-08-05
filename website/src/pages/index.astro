@@ -1,7 +1,7 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import StatsContainer from '../components/StatsContainer.astro';
-import PlatformCard from '../components/PlatformCard.astro';
+import Layout from "../layouts/Layout.astro";
+import StatsContainer from "../components/StatsContainer.astro";
+import PlatformCard from "../components/PlatformCard.astro";
 
 type Platform = {
 	platform: string;
@@ -10,33 +10,41 @@ type Platform = {
 	file: string;
 };
 
-import fs from 'fs';
-const bindings : Platform[] = fs.readdirSync('./public').map(bindings => {
-	if (bindings.startsWith('Win32') || bindings.startsWith('Win64')) {
-		const version = bindings.split('-')[1].replace('.txt', '');
-		return {
-			platform: 'Windows',
-			version: version,
-			file: bindings
-		};
-	} else if (bindings.startsWith('MacOS')) {
-		const version = bindings.split('-')[1];
-		const arch = bindings.split('-')[2].replace('.txt', '');
-		return {
-			platform: 'macOS',
-			version: version,
-			arch: arch,
-			file: bindings
-		};
-	} else if (bindings.startsWith('iOS')) {
-		const version = bindings.split('-')[1].replace('.txt', '');
-		return {
-			platform: 'iOS',
-			version: version,
-			file: bindings
-		};
-	}
-}).filter(Boolean);
+import fs from "fs";
+const bindings: Platform[] = fs
+	.readdirSync("./public")
+	.map((bindings) => {
+		if (
+			bindings.startsWith("Win32") ||
+			bindings.startsWith("Win64") ||
+			bindings.startsWith("libcocos2d")
+		) {
+			const version = bindings.split("-")[1].replace(".txt", "");
+			return {
+				platform: "Windows",
+				version: version,
+				file: bindings,
+				arch: bindings.startsWith("libcocos2d") ? "cocos2d" : undefined,
+			};
+		} else if (bindings.startsWith("MacOS")) {
+			const version = bindings.split("-")[1];
+			const arch = bindings.split("-")[2].replace(".txt", "");
+			return {
+				platform: "macOS",
+				version: version,
+				arch: arch,
+				file: bindings,
+			};
+		} else if (bindings.startsWith("iOS")) {
+			const version = bindings.split("-")[1].replace(".txt", "");
+			return {
+				platform: "iOS",
+				version: version,
+				file: bindings,
+			};
+		}
+	})
+	.filter(Boolean);
 ---
 
 <Layout title="Welcome to Astro.">
@@ -44,9 +52,15 @@ const bindings : Platform[] = fs.readdirSync('./public').map(bindings => {
 		<h1><span class="text-gradient">Geometry Dash</span> Bindings</h1>
 		<!-- Stats -->
 		<p class="block-header">
-			Welcome to the Geometry Dash bindings! Here you can find the latest generated bindings for the game and
-			check out how many of them are available. All of the bindings are generated using the latest version of the
-			<strong><a href="https://github.com/geode-sdk/bindings">Geode bindings repository</a></strong>.
+			Welcome to the Geometry Dash bindings! Here you can find the latest
+			generated bindings for the game and check out how many of them are
+			available. All of the bindings are generated using the latest
+			version of the
+			<strong>
+				<a href="https://github.com/geode-sdk/bindings">
+					Geode bindings repository
+				</a>
+			</strong>.
 		</p>
 		<div class="block">
 			<StatsContainer />
@@ -54,30 +68,40 @@ const bindings : Platform[] = fs.readdirSync('./public').map(bindings => {
 
 		<!-- Download links -->
 		<p class="block-header">
-			If you're looking to download the latest generated bindings, you can find them here:
+			If you're looking to download the latest generated bindings, you can
+			find them here:
 		</p>
 		<div class="platform-cards">
 			<PlatformCard
 				name="Windows"
 				icon="./windows.svg"
-				versions={bindings.filter(binding => binding.platform === 'Windows')}
+				versions={bindings.filter(
+					(binding) => binding.platform === "Windows",
+				)}
 			/>
 			<PlatformCard
 				name="macOS"
 				icon="./apple.svg"
-				versions={bindings.filter(binding => binding.platform === 'macOS')}
+				versions={bindings.filter(
+					(binding) => binding.platform === "macOS",
+				)}
 			/>
 			<PlatformCard
 				name="iOS"
 				icon="./apple.svg"
-				versions={bindings.filter(binding => binding.platform === 'iOS')}
+				versions={bindings.filter(
+					(binding) => binding.platform === "iOS",
+				)}
 			/>
 		</div>
 
 		<!-- Footer -->
 		<footer>
-			Made with ❤️ by <a href="https://github.com/prevter">prevter</a><br/>
-			<a href="https://github.com/prevter/bindings-meta">View the source code</a>
+			Made with ❤️ by <a href="https://github.com/prevter">prevter</a>
+			<br />
+			<a href="https://github.com/prevter/bindings-meta">
+				View the source code
+			</a>
 		</footer>
 	</main>
 </Layout>

@@ -1,0 +1,62 @@
+---
+import PartedProgressBar from "./PartedProgressBar.astro";
+
+const { icon, name, data } = Astro.props;
+---
+
+<div class="stats-card">
+    <div>
+        <img src={icon} alt={name} />
+        <strong>{name}</strong>
+    </div>
+    <hr />
+    <div class="progress-bars">
+        GeometryDash.bro <br />
+        <PartedProgressBar data={data.gd} />
+
+        Cocos2d.bro <br />
+        <PartedProgressBar data={data.cocos} />
+    </div>
+</div>
+
+<style>
+    .stats-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        background-color: #23262d;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .stats-card hr {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        width: 100%;
+        margin: 0.25rem 0;
+    }
+
+    .stats-card div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+
+    .stats-card .progress-bars {
+        flex-direction: column;
+        gap: 0.2rem;
+        width: 100%;
+    }
+
+    .stats-card strong {
+        margin-left: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .stats-card img {
+        width: 50px;
+        height: auto;
+    }
+</style>
