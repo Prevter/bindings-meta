@@ -492,6 +492,7 @@ CustomizeObjectLayer::getButtonByTag - 0xa7b10
 CustomizeObjectLayer::highlightSelected - 0xa7dc0
 CustomizeObjectLayer::init - 0xa32f0
 CustomizeObjectLayer::onClose - 0xa7ef0
+CustomizeObjectLayer::onHSV - 0xa6a60
 CustomizeObjectLayer::onSelectColor - 0xa7b90
 CustomizeObjectLayer::onSelectMode - 0xa6ed0
 CustomizeObjectLayer::onUpdateCustomColor - 0xa7490
@@ -1144,6 +1145,7 @@ GameToolbox::saveParticleToString - 0x64ce0
 GameToolbox::stringSetupToDict - 0x64640
 GameToolbox::stringSetupToMap - 0x642a0
 GameToolbox::timestampToHumanReadable - 0x67cd0
+GameToolbox::transformColor - 0x63ca0
 GauntletLayer::init - 0x1e93d0
 GauntletLayer::onBack - 0x1eb5e0
 GauntletLayer::onLevel - 0x1eaf60

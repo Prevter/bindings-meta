@@ -1,37 +1,152 @@
-<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="Simple github workflow script that periodically checks the Geode bindings repo, and uploads all function offsets from it."><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.13.1"><title>Geometry Dash Bindings</title><style>:root{--accent: 248, 225, 122;--secondary: 208, 185, 82;--accent-gradient: linear-gradient( 35deg, rgb(var(--secondary)) 0%, rgb(var(--accent)) 40%, white 60% )}html{font-family:system-ui,sans-serif;background:#13151a}code{font-family:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace}.platform-card[data-astro-cid-appext4k]{background-color:#23262d;border-radius:8px;padding:1rem;text-align:center;color:#fff;margin:1rem}@media (min-width: 769px){.platform-card[data-astro-cid-appext4k]{width:200px}}.platform-card[data-astro-cid-appext4k] img[data-astro-cid-appext4k]{width:100px;height:auto;margin:0 auto}.platform-card[data-astro-cid-appext4k] h2[data-astro-cid-appext4k]{margin:.5rem 0}.platform-card[data-astro-cid-appext4k] hr[data-astro-cid-appext4k]{border:1px solid rgba(255,255,255,.1);margin:.5rem 0}.versions[data-astro-cid-appext4k]{display:flex;justify-content:center;flex-wrap:wrap;gap:.5rem;margin-top:1rem}.version-btn[data-astro-cid-appext4k]{background-color:#2f3241;padding:.5rem 1rem;border-radius:8px;color:#fff;text-decoration:none;display:inline-block;cursor:pointer;width:160px}.version-btn[data-astro-cid-appext4k] .subtitle[data-astro-cid-appext4k]{font-size:.8rem;color:#ffffff80;vertical-align:top}.version-btn[data-astro-cid-appext4k]:hover{background-color:#3f4251}.version-btn[data-astro-cid-appext4k]:active{background-color:#1f2141}main[data-astro-cid-j7pv25f6]{margin:auto;padding:.2rem;width:800px;max-width:calc(100% - 2rem);color:#fff;font-size:20px;line-height:1.6}h1[data-astro-cid-j7pv25f6]{font-size:4rem;font-weight:700;line-height:1;text-align:center;margin-bottom:1em}.text-gradient[data-astro-cid-j7pv25f6]{background-image:var(--accent-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:400%;background-position:0%}.block-header[data-astro-cid-j7pv25f6]{margin-bottom:1rem;border:1px solid rgba(var(--secondary),25%);background:rgba(var(--secondary),6%);padding:1.5rem;border-radius:8px}.block-header[data-astro-cid-j7pv25f6] code[data-astro-cid-j7pv25f6]{font-size:.8em;font-weight:700;background:rgba(var(--secondary),12%);color:rgb(var(--secondary));border-radius:4px;padding:.3em .4em}.block-header[data-astro-cid-j7pv25f6] a[data-astro-cid-j7pv25f6]{color:rgb(var(--secondary));text-decoration:none}.block-header[data-astro-cid-j7pv25f6] a[data-astro-cid-j7pv25f6]:hover{text-decoration:underline}.block-header[data-astro-cid-j7pv25f6] strong[data-astro-cid-j7pv25f6]{color:rgb(var(--secondary))}.block[data-astro-cid-j7pv25f6]{padding:.2rem}.platform-cards[data-astro-cid-j7pv25f6]{display:flex;flex-direction:row;justify-content:center}@media (max-width: 768px){.platform-cards[data-astro-cid-j7pv25f6]{flex-direction:column}}footer[data-astro-cid-j7pv25f6]{text-align:center;margin-top:1rem;font-size:.8rem;color:#ffffffb3}footer[data-astro-cid-j7pv25f6] a[data-astro-cid-j7pv25f6]{color:#c8c8ffcc;text-decoration:none}footer[data-astro-cid-j7pv25f6] a[data-astro-cid-j7pv25f6]:hover{text-decoration:underline}
-</style></head> <body>  <main data-astro-cid-j7pv25f6> <h1 data-astro-cid-j7pv25f6><span class="text-gradient" data-astro-cid-j7pv25f6>Geometry Dash</span> Bindings</h1> <!-- Stats --> <p class="block-header" data-astro-cid-j7pv25f6>
-Welcome to the Geometry Dash bindings! Here you can find the latest generated bindings for the game and
-			check out how many of them are available. All of the bindings are generated using the latest version of the
-<strong data-astro-cid-j7pv25f6><a href="https://github.com/geode-sdk/bindings" data-astro-cid-j7pv25f6>Geode bindings repository</a></strong>.
-</p> <div class="block" data-astro-cid-j7pv25f6> <div> <h2>Statistics</h2> <p>
-Total classes: 708 <br>
-Total functions: 10038 </p> <p>
-Total functions available for:
-</p> <ul> <li> <strong>Windows</strong>
-(Progress: 49%)
-<ul> <li> <b>cocos2d</b>: 0 addresses, 1638 linked, 3 inlines
-</li> <li> <b>Geometry Dash</b>: 2791 addresses, 0 linked, 524 inlines
-</li> </ul> </li><li> <strong>macOS (Intel)</strong>
-(Progress: 44%)
-<ul> <li> <b>cocos2d</b>: 765 addresses, 0 linked, 5 inlines
-</li> <li> <b>Geometry Dash</b>: 3305 addresses, 0 linked, 337 inlines
-</li> </ul> </li><li> <strong>macOS (M1)</strong>
-(Progress: 44%)
-<ul> <li> <b>cocos2d</b>: 765 addresses, 0 linked, 5 inlines
-</li> <li> <b>Geometry Dash</b>: 3276 addresses, 0 linked, 338 inlines
-</li> </ul> </li><li> <strong>iOS</strong>
-(Progress: 16%)
-<ul> <li> <b>cocos2d</b>: 557 addresses, 0 linked, 37 inlines
-</li> <li> <b>Geometry Dash</b>: 658 addresses, 0 linked, 331 inlines
-</li> </ul> </li><li> <strong>Android (32-bit)</strong>
-(Progress: 100%)
-<ul> <li> <b>cocos2d</b>: 0 addresses, 1623 linked, 3 inlines
-</li> <li> <b>Geometry Dash</b>: 0 addresses, 8052 linked, 345 inlines
-</li> </ul> </li><li> <strong>Android (64-bit)</strong>
-(Progress: 100%)
-<ul> <li> <b>cocos2d</b>: 0 addresses, 1623 linked, 3 inlines
-</li> <li> <b>Geometry Dash</b>: 0 addresses, 8052 linked, 345 inlines
-</li> </ul> </li> </ul> <p><small>Note: This page is still a work in progress.</small></p> </div> </div> <!-- Download links --> <p class="block-header" data-astro-cid-j7pv25f6>
-If you're looking to download the latest generated bindings, you can find them here:
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="Simple github workflow script that periodically checks the Geode bindings repo, and uploads all function offsets from it."><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.13.1"><title>Geometry Dash Bindings</title><link rel="stylesheet" href="/_astro/index.BZ85UUCd.css"></head> <body>  <main data-astro-cid-j7pv25f6> <h1 data-astro-cid-j7pv25f6><span class="text-gradient" data-astro-cid-j7pv25f6>Geometry Dash</span> Bindings</h1> <!-- Stats --> <p class="block-header" data-astro-cid-j7pv25f6>
+Welcome to the Geometry Dash bindings! Here you can find the latest
+			generated bindings for the game and check out how many of them are
+			available. All of the bindings are generated using the latest
+			version of the
+<strong data-astro-cid-j7pv25f6> <a href="https://github.com/geode-sdk/bindings" data-astro-cid-j7pv25f6>
+Geode bindings repository
+</a> </strong>.
+</p> <div class="block" data-astro-cid-j7pv25f6> <div data-astro-cid-7xf42km2> <div class="total-stats" data-astro-cid-7xf42km2> <span data-astro-cid-7xf42km2>
+Found
+<code data-astro-cid-7xf42km2>10038</code> functions in
+<code data-astro-cid-7xf42km2>708</code> classes
+</span> </div> <div class="grid-container" data-astro-cid-7xf42km2> <div class="stats-card" data-astro-cid-iwq4ldbs> <div data-astro-cid-iwq4ldbs> <img src="./windows.svg" alt="Windows" data-astro-cid-iwq4ldbs> <strong data-astro-cid-iwq4ldbs>Windows</strong> </div> <hr data-astro-cid-iwq4ldbs> <div class="progress-bars" data-astro-cid-iwq4ldbs>
+GeometryDash.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 3318
+(<i data-astro-cid-b6l2ovjj>39.51%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:33.26187924258664%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:6.252232940335835%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 2793
+(<i data-astro-cid-b6l2ovjj>33.26%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 525
+(<i data-astro-cid-b6l2ovjj>6.25%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 5079
+(<i data-astro-cid-b6l2ovjj>60.49%</i>)
+</div> </span> </div> 
+Cocos2d.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 1641
+(<i data-astro-cid-b6l2ovjj>100.00%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:0%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:99.81718464351006%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0.18281535648994515%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 1638
+(<i data-astro-cid-b6l2ovjj>99.82%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 3
+(<i data-astro-cid-b6l2ovjj>0.18%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> </span> </div>  </div> </div> <div class="stats-card" data-astro-cid-iwq4ldbs> <div data-astro-cid-iwq4ldbs> <img src="./android.svg" alt="Android (32-bit)" data-astro-cid-iwq4ldbs> <strong data-astro-cid-iwq4ldbs>Android (32-bit)</strong> </div> <hr data-astro-cid-iwq4ldbs> <div class="progress-bars" data-astro-cid-iwq4ldbs>
+GeometryDash.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 8397
+(<i data-astro-cid-b6l2ovjj>100.00%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:0%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:95.87948076694057%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:4.120519233059426%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 8051
+(<i data-astro-cid-b6l2ovjj>95.88%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 346
+(<i data-astro-cid-b6l2ovjj>4.12%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> </span> </div> 
+Cocos2d.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 1626
+(<i data-astro-cid-b6l2ovjj>99.09%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:0%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:98.90310786106032%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0.18281535648994515%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 1623
+(<i data-astro-cid-b6l2ovjj>98.90%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 3
+(<i data-astro-cid-b6l2ovjj>0.18%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 15
+(<i data-astro-cid-b6l2ovjj>0.91%</i>)
+</div> </span> </div>  </div> </div> <div class="stats-card" data-astro-cid-iwq4ldbs> <div data-astro-cid-iwq4ldbs> <img src="./android.svg" alt="Android (64-bit)" data-astro-cid-iwq4ldbs> <strong data-astro-cid-iwq4ldbs>Android (64-bit)</strong> </div> <hr data-astro-cid-iwq4ldbs> <div class="progress-bars" data-astro-cid-iwq4ldbs>
+GeometryDash.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 8397
+(<i data-astro-cid-b6l2ovjj>100.00%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:0%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:95.87948076694057%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:4.120519233059426%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 8051
+(<i data-astro-cid-b6l2ovjj>95.88%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 346
+(<i data-astro-cid-b6l2ovjj>4.12%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> </span> </div> 
+Cocos2d.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 1626
+(<i data-astro-cid-b6l2ovjj>99.09%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:0%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:98.90310786106032%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0.18281535648994515%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 1623
+(<i data-astro-cid-b6l2ovjj>98.90%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 3
+(<i data-astro-cid-b6l2ovjj>0.18%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 15
+(<i data-astro-cid-b6l2ovjj>0.91%</i>)
+</div> </span> </div>  </div> </div> <div class="stats-card" data-astro-cid-iwq4ldbs> <div data-astro-cid-iwq4ldbs> <img src="./apple.svg" alt="macOS (Intel)" data-astro-cid-iwq4ldbs> <strong data-astro-cid-iwq4ldbs>macOS (Intel)</strong> </div> <hr data-astro-cid-iwq4ldbs> <div class="progress-bars" data-astro-cid-iwq4ldbs>
+GeometryDash.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 3643
+(<i data-astro-cid-b6l2ovjj>43.38%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:39.35929498630463%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:4.025247112063832%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 3305
+(<i data-astro-cid-b6l2ovjj>39.36%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 338
+(<i data-astro-cid-b6l2ovjj>4.03%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 4754
+(<i data-astro-cid-b6l2ovjj>56.62%</i>)
+</div> </span> </div> 
+Cocos2d.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 770
+(<i data-astro-cid-b6l2ovjj>46.92%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:46.61791590493601%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0.30469226081657524%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 765
+(<i data-astro-cid-b6l2ovjj>46.62%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 5
+(<i data-astro-cid-b6l2ovjj>0.30%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 871
+(<i data-astro-cid-b6l2ovjj>53.08%</i>)
+</div> </span> </div>  </div> </div> <div class="stats-card" data-astro-cid-iwq4ldbs> <div data-astro-cid-iwq4ldbs> <img src="./apple.svg" alt="macOS (Arm)" data-astro-cid-iwq4ldbs> <strong data-astro-cid-iwq4ldbs>macOS (Arm)</strong> </div> <hr data-astro-cid-iwq4ldbs> <div class="progress-bars" data-astro-cid-iwq4ldbs>
+GeometryDash.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 3615
+(<i data-astro-cid-b6l2ovjj>43.05%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:39.01393354769561%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:4.037156127188282%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 3276
+(<i data-astro-cid-b6l2ovjj>39.01%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 339
+(<i data-astro-cid-b6l2ovjj>4.04%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 4782
+(<i data-astro-cid-b6l2ovjj>56.95%</i>)
+</div> </span> </div> 
+Cocos2d.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 770
+(<i data-astro-cid-b6l2ovjj>46.92%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:46.61791590493601%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0.30469226081657524%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 765
+(<i data-astro-cid-b6l2ovjj>46.62%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 5
+(<i data-astro-cid-b6l2ovjj>0.30%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 871
+(<i data-astro-cid-b6l2ovjj>53.08%</i>)
+</div> </span> </div>  </div> </div> <div class="stats-card" data-astro-cid-iwq4ldbs> <div data-astro-cid-iwq4ldbs> <img src="./apple.svg" alt="iOS" data-astro-cid-iwq4ldbs> <strong data-astro-cid-iwq4ldbs>iOS</strong> </div> <hr data-astro-cid-iwq4ldbs> <div class="progress-bars" data-astro-cid-iwq4ldbs>
+GeometryDash.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 990
+(<i data-astro-cid-b6l2ovjj>11.79%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:7.8361319518875785%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:3.9537930213171366%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 658
+(<i data-astro-cid-b6l2ovjj>7.84%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 332
+(<i data-astro-cid-b6l2ovjj>3.95%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 7407
+(<i data-astro-cid-b6l2ovjj>88.21%</i>)
+</div> </span> </div> 
+Cocos2d.bro <br data-astro-cid-iwq4ldbs> <div class="progress-bar-bg" data-astro-cid-b6l2ovjj> <div class="subtitle" data-astro-cid-b6l2ovjj> <div class="bigger-subtitle" data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Found:</strong> 594
+(<i data-astro-cid-b6l2ovjj>36.20%</i>)
+</div> </div> <div data-astro-cid-b6l2ovjj> <div class="progress-bar" style="width:33.94271785496649%;background-color:var(--progress-available)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:0%;background-color:var(--progress-linked)" data-astro-cid-b6l2ovjj></div> <div class="progress-bar" style="width:2.2547227300426567%;background-color:var(--progress-inlines)" data-astro-cid-b6l2ovjj></div> </div> <span class="subtitle" data-astro-cid-b6l2ovjj> <div data-astro-cid-b6l2ovjj> <span class="circle available" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Available:</strong> 557
+(<i data-astro-cid-b6l2ovjj>33.94%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle linked" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Linked:</strong> 0
+(<i data-astro-cid-b6l2ovjj>0.00%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <span class="circle inlines" data-astro-cid-b6l2ovjj></span> <strong data-astro-cid-b6l2ovjj>Inlines:</strong> 37
+(<i data-astro-cid-b6l2ovjj>2.25%</i>)
+</div> <div data-astro-cid-b6l2ovjj> <strong data-astro-cid-b6l2ovjj>Missing:</strong> 1047
+(<i data-astro-cid-b6l2ovjj>63.80%</i>)
+</div> </span> </div>  </div> </div>  </div> <p class="text-muted" data-astro-cid-7xf42km2> <small data-astro-cid-7xf42km2>
+Geometry Dash bindings for version 2.206 </small> </p> </div>  </div> <!-- Download links --> <p class="block-header" data-astro-cid-j7pv25f6>
+If you're looking to download the latest generated bindings, you can
+			find them here:
 </p> <div class="platform-cards" data-astro-cid-j7pv25f6> <div class="platform-card" data-astro-cid-appext4k> <img src="./windows.svg" alt="Windows" data-astro-cid-appext4k> <h2 data-astro-cid-appext4k>Windows</h2> <hr data-astro-cid-appext4k> <div class="versions" data-astro-cid-appext4k> <a href="./Win64-2.206.txt" class="version-btn" data-astro-cid-appext4k> 2.206 <span class="subtitle" data-astro-cid-appext4k>  </span> </a><a href="./Win32-2.204.txt" class="version-btn" data-astro-cid-appext4k> 2.204 <span class="subtitle" data-astro-cid-appext4k>  </span> </a> </div> </div>  <div class="platform-card" data-astro-cid-appext4k> <img src="./apple.svg" alt="macOS" data-astro-cid-appext4k> <h2 data-astro-cid-appext4k>macOS</h2> <hr data-astro-cid-appext4k> <div class="versions" data-astro-cid-appext4k> <a href="./MacOS-2.206-Arm.txt" class="version-btn" data-astro-cid-appext4k> 2.206 <span class="subtitle" data-astro-cid-appext4k> (Arm) </span> </a><a href="./MacOS-2.206-Intel.txt" class="version-btn" data-astro-cid-appext4k> 2.206 <span class="subtitle" data-astro-cid-appext4k> (Intel) </span> </a><a href="./MacOS-2.200-Intel.txt" class="version-btn" data-astro-cid-appext4k> 2.200 <span class="subtitle" data-astro-cid-appext4k> (Intel) </span> </a> </div> </div>  <div class="platform-card" data-astro-cid-appext4k> <img src="./apple.svg" alt="iOS" data-astro-cid-appext4k> <h2 data-astro-cid-appext4k>iOS</h2> <hr data-astro-cid-appext4k> <div class="versions" data-astro-cid-appext4k> <a href="./iOS-2.206.txt" class="version-btn" data-astro-cid-appext4k> 2.206 <span class="subtitle" data-astro-cid-appext4k>  </span> </a> </div> </div>  </div> <!-- Footer --> <footer data-astro-cid-j7pv25f6>
-Made with ❤️ by <a href="https://github.com/prevter" data-astro-cid-j7pv25f6>prevter</a><br data-astro-cid-j7pv25f6> <a href="https://github.com/prevter/bindings-meta" data-astro-cid-j7pv25f6>View the source code</a> </footer> </main>  </body></html> 
+Made with ❤️ by <a href="https://github.com/prevter" data-astro-cid-j7pv25f6>prevter</a> <br data-astro-cid-j7pv25f6> <a href="https://github.com/prevter/bindings-meta" data-astro-cid-j7pv25f6>
+View the source code
+</a> </footer> </main>  </body></html> 
