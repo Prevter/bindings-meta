@@ -3,6 +3,9 @@ dist/
 public/*.txt
 public/*.json
 
+# keep cocos2d bindings
+!public/libcocos2d-*.txt
+
 # generated types
 .astro/
 
