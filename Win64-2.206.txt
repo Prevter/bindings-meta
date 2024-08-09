@@ -97,6 +97,7 @@ GameObject::GameObject - 0x133690
 GameObject::addColorSprite - 0x1847f0
 GameObject::commonSetup - 0x183d30
 GameObject::copyGroups - 0x192980
+GameObject::createAndAddParticle - 0x18eb60
 GameObject::createWithFrame - 0x183c60
 GameObject::createWithKey - 0x181810
 GameObject::determineSlopeDirection - 0x192300
@@ -342,6 +343,7 @@ ChallengesPage::updateTimers - 0x84d70
 ChallengesPage::init - 0x83ca0
 ChallengesPage::registerWithTouchDispatcher - 0x41750
 ChallengesPage::keyBackClicked - 0x85190
+ChallengesPage::show - 0x84fb0
 ChallengesPage::challengeStatusFinished - 0x84690
 ChallengesPage::challengeStatusFailed - 0x848d0
 ChallengesPage::currencyWillExit - 0x85470
@@ -357,6 +359,7 @@ CharacterColorPage::updateIconColors - 0x88d30
 CharacterColorPage::init - 0x866e0
 CharacterColorPage::registerWithTouchDispatcher - 0x41750
 CharacterColorPage::keyBackClicked - 0x88f90
+CheckpointGameObject::triggerObject - 0x48d630
 CheckpointGameObject::triggerActivated - 0x48d650
 GJValueTween::step - 0x1f61c0
 GJGameState::processStateTriggers - 0x1f63a0
@@ -997,6 +1000,7 @@ GameLevelManager::limitSavedLevels - 0x144b70
 GameLevelManager::makeTimeStamp - 0x144730
 GameLevelManager::markLevelAsDownloaded - 0x14dd80
 GameLevelManager::onGetFriendRequestsCompleted - 0x159b50
+GameLevelManager::onGetGJChallengesCompleted - 0x160330
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x1614b0
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x152370
 GameLevelManager::onGetMapPacksCompleted - 0x149ef0
@@ -1014,6 +1018,7 @@ GameLevelManager::resetTimerForKey - 0x144ac0
 GameLevelManager::responseToDict - 0x1628d0
 GameLevelManager::saveFetchedLevels - 0x141e70
 GameLevelManager::saveLevel - 0x1438e0
+GameLevelManager::saveLevelList - 0x14b7a0
 GameLevelManager::setDiffVal - 0x1624c0
 GameLevelManager::setLenVal - 0x1625b0
 GameLevelManager::storeSearchResult - 0x144110
@@ -1092,6 +1097,7 @@ GameStatsManager::getAwardedCurrencyForLevel - 0x1d62c0
 GameStatsManager::getBaseCurrencyForLevel - 0x1d6020
 GameStatsManager::getChallenge - 0x1d76f0
 GameStatsManager::getCollectedCoinsForLevel - 0x1d37d0
+GameStatsManager::getCompletedMapPacks - 0x1d4cf0
 GameStatsManager::getGauntletRewardKey - 0x1de640
 GameStatsManager::getItemKey - 0x1d7230
 GameStatsManager::getLevelKey - 0x1d3950
@@ -1914,6 +1920,7 @@ LevelSearchLayer::onSuggested - 0x2f0b60
 LevelSearchLayer::onTrending - 0x2f0c20
 LevelSearchLayer::toggleDifficulty - 0x2f18e0
 LevelSearchLayer::toggleDifficultyNum - 0x2f1c40
+LevelSearchLayer::toggleStar - 0x2f15d0
 LevelSearchLayer::toggleTimeNum - 0x2f2050
 LevelSearchLayer::updateSearchLabel - 0x2ef440
 LevelSearchLayer::keyBackClicked - 0x2f21e0

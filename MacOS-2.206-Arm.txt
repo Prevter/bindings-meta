@@ -647,6 +647,7 @@ cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x2ac58c
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x2ad664
 cocos2d::CCString::createWithData - 0x6bdb68
 cocos2d::CCString::getCString - 0x6bd3dc
+cocos2d::CCString::boolValue - 0x6bd840
 cocos2d::CCString::intValue - 0x6bd754
 cocos2d::CCMenuItem::~CCMenuItem - 0x345478
 cocos2d::CCMenuItem::initWithTarget - 0x3453ac
@@ -857,6 +858,7 @@ GameObject::addToCustomScaleX - 0x4f4054
 GameObject::addToCustomScaleY - 0x4f407c
 GameObject::commonSetup - 0x4ed04c
 GameObject::copyGroups - 0x4f6300
+GameObject::createAndAddParticle - 0x4f1e1c
 GameObject::createSpriteColor - 0x4ed1f8
 GameObject::createWithFrame - 0x4ecf80
 GameObject::createWithKey - 0x4ecab8
@@ -982,6 +984,7 @@ EnhancedGameObject::powerOffObject - 0x501cec
 EnhancedGameObject::stateSensitiveOff - 0x173994
 EnhancedGameObject::updateSyncedAnimation - 0x2000b0
 EnhancedGameObject::updateAnimateOnTrigger - 0x201478
+EffectGameObject::create - 0x172460
 EffectGameObject::setOpacity - 0x1727fc
 EffectGameObject::firstSetup - 0x173c70
 EffectGameObject::customSetup - 0x1562b4
@@ -1247,6 +1250,7 @@ CCTextInputNode::keyboardWillHide - 0x8ed78
 CCTextInputNode::onTextFieldInsertText - 0x8efac
 CCTextInputNode::onTextFieldAttachWithIME - 0x8f5c0
 CCTextInputNode::onTextFieldDetachWithIME - 0x8f8ac
+ChallengesPage::create - 0x326e74
 ChallengesPage::claimItem - 0x3285f0
 ChallengesPage::createChallengeNode - 0x327c74
 ChallengesPage::exitNodeAtSlot - 0x3280c8
@@ -1893,6 +1897,7 @@ GameLevelManager::isUpdateValid - 0x49d9dc
 GameLevelManager::limitSavedLevels - 0x4927c8
 GameLevelManager::makeTimeStamp - 0x49139c
 GameLevelManager::onDownloadLevelCompleted - 0x47c25c
+GameLevelManager::onGetGJChallengesCompleted - 0x4835e0
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x4841cc
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x47cce0
 GameLevelManager::onGetOnlineLevelsCompleted - 0x47aaec
@@ -1906,8 +1911,12 @@ GameLevelManager::resetCommentTimersForLevelID - 0x4a9328
 GameLevelManager::resetDailyLevelState - 0x4af77c
 GameLevelManager::resetStoredUserInfo - 0x4a3f74
 GameLevelManager::responseToDict - 0x48aeb8
+GameLevelManager::saveFetchedLevelLists - 0x48bca4
 GameLevelManager::saveFetchedLevels - 0x48b144
+GameLevelManager::saveLevelList - 0x48bd08
+GameLevelManager::setBoolForKey - 0x4b0760
 GameLevelManager::setFolderName - 0x493740
+GameLevelManager::setIntForKey - 0x4b056c
 GameLevelManager::storeSearchResult - 0x491100
 GameLevelManager::storeUserName - 0x4885f4
 GameLevelManager::storeUserNames - 0x487e98
@@ -1994,6 +2003,7 @@ GameStatsManager::getBaseCurrencyForLevel - 0x63fe4
 GameStatsManager::getBaseDiamonds - 0x64924
 GameStatsManager::getBonusDiamonds - 0x64938
 GameStatsManager::getChallenge - 0x66dbc
+GameStatsManager::getCompletedMapPacks - 0x62524
 GameStatsManager::getGauntletRewardKey - 0x6b494
 GameStatsManager::getItemKey - 0x5a2d4
 GameStatsManager::getItemUnlockState - 0x6ad24
@@ -2840,6 +2850,9 @@ LevelSearchLayer::onSearchMode - 0x556dc0
 LevelSearchLayer::onSearchUser - 0x557358
 LevelSearchLayer::onSpecialDemon - 0x557ee4
 LevelSearchLayer::toggleDifficulty - 0x557a00
+LevelSearchLayer::toggleDifficultyNum - 0x5581b0
+LevelSearchLayer::toggleStar - 0x5580c0
+LevelSearchLayer::toggleTimeNum - 0x558334
 LevelSearchLayer::keyBackClicked - 0x559628
 LevelSearchLayer::textInputOpened - 0x558b40
 LevelSearchLayer::textInputClosed - 0x558c20
@@ -2901,6 +2914,7 @@ LevelSettingsObject::objectFromString - 0xc9300
 LevelSettingsObject::setupColorsFromLegacyMode - 0xded64
 LevelSettingsObject::shouldUseYSection - 0xdd78c
 LevelSettingsObject::init - 0xdd638
+LevelTools::getAudioTitle - 0x45fe8c
 LevelTools::verifyLevelIntegrity - 0x46365c
 LikeItemLayer::create - 0x52a0d0
 LikeItemLayer::init - 0x52a1f4
