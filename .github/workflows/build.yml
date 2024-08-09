@@ -83,7 +83,7 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with: 
-          path: website/public
+          path: codegen
           merge-multiple: true
   
       - name: Create Release
@@ -96,6 +96,7 @@ jobs:
   
       - name: Build website
         run: |
+          cp codegen/* website/public/.
           cd website
           npm install
           npm run build
