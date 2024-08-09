@@ -14,6 +14,7 @@ jobs:
     outputs:
       latest_commit: ${{ steps.fetch.outputs.LATEST_COMMIT }}
       previous_commit: ${{ steps.fetch.outputs.PREVIOUS_COMMIT }}
+      has_new_commits: ${{ steps.fetch.outputs.HAS_NEW_COMMITS }}
     runs-on: ubuntu-latest
     name: Check for new commits
     steps:
