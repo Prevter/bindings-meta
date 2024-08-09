@@ -67,7 +67,17 @@ cocos2d::CCParticleSystem::stopSystem - 0x7d6ae0
 cocos2d::CCParticleSystem::update - 0x7d6cd0
 cocos2d::CCParticleSystemQuad::create - 0x60dce0
 cocos2d::CCParticleSystemQuad::create - 0x60f030
+cocos2d::CCParticleSystemQuad::initTexCoordsWithRect - 0x60dea0
 cocos2d::CCParticleSystemQuad::~CCParticleSystemQuad - 0x60dc00
+cocos2d::CCParticleSystemQuad::allocMemory - 0x60d5a0
+cocos2d::CCParticleSystemQuad::setupVBOandVAO - 0x60d990
+cocos2d::CCParticleSystemQuad::draw - 0x60e640
+cocos2d::CCParticleSystemQuad::setBatchNode - 0x60ec20
+cocos2d::CCParticleSystemQuad::setTotalParticles - 0x60e700
+cocos2d::CCParticleSystemQuad::initWithTotalParticles - 0x60d260
+cocos2d::CCParticleSystemQuad::updateQuadWithParticle - 0x60e2a0
+cocos2d::CCParticleSystemQuad::postStep - 0x60e5f0
+cocos2d::CCParticleSystemQuad::setTexture - 0x60e0f0
 cocos2d::CCProgressTimer::create - 0x60f290
 cocos2d::CCFadeIn::create - 0x3bde30
 cocos2d::CCFadeIn::copyWithZone - 0x3bded0
