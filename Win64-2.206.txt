@@ -175,6 +175,7 @@ GameObject::getOrientedRectDirty - 0x133b10
 GameObject::setOrientedRectDirty - 0x133b20
 GameObject::setType - 0x133b40
 GameObject::getStartPos - 0x133b50
+EnhancedGameObject::init - 0x19a7c0
 EnhancedGameObject::updateUserCoin - 0x19c930
 EnhancedGameObject::customSetup - 0x19afb0
 EnhancedGameObject::resetObject - 0x19a970

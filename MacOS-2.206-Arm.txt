@@ -500,6 +500,7 @@ cocos2d::CCLabelBMFont::create - 0x50b404
 cocos2d::CCLabelBMFont::create - 0x50b1c0
 cocos2d::CCLabelBMFont::create - 0x50b284
 cocos2d::CCLabelBMFont::create - 0x50b13c
+cocos2d::CCLabelBMFont::createBatched - 0x50b780
 cocos2d::CCLabelBMFont::initWithString - 0x50b4cc
 cocos2d::CCLabelBMFont::getFntFile - 0x50e1d4
 cocos2d::CCLabelBMFont::setFntFile - 0x50e100
@@ -2120,6 +2121,7 @@ GJBaseGameLayer::checkCameraLimitAfterTeleport - 0xf2bcc
 GJBaseGameLayer::checkCollisions - 0xf661c
 GJBaseGameLayer::collisionCheckObjects - 0xf7500
 GJBaseGameLayer::createBackground - 0xe7620
+GJBaseGameLayer::createTextLayers - 0xf09d4
 GJBaseGameLayer::destroyObject - 0xf9108
 GJBaseGameLayer::enterDualMode - 0xfa400
 GJBaseGameLayer::flipGravity - 0xf58a4
@@ -3124,6 +3126,7 @@ MusicDownloadManager::downloadSFX - 0x4e4cc8
 MusicDownloadManager::downloadSong - 0x4df478
 MusicDownloadManager::encodeDataTo - 0x4e0bdc
 MusicDownloadManager::getCustomContentURL - 0x4e11c8
+MusicDownloadManager::getDownloadedSongs - 0x4decf8
 MusicDownloadManager::getSongInfo - 0x4dc278
 MusicDownloadManager::getSongInfoObject - 0x4dc130
 MusicDownloadManager::handleIt - 0x4dadec
@@ -3958,6 +3961,7 @@ TeleportPortalObject::addToGroup2 - 0x17622c
 TeleportPortalObject::removeFromGroup2 - 0x176230
 TextAlertPopup::create - 0x24c288
 TextAlertPopup::init - 0x24c4d0
+TextAlertPopup::setAlertPosition - 0x24c810
 TextAlertPopup::setLabelColor - 0x24c7d4
 TextArea::create - 0x2b0bf8
 TextArea::colorAllCharactersTo - 0x2b1814
