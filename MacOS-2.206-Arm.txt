@@ -884,6 +884,7 @@ GameObject::isFacingLeft - 0x5001d8
 GameObject::isSettingsObject - 0x5019a0
 GameObject::makeInvisible - 0x4f4c30
 GameObject::objectFromVector - 0x4f775c
+GameObject::playDestroyObjectAnim - 0x201d4c
 GameObject::playShineEffect - 0x4f4cac
 GameObject::setLastPosition - 0x501178
 GameObject::updateCustomScaleX - 0x4ee91c
@@ -2157,6 +2158,7 @@ GJBaseGameLayer::checkCameraLimitAfterTeleport - 0xf2bcc
 GJBaseGameLayer::checkCollisions - 0xf661c
 GJBaseGameLayer::collisionCheckObjects - 0xf7500
 GJBaseGameLayer::createBackground - 0xe7620
+GJBaseGameLayer::createPlayer - 0xe72e0
 GJBaseGameLayer::createTextLayers - 0xf09d4
 GJBaseGameLayer::destroyObject - 0xf9108
 GJBaseGameLayer::enterDualMode - 0xfa400
@@ -2193,6 +2195,7 @@ GJBaseGameLayer::setupLevelStart - 0xf48f0
 GJBaseGameLayer::setupReplay - 0x11e2c8
 GJBaseGameLayer::shakeCamera - 0x120cf8
 GJBaseGameLayer::sortSectionVector - 0x10bec0
+GJBaseGameLayer::spawnParticle - 0x1222ec
 GJBaseGameLayer::switchToFlyMode - 0xf5330
 GJBaseGameLayer::syncBGTextures - 0x11f12c
 GJBaseGameLayer::teleportPlayer - 0xf2288

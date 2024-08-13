@@ -1371,6 +1371,7 @@ GJBaseGameLayer::setupLayers - 0x1f9870
 GJBaseGameLayer::setupLevelStart - 0x202d80
 GJBaseGameLayer::setupReplay - 0x229a20
 GJBaseGameLayer::sortSectionVector - 0x217830
+GJBaseGameLayer::spawnParticle - 0x22f3f0
 GJBaseGameLayer::speedForShaderTarget - 0x213df0
 GJBaseGameLayer::staticObjectsInRect - 0x201e90
 GJBaseGameLayer::syncBGTextures - 0x22a0d0
