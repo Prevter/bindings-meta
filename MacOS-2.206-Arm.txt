@@ -3207,6 +3207,7 @@ ObjectControlGameObject::init - 0x19d0a0
 ObjectControlGameObject::customObjectSetup - 0x19d544
 ObjectControlGameObject::getSaveString - 0x19d0f0
 ObjectManager::init - 0x6a957c
+ObjectToolbox::sharedState - 0x591edc
 ObjectToolbox::init - 0x592004
 OptionsLayer::create - 0x6ad67c
 OptionsLayer::musicSliderChanged - 0x6ae7b8

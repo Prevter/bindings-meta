@@ -2251,6 +2251,7 @@ ObjectManager::instance - 0x6cee0
 ObjectManager::setup - 0x6cfd0
 ObjectToolbox::sharedState - 0x327460
 ObjectToolbox::gridNodeSizeForKey - 0x34f350
+ObjectToolbox::init - 0x327520
 OptionsCell::loadFromObject - 0xb2d00
 OptionsLayer::musicSliderChanged - 0x351110
 OptionsLayer::onAccount - 0x351bd0
