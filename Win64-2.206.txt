@@ -466,6 +466,7 @@ ColorSelectPopup::colorValueChanged - 0x8ff40
 ColorSelectPopup::colorSelectClosed - 0x91e80
 CommentCell::loadFromComment - 0xb3790
 CommentCell::onConfirmDelete - 0xb5be0
+CommentCell::onGoToLevel - 0xb5eb0
 CommentCell::onLike - 0xb5980
 CommentCell::init - 0xb3770
 CommentCell::likedItem - 0xb5ae0
