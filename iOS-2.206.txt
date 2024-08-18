@@ -713,6 +713,7 @@ CustomizeObjectLayer::onSelectMode - 0x55b84
 CustomizeObjectLayer::toggleVisible - 0x56ee8
 CustomListView::create - 0x101f44
 CustomListView::getCellHeight - 0x102794
+CustomSongWidget::CustomSongWidget - 0xfff38
 CustomSongWidget::create - 0xfb090
 CustomSongWidget::init - 0xfb16c
 DailyLevelNode::init - 0x1c59c0

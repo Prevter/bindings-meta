@@ -591,6 +591,7 @@ CustomSFXWidget::downloadSFXFinished - 0xbfc20
 CustomSFXWidget::downloadSFXFailed - 0xbfca0
 CustomSFXWidget::songStateChanged - 0xbf570
 CustomSFXWidget::FLAlert_Clicked - 0xbfda0
+CustomSongLayer::onSongBrowser - 0xc1460
 CustomSongLayer::keyBackClicked - 0xc1aa0
 CustomSongLayer::dropDownLayerWillClose - 0xc1830
 CustomSongLayer::musicBrowserClosed - 0xc1900
@@ -2240,6 +2241,7 @@ MusicDownloadManager::pathForSong - 0x31e400
 MusicDownloadManager::pathForSongFolder - 0x31e2b0
 MusicDownloadManager::removeDLFromActive - 0x31dfc0
 MusicDownloadManager::showTOS - 0x31e7f0
+MusicDownloadManager::songStateChanged - 0x31c620
 MusicSearchResult::updateObjects - 0x325af0
 MusicSearchResult::stateChanged - 0x325ae0
 NewgroundsInfoLayer::FLAlert_Clicked - 0xc3890
