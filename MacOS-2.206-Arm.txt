@@ -1873,6 +1873,7 @@ GameLevelManager::sharedState - 0x478590
 GameLevelManager::accountIDForUserID - 0x488ce0
 GameLevelManager::addDLToActive - 0x4919e4
 GameLevelManager::cleanupDailyLevels - 0x492c64
+GameLevelManager::createAndGetLevelLists - 0x48b39c
 GameLevelManager::createAndGetLevels - 0x488f5c
 GameLevelManager::createNewLevelList - 0x4877e8
 GameLevelManager::dataLoaded - 0x4941e4
@@ -1940,6 +1941,7 @@ GameLevelManager::onDownloadLevelCompleted - 0x47c25c
 GameLevelManager::onGetGJChallengesCompleted - 0x4835e0
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x4841cc
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x47cce0
+GameLevelManager::onGetLevelListsCompleted - 0x48574c
 GameLevelManager::onGetOnlineLevelsCompleted - 0x47aaec
 GameLevelManager::onProcessHttpRequestCompleted - 0x478800
 GameLevelManager::onUploadLevelCompleted - 0x47a880
@@ -1963,6 +1965,7 @@ GameLevelManager::storeUserNames - 0x487e98
 GameLevelManager::tryGetUsername - 0x4889e0
 GameLevelManager::updateLevelOrders - 0x48e7fc
 GameLevelManager::updateLevelRewards - 0x488e90
+GameLevelManager::updateSavedLevelList - 0x49ad18
 GameLevelManager::updateUsernames - 0x492e9c
 GameLevelManager::updateUserScore - 0x49f9d0
 GameLevelManager::uploadUserMessage - 0x4a5270
@@ -2092,9 +2095,12 @@ GameToolbox::intToString - 0x459ba0
 GameToolbox::mergeDictsSaveLargestInt - 0x452dc8
 GameToolbox::mergeDictsSkipConflict - 0x453028
 GameToolbox::particleFromString - 0x458ac0
+GameToolbox::particleFromStruct - 0x458bac
+GameToolbox::particleStringToStruct - 0x457c80
 GameToolbox::pointsToString - 0x45a650
 GameToolbox::postClipVisit - 0x452740
 GameToolbox::preVisitWithClippingRect - 0x452658
+GameToolbox::saveParticleToString - 0x455230
 GameToolbox::stringSetupToDict - 0x4546ec
 GauntletLayer::create - 0x31d55c
 GauntletLayer::init - 0x31d624

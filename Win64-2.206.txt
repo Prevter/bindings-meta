@@ -1027,6 +1027,7 @@ GameCell::draw - 0x3bda0
 GameLevelManager::sharedState - 0x13e1e0
 GameLevelManager::addDLToActive - 0x1445c0
 GameLevelManager::cleanupDailyLevels - 0x1450c0
+GameLevelManager::createAndGetLevelLists - 0x1420d0
 GameLevelManager::createAndGetMapPacks - 0x142370
 GameLevelManager::createNewLevel - 0x13fe60
 GameLevelManager::createNewLevelList - 0x140910
@@ -1054,6 +1055,7 @@ GameLevelManager::getMapPacks - 0x149ce0
 GameLevelManager::getOnlineLevels - 0x148470
 GameLevelManager::getSavedDailyLevel - 0x143740
 GameLevelManager::getSavedLevel - 0x143670
+GameLevelManager::getSavedLevelList - 0x14b6d0
 GameLevelManager::getSavedLevels - 0x1428f0
 GameLevelManager::getStoredLevelComments - 0x157b80
 GameLevelManager::getStoredOnlineLevels - 0x144320
@@ -1081,6 +1083,7 @@ GameLevelManager::onGetFriendRequestsCompleted - 0x159b50
 GameLevelManager::onGetGJChallengesCompleted - 0x160330
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x1614b0
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x152370
+GameLevelManager::onGetLevelListsCompleted - 0x14b1e0
 GameLevelManager::onGetMapPacksCompleted - 0x149ef0
 GameLevelManager::onGetOnlineLevelsCompleted - 0x148cd0
 GameLevelManager::onProcessHttpRequestCompleted - 0x13e3d0
@@ -1103,6 +1106,7 @@ GameLevelManager::storeSearchResult - 0x144110
 GameLevelManager::storeUserName - 0x141300
 GameLevelManager::tryGetUsername - 0x141660
 GameLevelManager::updateLevelRewards - 0x1419b0
+GameLevelManager::updateSavedLevelList - 0x14b880
 GameLevelManager::updateUserScore - 0x14ffb0
 GameLevelManager::uploadUserMessage - 0x155010
 GameLevelManager::userNameForUserID - 0x1414e0
@@ -1537,6 +1541,7 @@ GJLevelList::dataLoaded - 0x16f3c0
 GJLevelList::getListLevelsArray - 0x16e890
 GJLevelList::getUnpackedDescription - 0x16e2b0
 GJLevelList::hasMatchingLevels - 0x16e0a0
+GJLevelList::parseListLevels - 0x16e370
 GJLevelList::reorderLevel - 0x16e7a0
 GJLevelList::showListInfo - 0x16eff0
 GJLevelList::encodeWithCoder - 0x16f6e0
