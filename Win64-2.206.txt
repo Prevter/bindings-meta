@@ -195,7 +195,7 @@ CCAnimatedSprite::CCAnimatedSprite - 0x3f030
 CCAnimatedSprite::initWithType - 0x3f140
 CCAnimatedSprite::loadType - 0x3f360
 CCAnimatedSprite::runAnimation - 0x3fe00
-CCAnimatedSprite::switchToMode - 0x3fe70
+CCAnimatedSprite::switchToMode - 0x3fc90
 CCAnimatedSprite::tweenToAnimation - 0x3fe70
 CCAnimatedSprite::tweenToAnimationFinished - 0x40140
 CCAnimatedSprite::setOpacity - 0x401f0
@@ -646,7 +646,7 @@ DailyLevelPage::onClose - 0x85150
 DailyLevelPage::onTheSafe - 0xce960
 DailyLevelPage::tryGetDailyStatus - 0xccf00
 DailyLevelPage::updateTimers - 0xce170
-DailyLevelPage::show - 0xccb90
+DailyLevelPage::show - 0x84fb0
 DailyLevelPage::dailyStatusFinished - 0xcc8d0
 DailyLevelPage::dailyStatusFailed - 0xccb90
 DailyLevelPage::levelDownloadFinished - 0xcce80
@@ -2642,9 +2642,11 @@ SecretRewardsLayer::keyBackClicked - 0x3b26d0
 SecretRewardsLayer::dialogClosed - 0x3b1bf0
 SecretRewardsLayer::scrollLayerMoved - 0x3b0260
 SelectArtLayer::keyBackClicked - 0x302a90
-SelectFontLayer::create - 0x3016e0
 SelectFontLayer::init - 0x27c060
 SelectFontLayer::onChangeFont - 0x27c880
+SelectFontLayer::onClose - 0x82fc0
+SelectFontLayer::updateFontLabel - 0x27c680
+SelectFontLayer::keyBackClicked - 0x82ff0
 SelectListIconLayer::init - 0x2e8cb0
 SelectListIconLayer::onClose - 0x2e9560
 SelectListIconLayer::onSelect - 0x2e94a0

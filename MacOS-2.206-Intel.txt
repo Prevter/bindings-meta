@@ -3681,6 +3681,11 @@ SelectArtLayer::keyBackClicked - 0x26c700
 SelectEventLayer::keyBackClicked - 0x581790
 SelectEventLayer::onClose - 0x5816c0
 SelectEventLayer::onCustomToggleTriggerValue - 0x581490
+SelectFontLayer::create - 0x296020
+SelectFontLayer::init - 0x296160
+SelectFontLayer::onChangeFont - 0x296770
+SelectFontLayer::onClose - 0x296740
+SelectFontLayer::updateFontLabel - 0x296810
 SelectFontLayer::keyBackClicked - 0x296930
 SelectListIconLayer::create - 0x35ee60
 SelectListIconLayer::init - 0x362770
