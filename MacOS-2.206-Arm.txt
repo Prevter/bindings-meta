@@ -18,6 +18,8 @@ cocos2d::CCEaseInOut::create - 0x4723a8
 cocos2d::CCEaseBackOut::create - 0x47495c
 cocos2d::CCEaseElasticOut::create - 0x473730
 cocos2d::CCEaseElasticOut::create - 0x473664
+cocos2d::CCEaseExponentialIn::create - 0x4725ec
+cocos2d::CCEaseExponentialInOut::create - 0x472a0c
 cocos2d::CCEaseExponentialOut::create - 0x472804
 cocos2d::CCEaseSineIn::create - 0x472c1c
 cocos2d::CCEaseSineOut::create - 0x472e04
@@ -584,6 +586,7 @@ cocos2d::CCTransitionScene::initWithDuration - 0xbf9f8
 cocos2d::CCTransitionScene::sceneOrder - 0xbfae4
 cocos2d::CCBlink::create - 0x341884
 cocos2d::CCCallFunc::create - 0x6bf45c
+cocos2d::CCCallFuncN::create - 0x6bf8a4
 cocos2d::CCClippingNode::create - 0x63f068
 cocos2d::CCClippingNode::create - 0x63f0f0
 cocos2d::CCClippingNode::init - 0x63f190
@@ -698,6 +701,7 @@ cocos2d::CCMenu::ccTouchMoved - 0x6a75b0
 cocos2d::CCMenu::ccTouchEnded - 0x6a74c0
 cocos2d::CCMenu::ccTouchCancelled - 0x6a7548
 cocos2d::CCRotateBy::create - 0x33f2a0
+cocos2d::CCRotateTo::create - 0x33eeb0
 cocos2d::CCDelayTime::create - 0x33eab0
 DS_Dictionary::DS_Dictionary - 0x13e1c8
 DS_Dictionary::addBoolValuesToMapForKey - 0x145660
@@ -1374,6 +1378,11 @@ ConfigureHSVWidget::updateLabels - 0x3ad1d0
 ConfigureHSVWidget::updateSliders - 0x3ad704
 ConfigureHSVWidget::textInputClosed - 0x3ad7c8
 ConfigureHSVWidget::textChanged - 0x3ad7e4
+ConfigureValuePopup::create - 0x550944
+ConfigureValuePopup::init - 0x550c04
+ConfigureValuePopup::onClose - 0x5513a4
+ConfigureValuePopup::sliderChanged - 0x551420
+ConfigureValuePopup::updateTextInputLabel - 0x551464
 ConfigureValuePopup::keyBackClicked - 0x551684
 ConfigureValuePopup::textInputClosed - 0x551568
 ConfigureValuePopup::textChanged - 0x551584
@@ -1487,6 +1496,17 @@ CustomSFXWidget::downloadSFXFinished - 0x516eb8
 CustomSFXWidget::downloadSFXFailed - 0x516f58
 CustomSFXWidget::songStateChanged - 0x516e90
 CustomSFXWidget::FLAlert_Clicked - 0x517168
+CustomSongLayer::create - 0x1c0908
+CustomSongLayer::init - 0x1c0a24
+CustomSongLayer::onClose - 0x1c159c
+CustomSongLayer::onCreateLines - 0x1c16f0
+CustomSongLayer::onMusicBrowser - 0x1c168c
+CustomSongLayer::onNCSBrowser - 0x1c1670
+CustomSongLayer::onNewgroundsBrowser - 0x1c16d4
+CustomSongLayer::onOptions - 0x1c1728
+CustomSongLayer::onSearch - 0x1c1748
+CustomSongLayer::onSongBrowser - 0x1c160c
+CustomSongLayer::showNewgroundsMessage - 0x1c18bc
 CustomSongLayer::keyBackClicked - 0x1c20a0
 CustomSongLayer::show - 0x1c2184
 CustomSongLayer::textChanged - 0x1c1b70
@@ -1668,6 +1688,7 @@ EditorOptionsLayer::onClose - 0x23cf50
 EditorOptionsLayer::setupOptions - 0x23c570
 EditorPauseLayer::create - 0x230728
 EditorPauseLayer::init - 0x230800
+EditorPauseLayer::onExitNoSave - 0x232ed4
 EditorPauseLayer::onResume - 0x232c7c
 EditorPauseLayer::onSaveAndExit - 0x232d78
 EditorPauseLayer::onSaveAndPlay - 0x232ce8
