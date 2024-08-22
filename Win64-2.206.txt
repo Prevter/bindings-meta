@@ -2829,10 +2829,16 @@ SongInfoObject::create - 0x3245a0
 SongInfoObject::createWithCoder - 0x324b70
 SongInfoObject::encodeWithCoder - 0x324e80
 SongOptionsLayer::keyBackClicked - 0xc2b20
+SongSelectNode::create - 0xc4180
 SongSelectNode::audioNext - 0xc4cb0
 SongSelectNode::audioPrevious - 0xc4cf0
 SongSelectNode::init - 0xc42b0
+SongSelectNode::onOpenCustomSong - 0xc5000
+SongSelectNode::onSongMode - 0xc4d20
+SongSelectNode::onSongMode - 0xc4d50
+SongSelectNode::showCustomSongSelect - 0xc5080
 SongSelectNode::updateAudioLabel - 0xc4bc0
+SongSelectNode::updateWidgetVisibility - 0xc4f70
 SongSelectNode::FLAlert_Clicked - 0xc51e0
 SongSelectNode::customSongLayerClosed - 0xc5270
 SongSelectNode::songIDChanged - 0xc52a0

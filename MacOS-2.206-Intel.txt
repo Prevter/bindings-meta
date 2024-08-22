@@ -4016,7 +4016,13 @@ SongSelectNode::create - 0x213480
 SongSelectNode::audioNext - 0x213f00
 SongSelectNode::audioPrevious - 0x213ec0
 SongSelectNode::init - 0x2135a0
+SongSelectNode::onOpenCustomSong - 0x213f70
+SongSelectNode::onSongMode - 0x213f40
+SongSelectNode::onSongMode - 0x214010
+SongSelectNode::selectSong - 0x213fe0
+SongSelectNode::showCustomSongSelect - 0x20f620
 SongSelectNode::updateAudioLabel - 0x213dd0
+SongSelectNode::updateWidgetVisibility - 0x214210
 SongSelectNode::FLAlert_Clicked - 0x2142e0
 SongSelectNode::customSongLayerClosed - 0x2143c0
 SongSelectNode::songIDChanged - 0x214420
