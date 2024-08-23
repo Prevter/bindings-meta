@@ -3980,7 +3980,7 @@ SongSelectNode::onOpenCustomSong - 0x1c4f38
 SongSelectNode::onSongMode - 0x1c4f04
 SongSelectNode::onSongMode - 0x1c4fb8
 SongSelectNode::selectSong - 0x1c4f94
-SongSelectNode::showCustomSongSelect - 0x1c0908
+SongSelectNode::showCustomSongSelect - 0x1c5220
 SongSelectNode::updateAudioLabel - 0x1c4d80
 SongSelectNode::updateWidgetVisibility - 0x1c518c
 SongSelectNode::FLAlert_Clicked - 0x1c5254
