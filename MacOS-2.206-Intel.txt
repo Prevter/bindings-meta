@@ -1837,7 +1837,7 @@ FMODAudioEngine::playEffectAdvanced - 0x3e6190
 FMODAudioEngine::playMusic - 0x3ebff0
 FMODAudioEngine::preloadEffect - 0x3e1580
 FMODAudioEngine::resumeAllAudio - 0x3e1f20
-FMODAudioEngine::resumeAllEffects - 0x3eb510
+FMODAudioEngine::resumeAllEffects - 0x3eb610
 FMODAudioEngine::resumeAllMusic - 0x3ebb30
 FMODAudioEngine::resumeAudio - 0x3e1d90
 FMODAudioEngine::setBackgroundMusicVolume - 0x3eba40
@@ -3708,7 +3708,7 @@ SelectFontLayer::onChangeFont - 0x296770
 SelectFontLayer::onClose - 0x296740
 SelectFontLayer::updateFontLabel - 0x296810
 SelectFontLayer::keyBackClicked - 0x296930
-SelectListIconLayer::create - 0x35ee60
+SelectListIconLayer::create - 0x3617b0
 SelectListIconLayer::init - 0x362770
 SelectListIconLayer::onClose - 0x362d60
 SelectListIconLayer::onSelect - 0x362ca0
@@ -4110,7 +4110,7 @@ TextGameObject::updateTextKerning - 0x5d9f80
 TextGameObject::getTextKerning - 0x5dad80
 TextStyleSection::create - 0x4925f0
 TextStyleSection::createColoredSection - 0x492260
-TextStyleSection::createDelaySection - 0x3f76c0
+TextStyleSection::createDelaySection - 0x4923f0
 TextStyleSection::createInstantSection - 0x4922e0
 TextStyleSection::createShakeSection - 0x492360
 TextStyleSection::init - 0x492660
