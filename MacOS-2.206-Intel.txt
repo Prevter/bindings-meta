@@ -587,12 +587,14 @@ cocos2d::CCDictionary::create - 0x30f260
 cocos2d::CCDictionary::createWithContentsOfFile - 0x30f3e0
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x30f2e0
 cocos2d::CCDictionary::setObject - 0x30d960
+cocos2d::CCDictionary::setObject - 0x30e2e0
 cocos2d::CCDictionary::allKeys - 0x30d0b0
 cocos2d::CCDictionary::count - 0x30d090
 cocos2d::CCDictionary::objectForKey - 0x30d420
 cocos2d::CCDictionary::objectForKey - 0x30d7b0
 cocos2d::CCDictionary::removeAllObjects - 0x30ceb0
 cocos2d::CCDictionary::removeObjectForElememt - 0x30ebb0
+cocos2d::CCDictionary::removeObjectForKey - 0x30e7f0
 cocos2d::CCDictionary::removeObjectForKey - 0x30ed00
 cocos2d::CCDictionary::valueForKey - 0x30d3a0
 cocos2d::CCDictionary::valueForKey - 0x30d8e0

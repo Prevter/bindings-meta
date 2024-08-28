@@ -559,12 +559,14 @@ cocos2d::CCDictionary::create - 0x2a0fac
 cocos2d::CCDictionary::createWithContentsOfFile - 0x2a1138
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2a1030
 cocos2d::CCDictionary::setObject - 0x29f8f0
+cocos2d::CCDictionary::setObject - 0x2a0138
 cocos2d::CCDictionary::allKeys - 0x29efec
 cocos2d::CCDictionary::count - 0x29efd0
 cocos2d::CCDictionary::objectForKey - 0x29f408
 cocos2d::CCDictionary::objectForKey - 0x29f714
 cocos2d::CCDictionary::removeAllObjects - 0x29ee04
 cocos2d::CCDictionary::removeObjectForKey - 0x2a0608
+cocos2d::CCDictionary::removeObjectForKey - 0x2a0a78
 cocos2d::CCDictionary::valueForKey - 0x29f368
 cocos2d::CCDictionary::valueForKey - 0x29f850
 cocos2d::CCRenderTexture::create - 0x526fe4
