@@ -46,9 +46,19 @@ message(STATUS "Generating bindings for ${GEODE_TARGET_PLATFORM} with GD version
 
 # Include the bindings
 set(GEODE_LOADER_PATH "")
+
+option(BINDINGS_REPO "Which bindings repo to use" "geode-sdk/bindings")
+option(BINDINGS_BRANCH "Which bindings branch to use" "main")
+if ("${BINDINGS_REPO}" STREQUAL "")
+	set(BINDINGS_REPO "geode-sdk/bindings")
+endif()
+if ("${BINDINGS_BRANCH}" STREQUAL "")
+	set(BINDINGS_BRANCH "main")
+endif()
+
 CPMAddPackage(NAME "bindings"
-    GITHUB_REPOSITORY "geode-sdk/bindings"
-    GIT_TAG "main"
+    GITHUB_REPOSITORY "${BINDINGS_REPO}"
+    GIT_TAG "${BINDINGS_BRANCH}"
     DOWNLOAD_ONLY YES
     NO_CACHE YES
 )
