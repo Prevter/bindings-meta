@@ -47,14 +47,18 @@ message(STATUS "Generating bindings for ${GEODE_TARGET_PLATFORM} with GD version
 # Include the bindings
 set(GEODE_LOADER_PATH "")
 
-option(BINDINGS_REPO "Which bindings repo to use" "geode-sdk/bindings")
-option(BINDINGS_BRANCH "Which bindings branch to use" "main")
-if ("${BINDINGS_REPO}" STREQUAL "")
+if (NOT DEFINED BINDINGS_REPO)
 	set(BINDINGS_REPO "geode-sdk/bindings")
+	set(USING_CUSTOM_BINDINGS_REPO FALSE)
+else()
+	set(USING_CUSTOM_BINDINGS_REPO TRUE)
 endif()
-if ("${BINDINGS_BRANCH}" STREQUAL "")
+
+if (NOT DEFINED BINDINGS_BRANCH)
 	set(BINDINGS_BRANCH "main")
 endif()
+
+message(STATUS "Using bindings repo ${BINDINGS_REPO} with branch ${BINDINGS_BRANCH}")
 
 CPMAddPackage(NAME "bindings"
     GITHUB_REPOSITORY "${BINDINGS_REPO}"
@@ -90,4 +94,10 @@ else()
 endif()
 
 # Export JSON data with all classes
-copy_bindings_data("CodegenData.json" "CodegenData-${GEODE_GD_VERSION}.json")
+if (USING_CUSTOM_BINDINGS_REPO)
+	# strip the slashes from the repo name
+	string(REPLACE "/" "-" BINDINGS_REPO ${BINDINGS_REPO})
+	copy_bindings_data("CodegenData.json" "CodegenData-${BINDINGS_REPO}-${GEODE_GD_VERSION}.json")
+else()
+	copy_bindings_data("CodegenData.json" "CodegenData-${GEODE_GD_VERSION}.json")
+endif()
