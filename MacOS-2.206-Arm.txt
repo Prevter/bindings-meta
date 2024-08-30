@@ -1236,7 +1236,24 @@ CCScrollLayerExt::registerWithTouchDispatcher - 0x3ab254
 CCScrollLayerExt::preVisitWithClippingRect - 0x3ab978
 CCScrollLayerExt::postVisit - 0x3aba0c
 CCSpriteCOpacity::setOpacity - 0x3f0cc0
+CCSpriteWithHue::create - 0x521d50
+CCSpriteWithHue::create - 0x521c84
+CCSpriteWithHue::createWithSpriteFrame - 0x52203c
+CCSpriteWithHue::createWithSpriteFrameName - 0x522138
+CCSpriteWithHue::createWithTexture - 0x521f48
+CCSpriteWithHue::createWithTexture - 0x521e30
+CCSpriteWithHue::getAlpha - 0x522950
+CCSpriteWithHue::getHue - 0x522968
+CCSpriteWithHue::getUniformLocations - 0x52252c
+CCSpriteWithHue::initShader - 0x5221c4
+CCSpriteWithHue::setCustomLuminance - 0x5229e0
 CCSpriteWithHue::setEvenLuminance - 0x5229c0
+CCSpriteWithHue::setHue - 0x5224fc
+CCSpriteWithHue::setHueDegrees - 0x522970
+CCSpriteWithHue::setLuminance - 0x522504
+CCSpriteWithHue::setupDefaultSettings - 0x5221b0
+CCSpriteWithHue::updateColorMatrix - 0x5225ec
+CCSpriteWithHue::updateHue - 0x5224d0
 CCSpriteWithHue::draw - 0x5229f0
 CCSpriteWithHue::initWithTexture - 0x52245c
 CCSpriteWithHue::initWithTexture - 0x5223e0
@@ -1246,7 +1263,7 @@ CCSpriteWithHue::getShaderName - 0x521c58
 CCSpriteWithHue::shaderBody - 0x5225b0
 CCSpriteWithHue::updateColor - 0x5225c8
 CCSpriteGrayscale::create - 0x522d90
-CCSpriteGrayscale::create - 0x521c84
+CCSpriteGrayscale::create - 0x522cc4
 CCSpriteGrayscale::createWithSpriteFrame - 0x52307c
 CCSpriteGrayscale::createWithSpriteFrameName - 0x523178
 CCSpriteGrayscale::createWithTexture - 0x522f88
@@ -1355,6 +1372,11 @@ SetupTriggerPopup::getValue - 0x1e4a78
 SetupTriggerPopup::triggerValueFromSliderValue - 0x1e4e8c
 SetupTriggerPopup::triggerSliderValueFromValue - 0x1e4f18
 SetupTriggerPopup::valuePopupClosed - 0x1e5b60
+ColorSelectPopup::create - 0x644514
+ColorSelectPopup::create - 0x644504
+ColorSelectPopup::create - 0x64430c
+ColorSelectPopup::create - 0x64430c
+ColorSelectPopup::init - 0x644550
 ColorSelectPopup::updateDurLabel - 0x646c84
 ColorSelectPopup::show - 0x649d8c
 ColorSelectPopup::determineStartValues - 0x647c48
@@ -1724,6 +1746,7 @@ EditorPauseLayer::onSaveAndExit - 0x232d78
 EditorPauseLayer::onSaveAndPlay - 0x232ce8
 EditorPauseLayer::saveLevel - 0x233bac
 EditorPauseLayer::togglePreviewAnim - 0x233518
+EditorPauseLayer::toggleShowObjectInfo - 0x233450
 EditorPauseLayer::keyBackClicked - 0x234290
 EditorPauseLayer::keyDown - 0x234370
 EditorPauseLayer::customSetup - 0x23116c
@@ -2042,6 +2065,7 @@ GameManager::sharedState - 0x303c64
 GameManager::activeIconForType - 0x30c588
 GameManager::checkSteamAchievementUnlock - 0x306d78
 GameManager::colorForIdx - 0x30b4e0
+GameManager::completedAchievement - 0x305f20
 GameManager::countForType - 0x30c648
 GameManager::didExitPlayscene - 0x315cb0
 GameManager::dpadConfigToString - 0x311f0c
@@ -2243,6 +2267,7 @@ GJBaseGameLayer::playerWillSwitchMode - 0xf5a6c
 GJBaseGameLayer::preResumeGame - 0x11a3ac
 GJBaseGameLayer::processAreaEffects - 0x10ca98
 GJBaseGameLayer::processAreaVisualActions - 0x10f310
+GJBaseGameLayer::processCameraObject - 0xf45bc
 GJBaseGameLayer::processCommands - 0x11b6d8
 GJBaseGameLayer::processOptionsTrigger - 0x10976c
 GJBaseGameLayer::processQueuedButtons - 0x114e04
@@ -2263,6 +2288,9 @@ GJBaseGameLayer::shakeCamera - 0x120cf8
 GJBaseGameLayer::sortSectionVector - 0x10bec0
 GJBaseGameLayer::spawnParticle - 0x1222ec
 GJBaseGameLayer::switchToFlyMode - 0xf5330
+GJBaseGameLayer::switchToRobotMode - 0xf5534
+GJBaseGameLayer::switchToRollMode - 0xf5488
+GJBaseGameLayer::switchToSpiderMode - 0xf55e0
 GJBaseGameLayer::syncBGTextures - 0x11f12c
 GJBaseGameLayer::teleportPlayer - 0xf2288
 GJBaseGameLayer::toggleAudioVisualizer - 0xe4b14
@@ -2621,6 +2649,7 @@ GJTransformControl::ccTouchMoved - 0x4bbd0
 GJTransformControl::ccTouchEnded - 0x4c0e8
 GJTransformControl::ccTouchCancelled - 0x4c2c0
 GJUINode::draw - 0x4332cc
+GJUserCell::loadFromScore - 0x1f1898
 GJUserCell::init - 0x1fb578
 GJUserCell::draw - 0x1fbd64
 GJUserCell::FLAlert_Clicked - 0x1fbe10
