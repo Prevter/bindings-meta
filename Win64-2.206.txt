@@ -514,6 +514,7 @@ CreateGuidelinesLayer::registerTouch - 0x99850
 CreateGuidelinesLayer::onInfo - 0x99600
 CreateGuidelinesLayer::onRecord - 0x98d00
 CreateGuidelinesLayer::recordingDidStop - 0x98ff0
+CreateMenuItem::create - 0x125290
 CreateParticlePopup::create - 0x400d80
 CreateParticlePopup::init - 0x400f70
 CreateParticlePopup::onClose - 0x409b20
