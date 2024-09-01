@@ -2101,6 +2101,7 @@ GameManager::setGameVariable - 0x30f154
 GameManager::setIntGameVariable - 0x30f7c0
 GameManager::setUGV - 0x30f4a0
 GameManager::sheetNameForIcon - 0x30cad8
+GameManager::stringForCustomObject - 0x30fdcc
 GameManager::toggleGameVariable - 0x30f3c8
 GameManager::unloadIcon - 0x30dc24
 GameManager::verifyAchievementUnlocks - 0x306e90

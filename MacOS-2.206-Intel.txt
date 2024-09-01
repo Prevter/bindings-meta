@@ -2263,6 +2263,7 @@ GameManager::setGameVariable - 0x3854a0
 GameManager::setIntGameVariable - 0x385a80
 GameManager::setUGV - 0x3857c0
 GameManager::sheetNameForIcon - 0x382cb0
+GameManager::stringForCustomObject - 0x386070
 GameManager::toggleGameVariable - 0x385700
 GameManager::unloadIcon - 0x383f80
 GameManager::unlockTypeToIconType - 0x379b40
