@@ -740,6 +740,8 @@ DrawGridLayer::create - 0x2cfe50
 DrawGridLayer::loadTimeMarkers - 0x2d0030
 DrawGridLayer::update - 0x2d0350
 DrawGridLayer::draw - 0x2d0550
+DungeonBarsSprite::init - 0x3c9cd0
+DungeonBarsSprite::visit - 0x3c9d50
 EditButtonBar::create - 0xd0cb0
 EditButtonBar::loadFromItems - 0xd0e10
 EditButtonBar::onLeft - 0xd1800
@@ -1180,6 +1182,7 @@ UIButtonConfig::reset - 0x1720d0
 GameManager::~GameManager - 0x172770
 GameManager::sharedState - 0x172b30
 GameManager::activeIconForType - 0x178bf0
+GameManager::addNewCustomObject - 0x17a7c0
 GameManager::applicationWillEnterForeground - 0x17fff0
 GameManager::checkUsedIcons - 0x17b1a0
 GameManager::colorForIdx - 0x1784b0

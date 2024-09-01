@@ -1753,11 +1753,13 @@ EditorPauseLayer::customSetup - 0x23116c
 EditorPauseLayer::FLAlert_Clicked - 0x2341b4
 EditorUI::create - 0xb710
 EditorUI::clickOnPosition - 0x2e3e0
+EditorUI::createCustomItems - 0x31cb4
 EditorUI::createMoveMenu - 0x40df0
 EditorUI::editGroup - 0x2cf3c
 EditorUI::getCreateBtn - 0x33d6c
 EditorUI::getSpriteButton - 0xe104
 EditorUI::init - 0xb790
+EditorUI::menuItemFromObjectString - 0x3201c
 EditorUI::moveForCommand - 0x44338
 EditorUI::moveObjectCall - 0x43740
 EditorUI::moveObjectCall - 0x444f4
@@ -1776,6 +1778,7 @@ EditorUI::setupCreateMenu - 0xfbc4
 EditorUI::setupDeleteMenu - 0xeda0
 EditorUI::setupEditMenu - 0x2b8bc
 EditorUI::showUI - 0x392e4
+EditorUI::spriteFromObjectString - 0x3459c
 EditorUI::toggleLockUI - 0x2dc08
 EditorUI::toggleMode - 0x2bb88
 EditorUI::updateCreateMenu - 0x2eaf8
@@ -2063,6 +2066,7 @@ GameLevelOptionsLayer::didToggle - 0x24f068
 GameManager::~GameManager - 0x316d38
 GameManager::sharedState - 0x303c64
 GameManager::activeIconForType - 0x30c588
+GameManager::addNewCustomObject - 0x30fc34
 GameManager::checkSteamAchievementUnlock - 0x306d78
 GameManager::colorForIdx - 0x30b4e0
 GameManager::completedAchievement - 0x305f20

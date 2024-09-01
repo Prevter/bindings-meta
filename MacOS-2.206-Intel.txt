@@ -1858,6 +1858,7 @@ EditorUI::getSpriteButton - 0xc140
 EditorUI::getXMin - 0x2f260
 EditorUI::init - 0x94c0
 EditorUI::isSpecialSnapObject - 0x4c6c0
+EditorUI::menuItemFromObjectString - 0x31d10
 EditorUI::moveForCommand - 0x4ab70
 EditorUI::moveGamelayer - 0x2f5f0
 EditorUI::moveObject - 0x3f0a0
@@ -1889,6 +1890,7 @@ EditorUI::shouldDeleteObject - 0x32b50
 EditorUI::showMaxBasicError - 0x34c50
 EditorUI::showUI - 0x3dd70
 EditorUI::sliderChanged - 0xbbd0
+EditorUI::spriteFromObjectString - 0x34350
 EditorUI::toggleLockUI - 0x2d5a0
 EditorUI::toggleMode - 0x2ad80
 EditorUI::transformObject - 0x4c1f0
@@ -2217,6 +2219,7 @@ GameLevelOptionsLayer::didToggle - 0x2ae1c0
 GameManager::~GameManager - 0x38ddc0
 GameManager::sharedState - 0x3785a0
 GameManager::activeIconForType - 0x382430
+GameManager::addNewCustomObject - 0x385ed0
 GameManager::checkSteamAchievementUnlock - 0x37b8f0
 GameManager::checkUsedIcons - 0x3807d0
 GameManager::colorForIdx - 0x381490
