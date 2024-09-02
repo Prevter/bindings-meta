@@ -1353,6 +1353,7 @@ ColorChannelSprite::updateValues - 0x271ab8
 ColorChannelSprite::init - 0x27169c
 ColorSelectLiveOverlay::keyBackClicked - 0x4be7b0
 ColorSelectLiveOverlay::show - 0x4be868
+SetupTriggerPopup::init - 0x1de048
 SetupTriggerPopup::ccTouchBegan - 0x1e6b38
 SetupTriggerPopup::keyBackClicked - 0x1e0f74
 SetupTriggerPopup::show - 0x1e0df0
@@ -3781,6 +3782,7 @@ SetFolderPopup::valueChanged - 0x24add0
 SetFolderPopup::setTextPopupClosed - 0x24b3b8
 SetGroupIDLayer::create - 0x2a305c
 SetGroupIDLayer::init - 0x2a31bc
+SetGroupIDLayer::onClose - 0x2a4f2c
 SetGroupIDLayer::onNextGroupID1 - 0x2a5700
 SetGroupIDLayer::updateGroupIDLabel - 0x2a5fac
 SetGroupIDLayer::keyBackClicked - 0x2a7bb0
