@@ -2157,6 +2157,7 @@ GameStatsManager::hasClaimedListReward - 0x67584
 GameStatsManager::hasCompletedDailyLevel - 0x678bc
 GameStatsManager::hasCompletedLevel - 0x61134
 GameStatsManager::hasCompletedMainLevel - 0x610a0
+GameStatsManager::hasCompletedOnlineLevel - 0x611f0
 GameStatsManager::hasPendingUserCoin - 0x63484
 GameStatsManager::hasSecretCoin - 0x60c9c
 GameStatsManager::hasUserCoin - 0x6356c
