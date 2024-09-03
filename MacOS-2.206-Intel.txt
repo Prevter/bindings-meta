@@ -2012,8 +2012,8 @@ FMODAudioEngine::getActiveMusicChannel - 0x3e5fd0
 FMODAudioEngine::getBackgroundMusicVolume - 0x3eba30
 FMODAudioEngine::getEffectsVolume - 0x3eba70
 FMODAudioEngine::getMeteringValue - 0x3e7ec0
-FMODAudioEngine::isMusicPlaying - 0x3ebaa0
 FMODAudioEngine::isMusicPlaying - 0x3ebb90
+FMODAudioEngine::isMusicPlaying - 0x3ebaa0
 FMODAudioEngine::loadMusic - 0x3e5890
 FMODAudioEngine::pauseAllAudio - 0x3e1ed0
 FMODAudioEngine::pauseAllMusic - 0x3ebae0
