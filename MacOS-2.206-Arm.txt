@@ -2836,6 +2836,7 @@ LevelEditorLayer::updateEditor - 0xc79d0
 LevelEditorLayer::updateEditorMode - 0xc88a4
 LevelEditorLayer::updateGameObjects - 0xc7dd8
 LevelEditorLayer::updateLevelFont - 0xd6eb8
+LevelEditorLayer::updateObjectColors - 0xd32f8
 LevelEditorLayer::updateOptions - 0xc694c
 LevelEditorLayer::updatePreviewParticle - 0x16c540
 LevelEditorLayer::updatePreviewParticles - 0xd4b04

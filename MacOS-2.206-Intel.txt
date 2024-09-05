@@ -3135,6 +3135,7 @@ LevelEditorLayer::updateEditorMode - 0xe2af0
 LevelEditorLayer::updateGameObjects - 0xe1b20
 LevelEditorLayer::updateKeyframeObjects - 0xef050
 LevelEditorLayer::updateLevelFont - 0xf3a60
+LevelEditorLayer::updateObjectColors - 0xef100
 LevelEditorLayer::updateObjectLabel - 0xed6b0
 LevelEditorLayer::updateOptions - 0xe03a0
 LevelEditorLayer::updatePreviewParticle - 0x1ad850
