@@ -2788,6 +2788,11 @@ SetupMoveCommandPopup::init - 0x26e780
 SetupObjectOptionsPopup::determineStartValues - 0x3d48d0
 SetupOpacityPopup::textChanged - 0x400650
 SetupOptionsTriggerPopup::onCustomToggleTriggerValue - 0x40b320
+SetupPickupTriggerPopup::create - 0x40b3f0
+SetupPickupTriggerPopup::init - 0x40b500
+SetupPickupTriggerPopup::updateState - 0x40bc20
+SetupPickupTriggerPopup::onPlusButton - 0x3f9210
+SetupPickupTriggerPopup::onCustomToggleTriggerValue - 0x40bc90
 SetupPulsePopup::textChanged - 0x410d50
 SetupPulsePopup::colorValueChanged - 0x410a90
 SetupPulsePopup::colorSelectClosed - 0x410320

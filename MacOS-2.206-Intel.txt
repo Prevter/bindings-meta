@@ -63,10 +63,17 @@ cocos2d::CCScene::create - 0x28cbf0
 cocos2d::CCScene::getHighestChildZ - 0x28cca0
 cocos2d::CCScene::~CCScene - 0x28cb70
 cocos2d::CCScene::init - 0x28cba0
+cocos2d::CCSet::CCSet - 0x7bf920
+cocos2d::CCSet::~CCSet - 0x7bfa70
 cocos2d::CCSet::addObject - 0x7bfd10
 cocos2d::CCSet::anyObject - 0x7bfee0
+cocos2d::CCSet::begin - 0x7bfec0
+cocos2d::CCSet::containsObject - 0x7bfe70
 cocos2d::CCSet::count - 0x7bfd00
+cocos2d::CCSet::end - 0x7bfed0
+cocos2d::CCSet::mutableCopy - 0x7bfcc0
 cocos2d::CCSet::removeObject - 0x7bfdc0
+cocos2d::CCSet::acceptVisitor - 0x7bfbe0
 cocos2d::CCShaderCache::sharedShaderCache - 0x1fc770
 cocos2d::CCShaderCache::addProgram - 0x1fd720
 cocos2d::CCShaderCache::programForKey - 0x1fd650
@@ -342,6 +349,7 @@ cocos2d::CCLayerRGBA::isCascadeOpacityEnabled - 0x4bc1d0
 cocos2d::CCLayerRGBA::setCascadeOpacityEnabled - 0x4bc1f0
 cocos2d::CCLayerRGBA::updateDisplayedOpacity - 0x4bbe20
 cocos2d::CCMouseDispatcher::dispatchScrollMSG - 0x578540
+cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x48a430
 cocos2d::CCTexture2D::PVRImagesHavePremultipliedAlpha - 0x483620
 cocos2d::CCTexture2D::defaultAlphaPixelFormat - 0x4837f0
 cocos2d::CCTexture2D::setDefaultAlphaPixelFormat - 0x4837e0
