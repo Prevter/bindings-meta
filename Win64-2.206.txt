@@ -1529,6 +1529,7 @@ GJEffectManager::reset - 0x249350
 GJEffectManager::resetEffects - 0x24a2d0
 GJEffectManager::saveToState - 0x251ba0
 GJEffectManager::storeTriggeredID - 0x2502d0
+GJEffectManager::updateCountForItem - 0x250790
 GJEffectManager::updateEffects - 0x24a150
 GJEffectManager::updatePulseEffects - 0x24f480
 GJEffectManager::updateSpawnTriggers - 0x250080
