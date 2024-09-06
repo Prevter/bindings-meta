@@ -1513,6 +1513,7 @@ CreateGuidelinesLayer::registerTouch - 0x5153f0
 CreateGuidelinesLayer::onInfo - 0x5151f0
 CreateGuidelinesLayer::onRecord - 0x5144f0
 CreateGuidelinesLayer::recordingDidStop - 0x514690
+CreateMenuItem::create - 0x2f0f0
 CreateParticlePopup::create - 0x4787c0
 CreateParticlePopup::init - 0x4787e0
 CreateParticlePopup::onClose - 0x47d110
