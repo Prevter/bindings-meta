@@ -1772,6 +1772,7 @@ EditorUI::getSpriteButton - 0xe104
 EditorUI::init - 0xb790
 EditorUI::menuItemFromObjectString - 0x3201c
 EditorUI::moveForCommand - 0x44338
+EditorUI::moveGamelayer - 0x2fba8
 EditorUI::moveObjectCall - 0x43740
 EditorUI::moveObjectCall - 0x444f4
 EditorUI::onLockLayer - 0x2d26c
@@ -1792,6 +1793,8 @@ EditorUI::showUI - 0x392e4
 EditorUI::spriteFromObjectString - 0x3459c
 EditorUI::toggleLockUI - 0x2dc08
 EditorUI::toggleMode - 0x2bb88
+EditorUI::transformObjectCall - 0x43774
+EditorUI::transformObjectCall - 0x44914
 EditorUI::updateCreateMenu - 0x2eaf8
 EditorUI::updateDeleteButtons - 0x32754
 EditorUI::updateGridNodeSize - 0x2fa1c
@@ -3134,6 +3137,8 @@ LocalLevelManager::firstLoad - 0x5292f0
 MapPackCell::loadFromMapPack - 0x1ea984
 MapPackCell::init - 0x1f824c
 MapPackCell::draw - 0x1f8744
+MapSelectLayer::create - 0x20b194
+MapSelectLayer::scene - 0x20b150
 MapSelectLayer::update - 0x20c178
 MapSelectLayer::init - 0x20b278
 MapSelectLayer::onExit - 0x20c43c
