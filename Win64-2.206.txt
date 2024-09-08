@@ -539,6 +539,7 @@ ConfigureValuePopup::updateTextInputLabel - 0x97540
 ConfigureValuePopup::keyBackClicked - 0x977a0
 ConfigureValuePopup::textInputClosed - 0x89f80
 ConfigureValuePopup::textChanged - 0x975d0
+CountTriggerGameObject::triggerObject - 0x48ea30
 CreateGuidelinesLayer::update - 0x995e0
 CreateGuidelinesLayer::ccTouchBegan - 0x998b0
 CreateGuidelinesLayer::ccTouchEnded - 0x99930
@@ -1462,6 +1463,7 @@ GJBaseGameLayer::updateCamera - 0x22ae20
 GJBaseGameLayer::updateCameraOffsetX - 0x225f20
 GJBaseGameLayer::updateCameraOffsetY - 0x225fc0
 GJBaseGameLayer::updateCollisionBlocks - 0x209060
+GJBaseGameLayer::updateCounters - 0x223e70
 GJBaseGameLayer::updateDualGround - 0x203ce0
 GJBaseGameLayer::updateGradientLayers - 0x2104b0
 GJBaseGameLayer::updateGuideArt - 0x235770
@@ -1517,6 +1519,7 @@ GJDifficultySprite::getDifficultyFrame - 0x292d40
 GJDifficultySprite::updateDifficultyFrame - 0x292e20
 GJDifficultySprite::updateFeatureState - 0x292f40
 GJEffectManager::create - 0x248f30
+GJEffectManager::countForItem - 0x2506d0
 GJEffectManager::getColorAction - 0x249eb0
 GJEffectManager::getColorSprite - 0x249f70
 GJEffectManager::loadFromState - 0x2521c0
@@ -2783,6 +2786,9 @@ SetupGradientPopup::determineStartValues - 0x3f6a70
 SetupGradientPopup::onPlusButton - 0x3f6b80
 SetupGradientPopup::updateToggleItem - 0x3f6c00
 SetupGradientPopup::valueDidChange - 0x3f7010
+SetupInstantCountPopup::init - 0x3f7260
+SetupInstantCountPopup::onTargetIDArrow - 0x3f11c0
+SetupInstantCountPopup::updateItemID - 0x3eeb30
 SetupInstantCountPopup::textChanged - 0x3f8340
 SetupMGTrigger::textChanged - 0x3fd430
 SetupMoveCommandPopup::init - 0x26e780
