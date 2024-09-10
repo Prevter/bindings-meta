@@ -2280,6 +2280,7 @@ GJBaseGameLayer::getModifiedDelta - 0x11a488
 GJBaseGameLayer::gravBumpPlayer - 0xf8c48
 GJBaseGameLayer::handleButton - 0x114ea0
 GJBaseGameLayer::hasUniqueCoin - 0xf91ec
+GJBaseGameLayer::lightningFlash - 0xf2a4c
 GJBaseGameLayer::loadLevelSettings - 0x11edfc
 GJBaseGameLayer::objectTypeToGameEvent - 0xf5ca0
 GJBaseGameLayer::pauseAudio - 0x11a3b8

@@ -1396,6 +1396,7 @@ GJBaseGameLayer::getModifiedDelta - 0x227730
 GJBaseGameLayer::handleButton - 0x2238a0
 GJBaseGameLayer::hasUniqueCoin - 0x207020
 GJBaseGameLayer::increaseBatchNodeCapacity - 0x1fd9d0
+GJBaseGameLayer::lightningFlash - 0x235db0
 GJBaseGameLayer::loadLevelSettings - 0x229e30
 GJBaseGameLayer::loadStartPosObject - 0x225710
 GJBaseGameLayer::loadUpToPosition - 0x2258b0
