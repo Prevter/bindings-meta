@@ -63,6 +63,7 @@ cocos2d::CCScene::create - 0x28cbf0
 cocos2d::CCScene::getHighestChildZ - 0x28cca0
 cocos2d::CCScene::~CCScene - 0x28cb70
 cocos2d::CCScene::init - 0x28cba0
+cocos2d::CCSet::create - 0x7bfc00
 cocos2d::CCSet::CCSet - 0x7bf920
 cocos2d::CCSet::~CCSet - 0x7bfa70
 cocos2d::CCSet::addObject - 0x7bfd10
