@@ -855,6 +855,8 @@ AccountHelpLayer::customSetup - 0xd1910
 AccountHelpLayer::layerHidden - 0xd2740
 AccountHelpLayer::accountStatusChanged - 0xd2600
 AccountHelpLayer::FLAlert_Clicked - 0xd2630
+AccountLayer::doBackup - 0xd06a0
+AccountLayer::doSync - 0xd0770
 AccountLayer::customSetup - 0xcf0e0
 AccountLayer::layerHidden - 0xd12e0
 AccountLayer::backupAccountFinished - 0xd0830

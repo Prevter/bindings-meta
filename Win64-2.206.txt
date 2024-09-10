@@ -1344,6 +1344,8 @@ GhostTrailEffect::trailSnapshot - 0x68c90
 GhostTrailEffect::init - 0x68c30
 GJAccountManager::sharedState - 0x1f1220
 GJAccountManager::backupAccount - 0x1f2bc0
+GJAccountManager::getAccountBackupURL - 0x1f25a0
+GJAccountManager::getAccountSyncURL - 0x1f3500
 GJAccountManager::getShaPassword - 0x1f4ff0
 GJAccountManager::handleIt - 0x1f1590
 GJAccountManager::onBackupAccountCompleted - 0x1f30f0

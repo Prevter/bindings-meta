@@ -824,6 +824,8 @@ AccountHelpLayer::customSetup - 0xb9358
 AccountHelpLayer::layerHidden - 0xba0e4
 AccountHelpLayer::accountStatusChanged - 0xb9f98
 AccountHelpLayer::FLAlert_Clicked - 0xb9fa4
+AccountLayer::doBackup - 0xb82c4
+AccountLayer::doSync - 0xb83a0
 AccountLayer::customSetup - 0xb6d88
 AccountLayer::layerHidden - 0xb8e88
 AccountLayer::backupAccountFinished - 0xb8444
