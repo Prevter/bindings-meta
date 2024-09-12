@@ -2046,6 +2046,7 @@ GameLevelManager::getStoredUserList - 0x4abfa8
 GameLevelManager::getTimeLeft - 0x491bd8
 GameLevelManager::getUserList - 0x4aca14
 GameLevelManager::getUsers - 0x4a32f0
+GameLevelManager::gotoLevelPage - 0x490f94
 GameLevelManager::handleIt - 0x478b88
 GameLevelManager::hasDailyStateBeenLoaded - 0x4af7ac
 GameLevelManager::hasLikedAccountItem - 0x4ae4b0
@@ -2417,6 +2418,14 @@ GJChestSprite::init - 0x1ca814
 GJChestSprite::switchToState - 0x1c92f8
 GJChestSprite::setOpacity - 0x1ca94c
 GJChestSprite::setColor - 0x1ca878
+GJColorSetupLayer::create - 0x1b7184
+GJColorSetupLayer::init - 0x1b72b0
+GJColorSetupLayer::onClose - 0x1b7c50
+GJColorSetupLayer::onColor - 0x1b7958
+GJColorSetupLayer::onPage - 0x1b7bb4
+GJColorSetupLayer::showPage - 0x1b7cb0
+GJColorSetupLayer::updateSpriteColor - 0x1b7d14
+GJColorSetupLayer::updateSpriteColors - 0x1b7a1c
 GJColorSetupLayer::keyBackClicked - 0x1b7dc8
 GJColorSetupLayer::colorSelectClosed - 0x1b7dbc
 GJComment::init - 0x4b69ec
@@ -2683,7 +2692,12 @@ GJSongBrowser::exitLayer - 0x52fabc
 GJSongBrowser::FLAlert_Clicked - 0x530014
 GJSongBrowser::cellPerformedAction - 0x5300d0
 GJSongBrowser::getSelectedCellIdx - 0x530130
+GJSpecialColorSelect::create - 0x551bcc
+GJSpecialColorSelect::getButtonByTag - 0x553a84
+GJSpecialColorSelect::highlightSelected - 0x553b14
 GJSpecialColorSelect::init - 0x551cec
+GJSpecialColorSelect::onClose - 0x553924
+GJSpecialColorSelect::onSelectColor - 0x5539a8
 GJSpecialColorSelect::textForColorIdx - 0x553980
 GJSpecialColorSelect::keyBackClicked - 0x553bc8
 GJSpiderSprite::create - 0x50fc60
@@ -2808,6 +2822,8 @@ LabelGameObject::updateTextKerning - 0x178bb4
 LabelGameObject::getTextKerning - 0x1a1638
 LeaderboardsLayer::create - 0x46fc3c
 LeaderboardsLayer::init - 0x46fd08
+LeaderboardsLayer::onBack - 0x470a18
+LeaderboardsLayer::scene - 0x46fb50
 LeaderboardsLayer::selectLeaderboard - 0x4708ec
 LeaderboardsLayer::keyBackClicked - 0x471864
 LeaderboardsLayer::FLAlert_Clicked - 0x47180c

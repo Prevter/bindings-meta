@@ -1513,6 +1513,14 @@ GJChestSprite::create - 0x3ad250
 GJChestSprite::switchToState - 0x3ad450
 GJChestSprite::setOpacity - 0x3ad3e0
 GJChestSprite::setColor - 0x3ad320
+GJColorSetupLayer::create - 0x2445c0
+GJColorSetupLayer::init - 0x244700
+GJColorSetupLayer::onClose - 0x245390
+GJColorSetupLayer::onColor - 0x245240
+GJColorSetupLayer::onPage - 0x2451f0
+GJColorSetupLayer::showPage - 0x245320
+GJColorSetupLayer::updateSpriteColor - 0x245080
+GJColorSetupLayer::updateSpriteColors - 0x244f60
 GJColorSetupLayer::keyBackClicked - 0x2453e0
 GJColorSetupLayer::colorSelectClosed - 0x245310
 GJCommentListLayer::create - 0x27f7a0
@@ -1741,7 +1749,10 @@ GJSongBrowser::onPrevPage - 0x2a5420
 GJSongBrowser::init - 0x2a4d00
 GJSongBrowser::customSetup - 0x2a4e00
 GJSongBrowser::FLAlert_Clicked - 0x2a5540
+GJSpecialColorSelect::create - 0x2a5740
 GJSpecialColorSelect::init - 0x2a5850
+GJSpecialColorSelect::onClose - 0x2a63f0
+GJSpecialColorSelect::onSelectColor - 0x2a6310
 GJSpecialColorSelect::textForColorIdx - 0x2a6490
 GJSpecialColorSelect::keyBackClicked - 0x2a6440
 GJSpiderSprite::create - 0x2957b0
@@ -1825,6 +1836,7 @@ KeybindingsManager::sharedState - 0x2ae710
 KeyframeGameObject::setOpacity - 0x489250
 LabelGameObject::setOpacity - 0x487310
 LeaderboardsLayer::init - 0x2aed30
+LeaderboardsLayer::onBack - 0x2b0f30
 LeaderboardsLayer::refreshTabs - 0x2afce0
 LeaderboardsLayer::selectLeaderboard - 0x2afe10
 LeaderboardsLayer::setupLevelBrowser - 0x2afb80
