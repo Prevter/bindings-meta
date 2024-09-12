@@ -1790,6 +1790,7 @@ EditorPauseLayer::FLAlert_Clicked - 0x2341b4
 EditorUI::create - 0xb710
 EditorUI::clickOnPosition - 0x2e3e0
 EditorUI::constrainGameLayerPosition - 0x2bc50
+EditorUI::copyObjects - 0x3143c
 EditorUI::createCustomItems - 0x31cb4
 EditorUI::createMoveMenu - 0x40df0
 EditorUI::editGroup - 0x2cf3c
@@ -1802,6 +1803,7 @@ EditorUI::moveGamelayer - 0x2fba8
 EditorUI::moveObjectCall - 0x43740
 EditorUI::moveObjectCall - 0x444f4
 EditorUI::onLockLayer - 0x2d26c
+EditorUI::onNewCustomItem - 0x30f28
 EditorUI::onPause - 0x2ba08
 EditorUI::onPlayback - 0xe734
 EditorUI::onPlaytest - 0xe948

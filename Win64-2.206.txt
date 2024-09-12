@@ -828,6 +828,7 @@ EditorUI::applyOffset - 0x11e8d0
 EditorUI::checkDiffAfterTransformAnchor - 0x111c70
 EditorUI::clickOnPosition - 0xdebe0
 EditorUI::constrainGameLayerPosition - 0x11e960
+EditorUI::copyObjects - 0x10f0f0
 EditorUI::createCustomItems - 0xe0c80
 EditorUI::createMoveMenu - 0x116ee0
 EditorUI::createObject - 0x10c3e0

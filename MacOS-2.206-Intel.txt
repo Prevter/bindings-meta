@@ -1845,6 +1845,7 @@ EditorUI::alignObjects - 0x4e220
 EditorUI::assignNewGroups - 0x45d40
 EditorUI::clickOnPosition - 0x2dda0
 EditorUI::constrainGameLayerPosition - 0x2ae30
+EditorUI::copyObjects - 0x385ed0
 EditorUI::createCustomItems - 0x31990
 EditorUI::createMoveMenu - 0x468a0
 EditorUI::createRockBases - 0x620050
@@ -1881,6 +1882,7 @@ EditorUI::onCreateObject - 0x35000
 EditorUI::onDelete - 0x2df40
 EditorUI::onDeleteSelectedType - 0x32090
 EditorUI::onLockLayer - 0x2cb20
+EditorUI::onNewCustomItem - 0x30b10
 EditorUI::onPause - 0x2abd0
 EditorUI::onPlayback - 0xc7a0
 EditorUI::onPlaytest - 0xca00
