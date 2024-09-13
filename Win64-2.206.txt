@@ -1362,6 +1362,7 @@ GJAccountManager::init - 0x1f17e0
 GJAccountSettingsLayer::init - 0x27fcd0
 GJAccountSettingsLayer::keyBackClicked - 0x282670
 GJBaseGameLayer::~GJBaseGameLayer - 0x1f6650
+GJBaseGameLayer::activateItemEditTrigger - 0x224200
 GJBaseGameLayer::activateSFXTrigger - 0x230d50
 GJBaseGameLayer::activateSongEditTrigger - 0x230f50
 GJBaseGameLayer::activateSongTrigger - 0x2306d0
