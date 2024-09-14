@@ -1821,6 +1821,7 @@ EditorUI::showUI - 0x392e4
 EditorUI::spriteFromObjectString - 0x3459c
 EditorUI::toggleLockUI - 0x2dc08
 EditorUI::toggleMode - 0x2bb88
+EditorUI::toggleStickyControls - 0x2da98
 EditorUI::transformObjectCall - 0x43774
 EditorUI::transformObjectCall - 0x44914
 EditorUI::updateCreateMenu - 0x2eaf8
@@ -2307,6 +2308,7 @@ GJBaseGameLayer::gameEventTriggered - 0xf2c98
 GJBaseGameLayer::getModifiedDelta - 0x11a488
 GJBaseGameLayer::gravBumpPlayer - 0xf8c48
 GJBaseGameLayer::handleButton - 0x114ea0
+GJBaseGameLayer::hasItem - 0xf9bac
 GJBaseGameLayer::hasUniqueCoin - 0xf91ec
 GJBaseGameLayer::lightningFlash - 0xf2a4c
 GJBaseGameLayer::loadLevelSettings - 0x11edfc
