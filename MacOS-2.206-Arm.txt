@@ -1562,6 +1562,7 @@ CustomizeObjectLayer::colorSetupClosed - 0x1a5d40
 CustomizeObjectSettingsPopup::onClose - 0x1a6eb8
 CustomizeObjectSettingsPopup::onCustomToggleTriggerValue - 0x1a6e38
 CustomListView::create - 0x1e7194
+CustomListView::reloadAll - 0x1f3f7c
 CustomListView::setupList - 0x1f3900
 CustomListView::getListCell - 0x1e72a4
 CustomListView::loadCell - 0x1e82d8
@@ -2854,6 +2855,7 @@ LevelBrowserLayer::onGoToPage - 0x3faab0
 LevelBrowserLayer::onNextPage - 0x3fa970
 LevelBrowserLayer::onPrevPage - 0x3fa93c
 LevelBrowserLayer::onRefresh - 0x3fba5c
+LevelBrowserLayer::reloadAllObjects - 0x3ff3d0
 LevelBrowserLayer::setSearchObject - 0x3fa8f4
 LevelBrowserLayer::setupLevelBrowser - 0x3fda3c
 LevelBrowserLayer::show - 0x3ffc14
