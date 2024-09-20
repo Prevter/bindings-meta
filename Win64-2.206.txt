@@ -2748,6 +2748,8 @@ SetFolderPopup::onSetFolderName - 0x28a810
 SetFolderPopup::valueChanged - 0x28a6d0
 SetFolderPopup::setTextPopupClosed - 0x28aa10
 SetGroupIDLayer::init - 0x3cde60
+SetGroupIDLayer::onAddGroup - 0x3d1eb0
+SetGroupIDLayer::onAddGroupParent - 0x3d2020
 SetGroupIDLayer::onArrow - 0x3d05e0
 SetGroupIDLayer::onArrowLeft - 0x3d0580
 SetGroupIDLayer::onArrowRight - 0x3d05b0
@@ -2756,6 +2758,7 @@ SetGroupIDLayer::onNextFreeEditorLayer1 - 0x3d23b0
 SetGroupIDLayer::onNextFreeEditorLayer2 - 0x3d2420
 SetGroupIDLayer::onNextFreeOrderChannel - 0x3d28c0
 SetGroupIDLayer::onNextGroupID1 - 0x3d14d0
+SetGroupIDLayer::onRemoveFromGroup - 0x3d1de0
 SetGroupIDLayer::updateEditorLabel - 0x3d2520
 SetGroupIDLayer::updateEditorLabel2 - 0x3d25b0
 SetGroupIDLayer::updateEditorLayerID - 0x3d22b0
