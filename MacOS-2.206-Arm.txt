@@ -3476,6 +3476,8 @@ PlayerObject::hitGround - 0x38b4b4
 PlayerObject::incrementJumps - 0x38487c
 PlayerObject::init - 0x37c678
 PlayerObject::isFlying - 0x38285c
+PlayerObject::isInBasicMode - 0x38d8e0
+PlayerObject::isInNormalMode - 0x3812f4
 PlayerObject::isSafeFlip - 0x38b488
 PlayerObject::loadFromCheckpoint - 0x399e74
 PlayerObject::lockPlayer - 0x3986a8
@@ -3496,7 +3498,7 @@ PlayerObject::releaseButton - 0x393880
 PlayerObject::resetPlayerIcon - 0x394f20
 PlayerObject::reversePlayer - 0x393d7c
 PlayerObject::ringJump - 0x392b20
-PlayerObject::runNormalRotation - 0x408ef0
+PlayerObject::runNormalRotation - 0x381364
 PlayerObject::setSecondColor - 0x37fac8
 PlayerObject::setupStreak - 0x37e59c
 PlayerObject::spiderTestJump - 0x38476c

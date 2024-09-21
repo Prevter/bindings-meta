@@ -3762,6 +3762,8 @@ PlayerObject::hitGround - 0x415160
 PlayerObject::incrementJumps - 0x40c980
 PlayerObject::init - 0x403590
 PlayerObject::isFlying - 0x40a810
+PlayerObject::isInBasicMode - 0x4179f0
+PlayerObject::isInNormalMode - 0x408e90
 PlayerObject::isSafeFlip - 0x415120
 PlayerObject::levelWillFlip - 0x40c6c0
 PlayerObject::loadFromCheckpoint - 0x425520

@@ -896,6 +896,7 @@ EditorUI::onStopPlaytest - 0x10e8d0
 EditorUI::onUngroupSticky - 0x10ecc0
 EditorUI::orderDownCustomItem - 0xe0bf0
 EditorUI::orderUpCustomItem - 0xe0b60
+EditorUI::pasteObjects - 0x10f8a0
 EditorUI::playtestStopped - 0x10e910
 EditorUI::redoLastAction - 0x10dd30
 EditorUI::reloadCustomItems - 0xe1190
