@@ -841,6 +841,7 @@ EditorUI::deselectAll - 0x10d920
 EditorUI::deselectObject - 0x10d800
 EditorUI::doCopyObjects - 0x10f490
 EditorUI::doPasteObjects - 0x10f620
+EditorUI::dynamicGroupUpdate - 0x114b90
 EditorUI::editGroup - 0x11b410
 EditorUI::editObject - 0x1180a0
 EditorUI::editObject2 - 0x11a030
