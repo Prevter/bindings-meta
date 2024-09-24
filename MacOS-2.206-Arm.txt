@@ -685,6 +685,7 @@ cocos2d::CCSpriteFrame::setRectInPixels - 0x2e6d88
 cocos2d::CCSpriteFrame::setTexture - 0x2e6ca8
 cocos2d::CCSpriteFrame::copyWithZone - 0x2e6b98
 cocos2d::CCSpriteFrameCache::sharedSpriteFrameCache - 0x2ab520
+cocos2d::CCSpriteFrameCache::addSpriteFrame - 0x2aca14
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithDictionary - 0x2ab7d8
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x2ac58c
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x2ad664
