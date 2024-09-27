@@ -2757,6 +2757,7 @@ SetGroupIDLayer::onArrow - 0x3d05e0
 SetGroupIDLayer::onArrowLeft - 0x3d0580
 SetGroupIDLayer::onArrowRight - 0x3d05b0
 SetGroupIDLayer::onClose - 0x3d2b60
+SetGroupIDLayer::onExtra - 0x3d0cd0
 SetGroupIDLayer::onNextFreeEditorLayer1 - 0x3d23b0
 SetGroupIDLayer::onNextFreeEditorLayer2 - 0x3d2420
 SetGroupIDLayer::onNextFreeOrderChannel - 0x3d28c0
