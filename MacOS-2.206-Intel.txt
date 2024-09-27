@@ -2113,6 +2113,7 @@ GameLevelManager::addDLToActive - 0x53f890
 GameLevelManager::cleanupDailyLevels - 0x540c30
 GameLevelManager::createAndGetLevelLists - 0x538900
 GameLevelManager::createAndGetLevels - 0x535c60
+GameLevelManager::createNewLevel - 0x5334d0
 GameLevelManager::createNewLevelList - 0x534200
 GameLevelManager::dataLoaded - 0x542370
 GameLevelManager::deleteLevel - 0x533f10
