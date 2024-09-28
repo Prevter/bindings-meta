@@ -2088,6 +2088,7 @@ LevelSearchLayer::checkTime - 0x2f1dc0
 LevelSearchLayer::getLevelLenKey - 0x147f60
 LevelSearchLayer::getSearchObject - 0x2ef7b0
 LevelSearchLayer::init - 0x2ebc60
+LevelSearchLayer::onBack - 0x2f1560
 LevelSearchLayer::onClearFreeSearch - 0x2f1520
 LevelSearchLayer::onFollowed - 0x2f0fe0
 LevelSearchLayer::onFriends - 0x2f0f20

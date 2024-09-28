@@ -3073,6 +3073,7 @@ LevelSearchLayer::confirmClearFilters - 0x556cc4
 LevelSearchLayer::getSearchDiffKey - 0x5591f0
 LevelSearchLayer::getSearchObject - 0x558e54
 LevelSearchLayer::init - 0x5546b0
+LevelSearchLayer::onBack - 0x558158
 LevelSearchLayer::onClearFreeSearch - 0x5574e8
 LevelSearchLayer::onMoreOptions - 0x556da4
 LevelSearchLayer::onMostDownloaded - 0x557634
