@@ -373,6 +373,7 @@ CCTextInputNode::onTextFieldDetachWithIME - 0x4fd30
 ChallengesPage::claimItem - 0x851e0
 ChallengesPage::createChallengeNode - 0x849f0
 ChallengesPage::exitNodeAtSlot - 0x84c80
+ChallengesPage::onClose - 0x85150
 ChallengesPage::updateTimers - 0x84d70
 ChallengesPage::init - 0x83ca0
 ChallengesPage::registerWithTouchDispatcher - 0x41750
@@ -801,6 +802,7 @@ EditLevelLayer::textChanged - 0xd44a0
 EditLevelLayer::uploadActionFinished - 0xd6350
 EditLevelLayer::uploadActionFailed - 0xd6490
 EditLevelLayer::onClosePopup - 0xd6310
+GJOptionsLayer::GJOptionsLayer - 0x27adc0
 GJOptionsLayer::addGVToggle - 0x27d8f0
 GJOptionsLayer::addToggleInternal - 0x27da30
 GJOptionsLayer::countForPage - 0x27df30
@@ -2413,6 +2415,7 @@ PauseLayer::onRestart - 0x35c7b0
 PauseLayer::onRestartFull - 0x35c850
 PauseLayer::onResume - 0x35c720
 PauseLayer::onSettings - 0x35b8e0
+PauseLayer::sfxSliderChanged - 0x351210
 PauseLayer::tryQuit - 0x35cb90
 PauseLayer::keyBackClicked - 0x35cf90
 PauseLayer::keyDown - 0x35cec0
@@ -2958,6 +2961,7 @@ SmartTemplateCell::updateBGColor - 0xbc040
 SongCell::loadFromObject - 0xb1ca0
 SongInfoLayer::init - 0x466b00
 SongInfoObject::create - 0x3245a0
+SongInfoObject::create - 0x323450
 SongInfoObject::createWithCoder - 0x324b70
 SongInfoObject::encodeWithCoder - 0x324e80
 SongOptionsLayer::keyBackClicked - 0xc2b20

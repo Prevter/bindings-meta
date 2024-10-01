@@ -15,6 +15,7 @@ cocos2d::CCEGLViewProtocol::pollInputEvents - 0x46e32c
 cocos2d::CCEaseIn::create - 0x471f80
 cocos2d::CCEaseOut::create - 0x472190
 cocos2d::CCEaseInOut::create - 0x4723a8
+cocos2d::CCEaseBackIn::create - 0x474784
 cocos2d::CCEaseBackOut::create - 0x47495c
 cocos2d::CCEaseElasticIn::create - 0x4733fc
 cocos2d::CCEaseElasticOut::create - 0x473730
@@ -248,6 +249,8 @@ cocos2d::CCScheduler::update - 0x3be890
 cocos2d::CCLayer::create - 0x41b6cc
 cocos2d::CCLayer::CCLayer - 0x41b2b0
 cocos2d::CCLayer::~CCLayer - 0x41b4e0
+cocos2d::CCLayer::unregisterScriptAccelerateHandler - 0x41b4b4
+cocos2d::CCLayer::unregisterScriptKeypadHandler - 0x41b488
 cocos2d::CCLayer::init - 0x41b670
 cocos2d::CCLayer::onEnter - 0x41bf40
 cocos2d::CCLayer::onEnterTransitionDidFinish - 0x41c0c4
@@ -825,6 +828,7 @@ cocos2d::ZipUtils::base64URLDecode - 0x1b1fe8
 cocos2d::ZipUtils::ccDeflateMemory - 0x1b1220
 cocos2d::ZipUtils::compressString - 0x1b0f10
 cocos2d::ZipUtils::decompressString - 0x1b1664
+cocos2d::CCSpawn::createWithTwoActions - 0x33e5ec
 cocos2d::CCSpeed::create - 0x525f3c
 pugi::xml_document::xml_document - 0x56bb98
 pugi::xml_document::~xml_document - 0x56bcec
@@ -2234,6 +2238,7 @@ GameStatsManager::hasSecretCoin - 0x60c9c
 GameStatsManager::hasUserCoin - 0x6356c
 GameStatsManager::incrementStat - 0x5ad38
 GameStatsManager::incrementStat - 0x5ad30
+GameStatsManager::isItemEnabled - 0x6b108
 GameStatsManager::isItemUnlocked - 0x5ead0
 GameStatsManager::isSpecialChestUnlocked - 0x6ac30
 GameStatsManager::processChallengeQueue - 0x6742c
@@ -2437,6 +2442,7 @@ GJBaseGameLayer::createCustomParticle - 0x1234a8
 GJBaseGameLayer::claimCustomParticle - 0x123828
 GJBaseGameLayer::unclaimCustomParticle - 0x123a68
 GJBaseGameLayer::activatedAudioTrigger - 0x1247e0
+GJBaseGameLayer::checkpointActivated - 0x127a8c
 GJBaseGameLayer::flipArt - 0x127a88
 GJBaseGameLayer::addKeyframe - 0x115768
 GJBaseGameLayer::updateTimeLabel - 0xdf6ec
@@ -3179,6 +3185,7 @@ LevelSettingsObject::setupColorsFromLegacyMode - 0xded64
 LevelSettingsObject::shouldUseYSection - 0xdd78c
 LevelSettingsObject::init - 0xdd638
 LevelTools::getAudioTitle - 0x45fe8c
+LevelTools::getSongObject - 0x463120
 LevelTools::verifyLevelIntegrity - 0x46365c
 LikeItemLayer::create - 0x52a0d0
 LikeItemLayer::init - 0x52a1f4
@@ -3308,6 +3315,7 @@ MessagesProfilePage::forceReloadMessages - 0x1d8aa8
 MessagesProfilePage::setupPageInfo - 0x1d8adc
 MoreOptionsLayer::create - 0x6ae8a4
 MoreOptionsLayer::addToggle - 0x6b004c
+MoreOptionsLayer::onClose - 0x6b0b04
 MoreOptionsLayer::onFMODDebug - 0x6b07e8
 MoreOptionsLayer::onKeybindings - 0x6b1048
 MoreOptionsLayer::onSongBrowser - 0x6b0790
@@ -4184,6 +4192,7 @@ SmartTemplateCell::draw - 0x1fdbf8
 SongCell::init - 0x1f96b4
 SongCell::draw - 0x1f96e4
 SongInfoLayer::keyBackClicked - 0x532a10
+SongInfoObject::create - 0x4e707c
 SongInfoObject::encodeWithCoder - 0x4e7ef4
 SongInfoObject::canEncode - 0x4e8088
 SongOptionsLayer::keyBackClicked - 0x1c2fac
