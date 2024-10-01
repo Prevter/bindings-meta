@@ -1,3 +1,24 @@
+cocos2d::CCLightning::lightningWithStrikePoint - 0x436c0
+cocos2d::CCLightning::initWithStrikePoint - 0x43760
+cocos2d::CCLightning::CCLightning - 0x43580
+cocos2d::CCLightning::~CCLightning - 0x43650
+cocos2d::CCLightning::strike - 0x43a00
+cocos2d::CCLightning::strikeFinished - 0x43a70
+cocos2d::CCLightning::draw - 0x43880
+cocos2d::CCLightning::isOpacityModifyRGB - 0x43ae0
+cocos2d::CCLightning::setOpacityModifyRGB - 0x43af0
+cocos2d::CCLightning::getOpacity - 0x43a90
+cocos2d::CCLightning::getDisplayedOpacity - 0x43aa0
+cocos2d::CCLightning::setOpacity - 0x43ab0
+cocos2d::CCLightning::updateDisplayedOpacity - 0x43b00
+cocos2d::CCLightning::isCascadeOpacityEnabled - 0x43b10
+cocos2d::CCLightning::setCascadeOpacityEnabled - 0x43b20
+cocos2d::CCLightning::getColor - 0x43ac0
+cocos2d::CCLightning::getDisplayedColor - 0x43b30
+cocos2d::CCLightning::setColor - 0x43ad0
+cocos2d::CCLightning::updateDisplayedColor - 0x43b40
+cocos2d::CCLightning::isCascadeColorEnabled - 0x43b50
+cocos2d::CCLightning::setCascadeColorEnabled - 0x43b60
 GJDropDownLayer::init - 0x2454f0
 GJDropDownLayer::draw - 0x41870
 GJDropDownLayer::ccTouchBegan - 0x3b850
@@ -624,6 +645,7 @@ CustomizeObjectSettingsPopup::onCustomToggleTriggerValue - 0xa8390
 CustomListView::create - 0xa8600
 CustomListView::reloadAll - 0xaa280
 CustomListView::setupList - 0xa9bb0
+CustomListView::getListCell - 0xa8730
 CustomListView::loadCell - 0xa94f0
 CustomSongCell::loadFromObject - 0xb2220
 CustomSongCell::songIDChanged - 0xb23e0
@@ -1040,6 +1062,7 @@ FMODAudioEngine::preloadEffect - 0x583b0
 FMODAudioEngine::queuePlayEffect - 0x56a70
 FMODAudioEngine::queueStartMusic - 0x59a40
 FMODAudioEngine::resumeAllMusic - 0x58ec0
+FMODAudioEngine::saveAudioState - 0x54a70
 FMODAudioEngine::setChannelVolumeMod - 0x580d0
 FMODAudioEngine::setMusicTimeMS - 0x5af40
 FMODAudioEngine::setup - 0x52d40
@@ -1370,6 +1393,7 @@ GJBaseGameLayer::activateSongEditTrigger - 0x230f50
 GJBaseGameLayer::activateSongTrigger - 0x2306d0
 GJBaseGameLayer::addToGroups - 0x214730
 GJBaseGameLayer::animateInDualGroundNew - 0x203ed0
+GJBaseGameLayer::assignNewStickyGroups - 0x215530
 GJBaseGameLayer::bumpPlayer - 0x208260
 GJBaseGameLayer::canBeActivatedByPlayer - 0x208150
 GJBaseGameLayer::checkCameraLimitAfterTeleport - 0x229770
@@ -1397,6 +1421,7 @@ GJBaseGameLayer::getMaxPortalY - 0x2042d0
 GJBaseGameLayer::getMinDistance - 0x231ac0
 GJBaseGameLayer::getMinPortalY - 0x2041f0
 GJBaseGameLayer::getModifiedDelta - 0x227730
+GJBaseGameLayer::groupStickyObjects - 0x215350
 GJBaseGameLayer::handleButton - 0x2238a0
 GJBaseGameLayer::hasUniqueCoin - 0x207020
 GJBaseGameLayer::increaseBatchNodeCapacity - 0x1fd9d0
@@ -1405,6 +1430,7 @@ GJBaseGameLayer::loadLevelSettings - 0x229e30
 GJBaseGameLayer::loadStartPosObject - 0x225710
 GJBaseGameLayer::loadUpToPosition - 0x2258b0
 GJBaseGameLayer::moveAreaObject - 0x21b2c0
+GJBaseGameLayer::moveObjects - 0x21e550
 GJBaseGameLayer::objectTypeToGameEvent - 0x222520
 GJBaseGameLayer::pauseAudio - 0x227430
 GJBaseGameLayer::pickupItem - 0x206c70
@@ -1420,6 +1446,7 @@ GJBaseGameLayer::processAreaActions - 0x2197d0
 GJBaseGameLayer::processAreaEffects - 0x218c40
 GJBaseGameLayer::processAreaMoveGroupAction - 0x21ace0
 GJBaseGameLayer::processAreaRotateGroupAction - 0x21a5a0
+GJBaseGameLayer::processAreaTintGroupAction - 0x21b3b0
 GJBaseGameLayer::processAreaTransformGroupAction - 0x219a30
 GJBaseGameLayer::processCommands - 0x229830
 GJBaseGameLayer::processDynamicObjectActions - 0x21ea80
@@ -1465,6 +1492,7 @@ GJBaseGameLayer::toggleFlipped - 0x235880
 GJBaseGameLayer::triggerGradientCommand - 0x210020
 GJBaseGameLayer::tryGetMainObject - 0x214d10
 GJBaseGameLayer::tryGetObject - 0x214d80
+GJBaseGameLayer::ungroupStickyObjects - 0x215470
 GJBaseGameLayer::updateAudioVisualizer - 0x237930
 GJBaseGameLayer::updateCamera - 0x22ae20
 GJBaseGameLayer::updateCameraOffsetX - 0x225f20
