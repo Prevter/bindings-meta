@@ -3603,6 +3603,7 @@ PlayerObject::getOrientedBox - 0x3997ac
 PlayerObject::getObjectRotation - 0x3997d8
 PlayerObject::animationFinished - 0x39a5d0
 PlayLayer::~PlayLayer - 0x9a050
+PlayLayer::PlayLayer - 0xab594
 PlayLayer::create - 0x9a148
 PlayLayer::addObject - 0x9f734
 PlayLayer::canPauseGame - 0xaac6c
