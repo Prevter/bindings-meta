@@ -2516,6 +2516,8 @@ GJGameLevel::init - 0x4b0c4c
 GJGameLoadingLayer::loadLevel - 0x129940
 GJGarageLayer::getItems - 0x2fb2e8
 GJGarageLayer::node - 0x2f6a6c
+GJGarageLayer::onArrow - 0x2fa3b8
+GJGarageLayer::onNavigate - 0x2fac48
 GJGarageLayer::onSelect - 0x2fb710
 GJGarageLayer::onSelectTab - 0x2fa384
 GJGarageLayer::onSpecial - 0x2fb65c
@@ -3700,6 +3702,7 @@ ProfilePage::onUpdate - 0x6cb634
 ProfilePage::onYouTube - 0x6ce61c
 ProfilePage::setupComments - 0x6cb1ec
 ProfilePage::setupCommentsBrowser - 0x6cb804
+ProfilePage::toggleShip - 0x6ce55c
 ProfilePage::registerWithTouchDispatcher - 0x6d2954
 ProfilePage::keyBackClicked - 0x6d14b4
 ProfilePage::show - 0x6d16e4

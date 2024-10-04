@@ -1141,9 +1141,13 @@ GJBaseGameLayer::createPlayerCollisionBlock - 0x1f5050
 GJBaseGameLayer::createTextLayers - 0x1ed390
 GJBaseGameLayer::destroyObject - 0x1f3b00
 GJBaseGameLayer::gameEventTriggered - 0x1ee9a4
+GJBaseGameLayer::getActiveOrderSpawnObjects - 0x1f65ac
+GJBaseGameLayer::getGroup - 0x1ec63c
 GJBaseGameLayer::getModifiedDelta - 0x2092f0
+GJBaseGameLayer::getOptimizedGroup - 0x1fc964
 GJBaseGameLayer::getOtherPlayer - 0x1efb58
 GJBaseGameLayer::getPlayTimerMilli - 0x20bfe0
+GJBaseGameLayer::getStaticGroup - 0x1fc9cc
 GJBaseGameLayer::handleButton - 0x205498
 GJBaseGameLayer::hasUniqueCoin - 0x1f3be4
 GJBaseGameLayer::increaseBatchNodeCapacity - 0x1e850c
@@ -1151,8 +1155,10 @@ GJBaseGameLayer::isFlipping - 0x20bf88
 GJBaseGameLayer::loadLevelSettings - 0x20c670
 GJBaseGameLayer::loadStartPosObject - 0x2073dc
 GJBaseGameLayer::orderSpawnObjects - 0x212024
+GJBaseGameLayer::parentForZLayer - 0x1ed778
 GJBaseGameLayer::pauseAudio - 0x209244
 GJBaseGameLayer::pickupItem - 0x1f3ce0
+GJBaseGameLayer::playerTouchedObject - 0xfa368
 GJBaseGameLayer::playerWillSwitchMode - 0x1f0a9c
 GJBaseGameLayer::playExitDualEffect - 0x1f44b0
 GJBaseGameLayer::preResumeGame - 0x209238
@@ -1182,6 +1188,7 @@ GJBaseGameLayer::updateCamera - 0x20a3fc
 GJBaseGameLayer::updateCameraOffsetX - 0x207a90
 GJBaseGameLayer::updateCameraOffsetY - 0x207b10
 GJBaseGameLayer::updateGradientLayers - 0x1fa2bc
+GJBaseGameLayer::updateKeyframeOrder - 0x205b28
 GJBaseGameLayer::updateLayerCapacity - 0x1e8678
 GJBaseGameLayer::updateLevelColors - 0x1e7968
 GJBaseGameLayer::updateMaxGameplayY - 0x20c7c0
@@ -1564,10 +1571,13 @@ PlayerObject::doReversePlayer - 0x22d77c
 PlayerObject::fadeOutStreak2 - 0x237f98
 PlayerObject::flipGravity - 0x22e590
 PlayerObject::handleRotatedObjectCollision - 0x230788
+PlayerObject::hardFlipGravity - 0x234ea0
+PlayerObject::hitGround - 0x233c28
 PlayerObject::incrementJumps - 0x22e558
 PlayerObject::init - 0x227dd4
 PlayerObject::isFlying - 0x22cc90
 PlayerObject::isInNormalMode - 0x22bb58
+PlayerObject::isSafeFlip - 0x233bfc
 PlayerObject::levelFlipping - 0x22ccc0
 PlayerObject::lockPlayer - 0x23ca48
 PlayerObject::modeDidChange - 0x23a050
@@ -1578,6 +1588,7 @@ PlayerObject::playerDestroyed - 0x237eb8
 PlayerObject::playingEndEffect - 0x23cc0c
 PlayerObject::playSpawnEffect - 0x237974
 PlayerObject::playSpiderDashEffect - 0x235aac
+PlayerObject::preCollision - 0x22ed60
 PlayerObject::pushButton - 0x2381e0
 PlayerObject::releaseAllButtons - 0x23ca04
 PlayerObject::releaseButton - 0x238fd0
@@ -1608,6 +1619,7 @@ PlayerObject::toggleRobotMode - 0x23b318
 PlayerObject::toggleRollMode - 0x23b028
 PlayerObject::toggleSpiderMode - 0x23b610
 PlayerObject::toggleSwingMode - 0x23a50c
+PlayerObject::updateCollide - 0x234208
 PlayerObject::updateDashArt - 0x23617c
 PlayerObject::updateEffects - 0x22dc24
 PlayerObject::updateGlowColor - 0x23c424
@@ -1802,6 +1814,7 @@ SongSelectNode::songIDChanged - 0x152790
 SongSelectNode::getActiveSongID - 0x1527b0
 SongSelectNode::getSongFileName - 0x1527c0
 SongSelectNode::getLevelSettings - 0x15286c
+SpawnTriggerGameObject::updateRemapKeys - 0x397a78
 SpriteAnimationManager::doCleanup - 0x335180
 SpriteAnimationManager::executeAnimation - 0x334c54
 SpriteAnimationManager::overridePrio - 0x334f4c

@@ -2635,6 +2635,7 @@ ProfilePage::onUpdate - 0x39c360
 ProfilePage::onYouTube - 0x3a1a20
 ProfilePage::setupCommentsBrowser - 0x3a2710
 ProfilePage::showNoAccountError - 0x3a1640
+ProfilePage::toggleShip - 0x39f5f0
 ProfilePage::updatePageArrows - 0x3a2ab0
 ProfilePage::keyBackClicked - 0x3a1630
 ProfilePage::show - 0x3a18c0
@@ -2943,6 +2944,7 @@ ShareLevelSettingsLayer::keyBackClicked - 0x466070
 SimplePlayer::create - 0x2672d0
 SimplePlayer::createSpiderSprite - 0x267aa0
 SimplePlayer::init - 0x2673c0
+SimplePlayer::setFrames - 0x268450
 SimplePlayer::updateColors - 0x267b60
 SimplePlayer::updatePlayerFrame - 0x267f20
 SimplePlayer::setOpacity - 0x268680
