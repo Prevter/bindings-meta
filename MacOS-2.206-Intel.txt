@@ -3799,6 +3799,8 @@ PlayerObject::collidedWithObject - 0x416340
 PlayerObject::collidedWithObjectInternal - 0x411b50
 PlayerObject::collidedWithSlope - 0x40fac0
 PlayerObject::copyAttributes - 0x4249f0
+PlayerObject::createRobot - 0x404e20
+PlayerObject::createSpider - 0x405290
 PlayerObject::deactivateParticle - 0x40a870
 PlayerObject::deactivateStreak - 0x405d80
 PlayerObject::disablePlayerControls - 0x423c30

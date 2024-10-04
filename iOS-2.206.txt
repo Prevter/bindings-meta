@@ -37,6 +37,7 @@ cocos2d::CCSet::acceptVisitor - 0x1b8284
 cocos2d::CCShaderCache::sharedShaderCache - 0x12ea44
 cocos2d::CCShaderCache::programForKey - 0x12f128
 cocos2d::CCParticleSystem::~CCParticleSystem - 0x1a03ec
+cocos2d::CCParticleSystem::loadScaledDefaults - 0x1a2138
 cocos2d::CCParticleSystem::update - 0x1a1154
 cocos2d::CCParticleSystem::init - 0x19f1c0
 cocos2d::CCParticleSystem::setScale - 0x1a2108
@@ -679,10 +680,12 @@ AchievementManager::isAchievementEarned - 0xe9c90
 AchievementNotifier::sharedState - 0x226bb8
 AchievementNotifier::willSwitchToScene - 0x226dec
 AdToolbox::setupAds - 0x309394
+GameObject::addColorSprite - 0x2650fc
 GameObject::commonSetup - 0x26486c
 GameObject::createAndAddParticle - 0x26936c
 GameObject::createSpriteColor - 0x2649e0
 GameObject::createWithKey - 0x264004
+GameObject::destroyObject - 0x26bd7c
 GameObject::determineSlopeDirection - 0x26ca54
 GameObject::disableObject - 0x26bde4
 GameObject::getLastPosition - 0x272074
@@ -691,8 +694,10 @@ GameObject::init - 0x264830
 GameObject::playDestroyObjectAnim - 0x368030
 GameObject::playShineEffect - 0x26be2c
 GameObject::setLastPosition - 0x27207c
+GameObject::shouldShowPickupEffects - 0x357df4
 GameObject::slopeFloorTop - 0x271218
 GameObject::slopeYPos - 0x271234
+GameObject::spawnDefaultPickupParticle - 0x357e60
 GameObject::setScaleX - 0x26b0a4
 GameObject::setScaleY - 0x26b13c
 GameObject::setScale - 0x26b1d4
@@ -1032,14 +1037,17 @@ GameManager::fadeInMenuMusic - 0x323038
 GameManager::fadeInMusic - 0x3230c4
 GameManager::getBGTexture - 0x329838
 GameManager::getFontFile - 0x328d74
+GameManager::getFontTexture - 0x328de0
 GameManager::getGameVariable - 0x322f5c
 GameManager::getGTexture - 0x3298d0
 GameManager::getIconRequestID - 0x328cb8
 GameManager::getIntGameVariable - 0x329d2c
 GameManager::getMenuMusicFile - 0x322c64
+GameManager::getMGTexture - 0x329884
 GameManager::getUGV - 0x329ba0
 GameManager::isColorUnlocked - 0x3239a4
 GameManager::isIconUnlocked - 0x3235d4
+GameManager::loadBackground - 0x328fc4
 GameManager::loadDeathEffect - 0x328e4c
 GameManager::loadIcon - 0x328610
 GameManager::loadVideoSettings - 0x32bcec
@@ -1090,6 +1098,7 @@ GameStatsManager::hasCompletedLevel - 0x340d14
 GameStatsManager::hasCompletedMainLevel - 0x340c98
 GameStatsManager::hasCompletedStarLevel - 0x340ef4
 GameStatsManager::hasPendingUserCoin - 0x342124
+GameStatsManager::hasSecretCoin - 0x3409cc
 GameStatsManager::hasUserCoin - 0x342194
 GameStatsManager::incrementStat - 0x33c544
 GameStatsManager::incrementStat - 0x33c53c
@@ -1099,6 +1108,9 @@ GameStatsManager::isItemUnlocked - 0x33fda8
 GameStatsManager::isSpecialChestUnlocked - 0x345c7c
 GameStatsManager::recountSpecialStats - 0x344ecc
 GameStatsManager::setStat - 0x33c40c
+GameStatsManager::storePendingUserCoin - 0x342270
+GameStatsManager::storeSecretCoin - 0x3422dc
+GameStatsManager::storeUserCoin - 0x342204
 GameStatsManager::toggleEnableItem - 0x345e18
 GameStatsManager::unlockGauntletChest - 0x346404
 GameToolbox::addBackButton - 0x4abd0
@@ -1178,6 +1190,8 @@ GJBaseGameLayer::setupLevelStart - 0x1f0018
 GJBaseGameLayer::shakeCamera - 0x20df2c
 GJBaseGameLayer::shouldExitHackedLevel - 0x1e72fc
 GJBaseGameLayer::sortSectionVector - 0x1fe3fc
+GJBaseGameLayer::spawnParticle - 0x20eda0
+GJBaseGameLayer::spawnParticleTrigger - 0x1f3d68
 GJBaseGameLayer::stopCameraShake - 0x20dfb0
 GJBaseGameLayer::switchToFlyMode - 0x1f0570
 GJBaseGameLayer::syncBGTextures - 0x20c910
@@ -1213,6 +1227,7 @@ GJDifficultySprite::init - 0x2f6370
 GJDifficultySprite::updateDifficultyFrame - 0x2f64b4
 GJDifficultySprite::updateFeatureState - 0x2f662c
 GJDifficultySprite::updateFeatureStateFromLevel - 0x2f65f4
+GJEffectManager::hasActiveDualTouch - 0x15328
 GJEffectManager::playerDied - 0x155ac
 GJEffectManager::updateEffects - 0xf8d4
 GJGroundLayer::create - 0x32198
@@ -1223,6 +1238,7 @@ GJGameLevel::create - 0x95224
 GJGameLevel::areCoinsVerified - 0xb10f8
 GJGameLevel::dataLoaded - 0xaf82c
 GJGameLevel::getAudioFileName - 0xae6c0
+GJGameLevel::getCoinKey - 0xa60d4
 GJGameLevel::getNormalPercent - 0x95830
 GJGameLevel::handleStatsConflict - 0x9e3d8
 GJGameLevel::saveNewScore - 0xae84c
@@ -1254,6 +1270,10 @@ GJListLayer::create - 0x8325c
 GJListLayer::init - 0x83350
 GJMapPack::hasCompletedMapPack - 0xb1614
 GJMessagePopup::loadFromGJMessage - 0x2eb808
+GJMGLayer::create - 0x33014
+GJMGLayer::init - 0x330e4
+GJMGLayer::loadGroundSprites - 0x3344c
+GJMGLayer::updateGroundColor - 0x33608
 GJMoreGamesLayer::customSetup - 0x6bedc
 GJObjectDecoder::sharedDecoder - 0x227094
 GJPathPage::registerWithTouchDispatcher - 0x3c42dc
@@ -1568,6 +1588,7 @@ PlayerObject::deactivateParticle - 0x22ccec
 PlayerObject::deactivateStreak - 0x229b7c
 PlayerObject::disableSwingFire - 0x238034
 PlayerObject::doReversePlayer - 0x22d77c
+PlayerObject::enableCustomGlowColor - 0x23c404
 PlayerObject::fadeOutStreak2 - 0x237f98
 PlayerObject::flipGravity - 0x22e590
 PlayerObject::handleRotatedObjectCollision - 0x230788
@@ -1619,6 +1640,7 @@ PlayerObject::toggleRobotMode - 0x23b318
 PlayerObject::toggleRollMode - 0x23b028
 PlayerObject::toggleSpiderMode - 0x23b610
 PlayerObject::toggleSwingMode - 0x23a50c
+PlayerObject::updateCheckpointMode - 0x2299d4
 PlayerObject::updateCollide - 0x234208
 PlayerObject::updateDashArt - 0x23617c
 PlayerObject::updateEffects - 0x22dc24

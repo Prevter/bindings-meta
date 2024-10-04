@@ -3517,6 +3517,8 @@ PlayerObject::collidedWithObject - 0x38714c
 PlayerObject::collidedWithObject - 0x38c4ec
 PlayerObject::collidedWithObjectInternal - 0x388d80
 PlayerObject::copyAttributes - 0x3994b4
+PlayerObject::createRobot - 0x37dcd4
+PlayerObject::createSpider - 0x37e0ac
 PlayerObject::deactivateParticle - 0x3828c8
 PlayerObject::disablePlayerControls - 0x3987e8
 PlayerObject::disableSwingFire - 0x3924d4
