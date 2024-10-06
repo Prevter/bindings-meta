@@ -1869,6 +1869,7 @@ InfoLayer::FLAlert_Clicked - 0x2aadb0
 ItemInfoPopup::create - 0x269640
 ItemInfoPopup::init - 0x269730
 ItemInfoPopup::nameForUnlockType - 0x26b660
+ItemInfoPopup::onCredit - 0x26b630
 KeybindingsManager::sharedState - 0x2ae710
 KeyframeGameObject::setOpacity - 0x489250
 LabelGameObject::setOpacity - 0x487310

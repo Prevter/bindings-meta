@@ -3081,7 +3081,10 @@ InfoLayer::updateUserScoreFinished - 0x7bf170
 InfoLayer::FLAlert_Clicked - 0x7be5c0
 ItemInfoPopup::create - 0x3705b0
 ItemInfoPopup::init - 0x3731a0
+ItemInfoPopup::isUnlockedByDefault - 0x374900
 ItemInfoPopup::nameForUnlockType - 0x374620
+ItemInfoPopup::onClose - 0x3748d0
+ItemInfoPopup::onCredit - 0x374930
 ItemInfoPopup::keyBackClicked - 0x374960
 ItemTriggerGameObject::customSetup - 0x1ded80
 ItemTriggerGameObject::triggerObject - 0x1dedc0
