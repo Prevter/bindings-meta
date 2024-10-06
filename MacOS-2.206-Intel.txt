@@ -352,7 +352,11 @@ cocos2d::CCLayerRGBA::updateDisplayedColor - 0x4bbfb0
 cocos2d::CCLayerRGBA::isCascadeOpacityEnabled - 0x4bc1d0
 cocos2d::CCLayerRGBA::setCascadeOpacityEnabled - 0x4bc1f0
 cocos2d::CCLayerRGBA::updateDisplayedOpacity - 0x4bbe20
+cocos2d::CCMouseDispatcher::addDelegate - 0x5784c0
 cocos2d::CCMouseDispatcher::dispatchScrollMSG - 0x578540
+cocos2d::CCMouseDispatcher::forceAddDelegate - 0x578510
+cocos2d::CCMouseDispatcher::forceRemoveDelegate - 0x578430
+cocos2d::CCMouseDispatcher::removeDelegate - 0x578380
 cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x48a430
 cocos2d::CCTexture2D::PVRImagesHavePremultipliedAlpha - 0x483620
 cocos2d::CCTexture2D::defaultAlphaPixelFormat - 0x4837f0
@@ -722,6 +726,8 @@ cocos2d::CCString::getCString - 0x7b6cc0
 cocos2d::CCString::boolValue - 0x7b7080
 cocos2d::CCString::intValue - 0x7b6f90
 cocos2d::CCMenuItem::~CCMenuItem - 0x3c1fc0
+cocos2d::CCMenuItem::create - 0x3c1e10
+cocos2d::CCMenuItem::create - 0x3c1d50
 cocos2d::CCMenuItem::initWithTarget - 0x3c1ee0
 cocos2d::CCMenuItem::setTarget - 0x3c2210
 cocos2d::CCMenuItem::activate - 0x3c2120
