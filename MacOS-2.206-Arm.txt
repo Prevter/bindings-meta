@@ -657,6 +657,7 @@ cocos2d::CCDrawNode::listenBackToForeground - 0x540d20
 cocos2d::CCDrawNode::render - 0x53f414
 cocos2d::CCDrawNode::init - 0x53f2dc
 cocos2d::CCDrawNode::draw - 0x53f49c
+cocos2d::CCSpriteBatchNode::createWithTexture - 0x13b070
 cocos2d::CCSpriteBatchNode::initWithTexture - 0x13b124
 cocos2d::CCSpriteBatchNode::CCSpriteBatchNode - 0x13b3c8
 cocos2d::CCSpriteBatchNode::~CCSpriteBatchNode - 0x13b448
