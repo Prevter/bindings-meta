@@ -427,9 +427,11 @@ cocos2d::CCImage::~CCImage - 0x3f7ca8
 cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x425098
 cocos2d::CCIMEDelegate::attachWithIME - 0x425210
 cocos2d::CCIMEDelegate::detachWithIME - 0x425450
+cocos2d::CCIMEDispatcher::sharedDispatcher - 0x424f7c
 cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x425760
 cocos2d::CCIMEDispatcher::dispatchDeleteForward - 0x425780
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x425734
+cocos2d::CCIMEDispatcher::hasDelegate - 0x425720
 cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x1b0418
 cocos2d::CCKeyboardDispatcher::keyToString - 0x1b06d8
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x1b06c0
