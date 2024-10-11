@@ -2127,6 +2127,7 @@ GameLevelManager::resetStoredUserInfo - 0x4a3f74
 GameLevelManager::responseToDict - 0x48aeb8
 GameLevelManager::saveFetchedLevelLists - 0x48bca4
 GameLevelManager::saveFetchedLevels - 0x48b144
+GameLevelManager::saveLevel - 0x490844
 GameLevelManager::saveLevelList - 0x48bd08
 GameLevelManager::setBoolForKey - 0x4b0760
 GameLevelManager::setFolderName - 0x493740
