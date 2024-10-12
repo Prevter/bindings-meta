@@ -872,7 +872,7 @@ cocos2d::CCLightning::isCascadeOpacityEnabled - 0x5e7540
 cocos2d::CCLightning::setCascadeOpacityEnabled - 0x5e7560
 cocos2d::CCLightning::getColor - 0x5e7480
 cocos2d::CCLightning::getDisplayedColor - 0x5e7580
-cocos2d::CCLightning::setColor - 0x5e74a
+cocos2d::CCLightning::setColor - 0x5e74a0
 cocos2d::CCLightning::updateDisplayedColor - 0x5e75a0
 cocos2d::CCLightning::isCascadeColorEnabled - 0x5e75e0
 cocos2d::CCLightning::setCascadeColorEnabled - 0x5e7600
@@ -3603,9 +3603,12 @@ MessagesProfilePage::forceReloadMessages - 0x22b250
 MessagesProfilePage::setupPageInfo - 0x22b290
 MoreOptionsLayer::create - 0x7a73e0
 MoreOptionsLayer::addToggle - 0x7a8ca0
+MoreOptionsLayer::goToPage - 0x789860
 MoreOptionsLayer::onClose - 0x7a9780
 MoreOptionsLayer::onFMODDebug - 0x7a9480
 MoreOptionsLayer::onKeybindings - 0x7a9d10
+MoreOptionsLayer::onNextPage - 0x7a9840
+MoreOptionsLayer::onPrevPage - 0x7a9820
 MoreOptionsLayer::onSongBrowser - 0x7a9420
 MoreOptionsLayer::init - 0x7a79a0
 MoreOptionsLayer::keyBackClicked - 0x7aac00
