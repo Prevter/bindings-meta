@@ -2066,6 +2066,7 @@ FMODAudioEngine::fadeOutMusic - 0x3ef250
 FMODAudioEngine::getActiveMusicChannel - 0x3e5fd0
 FMODAudioEngine::getBackgroundMusicVolume - 0x3eba30
 FMODAudioEngine::getEffectsVolume - 0x3eba70
+FMODAudioEngine::getFMODStatus - 0x3ef5e0
 FMODAudioEngine::getMeteringValue - 0x3e7ec0
 FMODAudioEngine::isMusicPlaying - 0x3ebb90
 FMODAudioEngine::isMusicPlaying - 0x3ebaa0
@@ -3603,7 +3604,7 @@ MessagesProfilePage::forceReloadMessages - 0x22b250
 MessagesProfilePage::setupPageInfo - 0x22b290
 MoreOptionsLayer::create - 0x7a73e0
 MoreOptionsLayer::addToggle - 0x7a8ca0
-MoreOptionsLayer::goToPage - 0x789860
+MoreOptionsLayer::goToPage - 0x7a9860
 MoreOptionsLayer::onClose - 0x7a9780
 MoreOptionsLayer::onFMODDebug - 0x7a9480
 MoreOptionsLayer::onKeybindings - 0x7a9d10

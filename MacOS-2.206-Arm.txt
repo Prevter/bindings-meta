@@ -1968,6 +1968,7 @@ FMODAudioEngine::fadeOutMusic - 0x36bec0
 FMODAudioEngine::getActiveMusicChannel - 0x364ca8
 FMODAudioEngine::getBackgroundMusicVolume - 0x36927c
 FMODAudioEngine::getEffectsVolume - 0x36929c
+FMODAudioEngine::getFMODStatus - 0x36c1ac
 FMODAudioEngine::getMeteringValue - 0x366518
 FMODAudioEngine::isMusicPlaying - 0x369394
 FMODAudioEngine::isMusicPlaying - 0x3692b8
