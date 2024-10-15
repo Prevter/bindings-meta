@@ -2885,6 +2885,8 @@ SetupPulsePopup::textChanged - 0x410d50
 SetupPulsePopup::colorValueChanged - 0x410a90
 SetupPulsePopup::colorSelectClosed - 0x410320
 SetupRandTriggerPopup::textChanged - 0x4154e0
+SetupRotateCommandPopup::init - 0x295a60
+SetupRotateCommandPopup::updateControlVisibility - 0x296ec0
 SetupSFXPopup::create - 0x41ba10
 SetupSFXPopup::init - 0x41bb60
 SetupSFXPopup::onClose - 0x41cab0

@@ -1154,6 +1154,7 @@ GJActionManager::create - 0x30ef88
 GJBaseGameLayer::addPoints - 0x20bff8
 GJBaseGameLayer::canBeActivatedByPlayer - 0x1f3388
 GJBaseGameLayer::checkCollisions - 0x1f142c
+GJBaseGameLayer::checkRepellPlayer - 0x20a218
 GJBaseGameLayer::checkSpawnObjects - 0x1f6350
 GJBaseGameLayer::collectedObject - 0x205dcc
 GJBaseGameLayer::collisionCheckObjects - 0x1f2030
@@ -1466,6 +1467,7 @@ LoadingCircle::show - 0x3a3450
 LoadingCircle::init - 0x3a3394
 LoadingCircle::draw - 0x3a35f8
 LoadingCircle::registerWithTouchDispatcher - 0x3a3608
+LoadingCircleSprite::create - 0x3a3640
 LoadingCircleSprite::init - 0x3a36e0
 LoadingLayer::create - 0x1df9ac
 LoadingLayer::getLoadingString - 0x1e0130
