@@ -2544,7 +2544,6 @@ PlayLayer::createObjectsFromSetupFinished - 0x38a4f0
 PlayLayer::delayedResetLevel - 0x395700
 PlayLayer::fullReset - 0x395600
 PlayLayer::getCurrentPercent - 0x390520
-PlayLayer::getTempMilliTime - 0x3c070
 PlayLayer::init - 0x382890
 PlayLayer::levelComplete - 0x384850
 PlayLayer::loadFromCheckpoint - 0x394180

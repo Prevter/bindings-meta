@@ -105,6 +105,7 @@ cocos2d::CCParticleSystemQuad::updateQuadWithParticle - 0x60e2a0
 cocos2d::CCParticleSystemQuad::postStep - 0x60e5f0
 cocos2d::CCParticleSystemQuad::setTexture - 0x60e0f0
 cocos2d::CCProgressTimer::create - 0x60f290
+cocos2d::CCProgressTimer::setSprite - 0x60f580
 cocos2d::CCFadeIn::create - 0x3bde30
 cocos2d::CCFadeIn::copyWithZone - 0x3bded0
 cocos2d::CCFadeIn::reverse - 0x3be270
@@ -3924,6 +3925,9 @@ PlayLayer::canPauseGame - 0xbf610
 PlayLayer::createObjectsFromSetupFinished - 0xb7740
 PlayLayer::delayedResetLevel - 0xbb940
 PlayLayer::fullReset - 0xbee70
+PlayLayer::getCurrentPercent - 0xba680
+PlayLayer::getCurrentPercentInt - 0xbad90
+PlayLayer::getTempMilliTime - 0xaca90
 PlayLayer::incrementJumps - 0xbf5a0
 PlayLayer::init - 0xabc70
 PlayLayer::levelComplete - 0xb4290
