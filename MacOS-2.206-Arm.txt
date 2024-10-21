@@ -2184,6 +2184,7 @@ GameManager::reloadAll - 0x3166d4
 GameManager::reloadAllStep2 - 0x316774
 GameManager::reloadAllStep5 - 0x316948
 GameManager::reportAchievementWithID - 0x306c60
+GameManager::resolutionForKey - 0x316998
 GameManager::returnToLastScene - 0x316184
 GameManager::safePopScene - 0x31652c
 GameManager::setGameVariable - 0x30f154
@@ -3517,6 +3518,7 @@ PauseLayer::keyBackClicked - 0x35c734
 PauseLayer::keyDown - 0x35c658
 PauseLayer::customSetup - 0x35a888
 PauseLayer::FLAlert_Clicked - 0x35c5a8
+PlatformToolbox::getDisplaySize - 0x42d3ac
 PlatformToolbox::hideCursor - 0x42c87c
 PlatformToolbox::isControllerConnected - 0x42d470
 PlatformToolbox::isNetworkAvailable - 0x42c7f0

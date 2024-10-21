@@ -845,6 +845,7 @@ EditorPauseLayer::keyBackClicked - 0xdac80
 EditorPauseLayer::keyDown - 0xdac90
 EditorPauseLayer::customSetup - 0xd6d50
 EditorPauseLayer::FLAlert_Clicked - 0xdab60
+EditorUI::EditorUI - 0xdb070
 EditorUI::activateRotationControl - 0x11efb0
 EditorUI::activateScaleControl - 0x110e10
 EditorUI::activateTransformControl - 0x111460
@@ -1949,6 +1950,7 @@ LevelCell::onViewProfile - 0xaf700
 LevelCell::updateCellMode - 0xaf250
 LevelCell::init - 0xabf10
 LevelCell::draw - 0xaf740
+LevelEditorLayer::LevelEditorLayer - 0x2bd440
 LevelEditorLayer::create - 0x2be3b0
 LevelEditorLayer::addSpecial - 0x2c4120
 LevelEditorLayer::createObject - 0x2c0d10
