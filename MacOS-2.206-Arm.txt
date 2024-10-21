@@ -4166,6 +4166,15 @@ ShardsPage::init - 0x42df74
 ShardsPage::registerWithTouchDispatcher - 0x42fcc8
 ShardsPage::keyBackClicked - 0x42fc4c
 ShardsPage::show - 0x42fac4
+ShareCommentLayer::create - 0x511c2c
+ShareCommentLayer::init - 0x511f08
+ShareCommentLayer::onClear - 0x51317c
+ShareCommentLayer::onClose - 0x513234
+ShareCommentLayer::onPercent - 0x512fe4
+ShareCommentLayer::onShare - 0x513288
+ShareCommentLayer::updateCharCountLabel - 0x513b98
+ShareCommentLayer::updateDescText - 0x5137a0
+ShareCommentLayer::updatePercentLabel - 0x5130b4
 ShareCommentLayer::registerWithTouchDispatcher - 0x513870
 ShareCommentLayer::keyBackClicked - 0x5137c8
 ShareCommentLayer::textInputClosed - 0x5138a8

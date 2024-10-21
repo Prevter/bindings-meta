@@ -1242,6 +1242,7 @@ GameManager::reloadAllStep4 - 0x180b10
 GameManager::reloadAllStep5 - 0x180ba0
 GameManager::reportAchievementWithID - 0x175280
 GameManager::reportPercentageForLevel - 0x1748a0
+GameManager::resolutionForKey - 0x180be0
 GameManager::returnToLastScene - 0x180350
 GameManager::safePopScene - 0x180700
 GameManager::setGameVariable - 0x179e80
@@ -2424,6 +2425,7 @@ PauseLayer::keyBackClicked - 0x35cf90
 PauseLayer::keyDown - 0x35cec0
 PauseLayer::customSetup - 0x35abc0
 PauseLayer::FLAlert_Clicked - 0x35cd20
+PlatformToolbox::getDisplaySize - 0x770e0
 PlayerCheckpoint::create - 0x3979a0
 PlayerFireBoostSprite::create - 0x380cd0
 PlayerFireBoostSprite::loopFireAnimation - 0x380dd0
@@ -2930,7 +2932,13 @@ ShardsPage::keyBackClicked - 0x82ff0
 ShardsPage::show - 0x84fb0
 ShareCommentLayer::create - 0x460fe0
 ShareCommentLayer::init - 0x4611f0
+ShareCommentLayer::onClear - 0x4622d0
+ShareCommentLayer::onClose - 0x4627e0
+ShareCommentLayer::onPercent - 0x462340
 ShareCommentLayer::onShare - 0x462440
+ShareCommentLayer::updateDescText - 0x462ad0
+ShareCommentLayer::updatePercentLabel - 0x462360
+ShareCommentLayer::registerWithTouchDispatcher - 0x41750
 ShareCommentLayer::keyBackClicked - 0x462820
 ShareCommentLayer::textInputClosed - 0x462870
 ShareCommentLayer::textChanged - 0x4629b0
