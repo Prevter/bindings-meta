@@ -1722,11 +1722,13 @@ GJRequestCell::loadFromScore - 0xb99d0
 GJRequestCell::FLAlert_Clicked - 0xba580
 GJRequestCell::uploadActionFinished - 0xba730
 GJRequestCell::uploadActionFailed - 0xba910
+GJRewardItem::create - 0x1e7260
 GJRewardItem::create - 0x1e75a0
 GJRewardItem::createSpecial - 0x1e73b0
 GJRewardItem::createWithObject - 0x1e72a0
 GJRewardItem::createWithObjects - 0x1e7330
 GJRewardItem::init - 0x1e7670
+GJRewardItem::rewardItemToStat - 0x1e78d0
 GJRewardItem::encodeWithCoder - 0x1e7b00
 GJRewardObject::create - 0x1e7160
 GJRewardObject::createItemUnlock - 0x1e70f0
