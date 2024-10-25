@@ -3566,6 +3566,7 @@ PlayerObject::copyAttributes - 0x3994b4
 PlayerObject::createRobot - 0x37dcd4
 PlayerObject::createSpider - 0x37e0ac
 PlayerObject::deactivateParticle - 0x3828c8
+PlayerObject::deactivateStreak - 0x37eab0
 PlayerObject::disablePlayerControls - 0x3987e8
 PlayerObject::disableSwingFire - 0x3924d4
 PlayerObject::doReversePlayer - 0x383584
