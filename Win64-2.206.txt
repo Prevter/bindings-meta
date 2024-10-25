@@ -1023,6 +1023,7 @@ EndLevelLayer::customSetup - 0x12edf0
 EndLevelLayer::showLayer - 0x130b60
 EndPortalObject::getSpawnPos - 0x134050
 EndPortalObject::updateEndPos - 0x1342c0
+EndTriggerGameObject::triggerObject - 0x490510
 ExtendedLayer::init - 0x3de10
 ExtendedLayer::setPosition - 0x3de30
 GManager::loadDataFromFile - 0x69610
