@@ -598,6 +598,10 @@ cocos2d::CCLabelBMFont::updateDisplayedOpacity - 0x5e2910
 cocos2d::CCActionManager::addAction - 0x22f4d0
 cocos2d::CCActionManager::pauseTarget - 0x22f210
 cocos2d::CCActionManager::resumeTarget - 0x22f2f0
+cocos2d::CCAnimate::create - 0x3bf2f0
+cocos2d::CCAnimation::create - 0x2929e0
+cocos2d::CCAnimation::create - 0x2926b0
+cocos2d::CCAnimation::createWithSpriteFrames - 0x2927e0
 cocos2d::CCApplication::sharedApplication - 0x328170
 cocos2d::CCApplication::openURL - 0x328f80
 cocos2d::CCArray::init - 0x72cac0
