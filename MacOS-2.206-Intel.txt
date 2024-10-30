@@ -4572,7 +4572,17 @@ ShareListLayer::onUnlisted - 0x3646c0
 ShareListLayer::updateUnlistedF - 0x3647c0
 ShareListLayer::keyBackClicked - 0x3649d0
 SimplePlayer::create - 0x36c360
+SimplePlayer::asyncLoadIcon - 0x371f90
+SimplePlayer::createRobotSprite - 0x36c420
 SimplePlayer::createSpiderSprite - 0x36c480
+SimplePlayer::disableCustomGlowColor - 0x370560
+SimplePlayer::enableCustomGlowColor - 0x370530
+SimplePlayer::hideAll - 0x3720a0
+SimplePlayer::hideSecondary - 0x372230
+SimplePlayer::iconFinishedLoading - 0x372150
+SimplePlayer::init - 0x371780
+SimplePlayer::setColors - 0x3704f0
+SimplePlayer::setFrames - 0x3722e0
 SimplePlayer::setSecondColor - 0x372200
 SimplePlayer::updateColors - 0x36ffb0
 SimplePlayer::updatePlayerFrame - 0x36c630
