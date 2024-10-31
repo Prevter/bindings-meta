@@ -942,9 +942,12 @@ TableViewCell::TableViewCell - 0x553cfc
 AchievementCell::init - 0x1f47b0
 AchievementCell::draw - 0x1f481c
 AchievementManager::sharedState - 0x64a8e4
+AchievementManager::achievementForUnlock - 0x6979a0
 AchievementManager::dataLoaded - 0x697460
 AchievementManager::encodeDataTo - 0x6974cc
+AchievementManager::getAchievementsWithID - 0x697738
 AchievementManager::isAchievementEarned - 0x697604
+AchievementManager::limitForAchievement - 0x6978d8
 AchievementManager::percentForAchievement - 0x697620
 AchievementManager::init - 0x64a9d4
 AchievementNotifier::sharedState - 0x6d44fc
@@ -2198,6 +2201,7 @@ GameManager::sheetNameForIcon - 0x30cad8
 GameManager::stringForCustomObject - 0x30fdcc
 GameManager::toggleGameVariable - 0x30f3c8
 GameManager::unloadIcon - 0x30dc24
+GameManager::unlockTypeToIconType - 0x304fcc
 GameManager::verifyAchievementUnlocks - 0x306e90
 GameManager::verifyCoinUnlocks - 0x307098
 GameManager::update - 0x315d5c
@@ -2243,6 +2247,7 @@ GameStatsManager::getItemKey - 0x5a2d4
 GameStatsManager::getItemUnlockState - 0x6ad24
 GameStatsManager::getLevelKey - 0x60dcc
 GameStatsManager::getQueuedChallenge - 0x66eb0
+GameStatsManager::getSpecialUnlockDescription - 0x6b8bc
 GameStatsManager::getStat - 0x5aa1c
 GameStatsManager::getTotalCollectedCurrency - 0x68130
 GameStatsManager::getTotalCollectedDiamonds - 0x68cf4

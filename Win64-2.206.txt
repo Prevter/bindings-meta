@@ -92,6 +92,7 @@ AchievementManager::sharedState - 0x7d50
 AchievementManager::achievementForUnlock - 0x39390
 AchievementManager::addAchievement - 0x7ea0
 AchievementManager::addManualAchievements - 0x83c0
+AchievementManager::getAchievementsWithID - 0x38f40
 AchievementManager::getAllAchievementsSorted - 0x38d20
 AchievementManager::isAchievementEarned - 0x38c40
 AchievementManager::percentForAchievement - 0x38c60

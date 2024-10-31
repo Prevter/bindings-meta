@@ -955,6 +955,7 @@ AchievementManager::sharedState - 0x738f50
 AchievementManager::achievementForUnlock - 0x790e10
 AchievementManager::dataLoaded - 0x7908f0
 AchievementManager::encodeDataTo - 0x790960
+AchievementManager::getAchievementsWithID - 0x790c10
 AchievementManager::isAchievementEarned - 0x790ad0
 AchievementManager::limitForAchievement - 0x790d70
 AchievementManager::percentForAchievement - 0x790af0
@@ -2382,6 +2383,7 @@ GameStatsManager::getItemKey - 0x65010
 GameStatsManager::getItemUnlockState - 0x78400
 GameStatsManager::getLevelKey - 0x6ceb0
 GameStatsManager::getQueuedChallenge - 0x73d90
+GameStatsManager::getSpecialUnlockDescription - 0x78f50
 GameStatsManager::getStat - 0x657a0
 GameStatsManager::getTotalCollectedCurrency - 0x750a0
 GameStatsManager::getTotalCollectedDiamonds - 0x75d50
