@@ -606,6 +606,10 @@ cocos2d::CCRenderTexture::create - 0x526bbc
 cocos2d::CCRenderTexture::initWithWidthAndHeight - 0x526ca4
 cocos2d::CCRenderTexture::CCRenderTexture - 0x5268fc
 cocos2d::CCRenderTexture::begin - 0x5270d8
+cocos2d::CCRenderTexture::beginWithClear - 0x527364
+cocos2d::CCRenderTexture::beginWithClear - 0x5272c4
+cocos2d::CCRenderTexture::beginWithClear - 0x5274ac
+cocos2d::CCRenderTexture::beginWithClear - 0x52757c
 cocos2d::CCRenderTexture::end - 0x527584
 cocos2d::CCRenderTexture::newCCImage - 0x527a30
 cocos2d::CCRenderTexture::draw - 0x527814
