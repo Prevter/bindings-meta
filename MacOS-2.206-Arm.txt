@@ -635,6 +635,7 @@ cocos2d::CCTransitionScene::sceneOrder - 0xbfae4
 cocos2d::CCBlink::create - 0x341884
 cocos2d::CCCallFunc::create - 0x6bf45c
 cocos2d::CCCallFuncN::create - 0x6bf8a4
+cocos2d::CCCallFuncO::create - 0x6bfe6c
 cocos2d::CCClippingNode::create - 0x63f068
 cocos2d::CCClippingNode::create - 0x63f0f0
 cocos2d::CCClippingNode::init - 0x63f190

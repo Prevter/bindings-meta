@@ -658,6 +658,7 @@ cocos2d::CCTransitionScene::sceneOrder - 0xd88e0
 cocos2d::CCBlink::create - 0x3bda90
 cocos2d::CCCallFunc::create - 0x7b8f10
 cocos2d::CCCallFuncN::create - 0x7b9320
+cocos2d::CCCallFuncO::create - 0x7b99e0
 cocos2d::CCClippingNode::create - 0x72c380
 cocos2d::CCClippingNode::create - 0x72c410
 cocos2d::CCClippingNode::init - 0x72c4c0
@@ -1895,7 +1896,7 @@ EditorUI::alignObjects - 0x4e220
 EditorUI::assignNewGroups - 0x45d40
 EditorUI::clickOnPosition - 0x2dda0
 EditorUI::constrainGameLayerPosition - 0x2ae30
-EditorUI::copyObjects - 0x385ed0
+EditorUI::copyObjects - 0x31080
 EditorUI::createCustomItems - 0x31990
 EditorUI::createMoveMenu - 0x468a0
 EditorUI::createRockBases - 0x620050
