@@ -2604,6 +2604,7 @@ GJBaseGameLayer::updateAudioVisualizer - 0x1485d0
 GJBaseGameLayer::updateBGArtSpeed - 0x14de70
 GJBaseGameLayer::updateCamera - 0x148c00
 GJBaseGameLayer::updateCameraBGArt - 0x14fae0
+GJBaseGameLayer::updateCameraMode - 0x1189b0
 GJBaseGameLayer::updateCameraOffsetX - 0x144270
 GJBaseGameLayer::updateCameraOffsetY - 0x144370
 GJBaseGameLayer::updateDualGround - 0x118660

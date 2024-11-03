@@ -2420,6 +2420,7 @@ GJBaseGameLayer::tryGetMainObject - 0xfabe4
 GJBaseGameLayer::updateAudioVisualizer - 0x11b5b8
 GJBaseGameLayer::updateBGArtSpeed - 0x11fb38
 GJBaseGameLayer::updateCamera - 0x11bb40
+GJBaseGameLayer::updateCameraMode - 0xf5a04
 GJBaseGameLayer::updateCameraOffsetX - 0x118618
 GJBaseGameLayer::updateCameraOffsetY - 0x1186ec
 GJBaseGameLayer::updateDualGround - 0xf568c
