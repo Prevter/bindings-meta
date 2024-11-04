@@ -118,8 +118,14 @@ cocos2d::CCFileUtils::getWritablePath2 - 0x446e30
 cocos2d::CCFileUtils::isAbsolutePath - 0x446d70
 cocos2d::CCFileUtils::setPopupNotify - 0x446d90
 cocos2d::CCFileUtils::sharedFileUtils - 0x616a20
+cocos2d::CCGLProgram::initWithVertexShaderByteArray - 0x4345d0
 cocos2d::CCGLProgram::setUniformsForBuiltins - 0x435940
+cocos2d::CCGLProgram::~CCGLProgram - 0x4345a0
+cocos2d::CCGLProgram::CCGLProgram - 0x434400
+cocos2d::CCGLProgram::addAttribute - 0x434850
+cocos2d::CCGLProgram::link - 0x4349c0
 cocos2d::CCGLProgram::reset - 0x435c70
+cocos2d::CCGLProgram::updateUniforms - 0x434870
 cocos2d::CCGLProgram::use - 0x434970
 cocos2d::CCNode::create - 0x26ee60
 cocos2d::CCNode::CCNode - 0x26e330
@@ -1439,6 +1445,7 @@ CharacterColorPage::create - 0x669c10
 CharacterColorPage::colorForIndex - 0x66b7a0
 CharacterColorPage::createColorMenu - 0x66ae50
 CharacterColorPage::offsetForIndex - 0x66ba10
+CharacterColorPage::onClose - 0x66aa00
 CharacterColorPage::onMode - 0x66ab00
 CharacterColorPage::onPlayerColor - 0x66b7c0
 CharacterColorPage::toggleGlow - 0x66b220

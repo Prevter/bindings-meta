@@ -1406,6 +1406,7 @@ ChallengeNode::create - 0x328294
 ChallengeNode::init - 0x328808
 CharacterColorPage::create - 0x585908
 CharacterColorPage::createColorMenu - 0x586a8c
+CharacterColorPage::onClose - 0x586624
 CharacterColorPage::onMode - 0x586740
 CharacterColorPage::onPlayerColor - 0x5873e4
 CharacterColorPage::toggleGlow - 0x586e64
