@@ -102,7 +102,9 @@ cocos2d::CCParticleSystemQuad::updateQuadWithParticle - 0x533618
 cocos2d::CCParticleSystemQuad::postStep - 0x5338f0
 cocos2d::CCParticleSystemQuad::setTexture - 0x533430
 cocos2d::CCProgressTimer::create - 0x533fc4
+cocos2d::CCProgressTimer::setPercentage - 0x5341dc
 cocos2d::CCProgressTimer::setSprite - 0x53424c
+cocos2d::CCProgressTimer::setType - 0x5343e8
 cocos2d::CCFadeIn::create - 0x341bc8
 cocos2d::CCFadeIn::copyWithZone - 0x341c54
 cocos2d::CCFadeIn::reverse - 0x341fcc
@@ -1994,12 +1996,14 @@ FMODAudioEngine::playEffect - 0x366c7c
 FMODAudioEngine::playEffectAdvanced - 0x364de4
 FMODAudioEngine::playMusic - 0x3697a8
 FMODAudioEngine::preloadEffect - 0x3616a4
+FMODAudioEngine::queueStartMusic - 0x36a304
 FMODAudioEngine::resumeAllAudio - 0x362064
 FMODAudioEngine::resumeAllEffects - 0x368fcc
 FMODAudioEngine::resumeAllMusic - 0x369340
 FMODAudioEngine::resumeAudio - 0x361edc
 FMODAudioEngine::setBackgroundMusicVolume - 0x369284
 FMODAudioEngine::setEffectsVolume - 0x3692a4
+FMODAudioEngine::setMusicTimeMS - 0x365984
 FMODAudioEngine::setup - 0x36103c
 FMODAudioEngine::stopAllEffects - 0x362154
 FMODAudioEngine::stopAllMusic - 0x362440
@@ -3246,6 +3250,7 @@ LevelSettingsObject::objectFromString - 0xc9300
 LevelSettingsObject::setupColorsFromLegacyMode - 0xded64
 LevelSettingsObject::shouldUseYSection - 0xdd78c
 LevelSettingsObject::init - 0xdd638
+LevelTools::getAudioFileName - 0x4605c4
 LevelTools::getAudioTitle - 0x45fe8c
 LevelTools::getSongObject - 0x463120
 LevelTools::verifyLevelIntegrity - 0x46365c
@@ -3465,6 +3470,7 @@ MusicBrowser::getSelectedCellIdx - 0x53e29c
 MusicBrowser::FLAlert_Clicked - 0x53e47c
 MusicDownloadManager::sharedState - 0x4da8a4
 MusicDownloadManager::addDLToActive - 0x4dff40
+MusicDownloadManager::clearSong - 0x4df1b8
 MusicDownloadManager::createSongsInfo - 0x4ddb10
 MusicDownloadManager::dataLoaded - 0x4e0c34
 MusicDownloadManager::deleteSong - 0x4df158
