@@ -2770,6 +2770,7 @@ SetTextPopup::textInputClosed - 0x89f80
 SetTextPopup::textChanged - 0x28b700
 SecretLayer::onBack - 0x3bc630
 SecretLayer::onSubmit - 0x3b85c0
+SecretLayer::init - 0x3b7280
 SecretLayer::keyBackClicked - 0x3bc6d0
 SecretLayer::textInputOpened - 0x3b9fd0
 SecretLayer::textInputClosed - 0x3ba120
