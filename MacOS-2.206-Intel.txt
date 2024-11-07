@@ -974,6 +974,7 @@ AchievementManager::limitForAchievement - 0x790d70
 AchievementManager::percentForAchievement - 0x790af0
 AchievementManager::init - 0x739060
 AchievementNotifier::sharedState - 0x7cf810
+AchievementNotifier::notifyAchievement - 0x7cf8d0
 AchievementNotifier::willSwitchToScene - 0x7cfa80
 AchievementNotifier::init - 0x7cf8a0
 AchievementsLayer::keyDown - 0x375020
@@ -2747,6 +2748,7 @@ GJGameLevel::dataLoaded - 0x564a60
 GJGameLevel::demonIconForDifficulty - 0x566800
 GJGameLevel::getAudioFileName - 0x562f90
 GJGameLevel::getAverageDifficulty - 0x562d50
+GJGameLevel::getCoinKey - 0x5539f0
 GJGameLevel::getLengthKey - 0x562c70
 GJGameLevel::getUnpackedLevelDescription - 0x566710
 GJGameLevel::handleStatsConflict - 0x543750
@@ -3727,6 +3729,21 @@ MultilineBitmapFont::stringWithMaxWidth - 0x491aa0
 MultilineBitmapFont::setOpacity - 0x4920d0
 MultiplayerLayer::init - 0x39de70
 MultiplayerLayer::keyBackClicked - 0x39df60
+MusicBrowser::create - 0x618d70
+MusicBrowser::init - 0x618f60
+MusicBrowser::onArtistFilters - 0x619ea0
+MusicBrowser::onClearSearch - 0x619de0
+MusicBrowser::onClose - 0x619b20
+MusicBrowser::onPage - 0x619bb0
+MusicBrowser::onPlaybackControl - 0x61a360
+MusicBrowser::onSearch - 0x619cb0
+MusicBrowser::onTagFilters - 0x619e40
+MusicBrowser::onUpdateLibrary - 0x619c40
+MusicBrowser::setupList - 0x61a500
+MusicBrowser::setupSongControls - 0x619f10
+MusicBrowser::sliderChanged - 0x61a350
+MusicBrowser::trySetupMusicBrowser - 0x61a420
+MusicBrowser::updatePageLabel - 0x61ada0
 MusicBrowser::update - 0x61a210
 MusicBrowser::registerWithTouchDispatcher - 0x61b300
 MusicBrowser::keyBackClicked - 0x61b1d0
