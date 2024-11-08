@@ -1851,8 +1851,10 @@ EditorUI::constrainGameLayerPosition - 0x2bc50
 EditorUI::copyObjects - 0x3143c
 EditorUI::createCustomItems - 0x31cb4
 EditorUI::createMoveMenu - 0x40df0
+EditorUI::deselectAll - 0x33340
 EditorUI::editGroup - 0x2cf3c
 EditorUI::getCreateBtn - 0x33d6c
+EditorUI::getSelectedObjects - 0x3889c
 EditorUI::getSpriteButton - 0xe104
 EditorUI::init - 0xb790
 EditorUI::menuItemFromObjectString - 0x3201c
@@ -1860,6 +1862,8 @@ EditorUI::moveForCommand - 0x44338
 EditorUI::moveGamelayer - 0x2fba8
 EditorUI::moveObjectCall - 0x43740
 EditorUI::moveObjectCall - 0x444f4
+EditorUI::onDeselectAll - 0x2cee4
+EditorUI::onDuplicate - 0x2bf10
 EditorUI::onLockLayer - 0x2d26c
 EditorUI::onNewCustomItem - 0x30f28
 EditorUI::onPause - 0x2ba08
@@ -3680,6 +3684,7 @@ PlayerObject::toggleRobotMode - 0x396af0
 PlayerObject::toggleRollMode - 0x396724
 PlayerObject::toggleSpiderMode - 0x396f64
 PlayerObject::toggleSwingMode - 0x395760
+PlayerObject::tryPlaceCheckpoint - 0x383ebc
 PlayerObject::updateCollide - 0x38bb70
 PlayerObject::updateEffects - 0x383d54
 PlayerObject::updateGlowColor - 0x397f58
@@ -3877,6 +3882,7 @@ RateStarsLayer::keyBackClicked - 0x22c93c
 RateStarsLayer::uploadActionFinished - 0x22c5b0
 RateStarsLayer::uploadActionFailed - 0x22c6f0
 RateStarsLayer::onClosePopup - 0x22c850
+RetryLevelLayer::create - 0x45ab4c
 RetryLevelLayer::keyBackClicked - 0x45c108
 RetryLevelLayer::keyDown - 0x45c05c
 RetryLevelLayer::customSetup - 0x45af98

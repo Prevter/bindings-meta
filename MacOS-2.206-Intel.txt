@@ -1942,6 +1942,8 @@ EditorUI::onCreate - 0x2e3f0
 EditorUI::onCreateObject - 0x35000
 EditorUI::onDelete - 0x2df40
 EditorUI::onDeleteSelectedType - 0x32090
+EditorUI::onDeselectAll - 0x2c730
+EditorUI::onDuplicate - 0x2b140
 EditorUI::onLockLayer - 0x2cb20
 EditorUI::onNewCustomItem - 0x30b10
 EditorUI::onPause - 0x2abd0
@@ -3965,6 +3967,7 @@ PlayerObject::toggleRollMode - 0x421930
 PlayerObject::toggleSpiderMode - 0x4221b0
 PlayerObject::toggleSwingMode - 0x420890
 PlayerObject::touchedObject - 0x425980
+PlayerObject::tryPlaceCheckpoint - 0x40bf00
 PlayerObject::updateCollide - 0x415900
 PlayerObject::updateDashArt - 0x41a140
 PlayerObject::updateEffects - 0x40bd80
@@ -4170,6 +4173,7 @@ RateStarsLayer::keyBackClicked - 0x2886f0
 RateStarsLayer::uploadActionFinished - 0x2883b0
 RateStarsLayer::uploadActionFailed - 0x2884a0
 RateStarsLayer::onClosePopup - 0x288610
+RetryLevelLayer::create - 0x502b80
 RetryLevelLayer::keyBackClicked - 0x504350
 RetryLevelLayer::keyDown - 0x504280
 RetryLevelLayer::customSetup - 0x503110
