@@ -1404,6 +1404,7 @@ GJBaseGameLayer::activateSongEditTrigger - 0x230f50
 GJBaseGameLayer::activateSongTrigger - 0x2306d0
 GJBaseGameLayer::addToGroups - 0x214730
 GJBaseGameLayer::animateInDualGroundNew - 0x203ed0
+GJBaseGameLayer::applyRemap - 0x20b960
 GJBaseGameLayer::assignNewStickyGroups - 0x215530
 GJBaseGameLayer::bumpPlayer - 0x208260
 GJBaseGameLayer::canBeActivatedByPlayer - 0x208150
@@ -3092,6 +3093,8 @@ SongSelectNode::getActiveSongID - 0xc52b0
 SongSelectNode::getSongFileName - 0xc52c0
 SongSelectNode::getLevelSettings - 0xc5380
 SongsLayer::customSetup - 0x468670
+SpawnTriggerGameObject::updateRemapKeys - 0x48c900
+SpawnTriggerGameObject::triggerObject - 0x48ca10
 SpriteAnimationManager::overridePrio - 0x72f30
 StarInfoPopup::create - 0x3a42a0
 StarInfoPopup::createFromString - 0x3a3d10
