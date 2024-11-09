@@ -53,6 +53,8 @@ jobs:
           - { platform: Win64, version: "2.206" }
           - { platform: MacOS, version: "2.206" }
           - { platform: iOS, version: "2.206", repo: "geode-catgirls/bindings" }
+          - { platform: Win64, version: "2.207" }
+          - { platform: MacOS, version: "2.207" }
           
     needs: check
     if: needs.check.outputs.has_new_commits == 'true'

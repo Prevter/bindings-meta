@@ -1,12 +1,12 @@
 ---
-const GD_VERSION = "2.206";
+const GD_VERSION = "2.207";
 const PATH = `./public/CodegenData-${GD_VERSION}.json`;
 const PATH_IOS = `./public/CodegenData-geode-catgirls-bindings-${GD_VERSION}.json`;
 
 import StatsCard from "./StatsCard.astro";
 
 const CodegenData = JSON.parse(fs.readFileSync(PATH, "utf-8"));
-const CodegenDataIOS = JSON.parse(fs.readFileSync(PATH_IOS, "utf-8"));
+const CodegenDataIOS = JSON.parse(fs.readFileSync(PATH_IOS, "utf-8")) || { classes: [] };
 function getTotalFunctions() {
     let total = 0;
     CodegenData.classes.forEach((cls) => {
