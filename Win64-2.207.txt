@@ -191,6 +191,7 @@ AnimatedGameObject::displayFrameChanged - 0x48c6b0
 CCAnimatedSprite::CCAnimatedSprite - 0x3feb0
 CCAnimatedSprite::initWithType - 0x3ffc0
 CCAnimatedSprite::loadType - 0x401e0
+CCAnimatedSprite::runAnimation - 0x40c80
 CCAnimatedSprite::switchToMode - 0x40b10
 CCAnimatedSprite::tweenToAnimation - 0x40cf0
 CCAnimatedSprite::tweenToAnimationFinished - 0x40fc0
@@ -1053,6 +1054,7 @@ GameManager::loadGround - 0x17fc10
 GameManager::loadIcon - 0x17ecd0
 GameManager::loadMiddleground - 0x17f9c0
 GameManager::playMenuMusic - 0x1787f0
+GameManager::reloadAllStep2 - 0x1872b0
 GameManager::reloadAllStep5 - 0x1875c0
 GameManager::reportAchievementWithID - 0x17afb0
 GameManager::reportPercentageForLevel - 0x17a5d0
@@ -2163,6 +2165,7 @@ PlayerObject::flipGravity - 0x3840c0
 PlayerObject::handleRotatedCollisionInternal - 0x378fb0
 PlayerObject::hitGround - 0x385e20
 PlayerObject::incrementJumps - 0x376ab0
+PlayerObject::init - 0x3706a0
 PlayerObject::levelFlipFinished - 0x375680
 PlayerObject::loadFromCheckpoint - 0x38b8b0
 PlayerObject::lockPlayer - 0x3891c0
@@ -2224,6 +2227,7 @@ PlayerObject::updatePlayerBirdFrame - 0x3881d0
 PlayerObject::updatePlayerDartFrame - 0x3888d0
 PlayerObject::updatePlayerFrame - 0x387b40
 PlayerObject::updatePlayerGlow - 0x38a190
+PlayerObject::updatePlayerJetpackFrame - 0x387fa0
 PlayerObject::updatePlayerRollFrame - 0x388470
 PlayerObject::updatePlayerScale - 0x38a110
 PlayerObject::updatePlayerShipFrame - 0x387d70
