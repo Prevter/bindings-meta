@@ -1699,6 +1699,8 @@ ItemInfoPopup::nameForUnlockType - 0x275dd0
 ItemInfoPopup::onCredit - 0x275da0
 ItemTriggerGameObject::triggerObject - 0x4a7060
 ItemTriggerGameObject::getSaveString - 0x4a71c0
+KeybindingsLayer::create - 0x2b80b0
+KeybindingsLayer::init - 0x2b81a0
 KeyframeGameObject::setOpacity - 0x49ca60
 LabelGameObject::updateLabel - 0x49adc0
 LabelGameObject::updatePreviewLabel - 0x49ac00
@@ -2106,6 +2108,7 @@ MoreOptionsLayer::addToggle - 0x35ecf0
 MoreOptionsLayer::goToPage - 0x35f770
 MoreOptionsLayer::onClose - 0x360a10
 MoreOptionsLayer::onFMODDebug - 0x360580
+MoreOptionsLayer::onKeybindings - 0xdba40
 MoreOptionsLayer::onToggle - 0x35fd10
 MoreOptionsLayer::init - 0x35d900
 MoreOptionsLayer::keyBackClicked - 0x360b70
