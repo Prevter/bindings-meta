@@ -119,6 +119,8 @@ GameObject::slopeYPos - 0x19e310
 GameObject::updateIsOriented - 0x19e690
 GameObject::updateObjectEditorColor - 0x19e250
 GameObject::setScaleX - 0x1951b0
+GameObject::setScaleY - 0x195290
+GameObject::setScale - 0x195380
 GameObject::setPosition - 0x194ac0
 GameObject::setVisible - 0x195bb0
 GameObject::setRotation - 0x194d60
@@ -146,6 +148,8 @@ GameObject::updateStartValues - 0x18d880
 GameObject::getSaveString - 0x19bc30
 GameObject::claimParticle - 0x195cd0
 GameObject::unclaimParticle - 0x196200
+GameObject::isFlipX - 0x195100
+GameObject::isFlipY - 0x195110
 GameObject::setRScaleX - 0x195470
 GameObject::setRScaleY - 0x1954b0
 GameObject::setRScale - 0x1954f0
@@ -313,6 +317,7 @@ CCSpriteWithHue::initWithTexture - 0x48590
 CCSpriteWithHue::initWithSpriteFrame - 0x48660
 CCSpriteWithHue::getShaderName - 0x48400
 CCSpriteWithHue::updateColor - 0x48910
+CCSpriteGrayscale::createWithSpriteFrameName - 0x49020
 CCSpriteGrayscale::getShaderName - 0x48fc0
 CCSpritePart::setVisible - 0x46a30
 CCTextInputNode::create - 0x4f0f0
@@ -350,6 +355,7 @@ CharacterColorPage::createColorMenu - 0x88e50
 CharacterColorPage::onClose - 0x8a760
 CharacterColorPage::onMode - 0x89550
 CharacterColorPage::onPlayerColor - 0x89d60
+CharacterColorPage::toggleGlow - 0x88da0
 CharacterColorPage::toggleShip - 0x88c80
 CharacterColorPage::updateIconColors - 0x8a540
 CharacterColorPage::init - 0x87f30
@@ -2027,6 +2033,7 @@ LoadingCircle::show - 0x6ba20
 LoadingCircle::init - 0x6b940
 LoadingCircle::draw - 0x6bbc0
 LoadingCircle::registerWithTouchDispatcher - 0x6bbe0
+LoadingCircleSprite::create - 0x6bc30
 LoadingLayer::getLoadingString - 0x31a810
 LoadingLayer::init - 0x3194e0
 LoadingLayer::loadAssets - 0x319d80
@@ -2211,6 +2218,7 @@ PauseLayer::onEdit - 0x3686c0
 PauseLayer::onNormalMode - 0x368410
 PauseLayer::onPracticeMode - 0x368330
 PauseLayer::onQuit - 0x368d30
+PauseLayer::onRestart - 0x368580
 PauseLayer::onRestartFull - 0x368620
 PauseLayer::onResume - 0x3684f0
 PauseLayer::onSettings - 0x3676b0
@@ -2353,6 +2361,7 @@ PlayLayer::removeCheckpoint - 0x3a0ed0
 PlayLayer::resetLevel - 0x3a1e70
 PlayLayer::resetLevelFromStart - 0x3a1cd0
 PlayLayer::resume - 0x3a36a0
+PlayLayer::resumeAndRestart - 0x3a3390
 PlayLayer::scanDynamicSaveObjects - 0x3a1060
 PlayLayer::scene - 0x38eaa0
 PlayLayer::setupHasCompleted - 0x38f8a0
@@ -2508,6 +2517,7 @@ SecretLayer::textInputOpened - 0x3c8370
 SecretLayer::textInputClosed - 0x3c84c0
 SecretLayer2::getBasicMessage - 0x3d0740
 SecretLayer2::getErrorMessage - 0x3d12a0
+SecretLayer2::getMessage - 0x3cfe70
 SecretLayer2::getThreadMessage - 0x3d0050
 SecretLayer2::onDoor - 0x3cd460
 SecretLayer2::onSecretLevel - 0x3cd1b0
@@ -2515,6 +2525,7 @@ SecretLayer2::onSubmit - 0x3cddc0
 SecretLayer2::scene - 0x3cacb0
 SecretLayer2::showCompletedLevel - 0x3cc460
 SecretLayer2::showSecretLevel - 0x3cc2f0
+SecretLayer2::updateMessageLabel - 0x3cfde0
 SecretLayer2::init - 0x3cae30
 SecretLayer2::keyBackClicked - 0x3d2450
 SecretLayer2::textInputOpened - 0x3cf8d0
@@ -2532,6 +2543,7 @@ SecretRewardsLayer::generateChestItems - 0x3be280
 SecretRewardsLayer::init - 0x3bb1e0
 SecretRewardsLayer::onBack - 0x3c0770
 SecretRewardsLayer::onChestType - 0x3bdba0
+SecretRewardsLayer::onSelectItem - 0x3bec90
 SecretRewardsLayer::onShop - 0x3bf220
 SecretRewardsLayer::onSwitchPage - 0x3bd830
 SecretRewardsLayer::showDialog01 - 0x3c09a0

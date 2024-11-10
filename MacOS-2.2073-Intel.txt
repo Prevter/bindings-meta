@@ -577,6 +577,7 @@ CCMenuItemToggler::unselected - 0x5a8f0
 CCNodeContainer::visit - 0x154ab0
 CCPartAnimSprite::setBlendFunc - 0x362270
 CCPartAnimSprite::isFrameDisplayed - 0x361f40
+CCScrollLayerExt::CCScrollLayerExt - 0x41b510
 CCScrollLayerExt::moveToTop - 0x41bc30
 CCScrollLayerExt::moveToTopWithOffset - 0x41bb90
 CCScrollLayerExt::visit - 0x41c8a0
