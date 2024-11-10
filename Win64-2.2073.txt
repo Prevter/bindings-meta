@@ -7,7 +7,6 @@ cocos2d::CCLightning::strikeFinished - 0x448f0
 cocos2d::CCLightning::draw - 0x44700
 GJDropDownLayer::init - 0x24fd90
 GJDropDownLayer::draw - 0x426f0
-GJDropDownLayer::ccTouchBegan - 0x3c6a0
 GJDropDownLayer::keyBackClicked - 0x250210
 GJDropDownLayer::enterLayer - 0x425a0
 GJDropDownLayer::exitLayer - 0x250230
@@ -1700,6 +1699,13 @@ ItemInfoPopup::onCredit - 0x275da0
 ItemTriggerGameObject::triggerObject - 0x4a7060
 ItemTriggerGameObject::getSaveString - 0x4a71c0
 KeybindingsLayer::create - 0x2b80b0
+KeybindingsLayer::addKeyPair - 0x2b8ab0
+KeybindingsLayer::countForPage - 0x2b8e60
+KeybindingsLayer::goToPage - 0x2b9100
+KeybindingsLayer::layerForPage - 0x2b8f30
+KeybindingsLayer::onClose - 0x84620
+KeybindingsLayer::onNextPage - 0x2b90e0
+KeybindingsLayer::onPrevPage - 0x2b90f0
 KeybindingsLayer::init - 0x2b81a0
 KeyframeGameObject::setOpacity - 0x49ca60
 LabelGameObject::updateLabel - 0x49adc0

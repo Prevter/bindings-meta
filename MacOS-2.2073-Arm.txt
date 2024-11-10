@@ -1,3 +1,14 @@
+GJDropDownLayer::hideLayer - 0x504674
+GJDropDownLayer::disableUI - 0x504468
+GJDropDownLayer::enableUI - 0x50447c
+FLAlertLayer::keyDown - 0x3f64d0
+CCMenuItemToggler::create - 0x4fc78
 CCScrollLayerExt::CCScrollLayerExt - 0x396fe4
+CustomListView::reloadAll - 0x1ec208
+EditButtonBar::loadFromItems - 0x4fe580
+GameManager::sharedState - 0x2f64e4
+GameManager::getGameVariable - 0x2f6c8c
+GameManager::getIntGameVariable - 0x3024b4
 ItemInfoPopup::create - 0x2ef0f0
 ItemInfoPopup::init - 0x2f18e0
+SliderThumb::getValue - 0x2899dc

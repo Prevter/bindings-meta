@@ -381,6 +381,8 @@ cocos2d::CCLightning::draw - 0x5c5cd0
 GJDropDownLayer::init - 0x5cfe70
 GJDropDownLayer::exitLayer - 0x5d03b0
 GJDropDownLayer::hideLayer - 0x5d0500
+GJDropDownLayer::disableUI - 0x5d02c0
+GJDropDownLayer::enableUI - 0x5d02e0
 AccountHelpLayer::layerHidden - 0xcfda0
 AccountHelpLayer::FLAlert_Clicked - 0xcfc90
 AccountLayer::layerHidden - 0xceab0
@@ -714,6 +716,7 @@ CustomizeObjectSettingsPopup::onClose - 0x1e82b0
 CustomizeObjectSettingsPopup::onCustomToggleTriggerValue - 0x1e8240
 CustomListView::create - 0x22f0e0
 CustomListView::getCellHeight - 0x2302f0
+CustomListView::reloadAll - 0x23c570
 CustomListView::getListCell - 0x22f220
 CustomListView::loadCell - 0x230dc0
 CustomSongCell::loadFromObject - 0x232930
