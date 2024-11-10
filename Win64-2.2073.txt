@@ -244,8 +244,8 @@ BoomScrollLayer::ccTouchCancelled - 0x3e630
 BrowseSmartTemplateLayer::keyBackClicked - 0x442f00
 BrowseSmartTemplateLayer::onBack - 0x442f20
 ButtonSprite::ButtonSprite - 0x3ed20
-ButtonSprite::create - 0x3ee40
 ButtonSprite::create - 0x3f150
+ButtonSprite::create - 0x3ee40
 ButtonSprite::init - 0x3f220
 ButtonSprite::init - 0x3eef0
 ButtonSprite::setString - 0x3fae0
@@ -1127,8 +1127,8 @@ GameStatsManager::completedDailyLevel - 0x1dfcf0
 GameStatsManager::completedMapPack - 0x1dbd10
 GameStatsManager::createStoreItems - 0x1ce710
 GameStatsManager::dataLoaded - 0x1eef90
-GameStatsManager::getAwardedCurrencyForLevel - 0x1dd390
-GameStatsManager::getBaseCurrencyForLevel - 0x1dd630
+GameStatsManager::getAwardedCurrencyForLevel - 0x1dd630
+GameStatsManager::getBaseCurrencyForLevel - 0x1dd390
 GameStatsManager::getChallenge - 0x1ded50
 GameStatsManager::getCollectedCoinsForLevel - 0x1daab0
 GameStatsManager::getCompletedMapPacks - 0x1dc060
