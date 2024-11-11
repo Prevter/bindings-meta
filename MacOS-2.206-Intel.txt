@@ -443,6 +443,7 @@ cocos2d::CCImage::initWithImageFile - 0x492b70
 cocos2d::CCImage::initWithImageFileThreadSafe - 0x493370
 cocos2d::CCImage::CCImage - 0x492a70
 cocos2d::CCImage::~CCImage - 0x492af0
+cocos2d::CCImage::saveToFile - 0x493b50
 cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x4c5c10
 cocos2d::CCIMEDelegate::attachWithIME - 0x4c5c40
 cocos2d::CCIMEDelegate::detachWithIME - 0x4c5e30
@@ -642,6 +643,8 @@ cocos2d::CCRenderTexture::beginWithClear - 0x6005e0
 cocos2d::CCRenderTexture::beginWithClear - 0x6006c0
 cocos2d::CCRenderTexture::end - 0x6006d0
 cocos2d::CCRenderTexture::newCCImage - 0x600c30
+cocos2d::CCRenderTexture::saveToFile - 0x600be0
+cocos2d::CCRenderTexture::saveToFile - 0x600eb0
 cocos2d::CCRenderTexture::draw - 0x600980
 cocos2d::CCRenderTexture::visit - 0x6008f0
 cocos2d::CCRenderTexture::getSprite - 0x5ffa60
