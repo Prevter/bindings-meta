@@ -47,7 +47,9 @@ cocos2d::CCProgressTimer::setPercentage - 0x51d734
 cocos2d::CCProgressTimer::setSprite - 0x51d7a4
 cocos2d::CCProgressTimer::setType - 0x51d940
 cocos2d::CCFadeTo::create - 0x334638
+cocos2d::CCFileUtils::fullPathForFilename - 0x3a2920
 cocos2d::CCFileUtils::getFileData - 0x3a1ec4
+cocos2d::CCFileUtils::sharedFileUtils - 0x523cac
 cocos2d::CCGLProgram::initWithVertexShaderByteArray - 0x393abc
 cocos2d::CCGLProgram::setUniformsForBuiltins - 0x395054
 cocos2d::CCGLProgram::link - 0x393ef8
@@ -78,6 +80,8 @@ cocos2d::CCNode::removeChildByTag - 0x20d43c
 cocos2d::CCNode::removeAllChildrenWithCleanup - 0x20d49c
 cocos2d::CCNode::reorderChild - 0x20d5c8
 cocos2d::CCNode::sortAllChildren - 0x20d6e0
+cocos2d::CCNode::getUserObject - 0x20cddc
+cocos2d::CCNode::setUserObject - 0x20cdf4
 cocos2d::CCNode::getCamera - 0x20cb70
 cocos2d::CCNode::unregisterScriptHandler - 0x20e094
 cocos2d::CCNode::onEnter - 0x20dd14
@@ -387,6 +391,8 @@ AccountLayer::backupAccountFailed - 0xb6e40
 AccountLayer::syncAccountFinished - 0xb71d0
 AccountLayer::syncAccountFailed - 0xb7338
 AccountLayer::FLAlert_Clicked - 0xb75c4
+FLAlertLayer::create - 0x3f56c4
+FLAlertLayer::create - 0x3f5864
 FLAlertLayer::init - 0x3f592c
 FLAlertLayer::ccTouchEnded - 0x3f67f4
 FLAlertLayer::keyBackClicked - 0x3f656c
@@ -595,6 +601,7 @@ CCMenuItemToggler::create - 0x4fc78
 CCMenuItemToggler::init - 0x4fd5c
 CCMenuItemToggler::setSizeMult - 0x50268
 CCMenuItemToggler::toggle - 0x50190
+CCMenuItemToggler::activate - 0x503bc
 CCMenuItemToggler::setEnabled - 0x5043c
 CCPartAnimSprite::setOpacity - 0x2f51fc
 CCPartAnimSprite::setBlendFunc - 0x2f4f60
@@ -960,6 +967,7 @@ FMODAudioEngine::fadeOutMusic - 0x35da6c
 FMODAudioEngine::getFMODStatus - 0x35de10
 FMODAudioEngine::isMusicPlaying - 0x35afdc
 FMODAudioEngine::isMusicPlaying - 0x35aed0
+FMODAudioEngine::loadMusic - 0x356590
 FMODAudioEngine::pauseAllAudio - 0x353c28
 FMODAudioEngine::preloadEffect - 0x3532f0
 FMODAudioEngine::resumeAllAudio - 0x353c74
@@ -1056,6 +1064,7 @@ GameManager::loadDeathEffect - 0x3011dc
 GameManager::loadDpadFromString - 0x305984
 GameManager::loadIcon - 0x2ffeec
 GameManager::playMenuMusic - 0x2f6aac
+GameManager::reloadAll - 0x309570
 GameManager::reloadAllStep2 - 0x309614
 GameManager::reloadAllStep5 - 0x3097ec
 GameManager::reportAchievementWithID - 0x2f9558
@@ -1078,6 +1087,7 @@ GameOptionsLayer::onUIPOptions - 0x245c80
 GameOptionsLayer::setupOptions - 0x245594
 GameOptionsLayer::didToggle - 0x246290
 GameOptionsTrigger::customObjectSetup - 0x162a3c
+GameStatsManager::sharedState - 0x50500
 GameStatsManager::addStoreItem - 0x5ab50
 GameStatsManager::awardCurrencyForLevel - 0x64af8
 GameStatsManager::checkCoinAchievement - 0x6080c
@@ -1875,6 +1885,7 @@ PlayerObject::releaseButton - 0x381c74
 PlayerObject::resetPlayerIcon - 0x383334
 PlayerObject::reversePlayer - 0x382170
 PlayerObject::ringJump - 0x380f18
+PlayerObject::runNormalRotation - 0x36f744
 PlayerObject::setSecondColor - 0x36deb8
 PlayerObject::setupStreak - 0x36c978
 PlayerObject::spiderTestJump - 0x3728f4
@@ -2249,6 +2260,7 @@ SimplePlayer::create - 0x2eb138
 SimplePlayer::asyncLoadIcon - 0x2f078c
 SimplePlayer::createRobotSprite - 0x2eb1f4
 SimplePlayer::createSpiderSprite - 0x2eb254
+SimplePlayer::disableCustomGlowColor - 0x2ef0a4
 SimplePlayer::enableCustomGlowColor - 0x2ef084
 SimplePlayer::hideAll - 0x2f08a4
 SimplePlayer::hideSecondary - 0x2f0a48
