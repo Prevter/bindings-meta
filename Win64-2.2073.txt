@@ -96,19 +96,19 @@ CCSpritePlus::initWithSpriteFrameName - 0x47da0
 CCSpritePlus::setFlipX - 0x48010
 CCSpritePlus::setFlipY - 0x480f0
 GameObject::GameObject - 0x135ba0
+GameObject::createWithFrame - 0x18ab80
+GameObject::createWithKey - 0x188730
+GameObject::objectFromVector - 0x19a140
 GameObject::addColorSprite - 0x18b710
 GameObject::commonSetup - 0x18ac50
 GameObject::copyGroups - 0x1998a0
 GameObject::createAndAddParticle - 0x195a80
-GameObject::createWithFrame - 0x18ab80
-GameObject::createWithKey - 0x188730
 GameObject::determineSlopeDirection - 0x199220
 GameObject::duplicateValues - 0x19ed20
 GameObject::editorColorForMode - 0x19df80
 GameObject::groupOpacityMod - 0x199c10
 GameObject::isFacingDown - 0x19e870
 GameObject::isFacingLeft - 0x19e930
-GameObject::objectFromVector - 0x19a140
 GameObject::playDestroyObjectAnim - 0x1a7400
 GameObject::playPickupAnimation - 0x1a6f20
 GameObject::playPickupAnimation - 0x1a6e30
@@ -446,10 +446,10 @@ SetupTriggerPopup::getValue - 0x45fb30
 SetupTriggerPopup::triggerValueFromSliderValue - 0x463b20
 SetupTriggerPopup::triggerSliderValueFromValue - 0x463bb0
 SetupTriggerPopup::valuePopupClosed - 0x464ac0
-ColorSelectPopup::create - 0x8da30
-ColorSelectPopup::closeColorSelect - 0x914a0
 ColorSelectPopup::colorToHex - 0x926d0
+ColorSelectPopup::create - 0x8da30
 ColorSelectPopup::hexToColor - 0x91a60
+ColorSelectPopup::closeColorSelect - 0x914a0
 ColorSelectPopup::init - 0x8dc20
 ColorSelectPopup::onCopy - 0x90d60
 ColorSelectPopup::onCopyOpacity - 0x90b00
@@ -480,8 +480,8 @@ CommunityCreditNode::create - 0x93ec0
 CommunityCreditsPage::goToPage - 0x96040
 CommunityCreditsPage::init - 0x94000
 ConfigureHSVWidget::create - 0x96950
-ConfigureHSVWidget::createTextInputNode - 0x97300
 ConfigureHSVWidget::getHSV - 0x980a0
+ConfigureHSVWidget::createTextInputNode - 0x97300
 ConfigureHSVWidget::init - 0x96a20
 ConfigureHSVWidget::onResetHSV - 0x97b10
 ConfigureHSVWidget::updateLabels - 0x97b90
@@ -548,8 +548,8 @@ CurrencyRewardLayer::pulseSprite - 0xa2c00
 CurrencyRewardLayer::update - 0xa2230
 CurrencySprite::CurrencySprite - 0x9f3c0
 CurrencySprite::createWithSprite - 0xa44b0
-CurrencySprite::init - 0xa2cd0
 CurrencySprite::spriteTypeToStat - 0xa4780
+CurrencySprite::init - 0xa2cd0
 CustomizeObjectLayer::create - 0xa4b60
 CustomizeObjectLayer::getActiveMode - 0xa8cb0
 CustomizeObjectLayer::getButtonByTag - 0xa9520
@@ -614,6 +614,7 @@ CustomSongWidget::onInfo - 0xc8d50
 CustomSongWidget::onMore - 0xc9360
 CustomSongWidget::onPlayback - 0xc9fd0
 CustomSongWidget::onSelect - 0xc9f70
+CustomSongWidget::positionInfoObjects - 0xc88c0
 CustomSongWidget::processNextMultiAsset - 0xcc240
 CustomSongWidget::showError - 0xcc710
 CustomSongWidget::startDownload - 0xc9eb0
@@ -624,7 +625,6 @@ CustomSongWidget::updateMultiAssetInfo - 0xcb760
 CustomSongWidget::updatePlaybackBtn - 0xca3b0
 CustomSongWidget::updateSongInfo - 0xca600
 CustomSongWidget::updateWithMultiAssets - 0xcb410
-CustomSongWidget::positionInfoObjects - 0xc88c0
 CustomSongWidget::loadSongInfoFinished - 0xcbd40
 CustomSongWidget::loadSongInfoFailed - 0xcbe90
 CustomSongWidget::downloadSongFinished - 0xcbf20
@@ -661,9 +661,9 @@ DemonFilterSelectLayer::keyBackClicked - 0x3033d0
 DemonInfoPopup::create - 0x3afb70
 DemonInfoPopup::createFromString - 0x3af7a0
 DemonInfoPopup::init - 0x3afcd0
+DialogLayer::createDialogLayer - 0xd1f60
 DialogLayer::addToMainScene - 0xd2a70
 DialogLayer::animateInRandomSide - 0xd2c40
-DialogLayer::createDialogLayer - 0xd1f60
 DialogLayer::displayDialogObject - 0xd2570
 DialogLayer::displayNextObject - 0xd2510
 DialogLayer::handleDialogTap - 0xd2940
@@ -688,6 +688,7 @@ EditButtonBar::loadFromItems - 0xd30a0
 EditButtonBar::onLeft - 0xd3a90
 EditButtonBar::onRight - 0xd3a20
 EditLevelLayer::~EditLevelLayer - 0xd3c10
+EditLevelLayer::scene - 0xd3d80
 EditLevelLayer::closeTextInputs - 0xd5f60
 EditLevelLayer::init - 0xd3f10
 EditLevelLayer::onBack - 0xd80e0
@@ -696,7 +697,6 @@ EditLevelLayer::onLevelInfo - 0xd5500
 EditLevelLayer::onPlay - 0xd6920
 EditLevelLayer::onSetFolder - 0xd7fc0
 EditLevelLayer::onShare - 0xd6f20
-EditLevelLayer::scene - 0xd3d80
 EditLevelLayer::setupLevelInfo - 0xd5720
 EditLevelLayer::verifyLevelName - 0xd8290
 EditLevelLayer::keyBackClicked - 0xd8570
@@ -947,7 +947,6 @@ FMODAudioEngine::queueStartMusic - 0x3de920
 FMODAudioEngine::resumeAllMusic - 0x59e80
 FMODAudioEngine::saveAudioState - 0x558f0
 FMODAudioEngine::setChannelVolumeMod - 0x58f80
-FMODAudioEngine::setMusicTimeMS - 0x5c190
 FMODAudioEngine::setup - 0x53bc0
 FMODAudioEngine::setupAudioEngine - 0x540a0
 FMODAudioEngine::start - 0x55280
@@ -994,6 +993,7 @@ FriendsProfilePage::getUserListFinished - 0x13ebd0
 FriendsProfilePage::getUserListFailed - 0x13ed20
 FriendsProfilePage::forceReloadList - 0x13ed90
 GameCell::draw - 0x3cbf0
+GameLevelManager::responseToDict - 0x168140
 GameLevelManager::sharedState - 0x140b20
 GameLevelManager::addDLToActive - 0x147a20
 GameLevelManager::cleanupDailyLevels - 0x1485e0
@@ -1050,7 +1050,6 @@ GameLevelManager::processOnDownloadLevelCompleted - 0x150350
 GameLevelManager::purgeUnusedLevels - 0x148330
 GameLevelManager::removeDelimiterChars - 0x167f10
 GameLevelManager::resetCommentTimersForLevelID - 0x15c770
-GameLevelManager::responseToDict - 0x168140
 GameLevelManager::saveFetchedLevels - 0x144960
 GameLevelManager::saveLevel - 0x146d40
 GameLevelManager::saveLevelList - 0x14ee60
@@ -1182,21 +1181,21 @@ GameToolbox::preVisitWithClippingRect - 0x645c0
 GameToolbox::saveParticleToString - 0x662d0
 GameToolbox::stringSetupToDict - 0x65c30
 GameToolbox::stringSetupToMap - 0x65890
-GameToolbox::timestampToHumanReadable - 0x692c0
 GameToolbox::transformColor - 0x65290
+GauntletLayer::scene - 0x1f2800
 GauntletLayer::init - 0x1f2b30
 GauntletLayer::onBack - 0x1f4de0
 GauntletLayer::onLevel - 0x1f4760
-GauntletLayer::scene - 0x1f2800
 GauntletLayer::setupGauntlet - 0x1f3730
 GauntletLayer::unlockActiveItem - 0x1f47d0
 GauntletLayer::keyBackClicked - 0x1f4e30
 GauntletLayer::loadLevelsFinished - 0x1f3320
 GauntletLayer::loadLevelsFailed - 0x1f3530
 GauntletNode::frameForType - 0x1f8f10
-GauntletNode::init - 0x1f7850
 GauntletNode::nameForType - 0x1fa130
+GauntletNode::init - 0x1f7850
 GauntletNode::onClaimReward - 0x1f8ed0
+GauntletSelectLayer::scene - 0x1f5450
 GauntletSelectLayer::goToPage - 0x1f6e00
 GauntletSelectLayer::init - 0x1f5580
 GauntletSelectLayer::onBack - 0x1f6fb0
@@ -1205,7 +1204,6 @@ GauntletSelectLayer::onNext - 0x1f6dc0
 GauntletSelectLayer::onPlay - 0x1f7070
 GauntletSelectLayer::onPrev - 0x1f6de0
 GauntletSelectLayer::onRefresh - 0x1f6230
-GauntletSelectLayer::scene - 0x1f5450
 GauntletSelectLayer::setupGauntlets - 0x1f6670
 GauntletSelectLayer::keyBackClicked - 0x1f7060
 GauntletSelectLayer::scrollLayerWillScrollToPage - 0x1f6f70
@@ -1440,6 +1438,7 @@ GJFollowCommandLayer::init - 0x268d10
 GJFollowCommandLayer::textChanged - 0x26a730
 GJGameLevel::create - 0x169b40
 GJGameLevel::create - 0x1683e0
+GJGameLevel::lengthKeyToString - 0x16a0d0
 GJGameLevel::copyLevelInfo - 0x16aaa0
 GJGameLevel::dataLoaded - 0x16b150
 GJGameLevel::getAudioFileName - 0x16a3f0
@@ -1447,12 +1446,12 @@ GJGameLevel::getAverageDifficulty - 0x16a230
 GJGameLevel::getCoinKey - 0x16a2a0
 GJGameLevel::getUnpackedLevelDescription - 0x16d150
 GJGameLevel::handleStatsConflict - 0x16cc80
-GJGameLevel::lengthKeyToString - 0x16a0d0
 GJGameLevel::savePercentage - 0x169db0
 GJGameLevel::encodeWithCoder - 0x16c090
 GJGameLevel::init - 0x169ba0
-GJGameLoadingLayer::loadLevel - 0x242960
 GJGameLoadingLayer::transitionToLoadingLayer - 0x242770
+GJGameLoadingLayer::loadLevel - 0x242960
+GJGarageLayer::scene - 0x26b490
 GJGarageLayer::descriptionForUnlock - 0x270910
 GJGarageLayer::getItems - 0x26ed30
 GJGarageLayer::onArrow - 0x26e470
@@ -1465,7 +1464,6 @@ GJGarageLayer::onSelectTab - 0x26e5a0
 GJGarageLayer::onShards - 0x271300
 GJGarageLayer::onToggleItem - 0x26fe10
 GJGarageLayer::playRainbowEffect - 0x271110
-GJGarageLayer::scene - 0x26b490
 GJGarageLayer::selectTab - 0x26e5d0
 GJGarageLayer::setupIconSelect - 0x26d810
 GJGarageLayer::setupPage - 0x26e690
@@ -1482,13 +1480,13 @@ GJGarageLayer::FLAlert_Clicked - 0x270aa0
 GJGarageLayer::dialogClosed - 0x270d00
 GJGarageLayer::playerColorChanged - 0x270050
 GJGarageLayer::rewardedVideoFinished - 0x26d260
-GJItemIcon::changeToLockedState - 0x273b90
 GJItemIcon::createBrowserItem - 0x272f50
 GJItemIcon::createStoreItem - 0x272e20
+GJItemIcon::scaleForType - 0x273c70
+GJItemIcon::changeToLockedState - 0x273b90
 GJItemIcon::darkenStoreItem - 0x2738a0
 GJItemIcon::darkenStoreItem - 0x273820
 GJItemIcon::init - 0x273070
-GJItemIcon::scaleForType - 0x273c70
 GJItemIcon::toggleEnabledState - 0x273ad0
 GJItemIcon::setOpacity - 0x273780
 GJLevelList::create - 0x173760
@@ -1558,8 +1556,8 @@ GJRewardItem::create - 0x1f0ba0
 GJRewardItem::createSpecial - 0x1f09b0
 GJRewardItem::createWithObject - 0x1f08a0
 GJRewardItem::createWithObjects - 0x1f0930
-GJRewardItem::init - 0x1f0c70
 GJRewardItem::rewardItemToStat - 0x1f0ed0
+GJRewardItem::init - 0x1f0c70
 GJRewardItem::encodeWithCoder - 0x1f1130
 GJRewardObject::create - 0x1f0760
 GJRewardObject::createItemUnlock - 0x1f06f0
@@ -1594,10 +1592,10 @@ GJSearchObject::getKey - 0x171c40
 GJSearchObject::getPageObject - 0x171d90
 GJSearchObject::getSearchKey - 0x171f00
 GJSearchObject::isLevelSearchObject - 0x1721e0
+GJShopLayer::scene - 0x2a1dd0
 GJShopLayer::init - 0x2a1f50
 GJShopLayer::onBack - 0x2a5590
 GJShopLayer::onCommunityCredits - 0x2a42c0
-GJShopLayer::scene - 0x2a1dd0
 GJShopLayer::showReactMessage - 0x2a57c0
 GJShopLayer::onExit - 0x2a4040
 GJShopLayer::ccTouchBegan - 0x2a7170
@@ -1617,10 +1615,10 @@ GJSongBrowser::init - 0x2afb10
 GJSongBrowser::customSetup - 0x2afc10
 GJSongBrowser::FLAlert_Clicked - 0x2b0350
 GJSpecialColorSelect::create - 0x2b0550
+GJSpecialColorSelect::textForColorIdx - 0x2b12a0
 GJSpecialColorSelect::init - 0x2b0660
 GJSpecialColorSelect::onClose - 0x2b1200
 GJSpecialColorSelect::onSelectColor - 0x2b1120
-GJSpecialColorSelect::textForColorIdx - 0x2b12a0
 GJSpecialColorSelect::keyBackClicked - 0x2b1250
 GJSpiderSprite::create - 0x2a0300
 GJTransformControl::refreshControl - 0x1295d0
@@ -1639,8 +1637,8 @@ GJUserCell::uploadActionFailed - 0xbb3e0
 GJUserCell::onClosePopup - 0xbb4b0
 GJUserMessage::create - 0x170ec0
 GJUserMessage::create - 0x170380
-GJUserScore::create - 0x16e1a0
 GJUserScore::GJUserScore - 0x1401d0
+GJUserScore::create - 0x16e1a0
 GJUserScore::isCurrentUser - 0x16fb90
 GJUserScore::init - 0x16fb40
 GJWriteMessagePopup::keyBackClicked - 0x292fb0
@@ -1693,8 +1691,8 @@ InfoLayer::commentUploadFailed - 0x2b7830
 InfoLayer::updateUserScoreFinished - 0x2b7610
 InfoLayer::FLAlert_Clicked - 0x2b5bc0
 ItemInfoPopup::create - 0x273d10
-ItemInfoPopup::init - 0x273e00
 ItemInfoPopup::nameForUnlockType - 0x275dd0
+ItemInfoPopup::init - 0x273e00
 ItemInfoPopup::onCredit - 0x275da0
 ItemTriggerGameObject::triggerObject - 0x4a7060
 ItemTriggerGameObject::getSaveString - 0x4a71c0
@@ -1723,10 +1721,10 @@ LeaderboardsLayer::updateUserScoreFinished - 0x2bb0d0
 LeaderboardsLayer::updateUserScoreFailed - 0x2bb0f0
 LeaderboardsLayer::loadLeaderboardFinished - 0x2bb100
 LeaderboardsLayer::loadLeaderboardFailed - 0x2bb190
+LevelAreaInnerLayer::scene - 0x2be0b0
 LevelAreaInnerLayer::init - 0x2be1c0
 LevelAreaInnerLayer::onBack - 0x2c0380
 LevelAreaInnerLayer::onDoor - 0x2bfeb0
-LevelAreaInnerLayer::scene - 0x2be0b0
 LevelAreaInnerLayer::keyBackClicked - 0x2c0430
 LevelAreaInnerLayer::dialogClosed - 0x2bf880
 LevelAreaLayer::keyBackClicked - 0x2be0a0
@@ -1783,6 +1781,7 @@ LevelCell::init - 0xad920
 LevelCell::draw - 0xb12e0
 LevelEditorLayer::LevelEditorLayer - 0x2c85b0
 LevelEditorLayer::create - 0x2c9530
+LevelEditorLayer::updateObjectLabel - 0x2cee20
 LevelEditorLayer::addSpecial - 0x2cf380
 LevelEditorLayer::createObject - 0x2cbe70
 LevelEditorLayer::createObjectsFromString - 0x2cb800
@@ -1808,7 +1807,6 @@ LevelEditorLayer::updateEditorMode - 0x2d2cf0
 LevelEditorLayer::updateKeyframeObjects - 0x2d9370
 LevelEditorLayer::updateLevelFont - 0x2d65b0
 LevelEditorLayer::updateObjectColors - 0x2d1670
-LevelEditorLayer::updateObjectLabel - 0x2cee20
 LevelEditorLayer::updateOptions - 0x2ca7d0
 LevelEditorLayer::postUpdate - 0x2d87b0
 LevelEditorLayer::updateVisibility - 0x2d05e0
@@ -1830,6 +1828,7 @@ LevelEditorLayer::checkpointActivated - 0x2d86d0
 LevelEditorLayer::addKeyframe - 0x2d9040
 LevelEditorLayer::levelSettingsUpdated - 0x2caf10
 LevelInfoLayer::create - 0x2e2740
+LevelInfoLayer::scene - 0x2e26f0
 LevelInfoLayer::confirmClone - 0x2e8ee0
 LevelInfoLayer::confirmDelete - 0x2e9050
 LevelInfoLayer::confirmMoveToBottom - 0x2ea780
@@ -1843,8 +1842,8 @@ LevelInfoLayer::onFavorite - 0x2e5310
 LevelInfoLayer::onGarage - 0x2e5490
 LevelInfoLayer::onInfo - 0x2e8a40
 LevelInfoLayer::onLevelInfo - 0x2ea3f0
-LevelInfoLayer::onLevelOptions - 0x2ea2a0
 LevelInfoLayer::onLevelLeaderboard - 0x2e53b0
+LevelInfoLayer::onLevelOptions - 0x2ea2a0
 LevelInfoLayer::onLike - 0x2e9d40
 LevelInfoLayer::onPlay - 0x2e7ab0
 LevelInfoLayer::onRate - 0x2e95c0
@@ -1855,7 +1854,6 @@ LevelInfoLayer::onSetFolder - 0x2e51e0
 LevelInfoLayer::onUpdate - 0x2ea160
 LevelInfoLayer::onViewProfile - 0x2ea340
 LevelInfoLayer::playStep4 - 0x2e8990
-LevelInfoLayer::scene - 0x2e26f0
 LevelInfoLayer::setupLevelInfo - 0x2e64a0
 LevelInfoLayer::setupPlatformerStats - 0x2e5960
 LevelInfoLayer::setupProgressBars - 0x2e5d90
@@ -1890,6 +1888,7 @@ LevelLeaderboard::updateUserScoreFinished - 0x2eda70
 LevelLeaderboard::updateUserScoreFailed - 0x2eda80
 LevelListCell::loadFromList - 0xbdf90
 LevelListCell::onClick - 0xbf3c0
+LevelListLayer::scene - 0x2ee8a0
 LevelListLayer::cloneList - 0x2f3670
 LevelListLayer::confirmClone - 0x2f3580
 LevelListLayer::confirmDelete - 0x2f3900
@@ -1904,7 +1903,6 @@ LevelListLayer::onSelectIcon - 0x2f3140
 LevelListLayer::onShare - 0x2f32b0
 LevelListLayer::onToggleEditMode - 0x2f3540
 LevelListLayer::onViewProfile - 0x2f2b80
-LevelListLayer::scene - 0x2ee8a0
 LevelListLayer::updateSideButtons - 0x2f3040
 LevelListLayer::updateStatsArt - 0x2f05b0
 LevelListLayer::onEnter - 0x2f0560
@@ -1972,6 +1970,7 @@ LevelSearchLayer::textInputOpened - 0x2fabe0
 LevelSearchLayer::textInputClosed - 0x2fad30
 LevelSearchLayer::FLAlert_Clicked - 0x2faba0
 LevelSearchLayer::demonFilterSelectClosed - 0x2f96d0
+LevelSelectLayer::scene - 0x3035f0
 LevelSelectLayer::colorForPage - 0x3048c0
 LevelSelectLayer::init - 0x303720
 LevelSelectLayer::onBack - 0x304d60
@@ -1979,7 +1978,6 @@ LevelSelectLayer::onDownload - 0x3044e0
 LevelSelectLayer::onInfo - 0x304ee0
 LevelSelectLayer::onNext - 0x304c60
 LevelSelectLayer::onPrev - 0x304ce0
-LevelSelectLayer::scene - 0x3035f0
 LevelSelectLayer::keyBackClicked - 0x304db0
 LevelSelectLayer::keyDown - 0x304e00
 LevelSelectLayer::updatePageWithObject - 0x304530
@@ -2009,8 +2007,8 @@ LevelSettingsLayer::selectArtClosed - 0x30d180
 LevelSettingsLayer::selectSettingClosed - 0x30c4b0
 LevelSettingsLayer::textChanged - 0x30c960
 LevelSettingsObject::create - 0x2dd0d0
-LevelSettingsObject::getSaveString - 0x2dd510
 LevelSettingsObject::objectFromDict - 0x2deed0
+LevelSettingsObject::getSaveString - 0x2dd510
 LevelSettingsObject::setupColorsFromLegacyMode - 0x2e0720
 LevelSettingsObject::init - 0x2dd200
 LevelTools::artistForAudio - 0x314200
@@ -2041,11 +2039,10 @@ LoadingCircle::show - 0x6ba20
 LoadingCircle::init - 0x6b940
 LoadingCircle::draw - 0x6bbc0
 LoadingCircle::registerWithTouchDispatcher - 0x6bbe0
-LoadingCircleSprite::create - 0x6bc30
+LoadingLayer::scene - 0x3193d0
 LoadingLayer::getLoadingString - 0x31a810
 LoadingLayer::init - 0x3194e0
 LoadingLayer::loadAssets - 0x319d80
-LoadingLayer::scene - 0x3193d0
 LoadingLayer::updateProgress - 0x319d00
 LocalLevelManager::sharedState - 0x31af50
 LocalLevelManager::getAllLevelsInDict - 0x31b3c0
@@ -2345,6 +2342,7 @@ PlayerObject::setColor - 0x387460
 PlayerObject::setFlipX - 0x38c8e0
 PlayerObject::animationFinished - 0x38c9f0
 PlayLayer::~PlayLayer - 0x38e800
+PlayLayer::scene - 0x38eaa0
 PlayLayer::addObject - 0x396d90
 PlayLayer::applyCustomEnterEffect - 0x399980
 PlayLayer::applyEnterEffect - 0x39a670
@@ -2372,7 +2370,6 @@ PlayLayer::resetLevelFromStart - 0x3a1cd0
 PlayLayer::resume - 0x3a36a0
 PlayLayer::resumeAndRestart - 0x3a3390
 PlayLayer::scanDynamicSaveObjects - 0x3a1060
-PlayLayer::scene - 0x38eaa0
 PlayLayer::setupHasCompleted - 0x38f8a0
 PlayLayer::showCompleteEffect - 0x391eb0
 PlayLayer::showCompleteText - 0x391880
@@ -2385,8 +2382,8 @@ PlayLayer::togglePracticeMode - 0x3a2e00
 PlayLayer::updateAttempts - 0x3a2b50
 PlayLayer::updateInfoLabel - 0x39ba70
 PlayLayer::updateProgressbar - 0x39b3d0
-PlayLayer::updateTimeWarp - 0x394920
 PlayLayer::updateTestModeLabel - 0x390a20
+PlayLayer::updateTimeWarp - 0x394920
 PlayLayer::onEnterTransitionDidFinish - 0x3a4070
 PlayLayer::onExit - 0x3a40a0
 PlayLayer::postUpdate - 0x39d940
@@ -2524,6 +2521,7 @@ SecretLayer::init - 0x3c55c0
 SecretLayer::keyBackClicked - 0x3caa70
 SecretLayer::textInputOpened - 0x3c8370
 SecretLayer::textInputClosed - 0x3c84c0
+SecretLayer2::scene - 0x3cacb0
 SecretLayer2::getBasicMessage - 0x3d0740
 SecretLayer2::getErrorMessage - 0x3d12a0
 SecretLayer2::getMessage - 0x3cfe70
@@ -2531,7 +2529,6 @@ SecretLayer2::getThreadMessage - 0x3d0050
 SecretLayer2::onDoor - 0x3cd460
 SecretLayer2::onSecretLevel - 0x3cd1b0
 SecretLayer2::onSubmit - 0x3cddc0
-SecretLayer2::scene - 0x3cacb0
 SecretLayer2::showCompletedLevel - 0x3cc460
 SecretLayer2::showSecretLevel - 0x3cc2f0
 SecretLayer2::updateMessageLabel - 0x3cfde0
