@@ -278,6 +278,8 @@ cocos2d::CCGLProgram::setUniformsForBuiltins - 0x394f28
 cocos2d::CCGLProgram::link - 0x393dcc
 cocos2d::CCGLProgram::updateUniforms - 0x393c44
 cocos2d::CCNode::create - 0x20cad4
+cocos2d::CCNode::CCNode - 0x20c1a8
+cocos2d::CCNode::~CCNode - 0x20c334
 cocos2d::CCNode::boundingBox - 0x20ca74
 cocos2d::CCNode::convertTouchToNodeSpace - 0x20eaf8
 cocos2d::CCNode::runAction - 0x20dd34
@@ -446,6 +448,8 @@ cocos2d::CCLayerGradient::getVector - 0x40b4cc
 cocos2d::CCLayerGradient::setVector - 0x40b49c
 cocos2d::CCLayerGradient::setCompressedInterpolation - 0x40b550
 cocos2d::CCLayerGradient::isCompressedInterpolation - 0x40b548
+cocos2d::CCObject::CCObject - 0x3e6090
+cocos2d::CCObject::~CCObject - 0x3e6240
 cocos2d::CCObject::autorelease - 0x3e6314
 cocos2d::CCObject::release - 0x3e62e0
 cocos2d::CCObject::getTag - 0x3e637c
@@ -536,6 +540,7 @@ cocos2d::CCIMEDelegate::deleteForward - 0x8fb0
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x4124b4
 cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x1a8028
 cocos2d::CCDirector::sharedDirector - 0x3de6d0
+cocos2d::CCDirector::getWinSize - 0x3df874
 cocos2d::CCDirector::setViewport - 0x3dfc30
 cocos2d::CCDirector::convertToGL - 0x3dfd04
 cocos2d::CCDirector::drawScene - 0x3deef0
@@ -559,6 +564,8 @@ cocos2d::CCDirector::setMouseDispatcher - 0x3e095c
 cocos2d::CCDirector::getAccelerometer - 0x3e0a1c
 cocos2d::CCDirector::setAccelerometer - 0x3e09e4
 cocos2d::CCDirector::getDeltaTime - 0x3df684
+cocos2d::CCNodeRGBA::CCNodeRGBA - 0x20ec74
+cocos2d::CCNodeRGBA::~CCNodeRGBA - 0x20ecdc
 cocos2d::CCNodeRGBA::init - 0x20ecf0
 cocos2d::CCNodeRGBA::setColor - 0x20f0b0
 cocos2d::CCNodeRGBA::getColor - 0x20f090
@@ -683,6 +690,7 @@ cocos2d::CCAnimate::stop - 0x335a60
 cocos2d::CCAnimate::reverse - 0x335ca8
 cocos2d::CCAnimation::copyWithZone - 0x22e720
 cocos2d::CCAnimation::getDuration - 0x22e714
+cocos2d::CCApplication::sharedApplication - 0x2ab200
 cocos2d::CCApplication::openURL - 0x2aba20
 cocos2d::CCDictionary::create - 0x268c0c
 cocos2d::CCDictionary::setObject - 0x2935bc
@@ -787,6 +795,7 @@ cocos2d::CCSpriteFrame::copyWithZone - 0x2d9cd8
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x29f998
 cocos2d::CCString::createWithData - 0x6a8b3c
 cocos2d::CCString::boolValue - 0x6a8838
+cocos2d::CCMenuItem::~CCMenuItem - 0x337768
 cocos2d::CCMenuItem::create - 0x3375e0
 cocos2d::CCMenuItem::create - 0x337538
 cocos2d::CCMenuItem::initWithTarget - 0x33769c
@@ -831,6 +840,7 @@ cocos2d::CCRotateTo::create - 0x331280
 cocos2d::CCRotateTo::copyWithZone - 0x331424
 cocos2d::CCRotateTo::update - 0x3315f4
 cocos2d::CCRotateTo::startWithTarget - 0x331514
+cocos2d::CCDelayTime::create - 0x330e74
 cocos2d::CCDelayTime::copyWithZone - 0x334e94
 cocos2d::CCDelayTime::update - 0x334f68
 cocos2d::CCDelayTime::reverse - 0x334f6c
@@ -1174,6 +1184,7 @@ AnimatedShopKeeper::create - 0x2a6b1c
 AnimatedShopKeeper::init - 0x2aa3c4
 AnimatedShopKeeper::startAnimating - 0x2a6c78
 AnimatedShopKeeper::animationFinished - 0x2aa490
+AppDelegate::get - 0x56e744
 AppDelegate::resumeSound - 0x56ea64
 AppDelegate::applicationDidFinishLaunching - 0x56e5c0
 AppDelegate::applicationDidEnterBackground - 0x56e838
@@ -1360,6 +1371,11 @@ CCTextInputNode::addTextArea - 0x90ac8
 CCTextInputNode::getString - 0x91118
 CCTextInputNode::init - 0x90770
 CCTextInputNode::refreshLabel - 0x911d4
+CCTextInputNode::setLabelPlaceholderColor - 0x913f8
+CCTextInputNode::setLabelPlaceholderScale - 0x913f0
+CCTextInputNode::setMaxLabelScale - 0x913e0
+CCTextInputNode::setMaxLabelWidth - 0x913e8
+CCTextInputNode::setString - 0x91048
 CCTextInputNode::updateBlinkLabelToChar - 0x9141c
 CCTextInputNode::updateCursorPosition - 0x92afc
 CCTextInputNode::updateDefaultFontValues - 0x90a20
@@ -2430,6 +2446,8 @@ GJScoreCell::onViewProfile - 0x1f291c
 GJScoreCell::init - 0x1f2910
 GJScoreCell::draw - 0x1f2bc0
 GJScoreCell::FLAlert_Clicked - 0x1f2af8
+GJSearchObject::create - 0x4a2868
+GJSearchObject::create - 0x4a2b7c
 GJSearchObject::create - 0x4a2b10
 GJSearchObject::isLevelSearchObject - 0x4a3330
 GJShopLayer::scene - 0x2a5268
@@ -2585,6 +2603,7 @@ LevelAreaLayer::keyBackClicked - 0x2133f4
 LevelAreaLayer::dialogClosed - 0x213170
 LevelAreaLayer::onExit - 0x2133a4
 LevelBrowserLayer::create - 0x3e6590
+LevelBrowserLayer::scene - 0x3e6544
 LevelBrowserLayer::init - 0x3e66c8
 LevelBrowserLayer::loadPage - 0x3e99f0
 LevelBrowserLayer::onDeleteSelected - 0x3e82d8
@@ -3696,7 +3715,6 @@ SimplePlayer::create - 0x2ead40
 SimplePlayer::asyncLoadIcon - 0x2f0394
 SimplePlayer::createRobotSprite - 0x2eadfc
 SimplePlayer::createSpiderSprite - 0x2eae5c
-SimplePlayer::enableCustomGlowColor - 0x2eec8c
 SimplePlayer::hideAll - 0x2f04ac
 SimplePlayer::hideSecondary - 0x2f0650
 SimplePlayer::iconFinishedLoading - 0x2f0570

@@ -7,6 +7,7 @@ cocos2d::CCLightning::strikeFinished - 0x448f0
 cocos2d::CCLightning::draw - 0x44700
 GJDropDownLayer::init - 0x24feb0
 GJDropDownLayer::draw - 0x426f0
+GJDropDownLayer::ccTouchBegan - 0x3c6a0
 GJDropDownLayer::keyBackClicked - 0x250330
 GJDropDownLayer::enterLayer - 0x425a0
 GJDropDownLayer::exitLayer - 0x250350
@@ -623,6 +624,7 @@ CustomSongWidget::updateDownloadProgress - 0xca4a0
 CustomSongWidget::updateError - 0xcc640
 CustomSongWidget::updateMultiAssetInfo - 0xcb760
 CustomSongWidget::updatePlaybackBtn - 0xca3b0
+CustomSongWidget::updateProgressBar - 0xca550
 CustomSongWidget::updateSongInfo - 0xca600
 CustomSongWidget::updateWithMultiAssets - 0xcb410
 CustomSongWidget::loadSongInfoFinished - 0xcbd40
@@ -941,11 +943,14 @@ FMODAudioEngine::loadMusic - 0x5a280
 FMODAudioEngine::playEffect - 0x56e10
 FMODAudioEngine::playEffect - 0x56d90
 FMODAudioEngine::playEffectAdvanced - 0x56f00
+FMODAudioEngine::playMusic - 0x5a110
 FMODAudioEngine::preloadEffect - 0x59260
 FMODAudioEngine::queuePlayEffect - 0x57920
+FMODAudioEngine::queueStartMusic - 0x5aa70
 FMODAudioEngine::resumeAllMusic - 0x59e80
 FMODAudioEngine::saveAudioState - 0x558f0
 FMODAudioEngine::setChannelVolumeMod - 0x58f80
+FMODAudioEngine::setMusicTimeMS - 0x5c190
 FMODAudioEngine::setup - 0x53bc0
 FMODAudioEngine::setupAudioEngine - 0x540a0
 FMODAudioEngine::start - 0x55280

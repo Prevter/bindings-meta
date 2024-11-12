@@ -99,6 +99,7 @@ cocos2d::CCAction::stop - 0x5dcc00
 cocos2d::CCAction::step - 0x5dcc20
 cocos2d::CCScene::create - 0x27eef0
 cocos2d::CCScene::getHighestChildZ - 0x27efb0
+cocos2d::CCScene::~CCScene - 0x27ee70
 cocos2d::CCScene::init - 0x27eea0
 cocos2d::CCSet::~CCSet - 0x79e050
 cocos2d::CCSet::addObject - 0x79e300
@@ -282,7 +283,12 @@ cocos2d::CCGLProgram::setUniformsForBuiltins - 0x419200
 cocos2d::CCGLProgram::addAttribute - 0x4180e0
 cocos2d::CCGLProgram::reset - 0x419530
 cocos2d::CCGLProgram::updateUniforms - 0x418100
+cocos2d::CCNode::create - 0x260d40
+cocos2d::CCNode::CCNode - 0x260210
+cocos2d::CCNode::~CCNode - 0x260520
 cocos2d::CCNode::boundingBox - 0x260cd0
+cocos2d::CCNode::convertToNodeSpace - 0x262c40
+cocos2d::CCNode::convertToWorldSpace - 0x262c80
 cocos2d::CCNode::runAction - 0x261f80
 cocos2d::CCNode::schedule - 0x2621b0
 cocos2d::CCNode::schedule - 0x262210
@@ -291,6 +297,7 @@ cocos2d::CCNode::scheduleOnce - 0x262240
 cocos2d::CCNode::scheduleUpdate - 0x262090
 cocos2d::CCNode::scheduleUpdateWithPriority - 0x2620c0
 cocos2d::CCNode::scheduleUpdateWithPriorityLua - 0x2620f0
+cocos2d::CCNode::stopAllActions - 0x260e30
 cocos2d::CCNode::unschedule - 0x262270
 cocos2d::CCNode::unscheduleUpdate - 0x262160
 cocos2d::CCNode::update - 0x262290
@@ -402,6 +409,8 @@ cocos2d::CCScheduler::unscheduleAllForTarget - 0x42f420
 cocos2d::CCScheduler::unscheduleSelector - 0x42dd60
 cocos2d::CCScheduler::update - 0x42fea0
 cocos2d::CCLayer::create - 0x49d570
+cocos2d::CCLayer::CCLayer - 0x49cfb0
+cocos2d::CCLayer::~CCLayer - 0x49d2a0
 cocos2d::CCLayer::init - 0x49d510
 cocos2d::CCLayer::onEnter - 0x49de10
 cocos2d::CCLayer::onEnterTransitionDidFinish - 0x49dfa0
@@ -455,6 +464,9 @@ cocos2d::CCLayerGradient::getVector - 0x4a0c20
 cocos2d::CCLayerGradient::setVector - 0x4a0bf0
 cocos2d::CCLayerGradient::setCompressedInterpolation - 0x4a0cc0
 cocos2d::CCLayerGradient::isCompressedInterpolation - 0x4a0cb0
+cocos2d::CCObject::CCObject - 0x477bd0
+cocos2d::CCObject::~CCObject - 0x477ce0
+cocos2d::CCObject::autorelease - 0x477e10
 cocos2d::CCObject::isSingleReference - 0x477e40
 cocos2d::CCObject::release - 0x477de0
 cocos2d::CCObject::retain - 0x477e00
@@ -468,7 +480,10 @@ cocos2d::CCOrbitCamera::copyWithZone - 0x3543a0
 cocos2d::CCOrbitCamera::update - 0x354800
 cocos2d::CCOrbitCamera::startWithTarget - 0x3544f0
 cocos2d::CCLayerColor::create - 0x49fbb0
+cocos2d::CCLayerColor::create - 0x49f9e0
 cocos2d::CCLayerColor::create - 0x49f800
+cocos2d::CCLayerColor::CCLayerColor - 0x49f1a0
+cocos2d::CCLayerColor::~CCLayerColor - 0x49f550
 cocos2d::CCLayerColor::init - 0x49fd80
 cocos2d::CCLayerColor::setContentSize - 0x49ff70
 cocos2d::CCLayerColor::draw - 0x4a00b0
@@ -479,6 +494,8 @@ cocos2d::CCLayerColor::setColor - 0x4a0180
 cocos2d::CCLayerColor::setOpacity - 0x4a0300
 cocos2d::CCLayerColor::setBlendFunc - 0x49f7e0
 cocos2d::CCLayerColor::getBlendFunc - 0x49f7c0
+cocos2d::CCLayerRGBA::CCLayerRGBA - 0x49e3f0
+cocos2d::CCLayerRGBA::~CCLayerRGBA - 0x49e760
 cocos2d::CCLayerRGBA::init - 0x49e9d0
 cocos2d::CCLayerRGBA::setColor - 0x49ec10
 cocos2d::CCLayerRGBA::getColor - 0x49ebd0
@@ -524,10 +541,12 @@ cocos2d::CCTextureCache::addUIImage - 0x5d6700
 cocos2d::CCTextureCache::removeTextureForKey - 0x5d6ca0
 cocos2d::CCTextureCache::textureForKey - 0x5d6d20
 cocos2d::CCTouch::getLocationInView - 0x59ab0
+cocos2d::CCTouch::getLocation - 0x59b10
 cocos2d::CCTouchDispatcher::init - 0x4b86d0
 cocos2d::CCTouchDispatcher::setPriority - 0x4b90d0
 cocos2d::CCTouchDispatcher::addPrioTargetedDelegate - 0x4b8980
 cocos2d::CCTouchDispatcher::addTargetedDelegate - 0x4b89a0
+cocos2d::CCTouchDispatcher::findHandler - 0x4b8f90
 cocos2d::CCTouchDispatcher::forceRemoveDelegate - 0x4b8d10
 cocos2d::CCTouchDispatcher::isUsingForcePrio - 0x4b8970
 cocos2d::CCTouchDispatcher::registerForcePrio - 0x4b8880
@@ -539,8 +558,12 @@ cocos2d::CCTouchDispatcher::touchesEnded - 0x4b98c0
 cocos2d::CCTouchDispatcher::touchesCancelled - 0x4b9900
 cocos2d::CCTouchHandler::initWithDelegate - 0x46e330
 cocos2d::CCEGLView::swapBuffers - 0x4f01b0
+cocos2d::CCImage::initWithImageData - 0x476d80
 cocos2d::CCImage::initWithImageFile - 0x476b70
 cocos2d::CCImage::initWithImageFileThreadSafe - 0x477360
+cocos2d::CCImage::CCImage - 0x476a70
+cocos2d::CCImage::~CCImage - 0x476af0
+cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x4a8c30
 cocos2d::CCIMEDelegate::attachWithIME - 0x4a8c50
 cocos2d::CCIMEDelegate::detachWithIME - 0x4a8e40
 cocos2d::CCIMEDelegate::deleteForward - 0x7150
@@ -581,6 +604,8 @@ cocos2d::CCDirector::setMouseDispatcher - 0x471c10
 cocos2d::CCDirector::getAccelerometer - 0x471ce0
 cocos2d::CCDirector::setAccelerometer - 0x471cb0
 cocos2d::CCDirector::getDeltaTime - 0x4706f0
+cocos2d::CCNodeRGBA::CCNodeRGBA - 0x262fc0
+cocos2d::CCNodeRGBA::~CCNodeRGBA - 0x263070
 cocos2d::CCNodeRGBA::init - 0x2630a0
 cocos2d::CCNodeRGBA::setColor - 0x2634b0
 cocos2d::CCNodeRGBA::getColor - 0x263470
@@ -602,6 +627,19 @@ cocos2d::CCSequence::update - 0x3a2e80
 cocos2d::CCSequence::startWithTarget - 0x3a2e10
 cocos2d::CCSequence::stop - 0x3a2e50
 cocos2d::CCSequence::reverse - 0x3a3020
+cocos2d::CCSprite::create - 0x276440
+cocos2d::CCSprite::create - 0x276530
+cocos2d::CCSprite::create - 0x276760
+cocos2d::CCSprite::createWithSpriteFrame - 0x276630
+cocos2d::CCSprite::createWithSpriteFrameName - 0x276730
+cocos2d::CCSprite::createWithTexture - 0x2761b0
+cocos2d::CCSprite::createWithTexture - 0x276340
+cocos2d::CCSprite::setFlipX - 0x278420
+cocos2d::CCSprite::setFlipY - 0x278470
+cocos2d::CCSprite::CCSprite - 0x2762a0
+cocos2d::CCSprite::~CCSprite - 0x276d00
+cocos2d::CCSprite::isFlipX - 0x278460
+cocos2d::CCSprite::isFlipY - 0x2784b0
 cocos2d::CCSprite::init - 0x276850
 cocos2d::CCSprite::setVertexZ - 0x2782c0
 cocos2d::CCSprite::setScaleX - 0x278160
@@ -656,6 +694,7 @@ cocos2d::CCSprite::setOpacityModifyRGB - 0x278a50
 cocos2d::CCSprite::isOpacityModifyRGB - 0x278ba0
 cocos2d::CCSprite::setTexture - 0x279250
 cocos2d::CCSprite::getTexture - 0x2793c0
+cocos2d::CCLabelBMFont::CCLabelBMFont - 0x5c0350
 cocos2d::CCLabelBMFont::create - 0x5bfed0
 cocos2d::CCLabelBMFont::create - 0x5bfe20
 cocos2d::CCLabelBMFont::create - 0x5bfd80
@@ -665,6 +704,7 @@ cocos2d::CCLabelBMFont::getFntFile - 0x5c3320
 cocos2d::CCLabelBMFont::setFntFile - 0x5c3240
 cocos2d::CCLabelBMFont::createFontChars - 0x5c06b0
 cocos2d::CCLabelBMFont::limitLabelWidth - 0x5c3360
+cocos2d::CCLabelBMFont::~CCLabelBMFont - 0x5c0560
 cocos2d::CCLabelBMFont::init - 0x5c0300
 cocos2d::CCLabelBMFont::setScaleX - 0x5c3200
 cocos2d::CCLabelBMFont::setScaleY - 0x5c3220
@@ -693,6 +733,7 @@ cocos2d::CCLabelBMFont::updateDisplayedColor - 0x5c1850
 cocos2d::CCLabelBMFont::isCascadeOpacityEnabled - 0x5c1a30
 cocos2d::CCLabelBMFont::setCascadeOpacityEnabled - 0x5c1a50
 cocos2d::CCLabelBMFont::updateDisplayedOpacity - 0x5c1750
+cocos2d::CCActionManager::addAction - 0x221dd0
 cocos2d::CCActionManager::pauseTarget - 0x221b10
 cocos2d::CCAnimate::create - 0x3a90d0
 cocos2d::CCAnimate::copyWithZone - 0x3a9660
@@ -704,6 +745,7 @@ cocos2d::CCAnimation::create - 0x284c00
 cocos2d::CCAnimation::createWithSpriteFrames - 0x284a00
 cocos2d::CCAnimation::copyWithZone - 0x285040
 cocos2d::CCAnimation::getDuration - 0x285030
+cocos2d::CCApplication::sharedApplication - 0x314fe0
 cocos2d::CCApplication::openURL - 0x315dc0
 cocos2d::CCArray::init - 0x7094e0
 cocos2d::CCDictionary::setObject - 0x2fa5f0
@@ -738,17 +780,20 @@ cocos2d::CCRepeat::isDone - 0x3a3670
 cocos2d::CCRepeat::startWithTarget - 0x3a34c0
 cocos2d::CCRepeat::stop - 0x3a3510
 cocos2d::CCRepeat::reverse - 0x3a3680
+cocos2d::CCRepeatForever::create - 0x3a3770
 cocos2d::CCRepeatForever::copyWithZone - 0x3a3800
 cocos2d::CCRepeatForever::isDone - 0x3a3990
 cocos2d::CCRepeatForever::startWithTarget - 0x3a38e0
 cocos2d::CCRepeatForever::step - 0x3a3920
 cocos2d::CCRepeatForever::reverse - 0x3a39a0
+cocos2d::CCTransitionFade::create - 0xd9090
 cocos2d::CCTransitionFade::create - 0xd8ff0
 cocos2d::CCTransitionFade::onEnter - 0xd9180
 cocos2d::CCTransitionFade::onExit - 0xd92b0
 cocos2d::CCTransitionFade::initWithDuration - 0xd9160
 cocos2d::CCTransitionFade::initWithDuration - 0xd9110
 cocos2d::CCTransitionRotoZoom::onEnter - 0xd56c0
+cocos2d::CCTransitionScene::~CCTransitionScene - 0xd4e00
 cocos2d::CCTransitionScene::onEnter - 0xd5240
 cocos2d::CCTransitionScene::onExit - 0xd5290
 cocos2d::CCTransitionScene::cleanup - 0xd52f0
@@ -788,6 +833,8 @@ cocos2d::CCDrawNode::render - 0x5f9770
 cocos2d::CCDrawNode::init - 0x5f9610
 cocos2d::CCDrawNode::draw - 0x5f9800
 cocos2d::CCSpriteBatchNode::initWithTexture - 0x165a10
+cocos2d::CCSpriteBatchNode::CCSpriteBatchNode - 0x165ce0
+cocos2d::CCSpriteBatchNode::~CCSpriteBatchNode - 0x165d90
 cocos2d::CCSpriteBatchNode::init - 0x165c90
 cocos2d::CCSpriteBatchNode::addChild - 0x166160
 cocos2d::CCSpriteBatchNode::addChild - 0x166170
@@ -817,7 +864,9 @@ cocos2d::CCSpriteFrameCache::removeSpriteFramesFromTexture - 0x3095d0
 cocos2d::CCSpriteFrameCache::removeUnusedSpriteFrames - 0x308df0
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x3098e0
 cocos2d::CCString::createWithData - 0x7956c0
+cocos2d::CCString::getCString - 0x7950f0
 cocos2d::CCString::boolValue - 0x7954b0
+cocos2d::CCMenuItem::~CCMenuItem - 0x3ab940
 cocos2d::CCMenuItem::create - 0x3ab790
 cocos2d::CCMenuItem::create - 0x3ab6d0
 cocos2d::CCMenuItem::initWithTarget - 0x3ab860
@@ -864,6 +913,7 @@ cocos2d::CCRotateTo::create - 0x3a46d0
 cocos2d::CCRotateTo::copyWithZone - 0x3a48e0
 cocos2d::CCRotateTo::update - 0x3a4b30
 cocos2d::CCRotateTo::startWithTarget - 0x3a49e0
+cocos2d::CCDelayTime::create - 0x3a42c0
 cocos2d::CCDelayTime::copyWithZone - 0x3a8b50
 cocos2d::CCDelayTime::update - 0x3a8c20
 cocos2d::CCDelayTime::reverse - 0x3a8c30
@@ -891,6 +941,12 @@ DS_Dictionary::setBoolForKey - 0x16e790
 DS_Dictionary::setDictForKey - 0x170db0
 DS_Dictionary::stepIntoSubDictWithKey - 0x16c5d0
 DS_Dictionary::stepOutOfSubDict - 0x16c8a0
+cocos2d::extension::CCControlColourPicker::colourPicker - 0x3424e0
+cocos2d::extension::CCScale9Sprite::create - 0x3e3e90
+cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x3e3d70
+cocos2d::extension::CCScale9Sprite::createWithSpriteFrameName - 0x3e3c90
+cocos2d::extension::CCScale9Sprite::create - 0x3e39e0
+cocos2d::extension::CCScale9Sprite::create - 0x3e3810
 cocos2d::extension::CCScale9Sprite::init - 0x3e2060
 cocos2d::extension::CCScale9Sprite::visit - 0x3e44d0
 cocos2d::extension::CCScale9Sprite::getPreferredSize - 0x3e3f20
@@ -1207,6 +1263,7 @@ AnimatedShopKeeper::create - 0x3101f0
 AnimatedShopKeeper::init - 0x314180
 AnimatedShopKeeper::startAnimating - 0x310360
 AnimatedShopKeeper::animationFinished - 0x314230
+AppDelegate::get - 0x645fb0
 AppDelegate::applicationDidFinishLaunching - 0x645e30
 AppDelegate::applicationDidEnterBackground - 0x6460d0
 AppDelegate::applicationWillEnterForeground - 0x646230
@@ -1395,6 +1452,12 @@ CCTextInputNode::getString - 0x9e790
 CCTextInputNode::init - 0x9dd90
 CCTextInputNode::refreshLabel - 0x9e850
 CCTextInputNode::setAllowedChars - 0x9e650
+CCTextInputNode::setLabelNormalColor - 0x9eb20
+CCTextInputNode::setLabelPlaceholderColor - 0x9eb00
+CCTextInputNode::setLabelPlaceholderScale - 0x9eae0
+CCTextInputNode::setMaxLabelScale - 0x9eaa0
+CCTextInputNode::setMaxLabelWidth - 0x9eac0
+CCTextInputNode::setString - 0x9e6d0
 CCTextInputNode::updateBlinkLabel - 0x9ea80
 CCTextInputNode::updateBlinkLabelToChar - 0x9eb40
 CCTextInputNode::updateCursorPosition - 0xa0500
@@ -1986,6 +2049,7 @@ FriendsProfilePage::userListChanged - 0x642670
 FriendsProfilePage::forceReloadList - 0x6426b0
 GameCell::init - 0x2f9520
 GameCell::draw - 0x2f95e0
+GameLevelManager::sharedState - 0x504a90
 GameLevelManager::acceptFriendRequest - 0x53e840
 GameLevelManager::createNewLevel - 0x5165d0
 GameLevelManager::dataLoaded - 0x525360
@@ -2549,6 +2613,7 @@ GJScoreCell::onViewProfile - 0x243770
 GJScoreCell::init - 0x243750
 GJScoreCell::draw - 0x243a20
 GJScoreCell::FLAlert_Clicked - 0x243960
+GJSearchObject::create - 0x54a530
 GJSearchObject::create - 0x54a4c0
 GJSearchObject::getPrevPageObject - 0x54af60
 GJSearchObject::isLevelSearchObject - 0x54af80
@@ -2710,6 +2775,7 @@ LevelAreaLayer::dialogClosed - 0x267810
 LevelAreaLayer::onExit - 0x267a60
 LevelBrowserLayer::~LevelBrowserLayer - 0x477f30
 LevelBrowserLayer::create - 0x478170
+LevelBrowserLayer::scene - 0x478130
 LevelBrowserLayer::createNewList - 0x47e520
 LevelBrowserLayer::loadPage - 0x47b5e0
 LevelBrowserLayer::onClearSearch - 0x47b560
@@ -2997,6 +3063,7 @@ MenuGameLayer::ccTouchEnded - 0x4e7f60
 MenuGameLayer::ccTouchCancelled - 0x4e7f80
 MenuGameLayer::registerWithTouchDispatcher - 0x4e7fc0
 MenuLayer::scene - 0x37ccf0
+MenuLayer::onMoreGames - 0x37e5c0
 MenuLayer::videoOptionsOpened - 0x37ecd0
 MenuLayer::init - 0x37ceb0
 MenuLayer::keyBackClicked - 0x37edc0
@@ -3906,6 +3973,7 @@ TextArea::fadeOutAndRemove - 0x30ddf0
 TextArea::finishFade - 0x30ddc0
 TextArea::init - 0x30d5f0
 TextArea::setIgnoreColorCode - 0x30da00
+TextArea::setString - 0x30d6f0
 TextArea::stopAllCharacterActions - 0x30daf0
 TextArea::update - 0x30e100
 TextArea::draw - 0x30e0f0
