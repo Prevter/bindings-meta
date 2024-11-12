@@ -17,6 +17,7 @@ jobs:
           - { platform: iOS, version: "2.206", repo: "geode-catgirls/bindings" }
           - { platform: Win64, version: "2.2074" }
           - { platform: MacOS, version: "2.2074" }
+          - { platform: iOS, version: "2.2074", repo: "geode-catgirls/bindings" }
 
     runs-on: ubuntu-latest
     name: Run codegen
