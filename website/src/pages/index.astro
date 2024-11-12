@@ -45,6 +45,25 @@ const bindings: Platform[] = fs
 		}
 	})
 	.filter(Boolean);
+
+// get all CodegenData-x.xxx.json files
+const CodegenDataFiles = fs
+	.readdirSync("./public")
+	.filter((file) => file.startsWith("CodegenData-") && !file.startsWith("CodegenData-geode-catgirls-bindings"))
+	.map((file) => file.replace("CodegenData-", "").replace(".json", ""));
+
+const sortedVersions = CodegenDataFiles.sort((a, b) => {
+	const aParts = a.split(".");
+	const bParts = b.split(".");
+	for (let i = 0; i < aParts.length; i++) {
+		if (aParts[i] !== bParts[i]) {
+			return parseInt(bParts[i]) - parseInt(aParts[i]);
+		}
+	}
+	return 0;
+});
+console.log(CodegenDataFiles);
+console.log(sortedVersions);
 ---
 
 <Layout>
@@ -63,7 +82,50 @@ const bindings: Platform[] = fs
 			</strong>.
 		</p>
 		<div class="block">
-			<StatsContainer />
+			{sortedVersions.map((version) => {
+				return (
+					<StatsContainer gdVersion={version}/>
+				);
+			})}
+
+			<span class="text-muted">
+				Versions: {
+					CodegenDataFiles.map((version) => {
+						return  <a href={`#${version}`} class="version-link"
+									id={`version-${version}`}
+									title={`Jump to version ${version}`}
+									data-version={version}>
+									{version}
+								</a>;
+					})
+				}
+			</span>
+
+			<script>
+				const showOnlyVersion = (hash) => {
+					document.querySelectorAll(".stats-container").forEach((el, i) => {
+						el.style.display = el.id === `stats-${hash}` ? "block" : "none";
+					});
+				};
+
+				// check current hash and scroll to the version if it exists
+				const hash = window.location.hash.replace("#", "");
+				if (hash.length > 0) {
+					showOnlyVersion(hash);
+				} else {
+					document.querySelectorAll(".stats-container").forEach((el, i) => {
+						el.style.display = i === 0 ? "block" : "none";
+					});
+				}
+
+				// add click event to all version links
+				document.querySelectorAll(".version-link").forEach((el) => {
+					el.addEventListener("click", (e) => {
+						const version = e.target.getAttribute("data-version");
+						showOnlyVersion(version);
+					});
+				});
+			</script>
 		</div>
 
 		<!-- Download links -->
@@ -167,6 +229,22 @@ const bindings: Platform[] = fs
 		.platform-cards {
 			flex-direction: column;
 		}
+	}
+
+	.text-muted {
+		opacity: 0.8;
+		text-align: center;
+		display: block;
+	}
+
+	.version-link {
+		color: rgba(255, 255, 255, 1);
+		text-decoration: none;
+	}
+
+	.version-link:hover {
+		color: rgba(80, 120, 255, 0.8);
+		text-decoration: underline;
 	}
 
 	footer {

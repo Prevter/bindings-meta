@@ -1,5 +1,5 @@
 ---
-const GD_VERSION = "2.2074";
+const GD_VERSION = Astro.props.gdVersion;
 const PATH = `./public/CodegenData-${GD_VERSION}.json`;
 const PATH_IOS = `./public/CodegenData-geode-catgirls-bindings-${GD_VERSION}.json`;
 
@@ -72,7 +72,7 @@ const platformIcons = {
 };
 ---
 
-<div>
+<div class="stats-container" id={`stats-${GD_VERSION}`}>
     <div class="total-stats">
         <span>
             Found
