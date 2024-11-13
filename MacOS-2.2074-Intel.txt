@@ -750,6 +750,8 @@ cocos2d::CCApplication::openURL - 0x315dc0
 cocos2d::CCArray::init - 0x7094e0
 cocos2d::CCDictionary::setObject - 0x2fa5f0
 cocos2d::CCDictionary::setObject - 0x2fa5f0
+cocos2d::CCDictionary::CCDictionary - 0x2f9ab0
+cocos2d::CCDictionary::~CCDictionary - 0x2f9cb0
 cocos2d::CCDictionary::allKeys - 0x2f9d40
 cocos2d::CCDictionary::count - 0x2f9d20
 cocos2d::CCDictionary::objectForKey - 0x2fa0b0
