@@ -2796,6 +2796,7 @@ SongsLayer::customSetup - 0x47c050
 SpawnTriggerGameObject::updateRemapKeys - 0x4a05a0
 SpawnTriggerGameObject::triggerObject - 0x4a06a0
 SpriteAnimationManager::overridePrio - 0x74420
+SpriteDescription::initDescription - 0x41cf0
 StarInfoPopup::create - 0x3b0cb0
 StarInfoPopup::init - 0x3b0df0
 StatsCell::loadFromObject - 0xb2630

@@ -1860,6 +1860,7 @@ EditorUI::getRelativeOffset - 0x4dc100
 EditorUI::getSnapAngle - 0x4ad60
 EditorUI::getSpriteButton - 0xc2d0
 EditorUI::getXMin - 0x2f470
+EditorUI::init - 0x9710
 EditorUI::isSpecialSnapObject - 0x4c2f0
 EditorUI::moveForCommand - 0x4a7d0
 EditorUI::moveGamelayer - 0x2f800
@@ -1890,6 +1891,7 @@ EditorUI::updateEditButtonColor - 0x3f120
 EditorUI::updateEditColorButton - 0x497f0
 EditorUI::updateGridNodeSize - 0x2f620
 EditorUI::updateGroupIDLabel - 0x2ccd0
+EditorUI::updateObjectInfoLabel - 0x2f870
 EditorUI::updatePlaybackBtn - 0x2d5f0
 EditorUI::zoomIn - 0xced0
 EditorUI::zoomOut - 0xcf20
@@ -3923,6 +3925,10 @@ SpecialAnimGameObject::updateSecondaryColor - 0x1a2cb0
 SpecialAnimGameObject::updateSyncedAnimation - 0x24b7d0
 SpriteAnimationManager::offsetCurrentAnimation - 0x70e0d0
 SpriteAnimationManager::updateAnimationSpeed - 0x70cf30
+SpriteDescription::createDescription - 0x555800
+SpriteDescription::createDescription - 0x555f80
+SpriteDescription::initDescription - 0x5563d0
+SpriteDescription::initDescription - 0x556150
 StarInfoPopup::create - 0x7ac620
 StarInfoPopup::init - 0x7ac7b0
 StarInfoPopup::keyBackClicked - 0x7ad0e0
