@@ -2006,6 +2006,7 @@ FMODAudioEngine::setBackgroundMusicVolume - 0x3d4890
 FMODAudioEngine::setChannelVolume - 0x3d0f40
 FMODAudioEngine::setEffectsVolume - 0x3d48d0
 FMODAudioEngine::setupAudioEngine - 0x3ca670
+FMODAudioEngine::stopAllMusic - 0x3cbbf0
 FMODAudioEngine::updateChannelTweens - 0x3cd220
 FMODAudioEngine::updateReverb - 0x3cac50
 FMODAudioEngine::updateTemporaryEffects - 0x3cc820
@@ -2256,6 +2257,7 @@ GJBaseGameLayer::createBackground - 0x1030e0
 GJBaseGameLayer::createGroundLayer - 0x103660
 GJBaseGameLayer::createMiddleground - 0x103870
 GJBaseGameLayer::createPlayerCollisionBlock - 0x11a410
+GJBaseGameLayer::createTextLayers - 0x10f2e0
 GJBaseGameLayer::destroyObject - 0x118390
 GJBaseGameLayer::enterDualMode - 0x119720
 GJBaseGameLayer::flipGravity - 0x114040
@@ -2330,6 +2332,7 @@ GJBaseGameLayer::updateKeyframeOrder - 0x13b9d0
 GJBaseGameLayer::updateMaxGameplayY - 0x147b20
 GJBaseGameLayer::updateProximityVolumeEffects - 0x1465c0
 GJBaseGameLayer::updateShaderLayer - 0x12b040
+GJBaseGameLayer::updateSpecialGroupData - 0x106390
 GJBaseGameLayer::updateStaticCameraPos - 0x114990
 GJBaseGameLayer::update - 0x141f90
 GJBaseGameLayer::init - 0xfe730
@@ -2440,10 +2443,12 @@ GJFollowCommandLayer::textChanged - 0x2c3fe0
 GJFriendRequest::init - 0x549d80
 GJGameLevel::create - 0x5168e0
 GJGameLevel::lengthKeyToString - 0x5457e0
+GJGameLevel::dataLoaded - 0x5472c0
 GJGameLevel::demonIconForDifficulty - 0x548f50
 GJGameLevel::getAverageDifficulty - 0x545880
 GJGameLevel::getCoinKey - 0x535eb0
 GJGameLevel::getLengthKey - 0x5457a0
+GJGameLevel::handleStatsConflict - 0x526870
 GJGameLevel::levelWasAltered - 0x545150
 GJGameLevel::encodeWithCoder - 0x5482f0
 GJGameLevel::canEncode - 0x548e40
@@ -2813,6 +2818,7 @@ LevelBrowserLayer::updateResultArray - 0x47f180
 LevelBrowserLayer::cellPerformedAction - 0x47eef0
 LevelCell::create - 0x23caa0
 LevelCell::loadFromLevel - 0x232d00
+LevelCell::loadLocalLevelCell - 0x23cc80
 LevelCell::onClick - 0x240090
 LevelCell::onViewProfile - 0x2401f0
 LevelCell::updateCellMode - 0x23c6a0
@@ -3322,16 +3328,21 @@ PlayLayer::createObjectsFromSetupFinished - 0xb7490
 PlayLayer::getCurrentPercent - 0xba2f0
 PlayLayer::getCurrentPercentInt - 0xba9f0
 PlayLayer::incrementJumps - 0xbf200
+PlayLayer::init - 0xabe20
 PlayLayer::levelComplete - 0xb4050
 PlayLayer::loadDynamicSaveObjects - 0xbe690
 PlayLayer::markCheckpoint - 0xbb9d0
+PlayLayer::optimizeColorGroups - 0xae840
+PlayLayer::optimizeOpacityGroups - 0xaea30
 PlayLayer::pauseGame - 0xbf290
 PlayLayer::playEndAnimationToPos - 0xb6a00
 PlayLayer::prepareMusic - 0xb3ae0
 PlayLayer::removeAllObjects - 0xb3dd0
 PlayLayer::resetLevel - 0xb2f80
 PlayLayer::resumeAndRestart - 0xbf3d0
+PlayLayer::scanActiveSaveObjects - 0xaf930
 PlayLayer::scanDynamicSaveObjects - 0xaec20
+PlayLayer::setupHasCompleted - 0xadac0
 PlayLayer::showCompleteEffect - 0xb4c70
 PlayLayer::showCompleteText - 0xb50f0
 PlayLayer::showHint - 0xbb420
