@@ -359,7 +359,9 @@ CharacterColorPage::toggleGlow - 0x88da0
 CharacterColorPage::toggleShip - 0x88c80
 CharacterColorPage::updateIconColors - 0x8a540
 CharacterColorPage::init - 0x87f30
+CharacterColorPage::registerWithTouchDispatcher - 0x425d0
 CharacterColorPage::keyBackClicked - 0x8a7a0
+CheckpointGameObject::init - 0x4a1240
 CheckpointGameObject::triggerObject - 0x4a12c0
 CheckpointGameObject::triggerActivated - 0x4a12e0
 GJValueTween::step - 0x2000b0
@@ -1026,6 +1028,7 @@ GameLevelManager::getOnlineLevels - 0x14bb70
 GameLevelManager::getSavedDailyLevel - 0x146ba0
 GameLevelManager::getSavedLevel - 0x146ad0
 GameLevelManager::getSavedLevels - 0x145410
+GameLevelManager::getStoredLevelComments - 0x15b420
 GameLevelManager::getStoredOnlineLevels - 0x147780
 GameLevelManager::getTimeLeft - 0x147dd0
 GameLevelManager::getUserList - 0x15ffa0
@@ -1151,6 +1154,8 @@ GameStatsManager::getTotalCollectedCurrency - 0x1e08b0
 GameStatsManager::getTotalCollectedDiamonds - 0x1e1180
 GameStatsManager::hasClaimedListReward - 0x1dfc30
 GameStatsManager::hasCompletedDailyLevel - 0x1dfd10
+GameStatsManager::hasCompletedGauntletLevel - 0x1db1a0
+GameStatsManager::hasCompletedOnlineLevel - 0x1db070
 GameStatsManager::hasSecretCoin - 0x1dcf50
 GameStatsManager::incrementChallenge - 0x1df0f0
 GameStatsManager::incrementStat - 0x1d1500
@@ -2116,6 +2121,7 @@ MoreOptionsLayer::goToPage - 0x35f890
 MoreOptionsLayer::onClose - 0x360b30
 MoreOptionsLayer::onFMODDebug - 0x3606a0
 MoreOptionsLayer::onKeybindings - 0xdba40
+MoreOptionsLayer::onSongBrowser - 0x360630
 MoreOptionsLayer::onToggle - 0x35fe30
 MoreOptionsLayer::init - 0x35da20
 MoreOptionsLayer::keyBackClicked - 0x360c90
