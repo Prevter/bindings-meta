@@ -552,6 +552,8 @@ cocos2d::CCAnimate::reverse - 0x191034
 cocos2d::CCAnimation::copyWithZone - 0x1a7710
 cocos2d::CCAnimation::getDuration - 0x1a7704
 cocos2d::CCApplication::openURL - 0x1af380
+cocos2d::CCDictionary::CCDictionary - 0x41a508
+cocos2d::CCDictionary::~CCDictionary - 0x41a6a0
 cocos2d::CCDictionary::copyWithZone - 0x41bfa4
 cocos2d::CCDictionary::acceptVisitor - 0x41c1c8
 cocos2d::CCRenderTexture::draw - 0x3b908c
@@ -719,6 +721,7 @@ AccountRegisterLayer::allowTextInput - 0x86f50
 AccountRegisterLayer::registerAccountFinished - 0x86168
 AccountRegisterLayer::registerAccountFailed - 0x86298
 AchievementBar::setOpacity - 0x26ab9c
+TableViewCell::TableViewCell - 0x37ef0
 AchievementCell::init - 0x10ebb4
 AchievementCell::draw - 0x10ebbc
 AchievementManager::init - 0xb9ecc

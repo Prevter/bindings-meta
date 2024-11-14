@@ -2051,6 +2051,7 @@ LoadingCircle::show - 0x6ba20
 LoadingCircle::init - 0x6b940
 LoadingCircle::draw - 0x6bbc0
 LoadingCircle::registerWithTouchDispatcher - 0x6bbe0
+LoadingCircleSprite::create - 0x6bc30
 LoadingLayer::scene - 0x3194f0
 LoadingLayer::getLoadingString - 0x31a930
 LoadingLayer::init - 0x319600
