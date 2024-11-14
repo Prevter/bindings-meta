@@ -113,6 +113,7 @@ cocos2d::CCShaderCache::sharedShaderCache - 0x1f0310
 cocos2d::CCParticleSystem::create - 0x7b1480
 cocos2d::CCParticleSystem::initParticle - 0x7b3670
 cocos2d::CCParticleSystem::initWithDictionary - 0x7b31f0
+cocos2d::CCParticleSystem::~CCParticleSystem - 0x7b34f0
 cocos2d::CCParticleSystem::loadScaledDefaults - 0x7b60e0
 cocos2d::CCParticleSystem::resetSystem - 0x7b4740
 cocos2d::CCParticleSystem::stopSystem - 0x7b4700
@@ -240,6 +241,7 @@ cocos2d::CCProgressTimer::getMidpoint - 0x5eec80
 cocos2d::CCProgressTimer::setMidpoint - 0x5eeca0
 cocos2d::CCProgressTimer::setColor - 0x5ecd20
 cocos2d::CCProgressTimer::setOpacity - 0x5ece70
+cocos2d::CCFadeIn::create - 0x3a7bb0
 cocos2d::CCFadeIn::copyWithZone - 0x3a7c50
 cocos2d::CCFadeIn::update - 0x3a7d20
 cocos2d::CCFadeIn::reverse - 0x3a7d80
@@ -826,6 +828,7 @@ cocos2d::CCClippingNode::onExitTransitionDidStart - 0x708fd0
 cocos2d::CCClippingNode::visit - 0x709030
 cocos2d::CCClippingNode::setStencil - 0x7093a0
 cocos2d::CCClippingNode::setAlphaThreshold - 0x7093f0
+cocos2d::CCClippingNode::setInverted - 0x709410
 cocos2d::CCDrawNode::setBlendFunc - 0x5fb270
 cocos2d::CCDrawNode::clear - 0x5fb240
 cocos2d::CCDrawNode::drawCircle - 0x5fb090
@@ -973,6 +976,7 @@ cocos2d::extension::CCHttpClient::send - 0x426430
 cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x425880
 cocos2d::ZipUtils::ccDeflateMemory - 0x1f3290
 cocos2d::ZipUtils::compressString - 0x1f3020
+cocos2d::ZipUtils::decompressString - 0x1f36c0
 cocos2d::CCSpawn::copyWithZone - 0x3a4360
 cocos2d::CCSpawn::update - 0x3a45d0
 cocos2d::CCSpawn::startWithTarget - 0x3a4560
@@ -1827,6 +1831,7 @@ EditButtonBar::reloadItems - 0x5ca140
 EditLevelLayer::confirmDelete - 0x1ead40
 EditLevelLayer::init - 0x1e87a0
 EditLevelLayer::onGuidelines - 0x1eb5e0
+EditLevelLayer::onPlay - 0x1e9f10
 EditLevelLayer::onSetFolder - 0x1eb0b0
 EditLevelLayer::keyBackClicked - 0x1ec740
 EditLevelLayer::keyDown - 0x1ec770
@@ -1840,7 +1845,9 @@ EditLevelLayer::uploadActionFailed - 0x1ec9c0
 EditLevelLayer::onClosePopup - 0x1ec7c0
 GJOptionsLayer::create - 0x289c00
 GJOptionsLayer::addGVToggle - 0x28a650
+GJOptionsLayer::addToggle - 0x28a780
 GJOptionsLayer::init - 0x289e50
+GJOptionsLayer::layerForPage - 0x28ada0
 GJOptionsLayer::nextPosition - 0x28aca0
 GJOptionsLayer::offsetToNextPage - 0x28a610
 GJOptionsLayer::onToggle - 0x28afa0
@@ -2799,6 +2806,7 @@ GradientTriggerObject::getSaveString - 0x18ac40
 GravityEffectSprite::init - 0xbfa30
 GravityEffectSprite::draw - 0xbfc90
 HardStreak::addPoint - 0x9d500
+HardStreak::updateStroke - 0x9cc30
 HardStreak::init - 0x9ca80
 HSVLiveOverlay::create - 0x258800
 HSVLiveOverlay::createHSVWidget - 0x258f00
@@ -2997,6 +3005,7 @@ LevelInfoLayer::onFavorite - 0x2aeab0
 LevelInfoLayer::onInfo - 0x2addb0
 LevelInfoLayer::onLevelLeaderboard - 0x2adde0
 LevelInfoLayer::onLike - 0x2ade50
+LevelInfoLayer::onPlay - 0x2abca0
 LevelInfoLayer::onRateDemon - 0x2ae030
 LevelInfoLayer::onRateStars - 0x2aded0
 LevelInfoLayer::onRateStarsMod - 0x2ae230
@@ -3503,6 +3512,7 @@ PlayLayer::scene - 0xabcf0
 PlayLayer::addObject - 0xb2190
 PlayLayer::canPauseGame - 0xbf270
 PlayLayer::createObjectsFromSetupFinished - 0xb7490
+PlayLayer::delayedResetLevel - 0xbb590
 PlayLayer::getCurrentPercent - 0xba2f0
 PlayLayer::getCurrentPercentInt - 0xba9f0
 PlayLayer::incrementJumps - 0xbf200
@@ -3525,6 +3535,8 @@ PlayLayer::setupHasCompleted - 0xadac0
 PlayLayer::showCompleteEffect - 0xb4c70
 PlayLayer::showCompleteText - 0xb50f0
 PlayLayer::showHint - 0xbb420
+PlayLayer::showNewBest - 0xb5d40
+PlayLayer::startGame - 0xb3c00
 PlayLayer::startGameDelayed - 0xb3fe0
 PlayLayer::startMusic - 0xb3ef0
 PlayLayer::togglePracticeMode - 0xbeca0
@@ -4030,6 +4042,7 @@ ShareLevelSettingsLayer::onUnlisted - 0x271250
 ShareLevelSettingsLayer::keyBackClicked - 0x271520
 ShareListLayer::onUnlisted - 0x34fb50
 ShareListLayer::keyBackClicked - 0x34fe60
+SimplePlayer::create - 0x357600
 SimplePlayer::createRobotSprite - 0x3576c0
 SimplePlayer::createSpiderSprite - 0x357720
 SimplePlayer::hideAll - 0x35d230
