@@ -904,6 +904,7 @@ AudioEffectsLayer::updateTweenAction - 0x3bce70
 AudioLineGuideGameObject::init - 0x38f09c
 AudioLineGuideGameObject::customObjectSetup - 0x38f408
 AudioLineGuideGameObject::getSaveString - 0x38f0ec
+BoomListView::init - 0x1d0c00
 BoomListView::draw - 0x1d1398
 BoomListView::setupList - 0x1d0df4
 BoomListView::TableViewWillDisplayCellForRowAtIndexPath - 0x1d0e74
@@ -925,6 +926,8 @@ BoomScrollLayer::registerWithTouchDispatcher - 0x12f648
 BrowseSmartTemplateLayer::keyBackClicked - 0x76884
 BrowseSmartTemplateLayer::onBack - 0x768a8
 BrowseSmartKeyLayer::onBack - 0x779e0
+ButtonSprite::create - 0x62f8c
+ButtonSprite::create - 0x62878
 ButtonSprite::setString - 0x632ac
 CameraTriggerGameObject::triggerObject - 0x38b8e8
 CameraTriggerGameObject::customObjectSetup - 0x38c820
@@ -978,6 +981,7 @@ CCPartAnimSprite::displayFrame - 0x831d8
 CCScrollLayerExt::CCScrollLayerExt - 0x300a10
 CCScrollLayerExt::moveToTop - 0x301054
 CCScrollLayerExt::moveToTopWithOffset - 0x300fac
+CCScrollLayerExt::scrollLayer - 0x301924
 CCScrollLayerExt::visit - 0x3019ec
 CCScrollLayerExt::ccTouchBegan - 0x301428
 CCScrollLayerExt::ccTouchMoved - 0x3017c4
@@ -997,7 +1001,15 @@ CCSpriteWithHue::updateColor - 0x1a6c68
 CCSpriteGrayscale::getShaderName - 0x1a7100
 CCSpriteGrayscale::shaderBody - 0x1a702c
 CCSpritePart::setVisible - 0x8375c
+CCTextInputNode::create - 0x16fe38
 CCTextInputNode::getString - 0x1705d4
+CCTextInputNode::refreshLabel - 0x170608
+CCTextInputNode::setLabelPlaceholderColor - 0x1707b0
+CCTextInputNode::setLabelPlaceholderScale - 0x1707a8
+CCTextInputNode::setMaxLabelScale - 0x170798
+CCTextInputNode::setMaxLabelWidth - 0x1707a0
+CCTextInputNode::setString - 0x170518
+CCTextInputNode::updateCursorPosition - 0x17197c
 CCTextInputNode::visit - 0x1704bc
 CCTextInputNode::ccTouchBegan - 0x171dbc
 CCTextInputNode::ccTouchMoved - 0x171f64
@@ -1357,6 +1369,7 @@ GameLevelOptionsLayer::didToggle - 0x2e226c
 GameManager::sharedState - 0x311de4
 GameManager::getGameVariable - 0x312374
 GameManager::getIntGameVariable - 0x319324
+GameManager::reloadAll - 0x31dbbc
 GameManager::update - 0x31d65c
 GameManager::init - 0x311e44
 GameManager::encodeDataTo - 0x31ce28
@@ -1787,6 +1800,7 @@ MenuGameLayer::ccTouchEnded - 0x394704
 MenuGameLayer::ccTouchCancelled - 0x39470c
 MenuGameLayer::registerWithTouchDispatcher - 0x394728
 MenuLayer::scene - 0x265504
+MenuLayer::endGame - 0x2673f0
 MenuLayer::init - 0x265660
 MenuLayer::keyBackClicked - 0x267184
 MenuLayer::keyDown - 0x26740c

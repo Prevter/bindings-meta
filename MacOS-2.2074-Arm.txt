@@ -466,6 +466,7 @@ cocos2d::CCLayerGradient::getVector - 0x40b4cc
 cocos2d::CCLayerGradient::setVector - 0x40b49c
 cocos2d::CCLayerGradient::setCompressedInterpolation - 0x40b550
 cocos2d::CCLayerGradient::isCompressedInterpolation - 0x40b548
+cocos2d::CCObject::createWithCoder - 0x3e6390
 cocos2d::CCObject::CCObject - 0x3e6090
 cocos2d::CCObject::~CCObject - 0x3e61b0
 cocos2d::CCObject::autorelease - 0x3e6314
@@ -924,15 +925,22 @@ DS_Dictionary::addBoolValuesToMapForKey - 0x13d518
 DS_Dictionary::addBoolValuesToMapForKeySpecial - 0x13d1dc
 DS_Dictionary::getAllKeys - 0x13935c
 DS_Dictionary::getArrayForKey - 0x13c84c
+DS_Dictionary::getBoolForKey - 0x1399d4
 DS_Dictionary::getDictForKey - 0x13d6c8
 DS_Dictionary::getFloatForKey - 0x139acc
+DS_Dictionary::getIntegerForKey - 0x1398c8
 DS_Dictionary::getKey - 0x139234
 DS_Dictionary::getObjectForKey - 0x13c9b4
+DS_Dictionary::getStringForKey - 0x139bec
 DS_Dictionary::loadRootSubDictFromCompressedFile - 0x1372fc
 DS_Dictionary::loadRootSubDictFromString - 0x1376b0
+DS_Dictionary::setArrayForKey - 0x13c4d0
 DS_Dictionary::setBoolForKey - 0x13ab9c
 DS_Dictionary::setBoolMapForKey - 0x13cf9c
 DS_Dictionary::setDictForKey - 0x13cd9c
+DS_Dictionary::setFloatForKey - 0x13ad84
+DS_Dictionary::setIntegerForKey - 0x13a930
+DS_Dictionary::setStringForKey - 0x13b008
 DS_Dictionary::stepOutOfSubDict - 0x138ff0
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x2d7fe0
 cocos2d::extension::CCScale9Sprite::create - 0x36627c
@@ -1444,6 +1452,7 @@ CCTextInputNode::addTextArea - 0x90ac8
 CCTextInputNode::getString - 0x91118
 CCTextInputNode::init - 0x90770
 CCTextInputNode::refreshLabel - 0x911d4
+CCTextInputNode::setAllowedChars - 0x90fe4
 CCTextInputNode::setLabelPlaceholderColor - 0x913f8
 CCTextInputNode::setLabelPlaceholderScale - 0x913f0
 CCTextInputNode::setMaxLabelScale - 0x913e0
@@ -1478,6 +1487,9 @@ ChallengesPage::FLAlert_Clicked - 0x31aa10
 ChallengesPage::challengeStatusFinished - 0x31a3ec
 ChallengesPage::challengeStatusFailed - 0x31a6a4
 ChallengesPage::currencyWillExit - 0x31ac1c
+GJChallengeItem::create - 0x8286c
+GJChallengeItem::createWithCoder - 0x82a9c
+GJChallengeItem::dataLoaded - 0x82af0
 GJChallengeItem::encodeWithCoder - 0x82c58
 GJChallengeItem::canEncode - 0x82d34
 ChallengeNode::create - 0x31a788
@@ -1946,6 +1958,7 @@ ExplodeItemNode::update - 0x1b7f14
 ExplodeItemSprite::init - 0x1b8200
 ExtendedLayer::init - 0x322be4
 ExtendedLayer::setPosition - 0x322be8
+GManager::save - 0x404fe8
 GManager::init - 0x404d70
 GManager::setup - 0x404d80
 GManager::encodeDataTo - 0x405280
@@ -2391,6 +2404,7 @@ GJFriendRequest::init - 0x4a2484
 GJGameLevel::create - 0x473d34
 GJGameLevel::create - 0x4760f0
 GJGameLevel::lengthKeyToString - 0x49e59c
+GJGameLevel::createWithCoder - 0x49fcbc
 GJGameLevel::dataLoaded - 0x49fd40
 GJGameLevel::demonIconForDifficulty - 0x4a1794
 GJGameLevel::getAudioFileName - 0x49e8d8
@@ -2438,10 +2452,12 @@ GJItemIcon::setOpacity - 0x2f11e0
 GJLevelList::create - 0x474a98
 GJLevelList::create - 0x478394
 GJLevelList::completedLevels - 0x4a4a48
+GJLevelList::createWithCoder - 0x4a4f38
 GJLevelList::dataLoaded - 0x4a4f68
 GJLevelList::frameForListDifficulty - 0x4a54d8
 GJLevelList::handleStatsConflict - 0x4a37fc
 GJLevelList::hasMatchingLevels - 0x4a3814
+GJLevelList::parseListLevels - 0x487a60
 GJLevelList::showListInfo - 0x4a4aac
 GJLevelList::totalLevels - 0x4a4a38
 GJLevelList::encodeWithCoder - 0x4a5298
@@ -2601,8 +2617,10 @@ GJShopLayer::rewardedVideoFinished - 0x2a7360
 GJShopLayer::dialogClosed - 0x2a8fec
 GJSmartBlockPreviewSprite::init - 0x3927f0
 GJSmartBlockPreviewSprite::visit - 0x3927f4
+GJSmartPrefab::createWithCoder - 0x3914fc
 GJSmartPrefab::encodeWithCoder - 0x391654
 GJSmartPrefab::canEncode - 0x3914f4
+GJSmartTemplate::createWithCoder - 0x390f48
 GJSmartTemplate::encodeWithCoder - 0x3912e8
 GJSmartTemplate::canEncode - 0x390f40
 GJSongBrowser::create - 0x518ed0
@@ -2987,6 +3005,7 @@ LevelSettingsObject::objectFromDict - 0xdb500
 LevelSettingsObject::getSaveString - 0xcacc0
 LevelSettingsObject::setupColorsFromLegacyMode - 0xdcba8
 LevelSettingsObject::init - 0xdb388
+LevelTools::base64EncodeString - 0x44fd1c
 LevelTools::getAudioFileName - 0x44ca9c
 LevelTools::getAudioTitle - 0x44c364
 LevelTools::verifyLevelIntegrity - 0x44fb5c
@@ -3087,6 +3106,7 @@ MessagesProfilePage::loadMessagesFailed - 0x1d0504
 MessagesProfilePage::forceReloadMessages - 0x1d0630
 MessagesProfilePage::setupPageInfo - 0x1d0664
 MoreOptionsLayer::create - 0x6993f0
+MoreOptionsLayer::goToPage - 0x69b78c
 MoreOptionsLayer::onClose - 0x69b6c8
 MoreOptionsLayer::onFMODDebug - 0x69b39c
 MoreOptionsLayer::onSongBrowser - 0x69b344
@@ -3948,6 +3968,7 @@ SongCell::init - 0x1f13c8
 SongCell::draw - 0x1f13f8
 SongInfoLayer::keyBackClicked - 0x51be3c
 SongInfoObject::create - 0x4d21ac
+SongInfoObject::createWithCoder - 0x4d2740
 SongInfoObject::encodeWithCoder - 0x4d2d3c
 SongInfoObject::canEncode - 0x4d2ed0
 SongOptionsLayer::keyBackClicked - 0x1baab4

@@ -944,14 +944,20 @@ cocos2d::CCTextFieldTTF::deleteBackward - 0x26a840
 cocos2d::CCTextFieldTTF::getContentText - 0x26abc0
 DS_Dictionary::getAllKeys - 0x16ccb0
 DS_Dictionary::getArrayForKey - 0x1707b0
+DS_Dictionary::getBoolForKey - 0x16d3e0
 DS_Dictionary::getFloatForKey - 0x16d4e0
 DS_Dictionary::getIntegerForKey - 0x16d2a0
 DS_Dictionary::getKey - 0x16cb80
 DS_Dictionary::getObjectForKey - 0x170930
+DS_Dictionary::getStringForKey - 0x16d620
 DS_Dictionary::loadRootSubDictFromCompressedFile - 0x16a5b0
 DS_Dictionary::saveRootSubDictToString - 0x16c030
+DS_Dictionary::setArrayForKey - 0x170440
 DS_Dictionary::setBoolForKey - 0x16e790
 DS_Dictionary::setDictForKey - 0x170db0
+DS_Dictionary::setFloatForKey - 0x16e9c0
+DS_Dictionary::setIntegerForKey - 0x16e4c0
+DS_Dictionary::setStringForKey - 0x16ecb0
 DS_Dictionary::stepIntoSubDictWithKey - 0x16c5d0
 DS_Dictionary::stepOutOfSubDict - 0x16c8a0
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x3424e0
@@ -2016,6 +2022,7 @@ ExplodeItemSprite::init - 0x202eb0
 ExtendedLayer::init - 0x394410
 ExtendedLayer::setPosition - 0x394420
 GManager::loadDataFromFile - 0x499410
+GManager::save - 0x499190
 GManager::init - 0x498f00
 GManager::setup - 0x498f20
 GManager::encodeDataTo - 0x499400
@@ -2630,6 +2637,7 @@ GJLevelList::frameForListDifficulty - 0x54d4b0
 GJLevelList::getUnpackedDescription - 0x54b670
 GJLevelList::handleStatsConflict - 0x54b4a0
 GJLevelList::hasMatchingLevels - 0x54b4c0
+GJLevelList::parseListLevels - 0x52ca10
 GJLevelList::showListInfo - 0x54ca50
 GJLevelList::totalLevels - 0x54c9e0
 GJLevelList::encodeWithCoder - 0x54d230
@@ -3206,6 +3214,7 @@ LevelSettingsLayer::textChanged - 0x25cdb0
 LevelSettingsObject::objectFromDict - 0xf7bf0
 LevelSettingsObject::setupColorsFromLegacyMode - 0xf93f0
 LevelSettingsObject::init - 0xf7a30
+LevelTools::base64EncodeString - 0x4ee880
 LevelTools::getAudioFileName - 0x4eb120
 LevelTools::getAudioString - 0x4ecd10
 LevelTools::getAudioTitle - 0x4eab80
@@ -3295,6 +3304,7 @@ MessagesProfilePage::loadMessagesFailed - 0x21d950
 MessagesProfilePage::forceReloadMessages - 0x21da60
 MessagesProfilePage::setupPageInfo - 0x21daa0
 MoreOptionsLayer::create - 0x785240
+MoreOptionsLayer::goToPage - 0x787750
 MoreOptionsLayer::init - 0x785810
 MoreOptionsLayer::keyBackClicked - 0x788ba0
 MoreOptionsLayer::textInputShouldOffset - 0x788bd0
