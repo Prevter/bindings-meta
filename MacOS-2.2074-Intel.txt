@@ -837,6 +837,7 @@ cocos2d::CCDrawNode::clear - 0x5fb240
 cocos2d::CCDrawNode::drawCircle - 0x5fb090
 cocos2d::CCDrawNode::drawDot - 0x5f99d0
 cocos2d::CCDrawNode::drawLines - 0x5fb010
+cocos2d::CCDrawNode::drawPolygon - 0x5fa0e0
 cocos2d::CCDrawNode::drawPreciseCubicBezier - 0x5f9bb0
 cocos2d::CCDrawNode::drawRect - 0x5faee0
 cocos2d::CCDrawNode::drawSegment - 0x5fa890
@@ -1794,8 +1795,10 @@ DailyLevelNode::onClaimReward - 0x221400
 DailyLevelNode::FLAlert_Clicked - 0x2216d0
 DailyLevelPage::createDailyNode - 0x21f7b0
 DailyLevelPage::exitDailyNode - 0x21fc20
+DailyLevelPage::getDailyTime - 0x2202a0
 DailyLevelPage::getDailyTimeString - 0x21f120
 DailyLevelPage::init - 0x21e440
+DailyLevelPage::updateTimers - 0x21f570
 DailyLevelPage::registerWithTouchDispatcher - 0x220540
 DailyLevelPage::keyBackClicked - 0x2204b0
 DailyLevelPage::show - 0x220310
@@ -2136,12 +2139,12 @@ GameLevelManager::dataLoaded - 0x525360
 GameLevelManager::deleteLevel - 0x517010
 GameLevelManager::deleteLevelList - 0x517880
 GameLevelManager::deleteSentFriendRequest - 0x53de10
-GameLevelManager::deleteUserMessages - 0x607c40
 GameLevelManager::downloadLevel - 0x52dae0
 GameLevelManager::encodeDataTo - 0x524e30
 GameLevelManager::getAccountComments - 0x539a30
 GameLevelManager::getActiveDailyID - 0x5439d0
 GameLevelManager::getBoolForKey - 0x544a30
+GameLevelManager::getDailyTimer - 0x543a00
 GameLevelManager::getFolderName - 0x5245e0
 GameLevelManager::getGJDailyLevelState - 0x543260
 GameLevelManager::getGJRewards - 0x542540
@@ -2852,6 +2855,7 @@ GradientTriggerObject::getSaveString - 0x18ac40
 GravityEffectSprite::init - 0xbfa30
 GravityEffectSprite::draw - 0xbfc90
 HardStreak::addPoint - 0x9d500
+HardStreak::reset - 0x9d4e0
 HardStreak::updateStroke - 0x9cc30
 HardStreak::init - 0x9ca80
 HSVLiveOverlay::create - 0x258800
