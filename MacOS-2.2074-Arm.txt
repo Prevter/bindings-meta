@@ -20,7 +20,7 @@ cocos2d::CCEaseOut::create - 0x45e320
 cocos2d::CCEaseOut::copyWithZone - 0x45e5f8
 cocos2d::CCEaseOut::update - 0x45e6f0
 cocos2d::CCEaseOut::reverse - 0x45e728
-cocos2d::CCEaseInOut::create - 0x45e53c
+cocos2d::CCEaseInOut::create - 0x45e760
 cocos2d::CCEaseInOut::copyWithZone - 0x45e81c
 cocos2d::CCEaseInOut::update - 0x45e914
 cocos2d::CCEaseInOut::reverse - 0x45e980
@@ -231,6 +231,7 @@ cocos2d::CCParticleSystemQuad::initWithTotalParticles - 0x51bf1c
 cocos2d::CCParticleSystemQuad::updateQuadWithParticle - 0x51ca54
 cocos2d::CCParticleSystemQuad::postStep - 0x51cd20
 cocos2d::CCParticleSystemQuad::setTexture - 0x51c86c
+cocos2d::CCProgressTimer::create - 0x51d3fc
 cocos2d::CCProgressTimer::setPercentage - 0x51d61c
 cocos2d::CCProgressTimer::setSprite - 0x51d68c
 cocos2d::CCProgressTimer::setType - 0x51d828
@@ -732,7 +733,7 @@ cocos2d::CCAnimation::copyWithZone - 0x22e720
 cocos2d::CCAnimation::getDuration - 0x22e714
 cocos2d::CCApplication::sharedApplication - 0x2ab200
 cocos2d::CCApplication::openURL - 0x2aba20
-cocos2d::CCDictionary::create - 0x268c0c
+cocos2d::CCDictionary::create - 0x294464
 cocos2d::CCDictionary::setObject - 0x2935bc
 cocos2d::CCDictionary::setObject - 0x2935bc
 cocos2d::CCDictionary::CCDictionary - 0x292204
@@ -743,6 +744,8 @@ cocos2d::CCDictionary::objectForKey - 0x29288c
 cocos2d::CCDictionary::objectForKey - 0x292b98
 cocos2d::CCDictionary::removeObjectForKey - 0x293a98
 cocos2d::CCDictionary::removeObjectForKey - 0x293f08
+cocos2d::CCDictionary::valueForKey - 0x2927ec
+cocos2d::CCDictionary::valueForKey - 0x292cd4
 cocos2d::CCDictionary::copyWithZone - 0x294174
 cocos2d::CCDictionary::acceptVisitor - 0x2945e8
 cocos2d::CCRenderTexture::create - 0x510d58
@@ -794,6 +797,8 @@ cocos2d::CCCallFuncN::create - 0x6aa86c
 cocos2d::CCCallFuncO::create - 0x6aae4c
 cocos2d::CCCallFuncO::copyWithZone - 0x6aaf78
 cocos2d::CCCallFuncO::execute - 0x6aae18
+cocos2d::CCClippingNode::create - 0x628634
+cocos2d::CCClippingNode::create - 0x6286bc
 cocos2d::CCClippingNode::init - 0x62875c
 cocos2d::CCClippingNode::init - 0x62876c
 cocos2d::CCClippingNode::onEnter - 0x6287dc
@@ -801,6 +806,8 @@ cocos2d::CCClippingNode::onEnterTransitionDidFinish - 0x628808
 cocos2d::CCClippingNode::onExit - 0x628864
 cocos2d::CCClippingNode::onExitTransitionDidStart - 0x628834
 cocos2d::CCClippingNode::visit - 0x628894
+cocos2d::CCClippingNode::setStencil - 0x628bc4
+cocos2d::CCClippingNode::setAlphaThreshold - 0x628c10
 cocos2d::CCDrawNode::CCDrawNode - 0x528418
 cocos2d::CCDrawNode::~CCDrawNode - 0x528574
 cocos2d::CCDrawNode::drawCircle - 0x529f50
@@ -931,6 +938,7 @@ cocos2d::extension::CCScale9Sprite::create - 0x365d20
 cocos2d::extension::CCScale9Sprite::create - 0x365afc
 cocos2d::extension::CCScale9Sprite::CCScale9Sprite - 0x3642fc
 cocos2d::extension::CCScale9Sprite::~CCScale9Sprite - 0x3643b0
+cocos2d::extension::CCScale9Sprite::init - 0x364478
 cocos2d::extension::CCScale9Sprite::visit - 0x3667fc
 cocos2d::extension::CCScale9Sprite::setPreferredSize - 0x3662fc
 cocos2d::extension::CCScale9Sprite::setCapInsets - 0x36633c
@@ -1059,6 +1067,7 @@ AchievementManager::sharedState - 0x633e04
 AchievementManager::achievementForUnlock - 0x682554
 AchievementManager::isAchievementEarned - 0x682198
 AchievementManager::limitForAchievement - 0x68248c
+AchievementManager::percentForAchievement - 0x6821b4
 AchievementManager::init - 0x633ef4
 AchievementNotifier::notifyAchievement - 0x6bebb4
 AchievementNotifier::willSwitchToScene - 0x6bed64
@@ -2037,9 +2046,11 @@ GameLevelManager::deleteLevelList - 0x474ba4
 GameLevelManager::deleteUserMessages - 0x492290
 GameLevelManager::downloadLevel - 0x4889b0
 GameLevelManager::encodeDataTo - 0x480b48
+GameLevelManager::getBoolForKey - 0x49da8c
 GameLevelManager::getFolderName - 0x4803b8
 GameLevelManager::getGJChallenges - 0x49be48
 GameLevelManager::getGJUserInfo - 0x4901ac
+GameLevelManager::getIntForKey - 0x49d874
 GameLevelManager::getLeaderboardScores - 0x48e540
 GameLevelManager::getLengthStr - 0x4841e8
 GameLevelManager::getLevelComments - 0x492b0c
@@ -2065,7 +2076,9 @@ GameLevelManager::onGetOnlineLevelsCompleted - 0x46708c
 GameLevelManager::ProcessHttpRequest - 0x464634
 GameLevelManager::resetDailyLevelState - 0x49c920
 GameLevelManager::saveFetchedLevels - 0x477ed0
+GameLevelManager::setBoolForKey - 0x49d96c
 GameLevelManager::setFolderName - 0x48055c
+GameLevelManager::setIntForKey - 0x49d758
 GameLevelManager::storeSearchResult - 0x47dec0
 GameLevelManager::storeUserName - 0x4754d4
 GameLevelManager::storeUserNames - 0x474d1c
@@ -2376,6 +2389,7 @@ GJGameLevel::getAudioFileName - 0x49e8d8
 GJGameLevel::getAverageDifficulty - 0x49e674
 GJGameLevel::getCoinKey - 0x48f96c
 GJGameLevel::getLengthKey - 0x49e560
+GJGameLevel::getUnpackedLevelDescription - 0x4a16d8
 GJGameLevel::handleStatsConflict - 0x482228
 GJGameLevel::savePercentage - 0x49e170
 GJGameLevel::encodeWithCoder - 0x4a0bd0
@@ -2432,6 +2446,7 @@ GJListLayer::init - 0x4f0054
 GJLocalLevelScoreCell::init - 0x1f2cec
 GJLocalLevelScoreCell::draw - 0x1f2cf8
 GJMapPack::create - 0x478e24
+GJMapPack::create - 0x4a1910
 GJMapPack::completedMaps - 0x4a1dac
 GJMapPack::hasCompletedMapPack - 0x4a1e70
 GJMapPack::parsePackColors - 0x4a1ac8
@@ -2904,14 +2919,18 @@ LevelPage::ccTouchEnded - 0x39fe50
 LevelPage::ccTouchCancelled - 0x39fe58
 LevelPage::registerWithTouchDispatcher - 0x39fe74
 LevelPage::dialogClosed - 0x39fa78
+LevelSearchLayer::clearFilters - 0x54146c
 LevelSearchLayer::getSearchDiffKey - 0x541e38
 LevelSearchLayer::getSearchObject - 0x541ae4
 LevelSearchLayer::init - 0x53d3b8
 LevelSearchLayer::onClearFreeSearch - 0x540128
+LevelSearchLayer::onSearch - 0x53fe68
 LevelSearchLayer::onSearchMode - 0x53fad4
+LevelSearchLayer::onSearchUser - 0x53fff0
 LevelSearchLayer::onSpecialDemon - 0x540b44
 LevelSearchLayer::toggleDifficulty - 0x540640
 LevelSearchLayer::toggleDifficultyNum - 0x540e20
+LevelSearchLayer::toggleStar - 0x540d30
 LevelSearchLayer::toggleTimeNum - 0x540fb4
 LevelSearchLayer::keyBackClicked - 0x542290
 LevelSearchLayer::textInputOpened - 0x5417d0
@@ -3023,6 +3042,7 @@ MenuGameLayer::ccTouchEnded - 0x449e14
 MenuGameLayer::ccTouchCancelled - 0x449e1c
 MenuGameLayer::registerWithTouchDispatcher - 0x449e38
 MenuLayer::scene - 0x30d470
+MenuLayer::onAchievements - 0x30eaa8
 MenuLayer::onGooglePlayGames - 0x30f23c
 MenuLayer::onMoreGames - 0x30ed3c
 MenuLayer::onMyProfile - 0x30ee98

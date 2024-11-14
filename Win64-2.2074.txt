@@ -292,6 +292,8 @@ CCMenuItemToggler::normalTouch - 0x45580
 CCMenuItemToggler::selectedTouch - 0x455a0
 CCMenuItemToggler::toggle - 0x455c0
 CCMenuItemToggler::activate - 0x45490
+CCMenuItemToggler::selected - 0x45440
+CCMenuItemToggler::unselected - 0x454e0
 CCMenuItemToggler::setEnabled - 0x45530
 CCPartAnimSprite::setColor - 0x467c0
 CCPartAnimSprite::setOpacity - 0x468a0
@@ -1950,6 +1952,7 @@ LevelPage::ccTouchBegan - 0x309700
 LevelPage::registerWithTouchDispatcher - 0x9b1a0
 LevelPage::dialogClosed - 0x308c10
 LevelSearchLayer::scene - 0x2f75f0
+LevelSearchLayer::clearFilters - 0x2f9ca0
 LevelSearchLayer::getLevelLenKey - 0x14b660
 LevelSearchLayer::getSearchObject - 0x2fb290
 LevelSearchLayer::init - 0x2f7740
