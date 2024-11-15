@@ -754,6 +754,8 @@ cocos2d::CCAnimation::getDuration - 0x22e714
 cocos2d::CCApplication::sharedApplication - 0x2ab200
 cocos2d::CCApplication::openURL - 0x2aba20
 cocos2d::CCDictionary::create - 0x294464
+cocos2d::CCDictionary::createWithContentsOfFile - 0x294600
+cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2944e8
 cocos2d::CCDictionary::setObject - 0x2935bc
 cocos2d::CCDictionary::setObject - 0x2935bc
 cocos2d::CCDictionary::CCDictionary - 0x292204
@@ -844,6 +846,7 @@ cocos2d::CCDrawNode::ensureCapacity - 0x528728
 cocos2d::CCDrawNode::render - 0x5288b4
 cocos2d::CCDrawNode::init - 0x52877c
 cocos2d::CCDrawNode::draw - 0x52893c
+cocos2d::CCSpriteBatchNode::createWithTexture - 0x132d50
 cocos2d::CCSpriteBatchNode::initWithTexture - 0x132e04
 cocos2d::CCSpriteBatchNode::CCSpriteBatchNode - 0x1330c8
 cocos2d::CCSpriteBatchNode::~CCSpriteBatchNode - 0x133148
@@ -903,6 +906,7 @@ cocos2d::CCMenuItemSprite::getDisabledImage - 0x338ae8
 cocos2d::CCMenuItemSprite::setDisabledImage - 0x338af0
 cocos2d::CCMenuItemSprite::updateImagesVisibility - 0x338f6c
 cocos2d::CCMenu::create - 0x691950
+cocos2d::CCMenu::createWithItem - 0x691cf4
 cocos2d::CCMenu::init - 0x691d14
 cocos2d::CCMenu::addChild - 0x691d1c
 cocos2d::CCMenu::addChild - 0x691d20
@@ -1135,6 +1139,7 @@ CCSpritePlus::setFlipY - 0x3de12c
 GameObject::createWithFrame - 0x4d7884
 GameObject::createWithKey - 0x4d73bc
 GameObject::objectFromVector - 0x4e2090
+GameObject::addColorSprite - 0x4d83b4
 GameObject::addEmptyGlow - 0x4d825c
 GameObject::copyGroups - 0x4e0b44
 GameObject::createAndAddParticle - 0x4dc810
@@ -1545,6 +1550,7 @@ ChallengeNode::create - 0x31a788
 ChallengeNode::init - 0x31ad04
 CharacterColorPage::create - 0x56ee50
 CharacterColorPage::createColorMenu - 0x56ffac
+CharacterColorPage::onClose - 0x56fb64
 CharacterColorPage::onMode - 0x56fc80
 CharacterColorPage::onPlayerColor - 0x570904
 CharacterColorPage::toggleGlow - 0x570384
@@ -1959,8 +1965,9 @@ EditorUI::onNewCustomItem - 0x304d0
 EditorUI::onPause - 0x2afc0
 EditorUI::onPlayback - 0xdce0
 EditorUI::onPlaytest - 0xdef4
-EditorUI::onSelectBuildTab - 0x2b140
+EditorUI::onSelectBuildTab - 0x33940
 EditorUI::onStopPlaytest - 0xe134
+EditorUI::onUngroupSticky - 0xe318
 EditorUI::pasteObjects - 0x35f00
 EditorUI::resetUI - 0x2aeac
 EditorUI::selectBuildTab - 0x33974
@@ -1975,7 +1982,7 @@ EditorUI::showMaxCoinError - 0x345f0
 EditorUI::showMaxError - 0x342fc
 EditorUI::showUI - 0x388f4
 EditorUI::toggleFreeMove - 0xd8b4
-EditorUI::toggleMode - 0xad4c
+EditorUI::toggleMode - 0x2b140
 EditorUI::toggleStickyControls - 0x2d020
 EditorUI::toggleSwipe - 0xd7b4
 EditorUI::transformObjectCall - 0x43bc8
@@ -3235,6 +3242,8 @@ LevelPage::ccTouchEnded - 0x39fe50
 LevelPage::ccTouchCancelled - 0x39fe58
 LevelPage::registerWithTouchDispatcher - 0x39fe74
 LevelPage::dialogClosed - 0x39fa78
+LevelSearchLayer::create - 0x53d2e0
+LevelSearchLayer::scene - 0x53d1e8
 LevelSearchLayer::clearFilters - 0x54146c
 LevelSearchLayer::confirmClearFilters - 0x53f9d8
 LevelSearchLayer::getSearchDiffKey - 0x541e38
@@ -3545,8 +3554,10 @@ ObjectControlGameObject::customObjectSetup - 0x195a5c
 ObjectControlGameObject::getSaveString - 0x1955ec
 ObjectManager::loadCopiedSets - 0x6945cc
 ObjectManager::init - 0x69410c
+ObjectToolbox::sharedState - 0x57b4a8
 ObjectToolbox::gridNodeSizeForKey - 0x6282d0
 ObjectToolbox::init - 0x57b5d0
+OptionsLayer::create - 0x698218
 OptionsLayer::musicSliderChanged - 0x699300
 OptionsLayer::onSecretVault - 0x6990b0
 OptionsLayer::tryEnableRecord - 0x699648
@@ -4027,6 +4038,7 @@ SetGroupIDLayer::create - 0x2965a4
 SetGroupIDLayer::init - 0x296704
 SetGroupIDLayer::onClose - 0x298444
 SetGroupIDLayer::onNextGroupID1 - 0x298c40
+SetGroupIDLayer::onRemoveFromGroup - 0x29ae48
 SetGroupIDLayer::keyBackClicked - 0x29b16c
 SetGroupIDLayer::textInputClosed - 0x29aa40
 SetGroupIDLayer::textChanged - 0x29aa5c

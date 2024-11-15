@@ -774,6 +774,8 @@ cocos2d::CCApplication::sharedApplication - 0x314fe0
 cocos2d::CCApplication::openURL - 0x315dc0
 cocos2d::CCArray::init - 0x7094e0
 cocos2d::CCDictionary::create - 0x2fc010
+cocos2d::CCDictionary::createWithContentsOfFile - 0x2fc1a0
+cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2fc090
 cocos2d::CCDictionary::setObject - 0x2fa5f0
 cocos2d::CCDictionary::setObject - 0x2fa5f0
 cocos2d::CCDictionary::CCDictionary - 0x2f9ab0
@@ -866,6 +868,7 @@ cocos2d::CCDrawNode::listenBackToForeground - 0x5fb280
 cocos2d::CCDrawNode::render - 0x5f9770
 cocos2d::CCDrawNode::init - 0x5f9610
 cocos2d::CCDrawNode::draw - 0x5f9800
+cocos2d::CCSpriteBatchNode::createWithTexture - 0x165920
 cocos2d::CCSpriteBatchNode::initWithTexture - 0x165a10
 cocos2d::CCSpriteBatchNode::CCSpriteBatchNode - 0x165ce0
 cocos2d::CCSpriteBatchNode::~CCSpriteBatchNode - 0x165d90
@@ -1162,6 +1165,7 @@ CCSpritePlus::setFlipX - 0x46ee60
 CCSpritePlus::setFlipY - 0x46ef30
 GameObject::createWithFrame - 0x58a280
 GameObject::createWithKey - 0x585720
+GameObject::addColorSprite - 0x58cc00
 GameObject::addColorSpriteToParent - 0x592300
 GameObject::addColorSpriteToSelf - 0x5a6020
 GameObject::assignUniqueID - 0x58a5a0
@@ -1583,6 +1587,7 @@ ChallengeNode::onClaimReward - 0x38c470
 CharacterColorPage::create - 0x6467b0
 CharacterColorPage::colorForIndex - 0x648300
 CharacterColorPage::offsetForIndex - 0x648570
+CharacterColorPage::onClose - 0x647590
 CharacterColorPage::onMode - 0x647690
 CharacterColorPage::onPlayerColor - 0x648320
 CharacterColorPage::toggleGlow - 0x647d80
@@ -1971,6 +1976,8 @@ EditorPauseLayer::onResume - 0x2818a0
 EditorPauseLayer::onSave - 0x2819f0
 EditorPauseLayer::onSaveAndExit - 0x281980
 EditorPauseLayer::onSaveAndPlay - 0x281910
+EditorPauseLayer::onSelectAllLeft - 0x2820b0
+EditorPauseLayer::onSelectAllRight - 0x2820d0
 EditorPauseLayer::uncheckAllPortals - 0x281d60
 EditorPauseLayer::keyBackClicked - 0x283060
 EditorPauseLayer::keyDown - 0x283150
@@ -2017,6 +2024,8 @@ EditorUI::onPlayback - 0xc930
 EditorUI::onPlaytest - 0xcb90
 EditorUI::onSelectBuildTab - 0x34310
 EditorUI::onStopPlaytest - 0xcdd0
+EditorUI::onUngroupSticky - 0xcfc0
+EditorUI::pasteObjects - 0x3ac10
 EditorUI::playtestStopped - 0x3df80
 EditorUI::processSelectObjects - 0x3d880
 EditorUI::resetUI - 0x2ac40
@@ -2034,10 +2043,13 @@ EditorUI::showMaxCoinError - 0x35020
 EditorUI::showMaxError - 0x34d70
 EditorUI::showUI - 0x3de00
 EditorUI::sliderChanged - 0xbd50
+EditorUI::toggleFreeMove - 0xc4c0
 EditorUI::toggleMode - 0x2af00
 EditorUI::toggleStickyControls - 0x2d590
+EditorUI::toggleSwipe - 0xc3d0
 EditorUI::transformObject - 0x4be30
 EditorUI::transformObjectCall - 0x4ae10
+EditorUI::updateDeleteButtons - 0x325d0
 EditorUI::updateEditButtonColor - 0x3f120
 EditorUI::updateEditColorButton - 0x497f0
 EditorUI::updateGridNodeSize - 0x2f620
@@ -3209,6 +3221,7 @@ LevelBrowserLayer::onMyOnlineLevels - 0x47a430
 LevelBrowserLayer::onNew - 0x47a340
 LevelBrowserLayer::onNextPage - 0x479d50
 LevelBrowserLayer::onPrevPage - 0x479d10
+LevelBrowserLayer::onRefresh - 0x47acf0
 LevelBrowserLayer::onRemoveAllFavorites - 0x47a7c0
 LevelBrowserLayer::onSearch - 0x47b290
 LevelBrowserLayer::onToggleAllObjects - 0x47a2b0
@@ -3416,6 +3429,7 @@ LevelPage::ccTouchCancelled - 0x424d50
 LevelPage::registerWithTouchDispatcher - 0x424d90
 LevelPage::dialogClosed - 0x424940
 LevelSearchLayer::create - 0x610ff0
+LevelSearchLayer::scene - 0x610eb0
 LevelSearchLayer::clearFilters - 0x6151b0
 LevelSearchLayer::confirmClearFilters - 0x6136c0
 LevelSearchLayer::getSearchObject - 0x615780
@@ -3711,6 +3725,7 @@ ObjectControlGameObject::init - 0x1dcad0
 ObjectControlGameObject::customObjectSetup - 0x1dd030
 ObjectControlGameObject::getSaveString - 0x1dcb20
 ObjectManager::init - 0x77f750
+ObjectToolbox::sharedState - 0x654080
 ObjectToolbox::gridNodeSizeForKey - 0x704100
 ObjectToolbox::init - 0x6541c0
 OptionsCell::loadFromObject - 0x232740
@@ -4211,6 +4226,7 @@ SetFolderPopup::valueChanged - 0x29aa90
 SetFolderPopup::setTextPopupClosed - 0x29af60
 SetGroupIDLayer::create - 0x2fe420
 SetGroupIDLayer::init - 0x2fe5f0
+SetGroupIDLayer::onRemoveFromGroup - 0x3032f0
 SetGroupIDLayer::keyBackClicked - 0x303620
 SetGroupIDLayer::textInputClosed - 0x302ea0
 SetGroupIDLayer::textChanged - 0x302ee0

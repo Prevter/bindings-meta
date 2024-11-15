@@ -8,6 +8,7 @@ cocos2d::CCLightning::draw - 0x44700
 GJDropDownLayer::init - 0x24feb0
 GJDropDownLayer::draw - 0x426f0
 GJDropDownLayer::ccTouchBegan - 0x3c6a0
+GJDropDownLayer::registerWithTouchDispatcher - 0x425d0
 GJDropDownLayer::keyBackClicked - 0x250330
 GJDropDownLayer::enterLayer - 0x425a0
 GJDropDownLayer::exitLayer - 0x250350
@@ -733,6 +734,7 @@ EditorPauseLayer::doResetUnused - 0x2d2b80
 EditorPauseLayer::init - 0xd8990
 EditorPauseLayer::onCreateExtras - 0xdb760
 EditorPauseLayer::onExitEditor - 0xdcd60
+EditorPauseLayer::onExitNoSave - 0xdce30
 EditorPauseLayer::onResume - 0xdc140
 EditorPauseLayer::onSave - 0xdcbf0
 EditorPauseLayer::onSaveAndExit - 0xdcd20
@@ -967,6 +969,7 @@ FMODAudioEngine::setup - 0x53bc0
 FMODAudioEngine::setupAudioEngine - 0x540a0
 FMODAudioEngine::start - 0x55280
 FMODAudioEngine::stopAllEffects - 0x598b0
+FMODAudioEngine::stopAllMusic - 0x59d70
 FMODAudioEngine::stopChannel - 0x58810
 FMODAudioEngine::storeEffect - 0x59510
 FMODAudioEngine::unloadAllEffects - 0x59aa0
