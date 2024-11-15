@@ -721,6 +721,7 @@ cocos2d::CCLabelBMFont::create - 0x4f573c
 cocos2d::CCLabelBMFont::create - 0x4f55f4
 cocos2d::CCLabelBMFont::createBatched - 0x4f5c40
 cocos2d::CCLabelBMFont::initWithString - 0x4f5984
+cocos2d::CCLabelBMFont::getFntFile - 0x4f8678
 cocos2d::CCLabelBMFont::setFntFile - 0x4f85a4
 cocos2d::CCLabelBMFont::createFontChars - 0x4f6020
 cocos2d::CCLabelBMFont::limitLabelWidth - 0x4f869c
@@ -1090,7 +1091,9 @@ AccountLayer::accountStatusChanged - 0xb6874
 AccountLayer::FLAlert_Clicked - 0xb71cc
 FLAlertLayer::create - 0x3f5598
 FLAlertLayer::create - 0x3f5738
+FLAlertLayer::incrementForcePrio - 0x3f6294
 FLAlertLayer::init - 0x3f5800
+FLAlertLayer::init - 0x3f61c0
 FLAlertLayer::onBtn1 - 0x3f62e4
 FLAlertLayer::onBtn2 - 0x2f6344
 FLAlertLayer::ccTouchBegan - 0x3f6568
@@ -1853,7 +1856,9 @@ DailyLevelPage::createDailyNode - 0x1d2700
 DailyLevelPage::exitDailyNode - 0x1d2b34
 DailyLevelPage::getDailyTimeString - 0x1d1e6c
 DailyLevelPage::init - 0x1d0ebc
+DailyLevelPage::onClose - 0x1d1db4
 DailyLevelPage::onTheSafe - 0x1d1e00
+DailyLevelPage::updateTimers - 0x1d24a8
 DailyLevelPage::registerWithTouchDispatcher - 0x1d3438
 DailyLevelPage::keyBackClicked - 0x1d339c
 DailyLevelPage::show - 0x1d3210
@@ -2194,7 +2199,9 @@ FriendRequestPopup::onClosePopup - 0x23b228
 FriendRequestPopup::FLAlert_Clicked - 0x23b3a4
 FriendsProfilePage::create - 0x56a370
 FriendsProfilePage::init - 0x56a498
+FriendsProfilePage::onBlocked - 0x56abb8
 FriendsProfilePage::onClose - 0x56ab00
+FriendsProfilePage::onUpdate - 0x56ac44
 FriendsProfilePage::setupUsersBrowser - 0x56aca8
 FriendsProfilePage::registerWithTouchDispatcher - 0x56b2b4
 FriendsProfilePage::keyBackClicked - 0x56b2a8
@@ -2208,6 +2215,8 @@ GameCell::draw - 0x291e34
 GameLevelManager::responseToDict - 0x477c14
 GameLevelManager::sharedState - 0x4641c4
 GameLevelManager::acceptFriendRequest - 0x497a7c
+GameLevelManager::accountIDForUserID - 0x475c08
+GameLevelManager::addDLToActive - 0x47e834
 GameLevelManager::blockUser - 0x498a24
 GameLevelManager::createNewLevel - 0x473a40
 GameLevelManager::createNewLevelList - 0x474704
@@ -2225,9 +2234,12 @@ GameLevelManager::downloadUserMessage - 0x491908
 GameLevelManager::encodeDataTo - 0x480b48
 GameLevelManager::getAccountCommentKey - 0x4935b0
 GameLevelManager::getAccountComments - 0x493268
+GameLevelManager::getActiveDailyID - 0x49c9d0
 GameLevelManager::getBasePostString - 0x4826c4
 GameLevelManager::getBoolForKey - 0x49da8c
 GameLevelManager::getCommentKey - 0x492fb4
+GameLevelManager::getCompletedLevels - 0x47b4a4
+GameLevelManager::getDailyTimer - 0x49ca04
 GameLevelManager::getDeleteCommentKey - 0x494660
 GameLevelManager::getDeleteMessageKey - 0x492778
 GameLevelManager::getDescKey - 0x494610
@@ -2266,6 +2278,7 @@ GameLevelManager::getSavedLevels - 0x47af84
 GameLevelManager::getSearchScene - 0x47edb8
 GameLevelManager::getStoredLevelComments - 0x494a28
 GameLevelManager::getStoredOnlineLevels - 0x47e2d8
+GameLevelManager::getTimeLeft - 0x47ea48
 GameLevelManager::getTopArtists - 0x48fa04
 GameLevelManager::getTopArtistsKey - 0x48fdc4
 GameLevelManager::getUploadMessageKey - 0x491c84
@@ -2274,9 +2287,14 @@ GameLevelManager::getUserList - 0x499414
 GameLevelManager::getUserMessages - 0x490a64
 GameLevelManager::getUsers - 0x48fdec
 GameLevelManager::gotoLevelPage - 0x47dd44
+GameLevelManager::handleIt - 0x46479c
+GameLevelManager::handleItDelayed - 0x4669d0
+GameLevelManager::handleItND - 0x466ce4
 GameLevelManager::hasDailyStateBeenLoaded - 0x49c950
+GameLevelManager::hasDownloadedList - 0x48911c
 GameLevelManager::hasLikedItemFullCheck - 0x49a5c4
 GameLevelManager::invalidateUserList - 0x4996f8
+GameLevelManager::isDLActive - 0x47e73c
 GameLevelManager::isFollowingUser - 0x47fda8
 GameLevelManager::likeItem - 0x499d68
 GameLevelManager::limitSavedLevels - 0x47f58c
@@ -2284,6 +2302,7 @@ GameLevelManager::makeTimeStamp - 0x47e18c
 GameLevelManager::onGetGJChallengesCompleted - 0x46f5b0
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x468fa0
 GameLevelManager::onGetOnlineLevelsCompleted - 0x46708c
+GameLevelManager::onProcessHttpRequestCompleted - 0x464438
 GameLevelManager::onRestoreItemsCompleted - 0x46acc0
 GameLevelManager::onUploadCommentCompleted - 0x469db8
 GameLevelManager::performNetworkTest - 0x4642b0
@@ -2296,6 +2315,7 @@ GameLevelManager::removeDLFromActive - 0x47e944
 GameLevelManager::removeFriend - 0x498490
 GameLevelManager::reportLevel - 0x49cd30
 GameLevelManager::requestUserAccess - 0x49ab48
+GameLevelManager::resetCommentTimersForLevelID - 0x495b6c
 GameLevelManager::resetDailyLevelState - 0x49c920
 GameLevelManager::restoreItems - 0x49ca38
 GameLevelManager::saveFetchedLevels - 0x477ed0
@@ -2416,6 +2436,7 @@ GameStatsManager::getTotalCollectedCurrency - 0x67fc4
 GameStatsManager::getTotalCollectedDiamonds - 0x68c58
 GameStatsManager::hasClaimedListReward - 0x672c8
 GameStatsManager::hasCompletedChallenge - 0x66ef8
+GameStatsManager::hasCompletedDailyLevel - 0x67750
 GameStatsManager::hasCompletedGauntletLevel - 0x60f64
 GameStatsManager::hasCompletedLevel - 0x60e04
 GameStatsManager::hasCompletedMainLevel - 0x60d6c
@@ -2729,6 +2750,7 @@ GJLevelList::completedLevels - 0x4a4a48
 GJLevelList::createWithCoder - 0x4a4f38
 GJLevelList::dataLoaded - 0x4a4f68
 GJLevelList::frameForListDifficulty - 0x4a54d8
+GJLevelList::getUnpackedDescription - 0x4a39d0
 GJLevelList::handleStatsConflict - 0x4a37fc
 GJLevelList::hasMatchingLevels - 0x4a3814
 GJLevelList::parseListLevels - 0x487a60
@@ -3001,6 +3023,7 @@ InfoLayer::loadPage - 0x6ae3e8
 InfoLayer::onComment - 0x6ad908
 InfoLayer::onLevelInfo - 0x6ae924
 InfoLayer::onMore - 0x6ad570
+InfoLayer::onRefreshComments - 0x6aee78
 InfoLayer::setupCommentsBrowser - 0x6ae750
 InfoLayer::setupLevelInfo - 0x6ad5cc
 InfoLayer::toggleCommentMode - 0x6ae170
@@ -3044,6 +3067,8 @@ LabelGameObject::getSaveString - 0x171028
 LabelGameObject::setObjectColor - 0x170f88
 LabelGameObject::updateTextKerning - 0x1707dc
 LabelGameObject::getTextKerning - 0x199b20
+LeaderboardsLayer::create - 0x45bf64
+LeaderboardsLayer::scene - 0x45be78
 LeaderboardsLayer::init - 0x45c030
 LeaderboardsLayer::onInfo - 0x45c5c0
 LeaderboardsLayer::selectLeaderboard - 0x45cc24
@@ -3639,6 +3664,7 @@ ParticlePreviewLayer::draw - 0x3d4c08
 ParticlePreviewLayer::visit - 0x3d4a80
 PauseLayer::create - 0x34c250
 PauseLayer::goEdit - 0x34df78
+PauseLayer::musicSliderChanged - 0x34daec
 PauseLayer::onEdit - 0x34de9c
 PauseLayer::onNormalMode - 0x34d904
 PauseLayer::onPracticeMode - 0x34d8ac
@@ -3845,6 +3871,7 @@ ProfilePage::onMyLevels - 0x6ba314
 ProfilePage::onMyLists - 0x6ba4e8
 ProfilePage::onSendMessage - 0x6b9b4c
 ProfilePage::onSettings - 0x6ba868
+ProfilePage::onStatInfo - 0x6b89e4
 ProfilePage::onTwitch - 0x6b9124
 ProfilePage::onTwitter - 0x6b8f6c
 ProfilePage::onYouTube - 0x6b8dbc
