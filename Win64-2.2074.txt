@@ -778,6 +778,8 @@ EditorUI::editGroup - 0x11d880
 EditorUI::editObject - 0x11a510
 EditorUI::findSnapObject - 0x121690
 EditorUI::findSnapObject - 0x121790
+EditorUI::flipObjectsX - 0x11f0f0
+EditorUI::flipObjectsY - 0x11f2d0
 EditorUI::getCreateBtn - 0x10d2a0
 EditorUI::getGroupCenter - 0x121190
 EditorUI::getLimitedPosition - 0x11e6f0
@@ -1752,8 +1754,11 @@ LevelAreaInnerLayer::onBack - 0x2c04a0
 LevelAreaInnerLayer::onDoor - 0x2bffd0
 LevelAreaInnerLayer::keyBackClicked - 0x2c0550
 LevelAreaInnerLayer::dialogClosed - 0x2bf9a0
+LevelAreaInnerLayer::onExit - 0x2c0500
+LevelAreaLayer::init - 0x2bc1d0
 LevelAreaLayer::keyBackClicked - 0x2be1c0
 LevelAreaLayer::dialogClosed - 0x2bd3b0
+LevelAreaLayer::onExit - 0x2be170
 LevelBrowserLayer::~LevelBrowserLayer - 0x2c07c0
 LevelBrowserLayer::create - 0x2c09f0
 LevelBrowserLayer::scene - 0x2c09a0

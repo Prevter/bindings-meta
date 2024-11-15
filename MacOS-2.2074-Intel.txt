@@ -12,9 +12,11 @@ cocos2d::CCEGLViewProtocol::isScissorEnabled - 0x4f9e10
 cocos2d::CCEGLViewProtocol::getScissorRect - 0x4f9e30
 cocos2d::CCEGLViewProtocol::setViewName - 0x4f9ed0
 cocos2d::CCEGLViewProtocol::pollInputEvents - 0x4fa610
+cocos2d::CCEaseIn::create - 0x4fe910
 cocos2d::CCEaseIn::copyWithZone - 0x4fe9d0
 cocos2d::CCEaseIn::update - 0x4feae0
 cocos2d::CCEaseIn::reverse - 0x4feb10
+cocos2d::CCEaseOut::create - 0x4feb40
 cocos2d::CCEaseOut::copyWithZone - 0x4fec00
 cocos2d::CCEaseOut::update - 0x4fed10
 cocos2d::CCEaseOut::reverse - 0x4fed40
@@ -25,6 +27,7 @@ cocos2d::CCEaseInOut::reverse - 0x4fefb0
 cocos2d::CCEaseBackIn::copyWithZone - 0x5012e0
 cocos2d::CCEaseBackIn::update - 0x5013e0
 cocos2d::CCEaseBackIn::reverse - 0x501410
+cocos2d::CCEaseBackOut::create - 0x501430
 cocos2d::CCEaseBackOut::copyWithZone - 0x5014d0
 cocos2d::CCEaseBackOut::update - 0x5015d0
 cocos2d::CCEaseBackOut::reverse - 0x501610
@@ -32,9 +35,12 @@ cocos2d::CCEaseBounceOut::create - 0x500c50
 cocos2d::CCEaseBounceOut::copyWithZone - 0x500cf0
 cocos2d::CCEaseBounceOut::update - 0x500df0
 cocos2d::CCEaseBounceOut::reverse - 0x500eb0
+cocos2d::CCEaseElasticIn::create - 0x4ffe70
+cocos2d::CCEaseElasticIn::create - 0x4ffe90
 cocos2d::CCEaseElasticIn::copyWithZone - 0x4fff50
 cocos2d::CCEaseElasticIn::update - 0x500060
 cocos2d::CCEaseElasticIn::reverse - 0x500100
+cocos2d::CCEaseElasticOut::create - 0x5001f0
 cocos2d::CCEaseElasticOut::create - 0x500130
 cocos2d::CCEaseElasticOut::copyWithZone - 0x500210
 cocos2d::CCEaseElasticOut::update - 0x500320
@@ -87,6 +93,7 @@ cocos2d::CCMoveTo::startWithTarget - 0x3a5750
 cocos2d::CCRemoveSelf::copyWithZone - 0x796cb0
 cocos2d::CCRemoveSelf::update - 0x796c30
 cocos2d::CCRemoveSelf::reverse - 0x796c50
+cocos2d::CCScaleBy::create - 0x3a7430
 cocos2d::CCScaleBy::copyWithZone - 0x3a75c0
 cocos2d::CCScaleBy::startWithTarget - 0x3a76d0
 cocos2d::CCScaleBy::reverse - 0x3a7730
@@ -99,6 +106,8 @@ cocos2d::CCTintTo::create - 0x3a83a0
 cocos2d::CCTintTo::copyWithZone - 0x3a84c0
 cocos2d::CCTintTo::update - 0x3a8630
 cocos2d::CCTintTo::startWithTarget - 0x3a85d0
+cocos2d::CCAction::CCAction - 0x5dc9c0
+cocos2d::CCAction::~CCAction - 0x5dca60
 cocos2d::CCAction::description - 0x5dcb10
 cocos2d::CCAction::copyWithZone - 0x5dcb30
 cocos2d::CCAction::update - 0x5dcc30
@@ -230,6 +239,8 @@ cocos2d::CCParticleSystem::setBlendFunc - 0x7b5de0
 cocos2d::CCParticleSystem::getBlendFunc - 0x7b5dc0
 cocos2d::CCParticleSystem::getTexture - 0x7b5850
 cocos2d::CCParticleSystem::setTexture - 0x7b5710
+cocos2d::CCParticleSnow::create - 0x473c10
+cocos2d::CCParticleSnow::createWithTotalParticles - 0x473c90
 cocos2d::CCParticleSystemQuad::create - 0x5eb190
 cocos2d::CCParticleSystemQuad::create - 0x5ec500
 cocos2d::CCParticleSystemQuad::createWithTotalParticles - 0x5eb270
@@ -259,6 +270,7 @@ cocos2d::CCFadeIn::create - 0x3a7bb0
 cocos2d::CCFadeIn::copyWithZone - 0x3a7c50
 cocos2d::CCFadeIn::update - 0x3a7d20
 cocos2d::CCFadeIn::reverse - 0x3a7d80
+cocos2d::CCFadeOut::create - 0x3a7e30
 cocos2d::CCFadeOut::copyWithZone - 0x3a7ed0
 cocos2d::CCFadeOut::update - 0x3a7fa0
 cocos2d::CCFadeOut::reverse - 0x3a8010
@@ -301,16 +313,19 @@ cocos2d::CCGLProgram::~CCGLProgram - 0x417cb0
 cocos2d::CCGLProgram::CCGLProgram - 0x417c10
 cocos2d::CCGLProgram::addAttribute - 0x4180e0
 cocos2d::CCGLProgram::description - 0x4180b0
+cocos2d::CCGLProgram::link - 0x418250
 cocos2d::CCGLProgram::reset - 0x419530
 cocos2d::CCGLProgram::updateUniforms - 0x418100
 cocos2d::CCGLProgram::use - 0x418200
 cocos2d::CCNode::create - 0x260d40
 cocos2d::CCNode::CCNode - 0x260210
 cocos2d::CCNode::~CCNode - 0x260520
+cocos2d::CCNode::getActionByTag - 0x261ff0
 cocos2d::CCNode::boundingBox - 0x260cd0
 cocos2d::CCNode::convertToNodeSpace - 0x262c40
 cocos2d::CCNode::convertToWorldSpace - 0x262c80
 cocos2d::CCNode::description - 0x260e70
+cocos2d::CCNode::resumeSchedulerAndActions - 0x261c50
 cocos2d::CCNode::runAction - 0x261f80
 cocos2d::CCNode::schedule - 0x2621b0
 cocos2d::CCNode::schedule - 0x262210
@@ -319,6 +334,7 @@ cocos2d::CCNode::scheduleOnce - 0x262240
 cocos2d::CCNode::scheduleUpdate - 0x262090
 cocos2d::CCNode::scheduleUpdateWithPriority - 0x2620c0
 cocos2d::CCNode::scheduleUpdateWithPriorityLua - 0x2620f0
+cocos2d::CCNode::stopActionByTag - 0x261fd0
 cocos2d::CCNode::stopAllActions - 0x260e30
 cocos2d::CCNode::unschedule - 0x262270
 cocos2d::CCNode::unscheduleAllSelectors - 0x260e50
@@ -470,7 +486,9 @@ cocos2d::CCLayer::didAccelerate - 0x49d9f0
 cocos2d::CCLayer::keyBackClicked - 0x49dc70
 cocos2d::CCLayer::keyMenuClicked - 0x49dd10
 cocos2d::CCLayer::keyDown - 0x49dd90
+cocos2d::CCLayerGradient::create - 0x4a0430
 cocos2d::CCLayerGradient::create - 0x4a06f0
+cocos2d::CCLayerGradient::create - 0x4a0780
 cocos2d::CCLayerGradient::init - 0x4a07f0
 cocos2d::CCLayerGradient::updateColor - 0x4a0930
 cocos2d::CCLayerGradient::initWithColor - 0x4a0820
@@ -622,6 +640,7 @@ cocos2d::CCDirector::purgeDirector - 0x471780
 cocos2d::CCDirector::pushScene - 0x471230
 cocos2d::CCDirector::removeStatsLabel - 0x471990
 cocos2d::CCDirector::replaceScene - 0x4712e0
+cocos2d::CCDirector::resetSmoothFixCounter - 0x4706e0
 cocos2d::CCDirector::resume - 0x471910
 cocos2d::CCDirector::runWithScene - 0x471190
 cocos2d::CCDirector::showFPSLabel - 0x470510
@@ -790,6 +809,7 @@ cocos2d::CCAnimation::getDuration - 0x285030
 cocos2d::CCApplication::sharedApplication - 0x314fe0
 cocos2d::CCApplication::openURL - 0x315dc0
 cocos2d::CCArray::init - 0x7094e0
+cocos2d::CCArray::stringAtIndex - 0x709d20
 cocos2d::CCDictionary::create - 0x2fc010
 cocos2d::CCDictionary::createWithContentsOfFile - 0x2fc1a0
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2fc090
@@ -801,6 +821,7 @@ cocos2d::CCDictionary::allKeys - 0x2f9d40
 cocos2d::CCDictionary::count - 0x2f9d20
 cocos2d::CCDictionary::objectForKey - 0x2fa0b0
 cocos2d::CCDictionary::objectForKey - 0x2fa440
+cocos2d::CCDictionary::removeAllObjects - 0x2f9b10
 cocos2d::CCDictionary::removeObjectForElememt - 0x2fb910
 cocos2d::CCDictionary::removeObjectForKey - 0x2fb510
 cocos2d::CCDictionary::removeObjectForKey - 0x2fba60
@@ -840,6 +861,7 @@ cocos2d::CCTransitionFade::onEnter - 0xd9180
 cocos2d::CCTransitionFade::onExit - 0xd92b0
 cocos2d::CCTransitionFade::initWithDuration - 0xd9160
 cocos2d::CCTransitionFade::initWithDuration - 0xd9110
+cocos2d::CCTransitionRotoZoom::create - 0xd5550
 cocos2d::CCTransitionRotoZoom::onEnter - 0xd56c0
 cocos2d::CCTransitionScene::~CCTransitionScene - 0xd4e00
 cocos2d::CCTransitionScene::onEnter - 0xd5240
@@ -848,6 +870,29 @@ cocos2d::CCTransitionScene::cleanup - 0xd52f0
 cocos2d::CCTransitionScene::draw - 0xd4ff0
 cocos2d::CCTransitionScene::initWithDuration - 0xd4f20
 cocos2d::CCTransitionScene::sceneOrder - 0xd4fe0
+cocos2d::CCTransitionCrossFade::create - 0xd9450
+cocos2d::CCTransitionFadeBL::create - 0xda550
+cocos2d::CCTransitionFadeDown::create - 0xda950
+cocos2d::CCTransitionFadeTR::create - 0xda220
+cocos2d::CCTransitionFadeUp::create - 0xda750
+cocos2d::CCTransitionFlipAngular::create - 0xd8150
+cocos2d::CCTransitionFlipX::create - 0xd7990
+cocos2d::CCTransitionFlipY::create - 0xd7d70
+cocos2d::CCTransitionJumpZoom::create - 0xd59a0
+cocos2d::CCTransitionMoveInB::create - 0xd6580
+cocos2d::CCTransitionMoveInL::create - 0xd5d90
+cocos2d::CCTransitionMoveInR::create - 0xd6100
+cocos2d::CCTransitionShrinkGrow::create - 0xd73f0
+cocos2d::CCTransitionSlideInB::create - 0xd7130
+cocos2d::CCTransitionSlideInL::create - 0xd69d0
+cocos2d::CCTransitionSlideInR::create - 0xd6bb0
+cocos2d::CCTransitionSlideInT::create - 0xd6e70
+cocos2d::CCTransitionSplitCols::create - 0xd9cf0
+cocos2d::CCTransitionSplitRows::create - 0xda040
+cocos2d::CCTransitionTurnOffTiles::create - 0xd99e0
+cocos2d::CCTransitionZoomFlipAngular::create - 0xd8e40
+cocos2d::CCTransitionZoomFlipX::create - 0xd8590
+cocos2d::CCTransitionZoomFlipY::create - 0xd89e0
 cocos2d::CCBlink::create - 0x3a7800
 cocos2d::CCBlink::copyWithZone - 0x3a7960
 cocos2d::CCBlink::update - 0x3a7a70
@@ -871,6 +916,7 @@ cocos2d::CCClippingNode::visit - 0x709030
 cocos2d::CCClippingNode::setStencil - 0x7093a0
 cocos2d::CCClippingNode::setAlphaThreshold - 0x7093f0
 cocos2d::CCClippingNode::setInverted - 0x709410
+cocos2d::CCDrawNode::create - 0x5f94f0
 cocos2d::CCDrawNode::setBlendFunc - 0x5fb270
 cocos2d::CCDrawNode::CCDrawNode - 0x5f9230
 cocos2d::CCDrawNode::~CCDrawNode - 0x5f93c0
@@ -1467,6 +1513,7 @@ CameraTriggerGameObject::customObjectSetup - 0x1d0760
 CameraTriggerGameObject::getSaveString - 0x1cc650
 CCAlertCircle::init - 0x1686a0
 CCAlertCircle::draw - 0x168730
+CCBlockLayer::decrementForcePrio - 0x502150
 CCBlockLayer::init - 0x501df0
 CCBlockLayer::draw - 0x5020a0
 CCBlockLayer::ccTouchBegan - 0x5020d0
@@ -1486,6 +1533,7 @@ CCBlockLayer::enterAnimFinished - 0x502030
 CCBlockLayer::disableUI - 0x501f10
 CCBlockLayer::enableUI - 0x501f20
 CCCircleWave::create - 0x167ae0
+CCCircleWave::create - 0x167ad0
 CCCircleWave::followObject - 0x167ea0
 CCCircleWave::init - 0x167bd0
 CCCircleWave::updatePosition - 0x167e60
@@ -1558,6 +1606,7 @@ CCSpriteWithHue::initWithSpriteFrame - 0x5d8a80
 CCSpriteWithHue::getShaderName - 0x5d8300
 CCSpriteWithHue::shaderBody - 0x5d8bc0
 CCSpriteWithHue::updateColor - 0x5d8be0
+CCSpriteGrayscale::createWithSpriteFrameName - 0x5d9940
 CCSpriteGrayscale::getShaderName - 0x5d94e0
 CCSpriteGrayscale::shaderBody - 0x5d92d0
 CCSpritePart::setVisible - 0x362320
@@ -2019,6 +2068,7 @@ EditorPauseLayer::onSaveAndExit - 0x281980
 EditorPauseLayer::onSaveAndPlay - 0x281910
 EditorPauseLayer::onSelectAllLeft - 0x2820b0
 EditorPauseLayer::onSelectAllRight - 0x2820d0
+EditorPauseLayer::saveLevel - 0x282980
 EditorPauseLayer::uncheckAllPortals - 0x281d60
 EditorPauseLayer::keyBackClicked - 0x283060
 EditorPauseLayer::keyDown - 0x283150
@@ -2044,9 +2094,13 @@ EditorUI::editButton2Usable - 0x492e0
 EditorUI::editButtonUsable - 0x48580
 EditorUI::editGroup - 0x2c8f0
 EditorUI::editObject - 0x2b550
+EditorUI::flipObjectsX - 0x43d70
+EditorUI::flipObjectsY - 0x43ba0
+EditorUI::getCreateBtn - 0x33c60
 EditorUI::getCreateMenuItemButton - 0x2f190
 EditorUI::getEditColorTargets - 0x4a120
 EditorUI::getRelativeOffset - 0x4dc100
+EditorUI::getSelectedObjects - 0x3d330
 EditorUI::getSnapAngle - 0x4ad60
 EditorUI::getSpriteButton - 0xc2d0
 EditorUI::getXMin - 0x2f470
@@ -2054,10 +2108,12 @@ EditorUI::init - 0x9710
 EditorUI::isSpecialSnapObject - 0x4c2f0
 EditorUI::moveForCommand - 0x4a7d0
 EditorUI::moveGamelayer - 0x2f800
+EditorUI::moveObject - 0x3ef90
 EditorUI::moveObjectCall - 0x49970
 EditorUI::moveObjectCall - 0x4a9d0
 EditorUI::onCreate - 0x2e600
 EditorUI::onDeleteInfo - 0x32320
+EditorUI::onDeleteSelected - 0xc7a0
 EditorUI::onDeleteSelectedType - 0x32240
 EditorUI::onNewCustomItem - 0x30d30
 EditorUI::onPause - 0x2ad50
@@ -2298,6 +2354,8 @@ GameLevelManager::acceptFriendRequest - 0x53e840
 GameLevelManager::accountIDForUserID - 0x518ae0
 GameLevelManager::addDLToActive - 0x5228d0
 GameLevelManager::blockUser - 0x53f840
+GameLevelManager::createAndGetLevelLists - 0x51b840
+GameLevelManager::createAndGetScores - 0x51cf60
 GameLevelManager::createNewLevel - 0x5165d0
 GameLevelManager::createPageInfo - 0x522710
 GameLevelManager::dataLoaded - 0x525360
@@ -2386,10 +2444,14 @@ GameLevelManager::limitSavedLevels - 0x574700
 GameLevelManager::makeTimeStamp - 0x522290
 GameLevelManager::onDeleteServerLevelListCompleted - 0x514f40
 GameLevelManager::onGetGJChallengesCompleted - 0x510b00
+GameLevelManager::onGetLeaderboardScoresCompleted - 0x50a9d0
+GameLevelManager::onGetLevelListsCompleted - 0x5145d0
+GameLevelManager::onGetOnlineLevelsCompleted - 0x508660
 GameLevelManager::onProcessHttpRequestCompleted - 0x504de0
 GameLevelManager::onRestoreItemsCompleted - 0x50cc20
 GameLevelManager::onUpdateUserScoreCompleted - 0x50a6c0
 GameLevelManager::onUploadCommentCompleted - 0x50b830
+GameLevelManager::onUploadLevelCompleted - 0x5083c0
 GameLevelManager::onUploadLevelListCompleted - 0x514d50
 GameLevelManager::performNetworkTest - 0x504c40
 GameLevelManager::ProcessHttpRequest - 0x504fa0
@@ -2397,6 +2459,7 @@ GameLevelManager::processOnDownloadLevelCompleted - 0x52e460
 GameLevelManager::rateDemon - 0x531730
 GameLevelManager::rateStars - 0x52fd00
 GameLevelManager::readFriendRequest - 0x53edd0
+GameLevelManager::removeDLFromActive - 0x5229d0
 GameLevelManager::removeFriend - 0x53f2b0
 GameLevelManager::reportLevel - 0x543d30
 GameLevelManager::requestUserAccess - 0x5419f0
@@ -2410,6 +2473,7 @@ GameLevelManager::setBoolForKey - 0x544920
 GameLevelManager::setFolderName - 0x524790
 GameLevelManager::setIntForKey - 0x544720
 GameLevelManager::storeDailyLevelState - 0x543800
+GameLevelManager::storeSearchResult - 0x521fe0
 GameLevelManager::storeUserName - 0x5181b0
 GameLevelManager::storeUserNames - 0x5179d0
 GameLevelManager::submitUserInfo - 0x533e90
@@ -2419,6 +2483,7 @@ GameLevelManager::unblockUser - 0x53fdd0
 GameLevelManager::unfollowUser - 0x5240e0
 GameLevelManager::updateDescription - 0x5405d0
 GameLevelManager::updateLevel - 0x52f9a0
+GameLevelManager::updateSavedLevelList - 0x52c630
 GameLevelManager::updateUserScore - 0x531c80
 GameLevelManager::uploadComment - 0x53b480
 GameLevelManager::uploadFriendRequest - 0x53d870
@@ -2434,6 +2499,7 @@ GameLevelOptionsLayer::setupOptions - 0x29eeb0
 GameLevelOptionsLayer::didToggle - 0x29ef20
 GameManager::sharedState - 0x363400
 GameManager::activeIconForType - 0x36d480
+GameManager::addNewCustomObject - 0x370fd0
 GameManager::checkUsedIcons - 0x36b860
 GameManager::colorForIdx - 0x36c520
 GameManager::countForType - 0x36d6f0
@@ -2588,6 +2654,7 @@ GauntletLayer::keyBackClicked - 0x381960
 GauntletLayer::loadLevelsFinished - 0x380f10
 GauntletLayer::loadLevelsFailed - 0x3810b0
 GauntletNode::frameForType - 0x55e760
+GauntletNode::nameForType - 0x55e210
 GauntletNode::init - 0x55cb50
 GauntletNode::onClaimReward - 0x55ca80
 GauntletSelectLayer::create - 0x55abc0
@@ -2649,6 +2716,7 @@ GJBaseGameLayer::checkCameraLimitAfterTeleport - 0x110df0
 GJBaseGameLayer::checkCollisions - 0x114fe0
 GJBaseGameLayer::checkRepellPlayer - 0x143830
 GJBaseGameLayer::checkSpawnObjects - 0x11c1f0
+GJBaseGameLayer::clearActivatedAudioTriggers - 0x148ac0
 GJBaseGameLayer::collisionCheckObjects - 0x116130
 GJBaseGameLayer::createBackground - 0x1030e0
 GJBaseGameLayer::createGroundLayer - 0x103660
@@ -2669,7 +2737,9 @@ GJBaseGameLayer::handleButton - 0x13afc0
 GJBaseGameLayer::hasUniqueCoin - 0x118460
 GJBaseGameLayer::lightningFlash - 0x110c50
 GJBaseGameLayer::loadLevelSettings - 0x147920
+GJBaseGameLayer::loadStartPosObject - 0x13e9f0
 GJBaseGameLayer::objectTypeToGameEvent - 0x1144d0
+GJBaseGameLayer::orderSpawnObjects - 0x151690
 GJBaseGameLayer::parentForZLayer - 0x10f720
 GJBaseGameLayer::pauseAudio - 0x141de0
 GJBaseGameLayer::pickupItem - 0x118560
@@ -2700,16 +2770,19 @@ GJBaseGameLayer::removeKeyframe - 0x13bae0
 GJBaseGameLayer::removeObjectFromSection - 0x12e500
 GJBaseGameLayer::resetActiveEnterEffects - 0x10d800
 GJBaseGameLayer::resetCamera - 0x148d80
+GJBaseGameLayer::resetGroupCounters - 0x13e800
 GJBaseGameLayer::resetLevelVariables - 0x147d80
 GJBaseGameLayer::resetPlayer - 0x112c30
 GJBaseGameLayer::resetSpawnChannelIndex - 0x149100
 GJBaseGameLayer::setGroupParent - 0x12d370
+GJBaseGameLayer::setStartPosObject - 0x112ed0
 GJBaseGameLayer::setupLayers - 0x1003c0
 GJBaseGameLayer::setupLevelStart - 0x112f20
 GJBaseGameLayer::shouldExitHackedLevel - 0x102b90
 GJBaseGameLayer::sortSectionVector - 0x12faf0
 GJBaseGameLayer::spawnParticle - 0x14bf50
 GJBaseGameLayer::spawnParticleTrigger - 0x118670
+GJBaseGameLayer::stopCameraShake - 0x14a310
 GJBaseGameLayer::switchToFlyMode - 0x113ad0
 GJBaseGameLayer::switchToRobotMode - 0x113cd0
 GJBaseGameLayer::switchToRollMode - 0x113c20
@@ -2734,6 +2807,7 @@ GJBaseGameLayer::updateCollisionBlocks - 0x11a8b0
 GJBaseGameLayer::updateDualGround - 0x113e30
 GJBaseGameLayer::updateEnterEffects - 0x10e8e0
 GJBaseGameLayer::updateExtraGameLayers - 0x12c410
+GJBaseGameLayer::updateGradientLayers - 0x129310
 GJBaseGameLayer::updateKeyframeOrder - 0x13b9d0
 GJBaseGameLayer::updateLevelColors - 0x103350
 GJBaseGameLayer::updateMaxGameplayY - 0x147b20
@@ -2742,6 +2816,7 @@ GJBaseGameLayer::updateSavePositionObjects - 0x11b8b0
 GJBaseGameLayer::updateShaderLayer - 0x12b040
 GJBaseGameLayer::updateSpecialGroupData - 0x106390
 GJBaseGameLayer::updateStaticCameraPos - 0x114990
+GJBaseGameLayer::updateZoom - 0x13f010
 GJBaseGameLayer::update - 0x141f90
 GJBaseGameLayer::init - 0xfe730
 GJBaseGameLayer::visit - 0x152a70
@@ -2834,7 +2909,9 @@ GJEffectManager::prepareMoveActions - 0x2d16c0
 GJEffectManager::processColors - 0x2ca520
 GJEffectManager::processCopyColorPulseActions - 0x2cabf0
 GJEffectManager::processInheritedColors - 0x2ca840
+GJEffectManager::removePersistentFromAllItems - 0x2d7520
 GJEffectManager::reset - 0x2c9190
+GJEffectManager::resetEffects - 0x2c93a0
 GJEffectManager::shouldBlend - 0x2ca4e0
 GJEffectManager::storeTriggeredID - 0x2d5e20
 GJEffectManager::updateColorEffects - 0x2cb7d0
@@ -2919,6 +2996,7 @@ GJItemIcon::darkenStoreItem - 0x35e160
 GJItemIcon::init - 0x35da60
 GJItemIcon::setOpacity - 0x35dfc0
 GJLevelList::create - 0x517750
+GJLevelList::create - 0x51bac0
 GJLevelList::completedLevels - 0x54ca00
 GJLevelList::dataLoaded - 0x54cef0
 GJLevelList::frameForListDifficulty - 0x54d4b0
@@ -3075,9 +3153,12 @@ GJScoreCell::onViewProfile - 0x243770
 GJScoreCell::init - 0x243750
 GJScoreCell::draw - 0x243a20
 GJScoreCell::FLAlert_Clicked - 0x243960
+GJSearchObject::create - 0x54a1a0
 GJSearchObject::create - 0x54a530
 GJSearchObject::create - 0x54a4c0
+GJSearchObject::createFromKey - 0x522e20
 GJSearchObject::getKey - 0x52a470
+GJSearchObject::getPageObject - 0x54aca0
 GJSearchObject::getPrevPageObject - 0x54af60
 GJSearchObject::getSearchKey - 0x54a780
 GJSearchObject::isLevelSearchObject - 0x54af80
@@ -3112,6 +3193,7 @@ GJSmartTemplate::logTemplateStatus - 0x4148f0
 GJSmartTemplate::saveRemapToDict - 0x410e20
 GJSmartTemplate::encodeWithCoder - 0x415960
 GJSmartTemplate::canEncode - 0x415580
+GJSongBrowser::create - 0x5e7120
 GJSongBrowser::onDeleteAll - 0x5e7b90
 GJSongBrowser::init - 0x5e7530
 GJSongBrowser::customSetup - 0x5e7800
@@ -3147,6 +3229,8 @@ GJUserCell::uploadActionFailed - 0x2450a0
 GJUserCell::onClosePopup - 0x245210
 GJUserMessage::create - 0x549f70
 GJUserMessage::init - 0x54a010
+GJUserScore::create - 0x51d290
+GJUserScore::create - 0x549900
 GJUserScore::isCurrentUser - 0x549af0
 GJUserScore::init - 0x549a60
 GJWorldNode::addDotsToLevel - 0x3b1940
@@ -3286,6 +3370,7 @@ LevelBrowserLayer::loadPage - 0x47b5e0
 LevelBrowserLayer::onClearSearch - 0x47b560
 LevelBrowserLayer::onDeleteAll - 0x47a900
 LevelBrowserLayer::onDeleteSelected - 0x479fc0
+LevelBrowserLayer::onGoToFolder - 0x47b1a0
 LevelBrowserLayer::onGoToPage - 0x479eb0
 LevelBrowserLayer::onInfo - 0x47ae20
 LevelBrowserLayer::onMyOnlineLevels - 0x47a430
@@ -3329,6 +3414,7 @@ LevelCell::draw - 0x240220
 LevelEditorLayer::create - 0xdb210
 LevelEditorLayer::updateObjectLabel - 0xe9cb0
 LevelEditorLayer::addToUndoList - 0xe0210
+LevelEditorLayer::createObjectsFromString - 0xdf9e0
 LevelEditorLayer::getLastObjectX - 0xed530
 LevelEditorLayer::getLevelString - 0xe3a60
 LevelEditorLayer::getNextFreeGroupID - 0xebbf0
@@ -3340,11 +3426,13 @@ LevelEditorLayer::init - 0xdb280
 LevelEditorLayer::objectMoved - 0xea300
 LevelEditorLayer::onPlaytest - 0xf0f00
 LevelEditorLayer::processLoadedMoveActions - 0xb7920
+LevelEditorLayer::recreateGroups - 0xef9c0
 LevelEditorLayer::removeObject - 0xe27e0
 LevelEditorLayer::removeSpecial - 0xe28a0
 LevelEditorLayer::rotationForSlopeNearObject - 0xe1170
 LevelEditorLayer::saveEditorPosition - 0xe9730
 LevelEditorLayer::toggleGround - 0xdf280
+LevelEditorLayer::transferDefaultColors - 0xed150
 LevelEditorLayer::tryUpdateSpeedObject - 0xea170
 LevelEditorLayer::unlockAllLayers - 0xe9c60
 LevelEditorLayer::updateEditor - 0xddb40
@@ -3353,6 +3441,7 @@ LevelEditorLayer::updateGameObjects - 0xddf40
 LevelEditorLayer::updateKeyframeObjects - 0xeb650
 LevelEditorLayer::updateObjectColors - 0xeb700
 LevelEditorLayer::updatePreviewParticle - 0x1a1820
+LevelEditorLayer::updatePreviewParticles - 0xecfe0
 LevelEditorLayer::draw - 0xf52c0
 LevelEditorLayer::postUpdate - 0xf21a0
 LevelEditorLayer::updateVisibility - 0xeab50
@@ -3429,7 +3518,9 @@ LevelLeaderboard::create - 0x3c72e0
 LevelLeaderboard::deleteLocalScores - 0x3c8d10
 LevelLeaderboard::getSpriteButton - 0x3c8500
 LevelLeaderboard::init - 0x3c7470
+LevelLeaderboard::onClose - 0x3c87f0
 LevelLeaderboard::onDeleteLocalScores - 0x3c8720
+LevelLeaderboard::onUpdate - 0x3c8820
 LevelLeaderboard::setupLeaderboard - 0x3c8b60
 LevelLeaderboard::registerWithTouchDispatcher - 0x3c9280
 LevelLeaderboard::keyBackClicked - 0x3c9210
@@ -3507,6 +3598,7 @@ LevelSearchLayer::confirmClearFilters - 0x6136c0
 LevelSearchLayer::getSearchObject - 0x615780
 LevelSearchLayer::init - 0x611100
 LevelSearchLayer::onClearFreeSearch - 0x613e40
+LevelSearchLayer::onMoreOptions - 0x6137a0
 LevelSearchLayer::onSearch - 0x613ba0
 LevelSearchLayer::onSearchMode - 0x6137c0
 LevelSearchLayer::onSearchUser - 0x613d10
@@ -3678,6 +3770,7 @@ MoreOptionsLayer::textInputShouldOffset - 0x788bd0
 MoreOptionsLayer::textInputReturn - 0x788c90
 MoreOptionsLayer::googlePlaySignedIn - 0x788d40
 MoreOptionsLayer::dropDownLayerWillClose - 0x788a20
+MoreSearchLayer::create - 0x615070
 MoreSearchLayer::onClose - 0x617a10
 MoreSearchLayer::onInfo - 0x6182a0
 MoreSearchLayer::onSongFilter - 0x617e50
@@ -3852,7 +3945,7 @@ PauseLayer::musicSliderChanged - 0x3c4870
 PauseLayer::onEdit - 0x3c4be0
 PauseLayer::onNormalMode - 0x3c4670
 PauseLayer::onPracticeMode - 0x3c4610
-PauseLayer::onQuit - 0x3c4700
+PauseLayer::onQuit - 0x3c4d60
 PauseLayer::onRestart - 0x3c4800
 PauseLayer::onRestartFull - 0x3c45d0
 PauseLayer::onResume - 0x3c46c0
@@ -3865,7 +3958,10 @@ PauseLayer::customSetup - 0x3c3070
 PauseLayer::FLAlert_Clicked - 0x3c4e00
 PauseLayer::keyUp - 0x3c4fa0
 PlatformToolbox::getDisplaySize - 0x4b18f0
+PlatformToolbox::hideCursor - 0x4b0b30
 PlatformToolbox::isControllerConnected - 0x4b1a30
+PlatformToolbox::showCursor - 0x4b0b50
+PlatformToolbox::toggleLockCursor - 0x4b1850
 PlayerCheckpoint::create - 0xbc400
 PlayerCheckpoint::init - 0xbf850
 PlayerControlGameObject::init - 0x1db900
@@ -3911,6 +4007,7 @@ PlayerObject::playSpawnEffect - 0x401bb0
 PlayerObject::playSpiderDashEffect - 0x3fcc20
 PlayerObject::preCollision - 0x3f2a40
 PlayerObject::pushButton - 0x4027d0
+PlayerObject::releaseAllButtons - 0x408fa0
 PlayerObject::releaseButton - 0x403c40
 PlayerObject::removePendingCheckpoint - 0x4013f0
 PlayerObject::removePlacedCheckpoint - 0x402230
@@ -3939,6 +4036,7 @@ PlayerObject::toggleRobotMode - 0x407240
 PlayerObject::toggleRollMode - 0x406e60
 PlayerObject::toggleSpiderMode - 0x4076c0
 PlayerObject::toggleSwingMode - 0x405d60
+PlayerObject::toggleVisibility - 0x3f1460
 PlayerObject::touchedObject - 0x40ad70
 PlayerObject::updateCollide - 0x3faae0
 PlayerObject::updateDashAnimation - 0x3efb90
@@ -3993,6 +4091,7 @@ PlayLayer::incrementJumps - 0xbf200
 PlayLayer::init - 0xabe20
 PlayLayer::levelComplete - 0xb4050
 PlayLayer::loadDynamicSaveObjects - 0xbe690
+PlayLayer::loadFromCheckpoint - 0xbe120
 PlayLayer::markCheckpoint - 0xbb9d0
 PlayLayer::onQuit - 0xb3c60
 PlayLayer::optimizeColorGroups - 0xae840
@@ -4004,6 +4103,8 @@ PlayLayer::prepareMusic - 0xb3ae0
 PlayLayer::removeAllObjects - 0xb3dd0
 PlayLayer::removeCheckpoint - 0xbdfd0
 PlayLayer::resetLevel - 0xb2f80
+PlayLayer::resetLevelFromStart - 0xbee20
+PlayLayer::resume - 0xbf580
 PlayLayer::resumeAndRestart - 0xbf3d0
 PlayLayer::scanActiveSaveObjects - 0xaf930
 PlayLayer::scanDynamicSaveObjects - 0xaec20
@@ -4305,6 +4406,8 @@ SequenceTriggerGameObject::triggerObject - 0x1b33b0
 SequenceTriggerGameObject::customObjectSetup - 0x1b3930
 SequenceTriggerGameObject::getSaveString - 0x1b3dd0
 SetColorIDPopup::colorSelectClosed - 0x299980
+SetFolderPopup::create - 0x29a410
+SetFolderPopup::init - 0x29a610
 SetFolderPopup::onSetFolderName - 0x29a8a0
 SetFolderPopup::valueChanged - 0x29aa90
 SetFolderPopup::setTextPopupClosed - 0x29af60
@@ -4925,10 +5028,15 @@ TutorialPopup::show - 0x5bbed0
 UILayer::create - 0x4b4870
 UILayer::disableMenu - 0x4b5c30
 UILayer::doPause - 0x4b63b0
+UILayer::editorPlaytest - 0x4b5c50
 UILayer::handleKeypress - 0x4b5d70
 UILayer::init - 0x4b49b0
 UILayer::isJumpButtonPressed - 0x4b6720
 UILayer::onPause - 0x4b51e0
+UILayer::refreshDpad - 0x4b55f0
+UILayer::resetAllButtons - 0x4b6620
+UILayer::toggleMenuVisibility - 0x4b64e0
+UILayer::togglePlatformerMode - 0x4b5470
 UILayer::draw - 0x4b6710
 UILayer::ccTouchBegan - 0x4b6760
 UILayer::ccTouchMoved - 0x4b6940

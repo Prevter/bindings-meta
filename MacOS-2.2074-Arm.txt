@@ -35,12 +35,13 @@ cocos2d::CCEaseBackOut::reverse - 0x460fb8
 cocos2d::CCEaseBounceOut::copyWithZone - 0x46061c
 cocos2d::CCEaseBounceOut::update - 0x460704
 cocos2d::CCEaseBounceOut::reverse - 0x46080c
-cocos2d::CCEaseElasticIn::create - 0x45f5f0
+cocos2d::CCEaseElasticIn::create - 0x45f804
+cocos2d::CCEaseElasticIn::create - 0x45f814
 cocos2d::CCEaseElasticIn::copyWithZone - 0x45f8d0
 cocos2d::CCEaseElasticIn::update - 0x45f9c8
 cocos2d::CCEaseElasticIn::reverse - 0x45fa58
-cocos2d::CCEaseElasticOut::create - 0x45f8d0
-cocos2d::CCEaseElasticOut::create - 0x45f814
+cocos2d::CCEaseElasticOut::create - 0x45fb44
+cocos2d::CCEaseElasticOut::create - 0x45fa88
 cocos2d::CCEaseElasticOut::copyWithZone - 0x45fb54
 cocos2d::CCEaseElasticOut::update - 0x45fc4c
 cocos2d::CCEaseElasticOut::reverse - 0x45fce4
@@ -302,6 +303,7 @@ cocos2d::CCGLProgram::CCGLProgram - 0x393770
 cocos2d::CCGLProgram::addAttribute - 0x393c30
 cocos2d::CCGLProgram::description - 0x393bfc
 cocos2d::CCGLProgram::link - 0x393dcc
+cocos2d::CCGLProgram::reset - 0x3951e0
 cocos2d::CCGLProgram::updateUniforms - 0x393c44
 cocos2d::CCGLProgram::use - 0x393d70
 cocos2d::CCNode::create - 0x20cad4
@@ -1983,7 +1985,10 @@ EditorUI::deselectAll - 0x328b0
 EditorUI::dynamicGroupUpdate - 0x3ed20
 EditorUI::editGroup - 0x2c4d0
 EditorUI::editObject - 0x2b750
+EditorUI::flipObjectsX - 0x3ddc0
+EditorUI::flipObjectsY - 0x3dc18
 EditorUI::getCreateBtn - 0x332f0
+EditorUI::getCreateMenuItemButton - 0x2eb94
 EditorUI::getSelectedObjects - 0x37eac
 EditorUI::getSpriteButton - 0xd6b0
 EditorUI::init - 0xad4c
@@ -1992,6 +1997,7 @@ EditorUI::moveForCommand - 0x435fc
 EditorUI::moveGamelayer - 0x2f18c
 EditorUI::moveObjectCall - 0x437a8
 EditorUI::onDeleteInfo - 0x3198c
+EditorUI::onDeleteSelected - 0xdb78
 EditorUI::onDeselectAll - 0x2c478
 EditorUI::onGroupIDFilter - 0x31a68
 EditorUI::onLockLayer - 0x31bec
@@ -2446,6 +2452,7 @@ GameStatsManager::hasUserCoin - 0x637c4
 GameStatsManager::incrementChallenge - 0x5eb10
 GameStatsManager::incrementStat - 0x5afdc
 GameStatsManager::isItemEnabled - 0x6ac58
+GameStatsManager::isItemUnlocked - 0x5ee84
 GameStatsManager::isSecretCoin - 0x63c18
 GameStatsManager::isSpecialChestUnlocked - 0x6a794
 GameStatsManager::processChallengeQueue - 0x67160
@@ -2907,7 +2914,9 @@ GJScoreCell::FLAlert_Clicked - 0x1f2af8
 GJSearchObject::create - 0x4a2868
 GJSearchObject::create - 0x4a2b7c
 GJSearchObject::create - 0x4a2b10
+GJSearchObject::createFromKey - 0x47eddc
 GJSearchObject::getKey - 0x4857e8
+GJSearchObject::getPageObject - 0x4a312c
 GJSearchObject::getSearchKey - 0x4a2da8
 GJSearchObject::isLevelSearchObject - 0x4a3330
 GJShopLayer::scene - 0x2a5268
@@ -3140,6 +3149,7 @@ LevelCell::init - 0x1ec890
 LevelCell::draw - 0x1efb40
 LevelEditorLayer::create - 0xc3090
 LevelEditorLayer::addSpecial - 0xc7674
+LevelEditorLayer::createObjectsFromString - 0xc6e60
 LevelEditorLayer::getNextFreeGroupID - 0xd1514
 LevelEditorLayer::handleAction - 0xca1b0
 LevelEditorLayer::init - 0xc3124
@@ -3224,11 +3234,13 @@ LevelInfoLayer::likedItem - 0x256eb4
 LevelInfoLayer::FLAlert_Clicked - 0x256fec
 LevelInfoLayer::setIDPopupClosed - 0x254fdc
 LevelInfoLayer::onEnterTransitionDidFinish - 0x256564
+LevelLeaderboard::create - 0x350108
 LevelLeaderboard::deleteLocalScores - 0x351994
 LevelLeaderboard::getSpriteButton - 0x351164
 LevelLeaderboard::init - 0x350244
 LevelLeaderboard::loadScores - 0x3515ec
 LevelLeaderboard::onChangeMode - 0x351344
+LevelLeaderboard::onClose - 0x35146c
 LevelLeaderboard::onDeleteLocalScores - 0x351394
 LevelLeaderboard::onUpdate - 0x3514a8
 LevelLeaderboard::setupLeaderboard - 0x351800
@@ -4102,6 +4114,8 @@ SequenceTriggerGameObject::customObjectSetup - 0x173a9c
 SequenceTriggerGameObject::getSaveString - 0x173ec8
 SetColorIDPopup::init - 0x241384
 SetColorIDPopup::colorSelectClosed - 0x24164c
+SetFolderPopup::create - 0x241e80
+SetFolderPopup::init - 0x24202c
 SetFolderPopup::onSetFolderName - 0x24229c
 SetFolderPopup::valueChanged - 0x24249c
 SetFolderPopup::setTextPopupClosed - 0x242914
