@@ -1,4 +1,4 @@
-cocos2d::CCEGLViewProtocol::getViewPortRect - 0x4f9c70
+cocos2d::CCEGLViewProtocol::getViewPortRect - 0x4fa5e0
 cocos2d::CCEGLViewProtocol::getFrameSize - 0x4f9c70
 cocos2d::CCEGLViewProtocol::setFrameSize - 0x4f9c80
 cocos2d::CCEGLViewProtocol::getVisibleSize - 0x4f9cc0
@@ -53,6 +53,7 @@ cocos2d::CCEaseSineIn::reverse - 0x4ff810
 cocos2d::CCEaseSineOut::copyWithZone - 0x4ff8d0
 cocos2d::CCEaseSineOut::update - 0x4ff9d0
 cocos2d::CCEaseSineOut::reverse - 0x4ffa00
+cocos2d::CCEaseSineInOut::create - 0x4ffa20
 cocos2d::CCEaseSineInOut::copyWithZone - 0x4ffac0
 cocos2d::CCEaseSineInOut::update - 0x4ffbc0
 cocos2d::CCEaseSineInOut::reverse - 0x4ffc00
@@ -88,6 +89,8 @@ cocos2d::CCRemoveSelf::reverse - 0x796c50
 cocos2d::CCScaleBy::copyWithZone - 0x3a75c0
 cocos2d::CCScaleBy::startWithTarget - 0x3a76d0
 cocos2d::CCScaleBy::reverse - 0x3a7730
+cocos2d::CCScaleTo::create - 0x3a7040
+cocos2d::CCScaleTo::create - 0x3a7140
 cocos2d::CCScaleTo::copyWithZone - 0x3a7250
 cocos2d::CCScaleTo::update - 0x3a73d0
 cocos2d::CCScaleTo::startWithTarget - 0x3a7360
@@ -119,6 +122,7 @@ cocos2d::CCShaderCache::loadDefaultShaders - 0x1f0550
 cocos2d::CCShaderCache::programForKey - 0x1f11f0
 cocos2d::CCParticleSystem::create - 0x7b1480
 cocos2d::CCParticleSystem::initParticle - 0x7b3670
+cocos2d::CCParticleSystem::initWithDictionary - 0x7b1800
 cocos2d::CCParticleSystem::initWithDictionary - 0x7b31f0
 cocos2d::CCParticleSystem::~CCParticleSystem - 0x7b34f0
 cocos2d::CCParticleSystem::loadScaledDefaults - 0x7b60e0
@@ -226,6 +230,8 @@ cocos2d::CCParticleSystem::getBlendFunc - 0x7b5dc0
 cocos2d::CCParticleSystem::getTexture - 0x7b5850
 cocos2d::CCParticleSystem::setTexture - 0x7b5710
 cocos2d::CCParticleSystemQuad::create - 0x5eb190
+cocos2d::CCParticleSystemQuad::create - 0x5ec500
+cocos2d::CCParticleSystemQuad::createWithTotalParticles - 0x5eb270
 cocos2d::CCParticleSystemQuad::initTexCoordsWithRect - 0x5eb360
 cocos2d::CCParticleSystemQuad::~CCParticleSystemQuad - 0x5eb0b0
 cocos2d::CCParticleSystemQuad::allocMemory - 0x5eaa60
@@ -290,6 +296,8 @@ cocos2d::CCFileUtils::shouldUseHD - 0x4273c0
 cocos2d::CCFileUtils::writeToFile - 0x426ce0
 cocos2d::CCGLProgram::initWithVertexShaderByteArray - 0x417e60
 cocos2d::CCGLProgram::setUniformsForBuiltins - 0x419200
+cocos2d::CCGLProgram::~CCGLProgram - 0x417cb0
+cocos2d::CCGLProgram::CCGLProgram - 0x417c10
 cocos2d::CCGLProgram::addAttribute - 0x4180e0
 cocos2d::CCGLProgram::description - 0x4180b0
 cocos2d::CCGLProgram::reset - 0x419530
@@ -560,6 +568,9 @@ cocos2d::CCTextureCache::removeTextureForKey - 0x5d6ca0
 cocos2d::CCTextureCache::textureForKey - 0x5d6d20
 cocos2d::CCTouch::getLocationInView - 0x59ab0
 cocos2d::CCTouch::getLocation - 0x59b10
+cocos2d::CCTouch::getPreviousLocation - 0x59b40
+cocos2d::CCTouch::getStartLocation - 0x59b70
+cocos2d::CCTouch::getDelta - 0x59ba0
 cocos2d::CCTouchDispatcher::init - 0x4b86d0
 cocos2d::CCTouchDispatcher::setPriority - 0x4b90d0
 cocos2d::CCTouchDispatcher::addPrioTargetedDelegate - 0x4b8980
@@ -568,6 +579,7 @@ cocos2d::CCTouchDispatcher::findHandler - 0x4b8f90
 cocos2d::CCTouchDispatcher::forceRemoveDelegate - 0x4b8d10
 cocos2d::CCTouchDispatcher::isUsingForcePrio - 0x4b8970
 cocos2d::CCTouchDispatcher::registerForcePrio - 0x4b8880
+cocos2d::CCTouchDispatcher::removeDelegate - 0x4b8e00
 cocos2d::CCTouchDispatcher::touches - 0x4b9220
 cocos2d::CCTouchDispatcher::unregisterForcePrio - 0x4b8920
 cocos2d::CCTouchDispatcher::touchesBegan - 0x4b9840
@@ -644,6 +656,7 @@ cocos2d::CCNodeRGBA::updateDisplayedColor - 0x263620
 cocos2d::CCNodeRGBA::isCascadeOpacityEnabled - 0x263430
 cocos2d::CCNodeRGBA::setCascadeOpacityEnabled - 0x263450
 cocos2d::CCNodeRGBA::updateDisplayedOpacity - 0x2632b0
+cocos2d::CCSequence::create - 0x3a2980
 cocos2d::CCSequence::createWithTwoActions - 0x3a24d0
 cocos2d::CCSequence::createWithVariableList - 0x3a26b0
 cocos2d::CCSequence::initWithTwoActions - 0x3a25a0
@@ -722,7 +735,9 @@ cocos2d::CCSprite::getTexture - 0x2793c0
 cocos2d::CCLabelBMFont::CCLabelBMFont - 0x5c0350
 cocos2d::CCLabelBMFont::create - 0x5bfed0
 cocos2d::CCLabelBMFont::create - 0x5bfe20
+cocos2d::CCLabelBMFont::create - 0x5bfcd0
 cocos2d::CCLabelBMFont::create - 0x5bfd80
+cocos2d::CCLabelBMFont::create - 0x5bfc60
 cocos2d::CCLabelBMFont::createBatched - 0x5c0250
 cocos2d::CCLabelBMFont::initWithString - 0x5bff80
 cocos2d::CCLabelBMFont::getFntFile - 0x5c3320
@@ -777,7 +792,7 @@ cocos2d::CCDictionary::create - 0x2fc010
 cocos2d::CCDictionary::createWithContentsOfFile - 0x2fc1a0
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2fc090
 cocos2d::CCDictionary::setObject - 0x2fa5f0
-cocos2d::CCDictionary::setObject - 0x2fa5f0
+cocos2d::CCDictionary::setObject - 0x2faff0
 cocos2d::CCDictionary::CCDictionary - 0x2f9ab0
 cocos2d::CCDictionary::~CCDictionary - 0x2f9cb0
 cocos2d::CCDictionary::allKeys - 0x2f9d40
@@ -855,6 +870,8 @@ cocos2d::CCClippingNode::setStencil - 0x7093a0
 cocos2d::CCClippingNode::setAlphaThreshold - 0x7093f0
 cocos2d::CCClippingNode::setInverted - 0x709410
 cocos2d::CCDrawNode::setBlendFunc - 0x5fb270
+cocos2d::CCDrawNode::CCDrawNode - 0x5f9230
+cocos2d::CCDrawNode::~CCDrawNode - 0x5f93c0
 cocos2d::CCDrawNode::clear - 0x5fb240
 cocos2d::CCDrawNode::drawCircle - 0x5fb090
 cocos2d::CCDrawNode::drawDot - 0x5f99d0
@@ -886,6 +903,7 @@ cocos2d::CCSpriteBatchNode::setBlendFunc - 0x1675c0
 cocos2d::CCSpriteBatchNode::getBlendFunc - 0x1675e0
 cocos2d::CCSpriteBatchNode::getTexture - 0x167600
 cocos2d::CCSpriteBatchNode::setTexture - 0x167630
+cocos2d::CCSpriteFrame::create - 0x343d10
 cocos2d::CCSpriteFrame::initWithTexture - 0x344270
 cocos2d::CCSpriteFrame::initWithTextureFilename - 0x3445a0
 cocos2d::CCSpriteFrame::getTexture - 0x344d90
@@ -896,6 +914,7 @@ cocos2d::CCSpriteFrame::setRectInPixels - 0x344b70
 cocos2d::CCSpriteFrame::setTexture - 0x344a50
 cocos2d::CCSpriteFrame::copyWithZone - 0x3448f0
 cocos2d::CCSpriteFrameCache::sharedSpriteFrameCache - 0x307a40
+cocos2d::CCSpriteFrameCache::addSpriteFrame - 0x308cb0
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithDictionary - 0x307d30
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x308940
 cocos2d::CCSpriteFrameCache::removeSpriteFramesFromTexture - 0x3095d0
@@ -1334,6 +1353,7 @@ CCAnimatedSprite::createWithType - 0x33c020
 CCAnimatedSprite::cleanupSprite - 0x33ca60
 CCAnimatedSprite::initWithType - 0x33c100
 CCAnimatedSprite::loadType - 0x33c2f0
+CCAnimatedSprite::runAnimation - 0x33cc20
 CCAnimatedSprite::switchToMode - 0x33cb00
 CCAnimatedSprite::tweenToAnimation - 0x33cd60
 CCAnimatedSprite::setOpacity - 0x33d1f0
@@ -1969,6 +1989,7 @@ EditorOptionsLayer::onButtonsPerRow - 0x28c720
 EditorOptionsLayer::init - 0x28be40
 EditorOptionsLayer::onClose - 0x28c810
 EditorOptionsLayer::setupOptions - 0x28be70
+EditorPauseLayer::create - 0x27f120
 EditorPauseLayer::init - 0x27f220
 EditorPauseLayer::onExitNoSave - 0x281ad0
 EditorPauseLayer::onResetUnusedColors - 0x281e30
@@ -2307,6 +2328,8 @@ GameLevelManager::getMessagesKey - 0x5373f0
 GameLevelManager::getOnlineLevels - 0x529700
 GameLevelManager::getSavedDailyLevel - 0x521300
 GameLevelManager::getSavedDailyLevelFromLevelID - 0x521600
+GameLevelManager::getSavedGauntletLevel - 0x521400
+GameLevelManager::getSavedLevel - 0x51b7f0
 GameLevelManager::getSavedLevel - 0x521500
 GameLevelManager::getSavedLevels - 0x51e9f0
 GameLevelManager::getSearchScene - 0x522e00
@@ -3312,6 +3335,7 @@ LevelInfoLayer::confirmDelete - 0x2adbc0
 LevelInfoLayer::confirmMoveToBottom - 0x2aec10
 LevelInfoLayer::confirmMoveToTop - 0x2aeb30
 LevelInfoLayer::confirmOwnerDelete - 0x2ae280
+LevelInfoLayer::downloadLevel - 0x2ac410
 LevelInfoLayer::init - 0x2a98e0
 LevelInfoLayer::loadLevelStep - 0x2b07d0
 LevelInfoLayer::onAddToList - 0x2aee40
@@ -3731,6 +3755,7 @@ ObjectToolbox::init - 0x6541c0
 OptionsCell::loadFromObject - 0x232740
 OptionsLayer::create - 0x783fb0
 OptionsLayer::musicSliderChanged - 0x785140
+OptionsLayer::sfxSliderChanged - 0x7851b0
 OptionsLayer::tryEnableRecord - 0x785540
 OptionsLayer::customSetup - 0x784200
 OptionsLayer::layerHidden - 0x785600
@@ -3802,6 +3827,8 @@ PlayerObject::collidedWithObject - 0x3f4c90
 PlayerObject::collidedWithObject - 0x3fb520
 PlayerObject::collidedWithSlope - 0x3f4d30
 PlayerObject::copyAttributes - 0x409ed0
+PlayerObject::createRobot - 0x3ea2a0
+PlayerObject::createSpider - 0x3ea650
 PlayerObject::deactivateParticle - 0x3efb60
 PlayerObject::deactivateStreak - 0x3eb090
 PlayerObject::disablePlayerControls - 0x409140
@@ -4226,6 +4253,8 @@ SetFolderPopup::valueChanged - 0x29aa90
 SetFolderPopup::setTextPopupClosed - 0x29af60
 SetGroupIDLayer::create - 0x2fe420
 SetGroupIDLayer::init - 0x2fe5f0
+SetGroupIDLayer::onAddGroup - 0x300d30
+SetGroupIDLayer::onAddGroupParent - 0x300d40
 SetGroupIDLayer::onRemoveFromGroup - 0x3032f0
 SetGroupIDLayer::keyBackClicked - 0x303620
 SetGroupIDLayer::textInputClosed - 0x302ea0

@@ -60,6 +60,7 @@ cocos2d::CCEaseSineIn::reverse - 0x45f1d8
 cocos2d::CCEaseSineOut::copyWithZone - 0x45f2a0
 cocos2d::CCEaseSineOut::update - 0x45f388
 cocos2d::CCEaseSineOut::reverse - 0x45f3c4
+cocos2d::CCEaseSineInOut::create - 0x45f3e4
 cocos2d::CCEaseSineInOut::copyWithZone - 0x45f48c
 cocos2d::CCEaseSineInOut::update - 0x45f574
 cocos2d::CCEaseSineInOut::reverse - 0x45f5c0
@@ -92,6 +93,8 @@ cocos2d::CCRemoveSelf::reverse - 0x6a9dbc
 cocos2d::CCScaleBy::copyWithZone - 0x333b0c
 cocos2d::CCScaleBy::startWithTarget - 0x333c04
 cocos2d::CCScaleBy::reverse - 0x333c74
+cocos2d::CCScaleTo::create - 0x333670
+cocos2d::CCScaleTo::create - 0x333730
 cocos2d::CCScaleTo::copyWithZone - 0x3337fc
 cocos2d::CCScaleTo::update - 0x333960
 cocos2d::CCScaleTo::startWithTarget - 0x3338f4
@@ -120,6 +123,8 @@ cocos2d::CCShaderCache::loadDefaultShaders - 0x1a6d1c
 cocos2d::CCShaderCache::programForKey - 0x1a7a58
 cocos2d::CCParticleSystem::create - 0x6c2654
 cocos2d::CCParticleSystem::initParticle - 0x6c4620
+cocos2d::CCParticleSystem::initWithDictionary - 0x6c29f0
+cocos2d::CCParticleSystem::initWithDictionary - 0x6c425c
 cocos2d::CCParticleSystem::initWithFile - 0x6c26d8
 cocos2d::CCParticleSystem::~CCParticleSystem - 0x6c44c4
 cocos2d::CCParticleSystem::resetSystem - 0x6c5358
@@ -225,6 +230,9 @@ cocos2d::CCParticleSystem::setBlendFunc - 0x6c64c0
 cocos2d::CCParticleSystem::getBlendFunc - 0x6c64b0
 cocos2d::CCParticleSystem::getTexture - 0x6c618c
 cocos2d::CCParticleSystem::setTexture - 0x6c604c
+cocos2d::CCParticleSystemQuad::create - 0x51c418
+cocos2d::CCParticleSystemQuad::create - 0x51d1bc
+cocos2d::CCParticleSystemQuad::createWithTotalParticles - 0x51c500
 cocos2d::CCParticleSystemQuad::initTexCoordsWithRect - 0x51c5f0
 cocos2d::CCParticleSystemQuad::~CCParticleSystemQuad - 0x51c380
 cocos2d::CCParticleSystemQuad::allocMemory - 0x51c000
@@ -289,6 +297,9 @@ cocos2d::CCFileUtils::shouldUseHD - 0x3a21d0
 cocos2d::CCFileUtils::writeToFile - 0x3a1a68
 cocos2d::CCGLProgram::initWithVertexShaderByteArray - 0x393990
 cocos2d::CCGLProgram::setUniformsForBuiltins - 0x394f28
+cocos2d::CCGLProgram::~CCGLProgram - 0x3937f0
+cocos2d::CCGLProgram::CCGLProgram - 0x393770
+cocos2d::CCGLProgram::addAttribute - 0x393c30
 cocos2d::CCGLProgram::description - 0x393bfc
 cocos2d::CCGLProgram::link - 0x393dcc
 cocos2d::CCGLProgram::updateUniforms - 0x393c44
@@ -704,8 +715,10 @@ cocos2d::CCSprite::setTexture - 0x223640
 cocos2d::CCSprite::getTexture - 0x223780
 cocos2d::CCLabelBMFont::CCLabelBMFont - 0x4f5d58
 cocos2d::CCLabelBMFont::create - 0x4f58bc
+cocos2d::CCLabelBMFont::create - 0x4f57fc
 cocos2d::CCLabelBMFont::create - 0x4f5678
 cocos2d::CCLabelBMFont::create - 0x4f573c
+cocos2d::CCLabelBMFont::create - 0x4f55f4
 cocos2d::CCLabelBMFont::createBatched - 0x4f5c40
 cocos2d::CCLabelBMFont::initWithString - 0x4f5984
 cocos2d::CCLabelBMFont::setFntFile - 0x4f85a4
@@ -756,7 +769,7 @@ cocos2d::CCApplication::openURL - 0x2aba20
 cocos2d::CCDictionary::create - 0x294464
 cocos2d::CCDictionary::createWithContentsOfFile - 0x294600
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2944e8
-cocos2d::CCDictionary::setObject - 0x2935bc
+cocos2d::CCDictionary::setObject - 0x292d74
 cocos2d::CCDictionary::setObject - 0x2935bc
 cocos2d::CCDictionary::CCDictionary - 0x292204
 cocos2d::CCDictionary::~CCDictionary - 0x2923c8
@@ -864,6 +877,7 @@ cocos2d::CCSpriteBatchNode::setBlendFunc - 0x1346c4
 cocos2d::CCSpriteBatchNode::getBlendFunc - 0x1346d4
 cocos2d::CCSpriteBatchNode::getTexture - 0x1346e4
 cocos2d::CCSpriteBatchNode::setTexture - 0x134704
+cocos2d::CCSpriteFrame::create - 0x2d9348
 cocos2d::CCSpriteFrame::initWithTexture - 0x2d97ac
 cocos2d::CCSpriteFrame::initWithTextureFilename - 0x2d9a18
 cocos2d::CCSpriteFrame::getTexture - 0x2da058
@@ -874,6 +888,7 @@ cocos2d::CCSpriteFrame::setRectInPixels - 0x2d9ed0
 cocos2d::CCSpriteFrame::setTexture - 0x2d9df0
 cocos2d::CCSpriteFrame::copyWithZone - 0x2d9cd8
 cocos2d::CCSpriteFrameCache::sharedSpriteFrameCache - 0x29eb7c
+cocos2d::CCSpriteFrameCache::addSpriteFrame - 0x29fe38
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithDictionary - 0x29ee50
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x29f998
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x2a0b38
@@ -1299,6 +1314,7 @@ CCAnimatedSprite::createWithType - 0x2d24c0
 CCAnimatedSprite::cleanupSprite - 0x2d2ebc
 CCAnimatedSprite::initWithType - 0x2d2594
 CCAnimatedSprite::loadType - 0x2d2790
+CCAnimatedSprite::runAnimation - 0x2d3058
 CCAnimatedSprite::stopTween - 0x2d359c
 CCAnimatedSprite::switchToMode - 0x2d2f4c
 CCAnimatedSprite::tweenToAnimation - 0x2d31c4
@@ -2230,6 +2246,8 @@ GameLevelManager::getMessagesKey - 0x490dc4
 GameLevelManager::getOnlineLevels - 0x484cec
 GameLevelManager::getSavedDailyLevel - 0x47d344
 GameLevelManager::getSavedDailyLevelFromLevelID - 0x47d650
+GameLevelManager::getSavedGauntletLevel - 0x47d448
+GameLevelManager::getSavedLevel - 0x4780e4
 GameLevelManager::getSavedLevel - 0x47d54c
 GameLevelManager::getSavedLevels - 0x47af84
 GameLevelManager::getSearchScene - 0x47edb8
@@ -2661,6 +2679,7 @@ GJGarageLayer::onArrow - 0x2ecc3c
 GJGarageLayer::onInfo - 0x2ec28c
 GJGarageLayer::onNavigate - 0x2ed4c8
 GJGarageLayer::onSelect - 0x2edf90
+GJGarageLayer::onSelectTab - 0x2ecc08
 GJGarageLayer::playRainbowEffect - 0x2ee9a4
 GJGarageLayer::selectTab - 0x2ecd78
 GJGarageLayer::setupIconSelect - 0x2eb53c
@@ -2681,7 +2700,9 @@ GJGarageLayer::playerColorChanged - 0x2eebd4
 GJGarageLayer::rewardedVideoFinished - 0x2ec838
 GJGradientLayer::init - 0x128178
 GJItemIcon::create - 0x2f0ba0
+GJItemIcon::createBrowserItem - 0x2edf50
 GJItemIcon::createStoreItem - 0x2f0b84
+GJItemIcon::scaleForType - 0x2edf70
 GJItemIcon::unlockedColorForType - 0x2f130c
 GJItemIcon::changeToLockedState - 0x2ee474
 GJItemIcon::darkenStoreItem - 0x2f1374
@@ -3369,6 +3390,7 @@ MapSelectLayer::keyBackClicked - 0x203d60
 MapSelectLayer::scrollWheel - 0x20395c
 MenuGameLayer::destroyPlayer - 0x449af8
 MenuGameLayer::getBGColor - 0x448bc0
+MenuGameLayer::resetPlayer - 0x4490e0
 MenuGameLayer::tryJump - 0x448cc4
 MenuGameLayer::updateColor - 0x448f34
 MenuGameLayer::updateColors - 0x449788
@@ -3560,6 +3582,7 @@ ObjectToolbox::init - 0x57b5d0
 OptionsLayer::create - 0x698218
 OptionsLayer::musicSliderChanged - 0x699300
 OptionsLayer::onSecretVault - 0x6990b0
+OptionsLayer::sfxSliderChanged - 0x699370
 OptionsLayer::tryEnableRecord - 0x699648
 OptionsLayer::customSetup - 0x6983b0
 OptionsLayer::layerHidden - 0x699714
@@ -3695,8 +3718,10 @@ PlayerObject::updatePlayerDartFrame - 0x384808
 PlayerObject::updatePlayerFrame - 0x38412c
 PlayerObject::updatePlayerGlow - 0x382204
 PlayerObject::updatePlayerJetpackFrame - 0x382fcc
+PlayerObject::updatePlayerRobotFrame - 0x386940
 PlayerObject::updatePlayerRollFrame - 0x384bec
 PlayerObject::updatePlayerShipFrame - 0x382d90
+PlayerObject::updatePlayerSpiderFrame - 0x386958
 PlayerObject::updatePlayerSwingFrame - 0x383e58
 PlayerObject::updateRotation - 0x371b20
 PlayerObject::updateRotation - 0x37a378
@@ -4036,6 +4061,8 @@ SetFolderPopup::valueChanged - 0x24249c
 SetFolderPopup::setTextPopupClosed - 0x242914
 SetGroupIDLayer::create - 0x2965a4
 SetGroupIDLayer::init - 0x296704
+SetGroupIDLayer::onAddGroup - 0x298c74
+SetGroupIDLayer::onAddGroupParent - 0x298c7c
 SetGroupIDLayer::onClose - 0x298444
 SetGroupIDLayer::onNextGroupID1 - 0x298c40
 SetGroupIDLayer::onRemoveFromGroup - 0x29ae48
