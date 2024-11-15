@@ -878,6 +878,7 @@ cocos2d::CCSpriteBatchNode::getBlendFunc - 0x1346d4
 cocos2d::CCSpriteBatchNode::getTexture - 0x1346e4
 cocos2d::CCSpriteBatchNode::setTexture - 0x134704
 cocos2d::CCSpriteFrame::create - 0x2d9348
+cocos2d::CCSpriteFrame::createWithTexture - 0x2d94f4
 cocos2d::CCSpriteFrame::initWithTexture - 0x2d97ac
 cocos2d::CCSpriteFrame::initWithTextureFilename - 0x2d9a18
 cocos2d::CCSpriteFrame::getTexture - 0x2da058
@@ -1090,6 +1091,8 @@ AccountLayer::FLAlert_Clicked - 0xb71cc
 FLAlertLayer::create - 0x3f5598
 FLAlertLayer::create - 0x3f5738
 FLAlertLayer::init - 0x3f5800
+FLAlertLayer::onBtn1 - 0x3f62e4
+FLAlertLayer::onBtn2 - 0x2f6344
 FLAlertLayer::ccTouchBegan - 0x3f6568
 FLAlertLayer::ccTouchMoved - 0x3f6818
 FLAlertLayer::ccTouchEnded - 0x3f66c8
@@ -1462,6 +1465,7 @@ CCLightStrip::draw - 0x452008
 CCLightStrip::updateTweenAction - 0x452160
 CCMenuItemSpriteExtra::create - 0x2105c0
 CCMenuItemSpriteExtra::init - 0x210678
+CCMenuItemSpriteExtra::setSizeMult - 0x2107fc
 CCMenuItemSpriteExtra::activate - 0x210804
 CCMenuItemSpriteExtra::selected - 0x210964
 CCMenuItemSpriteExtra::unselected - 0x210bb4
@@ -1711,17 +1715,24 @@ CreateParticlePopup::textInputShouldOffset - 0x3d4398
 CreateParticlePopup::textInputReturn - 0x3d4468
 CreateParticlePopup::textInputClosed - 0x3d3b8c
 CreateParticlePopup::textChanged - 0x3d3ba8
+CreatorLayer::scene - 0x22eb40
 CreatorLayer::checkQuestsStatus - 0x23039c
 CreatorLayer::onAdventureMap - 0x22fdf4
 CreatorLayer::onChallenge - 0x22fe84
+CreatorLayer::onDailyLevel - 0x22febc
+CreatorLayer::onEventLevel - 0x22fefc
+CreatorLayer::onFeaturedLevels - 0x22ff64
 CreatorLayer::onGauntlets - 0x22ff1c
 CreatorLayer::onLeaderboards - 0x22fa48
 CreatorLayer::onMultiplayer - 0x22fa84
 CreatorLayer::onMyLevels - 0x2300b4
+CreatorLayer::onOnlineLevels - 0x230078
 CreatorLayer::onOnlyFullVersion - 0x23017c
 CreatorLayer::onSavedLevels - 0x22f988
+CreatorLayer::onSecretVault - 0x230498
 CreatorLayer::onTopLists - 0x22ffcc
 CreatorLayer::onTreasureRoom - 0x2306ec
+CreatorLayer::onWeeklyLevel - 0x22fedc
 CreatorLayer::init - 0x22ece0
 CreatorLayer::keyBackClicked - 0x230ea4
 CreatorLayer::sceneWillResume - 0x230e34
@@ -1870,6 +1881,7 @@ DemonInfoPopup::createFromString - 0x6baf10
 DemonInfoPopup::init - 0x6bd34c
 DemonInfoPopup::keyBackClicked - 0x6bdcdc
 DialogLayer::createDialogLayer - 0x33f928
+DialogLayer::createWithObjects - 0x33fa38
 DialogLayer::addToMainScene - 0x340748
 DialogLayer::animateIn - 0x340b4c
 DialogLayer::animateInRandomSide - 0x340aec
@@ -1888,6 +1900,7 @@ DialogLayer::registerWithTouchDispatcher - 0x3409c0
 DialogLayer::keyBackClicked - 0x3407a0
 DialogLayer::keyDown - 0x340d70
 DialogLayer::fadeInTextFinished - 0x3409fc
+DialogObject::create - 0x33f4ac
 DialogObject::init - 0x33f664
 DrawGridLayer::update - 0xd9cd8
 DrawGridLayer::draw - 0xd9de8
@@ -2673,6 +2686,8 @@ GJGameLevel::init - 0x49de78
 GJGameLoadingLayer::loadLevel - 0x12868c
 GJGameLoadingLayer::onEnter - 0x1286f4
 GJGameLoadingLayer::onEnterTransitionDidFinish - 0x1286f0
+GJGarageLayer::node - 0x2e93a8
+GJGarageLayer::scene - 0x2e9364
 GJGarageLayer::getItems - 0x2edb68
 GJGarageLayer::getLockFrame - 0x2eeb40
 GJGarageLayer::onArrow - 0x2ecc3c
@@ -3403,6 +3418,7 @@ MenuGameLayer::ccTouchCancelled - 0x449e1c
 MenuGameLayer::registerWithTouchDispatcher - 0x449e38
 MenuLayer::scene - 0x30d470
 MenuLayer::onAchievements - 0x30eaa8
+MenuLayer::onDaily - 0x30f028
 MenuLayer::onGarage - 0x30e9b0
 MenuLayer::onGooglePlayGames - 0x30f23c
 MenuLayer::onMoreGames - 0x30ed3c
@@ -4002,10 +4018,13 @@ SecretLayer5::onlineRewardStatusFailed - 0x3da4b0
 SecretLayer6::init - 0x3db420
 SecretLayer6::keyBackClicked - 0x3dbf78
 SecretNumberLayer::init - 0x3fcf14
+SecretRewardsLayer::create - 0x545350
+SecretRewardsLayer::scene - 0x545304
 SecretRewardsLayer::createSecondaryLayer - 0x5488b4
 SecretRewardsLayer::init - 0x54543c
 SecretRewardsLayer::moveToMainLayer - 0x548784
 SecretRewardsLayer::moveToSecondaryLayer - 0x548300
+SecretRewardsLayer::onBack - 0x547320
 SecretRewardsLayer::onChestType - 0x54738c
 SecretRewardsLayer::onGoldChest - 0x5476f8
 SecretRewardsLayer::onSelectItem - 0x5499c0
@@ -4615,6 +4634,7 @@ TextArea::create - 0x2a4014
 TextArea::colorAllCharactersTo - 0x2a4b20
 TextArea::colorAllLabels - 0x2a4be4
 TextArea::fadeIn - 0x2a47e4
+TextArea::fadeInCharacters - 0x2a4db0
 TextArea::fadeOut - 0x2a49b4
 TextArea::fadeOutAndRemove - 0x2a4944
 TextArea::finishFade - 0x2a4920
