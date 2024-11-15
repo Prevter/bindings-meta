@@ -526,6 +526,7 @@ CreateParticlePopup::colorSelectClosed - 0x419e10
 CreateParticlePopup::textChanged - 0x41a6b0
 CreatorLayer::scene - 0x9b9a0
 CreatorLayer::onAdventureMap - 0x9dbe0
+CreatorLayer::onBack - 0x9f190
 CreatorLayer::onChallenge - 0x9ddb0
 CreatorLayer::onDailyLevel - 0x9dd50
 CreatorLayer::onEventLevel - 0x9dd90
@@ -652,6 +653,7 @@ DailyLevelPage::createDailyNode - 0xcee40
 DailyLevelPage::getDailyTimeString - 0xcf200
 DailyLevelPage::init - 0xcd110
 DailyLevelPage::onClose - 0x86940
+DailyLevelPage::onTheSafe - 0xd0bb0
 DailyLevelPage::tryGetDailyStatus - 0xcec10
 DailyLevelPage::updateTimers - 0xd0360
 DailyLevelPage::show - 0x867a0
@@ -736,6 +738,8 @@ EditorPauseLayer::onSave - 0xdcbf0
 EditorPauseLayer::onSaveAndExit - 0xdcd20
 EditorPauseLayer::onSaveAndPlay - 0xdc9a0
 EditorPauseLayer::onSelectAll - 0xdb870
+EditorPauseLayer::onSelectAllLeft - 0xdb9a0
+EditorPauseLayer::onSelectAllRight - 0xdb9c0
 EditorPauseLayer::playStep3 - 0xdcb50
 EditorPauseLayer::saveLevel - 0xdc310
 EditorPauseLayer::togglePreviewAnim - 0xdbc10
@@ -812,8 +816,10 @@ EditorUI::onPasteState - 0x112b40
 EditorUI::onPause - 0xe03d0
 EditorUI::onPlayback - 0x110390
 EditorUI::onPlaytest - 0x1109a0
+EditorUI::onSelectBuildTab - 0x112f60
 EditorUI::onSettings - 0xe0350
 EditorUI::onStopPlaytest - 0x110d40
+EditorUI::onUngroupSticky - 0x111130
 EditorUI::pasteObjects - 0x111d10
 EditorUI::playtestStopped - 0x110d80
 EditorUI::redoLastAction - 0x110190
@@ -834,9 +840,11 @@ EditorUI::sliderChanged - 0xe13a0
 EditorUI::spriteFromObjectString - 0x10c790
 EditorUI::toggleEditObjectButton - 0x118f10
 EditorUI::toggleEnableRotate - 0x10eb00
+EditorUI::toggleFreeMove - 0x10e980
 EditorUI::toggleMode - 0xe37f0
 EditorUI::toggleObjectInfoLabel - 0xe1730
 EditorUI::toggleSnap - 0x10ea20
+EditorUI::toggleSwipe - 0x10e8e0
 EditorUI::transformObject - 0x11ed00
 EditorUI::transformObjectCall - 0x11e7b0
 EditorUI::transformObjectCall - 0x11e7b0
@@ -1158,7 +1166,9 @@ GameStatsManager::hasClaimedListReward - 0x1dfc30
 GameStatsManager::hasCompletedDailyLevel - 0x1dfd10
 GameStatsManager::hasCompletedGauntletLevel - 0x1db1a0
 GameStatsManager::hasCompletedOnlineLevel - 0x1db070
+GameStatsManager::hasPendingUserCoin - 0x1dce90
 GameStatsManager::hasSecretCoin - 0x1dcf50
+GameStatsManager::hasUserCoin - 0x1dcd10
 GameStatsManager::incrementChallenge - 0x1df0f0
 GameStatsManager::incrementStat - 0x1d1500
 GameStatsManager::isItemUnlocked - 0x1e2850
@@ -2630,6 +2640,7 @@ SetGroupIDLayer::onArrowLeft - 0x3e3980
 SetGroupIDLayer::onArrowRight - 0x3e39b0
 SetGroupIDLayer::onClose - 0x3e5f60
 SetGroupIDLayer::onExtra - 0x3e40d0
+SetGroupIDLayer::onRemoveFromGroup - 0x3e51e0
 SetGroupIDLayer::updateZOrder - 0x3e5890
 SetGroupIDLayer::updateZOrderLabel - 0x3e5a40
 SetGroupIDLayer::keyBackClicked - 0x3e62e0

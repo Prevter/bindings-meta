@@ -72,6 +72,7 @@ cocos2d::CCAction::stop - 0x264930
 cocos2d::CCAction::step - 0x264940
 cocos2d::CCScene::create - 0x240218
 cocos2d::CCScene::getHighestChildZ - 0x24028c
+cocos2d::CCScene::~CCScene - 0x23ac80
 cocos2d::CCScene::init - 0x2401c0
 cocos2d::CCSet::acceptVisitor - 0x1af8cc
 cocos2d::CCShaderCache::sharedShaderCache - 0x12b5e4
@@ -231,6 +232,7 @@ cocos2d::CCFileUtils::sharedFileUtils - 0x23604c
 cocos2d::CCFileUtils::shouldUseHD - 0x154578
 cocos2d::CCFileUtils::writeToFile - 0x153f78
 cocos2d::CCGLProgram::setUniformLocationWith1f - 0x1389e0
+cocos2d::CCGLProgram::use - 0x1384e8
 cocos2d::CCNode::create - 0x23b3f0
 cocos2d::CCNode::CCNode - 0x23ab24
 cocos2d::CCNode::~CCNode - 0x23ad98
@@ -515,7 +517,7 @@ cocos2d::CCSequence::startWithTarget - 0x18dd28
 cocos2d::CCSequence::stop - 0x18dd70
 cocos2d::CCSequence::reverse - 0x18df14
 cocos2d::CCSprite::create - 0x2374c8
-cocos2d::CCSprite::create - 0x2373bc
+cocos2d::CCSprite::create - 0x2375ec
 cocos2d::CCSprite::createWithSpriteFrameName - 0x2375c4
 cocos2d::CCSprite::createWithTexture - 0x23743c
 cocos2d::CCSprite::setFlipX - 0x238ea0
@@ -576,8 +578,11 @@ cocos2d::CCSprite::setOpacityModifyRGB - 0x2391ec
 cocos2d::CCSprite::isOpacityModifyRGB - 0x239224
 cocos2d::CCSprite::setTexture - 0x2395e8
 cocos2d::CCSprite::getTexture - 0x239728
+cocos2d::CCLabelBMFont::CCLabelBMFont - 0x2fb2e8
 cocos2d::CCLabelBMFont::create - 0x2faee0
+cocos2d::CCLabelBMFont::createFontChars - 0x2fb578
 cocos2d::CCLabelBMFont::limitLabelWidth - 0x2fd074
+cocos2d::CCLabelBMFont::~CCLabelBMFont - 0x2fb3ac
 cocos2d::CCLabelBMFont::init - 0x2fb298
 cocos2d::CCLabelBMFont::setScaleX - 0x2fd01c
 cocos2d::CCLabelBMFont::setScaleY - 0x2fd048
@@ -635,6 +640,7 @@ cocos2d::CCTransitionFade::onEnter - 0x1cef04
 cocos2d::CCTransitionFade::onExit - 0x1cf008
 cocos2d::CCTransitionFade::initWithDuration - 0x1ceedc
 cocos2d::CCTransitionFade::initWithDuration - 0x1cee98
+cocos2d::CCTransitionScene::~CCTransitionScene - 0x1ce7a4
 cocos2d::CCTransitionScene::onEnter - 0x1ceaf4
 cocos2d::CCTransitionScene::onExit - 0x1ceb48
 cocos2d::CCTransitionScene::cleanup - 0x1ceb9c
@@ -651,6 +657,8 @@ cocos2d::CCCallFuncO::copyWithZone - 0x1b157c
 cocos2d::CCCallFuncO::execute - 0x1b143c
 cocos2d::CCDrawNode::init - 0x45b68
 cocos2d::CCDrawNode::draw - 0x45cf8
+cocos2d::CCSpriteBatchNode::CCSpriteBatchNode - 0x1d807c
+cocos2d::CCSpriteBatchNode::~CCSpriteBatchNode - 0x1d80ac
 cocos2d::CCSpriteBatchNode::init - 0x1d8020
 cocos2d::CCSpriteBatchNode::addChild - 0x1d83e0
 cocos2d::CCSpriteBatchNode::addChild - 0x1d83e4
@@ -682,6 +690,11 @@ cocos2d::CCMenuItem::isEnabled - 0x50738
 cocos2d::CCMenuItem::setEnabled - 0x50730
 cocos2d::CCMenuItem::isSelected - 0x5075c
 cocos2d::CCMenuItemSprite::initWithNormalSprite - 0x50998
+cocos2d::CCMenuItemSprite::setEnabled - 0x50bbc
+cocos2d::CCMenuItemSprite::setNormalImage - 0x5076c
+cocos2d::CCMenuItemSprite::setSelectedImage - 0x50840
+cocos2d::CCMenuItemSprite::setDisabledImage - 0x508f0
+cocos2d::CCMenuItemSprite::updateImagesVisibility - 0x50bdc
 cocos2d::CCMenu::create - 0x1d8d04
 cocos2d::CCMenu::init - 0x1d9010
 cocos2d::CCMenu::addChild - 0x1d9018
