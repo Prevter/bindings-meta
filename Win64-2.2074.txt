@@ -966,6 +966,7 @@ FMODAudioEngine::playEffect - 0x56d90
 FMODAudioEngine::playEffectAdvanced - 0x56f00
 FMODAudioEngine::playMusic - 0x5a110
 FMODAudioEngine::preloadEffect - 0x59260
+FMODAudioEngine::preloadMusic - 0x5c790
 FMODAudioEngine::queuePlayEffect - 0x57920
 FMODAudioEngine::queueStartMusic - 0x5aa70
 FMODAudioEngine::resumeAllMusic - 0x59e80

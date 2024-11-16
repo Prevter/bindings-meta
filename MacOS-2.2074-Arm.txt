@@ -2156,6 +2156,7 @@ FMODAudioEngine::playEffect - 0x3587c0
 FMODAudioEngine::playEffectAdvanced - 0x356ac0
 FMODAudioEngine::playMusic - 0x35b20c
 FMODAudioEngine::preloadEffect - 0x3531c4
+FMODAudioEngine::preloadMusic - 0x35b618
 FMODAudioEngine::queueStartMusic - 0x35bdb8
 FMODAudioEngine::resumeAllAudio - 0x353b48
 FMODAudioEngine::resumeAllEffects - 0x35aa2c
@@ -4534,6 +4535,7 @@ SimplePlayer::createSpiderSprite - 0x2eae5c
 SimplePlayer::hideAll - 0x2f04ac
 SimplePlayer::hideSecondary - 0x2f0650
 SimplePlayer::iconFinishedLoading - 0x2f0570
+SimplePlayer::init - 0x2efd98
 SimplePlayer::setColors - 0x2eec44
 SimplePlayer::setFrames - 0x2f0704
 SimplePlayer::updateColors - 0x2ee780
