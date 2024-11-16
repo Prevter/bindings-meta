@@ -627,11 +627,13 @@ cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x1f17b0
 cocos2d::CCKeyboardDispatcher::keyToString - 0x1f1aa0
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x1f1a70
 cocos2d::CCDirector::sharedDirector - 0x46f500
+cocos2d::CCDirector::getNotificationNode - 0x471a60
 cocos2d::CCDirector::getWinSize - 0x470920
 cocos2d::CCDirector::setDefaultValues - 0x46f8f0
 cocos2d::CCDirector::setDepthTest - 0x46fc40
 cocos2d::CCDirector::setGLDefaultValues - 0x46fbd0
 cocos2d::CCDirector::setNextScene - 0x470340
+cocos2d::CCDirector::setNotificationNode - 0x471a70
 cocos2d::CCDirector::setViewport - 0x470d60
 cocos2d::CCDirector::convertToGL - 0x470e50
 cocos2d::CCDirector::drawScene - 0x46fe90
@@ -2604,6 +2606,7 @@ GameStatsManager::hasCompletedMainLevel - 0x6d200
 GameStatsManager::hasCompletedOnlineLevel - 0x6d330
 GameStatsManager::hasCompletedStarLevel - 0x6d570
 GameStatsManager::hasPendingUserCoin - 0x6fcf0
+GameStatsManager::hasSecretCoin - 0x6cdc0
 GameStatsManager::hasUserCoin - 0x6fde0
 GameStatsManager::incrementChallenge - 0x6b0c0
 GameStatsManager::incrementStat - 0x66960
@@ -4090,7 +4093,9 @@ PlayLayer::addObject - 0xb2190
 PlayLayer::canPauseGame - 0xbf270
 PlayLayer::createCheckpoint - 0xbbd00
 PlayLayer::createObjectsFromSetupFinished - 0xb7490
+PlayLayer::delayedFullReset - 0xbead0
 PlayLayer::delayedResetLevel - 0xbb590
+PlayLayer::fullReset - 0xbeb30
 PlayLayer::getCurrentPercent - 0xba2f0
 PlayLayer::getCurrentPercentInt - 0xba9f0
 PlayLayer::incrementJumps - 0xbf200
