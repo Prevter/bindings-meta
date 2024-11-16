@@ -1036,9 +1036,12 @@ cocos2d::CCTextFieldTTF::canAttachWithIME - 0x26a450
 cocos2d::CCTextFieldTTF::canDetachWithIME - 0x26a4a0
 cocos2d::CCTextFieldTTF::deleteBackward - 0x26a840
 cocos2d::CCTextFieldTTF::getContentText - 0x26abc0
+DS_Dictionary::addBoolValuesToMapForKey - 0x171590
+DS_Dictionary::addBoolValuesToMapForKeySpecial - 0x171230
 DS_Dictionary::getAllKeys - 0x16ccb0
 DS_Dictionary::getArrayForKey - 0x1707b0
 DS_Dictionary::getBoolForKey - 0x16d3e0
+DS_Dictionary::getDictForKey - 0x171760
 DS_Dictionary::getFloatForKey - 0x16d4e0
 DS_Dictionary::getIntegerForKey - 0x16d2a0
 DS_Dictionary::getKey - 0x16cb80
@@ -2440,7 +2443,7 @@ GameLevelManager::invalidateUserList - 0x540580
 GameLevelManager::isDLActive - 0x5227e0
 GameLevelManager::isFollowingUser - 0x523fe0
 GameLevelManager::likeItem - 0x540b40
-GameLevelManager::limitSavedLevels - 0x574700
+GameLevelManager::limitSavedLevels - 0x5236b0
 GameLevelManager::makeTimeStamp - 0x522290
 GameLevelManager::onDeleteServerLevelListCompleted - 0x514f40
 GameLevelManager::onGetGJChallengesCompleted - 0x510b00
@@ -2456,6 +2459,7 @@ GameLevelManager::onUploadLevelListCompleted - 0x514d50
 GameLevelManager::performNetworkTest - 0x504c40
 GameLevelManager::ProcessHttpRequest - 0x504fa0
 GameLevelManager::processOnDownloadLevelCompleted - 0x52e460
+GameLevelManager::purgeUnusedLevels - 0x523900
 GameLevelManager::rateDemon - 0x531730
 GameLevelManager::rateStars - 0x52fd00
 GameLevelManager::readFriendRequest - 0x53edd0
@@ -2484,6 +2488,7 @@ GameLevelManager::unfollowUser - 0x5240e0
 GameLevelManager::updateDescription - 0x5405d0
 GameLevelManager::updateLevel - 0x52f9a0
 GameLevelManager::updateSavedLevelList - 0x52c630
+GameLevelManager::updateUsernames - 0x523ed0
 GameLevelManager::updateUserScore - 0x531c80
 GameLevelManager::uploadComment - 0x53b480
 GameLevelManager::uploadFriendRequest - 0x53d870
@@ -2636,6 +2641,7 @@ GameToolbox::getTimeString - 0x4de620
 GameToolbox::hsvFromString - 0x4dd030
 GameToolbox::intToShortString - 0x4e4250
 GameToolbox::intToString - 0x4e3f30
+GameToolbox::mergeDictsSkipConflict - 0x4dc610
 GameToolbox::msToTimeString - 0x4e48b0
 GameToolbox::openRateURL - 0x4db8e0
 GameToolbox::particleFromString - 0x4e2ed0
