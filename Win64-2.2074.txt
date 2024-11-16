@@ -18,6 +18,9 @@ GJDropDownLayer::layerVisible - 0x426a0
 GJDropDownLayer::layerHidden - 0x250630
 GJDropDownLayer::disableUI - 0x2502f0
 GJDropDownLayer::enableUI - 0x250310
+AccountHelpLayer::onAccountManagement - 0x7fa10
+AccountHelpLayer::onUnlink - 0x7fb20
+AccountHelpLayer::updatePage - 0x7fcd0
 AccountHelpLayer::customSetup - 0x7f5c0
 AccountHelpLayer::accountStatusChanged - 0x7fcc0
 AccountHelpLayer::FLAlert_Clicked - 0x7ffa0
