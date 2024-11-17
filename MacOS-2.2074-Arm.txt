@@ -320,6 +320,7 @@ cocos2d::CCNode::schedule - 0x20dee8
 cocos2d::CCNode::schedule - 0x20df28
 cocos2d::CCNode::scheduleOnce - 0x20df48
 cocos2d::CCNode::scheduleUpdate - 0x20ddf0
+cocos2d::CCNode::stopActionByTag - 0x20dd74
 cocos2d::CCNode::stopAllActions - 0x20cbec
 cocos2d::CCNode::unschedule - 0x20df6c
 cocos2d::CCNode::unscheduleUpdate - 0x20de9c
@@ -772,6 +773,7 @@ cocos2d::CCAnimation::copyWithZone - 0x22e720
 cocos2d::CCAnimation::getDuration - 0x22e714
 cocos2d::CCApplication::sharedApplication - 0x2ab200
 cocos2d::CCApplication::openURL - 0x2aba20
+cocos2d::CCArray::fastRemoveObjectAtIndex - 0xbab598
 cocos2d::CCDictionary::create - 0x294464
 cocos2d::CCDictionary::createWithContentsOfFile - 0x294600
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2944e8
@@ -815,6 +817,7 @@ cocos2d::CCRepeatForever::isDone - 0x330728
 cocos2d::CCRepeatForever::startWithTarget - 0x330650
 cocos2d::CCRepeatForever::step - 0x330690
 cocos2d::CCRepeatForever::reverse - 0x330730
+cocos2d::CCTransitionMoveInT::create - 0xbe858
 cocos2d::CCTransitionFade::create - 0xc122c
 cocos2d::CCTransitionFade::onEnter - 0xc1318
 cocos2d::CCTransitionFade::onExit - 0xc1454
@@ -1509,6 +1512,7 @@ CCScrollLayerExt::registerWithTouchDispatcher - 0x397ac4
 CCScrollLayerExt::preVisitWithClippingRect - 0x3981e8
 CCScrollLayerExt::postVisit - 0x39827c
 CCSpriteCOpacity::setOpacity - 0x3de600
+CCSpriteWithHue::create - 0x50b960
 CCSpriteWithHue::getAlpha - 0x50c668
 CCSpriteWithHue::getUniformLocations - 0x50c208
 CCSpriteWithHue::initShader - 0x50bea0
@@ -1526,6 +1530,12 @@ CCSpriteWithHue::initWithSpriteFrame - 0x50c148
 CCSpriteWithHue::getShaderName - 0x50b934
 CCSpriteWithHue::shaderBody - 0x50c28c
 CCSpriteWithHue::updateColor - 0x50c2a4
+CCSpriteGrayscale::create - 0x50cabc
+CCSpriteGrayscale::create - 0x50c9f0
+CCSpriteGrayscale::createWithSpriteFrame - 0x50cda8
+CCSpriteGrayscale::createWithSpriteFrameName - 0x50cea4
+CCSpriteGrayscale::createWithTexture - 0x50ccb4
+CCSpriteGrayscale::createWithTexture - 0x50cb9c
 CCSpriteGrayscale::getShaderName - 0x50c9cc
 CCSpriteGrayscale::shaderBody - 0x50c890
 CCSpritePart::setVisible - 0x2f51d8
@@ -1598,6 +1608,7 @@ CheckpointGameObject::triggerActivated - 0x180e24
 CheckpointGameObject::restoreObject - 0x1825c4
 CheckpointGameObject::updateSyncedAnimation - 0x181770
 EnterEffectInstance::updateTransitions - 0x4f1338
+GJGameState::stopTweenAction - 0x4d160
 CheckpointObject::init - 0xae344
 CollisionBlockPopup::init - 0x21ec48
 CollisionBlockPopup::keyBackClicked - 0x220028
@@ -2141,6 +2152,7 @@ FindObjectPopup::init - 0x241b10
 FMODAudioEngine::sharedEngine - 0x352964
 FMODAudioEngine::channelForChannelID - 0x355668
 FMODAudioEngine::clearAllAudio - 0x353b90
+FMODAudioEngine::fadeInMusic - 0x35b38c
 FMODAudioEngine::fadeOutMusic - 0x35d940
 FMODAudioEngine::getActiveMusicChannel - 0x356984
 FMODAudioEngine::getBackgroundMusicVolume - 0x35ad68
@@ -2169,6 +2181,7 @@ FMODAudioEngine::setMusicTimeMS - 0x357488
 FMODAudioEngine::setup - 0x352b4c
 FMODAudioEngine::stopAllEffects - 0x353c3c
 FMODAudioEngine::stopAllMusic - 0x353f28
+FMODAudioEngine::stopAndGetFade - 0x35a2bc
 FMODAudioEngine::update - 0x3542a0
 FMODLevelVisualizer::updateVisualizer - 0x244c40
 FMODLevelVisualizer::init - 0x2447d0
@@ -2552,6 +2565,7 @@ GJBaseGameLayer::bumpPlayer - 0xf6b04
 GJBaseGameLayer::canBeActivatedByPlayer - 0xf6710
 GJBaseGameLayer::checkCameraLimitAfterTeleport - 0xf0a1c
 GJBaseGameLayer::checkCollisions - 0xf45f0
+GJBaseGameLayer::clearPickedUpItems - 0x292260
 GJBaseGameLayer::createBackground - 0xe4ed4
 GJBaseGameLayer::createGroundLayer - 0xe5410
 GJBaseGameLayer::createMiddleground - 0xe55f4
@@ -2580,7 +2594,10 @@ GJBaseGameLayer::refreshKeyframeAnims - 0xecb14
 GJBaseGameLayer::removeObjectFromSection - 0x109388
 GJBaseGameLayer::resetActiveEnterEffects - 0xed248
 GJBaseGameLayer::resetAudio - 0x119004
+GJBaseGameLayer::resetCamera - 0x11e7d4
 GJBaseGameLayer::resetLevelVariables - 0x11dcf0
+GJBaseGameLayer::resetPlayer - 0xf2608
+GJBaseGameLayer::resetSpawnChannelIndex - 0x11ea94
 GJBaseGameLayer::setupLayers - 0xe24c4
 GJBaseGameLayer::setupLevelStart - 0xf28b8
 GJBaseGameLayer::setupReplay - 0x11cd28
@@ -2690,6 +2707,7 @@ GJEffectManager::updatePulseEffects - 0x26e850
 GJEffectManager::init - 0x26c924
 GJGroundLayer::createLine - 0x506958
 GJGroundLayer::init - 0x506450
+GJGroundLayer::toggleVisible02 - 0x506e20
 GJGroundLayer::updateLineBlend - 0x507214
 GJGroundLayer::draw - 0x50745c
 GJGroundLayer::showGround - 0x507250
@@ -3162,6 +3180,8 @@ LevelEditorLayer::init - 0xc3124
 LevelEditorLayer::onPlaytest - 0xd5d40
 LevelEditorLayer::onStopPlaytest - 0xd67f8
 LevelEditorLayer::processLoadedMoveActions - 0xa7448
+LevelEditorLayer::removeObject - 0xc98e4
+LevelEditorLayer::removePlayerCollisionBlock - 0x62950c
 LevelEditorLayer::removeSpecial - 0xc99a4
 LevelEditorLayer::updateEditor - 0xc53b8
 LevelEditorLayer::updateEditorMode - 0xc6370
@@ -3204,6 +3224,7 @@ LevelInfoLayer::loadLevelStep - 0x2566dc
 LevelInfoLayer::onAddToList - 0x254e2c
 LevelInfoLayer::onBack - 0x254684
 LevelInfoLayer::onFavorite - 0x254a40
+LevelInfoLayer::onGarage - 0x2549e8
 LevelInfoLayer::onLevelInfo - 0x254704
 LevelInfoLayer::onLevelLeaderboard - 0x253d3c
 LevelInfoLayer::onLike - 0x253da8
@@ -3692,6 +3713,7 @@ PauseLayer::onRestartFull - 0x34d870
 PauseLayer::onResume - 0x34d950
 PauseLayer::onSettings - 0x34dac8
 PauseLayer::onTryEdit - 0x34d760
+PauseLayer::sfxSliderChanged - 0x34db2c
 PauseLayer::tryQuit - 0x34d988
 PauseLayer::keyBackClicked - 0x34e270
 PauseLayer::keyDown - 0x34e194
@@ -3817,10 +3839,13 @@ PlayLayer::init - 0x9cd6c
 PlayLayer::levelComplete - 0xa406c
 PlayLayer::loadDefaultColors - 0xa2300
 PlayLayer::loadDynamicSaveObjects - 0xad05c
+PlayLayer::loadFromCheckpoint - 0xacb4c
+PlayLayer::loadLastCheckpoint - 0xacaf4
 PlayLayer::markCheckpoint - 0xaacd4
 PlayLayer::onQuit - 0xa3cac
 PlayLayer::pauseGame - 0xadc74
 PlayLayer::playEndAnimationToPos - 0xa664c
+PlayLayer::playPlatformerEndAnimationToPos - 0xa6b84
 PlayLayer::prepareCreateObjectsFromSetup - 0x9dac0
 PlayLayer::processCreateObjectsFromSetup - 0x9de44
 PlayLayer::removeCheckpoint - 0xaca08
@@ -3926,7 +3951,9 @@ PromoInterstitial::ccTouchEnded - 0x265ba8
 PromoInterstitial::ccTouchCancelled - 0x265c58
 PromoInterstitial::keyBackClicked - 0x2658d4
 PromoInterstitial::show - 0x2658a8
+PurchaseItemPopup::create - 0x2a77d0
 PurchaseItemPopup::init - 0x2a9818
+PurchaseItemPopup::onClose - 0x2aa27c
 PurchaseItemPopup::onPurchase - 0x2aa2b8
 PurchaseItemPopup::keyBackClicked - 0x2aa32c
 RandTriggerGameObject::init - 0x172148
@@ -4746,6 +4773,7 @@ UILayer::keyDown - 0x41e168
 UILayer::keyUp - 0x41e188
 UIObjectSettingsPopup::init - 0x4bb8b4
 UIObjectSettingsPopup::onCustomToggleTriggerValue - 0x4bc2fc
+UIOptionsLayer::init - 0x24645c
 UIOptionsLayer::toggleUIGroup - 0x247d74
 UIOptionsLayer::ccTouchBegan - 0x248680
 UIOptionsLayer::ccTouchMoved - 0x248840
@@ -4770,6 +4798,8 @@ UISaveLoadLayer::onSave - 0x2492ac
 UISettingsGameObject::init - 0x1872d4
 UISettingsGameObject::customObjectSetup - 0x187f74
 UISettingsGameObject::getSaveString - 0x187324
+UndoObject::create - 0xc7594
+UndoObject::init - 0xca710
 UpdateAccountSettingsPopup::init - 0x2383a0
 UpdateAccountSettingsPopup::keyBackClicked - 0x238b68
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x238964

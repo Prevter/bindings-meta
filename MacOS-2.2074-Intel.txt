@@ -1612,7 +1612,12 @@ CCSpriteWithHue::initWithSpriteFrame - 0x5d8a80
 CCSpriteWithHue::getShaderName - 0x5d8300
 CCSpriteWithHue::shaderBody - 0x5d8bc0
 CCSpriteWithHue::updateColor - 0x5d8be0
+CCSpriteGrayscale::create - 0x5d95c0
+CCSpriteGrayscale::create - 0x5d9500
+CCSpriteGrayscale::createWithSpriteFrame - 0x5d9860
 CCSpriteGrayscale::createWithSpriteFrameName - 0x5d9940
+CCSpriteGrayscale::createWithTexture - 0x5d9790
+CCSpriteGrayscale::createWithTexture - 0x5d9690
 CCSpriteGrayscale::getShaderName - 0x5d94e0
 CCSpriteGrayscale::shaderBody - 0x5d92d0
 CCSpritePart::setVisible - 0x362320
@@ -3962,6 +3967,7 @@ PauseLayer::onRestartFull - 0x3c45d0
 PauseLayer::onResume - 0x3c46c0
 PauseLayer::onSettings - 0x3c4840
 PauseLayer::onTryEdit - 0x3c44c0
+PauseLayer::sfxSliderChanged - 0x3c48b0
 PauseLayer::tryQuit - 0x3c4700
 PauseLayer::keyBackClicked - 0x3c4fc0
 PauseLayer::keyDown - 0x3c4ec0
@@ -4218,7 +4224,10 @@ PromoInterstitial::ccTouchEnded - 0x2c17d0
 PromoInterstitial::ccTouchCancelled - 0x2c1870
 PromoInterstitial::keyBackClicked - 0x2c1530
 PromoInterstitial::show - 0x2c1500
+PurchaseItemPopup::create - 0x310ed0
 PurchaseItemPopup::init - 0x3134b0
+PurchaseItemPopup::onClose - 0x314030
+PurchaseItemPopup::onPurchase - 0x314060
 PurchaseItemPopup::keyBackClicked - 0x3140d0
 RandTriggerGameObject::init - 0x1b1b50
 RandTriggerGameObject::triggerObject - 0x1b1de0
@@ -5061,6 +5070,8 @@ UILayer::keyDown - 0x4b6250
 UILayer::keyUp - 0x4b62a0
 UIObjectSettingsPopup::init - 0x565f70
 UIObjectSettingsPopup::onCustomToggleTriggerValue - 0x566bc0
+UIOptionsLayer::create - 0x29e540
+UIOptionsLayer::init - 0x29ef50
 UIOptionsLayer::toggleUIGroup - 0x2a0ce0
 UIOptionsLayer::ccTouchBegan - 0x2a17c0
 UIOptionsLayer::ccTouchMoved - 0x2a1990

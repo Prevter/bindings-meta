@@ -52,6 +52,8 @@ FLAlertLayer::keyDown - 0x52800
 FLAlertLayer::show - 0x52b90
 AccountLoginLayer::create - 0x7b730
 AccountLoginLayer::init - 0x7b8d0
+AccountLoginLayer::onForgotPassword - 0x7c490
+AccountLoginLayer::onForgotUser - 0x7c470
 AccountLoginLayer::onSubmit - 0x7cbc0
 AccountLoginLayer::keyBackClicked - 0x7cfa0
 AccountLoginLayer::FLAlert_Clicked - 0x7cb50
@@ -2506,7 +2508,10 @@ ProfilePage::commentDeleteFailed - 0x3af6c0
 ProfilePage::onClosePopup - 0x3add10
 ProfilePage::uploadActionFinished - 0x3add60
 ProfilePage::uploadActionFailed - 0x3adf20
+PurchaseItemPopup::create - 0x2a74d0
 PurchaseItemPopup::init - 0x2a75c0
+PurchaseItemPopup::onClose - 0x84620
+PurchaseItemPopup::onPurchase - 0x2a8470
 RateDemonLayer::init - 0x3b1790
 RateDemonLayer::onRate - 0x3b1ee0
 RateDemonLayer::selectRating - 0x3b1d60
@@ -2890,6 +2895,7 @@ TopArtistsLayer::loadListFinished - 0x4b27d0
 TopArtistsLayer::loadListFailed - 0x4b2830
 TopArtistsLayer::setupPageInfo - 0x4b2990
 TOSPopup::init - 0x296930
+TutorialLayer::init - 0x4b31c0
 TutorialLayer::keyBackClicked - 0x4b3de0
 UILayer::handleKeypress - 0x4b4c40
 UILayer::init - 0x4b3f20
@@ -2902,9 +2908,12 @@ UILayer::ccTouchEnded - 0x4b5750
 UILayer::keyBackClicked - 0x4b5300
 UILayer::keyDown - 0x4b52e0
 UILayer::keyUp - 0x4b52f0
+UIOptionsLayer::create - 0x2995e0
+UIOptionsLayer::init - 0x299720
 UIOptionsLayer::ccTouchBegan - 0x29c640
 UIOptionsLayer::ccTouchMoved - 0x29c790
 UIOptionsLayer::ccTouchEnded - 0x29c8c0
+UIPOptionsLayer::init - 0x29e170
 UndoObject::init - 0x2db040
 UpdateAccountSettingsPopup::keyBackClicked - 0x28db10
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x28d790
