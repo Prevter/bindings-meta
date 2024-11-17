@@ -1174,6 +1174,7 @@ cocos2d::CCSpeed::startWithTarget - 0x5dcfc0
 cocos2d::CCSpeed::stop - 0x5dcfe0
 cocos2d::CCSpeed::step - 0x5dd010
 cocos2d::CCSpeed::reverse - 0x5dd040
+pugi::xml_document::xml_document - 0x62aa40
 pugi::xml_document::~xml_document - 0x62ab90
 cocos2d::CCLightning::lightningWithStrikePoint - 0x5c5940
 cocos2d::CCLightning::lightningWithStrikePoint - 0x5c5780
@@ -2295,6 +2296,7 @@ EndLevelLayer::showLayer - 0x4af060
 EndLevelLayer::enterAnimFinished - 0x4afd90
 EndLevelLayer::keyUp - 0x4b06b0
 EndPortalObject::create - 0x3891b0
+EndPortalObject::updateEndPos - 0x3898c0
 EndPortalObject::init - 0x389250
 EndPortalObject::setPosition - 0x389750
 EndPortalObject::setVisible - 0x389860
@@ -4083,6 +4085,7 @@ PlayerObject::flashPlayer - 0x3fd3f0
 PlayerObject::flipGravity - 0x3f1c30
 PlayerObject::gameEventTriggered - 0x3f1ff0
 PlayerObject::getActiveMode - 0x404b10
+PlayerObject::hitGround - 0x3fa390
 PlayerObject::incrementJumps - 0x3f1bf0
 PlayerObject::init - 0x3e8970
 PlayerObject::isFlying - 0x3efb00

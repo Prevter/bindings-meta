@@ -1038,6 +1038,7 @@ DS_Dictionary::getObjectForKey - 0x13c9b4
 DS_Dictionary::getStringForKey - 0x139bec
 DS_Dictionary::loadRootSubDictFromCompressedFile - 0x1372fc
 DS_Dictionary::loadRootSubDictFromString - 0x1376b0
+DS_Dictionary::saveRootSubDictToString - 0x1388ec
 DS_Dictionary::setArrayForKey - 0x13c4d0
 DS_Dictionary::setBoolForKey - 0x13ab9c
 DS_Dictionary::setBoolMapForKey - 0x13cf9c
@@ -1045,6 +1046,7 @@ DS_Dictionary::setDictForKey - 0x13cd9c
 DS_Dictionary::setFloatForKey - 0x13ad84
 DS_Dictionary::setIntegerForKey - 0x13a930
 DS_Dictionary::setStringForKey - 0x13b008
+DS_Dictionary::stepIntoSubDictWithKey - 0x138dc0
 DS_Dictionary::stepOutOfSubDict - 0x138ff0
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x2d7fe0
 cocos2d::extension::CCScale9Sprite::create - 0x36627c
@@ -1107,6 +1109,8 @@ cocos2d::CCSpeed::startWithTarget - 0x50fea4
 cocos2d::CCSpeed::stop - 0x50feb8
 cocos2d::CCSpeed::step - 0x50fee8
 cocos2d::CCSpeed::reverse - 0x50ff14
+pugi::xml_document::xml_document - 0x5553cc
+pugi::xml_document::~xml_document - 0x555520
 cocos2d::CCLightning::lightningWithStrikePoint - 0x4fa830
 cocos2d::CCLightning::lightningWithStrikePoint - 0x4fa6c4
 cocos2d::CCLightning::initWithStrikePoint - 0x4fa950
@@ -3825,6 +3829,7 @@ PlayerObject::fadeOutStreak2 - 0x38071c
 PlayerObject::flipGravity - 0x372910
 PlayerObject::gameEventTriggered - 0x372c80
 PlayerObject::getActiveMode - 0x38294c
+PlayerObject::hitGround - 0x37951c
 PlayerObject::incrementJumps - 0x3728d8
 PlayerObject::init - 0x36a954
 PlayerObject::loadFromCheckpoint - 0x3880ac
