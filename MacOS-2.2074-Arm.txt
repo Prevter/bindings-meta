@@ -91,6 +91,7 @@ cocos2d::CCMoveTo::startWithTarget - 0x3320bc
 cocos2d::CCRemoveSelf::copyWithZone - 0x6a9e1c
 cocos2d::CCRemoveSelf::update - 0x6a9da4
 cocos2d::CCRemoveSelf::reverse - 0x6a9dbc
+cocos2d::CCScaleBy::create - 0x3339d0
 cocos2d::CCScaleBy::copyWithZone - 0x333b0c
 cocos2d::CCScaleBy::startWithTarget - 0x333c04
 cocos2d::CCScaleBy::reverse - 0x333c74
@@ -1945,6 +1946,7 @@ DailyLevelNode::init - 0x1d3884
 DailyLevelNode::onClaimReward - 0x1d4358
 DailyLevelNode::onSkipLevel - 0x1d4470
 DailyLevelNode::FLAlert_Clicked - 0x1d4660
+DailyLevelPage::create - 0x1d0d8c
 DailyLevelPage::claimLevelReward - 0x1d3470
 DailyLevelPage::createDailyNode - 0x1d2700
 DailyLevelPage::exitDailyNode - 0x1d2b34
@@ -3222,6 +3224,7 @@ LevelBrowserLayer::onRefresh - 0x3e909c
 LevelBrowserLayer::onRemoveAllFavorites - 0x3e8b28
 LevelBrowserLayer::onSearch - 0x3e96b4
 LevelBrowserLayer::setupLevelBrowser - 0x3eafb8
+LevelBrowserLayer::show - 0x3ece8c
 LevelBrowserLayer::onEnter - 0x3ecc44
 LevelBrowserLayer::onEnterTransitionDidFinish - 0x3ece38
 LevelBrowserLayer::ccTouchBegan - 0x3ecf10
@@ -3516,6 +3519,7 @@ LoadingCircle::ccTouchMoved - 0x8fb0
 LoadingCircle::ccTouchEnded - 0x8fb0
 LoadingCircle::ccTouchCancelled - 0x8fb0
 LoadingCircle::registerWithTouchDispatcher - 0x415230
+LoadingCircleSprite::fadeInCircle - 0x4153e4
 LoadingCircleSprite::hideCircle - 0x415470
 LoadingLayer::scene - 0x31e17c
 LoadingLayer::getLoadingString - 0x31ea9c
@@ -4127,6 +4131,7 @@ SecretLayer2::onDoor - 0x3f9a70
 SecretLayer2::onSecretLevel - 0x3f9cd4
 SecretLayer2::onSubmit - 0x3f8608
 SecretLayer2::showCompletedLevel - 0x3f9e98
+SecretLayer2::updateSearchLabel - 0x3f831c
 SecretLayer2::init - 0x3f73b4
 SecretLayer2::onExit - 0x3fce88
 SecretLayer2::keyBackClicked - 0x3fcd9c

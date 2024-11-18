@@ -2043,6 +2043,7 @@ DailyLevelNode::init - 0x2209a0
 DailyLevelNode::onClaimReward - 0x221400
 DailyLevelNode::onSkipLevel - 0x221500
 DailyLevelNode::FLAlert_Clicked - 0x2216d0
+DailyLevelPage::create - 0x21e2b0
 DailyLevelPage::createDailyNode - 0x21f7b0
 DailyLevelPage::exitDailyNode - 0x21fc20
 DailyLevelPage::getDailyTime - 0x2202a0
@@ -3477,6 +3478,7 @@ LevelBrowserLayer::onRemoveAllFavorites - 0x47a7c0
 LevelBrowserLayer::onSearch - 0x47b290
 LevelBrowserLayer::onToggleAllObjects - 0x47a2b0
 LevelBrowserLayer::setupLevelBrowser - 0x47ce70
+LevelBrowserLayer::show - 0x47f080
 LevelBrowserLayer::updatePageLabel - 0x479d90
 LevelBrowserLayer::onEnter - 0x47ee70
 LevelBrowserLayer::onEnterTransitionDidFinish - 0x47f010
@@ -3784,6 +3786,7 @@ LoadingCircle::ccTouchEnded - 0x7150
 LoadingCircle::ccTouchCancelled - 0x7150
 LoadingCircle::registerWithTouchDispatcher - 0x4ac150
 LoadingCircleSprite::create - 0x4ac190
+LoadingCircleSprite::fadeInCircle - 0x4ac330
 LoadingLayer::create - 0x38f480
 LoadingLayer::getLoadingString - 0x38fcf0
 LoadingLayer::init - 0x38f560
@@ -4399,6 +4402,7 @@ SecretLayer2::onDoor - 0x48ca80
 SecretLayer2::onSecretLevel - 0x48ccc0
 SecretLayer2::onSubmit - 0x48b390
 SecretLayer2::showCompletedLevel - 0x48ce80
+SecretLayer2::updateSearchLabel - 0x48b090
 SecretLayer2::init - 0x48a0f0
 SecretLayer2::onExit - 0x4900c0
 SecretLayer2::keyBackClicked - 0x48ffd0
