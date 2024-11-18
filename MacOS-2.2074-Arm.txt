@@ -55,6 +55,7 @@ cocos2d::CCEaseExponentialOut::create - 0x45e9b0
 cocos2d::CCEaseExponentialOut::copyWithZone - 0x45ec7c
 cocos2d::CCEaseExponentialOut::update - 0x45ed64
 cocos2d::CCEaseExponentialOut::reverse - 0x45edc8
+cocos2d::CCEaseSineIn::create - 0x45f004
 cocos2d::CCEaseSineIn::copyWithZone - 0x45f0ac
 cocos2d::CCEaseSineIn::update - 0x45f194
 cocos2d::CCEaseSineIn::reverse - 0x45f1d8
@@ -318,6 +319,7 @@ cocos2d::CCNode::convertToNodeSpace - 0x20e94c
 cocos2d::CCNode::convertToWorldSpace - 0x20e994
 cocos2d::CCNode::convertTouchToNodeSpace - 0x20eaf8
 cocos2d::CCNode::description - 0x20cc04
+cocos2d::CCNode::resumeSchedulerAndActions - 0x20da08
 cocos2d::CCNode::runAction - 0x20dd34
 cocos2d::CCNode::schedule - 0x20dee8
 cocos2d::CCNode::schedule - 0x20df28
@@ -565,6 +567,7 @@ cocos2d::CCTexture2D::getShaderProgram - 0x3d54f4
 cocos2d::CCTexture2D::setShaderProgram - 0x3d54fc
 cocos2d::CCTextureCache::sharedTextureCache - 0x508118
 cocos2d::CCTextureCache::addImage - 0x509308
+cocos2d::CCTextureCache::addImageAsync - 0x5085b8
 cocos2d::CCTextureCache::addUIImage - 0x50a210
 cocos2d::CCTextureCache::description - 0x5083f4
 cocos2d::CCTextureCache::prepareAsyncLoading - 0x508584
@@ -651,7 +654,6 @@ cocos2d::CCNodeRGBA::isCascadeOpacityEnabled - 0x20f070
 cocos2d::CCNodeRGBA::setCascadeOpacityEnabled - 0x20f080
 cocos2d::CCNodeRGBA::updateDisplayedOpacity - 0x20eee0
 cocos2d::CCSequence::create - 0x32f72c
-cocos2d::CCSequence::createWithTwoActions - 0x32fe54
 cocos2d::CCSequence::createWithVariableList - 0x32f52c
 cocos2d::CCSequence::initWithTwoActions - 0x32f4a0
 cocos2d::CCSequence::copyWithZone - 0x32f938
@@ -808,6 +810,7 @@ cocos2d::CCRenderTexture::draw - 0x511588
 cocos2d::CCRenderTexture::visit - 0x5114fc
 cocos2d::CCRenderTexture::getSprite - 0x51079c
 cocos2d::CCRenderTexture::setSprite - 0x5107a4
+cocos2d::CCRepeat::create - 0x32fe54
 cocos2d::CCRepeat::copyWithZone - 0x32ffdc
 cocos2d::CCRepeat::update - 0x330274
 cocos2d::CCRepeat::isDone - 0x3303e4
@@ -2157,6 +2160,7 @@ EditorUI::showMaxBasicError - 0x34474
 EditorUI::showMaxCoinError - 0x345f0
 EditorUI::showMaxError - 0x342fc
 EditorUI::showUI - 0x388f4
+EditorUI::spriteFromObjectString - 0x33ab0
 EditorUI::toggleFreeMove - 0xd8b4
 EditorUI::toggleMode - 0x2b140
 EditorUI::toggleStickyControls - 0x2d020
@@ -3095,6 +3099,7 @@ GJUserCell::uploadActionFailed - 0x1f3ea8
 GJUserCell::onClosePopup - 0x1f4010
 GJUserCell::onRemoveFriend - 0x1f3644
 GJUserCell::onUnblockUser - 0x1f3244
+GJUserMessage::create - 0x4a264c
 GJUserMessage::create - 0x490df0
 GJUserMessage::init - 0x4a26e8
 GJUserScore::create - 0x479a1c
@@ -3301,6 +3306,7 @@ LevelEditorLayer::removeSpecial - 0xc99a4
 LevelEditorLayer::updateEditor - 0xc53b8
 LevelEditorLayer::updateEditorMode - 0xc6370
 LevelEditorLayer::updateGameObjects - 0xc57c0
+LevelEditorLayer::updateObjectColors - 0xd102c
 LevelEditorLayer::updateOptions - 0xc4394
 LevelEditorLayer::updatePreviewParticle - 0x1642bc
 LevelFeatureLayer::keyBackClicked - 0x4530b8
@@ -3458,6 +3464,7 @@ LevelSearchLayer::toggleDifficulty - 0x540640
 LevelSearchLayer::toggleDifficultyNum - 0x540e20
 LevelSearchLayer::toggleStar - 0x540d30
 LevelSearchLayer::toggleTimeNum - 0x540fb4
+LevelSelectLayer::scene - 0x39a5b0
 LevelSelectLayer::keyBackClicked - 0x39d1bc
 LevelSelectLayer::keyDown - 0x39d250
 LevelSelectLayer::updatePageWithObject - 0x39b4a8
