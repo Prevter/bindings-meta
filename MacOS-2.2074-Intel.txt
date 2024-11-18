@@ -2630,6 +2630,7 @@ GameManager::reloadAllStep5 - 0x379180
 GameManager::reportAchievementWithID - 0x366830
 GameManager::reportPercentageForLevel - 0x365da0
 GameManager::resolutionForKey - 0x3791c0
+GameManager::returnToLastScene - 0x3789d0
 GameManager::setGameVariable - 0x370550
 GameManager::setIntGameVariable - 0x370b70
 GameManager::setUGV - 0x370890
@@ -3919,6 +3920,7 @@ MusicBrowser::getSelectedCellIdx - 0x5f83e0
 MusicBrowser::FLAlert_Clicked - 0x5f8610
 MusicDownloadManager::sharedState - 0x572a00
 MusicDownloadManager::addDLToActive - 0x577e40
+MusicDownloadManager::clearSong - 0x577170
 MusicDownloadManager::createSongsInfo - 0x575b00
 MusicDownloadManager::dataLoaded - 0x578e00
 MusicDownloadManager::deleteSong - 0x577120

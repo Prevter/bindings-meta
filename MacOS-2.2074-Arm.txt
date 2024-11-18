@@ -2477,6 +2477,7 @@ GameManager::reloadAllStep2 - 0x3094e8
 GameManager::reloadAllStep5 - 0x3096c0
 GameManager::reportAchievementWithID - 0x2f9160
 GameManager::reportPercentageForLevel - 0x2f87b4
+GameManager::returnToLastScene - 0x308f8c
 GameManager::safePopScene - 0x309298
 GameManager::setGameVariable - 0x3018c0
 GameManager::setIntGameVariable - 0x301f7c
@@ -2694,6 +2695,7 @@ GJBaseGameLayer::triggerGradientCommand - 0x104294
 GJBaseGameLayer::tryGetMainObject - 0xf8cc4
 GJBaseGameLayer::updateAudioVisualizer - 0x11a1b0
 GJBaseGameLayer::updateBGArtSpeed - 0x11e5e0
+GJBaseGameLayer::updateCamera - 0x11a738
 GJBaseGameLayer::updateDualGround - 0xf365c
 GJBaseGameLayer::updateEnterEffects - 0xedfd4
 GJBaseGameLayer::updateKeyframeOrder - 0x11403c
@@ -3670,7 +3672,7 @@ MusicBrowser::getSelectedCellIdx - 0x527738
 MusicBrowser::FLAlert_Clicked - 0x527918
 MusicDownloadManager::sharedState - 0x4c6c2c
 MusicDownloadManager::addDLToActive - 0x4cba2c
-MusicDownloadManager::clearSong - 0x48795c
+MusicDownloadManager::clearSong - 0x4cae00
 MusicDownloadManager::createSongsInfo - 0x4c998c
 MusicDownloadManager::dataLoaded - 0x4cc790
 MusicDownloadManager::deleteSong - 0x4cada0

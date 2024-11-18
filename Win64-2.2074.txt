@@ -507,6 +507,7 @@ ConfigureValuePopup::sliderChanged - 0x98d00
 ConfigureValuePopup::updateTextInputLabel - 0x98d50
 ConfigureValuePopup::keyBackClicked - 0x98fb0
 ConfigureValuePopup::textChanged - 0x98de0
+CountTriggerGameObject::triggerObject - 0x4a26c0
 CreateGuidelinesLayer::update - 0x9adf0
 CreateGuidelinesLayer::ccTouchBegan - 0x9b0c0
 CreateGuidelinesLayer::ccTouchEnded - 0x9b140
@@ -1043,6 +1044,7 @@ GameLevelManager::getBasePostString - 0x14a4b0
 GameLevelManager::getCompletedLevels - 0x145860
 GameLevelManager::getFolderName - 0x148910
 GameLevelManager::getGJChallenges - 0x164ad0
+GameLevelManager::getGJRewards - 0x1635e0
 GameLevelManager::getGJUserInfo - 0x157880
 GameLevelManager::getLeaderboardScores - 0x1554b0
 GameLevelManager::getLevelComments - 0x159870
@@ -1803,6 +1805,7 @@ LevelBrowserLayer::onSavedMode - 0x2c5b90
 LevelBrowserLayer::onSearch - 0x2c6840
 LevelBrowserLayer::onToggleAllObjects - 0x2c7250
 LevelBrowserLayer::setupLevelBrowser - 0x2c36d0
+LevelBrowserLayer::show - 0x2c7a60
 LevelBrowserLayer::updatePageLabel - 0x2c4a70
 LevelBrowserLayer::onEnter - 0x2c78b0
 LevelBrowserLayer::registerWithTouchDispatcher - 0x2c79f0
@@ -1818,6 +1821,7 @@ LevelBrowserLayer::FLAlert_Clicked - 0x2c72f0
 LevelBrowserLayer::setIDPopupClosed - 0x2c4870
 LevelBrowserLayer::updateResultArray - 0x2c0770
 LevelBrowserLayer::cellPerformedAction - 0x2c7950
+LevelCell::LevelCell - 0xad870
 LevelCell::loadCustomLevelCell - 0xadb20
 LevelCell::loadFromLevel - 0xad940
 LevelCell::loadLocalLevelCell - 0xb05f0
@@ -2089,6 +2093,7 @@ LoadingCircle::init - 0x6b940
 LoadingCircle::draw - 0x6bbc0
 LoadingCircle::registerWithTouchDispatcher - 0x6bbe0
 LoadingCircleSprite::create - 0x6bc30
+LoadingCircleSprite::fadeInCircle - 0x6bd30
 LoadingLayer::scene - 0x3194f0
 LoadingLayer::getLoadingString - 0x31a930
 LoadingLayer::init - 0x319600
@@ -2398,6 +2403,9 @@ PlayerObject::updateShipRotation - 0x37ae10
 PlayerObject::updateSwingFire - 0x385040
 PlayerObject::updateTimeMod - 0x38afc0
 PlayerObject::update - 0x373010
+PlayerObject::setScaleX - 0x38cac0
+PlayerObject::setScaleY - 0x38cae0
+PlayerObject::setScale - 0x38cad0
 PlayerObject::setPosition - 0x3868b0
 PlayerObject::setVisible - 0x38caf0
 PlayerObject::setRotation - 0x38c9f0
@@ -2599,6 +2607,7 @@ SecretLayer2::onSubmit - 0x3cdf00
 SecretLayer2::showCompletedLevel - 0x3cc5a0
 SecretLayer2::showSecretLevel - 0x3cc430
 SecretLayer2::updateMessageLabel - 0x3cff20
+SecretLayer2::updateSearchLabel - 0x3cfc30
 SecretLayer2::init - 0x3caf70
 SecretLayer2::keyBackClicked - 0x3d2590
 SecretLayer2::textInputOpened - 0x3cfa10
@@ -2731,6 +2740,7 @@ SetupGradientPopup::valueDidChange - 0x40a410
 SetupInstantCountPopup::create - 0x40a520
 SetupInstantCountPopup::init - 0x40a660
 SetupInstantCountPopup::onTargetIDArrow - 0x4045c0
+SetupInstantCountPopup::updateItemID - 0x401fd0
 SetupInstantCountPopup::textChanged - 0x40b740
 SetupItemEditTriggerPopup::init - 0x4525f0
 SetupItemEditTriggerPopup::updateFormulaLabel - 0x453eb0
