@@ -2698,6 +2698,7 @@ GJBaseGameLayer::tryGetMainObject - 0xf8cc4
 GJBaseGameLayer::updateAudioVisualizer - 0x11a1b0
 GJBaseGameLayer::updateBGArtSpeed - 0x11e5e0
 GJBaseGameLayer::updateCamera - 0x11a738
+GJBaseGameLayer::updateCounters - 0x114398
 GJBaseGameLayer::updateDualGround - 0xf365c
 GJBaseGameLayer::updateEnterEffects - 0xedfd4
 GJBaseGameLayer::updateKeyframeOrder - 0x11403c
@@ -2781,8 +2782,11 @@ GJDifficultySprite::init - 0x24a3cc
 GJDifficultySprite::updateDifficultyFrame - 0x24a5b0
 GJDifficultySprite::updateFeatureState - 0x24a728
 GJDifficultySprite::updateFeatureStateFromLevel - 0x24a6f0
+GJEffectManager::countForItem - 0x2777b8
 GJEffectManager::getColorAction - 0x26d3c4
+GJEffectManager::reset - 0x26cb18
 GJEffectManager::updateColorEffects - 0x26e6c0
+GJEffectManager::updateCountForItem - 0x27791c
 GJEffectManager::updateEffects - 0x26e5bc
 GJEffectManager::updatePulseEffects - 0x26e850
 GJEffectManager::init - 0x26c924
@@ -3194,6 +3198,7 @@ LeaderboardsLayer::updateUserScoreFailed - 0x45d1ec
 LeaderboardsLayer::loadLeaderboardFinished - 0x45d294
 LeaderboardsLayer::loadLeaderboardFailed - 0x45d924
 LevelAreaInnerLayer::init - 0x2135d4
+LevelAreaInnerLayer::onBack - 0x2143a0
 LevelAreaInnerLayer::onDoor - 0x2143f8
 LevelAreaInnerLayer::onInfo - 0x2146cc
 LevelAreaInnerLayer::onNextFloor - 0x21453c
