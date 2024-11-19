@@ -90,6 +90,7 @@ cocos2d::CCMoveBy::reverse - 0x331d48
 cocos2d::CCMoveTo::create - 0x331e58
 cocos2d::CCMoveTo::copyWithZone - 0x331f78
 cocos2d::CCMoveTo::startWithTarget - 0x3320bc
+cocos2d::CCRemoveSelf::create - 0x6a9d38
 cocos2d::CCRemoveSelf::copyWithZone - 0x6a9e1c
 cocos2d::CCRemoveSelf::update - 0x6a9da4
 cocos2d::CCRemoveSelf::reverse - 0x6a9dbc
@@ -106,6 +107,8 @@ cocos2d::CCTintTo::create - 0x3347a0
 cocos2d::CCTintTo::copyWithZone - 0x33487c
 cocos2d::CCTintTo::update - 0x3349e4
 cocos2d::CCTintTo::startWithTarget - 0x334978
+cocos2d::CCAction::CCAction - 0x50f94c
+cocos2d::CCAction::~CCAction - 0x50f9bc
 cocos2d::CCAction::description - 0x50fa50
 cocos2d::CCAction::copyWithZone - 0x50fa7c
 cocos2d::CCAction::update - 0x50fb64
@@ -609,8 +612,10 @@ cocos2d::CCIMEDelegate::~CCIMEDelegate - 0x411f78
 cocos2d::CCIMEDelegate::attachWithIME - 0x411f90
 cocos2d::CCIMEDelegate::detachWithIME - 0x4121d0
 cocos2d::CCIMEDelegate::deleteForward - 0x8fb0
+cocos2d::CCIMEDispatcher::sharedDispatcher - 0x411d04
 cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x4124e0
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x4124b4
+cocos2d::CCIMEDispatcher::hasDelegate - 0x4124a0
 cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x1a8028
 cocos2d::CCKeyboardDispatcher::keyToString - 0x1a82e0
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x1a82c8
@@ -1248,6 +1253,7 @@ AchievementManager::addManualAchievements - 0x633f7c
 AchievementManager::isAchievementEarned - 0x682198
 AchievementManager::limitForAchievement - 0x68248c
 AchievementManager::percentForAchievement - 0x6821b4
+AchievementNotifier::sharedState - 0x6beb0c
 AchievementNotifier::init - 0x6beb88
 AchievementNotifier::notifyAchievement - 0x6bebb4
 AchievementNotifier::willSwitchToScene - 0x6bed64
@@ -3770,7 +3776,9 @@ NumberInputLayer::deleteLast - 0x3ede24
 NumberInputLayer::inputNumber - 0x3ee054
 NumberInputLayer::onNumber - 0x3edcd0
 NumberInputLayer::updateNumberState - 0x3edd68
-OBB2D::calculateWithCenter - 0x50edb8
+OBB2D::create - 0x50edb8
+OBB2D::calculateWithCenter - 0x50ef3c
+OBB2D::init - 0x50eebc
 ObjectControlGameObject::init - 0x19559c
 ObjectControlGameObject::customObjectSetup - 0x195a5c
 ObjectControlGameObject::getSaveString - 0x1955ec

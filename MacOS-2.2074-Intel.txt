@@ -94,6 +94,7 @@ cocos2d::CCMoveBy::reverse - 0x3a5370
 cocos2d::CCMoveTo::create - 0x3a5490
 cocos2d::CCMoveTo::copyWithZone - 0x3a55e0
 cocos2d::CCMoveTo::startWithTarget - 0x3a5750
+cocos2d::CCRemoveSelf::create - 0x796bc0
 cocos2d::CCRemoveSelf::copyWithZone - 0x796cb0
 cocos2d::CCRemoveSelf::update - 0x796c30
 cocos2d::CCRemoveSelf::reverse - 0x796c50
@@ -1109,6 +1110,7 @@ cocos2d::CCTextFieldTTF::canDetachWithIME - 0x26a4a0
 cocos2d::CCTextFieldTTF::insertText - 0x26a500
 cocos2d::CCTextFieldTTF::deleteBackward - 0x26a840
 cocos2d::CCTextFieldTTF::getContentText - 0x26abc0
+DS_Dictionary::DS_Dictionary - 0x169200
 DS_Dictionary::addBoolValuesToMapForKey - 0x171590
 DS_Dictionary::addBoolValuesToMapForKeySpecial - 0x171230
 DS_Dictionary::getAllKeys - 0x16ccb0
@@ -1121,6 +1123,7 @@ DS_Dictionary::getKey - 0x16cb80
 DS_Dictionary::getObjectForKey - 0x170930
 DS_Dictionary::getStringForKey - 0x16d620
 DS_Dictionary::loadRootSubDictFromCompressedFile - 0x16a5b0
+DS_Dictionary::loadRootSubDictFromString - 0x16a9f0
 DS_Dictionary::saveRootSubDictToString - 0x16c030
 DS_Dictionary::setArrayForKey - 0x170440
 DS_Dictionary::setBoolForKey - 0x16e790
@@ -1316,6 +1319,7 @@ AchievementManager::getAchievementsWithID - 0x76ed50
 AchievementManager::isAchievementEarned - 0x76ec00
 AchievementManager::limitForAchievement - 0x76eec0
 AchievementManager::percentForAchievement - 0x76ec20
+AchievementNotifier::sharedState - 0x7ad380
 AchievementNotifier::init - 0x7ad410
 AchievementNotifier::notifyAchievement - 0x7ad440
 AchievementNotifier::willSwitchToScene - 0x7ad5f0
@@ -3888,7 +3892,11 @@ MessagesProfilePage::forceReloadMessages - 0x21da60
 MessagesProfilePage::setupPageInfo - 0x21daa0
 MessagesProfilePage::deleteSelected - 0x21cf00
 MessagesProfilePage::init - 0x21bbe0
+MessagesProfilePage::loadPage - 0x21caa0
+MessagesProfilePage::onClose - 0x21c5b0
 MessagesProfilePage::onDeleteSelected - 0x21c760
+MessagesProfilePage::onToggleAllObjects - 0x21c940
+MessagesProfilePage::untoggleAll - 0x21d4b0
 MoreOptionsLayer::create - 0x785240
 MoreOptionsLayer::init - 0x785810
 MoreOptionsLayer::keyBackClicked - 0x788ba0
@@ -4017,7 +4025,9 @@ NumberInputLayer::init - 0x47f660
 NumberInputLayer::registerWithTouchDispatcher - 0x480110
 NumberInputLayer::keyBackClicked - 0x4800a0
 NumberInputLayer::onNumber - 0x47fc30
+OBB2D::create - 0x5dbcf0
 OBB2D::calculateWithCenter - 0x5dbe20
+OBB2D::init - 0x5dbdb0
 ObjectControlGameObject::init - 0x1dcad0
 ObjectControlGameObject::customObjectSetup - 0x1dd030
 ObjectControlGameObject::getSaveString - 0x1dcb20
@@ -4124,6 +4134,7 @@ PlayerObject::animationFinished - 0x40b1e0
 PlayerObject::activateStreak - 0x3f17c0
 PlayerObject::addToTouchedRings - 0x404180
 PlayerObject::animatePlatformerJump - 0x3f2020
+PlayerObject::boostPlayer - 0x3f49e0
 PlayerObject::bumpPlayer - 0x409440
 PlayerObject::collidedWithObject - 0x3f4c90
 PlayerObject::collidedWithObject - 0x3fb520
