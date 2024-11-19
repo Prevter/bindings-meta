@@ -990,6 +990,7 @@ GameObject::determineSlopeDirection - 0x4f5cf0
 GameObject::getGroupDisabled - 0x4f660c
 GameObject::getGroupID - 0x4f62e0
 GameObject::getLastPosition - 0x501170
+GameObject::getScalePosDelta - 0x4f5fc0
 GameObject::groupOpacityMod - 0x4f6c58
 GameObject::init - 0x4ed010
 GameObject::isFacingDown - 0x50012c
@@ -1000,6 +1001,8 @@ GameObject::objectFromVector - 0x4f775c
 GameObject::playDestroyObjectAnim - 0x201d4c
 GameObject::playShineEffect - 0x4f4cac
 GameObject::setLastPosition - 0x501178
+GameObject::slopeFloorTop - 0x4ffb30
+GameObject::slopeYPos - 0x4ffbec
 GameObject::updateCustomScaleX - 0x4ee91c
 GameObject::updateCustomScaleY - 0x4ee97c
 GameObject::updateIsOriented - 0x4fff78
@@ -3636,6 +3639,7 @@ PlayerObject::addToTouchedRings - 0x393d24
 PlayerObject::animatePlatformerJump - 0x384c3c
 PlayerObject::boostPlayer - 0x386edc
 PlayerObject::bumpPlayer - 0x398b20
+PlayerObject::checkSnapJumpToObject - 0x38c5a8
 PlayerObject::collidedWithObject - 0x38714c
 PlayerObject::collidedWithObject - 0x38c4ec
 PlayerObject::collidedWithObjectInternal - 0x388d80
@@ -3648,6 +3652,7 @@ PlayerObject::disablePlayerControls - 0x3987e8
 PlayerObject::disableSwingFire - 0x3924d4
 PlayerObject::doReversePlayer - 0x383584
 PlayerObject::enablePlayerControls - 0x398844
+PlayerObject::exitPlatformerAnimateJump - 0x383798
 PlayerObject::fadeOutStreak2 - 0x392438
 PlayerObject::flipGravity - 0x3848b4
 PlayerObject::gameEventTriggered - 0x384c24
@@ -3698,6 +3703,8 @@ PlayerObject::toggleSpiderMode - 0x396f64
 PlayerObject::toggleSwingMode - 0x395760
 PlayerObject::tryPlaceCheckpoint - 0x383ebc
 PlayerObject::updateCollide - 0x38bb70
+PlayerObject::updateCollideBottom - 0x38c9ec
+PlayerObject::updateCollideTop - 0x38c960
 PlayerObject::updateEffects - 0x383d54
 PlayerObject::updateGlowColor - 0x397f58
 PlayerObject::updateJump - 0x37fb30

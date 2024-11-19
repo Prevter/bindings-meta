@@ -782,6 +782,12 @@ cocos2d::CCAnimate::update - 0x335aa4
 cocos2d::CCAnimate::startWithTarget - 0x3359f8
 cocos2d::CCAnimate::stop - 0x335a60
 cocos2d::CCAnimate::reverse - 0x335ca8
+cocos2d::CCAnimation::create - 0x22e300
+cocos2d::CCAnimation::create - 0x22dffc
+cocos2d::CCAnimation::createWithSpriteFrames - 0x22e128
+cocos2d::CCAnimation::init - 0x22e0cc
+cocos2d::CCAnimation::initWithAnimationFrames - 0x22e3fc
+cocos2d::CCAnimation::initWithSpriteFrames - 0x22e1b0
 cocos2d::CCAnimation::copyWithZone - 0x22e720
 cocos2d::CCAnimation::getDuration - 0x22e714
 cocos2d::CCApplication::sharedApplication - 0x2ab200
@@ -4825,6 +4831,7 @@ TeleportPortalObject::removeFromGroup - 0x16df2c
 TeleportPortalObject::setRotation2 - 0x16de9c
 TeleportPortalObject::addToGroup2 - 0x16dea0
 TeleportPortalObject::removeFromGroup2 - 0x16dea4
+TextAlertPopup::create - 0x2437f0
 TextAlertPopup::init - 0x243988
 TextAlertPopup::setAlertPosition - 0x243cc8
 TextAlertPopup::setLabelColor - 0x243c8c
