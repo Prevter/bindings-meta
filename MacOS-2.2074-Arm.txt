@@ -117,9 +117,15 @@ cocos2d::CCScene::create - 0x2288ec
 cocos2d::CCScene::getHighestChildZ - 0x2289cc
 cocos2d::CCScene::~CCScene - 0x22887c
 cocos2d::CCScene::init - 0x228894
+cocos2d::CCSet::CCSet - 0x6b03e8
+cocos2d::CCSet::~CCSet - 0x6b0560
 cocos2d::CCSet::addObject - 0x6b07f0
 cocos2d::CCSet::anyObject - 0x6b09ec
+cocos2d::CCSet::begin - 0x6b09d4
 cocos2d::CCSet::containsObject - 0x6b0984
+cocos2d::CCSet::count - 0x6b07e4
+cocos2d::CCSet::end - 0x6b09e0
+cocos2d::CCSet::mutableCopy - 0x6b079c
 cocos2d::CCSet::acceptVisitor - 0x6b06b4
 cocos2d::CCShaderCache::sharedShaderCache - 0x1a6b00
 cocos2d::CCShaderCache::loadDefaultShader - 0x1a74ac
@@ -539,6 +545,7 @@ cocos2d::CCLayerRGBA::isCascadeOpacityEnabled - 0x409dfc
 cocos2d::CCLayerRGBA::setCascadeOpacityEnabled - 0x409e0c
 cocos2d::CCLayerRGBA::updateDisplayedOpacity - 0x409b60
 cocos2d::CCMouseDispatcher::dispatchScrollMSG - 0x4b0cb4
+cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x3dd8b8
 cocos2d::CCTexture2D::initPremultipliedATextureWithImage - 0x3d590c
 cocos2d::CCTexture2D::initWithData - 0x3d557c
 cocos2d::CCTexture2D::initWithETCFile - 0x3d65b4
@@ -654,6 +661,7 @@ cocos2d::CCNodeRGBA::isCascadeOpacityEnabled - 0x20f070
 cocos2d::CCNodeRGBA::setCascadeOpacityEnabled - 0x20f080
 cocos2d::CCNodeRGBA::updateDisplayedOpacity - 0x20eee0
 cocos2d::CCSequence::create - 0x32f72c
+cocos2d::CCSequence::createWithTwoActions - 0x32f3e4
 cocos2d::CCSequence::createWithVariableList - 0x32f52c
 cocos2d::CCSequence::initWithTwoActions - 0x32f4a0
 cocos2d::CCSequence::copyWithZone - 0x32f938
@@ -1099,6 +1107,7 @@ cocos2d::extension::CCHttpClient::getInstance - 0x3a04ec
 cocos2d::extension::CCHttpClient::destroyInstance - 0x3a0550
 cocos2d::extension::CCHttpClient::send - 0x3a12c0
 cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x3a0864
+cocos2d::ZipUtils::base64URLEncode - 0x1a9aa0
 cocos2d::ZipUtils::ccDeflateMemory - 0x1a8dd8
 cocos2d::ZipUtils::compressString - 0x1a8b18
 cocos2d::ZipUtils::decompressString - 0x1a921c
@@ -1482,6 +1491,7 @@ BoomScrollLayer::ccTouchEnded - 0x322974
 BoomScrollLayer::ccTouchCancelled - 0x32241c
 BoomScrollLayer::registerWithTouchDispatcher - 0x3222a4
 BoomScrollLayer::addPage - 0x322070
+BoomScrollLayer::cancelAndStoleTouch - 0x322340
 BoomScrollLayer::getPage - 0x3216c0
 BoomScrollLayer::getRelativePageForNum - 0x321a10
 BoomScrollLayer::getRelativePosForPage - 0x321670
@@ -4800,6 +4810,7 @@ TableView::scrllViewWillBeginDecelerating - 0x5396d8
 TableView::scrollViewDidEndDecelerating - 0x5396e0
 TableView::scrollViewTouchMoving - 0x5396e8
 TableView::scrollViewDidEndMoving - 0x5396f0
+TableView::cancelAndStoleTouch - 0x537f48
 TableView::deleteTableViewCell - 0x537644
 TableView::initTableViewCells - 0x53716c
 TableView::reloadData - 0x53794c

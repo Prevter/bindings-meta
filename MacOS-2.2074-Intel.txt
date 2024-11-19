@@ -52,6 +52,7 @@ cocos2d::CCEaseExponentialIn::reverse - 0x4ff1d0
 cocos2d::CCEaseExponentialInOut::copyWithZone - 0x4ff4a0
 cocos2d::CCEaseExponentialInOut::update - 0x4ff5a0
 cocos2d::CCEaseExponentialInOut::reverse - 0x4ff610
+cocos2d::CCEaseExponentialOut::create - 0x4ff1f0
 cocos2d::CCEaseExponentialOut::copyWithZone - 0x4ff290
 cocos2d::CCEaseExponentialOut::update - 0x4ff390
 cocos2d::CCEaseExponentialOut::reverse - 0x4ff3e0
@@ -122,11 +123,15 @@ cocos2d::CCScene::create - 0x27eef0
 cocos2d::CCScene::getHighestChildZ - 0x27efb0
 cocos2d::CCScene::~CCScene - 0x27ee70
 cocos2d::CCScene::init - 0x27eea0
+cocos2d::CCSet::CCSet - 0x79def0
 cocos2d::CCSet::~CCSet - 0x79e050
 cocos2d::CCSet::addObject - 0x79e300
 cocos2d::CCSet::anyObject - 0x79e4d0
+cocos2d::CCSet::begin - 0x79e4b0
 cocos2d::CCSet::containsObject - 0x79e460
+cocos2d::CCSet::count - 0x79e2f0
 cocos2d::CCSet::end - 0x79e4c0
+cocos2d::CCSet::mutableCopy - 0x79e2b0
 cocos2d::CCSet::removeObject - 0x79e3b0
 cocos2d::CCSet::acceptVisitor - 0x79e1c0
 cocos2d::CCShaderCache::sharedShaderCache - 0x1f0310
@@ -328,6 +333,7 @@ cocos2d::CCNode::getActionByTag - 0x261ff0
 cocos2d::CCNode::boundingBox - 0x260cd0
 cocos2d::CCNode::convertToNodeSpace - 0x262c40
 cocos2d::CCNode::convertToWorldSpace - 0x262c80
+cocos2d::CCNode::convertTouchToNodeSpace - 0x262de0
 cocos2d::CCNode::description - 0x260e70
 cocos2d::CCNode::resumeSchedulerAndActions - 0x261c50
 cocos2d::CCNode::runAction - 0x261f80
@@ -555,6 +561,7 @@ cocos2d::CCLayerRGBA::isCascadeOpacityEnabled - 0x49f120
 cocos2d::CCLayerRGBA::setCascadeOpacityEnabled - 0x49f140
 cocos2d::CCLayerRGBA::updateDisplayedOpacity - 0x49ed80
 cocos2d::CCMouseDispatcher::dispatchScrollMSG - 0x55a490
+cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x46e5e0
 cocos2d::CCTexture2D::PVRImagesHavePremultipliedAlpha - 0x466800
 cocos2d::CCTexture2D::initWithData - 0x465650
 cocos2d::CCTexture2D::initWithETCFile - 0x466730
@@ -1163,10 +1170,11 @@ cocos2d::extension::CCScale9Sprite::setSpriteFrame - 0x3e4380
 cocos2d::extension::CCHttpClient::getInstance - 0x425520
 cocos2d::extension::CCHttpClient::send - 0x426430
 cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x425880
+cocos2d::ZipUtils::base64URLEncode - 0x1f3eb0
 cocos2d::ZipUtils::ccDeflateMemory - 0x1f3290
 cocos2d::ZipUtils::compressString - 0x1f3020
 cocos2d::ZipUtils::decompressString - 0x1f36c0
-cocos2d::CCSpawn::createWithTwoActions - 0x477e10
+cocos2d::CCSpawn::createWithTwoActions - 0x3a3d20
 cocos2d::CCSpawn::copyWithZone - 0x3a4360
 cocos2d::CCSpawn::update - 0x3a45d0
 cocos2d::CCSpawn::startWithTarget - 0x3a4560
@@ -1560,6 +1568,7 @@ BoomScrollLayer::ccTouchEnded - 0x394160
 BoomScrollLayer::ccTouchCancelled - 0x393b90
 BoomScrollLayer::registerWithTouchDispatcher - 0x393a00
 BoomScrollLayer::addPage - 0x393840
+BoomScrollLayer::cancelAndStoleTouch - 0x393ab0
 BoomScrollLayer::getPage - 0x392d00
 BoomScrollLayer::getRelativePageForNum - 0x393150
 BoomScrollLayer::getRelativePosForPage - 0x392cb0
@@ -5089,6 +5098,7 @@ TableView::scrllViewWillBeginDecelerating - 0x60c810
 TableView::scrollViewDidEndDecelerating - 0x60c830
 TableView::scrollViewTouchMoving - 0x60c850
 TableView::scrollViewDidEndMoving - 0x60c870
+TableView::cancelAndStoleTouch - 0x60af10
 TableView::deleteTableViewCell - 0x60a560
 TableView::initTableViewCells - 0x60a040
 TableView::reloadData - 0x60a890
