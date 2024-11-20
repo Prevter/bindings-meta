@@ -70,6 +70,8 @@ cocos2d::CCEaseSineInOut::reverse - 0x45f5c0
 cocos2d::CCMotionStreak::initWithFade - 0x4b5ffc
 cocos2d::CCMotionStreak::initWithFade - 0x4b5ffc
 cocos2d::CCMotionStreak::CCMotionStreak - 0x4b5cf4
+cocos2d::CCMotionStreak::resumeStroke - 0x4b6510
+cocos2d::CCMotionStreak::stopStroke - 0x4b6508
 cocos2d::CCMotionStreak::~CCMotionStreak - 0x4b5e2c
 cocos2d::CCMotionStreak::update - 0x4b651c
 cocos2d::CCMotionStreak::setPosition - 0x4b6324
@@ -243,6 +245,10 @@ cocos2d::CCParticleSystem::setBlendFunc - 0x6c64c0
 cocos2d::CCParticleSystem::getBlendFunc - 0x6c64b0
 cocos2d::CCParticleSystem::getTexture - 0x6c618c
 cocos2d::CCParticleSystem::setTexture - 0x6c604c
+cocos2d::CCParticleFire::create - 0x3e0d34
+cocos2d::CCParticleFire::createWithTotalParticles - 0x3e0dc4
+cocos2d::CCParticleRain::create - 0x3e2b18
+cocos2d::CCParticleRain::createWithTotalParticles - 0x3e2ba8
 cocos2d::CCParticleSnow::initWithTotalParticles - 0x3e2934
 cocos2d::CCParticleSystemQuad::create - 0x51c418
 cocos2d::CCParticleSystemQuad::create - 0x51d1bc
@@ -323,6 +329,7 @@ cocos2d::CCGLProgram::use - 0x393d70
 cocos2d::CCNode::create - 0x20cad4
 cocos2d::CCNode::CCNode - 0x20c1a8
 cocos2d::CCNode::~CCNode - 0x20c334
+cocos2d::CCNode::getActionByTag - 0x20dd80
 cocos2d::CCNode::boundingBox - 0x20ca74
 cocos2d::CCNode::convertToNodeSpace - 0x20e94c
 cocos2d::CCNode::convertToWorldSpace - 0x20e994
@@ -334,6 +341,7 @@ cocos2d::CCNode::schedule - 0x20dee8
 cocos2d::CCNode::schedule - 0x20df28
 cocos2d::CCNode::scheduleOnce - 0x20df48
 cocos2d::CCNode::scheduleUpdate - 0x20ddf0
+cocos2d::CCNode::stopAction - 0x20dd6c
 cocos2d::CCNode::stopActionByTag - 0x20dd74
 cocos2d::CCNode::stopAllActions - 0x20cbec
 cocos2d::CCNode::unschedule - 0x20df6c
@@ -556,6 +564,7 @@ cocos2d::CCTexture2D::initWithImage - 0x3d5890
 cocos2d::CCTexture2D::initWithPVRFile - 0x3d64dc
 cocos2d::CCTexture2D::initWithString - 0x3d6128
 cocos2d::CCTexture2D::initWithString - 0x3d6198
+cocos2d::CCTexture2D::setAliasTexParameters - 0x3d6778
 cocos2d::CCTexture2D::setTexParameters - 0x3d66e0
 cocos2d::CCTexture2D::~CCTexture2D - 0x3d5378
 cocos2d::CCTexture2D::CCTexture2D - 0x3d52b0
@@ -930,6 +939,7 @@ cocos2d::CCClippingNode::setStencil - 0x628bc4
 cocos2d::CCClippingNode::setAlphaThreshold - 0x628c10
 cocos2d::CCClippingNode::setInverted - 0x628c20
 cocos2d::CCDrawNode::create - 0x528650
+cocos2d::CCDrawNode::setBlendFunc - 0x52a104
 cocos2d::CCDrawNode::CCDrawNode - 0x528418
 cocos2d::CCDrawNode::~CCDrawNode - 0x528574
 cocos2d::CCDrawNode::clear - 0x52a0ec
@@ -1118,6 +1128,7 @@ cocos2d::extension::CCHttpClient::getInstance - 0x3a04ec
 cocos2d::extension::CCHttpClient::destroyInstance - 0x3a0550
 cocos2d::extension::CCHttpClient::send - 0x3a12c0
 cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x3a0864
+cocos2d::ZipUtils::base64URLDecode - 0x1a9990
 cocos2d::ZipUtils::base64URLEncode - 0x1a9aa0
 cocos2d::ZipUtils::ccDeflateMemory - 0x1a8dd8
 cocos2d::ZipUtils::compressString - 0x1a8b18
@@ -2167,6 +2178,7 @@ EditorUI::onPause - 0x2afc0
 EditorUI::onPlayback - 0xdce0
 EditorUI::onPlaytest - 0xdef4
 EditorUI::onSelectBuildTab - 0x33940
+EditorUI::onSettings - 0x2b46c
 EditorUI::onStopPlaytest - 0xe134
 EditorUI::onUngroupSticky - 0xe318
 EditorUI::pasteObjects - 0x35f00
@@ -2453,6 +2465,7 @@ GameLevelManager::resetCommentTimersForLevelID - 0x495b6c
 GameLevelManager::resetDailyLevelState - 0x49c920
 GameLevelManager::restoreItems - 0x49ca38
 GameLevelManager::saveFetchedLevels - 0x477ed0
+GameLevelManager::saveLevel - 0x47d688
 GameLevelManager::setBoolForKey - 0x49d96c
 GameLevelManager::setFolderName - 0x48055c
 GameLevelManager::setIntForKey - 0x49d758
@@ -2730,6 +2743,7 @@ GJBaseGameLayer::canBeActivatedByPlayer - 0xf6710
 GJBaseGameLayer::checkCameraLimitAfterTeleport - 0xf0a1c
 GJBaseGameLayer::checkCollisions - 0xf45f0
 GJBaseGameLayer::clearPickedUpItems - 0x292260
+GJBaseGameLayer::collisionCheckObjects - 0xf5554
 GJBaseGameLayer::createBackground - 0xe4ed4
 GJBaseGameLayer::createGroundLayer - 0xe5410
 GJBaseGameLayer::createMiddleground - 0xe55f4
@@ -2745,6 +2759,8 @@ GJBaseGameLayer::handleButton - 0x1136ec
 GJBaseGameLayer::hasUniqueCoin - 0xf72cc
 GJBaseGameLayer::lightningFlash - 0xf089c
 GJBaseGameLayer::loadLevelSettings - 0x11d8c0
+GJBaseGameLayer::pickupItem - 0xf7400
+GJBaseGameLayer::playerTouchedRing - 0xf6eb0
 GJBaseGameLayer::playerWillSwitchMode - 0xf3a44
 GJBaseGameLayer::playSpeedParticle - 0x121058
 GJBaseGameLayer::processAreaEffects - 0x10afe8
@@ -2762,6 +2778,7 @@ GJBaseGameLayer::resetCamera - 0x11e7d4
 GJBaseGameLayer::resetLevelVariables - 0x11dcf0
 GJBaseGameLayer::resetPlayer - 0xf2608
 GJBaseGameLayer::resetSpawnChannelIndex - 0x11ea94
+GJBaseGameLayer::setStartPosObject - 0xf2870
 GJBaseGameLayer::setupLayers - 0xe24c4
 GJBaseGameLayer::setupLevelStart - 0xf28b8
 GJBaseGameLayer::setupReplay - 0x11cd28
@@ -3044,6 +3061,7 @@ GJScaleControl::ccTouchMoved - 0x49e5c
 GJScaleControl::ccTouchEnded - 0x4a2a0
 GJScaleControl::ccTouchCancelled - 0x4a3c8
 GJScaleControl::scaleFromValue - 0x49c44
+GJScaleControl::sliderChanged - 0x49adc
 GJScaleControl::updateLabelX - 0x49b0c
 GJScaleControl::updateLabelXY - 0x49bdc
 GJScaleControl::updateLabelY - 0x49b74
@@ -3153,6 +3171,7 @@ GravityEffectSprite::draw - 0xae56c
 HardStreak::init - 0x8f704
 HardStreak::addPoint - 0x8ffec
 HardStreak::reset - 0x8ffc8
+HardStreak::resumeStroke - 0x8ff80
 HardStreak::updateStroke - 0x8f870
 HSVLiveOverlay::create - 0x205230
 HSVLiveOverlay::keyBackClicked - 0x205a40
@@ -3849,7 +3868,9 @@ PauseLayer::onTryEdit - 0x34d760
 PauseLayer::sfxSliderChanged - 0x34db2c
 PauseLayer::tryQuit - 0x34d988
 PlatformToolbox::getDisplaySize - 0x41a190
+PlatformToolbox::hideCursor - 0x41a144
 PlatformToolbox::isControllerConnected - 0x41a254
+PlatformToolbox::showCursor - 0x419648
 PlayerCheckpoint::init - 0xae214
 PlayerControlGameObject::init - 0x194730
 PlayerControlGameObject::customObjectSetup - 0x195378

@@ -73,6 +73,8 @@ cocos2d::CCMotionStreak::create - 0x55f3e0
 cocos2d::CCMotionStreak::initWithFade - 0x55f530
 cocos2d::CCMotionStreak::initWithFade - 0x55f530
 cocos2d::CCMotionStreak::reset - 0x560190
+cocos2d::CCMotionStreak::resumeStroke - 0x55fb40
+cocos2d::CCMotionStreak::stopStroke - 0x55fb30
 cocos2d::CCMotionStreak::updateFade - 0x55fb10
 cocos2d::CCMotionStreak::~CCMotionStreak - 0x55f3b0
 cocos2d::CCMotionStreak::update - 0x55fb50
@@ -248,6 +250,10 @@ cocos2d::CCParticleSystem::setBlendFunc - 0x7b5de0
 cocos2d::CCParticleSystem::getBlendFunc - 0x7b5dc0
 cocos2d::CCParticleSystem::getTexture - 0x7b5850
 cocos2d::CCParticleSystem::setTexture - 0x7b5710
+cocos2d::CCParticleFire::create - 0x472260
+cocos2d::CCParticleFire::createWithTotalParticles - 0x4722e0
+cocos2d::CCParticleRain::create - 0x473f00
+cocos2d::CCParticleRain::createWithTotalParticles - 0x473f80
 cocos2d::CCParticleSnow::create - 0x473c10
 cocos2d::CCParticleSnow::createWithTotalParticles - 0x473c90
 cocos2d::CCParticleSnow::initWithTotalParticles - 0x473d10
@@ -345,6 +351,7 @@ cocos2d::CCNode::scheduleOnce - 0x262240
 cocos2d::CCNode::scheduleUpdate - 0x262090
 cocos2d::CCNode::scheduleUpdateWithPriority - 0x2620c0
 cocos2d::CCNode::scheduleUpdateWithPriorityLua - 0x2620f0
+cocos2d::CCNode::stopAction - 0x261fb0
 cocos2d::CCNode::stopActionByTag - 0x261fd0
 cocos2d::CCNode::stopAllActions - 0x260e30
 cocos2d::CCNode::unschedule - 0x262270
@@ -570,6 +577,7 @@ cocos2d::CCTexture2D::initWithImage - 0x4659b0
 cocos2d::CCTexture2D::initWithPVRFile - 0x466650
 cocos2d::CCTexture2D::initWithString - 0x4662a0
 cocos2d::CCTexture2D::initWithString - 0x466300
+cocos2d::CCTexture2D::setAliasTexParameters - 0x4668f0
 cocos2d::CCTexture2D::setTexParameters - 0x466860
 cocos2d::CCTexture2D::~CCTexture2D - 0x4653b0
 cocos2d::CCTexture2D::CCTexture2D - 0x4652f0
@@ -1177,6 +1185,7 @@ cocos2d::extension::CCScale9Sprite::setSpriteFrame - 0x3e4380
 cocos2d::extension::CCHttpClient::getInstance - 0x425520
 cocos2d::extension::CCHttpClient::send - 0x426430
 cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x425880
+cocos2d::ZipUtils::base64URLDecode - 0x1f3f90
 cocos2d::ZipUtils::base64URLEncode - 0x1f3eb0
 cocos2d::ZipUtils::ccDeflateMemory - 0x1f3290
 cocos2d::ZipUtils::compressString - 0x1f3020
@@ -2271,6 +2280,7 @@ EditorUI::onPause - 0x2ad50
 EditorUI::onPlayback - 0xc930
 EditorUI::onPlaytest - 0xcb90
 EditorUI::onSelectBuildTab - 0x34310
+EditorUI::onSettings - 0x2b270
 EditorUI::onStopPlaytest - 0xcdd0
 EditorUI::onUngroupSticky - 0xcfc0
 EditorUI::pasteObjects - 0x3ac10
@@ -2898,6 +2908,7 @@ GJBaseGameLayer::collisionCheckObjects - 0x116130
 GJBaseGameLayer::createBackground - 0x1030e0
 GJBaseGameLayer::createGroundLayer - 0x103660
 GJBaseGameLayer::createMiddleground - 0x103870
+GJBaseGameLayer::createPlayer - 0x102d80
 GJBaseGameLayer::createPlayerCollisionBlock - 0x11a410
 GJBaseGameLayer::createTextLayers - 0x10f2e0
 GJBaseGameLayer::destroyObject - 0x118390
@@ -3273,6 +3284,7 @@ GJScaleControl::ccTouchCancelled - 0x53150
 GJScaleControl::loadValues - 0x3f670
 GJScaleControl::scaleFromValue - 0x52860
 GJScaleControl::skewFromValue - 0x528a0
+GJScaleControl::sliderChanged - 0x526f0
 GJScaleControl::updateLabelX - 0x52740
 GJScaleControl::updateLabelXY - 0x52800
 GJScaleControl::updateLabelY - 0x527a0
@@ -3387,6 +3399,7 @@ GravityEffectSprite::draw - 0xbfc90
 HardStreak::init - 0x9ca80
 HardStreak::addPoint - 0x9d500
 HardStreak::reset - 0x9d4e0
+HardStreak::resumeStroke - 0x9d480
 HardStreak::updateStroke - 0x9cc30
 HSVLiveOverlay::create - 0x258800
 HSVLiveOverlay::keyBackClicked - 0x259080
@@ -3577,6 +3590,7 @@ LevelEditorLayer::handleAction - 0xe3140
 LevelEditorLayer::init - 0xdb280
 LevelEditorLayer::objectMoved - 0xea300
 LevelEditorLayer::onPlaytest - 0xf0f00
+LevelEditorLayer::onStopPlaytest - 0xf1ae0
 LevelEditorLayer::processLoadedMoveActions - 0xb7920
 LevelEditorLayer::recreateGroups - 0xef9c0
 LevelEditorLayer::removeObject - 0xe27e0
@@ -3592,6 +3606,7 @@ LevelEditorLayer::updateEditorMode - 0xdeeb0
 LevelEditorLayer::updateGameObjects - 0xddf40
 LevelEditorLayer::updateKeyframeObjects - 0xeb650
 LevelEditorLayer::updateObjectColors - 0xeb700
+LevelEditorLayer::updateOptions - 0xdc880
 LevelEditorLayer::updatePreviewParticle - 0x1a1820
 LevelEditorLayer::updatePreviewParticles - 0xecfe0
 LevelFeatureLayer::keyBackClicked - 0x4f2260
@@ -3915,6 +3930,7 @@ MoreSearchLayer::onSongFilter - 0x617e50
 MoreSearchLayer::onSongMode - 0x618070
 MoreSearchLayer::selectSong - 0x618510
 MoreSearchLayer::toggleSongNodes - 0x6183d0
+MoreSearchLayer::updateAudioLabel - 0x618560
 MoreSearchLayer::init - 0x616620
 MoreSearchLayer::keyBackClicked - 0x6187f0
 MoreSearchLayer::textInputShouldOffset - 0x618680
