@@ -180,6 +180,8 @@ GameObject::playPickupAnimation - 0x1a6f50
 GameObject::playShineEffect - 0x196430
 GameObject::slopeYPos - 0x19e430
 GameObject::slopeYPos - 0x19e430
+GameObject::updateCustomScaleX - 0x1956d0
+GameObject::updateCustomScaleY - 0x195760
 GameObject::updateIsOriented - 0x19e7b0
 GameObject::updateObjectEditorColor - 0x19e370
 EnhancedGameObject::customSetup - 0x1a1ff0
