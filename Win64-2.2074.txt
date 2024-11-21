@@ -351,6 +351,7 @@ CCTextInputNode::updateCursorPosition - 0x50d60
 CCTextInputNode::updateDefaultFontValues - 0x4f630
 CCTextInputNode::updateLabel - 0x4f840
 ChallengesPage::init - 0x85300
+ChallengesPage::registerWithTouchDispatcher - 0x425d0
 ChallengesPage::keyBackClicked - 0x86980
 ChallengesPage::show - 0x867a0
 ChallengesPage::challengeStatusFinished - 0x85db0
@@ -1047,6 +1048,7 @@ GameLevelManager::getBasePostString - 0x14a4b0
 GameLevelManager::getCompletedLevels - 0x145860
 GameLevelManager::getFolderName - 0x148910
 GameLevelManager::getGJChallenges - 0x164ad0
+GameLevelManager::getGJDailyLevelState - 0x165ec0
 GameLevelManager::getGJRewards - 0x1635e0
 GameLevelManager::getGJUserInfo - 0x157880
 GameLevelManager::getLeaderboardScores - 0x1554b0
@@ -1078,6 +1080,8 @@ GameLevelManager::limitSavedLevels - 0x148090
 GameLevelManager::makeTimeStamp - 0x147b90
 GameLevelManager::markLevelAsDownloaded - 0x151510
 GameLevelManager::onGetFriendRequestsCompleted - 0x15d510
+GameLevelManager::onGetGJChallengesCompleted - 0x164f20
+GameLevelManager::onGetGJDailyLevelStateCompleted - 0x1663a0
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x155b80
 GameLevelManager::onGetLevelListsCompleted - 0x14e970
 GameLevelManager::onGetMapPacksCompleted - 0x14d680
@@ -1264,7 +1268,9 @@ GJAccountManager::backupAccount - 0x1fc8f0
 GJAccountManager::getAccountBackupURL - 0x1fc2d0
 GJAccountManager::getAccountSyncURL - 0x1fd230
 GJAccountManager::getShaPassword - 0x1feee0
+GJAccountManager::handleIt - 0x1fb2c0
 GJAccountManager::onBackupAccountCompleted - 0x1fce20
+GJAccountManager::onGetAccountBackupURLCompleted - 0x1fc620
 GJAccountManager::onLoginAccountCompleted - 0x1fbee0
 GJAccountManager::onRegisterAccountCompleted - 0x1fb8f0
 GJAccountManager::onSyncAccountCompleted - 0x1fdab0
@@ -2612,6 +2618,7 @@ SecretLayer2::getBasicMessage - 0x3d0880
 SecretLayer2::getErrorMessage - 0x3d13e0
 SecretLayer2::getMessage - 0x3cffb0
 SecretLayer2::getThreadMessage - 0x3d0190
+SecretLayer2::onBack - 0x3d24e0
 SecretLayer2::onDoor - 0x3cd5a0
 SecretLayer2::onSecretLevel - 0x3cd2f0
 SecretLayer2::onSubmit - 0x3cdf00
