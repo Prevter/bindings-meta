@@ -666,6 +666,7 @@ cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x1f1a70
 cocos2d::CCDirector::sharedDirector - 0x46f500
 cocos2d::CCDirector::getNotificationNode - 0x471a60
 cocos2d::CCDirector::getWinSize - 0x470920
+cocos2d::CCDirector::getWinSizeInPixels - 0x471080
 cocos2d::CCDirector::setDefaultValues - 0x46f8f0
 cocos2d::CCDirector::setDepthTest - 0x46fc40
 cocos2d::CCDirector::setGLDefaultValues - 0x46fbd0
@@ -674,6 +675,7 @@ cocos2d::CCDirector::setNotificationNode - 0x471a70
 cocos2d::CCDirector::setViewport - 0x470d60
 cocos2d::CCDirector::convertToGL - 0x470e50
 cocos2d::CCDirector::drawScene - 0x46fe90
+cocos2d::CCDirector::popScene - 0x471430
 cocos2d::CCDirector::popSceneWithTransition - 0x4714c0
 cocos2d::CCDirector::purgeDirector - 0x471780
 cocos2d::CCDirector::pushScene - 0x471230
@@ -855,6 +857,7 @@ cocos2d::CCAnimation::getDuration - 0x285030
 cocos2d::CCApplication::sharedApplication - 0x314fe0
 cocos2d::CCApplication::openURL - 0x315dc0
 cocos2d::CCArray::init - 0x7094e0
+cocos2d::CCArray::fastRemoveObjectAtIndex - 0x709f10
 cocos2d::CCArray::stringAtIndex - 0x709d20
 cocos2d::CCDictionary::create - 0x2fc010
 cocos2d::CCDictionary::createWithContentsOfFile - 0x2fc1a0
@@ -1682,6 +1685,7 @@ CCMenuItemToggler::unselected - 0x5a360
 CCMenuItemToggler::setEnabled - 0x5a390
 CCMenuItemToggler::init - 0x59d40
 CCMenuItemToggler::normalTouch - 0x59f80
+CCMenuItemToggler::setSizeMult - 0x5a1f0
 CCMenuItemToggler::toggle - 0x5a120
 CCNodeContainer::init - 0x154510
 CCNodeContainer::visit - 0x154520
@@ -1760,6 +1764,7 @@ CCTextInputNode::updateBlinkLabel - 0x9ea80
 CCTextInputNode::updateBlinkLabelToChar - 0x9eb40
 CCTextInputNode::updateCursorPosition - 0xa0500
 CCTextInputNode::updateLabel - 0x9e320
+ChallengesPage::create - 0x389da0
 ChallengesPage::init - 0x389f10
 ChallengesPage::registerWithTouchDispatcher - 0x38b5d0
 ChallengesPage::keyBackClicked - 0x38b540
@@ -1851,6 +1856,7 @@ SetupTriggerPopup::triggerValueFromSliderValue - 0x22c840
 SetupTriggerPopup::triggerSliderValueFromValue - 0x22c8c0
 SetupTriggerPopup::onCustomToggleTriggerValue - 0x7150
 SetupTriggerPopup::valuePopupClosed - 0x22d4e0
+SetupTriggerPopup::getTriggerValue - 0x229d20
 SetupTriggerPopup::init - 0x222f20
 ColorSelectPopup::create - 0x70e810
 ColorSelectPopup::create - 0x70eaf0
@@ -1942,6 +1948,7 @@ CreatorLayer::sceneWillResume - 0x2879f0
 CreatorLayer::dialogClosed - 0x2878f0
 CreatorLayer::checkQuestsStatus - 0x286f00
 CreatorLayer::onAdventureMap - 0x286950
+CreatorLayer::onBack - 0x287820
 CreatorLayer::onChallenge - 0x2869c0
 CreatorLayer::onDailyLevel - 0x2869f0
 CreatorLayer::onEventLevel - 0x286a30
@@ -2086,6 +2093,7 @@ DailyLevelPage::dailyStatusFinished - 0x21f9a0
 DailyLevelPage::dailyStatusFailed - 0x21fde0
 DailyLevelPage::levelDownloadFinished - 0x220030
 DailyLevelPage::levelDownloadFailed - 0x2200f0
+DailyLevelPage::claimLevelReward - 0x220580
 DailyLevelPage::createDailyNode - 0x21f7b0
 DailyLevelPage::exitDailyNode - 0x21fc20
 DailyLevelPage::getDailyTime - 0x2202a0
@@ -2277,6 +2285,7 @@ EditorUI::onCreate - 0x2e600
 EditorUI::onDeleteInfo - 0x32320
 EditorUI::onDeleteSelected - 0xc7a0
 EditorUI::onDeleteSelectedType - 0x32240
+EditorUI::onGroupSticky - 0xcf70
 EditorUI::onNewCustomItem - 0x30d30
 EditorUI::onPause - 0x2ad50
 EditorUI::onPlayback - 0xc930
@@ -2574,6 +2583,7 @@ GameLevelManager::limitSavedLevels - 0x5236b0
 GameLevelManager::makeTimeStamp - 0x522290
 GameLevelManager::onDeleteServerLevelListCompleted - 0x514f40
 GameLevelManager::onGetGJChallengesCompleted - 0x510b00
+GameLevelManager::onGetGJDailyLevelStateCompleted - 0x512730
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x50a9d0
 GameLevelManager::onGetLevelListsCompleted - 0x5145d0
 GameLevelManager::onGetOnlineLevelsCompleted - 0x508660
@@ -2703,6 +2713,7 @@ GameStatsManager::areChallengesLoaded - 0x729b0
 GameStatsManager::awardCurrencyForLevel - 0x70c90
 GameStatsManager::checkCoinAchievement - 0x6c8d0
 GameStatsManager::checkCoinsForLevel - 0x6f9a0
+GameStatsManager::completedDailyLevel - 0x73c90
 GameStatsManager::completedLevel - 0x6d6b0
 GameStatsManager::createSecretChestItems - 0x5d080
 GameStatsManager::createSpecialChestItems - 0x5d1d0
@@ -2714,6 +2725,7 @@ GameStatsManager::getBaseDiamonds - 0x71240
 GameStatsManager::getBonusDiamonds - 0x71260
 GameStatsManager::getChallenge - 0x73000
 GameStatsManager::getChallengeKey - 0x73370
+GameStatsManager::getCompletedMapPacks - 0x6e6c0
 GameStatsManager::getDemonLevelKey - 0x6d140
 GameStatsManager::getGauntletRewardKey - 0x77710
 GameStatsManager::getItemUnlockState - 0x77010
@@ -2804,6 +2816,7 @@ GauntletSelectLayer::loadLevelsFinished - 0x55bf10
 GauntletSelectLayer::loadLevelsFailed - 0x55c0d0
 GauntletSelectLayer::goToPage - 0x55c750
 GauntletSelectLayer::init - 0x55acb0
+GauntletSelectLayer::onBack - 0x55b7c0
 GauntletSelectLayer::onInfo - 0x55b830
 GauntletSelectLayer::onNext - 0x55b7a0
 GauntletSelectLayer::onPlay - 0x55c2d0
@@ -2959,6 +2972,7 @@ GJBaseGameLayer::removeFromStickyGroup - 0x12de90
 GJBaseGameLayer::removeGroundLayer - 0x1039d0
 GJBaseGameLayer::removeKeyframe - 0x13bae0
 GJBaseGameLayer::removeObjectFromSection - 0x12e500
+GJBaseGameLayer::removeTemporaryParticles - 0x148cb0
 GJBaseGameLayer::resetActiveEnterEffects - 0x10d800
 GJBaseGameLayer::resetCamera - 0x148d80
 GJBaseGameLayer::resetGroupCounters - 0x13e800
@@ -3889,12 +3903,18 @@ MenuLayer::keyBackClicked - 0x37edc0
 MenuLayer::keyDown - 0x37f0a0
 MenuLayer::googlePlaySignedIn - 0x37eb30
 MenuLayer::FLAlert_Clicked - 0x37edf0
+MenuLayer::endGame - 0x3a42c0
 MenuLayer::onAchievements - 0x37e370
+MenuLayer::onCreator - 0x37e2e0
 MenuLayer::onDaily - 0x37e8b0
+MenuLayer::onGarage - 0x37e250
 MenuLayer::onMoreGames - 0x37e5c0
 MenuLayer::onMyProfile - 0x37e710
 MenuLayer::onNewgrounds - 0x37e430
+MenuLayer::onOptions - 0x37e3b0
+MenuLayer::onPlay - 0x37e1c0
 MenuLayer::onQuit - 0x37e640
+MenuLayer::onStats - 0x37e3f0
 MenuLayer::onTrailer - 0x37ed80
 MenuLayer::showGCQuestion - 0x37e9f0
 MenuLayer::videoOptionsOpened - 0x37ecd0
@@ -4061,7 +4081,10 @@ OptionsLayer::customSetup - 0x784200
 OptionsLayer::layerHidden - 0x785600
 OptionsLayer::FLAlert_Clicked - 0x785670
 OptionsLayer::musicSliderChanged - 0x785140
+OptionsLayer::onAccount - 0x784bf0
+OptionsLayer::onHelp - 0x784c10
 OptionsLayer::onSecretVault - 0x784f20
+OptionsLayer::onSupport - 0x784cb0
 OptionsLayer::sfxSliderChanged - 0x7851b0
 OptionsLayer::tryEnableRecord - 0x785540
 OptionsScrollLayer::registerWithTouchDispatcher - 0x5f90f0

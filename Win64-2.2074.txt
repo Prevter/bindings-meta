@@ -432,6 +432,7 @@ SetupTriggerPopup::createToggleButton - 0x45c800
 SetupTriggerPopup::createToggleValueControl - 0x45e900
 SetupTriggerPopup::createValueControl - 0x45db40
 SetupTriggerPopup::createValueControlAdvanced - 0x45dc30
+SetupTriggerPopup::getTriggerValue - 0x4620f0
 SetupTriggerPopup::getTruncatedValue - 0x45f750
 SetupTriggerPopup::goToPage - 0x45c010
 SetupTriggerPopup::init - 0x45b900
@@ -2708,6 +2709,7 @@ SetGroupIDLayer::onArrowRight - 0x3e39b0
 SetGroupIDLayer::onClose - 0x3e5f60
 SetGroupIDLayer::onExtra - 0x3e40d0
 SetGroupIDLayer::onNextGroupID1 - 0x3e48d0
+SetGroupIDLayer::onPaste - 0x111a80
 SetGroupIDLayer::onRemoveFromGroup - 0x3e51e0
 SetGroupIDLayer::updateEditorLabel - 0x3e5920
 SetGroupIDLayer::updateEditorLabel2 - 0x3e59b0
@@ -2770,6 +2772,9 @@ SetupPickupTriggerPopup::updateState - 0x41f020
 SetupPulsePopup::textChanged - 0x424150
 SetupPulsePopup::colorValueChanged - 0x423e90
 SetupPulsePopup::colorSelectClosed - 0x423720
+SetupPulsePopup::init - 0x41f430
+SetupPulsePopup::onPaste - 0x90de0
+SetupPulsePopup::onSelectPulseMode - 0x422aa0
 SetupRandTriggerPopup::textChanged - 0x4288e0
 SetupRotateCommandPopup::init - 0x2a06d0
 SetupRotateCommandPopup::updateControlVisibility - 0x2a1b30
