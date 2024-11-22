@@ -2613,6 +2613,7 @@ GameStatsManager::storeQueuedChallenge - 0x66620
 GameStatsManager::toggleEnableItem - 0x6ad1c
 GameToolbox::addBackButton - 0x43f944
 GameToolbox::addRThumbScrollButton - 0x43fa2c
+GameToolbox::alignItemsHorisontally - 0x43e460
 GameToolbox::createToggleButton - 0x43ef50
 GameToolbox::doWeHaveInternet - 0x43e8a8
 GameToolbox::easeToText - 0x445748
