@@ -721,9 +721,11 @@ EditLevelLayer::uploadActionFailed - 0xd8730
 EditLevelLayer::onClosePopup - 0xd85b0
 EditLevelLayer::closeTextInputs - 0xd5f60
 EditLevelLayer::confirmDelete - 0xd75d0
+EditLevelLayer::confirmMoveToTop - 0xd7e90
 EditLevelLayer::init - 0xd3f10
 EditLevelLayer::onBack - 0xd80e0
 EditLevelLayer::onGuidelines - 0xd52e0
+EditLevelLayer::onHelp - 0xd7c50
 EditLevelLayer::onLevelInfo - 0xd5500
 EditLevelLayer::onPlay - 0xd6920
 EditLevelLayer::onSetFolder - 0xd7fc0
@@ -2667,10 +2669,13 @@ SecretRewardsLayer::generateChestItems - 0x3be3c0
 SecretRewardsLayer::init - 0x3bb300
 SecretRewardsLayer::onBack - 0x3c08b0
 SecretRewardsLayer::onChestType - 0x3bdce0
+SecretRewardsLayer::onGoldChest - 0x3c0020
 SecretRewardsLayer::onSelectItem - 0x3bedd0
 SecretRewardsLayer::onShop - 0x3bf360
+SecretRewardsLayer::onSpecialItem - 0x3bf760
 SecretRewardsLayer::onSwitchPage - 0x3bd950
 SecretRewardsLayer::showDialog01 - 0x3c0ae0
+SecretRewardsLayer::showDialogDiamond - 0x3c4980
 SecretRewardsLayer::showDialogMechanic - 0x3c36f0
 SecretRewardsLayer::switchToOpenedState - 0x3bfb80
 SecretRewardsLayer::updateBackButton - 0x3bde30
