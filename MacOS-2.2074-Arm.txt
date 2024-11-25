@@ -3650,7 +3650,7 @@ MenuLayer::keyBackClicked - 0x30f4b0
 MenuLayer::keyDown - 0x30f738
 MenuLayer::googlePlaySignedIn - 0x30f264
 MenuLayer::FLAlert_Clicked - 0x30f4bc
-MenuLayer::endGame - 0x330e74
+MenuLayer::endGame - 0x30f72c
 MenuLayer::onAchievements - 0x30eaa8
 MenuLayer::onCreator - 0x30ea2c
 MenuLayer::onDaily - 0x30f028

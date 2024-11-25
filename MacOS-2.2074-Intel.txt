@@ -3907,7 +3907,7 @@ MenuLayer::keyBackClicked - 0x37edc0
 MenuLayer::keyDown - 0x37f0a0
 MenuLayer::googlePlaySignedIn - 0x37eb30
 MenuLayer::FLAlert_Clicked - 0x37edf0
-MenuLayer::endGame - 0x3a42c0
+MenuLayer::endGame - 0x37f070
 MenuLayer::onAchievements - 0x37e370
 MenuLayer::onCreator - 0x37e2e0
 MenuLayer::onDaily - 0x37e8b0
