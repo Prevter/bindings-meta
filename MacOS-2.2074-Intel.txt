@@ -2142,6 +2142,7 @@ DialogLayer::finishCurrentAnimation - 0x3b4ff0
 DialogLayer::init - 0x3b43e0
 DialogLayer::updateChatPlacement - 0x3b4de0
 DialogLayer::updateNavButtonFrame - 0x3b4d70
+DialogObject::create - 0x3b3d20
 DialogObject::init - 0x3b3eb0
 DrawGridLayer::update - 0xf5c30
 DrawGridLayer::draw - 0xf5dc0
@@ -2654,6 +2655,7 @@ GameManager::countForType - 0x36d6f0
 GameManager::didExitPlayscene - 0x378540
 GameManager::dpadConfigToString - 0x374330
 GameManager::fadeInMenuMusic - 0x363ca0
+GameManager::fadeInMusic - 0x363d80
 GameManager::getBGTexture - 0x370460
 GameManager::getFontFile - 0x36fa00
 GameManager::getGameVariable - 0x363b40
