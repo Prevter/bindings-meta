@@ -2964,6 +2964,7 @@ GJMessageCell::FLAlert_Clicked - 0x1f5210
 GJMessageCell::uploadActionFinished - 0x1f5374
 GJMessageCell::uploadActionFailed - 0x1f5568
 GJMessageCell::onClosePopup - 0x1f56d0
+GJMessageCell::loadFromMessage - 0x1ea9f8
 GJMessagePopup::keyBackClicked - 0x23ce50
 GJMessagePopup::downloadMessageFinished - 0x23cecc
 GJMessagePopup::downloadMessageFailed - 0x23cfa4
