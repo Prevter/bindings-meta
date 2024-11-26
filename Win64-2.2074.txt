@@ -1144,6 +1144,7 @@ GameManager::loadGround - 0x17fc30
 GameManager::loadIcon - 0x17ecf0
 GameManager::loadMiddleground - 0x17f9e0
 GameManager::playMenuMusic - 0x178810
+GameManager::recountUserStats - 0x181ba0
 GameManager::reloadAll - 0x187490
 GameManager::reloadAllStep2 - 0x187540
 GameManager::reloadAllStep5 - 0x187850
@@ -2472,6 +2473,7 @@ PlayLayer::getCurrentPercent - 0x39ca70
 PlayLayer::getTempMilliTime - 0x3cef0
 PlayLayer::init - 0x38ec70
 PlayLayer::levelComplete - 0x390c30
+PlayLayer::loadDefaultColors - 0x39ad80
 PlayLayer::loadFromCheckpoint - 0x3a07b0
 PlayLayer::markCheckpoint - 0x3a06e0
 PlayLayer::onQuit - 0x3a3db0
@@ -2769,6 +2771,7 @@ SetupMGTrigger::textChanged - 0x410830
 SetupMoveCommandPopup::init - 0x279010
 SetupObjectOptionsPopup::determineStartValues - 0x3e7cd0
 SetupOpacityPopup::textChanged - 0x413a50
+SetupOpacityPopup::init - 0x412860
 SetupOptionsTriggerPopup::onCustomToggleTriggerValue - 0x41e720
 SetupPickupTriggerPopup::create - 0x41e7f0
 SetupPickupTriggerPopup::onPlusButton - 0x40c610
@@ -2896,6 +2899,7 @@ SongSelectNode::onSongMode - 0xc6b50
 SongSelectNode::showCustomSongSelect - 0xc6e80
 SongSelectNode::updateAudioLabel - 0xc69c0
 SongSelectNode::updateWidgetVisibility - 0xc6d70
+SongsLayer::create - 0x47bf80
 SongsLayer::customSetup - 0x47c050
 SpawnTriggerGameObject::triggerObject - 0x4a06a0
 SpawnTriggerGameObject::updateRemapKeys - 0x4a05a0

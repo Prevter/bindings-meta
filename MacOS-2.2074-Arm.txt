@@ -1775,8 +1775,17 @@ SetupTriggerPopup::triggerValueFromSliderValue - 0x1dd478
 SetupTriggerPopup::triggerSliderValueFromValue - 0x1dd504
 SetupTriggerPopup::onCustomToggleTriggerValue - 0x8fb0
 SetupTriggerPopup::valuePopupClosed - 0x1de14c
+SetupTriggerPopup::createEasingControls - 0x1dd5b4
+SetupTriggerPopup::createMultiTriggerItems - 0x1d71b0
+SetupTriggerPopup::createMultiTriggerItemsDefault - 0x1d70d0
+SetupTriggerPopup::createToggleValueControl - 0x1da5ec
+SetupTriggerPopup::createToggleValueControlAdvanced - 0x1da73c
+SetupTriggerPopup::createValueControlAdvanced - 0x1d9550
 SetupTriggerPopup::getTriggerValue - 0x1db6b4
 SetupTriggerPopup::init - 0x1d5eb4
+SetupTriggerPopup::updateValue - 0x1da380
+SetupTriggerPopup::updateValueControls - 0x1d9370
+SetupTriggerPopup::valueChanged - 0x1d7e68
 ColorSelectPopup::create - 0x62d8a8
 ColorSelectPopup::create - 0x62d6a0
 ColorSelectPopup::show - 0x6332dc
@@ -3576,6 +3585,7 @@ LevelTools::getAudioFileName - 0x44ca9c
 LevelTools::getAudioString - 0x44e26c
 LevelTools::getAudioTitle - 0x44c364
 LevelTools::getLevel - 0x44a514
+LevelTools::getLevelList - 0x44a138
 LevelTools::nameForArtist - 0x44d12c
 LevelTools::ngURLForArtist - 0x44d960
 LevelTools::urlForAudio - 0x44d310
