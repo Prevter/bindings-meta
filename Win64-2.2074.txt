@@ -1531,6 +1531,7 @@ GJGarageLayer::playRainbowEffect - 0x271230
 GJGarageLayer::selectTab - 0x26e6f0
 GJGarageLayer::setupIconSelect - 0x26d930
 GJGarageLayer::setupPage - 0x26e7b0
+GJGarageLayer::setupSpecialPage - 0x26f1e0
 GJGarageLayer::updatePlayerColors - 0x2701a0
 GJItemIcon::createBrowserItem - 0x273070
 GJItemIcon::createStoreItem - 0x272f40

@@ -1578,6 +1578,7 @@ CCBlockLayer::disableUI - 0x461764
 CCBlockLayer::enableUI - 0x461768
 CCBlockLayer::decrementForcePrio - 0x461924
 CCCircleWave::create - 0x134bb4
+CCCircleWave::create - 0x134bac
 CCCircleWave::setPosition - 0x134e8c
 CCCircleWave::removeMeAndCleanup - 0x135348
 CCCircleWave::draw - 0x135210
