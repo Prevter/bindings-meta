@@ -3787,6 +3787,7 @@ LevelSearchLayer::getSearchObject - 0x615780
 LevelSearchLayer::init - 0x611100
 LevelSearchLayer::onClearFreeSearch - 0x613e40
 LevelSearchLayer::onMoreOptions - 0x6137a0
+LevelSearchLayer::onMostRecent - 0x614110
 LevelSearchLayer::onSearch - 0x613ba0
 LevelSearchLayer::onSearchMode - 0x6137c0
 LevelSearchLayer::onSearchUser - 0x613d10
