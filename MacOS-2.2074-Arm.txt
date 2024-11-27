@@ -2356,6 +2356,7 @@ FRequestProfilePage::forceReloadRequests - 0x690840
 FRequestProfilePage::deleteSelected - 0x68fcd0
 FRequestProfilePage::init - 0x68ea04
 FRequestProfilePage::onDeleteSelected - 0x68f608
+FRequestProfilePage::setupCommentsBrowser - 0x690494
 FriendRequestPopup::keyBackClicked - 0x23ade4
 FriendRequestPopup::uploadActionFinished - 0x23aec0
 FriendRequestPopup::uploadActionFailed - 0x23b0c0
@@ -2365,6 +2366,7 @@ FriendRequestPopup::init - 0x239a00
 FriendRequestPopup::loadFromGJFriendRequest - 0x23a080
 FriendRequestPopup::onAccept - 0x23a914
 FriendRequestPopup::onBlock - 0x23aab0
+FriendRequestPopup::onClose - 0x23a014
 FriendsProfilePage::create - 0x56a370
 FriendsProfilePage::registerWithTouchDispatcher - 0x56b2b4
 FriendsProfilePage::keyBackClicked - 0x56b2a8
@@ -3042,7 +3044,10 @@ GJRequestCell::FLAlert_Clicked - 0x1f46d0
 GJRequestCell::uploadActionFinished - 0x1f485c
 GJRequestCell::uploadActionFailed - 0x1f4a6c
 GJRequestCell::onClosePopup - 0x1f4b44
+GJRequestCell::loadFromScore - 0x1ea280
+GJRequestCell::markAsRead - 0x1f4594
 GJRequestCell::onDeleteRequest - 0x1f4470
+GJRequestCell::onViewFriendRequest - 0x1f4398
 GJRewardItem::create - 0x821c4
 GJRewardItem::createSpecial - 0x6add0
 GJRewardItem::createWithCoder - 0x824d0
@@ -5019,6 +5024,7 @@ UpdateAccountSettingsPopup::keyBackClicked - 0x238b68
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x238964
 UpdateAccountSettingsPopup::updateSettingsFailed - 0x238a7c
 UpdateAccountSettingsPopup::init - 0x2383a0
+UploadActionPopup::create - 0x238c74
 UploadActionPopup::keyBackClicked - 0x239564
 UploadActionPopup::init - 0x238df0
 UploadListPopup::keyBackClicked - 0x2e50c0
