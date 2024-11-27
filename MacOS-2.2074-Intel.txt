@@ -2739,6 +2739,7 @@ GameStatsManager::getBonusDiamonds - 0x71260
 GameStatsManager::getChallenge - 0x73000
 GameStatsManager::getChallengeKey - 0x73370
 GameStatsManager::getCompletedMapPacks - 0x6e6c0
+GameStatsManager::getCurrencyKey - 0x70790
 GameStatsManager::getDemonLevelKey - 0x6d140
 GameStatsManager::getGauntletRewardKey - 0x77710
 GameStatsManager::getItemUnlockState - 0x77010
@@ -3081,6 +3082,7 @@ GJEffectManager::processInheritedColors - 0x2ca840
 GJEffectManager::removePersistentFromAllItems - 0x2d7520
 GJEffectManager::reset - 0x2c9190
 GJEffectManager::resetEffects - 0x2c93a0
+GJEffectManager::setColorAction - 0x2cb570
 GJEffectManager::shouldBlend - 0x2ca4e0
 GJEffectManager::storeTriggeredID - 0x2d5e20
 GJEffectManager::updateColorEffects - 0x2cb7d0
@@ -4330,6 +4332,7 @@ PlayLayer::getCurrentPercentInt - 0xba9f0
 PlayLayer::incrementJumps - 0xbf200
 PlayLayer::init - 0xabe20
 PlayLayer::levelComplete - 0xb4050
+PlayLayer::loadDefaultColors - 0xb1de0
 PlayLayer::loadDynamicSaveObjects - 0xbe690
 PlayLayer::loadFromCheckpoint - 0xbe120
 PlayLayer::markCheckpoint - 0xbb9d0

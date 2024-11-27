@@ -2595,6 +2595,7 @@ GameStatsManager::getBonusDiamonds - 0x64c78
 GameStatsManager::getChallenge - 0x66a90
 GameStatsManager::getChallengeKey - 0x66e24
 GameStatsManager::getCompletedMapPacks - 0x6230c
+GameStatsManager::getCurrencyKey - 0x64184
 GameStatsManager::getDemonLevelKey - 0x60c5c
 GameStatsManager::getGauntletRewardKey - 0x6b024
 GameStatsManager::getItemUnlockState - 0x6a898
@@ -2864,6 +2865,7 @@ GJEffectManager::init - 0x26c924
 GJEffectManager::countForItem - 0x2777b8
 GJEffectManager::getColorAction - 0x26d3c4
 GJEffectManager::reset - 0x26cb18
+GJEffectManager::setColorAction - 0x26e4cc
 GJEffectManager::updateColorEffects - 0x26e6c0
 GJEffectManager::updateCountForItem - 0x27791c
 GJEffectManager::updateEffects - 0x26e5bc

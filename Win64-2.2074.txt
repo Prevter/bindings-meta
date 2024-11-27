@@ -1018,11 +1018,14 @@ FRequestProfilePage::setupPageInfo - 0x13dcf0
 FRequestProfilePage::forceReloadRequests - 0x13dcd0
 FRequestProfilePage::init - 0x13be30
 FRequestProfilePage::setupCommentsBrowser - 0x13da30
+FriendRequestPopup::create - 0x28e370
 FriendRequestPopup::keyBackClicked - 0x28f950
 FriendRequestPopup::uploadActionFinished - 0x28f960
 FriendRequestPopup::uploadActionFailed - 0x28fb10
 FriendRequestPopup::onClosePopup - 0x28fbd0
 FriendRequestPopup::FLAlert_Clicked - 0x28fc30
+FriendRequestPopup::init - 0x28e4b0
+FriendRequestPopup::onClose - 0x28f440
 FriendsProfilePage::create - 0x13e010
 FriendsProfilePage::keyBackClicked - 0x13f0a0
 FriendsProfilePage::getUserListFinished - 0x13ebd0
@@ -1041,6 +1044,7 @@ GameLevelManager::cleanupDailyLevels - 0x1485e0
 GameLevelManager::createNewLevel - 0x142800
 GameLevelManager::createNewLevelList - 0x1432b0
 GameLevelManager::dataLoaded - 0x149310
+GameLevelManager::deleteFriendRequests - 0x15e180
 GameLevelManager::deleteLevel - 0x142fe0
 GameLevelManager::deleteLevelList - 0x143890
 GameLevelManager::deleteServerLevel - 0x152350
@@ -1469,6 +1473,7 @@ GJEffectManager::processColors - 0x253fb0
 GJEffectManager::reset - 0x253d10
 GJEffectManager::resetEffects - 0x254c90
 GJEffectManager::saveToState - 0x25c520
+GJEffectManager::setColorAction - 0x254a90
 GJEffectManager::spawnGroup - 0x25a920
 GJEffectManager::storeTriggeredID - 0x25ac60
 GJEffectManager::timeForItem - 0x25bfd0
@@ -1605,6 +1610,9 @@ GJRequestCell::FLAlert_Clicked - 0xbc1f0
 GJRequestCell::uploadActionFinished - 0xbc3a0
 GJRequestCell::uploadActionFailed - 0xbc580
 GJRequestCell::loadFromScore - 0xbb640
+GJRequestCell::markAsRead - 0xbbf50
+GJRequestCell::onDeleteRequest - 0xbc030
+GJRequestCell::onViewFriendRequest - 0xbbea0
 GJRewardItem::create - 0x1f0980
 GJRewardItem::create - 0x1f0cc0
 GJRewardItem::createSpecial - 0x1f0ad0
