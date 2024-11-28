@@ -1270,6 +1270,7 @@ AchievementManager::addManualAchievements - 0x633f7c
 AchievementManager::isAchievementEarned - 0x682198
 AchievementManager::limitForAchievement - 0x68248c
 AchievementManager::percentForAchievement - 0x6821b4
+AchievementManager::reportAchievementWithID - 0x682d28
 AchievementNotifier::sharedState - 0x6beb0c
 AchievementNotifier::init - 0x6beb88
 AchievementNotifier::notifyAchievement - 0x6bebb4
@@ -1524,6 +1525,7 @@ BoomScrollLayer::cancelAndStoleTouch - 0x322340
 BoomScrollLayer::getPage - 0x3216c0
 BoomScrollLayer::getRelativePageForNum - 0x321a10
 BoomScrollLayer::getRelativePosForPage - 0x321670
+BoomScrollLayer::getTotalPages - 0x32136c
 BoomScrollLayer::init - 0x32056c
 BoomScrollLayer::instantMoveToPage - 0x321ccc
 BoomScrollLayer::moveToPage - 0x321da4
@@ -2544,9 +2546,12 @@ GameManager::iconTypeToUnlockType - 0x2f7498
 GameManager::isColorUnlocked - 0x2f78a8
 GameManager::isIconUnlocked - 0x2f7388
 GameManager::joinReddit - 0x2fe974
+GameManager::loadBackground - 0x300f5c
 GameManager::loadDeathEffect - 0x300de4
 GameManager::loadDpadFromString - 0x305914
+GameManager::loadGround - 0x301484
 GameManager::loadIcon - 0x2ffaf4
+GameManager::loadMiddleground - 0x301148
 GameManager::playMenuMusic - 0x2f66b4
 GameManager::recountUserStats - 0x3032cc
 GameManager::reloadAll - 0x309444

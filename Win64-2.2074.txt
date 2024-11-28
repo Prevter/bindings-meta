@@ -2088,6 +2088,7 @@ LevelSettingsObject::setupColorsFromLegacyMode - 0x2e0840
 LevelTools::artistForAudio - 0x314320
 LevelTools::fbURLForArtist - 0x316430
 LevelTools::getAudioFileName - 0x313750
+LevelTools::getAudioString - 0x316950
 LevelTools::getAudioTitle - 0x312bd0
 LevelTools::getLevel - 0x310320
 LevelTools::nameForArtist - 0x3143f0

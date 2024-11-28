@@ -1335,6 +1335,7 @@ AchievementManager::getAchievementsWithID - 0x76ed50
 AchievementManager::isAchievementEarned - 0x76ec00
 AchievementManager::limitForAchievement - 0x76eec0
 AchievementManager::percentForAchievement - 0x76ec20
+AchievementManager::reportAchievementWithID - 0x76f830
 AchievementNotifier::sharedState - 0x7ad380
 AchievementNotifier::init - 0x7ad410
 AchievementNotifier::notifyAchievement - 0x7ad440
@@ -1596,7 +1597,9 @@ BoomScrollLayer::cancelAndStoleTouch - 0x393ab0
 BoomScrollLayer::getPage - 0x392d00
 BoomScrollLayer::getRelativePageForNum - 0x393150
 BoomScrollLayer::getRelativePosForPage - 0x392cb0
+BoomScrollLayer::getTotalPages - 0x392960
 BoomScrollLayer::init - 0x391aa0
+BoomScrollLayer::instantMoveToPage - 0x393410
 BoomScrollLayer::moveToPage - 0x3934f0
 BoomScrollLayer::moveToPageEnded - 0x393280
 BoomScrollLayer::pageNumberForPosition - 0x393070
@@ -1605,10 +1608,12 @@ BoomScrollLayer::quickUpdate - 0x393760
 BoomScrollLayer::removePage - 0x3938b0
 BoomScrollLayer::removePageWithNumber - 0x393940
 BoomScrollLayer::repositionPagesLooped - 0x392090
+BoomScrollLayer::setDotScale - 0x392c40
 BoomScrollLayer::setPagesIndicatorPosition - 0x391f40
 BoomScrollLayer::setupDynamicScrolling - 0x392710
 BoomScrollLayer::togglePageIndicators - 0x3931b0
 BoomScrollLayer::updateDots - 0x392990
+BoomScrollLayer::updatePages - 0x391f70
 BrowseSmartTemplateLayer::keyBackClicked - 0x4d7a20
 BrowseSmartTemplateLayer::onBack - 0x4d7a60
 BrowseSmartTemplateLayer::init - 0x4d5f10
