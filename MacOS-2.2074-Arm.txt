@@ -2004,6 +2004,7 @@ CustomSongWidget::updateLengthMod - 0x535018
 CustomSongWidget::updateMultiAssetInfo - 0x535734
 CustomSongWidget::updatePlaybackBtn - 0x534418
 CustomSongWidget::updateSongInfo - 0x533504
+CustomSongWidget::updateSongObject - 0x533468
 CustomSongWidget::updateWithMultiAssets - 0x535020
 DailyLevelNode::FLAlert_Clicked - 0x1d4660
 DailyLevelNode::init - 0x1d3884
@@ -3864,6 +3865,7 @@ OptionsLayer::FLAlert_Clicked - 0x6997a0
 OptionsLayer::musicSliderChanged - 0x699300
 OptionsLayer::onAccount - 0x698d70
 OptionsLayer::onHelp - 0x698d80
+OptionsLayer::onOptions - 0x698d9c
 OptionsLayer::onSecretVault - 0x6990b0
 OptionsLayer::onSupport - 0x698df8
 OptionsLayer::sfxSliderChanged - 0x699370

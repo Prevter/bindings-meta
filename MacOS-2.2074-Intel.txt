@@ -3972,6 +3972,8 @@ MoreOptionsLayer::googlePlaySignedIn - 0x788d40
 MoreOptionsLayer::dropDownLayerWillClose - 0x788a20
 MoreOptionsLayer::goToPage - 0x787750
 MoreOptionsLayer::onFMODDebug - 0x787360
+MoreOptionsLayer::onKeybindings - 0x787c40
+MoreOptionsLayer::onSongBrowser - 0x787300
 MoreSearchLayer::create - 0x615070
 MoreSearchLayer::audioNext - 0x618230
 MoreSearchLayer::audioPrevious - 0x6181c0
@@ -4110,6 +4112,7 @@ OptionsLayer::FLAlert_Clicked - 0x785670
 OptionsLayer::musicSliderChanged - 0x785140
 OptionsLayer::onAccount - 0x784bf0
 OptionsLayer::onHelp - 0x784c10
+OptionsLayer::onOptions - 0x784c30
 OptionsLayer::onSecretVault - 0x784f20
 OptionsLayer::onSupport - 0x784cb0
 OptionsLayer::sfxSliderChanged - 0x7851b0
