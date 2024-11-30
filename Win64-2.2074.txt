@@ -2099,6 +2099,7 @@ LevelTools::verifyLevelIntegrity - 0x318500
 LevelTools::ytURLForArtist - 0x315eb0
 LikeItemLayer::create - 0x318ea0
 LikeItemLayer::init - 0x318fa0
+LikeItemLayer::onDislike - 0x319380
 LikeItemLayer::onLike - 0x319370
 LikeItemLayer::triggerLike - 0x319390
 ListButtonBar::create - 0x6ad70

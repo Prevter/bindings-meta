@@ -3863,6 +3863,7 @@ LevelTools::ytURLForArtist - 0x4ec5c0
 LikeItemLayer::create - 0x5e1410
 LikeItemLayer::keyBackClicked - 0x5e1b00
 LikeItemLayer::init - 0x5e1580
+LikeItemLayer::onDislike - 0x5e1a00
 ListButtonBar::create - 0x3de040
 ListButtonBar::init - 0x3de110
 ListButtonPage::create - 0x3de560
