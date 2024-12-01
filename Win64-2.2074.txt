@@ -1370,6 +1370,7 @@ GJBaseGameLayer::playerWillSwitchMode - 0x20da30
 GJBaseGameLayer::playExitDualEffect - 0x2119a0
 GJBaseGameLayer::positionForShaderTarget - 0x21e1a0
 GJBaseGameLayer::processActivatedAudioTriggers - 0x23d3e0
+GJBaseGameLayer::processAdvancedFollowAction - 0x22a020
 GJBaseGameLayer::processAdvancedFollowActions - 0x229e00
 GJBaseGameLayer::processAreaActions - 0x223ce0
 GJBaseGameLayer::processAreaEffects - 0x223100
@@ -2383,6 +2384,7 @@ PlayerObject::postCollision - 0x3777f0
 PlayerObject::preSlopeCollision - 0x3794b0
 PlayerObject::propellPlayer - 0x389ac0
 PlayerObject::pushButton - 0x382110
+PlayerObject::redirectPlayerForce - 0x389ed0
 PlayerObject::releaseAllButtons - 0x389370
 PlayerObject::releaseButton - 0x3823a0
 PlayerObject::removePendingCheckpoint - 0x38c400
