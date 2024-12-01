@@ -2593,6 +2593,9 @@ RetryLevelLayer::rewardedVideoFinished - 0x3b4a00
 RetryLevelLayer::onMenu - 0x3b4b20
 RetryLevelLayer::setupLastProgress - 0x3b4460
 RewardsPage::init - 0x3b5120
+RewardsPage::registerWithTouchDispatcher - 0x425d0
+RewardsPage::keyBackClicked - 0x84650
+RewardsPage::show - 0x3ae2e0
 RewardsPage::rewardsStatusFinished - 0x3b6120
 RewardsPage::rewardsStatusFailed - 0x3b6370
 RewardsPage::onFreeStuff - 0x3b6920
