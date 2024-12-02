@@ -2194,6 +2194,7 @@ EditorUI::menuItemFromObjectString - 0x315a4
 EditorUI::moveForCommand - 0x435fc
 EditorUI::moveGamelayer - 0x2f18c
 EditorUI::moveObjectCall - 0x437a8
+EditorUI::onCreateButton - 0x342c0
 EditorUI::onDeleteInfo - 0x3198c
 EditorUI::onDeleteSelected - 0xdb78
 EditorUI::onDeselectAll - 0x2c478

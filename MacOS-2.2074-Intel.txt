@@ -2300,6 +2300,7 @@ EditorUI::moveObject - 0x3ef90
 EditorUI::moveObjectCall - 0x49970
 EditorUI::moveObjectCall - 0x4a9d0
 EditorUI::onCreate - 0x2e600
+EditorUI::onCreateButton - 0x34d30
 EditorUI::onDeleteInfo - 0x32320
 EditorUI::onDeleteSelected - 0xc7a0
 EditorUI::onDeleteSelectedType - 0x32240
