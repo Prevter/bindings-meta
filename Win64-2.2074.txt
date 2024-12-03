@@ -1406,6 +1406,7 @@ GJBaseGameLayer::setupLayers - 0x203760
 GJBaseGameLayer::setupLevelStart - 0x20cd60
 GJBaseGameLayer::setupReplay - 0x234360
 GJBaseGameLayer::shakeCamera - 0x2356c0
+GJBaseGameLayer::shouldExitHackedLevel - 0x205d10
 GJBaseGameLayer::sortSectionVector - 0x221cc0
 GJBaseGameLayer::spawnParticle - 0x239d50
 GJBaseGameLayer::speedForShaderTarget - 0x21e250
