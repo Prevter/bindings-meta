@@ -1806,6 +1806,7 @@ CommentCell::likedItem - 0x1f23a0
 CommentCell::FLAlert_Clicked - 0x1f271c
 CommentCell::loadFromComment - 0x1e5f14
 CommentCell::onConfirmDelete - 0x1f220c
+CommentCell::onDelete - 0x1f26a0
 CommentCell::onGoToLevel - 0x1f2078
 CommentCell::onLike - 0x1f212c
 CommentCell::onViewProfile - 0x1f2044

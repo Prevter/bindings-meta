@@ -1892,6 +1892,7 @@ CommentCell::likedItem - 0x243140
 CommentCell::FLAlert_Clicked - 0x2434e0
 CommentCell::loadFromComment - 0x235d50
 CommentCell::onConfirmDelete - 0x242f80
+CommentCell::onDelete - 0x243450
 CommentCell::onGoToLevel - 0x242dc0
 CommentCell::onLike - 0x242e90
 CommentCell::onUnhide - 0x242e70
@@ -4095,6 +4096,8 @@ NewgroundsInfoLayer::onSupporter - 0x206340
 NumberInputLayer::init - 0x47f660
 NumberInputLayer::registerWithTouchDispatcher - 0x480110
 NumberInputLayer::keyBackClicked - 0x4800a0
+NumberInputLayer::deleteLast - 0x47fd60
+NumberInputLayer::inputNumber - 0x47ff90
 NumberInputLayer::onNumber - 0x47fc30
 OBB2D::create - 0x5dbcf0
 OBB2D::calculateWithCenter - 0x5dbe20
