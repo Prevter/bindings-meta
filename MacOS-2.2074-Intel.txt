@@ -2339,6 +2339,7 @@ EditorUI::toggleStickyControls - 0x2d590
 EditorUI::toggleSwipe - 0xc3d0
 EditorUI::transformObject - 0x4be30
 EditorUI::transformObjectCall - 0x4ae10
+EditorUI::updateButtons - 0x2cdd0
 EditorUI::updateCreateMenu - 0x2e710
 EditorUI::updateDeleteButtons - 0x325d0
 EditorUI::updateEditButtonColor - 0x3f120
@@ -2423,6 +2424,7 @@ FMODAudioEngine::getActiveMusicChannel - 0x3cf390
 FMODAudioEngine::getBackgroundMusicVolume - 0x3d4880
 FMODAudioEngine::getFMODStatus - 0x3d82b0
 FMODAudioEngine::getMeteringValue - 0x3d10a0
+FMODAudioEngine::getMusicTimeMS - 0x3d7660
 FMODAudioEngine::isMusicPlaying - 0x3d4a20
 FMODAudioEngine::isMusicPlaying - 0x3d48f0
 FMODAudioEngine::loadMusic - 0x3ced40
@@ -2930,6 +2932,7 @@ GJBaseGameLayer::toggleInfoLabel - 0x7150
 GJBaseGameLayer::removeAllCheckpoints - 0x7150
 GJBaseGameLayer::toggleMusicInPractice - 0x7150
 GJBaseGameLayer::activateItemEditTrigger - 0x13c800
+GJBaseGameLayer::activateSFXTrigger - 0x149850
 GJBaseGameLayer::activateSongEditTrigger - 0x1495f0
 GJBaseGameLayer::addGuideArt - 0x151740
 GJBaseGameLayer::addRemapTargets - 0x105880
@@ -4293,6 +4296,7 @@ PlayerObject::updatePlayerGlow - 0x4043a0
 PlayerObject::updatePlayerJetpackFrame - 0x405210
 PlayerObject::updatePlayerRobotFrame - 0x408f60
 PlayerObject::updatePlayerRollFrame - 0x406ff0
+PlayerObject::updatePlayerScale - 0x4049a0
 PlayerObject::updatePlayerShipFrame - 0x404fc0
 PlayerObject::updatePlayerSpiderFrame - 0x408f80
 PlayerObject::updatePlayerSwingFrame - 0x4061a0

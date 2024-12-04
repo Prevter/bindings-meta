@@ -195,6 +195,7 @@ EffectGameObject::customSetup - 0x48ffd0
 EffectGameObject::triggerObject - 0x48d7d0
 EffectGameObject::customObjectSetup - 0x490230
 EffectGameObject::getSaveString - 0x4932b0
+EffectGameObject::init - 0x48d1a0
 EffectGameObject::playTriggerEffect - 0x48d2b0
 EffectGameObject::updateSpeedModType - 0x493010
 AnimatedGameObject::setOpacity - 0x48b5e0
@@ -2940,7 +2941,6 @@ TableView::scrollWheel - 0x75a90
 TableView::reloadData - 0x74d00
 TeleportPortalObject::create - 0x499670
 TeleportPortalObject::getTeleportXOff - 0x4998f0
-TeleportPortalObject::init - 0x48d1a0
 TextAlertPopup::create - 0x2964a0
 TextAlertPopup::init - 0x2965d0
 TextArea::create - 0x76e50

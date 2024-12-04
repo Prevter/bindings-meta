@@ -2230,6 +2230,7 @@ EditorUI::toggleMode - 0x2b140
 EditorUI::toggleStickyControls - 0x2d020
 EditorUI::toggleSwipe - 0xd7b4
 EditorUI::transformObjectCall - 0x43bc8
+EditorUI::updateButtons - 0x2c954
 EditorUI::updateCreateMenu - 0x2e0e4
 EditorUI::updateDeleteButtons - 0x31c94
 EditorUI::updateGridNodeSize - 0x2f000
@@ -2309,6 +2310,7 @@ FMODAudioEngine::getActiveMusicChannel - 0x356984
 FMODAudioEngine::getBackgroundMusicVolume - 0x35ad68
 FMODAudioEngine::getFMODStatus - 0x35dce4
 FMODAudioEngine::getMeteringValue - 0x35805c
+FMODAudioEngine::getMusicTimeMS - 0x35d310
 FMODAudioEngine::isMusicPlaying - 0x35aeb0
 FMODAudioEngine::isMusicPlaying - 0x35ada4
 FMODAudioEngine::loadMusic - 0x356464
@@ -2655,6 +2657,7 @@ GameToolbox::createToggleButton - 0x43ef50
 GameToolbox::doWeHaveInternet - 0x43e8a8
 GameToolbox::easeToText - 0x445748
 GameToolbox::fast_rand_0_1 - 0x441870
+GameToolbox::fast_srand - 0x441830
 GameToolbox::gen_random - 0x464058
 GameToolbox::getEasedAction - 0x4415e8
 GameToolbox::getResponse - 0x43eb40
@@ -2777,6 +2780,8 @@ GJBaseGameLayer::toggleInfoLabel - 0x8fb0
 GJBaseGameLayer::removeAllCheckpoints - 0x8fb0
 GJBaseGameLayer::toggleMusicInPractice - 0x8fb0
 GJBaseGameLayer::activateItemEditTrigger - 0x114c0c
+GJBaseGameLayer::activateSFXTrigger - 0x11f100
+GJBaseGameLayer::activateSongEditTrigger - 0x11eec4
 GJBaseGameLayer::addGuideArt - 0x125938
 GJBaseGameLayer::addToGroups - 0x107cdc
 GJBaseGameLayer::bumpPlayer - 0xf6b04
@@ -2802,6 +2807,7 @@ GJBaseGameLayer::lightningFlash - 0xf089c
 GJBaseGameLayer::loadLevelSettings - 0x11d8c0
 GJBaseGameLayer::pickupItem - 0xf7400
 GJBaseGameLayer::playerTouchedRing - 0xf6eb0
+GJBaseGameLayer::playerTouchedTrigger - 0xf6f88
 GJBaseGameLayer::playerWillSwitchMode - 0xf3a44
 GJBaseGameLayer::playSpeedParticle - 0x121058
 GJBaseGameLayer::processAreaEffects - 0x10afe8
@@ -4028,6 +4034,7 @@ PlayerObject::updatePlayerGlow - 0x382204
 PlayerObject::updatePlayerJetpackFrame - 0x382fcc
 PlayerObject::updatePlayerRobotFrame - 0x386940
 PlayerObject::updatePlayerRollFrame - 0x384bec
+PlayerObject::updatePlayerScale - 0x3827c8
 PlayerObject::updatePlayerShipFrame - 0x382d90
 PlayerObject::updatePlayerSpiderFrame - 0x386958
 PlayerObject::updatePlayerSwingFrame - 0x383e58
