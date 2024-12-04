@@ -2811,9 +2811,12 @@ GJBaseGameLayer::playerTouchedTrigger - 0xf6f88
 GJBaseGameLayer::playerWillSwitchMode - 0xf3a44
 GJBaseGameLayer::playSpeedParticle - 0x121058
 GJBaseGameLayer::processAreaEffects - 0x10afe8
+GJBaseGameLayer::processAreaMoveGroupAction - 0x10c484
 GJBaseGameLayer::processAreaVisualActions - 0x10d908
 GJBaseGameLayer::processCameraObject - 0xf2584
 GJBaseGameLayer::processCommands - 0x11a2d0
+GJBaseGameLayer::processMoveActions - 0x10ffa0
+GJBaseGameLayer::processMoveActionsStep - 0x10e5b8
 GJBaseGameLayer::processOptionsTrigger - 0x107a5c
 GJBaseGameLayer::processQueuedButtons - 0x113650
 GJBaseGameLayer::queueButton - 0x1134ec

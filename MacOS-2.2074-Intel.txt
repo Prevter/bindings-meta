@@ -2981,9 +2981,11 @@ GJBaseGameLayer::playSpeedParticle - 0x14c000
 GJBaseGameLayer::preResumeGame - 0x141dd0
 GJBaseGameLayer::processActivatedAudioTriggers - 0x14f3a0
 GJBaseGameLayer::processAreaEffects - 0x1308e0
+GJBaseGameLayer::processAreaMoveGroupAction - 0x132070
 GJBaseGameLayer::processAreaVisualActions - 0x1339e0
 GJBaseGameLayer::processCameraObject - 0x112ba0
 GJBaseGameLayer::processCommands - 0x1435a0
+GJBaseGameLayer::processMoveActions - 0x136810
 GJBaseGameLayer::processMoveActionsStep - 0x1347b0
 GJBaseGameLayer::processOptionsTrigger - 0x12c930
 GJBaseGameLayer::processQueuedAudioTriggers - 0x1491f0
