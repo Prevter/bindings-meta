@@ -2164,7 +2164,7 @@ MenuLayer::onMyProfile - 0x320720
 MenuLayer::onOptions - 0x320bb0
 MenuLayer::onOptionsInstant - 0x320bc0
 MenuLayer::onPlay - 0x320b10
-MenuLayer::onQuit - 0x3210c0
+MenuLayer::onQuit - 0x3210d0
 MenuLayer::onRobTop - 0x3207c0
 MenuLayer::onStats - 0x320d50
 MenuLayer::openOptions - 0x320bd0
