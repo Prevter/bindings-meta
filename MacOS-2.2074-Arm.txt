@@ -2389,9 +2389,12 @@ FriendsProfilePage::onBlocked - 0x56abb8
 FriendsProfilePage::onClose - 0x56ab00
 FriendsProfilePage::onUpdate - 0x56ac44
 FriendsProfilePage::setupUsersBrowser - 0x56aca8
+GameCell::GameCell - 0x291758
 GameCell::init - 0x291d60
 GameCell::draw - 0x291e34
 GameCell::loadFromString - 0x291900
+GameCell::onTouch - 0x291d6c
+GameCell::updateBGColor - 0x291db8
 GameLevelManager::responseToDict - 0x477c14
 GameLevelManager::sharedState - 0x4641c4
 GameLevelManager::init - 0x473374
@@ -3011,6 +3014,7 @@ GJMGLayer::draw - 0x508038
 GJMGLayer::showGround - 0x508008
 GJMoreGamesLayer::create - 0x69376c
 GJMoreGamesLayer::customSetup - 0x693ed4
+GJMoreGamesLayer::getMoreGamesList - 0x693ac8
 GJMultiplayerManager::sharedState - 0x56b350
 GJMultiplayerManager::init - 0x56c9a8
 GJMultiplayerManager::createAndAddComment - 0x56e2b4
