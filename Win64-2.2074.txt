@@ -754,8 +754,9 @@ EditorPauseLayer::doResetUnused - 0x2d2b80
 EditorPauseLayer::init - 0xd8990
 EditorPauseLayer::onAlignX - 0xdb9e0
 EditorPauseLayer::onAlignY - 0xdba10
-EditorPauseLayer::onBuildHelper - 0xdb7d0
+EditorPauseLayer::onBuildHelper - 0xdb7b0
 EditorPauseLayer::onCreateExtras - 0xdb760
+EditorPauseLayer::onCreateLoop - 0xdb7d0
 EditorPauseLayer::onExitEditor - 0xdcd60
 EditorPauseLayer::onExitNoSave - 0xdce30
 EditorPauseLayer::onResume - 0xdc140
