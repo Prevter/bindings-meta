@@ -2832,6 +2832,7 @@ GJBaseGameLayer::pickupItem - 0xf7400
 GJBaseGameLayer::playerTouchedRing - 0xf6eb0
 GJBaseGameLayer::playerTouchedTrigger - 0xf6f88
 GJBaseGameLayer::playerWillSwitchMode - 0xf3a44
+GJBaseGameLayer::playExitDualEffect - 0xf7ff0
 GJBaseGameLayer::playSpeedParticle - 0x121058
 GJBaseGameLayer::processAreaEffects - 0x10afe8
 GJBaseGameLayer::processAreaMoveGroupAction - 0x10c484

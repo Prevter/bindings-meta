@@ -3000,6 +3000,7 @@ GJBaseGameLayer::pickupItem - 0x118560
 GJBaseGameLayer::playerTouchedRing - 0x118040
 GJBaseGameLayer::playerTouchedTrigger - 0x1180f0
 GJBaseGameLayer::playerWillSwitchMode - 0x114200
+GJBaseGameLayer::playExitDualEffect - 0x119250
 GJBaseGameLayer::playSpeedParticle - 0x14c000
 GJBaseGameLayer::preResumeGame - 0x141dd0
 GJBaseGameLayer::processActivatedAudioTriggers - 0x14f3a0
