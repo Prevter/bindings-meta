@@ -5204,6 +5204,8 @@ SpriteDescription::createDescription - 0x555f80
 SpriteDescription::initDescription - 0x5563d0
 SpriteDescription::initDescription - 0x556150
 StarInfoPopup::create - 0x7ac620
+StarInfoPopup::createFromString - 0x7a9160
+StarInfoPopup::createFromStringMoons - 0x7a93f0
 StarInfoPopup::keyBackClicked - 0x7ad0e0
 StarInfoPopup::init - 0x7ac7b0
 StartPosObject::init - 0x1ac6e0
