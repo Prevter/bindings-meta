@@ -1704,6 +1704,7 @@ CCTextInputNode::getString - 0x91118
 CCTextInputNode::init - 0x90770
 CCTextInputNode::refreshLabel - 0x911d4
 CCTextInputNode::setAllowedChars - 0x90fe4
+CCTextInputNode::setLabelNormalColor - 0x91408
 CCTextInputNode::setLabelPlaceholderColor - 0x913f8
 CCTextInputNode::setLabelPlaceholderScale - 0x913f0
 CCTextInputNode::setMaxLabelScale - 0x913e0
@@ -2527,6 +2528,7 @@ GameLevelManager::saveLevel - 0x47d688
 GameLevelManager::setBoolForKey - 0x49d96c
 GameLevelManager::setFolderName - 0x48055c
 GameLevelManager::setIntForKey - 0x49d758
+GameLevelManager::storeFriendRequest - 0x4909e8
 GameLevelManager::storeSearchResult - 0x47dec0
 GameLevelManager::storeUserName - 0x4754d4
 GameLevelManager::storeUserNames - 0x474d1c
@@ -4943,6 +4945,7 @@ SupportLayer::FLAlert_Clicked - 0x3176c4
 SupportLayer::onEmail - 0x316600
 SupportLayer::onLinks - 0x315d64
 SupportLayer::onLowDetail - 0x316f08
+SupportLayer::onRequestAccess - 0x317014
 SupportLayer::onSFX - 0x316714
 SupportLayer::sendSupportMail - 0x317494
 TableView::create - 0x536c94
@@ -5076,6 +5079,8 @@ UpdateAccountSettingsPopup::init - 0x2383a0
 UploadActionPopup::create - 0x238c74
 UploadActionPopup::keyBackClicked - 0x239564
 UploadActionPopup::init - 0x238df0
+UploadActionPopup::showFailMessage - 0x2393d4
+UploadActionPopup::showSuccessMessage - 0x23926c
 UploadListPopup::keyBackClicked - 0x2e50c0
 UploadListPopup::show - 0x2e5060
 UploadListPopup::listUploadFinished - 0x2e4b64
