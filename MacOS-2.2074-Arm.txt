@@ -4711,6 +4711,7 @@ SetupSongTriggerPopup::init - 0x2643d0
 SetupSpawnParticlePopup::init - 0x4ba358
 SetupSpawnPopup::onClose - 0x2286cc
 SetupSpawnPopup::init - 0x2271a4
+SetupSpawnPopup::updateRemapButtons - 0x227d98
 SetupStaticCameraPopup::valueDidChange - 0x3185bc
 SetupStaticCameraPopup::onCustomToggleTriggerValue - 0x318650
 SetupStaticCameraPopup::init - 0x317c2c
