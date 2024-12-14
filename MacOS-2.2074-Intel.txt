@@ -2620,6 +2620,7 @@ GameLevelManager::handleItND - 0x5082a0
 GameLevelManager::hasDailyStateBeenLoaded - 0x543960
 GameLevelManager::hasDownloadedList - 0x52e360
 GameLevelManager::hasLikedItemFullCheck - 0x541500
+GameLevelManager::hasRatedDemon - 0x5309d0
 GameLevelManager::invalidateMessages - 0x538ef0
 GameLevelManager::invalidateRequests - 0x53e480
 GameLevelManager::invalidateUserList - 0x540580
@@ -2628,6 +2629,7 @@ GameLevelManager::isFollowingUser - 0x523fe0
 GameLevelManager::likeItem - 0x540b40
 GameLevelManager::limitSavedLevels - 0x5236b0
 GameLevelManager::makeTimeStamp - 0x522290
+GameLevelManager::markLevelAsRatedDemon - 0x530870
 GameLevelManager::onDeleteServerLevelListCompleted - 0x514f40
 GameLevelManager::onGetGJChallengesCompleted - 0x510b00
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x512730
@@ -4475,12 +4477,15 @@ RandTriggerGameObject::init - 0x1b1b50
 RandTriggerGameObject::triggerObject - 0x1b1de0
 RandTriggerGameObject::customObjectSetup - 0x1b2040
 RandTriggerGameObject::getSaveString - 0x1b2680
+RateDemonLayer::create - 0x271bd0
 RateDemonLayer::keyBackClicked - 0x2728e0
 RateDemonLayer::uploadActionFinished - 0x2725a0
 RateDemonLayer::uploadActionFailed - 0x272690
 RateDemonLayer::onClosePopup - 0x272800
 RateDemonLayer::init - 0x271d40
+RateDemonLayer::onClose - 0x272420
 RateDemonLayer::onRate - 0x272470
+RateDemonLayer::selectRating - 0x272330
 RateLevelLayer::keyBackClicked - 0x5519b0
 RateLevelLayer::onRate - 0x551960
 RateLevelLayer::selectRating - 0x551830

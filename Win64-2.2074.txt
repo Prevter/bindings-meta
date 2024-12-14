@@ -1086,6 +1086,7 @@ GameLevelManager::gotoLevelPage - 0x1473c0
 GameLevelManager::handleIt - 0x140e00
 GameLevelManager::hasLikedItem - 0x1623d0
 GameLevelManager::hasLikedItemFullCheck - 0x162340
+GameLevelManager::hasRatedDemon - 0x152280
 GameLevelManager::invalidateUserList - 0x160840
 GameLevelManager::isFollowingUser - 0x148840
 GameLevelManager::isTimeValid - 0x147c90
@@ -2584,6 +2585,7 @@ RateDemonLayer::uploadActionFinished - 0x3b2080
 RateDemonLayer::uploadActionFailed - 0x3b2110
 RateDemonLayer::onClosePopup - 0x3b21e0
 RateDemonLayer::init - 0x3b1790
+RateDemonLayer::onClose - 0x3b2260
 RateDemonLayer::onRate - 0x3b1ee0
 RateDemonLayer::selectRating - 0x3b1d60
 RateLevelLayer::keyBackClicked - 0x3b2ab0
