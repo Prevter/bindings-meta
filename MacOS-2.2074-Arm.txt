@@ -311,6 +311,7 @@ cocos2d::CCParticleSystem::initWithDictionary - 0x6c425c
 cocos2d::CCParticleSystem::initWithFile - 0x6c26d8
 cocos2d::CCParticleSystem::~CCParticleSystem - 0x6c44c4
 cocos2d::CCParticleSystem::resetSystem - 0x6c5358
+cocos2d::CCParticleSystem::resumeSystem - 0x6c534c
 cocos2d::CCParticleSystem::stopSystem - 0x6c5338
 cocos2d::CCParticleSystem::update - 0x6c549c
 cocos2d::CCParticleSystem::init - 0x6c29dc

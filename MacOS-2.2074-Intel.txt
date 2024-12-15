@@ -320,6 +320,7 @@ cocos2d::CCParticleSystem::initWithDictionary - 0x7b31f0
 cocos2d::CCParticleSystem::~CCParticleSystem - 0x7b34f0
 cocos2d::CCParticleSystem::loadScaledDefaults - 0x7b60e0
 cocos2d::CCParticleSystem::resetSystem - 0x7b4740
+cocos2d::CCParticleSystem::resumeSystem - 0x7b4730
 cocos2d::CCParticleSystem::stopSystem - 0x7b4700
 cocos2d::CCParticleSystem::update - 0x7b48f0
 cocos2d::CCParticleSystem::init - 0x7b17e0
