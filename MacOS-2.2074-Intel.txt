@@ -1804,6 +1804,7 @@ ChallengesPage::currencyWillExit - 0x38b740
 ChallengesPage::claimItem - 0x38b610
 ChallengesPage::createChallengeNode - 0x38abe0
 ChallengesPage::exitNodeAtSlot - 0x38b0a0
+ChallengesPage::onClose - 0x38a930
 ChallengesPage::updateTimers - 0x38a970
 GJChallengeItem::createFromString - 0x8ef00
 GJChallengeItem::createWithCoder - 0x8f320
@@ -2754,6 +2755,7 @@ GameOptionsLayer::create - 0x29d740
 GameOptionsLayer::setupOptions - 0x29da00
 GameOptionsLayer::didToggle - 0x29e7e0
 GameOptionsLayer::init - 0x29d9b0
+GameOptionsLayer::onPracticeMusicSync - 0x29e1b0
 GameOptionsLayer::showPracticeMusicSyncUnlockInfo - 0x29e230
 GameOptionsTrigger::customObjectSetup - 0x19fa20
 GameOptionsTrigger::getSaveString - 0x19db40

@@ -362,6 +362,7 @@ ChallengesPage::currencyWillExit - 0x86cc0
 ChallengesPage::claimItem - 0x869d0
 ChallengesPage::createChallengeNode - 0x86090
 ChallengesPage::exitNodeAtSlot - 0x863c0
+ChallengesPage::onClose - 0x86940
 ChallengesPage::updateTimers - 0x864b0
 GJChallengeItem::encodeWithCoder - 0x1f16a0
 ChallengeNode::init - 0x86ce0
@@ -1178,6 +1179,7 @@ GameManager::updateCustomFPS - 0x187cc0
 GameObjectCopy::resetObject - 0x2db140
 GameOptionsLayer::setupOptions - 0x2978e0
 GameOptionsLayer::didToggle - 0x298ed0
+GameOptionsLayer::onPracticeMusicSync - 0x298be0
 GameOptionsLayer::onUIOptions - 0x298d60
 GameOptionsLayer::onUIPOptions - 0x298d80
 GameOptionsLayer::showPracticeMusicSyncUnlockInfo - 0x298380
@@ -1811,10 +1813,12 @@ LevelAreaLayer::init - 0x2bc1d0
 LevelAreaLayer::keyBackClicked - 0x2be1c0
 LevelAreaLayer::dialogClosed - 0x2bd3b0
 LevelAreaLayer::onExit - 0x2be170
+LevelBrowserLayer::LevelBrowserLayer - 0x2c05d0
 LevelBrowserLayer::~LevelBrowserLayer - 0x2c07c0
 LevelBrowserLayer::create - 0x2c09f0
 LevelBrowserLayer::scene - 0x2c09a0
 LevelBrowserLayer::onEnter - 0x2c78b0
+LevelBrowserLayer::onEnterTransitionDidFinish - 0x242b20
 LevelBrowserLayer::registerWithTouchDispatcher - 0x2c79f0
 LevelBrowserLayer::keyBackClicked - 0x2c4d30
 LevelBrowserLayer::keyDown - 0x2c4d50
@@ -1975,12 +1979,14 @@ LevelListCell::loadFromList - 0xbdf90
 LevelListCell::onClick - 0xbf3c0
 LevelListLayer::scene - 0x2ee9c0
 LevelListLayer::onEnter - 0x2f0680
+LevelListLayer::onExit - 0x2f06b0
 LevelListLayer::loadLevelsFinished - 0x2f1e80
 LevelListLayer::loadLevelsFailed - 0x2c4370
 LevelListLayer::onBack - 0x2f26e0
 LevelListLayer::shareCommentClosed - 0x2f2ee0
 LevelListLayer::FLAlert_Clicked - 0x2f2b00
 LevelListLayer::setIDPopupClosed - 0x2f2630
+LevelListLayer::updateResultArray - 0x2f26d0
 LevelListLayer::cellPerformedAction - 0x2f21e0
 LevelListLayer::likedItem - 0x2f3100
 LevelListLayer::iconSelectClosed - 0x2f33b0

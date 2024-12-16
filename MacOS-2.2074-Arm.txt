@@ -1727,6 +1727,7 @@ ChallengesPage::currencyWillExit - 0x31ac1c
 ChallengesPage::claimItem - 0x31aaec
 ChallengesPage::createChallengeNode - 0x31a168
 ChallengesPage::exitNodeAtSlot - 0x31a5bc
+ChallengesPage::onClose - 0x319edc
 ChallengesPage::updateDots - 0x31a344
 ChallengesPage::updateTimers - 0x319f28
 GJChallengeItem::create - 0x8286c
