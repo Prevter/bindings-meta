@@ -505,6 +505,7 @@ cocos2d::CCScheduler::update - 0x3aac3c
 cocos2d::CCLayer::create - 0x408478
 cocos2d::CCLayer::CCLayer - 0x408108
 cocos2d::CCLayer::~CCLayer - 0x40828c
+cocos2d::CCLayer::unregisterScriptKeypadHandler - 0x408234
 cocos2d::CCLayer::init - 0x40841c
 cocos2d::CCLayer::onEnter - 0x408cf4
 cocos2d::CCLayer::onEnterTransitionDidFinish - 0x408e78
@@ -2129,7 +2130,8 @@ GJOptionsLayer::setupOptions - 0x2333c8
 GJOptionsLayer::didToggleGV - 0x8fb0
 GJOptionsLayer::didToggle - 0x8fb0
 GJOptionsLayer::addGVToggle - 0x2333cc
-GJOptionsLayer::addToggle - 0x233518
+GJOptionsLayer::addToggle - 0x2339d0
+GJOptionsLayer::addToggleInternal - 0x233518
 GJOptionsLayer::init - 0x232c90
 GJOptionsLayer::layerForPage - 0x233acc
 GJOptionsLayer::nextPosition - 0x2339d4
@@ -2976,6 +2978,8 @@ GJGarageLayer::onInfo - 0x2ec28c
 GJGarageLayer::onNavigate - 0x2ed4c8
 GJGarageLayer::onSelect - 0x2edf90
 GJGarageLayer::onSelectTab - 0x2ecc08
+GJGarageLayer::onShards - 0x2ec208
+GJGarageLayer::onShop - 0x2ec1a8
 GJGarageLayer::playRainbowEffect - 0x2ee9a4
 GJGarageLayer::selectTab - 0x2ecd78
 GJGarageLayer::setupIconSelect - 0x2eb53c
@@ -3166,6 +3170,7 @@ GJSearchObject::getKey - 0x4857e8
 GJSearchObject::getPageObject - 0x4a312c
 GJSearchObject::getSearchKey - 0x4a2da8
 GJSearchObject::isLevelSearchObject - 0x4a3330
+GJShopLayer::create - 0x2a536c
 GJShopLayer::scene - 0x2a5268
 GJShopLayer::onExit - 0x2a7074
 GJShopLayer::ccTouchBegan - 0x2a91d0
@@ -3289,6 +3294,7 @@ InfoLayer::FLAlert_Clicked - 0x6af108
 InfoLayer::confirmReport - 0x6add08
 InfoLayer::init - 0x6ab874
 InfoLayer::loadPage - 0x6ae3e8
+InfoLayer::onClose - 0x6adff8
 InfoLayer::onComment - 0x6ad908
 InfoLayer::onLevelInfo - 0x6ae924
 InfoLayer::onMore - 0x6ad570
@@ -3645,6 +3651,7 @@ LevelTools::getAudioString - 0x44e26c
 LevelTools::getAudioTitle - 0x44c364
 LevelTools::getLevel - 0x44a514
 LevelTools::getLevelList - 0x44a138
+LevelTools::getSongObject - 0x44f694
 LevelTools::nameForArtist - 0x44d12c
 LevelTools::ngURLForArtist - 0x44d960
 LevelTools::urlForAudio - 0x44d310
@@ -3767,6 +3774,7 @@ MoreOptionsLayer::textInputShouldOffset - 0x69cb78
 MoreOptionsLayer::textInputReturn - 0x69cc48
 MoreOptionsLayer::googlePlaySignedIn - 0x69cd00
 MoreOptionsLayer::dropDownLayerWillClose - 0x69ca48
+MoreOptionsLayer::addToggle - 0x69aba0
 MoreOptionsLayer::goToPage - 0x69b78c
 MoreOptionsLayer::onClose - 0x69b6c8
 MoreOptionsLayer::onFMODDebug - 0x69b39c
@@ -4226,6 +4234,7 @@ RateLevelLayer::keyBackClicked - 0x4a8d14
 RateLevelLayer::init - 0x4a8498
 RateLevelLayer::onRate - 0x4a8cac
 RateLevelLayer::selectRating - 0x4a8b34
+RateStarsLayer::create - 0x223a90
 RateStarsLayer::keyBackClicked - 0x224d64
 RateStarsLayer::uploadActionFinished - 0x2249d8
 RateStarsLayer::uploadActionFailed - 0x224b18
@@ -4795,6 +4804,7 @@ ShaderLayer::setupSepiaShader - 0x344008
 ShaderLayer::setupShockLineUniforms - 0x343830
 ShaderLayer::setupShockWaveUniforms - 0x343664
 ShaderLayer::setupSplitScreenShader - 0x344150
+ShardsPage::create - 0x41ac58
 ShardsPage::init - 0x41ad58
 ShardsPage::registerWithTouchDispatcher - 0x41ca28
 ShardsPage::keyBackClicked - 0x41c9ac

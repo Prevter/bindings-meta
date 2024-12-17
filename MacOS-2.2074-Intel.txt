@@ -516,6 +516,7 @@ cocos2d::CCScheduler::update - 0x42fea0
 cocos2d::CCLayer::create - 0x49d570
 cocos2d::CCLayer::CCLayer - 0x49cfb0
 cocos2d::CCLayer::~CCLayer - 0x49d2a0
+cocos2d::CCLayer::unregisterScriptKeypadHandler - 0x49d240
 cocos2d::CCLayer::init - 0x49d510
 cocos2d::CCLayer::onEnter - 0x49de10
 cocos2d::CCLayer::onEnterTransitionDidFinish - 0x49dfa0
@@ -2217,7 +2218,8 @@ GJOptionsLayer::setupOptions - 0x28a640
 GJOptionsLayer::didToggleGV - 0x7150
 GJOptionsLayer::didToggle - 0x7150
 GJOptionsLayer::addGVToggle - 0x28a650
-GJOptionsLayer::addToggle - 0x28a780
+GJOptionsLayer::addToggle - 0x28ac90
+GJOptionsLayer::addToggleInternal - 0x28a780
 GJOptionsLayer::init - 0x289e50
 GJOptionsLayer::layerForPage - 0x28ada0
 GJOptionsLayer::nextPosition - 0x28aca0
@@ -3194,6 +3196,8 @@ GJGarageLayer::onInfo - 0x358b10
 GJGarageLayer::onNavigate - 0x359d50
 GJGarageLayer::onSelect - 0x35a860
 GJGarageLayer::onSelectTab - 0x359430
+GJGarageLayer::onShards - 0x358a80
+GJGarageLayer::onShop - 0x358a20
 GJGarageLayer::onToggleItem - 0x35b0c0
 GJGarageLayer::playRainbowEffect - 0x35b4b0
 GJGarageLayer::selectTab - 0x3595c0
@@ -3894,6 +3898,7 @@ LevelTools::getAudioString - 0x4ecd10
 LevelTools::getAudioTitle - 0x4eab80
 LevelTools::getLevel - 0x4e8620
 LevelTools::getLevelList - 0x4e82b0
+LevelTools::getSongObject - 0x4ee330
 LevelTools::ngURLForArtist - 0x4ec2c0
 LevelTools::sortSpeedObjects - 0x66d20
 LevelTools::urlForAudio - 0x4eb7f0
@@ -4010,7 +4015,9 @@ MoreOptionsLayer::textInputShouldOffset - 0x788bd0
 MoreOptionsLayer::textInputReturn - 0x788c90
 MoreOptionsLayer::googlePlaySignedIn - 0x788d40
 MoreOptionsLayer::dropDownLayerWillClose - 0x788a20
+MoreOptionsLayer::addToggle - 0x786b10
 MoreOptionsLayer::goToPage - 0x787750
+MoreOptionsLayer::onClose - 0x787670
 MoreOptionsLayer::onFMODDebug - 0x787360
 MoreOptionsLayer::onKeybindings - 0x787c40
 MoreOptionsLayer::onSongBrowser - 0x787300
@@ -5079,6 +5086,7 @@ ShaderLayer::tweenValueAuto - 0x3baef0
 ShaderLayer::updateShockLineCenter - 0x3bbb90
 ShaderLayer::updateShockWaveCenter - 0x3bb4d0
 ShaderLayer::updateZLayer - 0x3b82d0
+ShardsPage::create - 0x4b26e0
 ShardsPage::init - 0x4b2820
 ShardsPage::registerWithTouchDispatcher - 0x4b47d0
 ShardsPage::keyBackClicked - 0x4b4760

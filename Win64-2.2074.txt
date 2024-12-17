@@ -1547,6 +1547,7 @@ GJGarageLayer::onPaint - 0x271570
 GJGarageLayer::onSelect - 0x26f890
 GJGarageLayer::onSelectTab - 0x26e6c0
 GJGarageLayer::onShards - 0x271420
+GJGarageLayer::onShop - 0x2716f0
 GJGarageLayer::onToggleItem - 0x26ff30
 GJGarageLayer::playRainbowEffect - 0x271230
 GJGarageLayer::selectTab - 0x26e6f0
@@ -1678,6 +1679,8 @@ GJSearchObject::isLevelSearchObject - 0x1721e0
 GJShopLayer::scene - 0x2a1ef0
 GJShopLayer::onExit - 0x2a4160
 GJShopLayer::ccTouchBegan - 0x2a7290
+GJShopLayer::ccTouchCancelled - 0x71210
+GJShopLayer::registerWithTouchDispatcher - 0x425d0
 GJShopLayer::keyBackClicked - 0x2a58d0
 GJShopLayer::didPurchaseItem - 0x2a4ed0
 GJShopLayer::rewardedVideoFinished - 0x2a4520
@@ -2926,6 +2929,9 @@ ShaderLayer::resetAllShaders - 0x4710f0
 ShaderLayer::setupShader - 0x4698c0
 ShaderLayer::toggleAntiAlias - 0x46a4f0
 ShardsPage::init - 0x471620
+ShardsPage::registerWithTouchDispatcher - 0x425d0
+ShardsPage::keyBackClicked - 0x84650
+ShardsPage::show - 0x867a0
 ShardsPage::onIconInfo - 0x474610
 ShareCommentLayer::create - 0x474930
 ShareCommentLayer::keyBackClicked - 0x476170
