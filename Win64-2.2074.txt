@@ -400,13 +400,16 @@ ColorChannelSprite::updateOpacity - 0x251870
 ColorSelectLiveOverlay::create - 0x8bc50
 ColorSelectLiveOverlay::keyBackClicked - 0x8d1b0
 ColorSelectLiveOverlay::init - 0x8bda0
-SetupTriggerPopup::ccTouchBegan - 0x93d98
+SetupTriggerPopup::ccTouchBegan - 0x465a80
 SetupTriggerPopup::keyBackClicked - 0x44f1d0
 SetupTriggerPopup::show - 0x8ba30
 SetupTriggerPopup::toggleGroup - 0x45c310
 SetupTriggerPopup::determineStartValues - 0x45d060
 SetupTriggerPopup::onClose - 0x45d6a0
+SetupTriggerPopup::textInputClosed - 0x8b790
 SetupTriggerPopup::textChanged - 0x45d4e0
+SetupTriggerPopup::textInputShouldOffset - 0x7b5c0
+SetupTriggerPopup::textInputReturn - 0x7b620
 SetupTriggerPopup::sliderBegan - 0x45d7e0
 SetupTriggerPopup::sliderEnded - 0x45d8b0
 SetupTriggerPopup::updateDefaultTriggerValues - 0x45f370
@@ -1921,6 +1924,7 @@ LevelInfoLayer::scene - 0x2e2810
 LevelInfoLayer::keyBackClicked - 0x2ebdd0
 LevelInfoLayer::keyDown - 0x2ebde0
 LevelInfoLayer::numberInputClosed - 0x2e8e30
+LevelInfoLayer::cellPerformedAction - 0x2e51b0
 LevelInfoLayer::levelDownloadFinished - 0x2e7210
 LevelInfoLayer::levelDownloadFailed - 0x2e7570
 LevelInfoLayer::levelUpdateFinished - 0x2e76a0
@@ -1931,6 +1935,7 @@ LevelInfoLayer::rateLevelClosed - 0x2e9cd0
 LevelInfoLayer::likedItem - 0x2e9f50
 LevelInfoLayer::FLAlert_Clicked - 0x2eb810
 LevelInfoLayer::setIDPopupClosed - 0x2e53a0
+LevelInfoLayer::onEnterTransitionDidFinish - 0x2e7bb0
 LevelInfoLayer::confirmClone - 0x2e9000
 LevelInfoLayer::confirmDelete - 0x2e9170
 LevelInfoLayer::confirmMoveToBottom - 0x2ea8a0
