@@ -305,6 +305,9 @@ CCMenuItemToggler::setEnabled - 0x45530
 CCMenuItemToggler::normalTouch - 0x45580
 CCMenuItemToggler::selectedTouch - 0x455a0
 CCMenuItemToggler::toggle - 0x455c0
+CCNodeContainer::create - 0x242710
+CCNodeContainer::init - 0x77db0
+CCNodeContainer::visit - 0x2427e0
 CCPartAnimSprite::setOpacity - 0x468a0
 CCPartAnimSprite::setBlendFunc - 0x466f0
 CCPartAnimSprite::setColor - 0x467c0

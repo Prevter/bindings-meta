@@ -99,12 +99,14 @@ cocos2d::CCNode::resumeSchedulerAndActions - 0x20da08
 cocos2d::CCNode::runAction - 0x20dd34
 cocos2d::CCNode::schedule - 0x20dee8
 cocos2d::CCNode::schedule - 0x20df28
+cocos2d::CCNode::schedule - 0x20df0c
 cocos2d::CCNode::scheduleOnce - 0x20df48
 cocos2d::CCNode::scheduleUpdate - 0x20ddf0
 cocos2d::CCNode::stopAction - 0x20dd6c
 cocos2d::CCNode::stopActionByTag - 0x20dd74
 cocos2d::CCNode::stopAllActions - 0x20cbec
 cocos2d::CCNode::unschedule - 0x20df6c
+cocos2d::CCNode::unscheduleAllSelectors - 0x20cbf8
 cocos2d::CCNode::unscheduleUpdate - 0x20de9c
 cocos2d::CCNode::update - 0x20df98
 cocos2d::CCNode::init - 0x20c484
@@ -1637,6 +1639,7 @@ CCMenuItemToggler::setEnabled - 0x50044
 CCMenuItemToggler::init - 0x4f964
 CCMenuItemToggler::setSizeMult - 0x4fe70
 CCMenuItemToggler::toggle - 0x4fd98
+CCNodeContainer::create - 0xe4920
 CCNodeContainer::init - 0x128138
 CCNodeContainer::visit - 0x12813c
 CCPartAnimSprite::setScaleX - 0x2f4b18
@@ -3396,6 +3399,7 @@ LevelBrowserLayer::onRemoveAllFavorites - 0x3e8b28
 LevelBrowserLayer::onSearch - 0x3e96b4
 LevelBrowserLayer::setupLevelBrowser - 0x3eafb8
 LevelBrowserLayer::show - 0x3ece8c
+LevelBrowserLayer::updatePageLabel - 0x3e809c
 LevelCell::LevelCell - 0x1e03b0
 LevelCell::create - 0x1ec704
 LevelCell::init - 0x1ec890

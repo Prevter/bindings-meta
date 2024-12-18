@@ -1232,6 +1232,7 @@ CreateParticlePopup::textInputShouldOffset - 0x2d1510
 CreateParticlePopup::textInputReturn - 0x2d157c
 CreateParticlePopup::textInputClosed - 0x2d0ea8
 CreateParticlePopup::textChanged - 0x2d0ec4
+CreatorLayer::onChallenge - 0xb921c
 CreatorLayer::init - 0xb81ec
 CreatorLayer::keyBackClicked - 0xb9d0c
 CreatorLayer::sceneWillResume - 0xb9ccc
@@ -1897,6 +1898,7 @@ MenuGameLayer::ccTouchCancelled - 0x39470c
 MenuGameLayer::registerWithTouchDispatcher - 0x394728
 MenuLayer::scene - 0x265504
 MenuLayer::endGame - 0x2673f0
+MenuLayer::onDaily - 0x266e68
 MenuLayer::init - 0x265660
 MenuLayer::keyBackClicked - 0x267184
 MenuLayer::keyDown - 0x26740c

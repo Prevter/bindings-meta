@@ -1716,6 +1716,7 @@ CCMenuItemToggler::init - 0x59d40
 CCMenuItemToggler::normalTouch - 0x59f80
 CCMenuItemToggler::setSizeMult - 0x5a1f0
 CCMenuItemToggler::toggle - 0x5a120
+CCNodeContainer::create - 0x102b20
 CCNodeContainer::init - 0x154510
 CCNodeContainer::visit - 0x154520
 CCPartAnimSprite::setScaleX - 0x361ca0
