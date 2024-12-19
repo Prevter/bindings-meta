@@ -3334,6 +3334,7 @@ GJRewardItem::getRewardCount - 0x769d0
 GJRewardItem::getRewardObjectForType - 0x72840
 GJRewardItem::init - 0x8ea90
 GJRewardObject::create - 0x71c80
+GJRewardObject::create - 0x8e760
 GJRewardObject::createItemUnlock - 0x71c10
 GJRewardObject::createWithCoder - 0x8e800
 GJRewardObject::encodeWithCoder - 0x8e910
@@ -4506,6 +4507,7 @@ RateStarsLayer::uploadActionFinished - 0x27a810
 RateStarsLayer::uploadActionFailed - 0x27a900
 RateStarsLayer::onClosePopup - 0x27aa70
 RateStarsLayer::init - 0x2799b0
+RateStarsLayer::onClose - 0x27a680
 RateStarsLayer::onFeature - 0x27a650
 RateStarsLayer::onRate - 0x27a6d0
 RetryLevelLayer::keyBackClicked - 0x4e64b0

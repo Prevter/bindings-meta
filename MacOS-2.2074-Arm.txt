@@ -4244,6 +4244,7 @@ RateStarsLayer::uploadActionFinished - 0x2249d8
 RateStarsLayer::uploadActionFailed - 0x224b18
 RateStarsLayer::onClosePopup - 0x224c78
 RateStarsLayer::init - 0x223bd8
+RateStarsLayer::onClose - 0x224850
 RateStarsLayer::onRate - 0x2248ac
 RetryLevelLayer::keyBackClicked - 0x4485ec
 RetryLevelLayer::keyDown - 0x448540
