@@ -1267,6 +1267,7 @@ GauntletNode::nameForType - 0x1fa250
 GauntletNode::init - 0x1f7970
 GauntletNode::onClaimReward - 0x1f8ff0
 GauntletSelectLayer::scene - 0x1f5570
+GauntletSelectLayer::onExit - 0x1f7920
 GauntletSelectLayer::keyBackClicked - 0x1f7180
 GauntletSelectLayer::scrollLayerWillScrollToPage - 0x1f7090
 GauntletSelectLayer::scrollLayerScrolledToPage - 0x1f7090
@@ -1281,6 +1282,7 @@ GauntletSelectLayer::onPlay - 0x1f7190
 GauntletSelectLayer::onPrev - 0x1f6f00
 GauntletSelectLayer::onRefresh - 0x1f6350
 GauntletSelectLayer::setupGauntlets - 0x1f6790
+GauntletSelectLayer::unblockPlay - 0x1f7080
 GauntletSprite::addLockedSprite - 0x1f4fe0
 GauntletSprite::toggleLockedSprite - 0x1f5310
 GhostTrailEffect::create - 0x69fd0
