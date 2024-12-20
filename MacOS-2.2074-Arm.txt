@@ -2356,6 +2356,7 @@ FMODAudioEngine::fadeInMusic - 0x35b38c
 FMODAudioEngine::fadeOutMusic - 0x35d940
 FMODAudioEngine::getActiveMusicChannel - 0x356984
 FMODAudioEngine::getBackgroundMusicVolume - 0x35ad68
+FMODAudioEngine::getChannelGroup - 0x358208
 FMODAudioEngine::getFMODStatus - 0x35dce4
 FMODAudioEngine::getMeteringValue - 0x35805c
 FMODAudioEngine::getMusicTimeMS - 0x35d310
