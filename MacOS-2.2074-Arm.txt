@@ -776,6 +776,7 @@ cocos2d::CCSprite::isOpacityModifyRGB - 0x22326c
 cocos2d::CCSprite::setTexture - 0x223640
 cocos2d::CCSprite::getTexture - 0x223780
 cocos2d::CCSpriteBatchNode::createWithTexture - 0x132d50
+cocos2d::CCSpriteBatchNode::create - 0x132f40
 cocos2d::CCSpriteBatchNode::initWithTexture - 0x132e04
 cocos2d::CCSpriteBatchNode::CCSpriteBatchNode - 0x1330c8
 cocos2d::CCSpriteBatchNode::~CCSpriteBatchNode - 0x133148
@@ -3473,7 +3474,6 @@ LevelEditorLayer::onPlaytest - 0xd5d40
 LevelEditorLayer::onStopPlaytest - 0xd67f8
 LevelEditorLayer::processLoadedMoveActions - 0xa7448
 LevelEditorLayer::removeObject - 0xc98e4
-LevelEditorLayer::removePlayerCollisionBlock - 0x62950c
 LevelEditorLayer::removeSpecial - 0xc99a4
 LevelEditorLayer::updateEditor - 0xc53b8
 LevelEditorLayer::updateEditorMode - 0xc6370

@@ -801,6 +801,7 @@ cocos2d::CCSprite::isOpacityModifyRGB - 0x278ba0
 cocos2d::CCSprite::setTexture - 0x279250
 cocos2d::CCSprite::getTexture - 0x2793c0
 cocos2d::CCSpriteBatchNode::createWithTexture - 0x165920
+cocos2d::CCSpriteBatchNode::create - 0x165b50
 cocos2d::CCSpriteBatchNode::initWithTexture - 0x165a10
 cocos2d::CCSpriteBatchNode::CCSpriteBatchNode - 0x165ce0
 cocos2d::CCSpriteBatchNode::~CCSpriteBatchNode - 0x165d90
