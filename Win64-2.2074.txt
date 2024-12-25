@@ -268,7 +268,9 @@ ButtonSprite::updateBGImage - 0x3f520
 ButtonSprite::updateSpriteBGSize - 0x3f660
 CameraTriggerGameObject::triggerObject - 0x4a4cd0
 CCAnimateFrameCache::sharedSpriteFrameCache - 0x41450
+CCAnimateFrameCache::addDict - 0x41670
 CCAnimateFrameCache::addSpriteFramesWithFile - 0x414e0
+CCAnimateFrameCache::spriteFrameByName - 0x41c40
 CCBlockLayer::init - 0x424e0
 CCBlockLayer::draw - 0x426f0
 CCBlockLayer::registerWithTouchDispatcher - 0x425d0

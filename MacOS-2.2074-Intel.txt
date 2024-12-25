@@ -1708,6 +1708,15 @@ CameraTriggerGameObject::customObjectSetup - 0x1d0760
 CameraTriggerGameObject::getSaveString - 0x1cc650
 CCAlertCircle::init - 0x1686a0
 CCAlertCircle::draw - 0x168730
+CCAnimateFrameCache::sharedSpriteFrameCache - 0x5542d0
+CCAnimateFrameCache::addCustomSpriteFramesWithFile - 0x554510
+CCAnimateFrameCache::addDict - 0x5551e0
+CCAnimateFrameCache::addDict - 0x5558b0
+CCAnimateFrameCache::addSpriteFramesWithFile - 0x555650
+CCAnimateFrameCache::init - 0x554370
+CCAnimateFrameCache::purgeSharedSpriteFrameCache - 0x5543c0
+CCAnimateFrameCache::removeSpriteFrames - 0x556030
+CCAnimateFrameCache::spriteFrameByName - 0x556060
 CCBlockLayer::init - 0x501df0
 CCBlockLayer::draw - 0x5020a0
 CCBlockLayer::ccTouchBegan - 0x5020d0

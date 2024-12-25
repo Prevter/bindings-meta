@@ -1635,6 +1635,15 @@ CameraTriggerGameObject::customObjectSetup - 0x18b600
 CameraTriggerGameObject::getSaveString - 0x1883f8
 CCAlertCircle::init - 0x135718
 CCAlertCircle::draw - 0x1357c4
+CCAnimateFrameCache::sharedSpriteFrameCache - 0x4ab09c
+CCAnimateFrameCache::addCustomSpriteFramesWithFile - 0x4ab2a0
+CCAnimateFrameCache::addDict - 0x4abdb0
+CCAnimateFrameCache::addDict - 0x4ac488
+CCAnimateFrameCache::addSpriteFramesWithFile - 0x4ac224
+CCAnimateFrameCache::init - 0x4ab130
+CCAnimateFrameCache::purgeSharedSpriteFrameCache - 0x4ab174
+CCAnimateFrameCache::removeSpriteFrames - 0x4acbf4
+CCAnimateFrameCache::spriteFrameByName - 0x4acc24
 CCBlockLayer::init - 0x46163c
 CCBlockLayer::draw - 0x4618c0
 CCBlockLayer::ccTouchBegan - 0x4618fc
@@ -2884,7 +2893,6 @@ GJBaseGameLayer::bumpPlayer - 0xf6b04
 GJBaseGameLayer::canBeActivatedByPlayer - 0xf6710
 GJBaseGameLayer::checkCameraLimitAfterTeleport - 0xf0a1c
 GJBaseGameLayer::checkCollisions - 0xf45f0
-GJBaseGameLayer::clearPickedUpItems - 0x292260
 GJBaseGameLayer::collisionCheckObjects - 0xf5554
 GJBaseGameLayer::createBackground - 0xe4ed4
 GJBaseGameLayer::createGroundLayer - 0xe5410
