@@ -165,6 +165,7 @@ GameObject::getOrientedRectDirty - 0x136020
 GameObject::setOrientedRectDirty - 0x136030
 GameObject::getStartPos - 0x136060
 GameObject::addColorSprite - 0x18b830
+GameObject::addGlow - 0x18af60
 GameObject::commonSetup - 0x18ad70
 GameObject::copyGroups - 0x1999c0
 GameObject::createAndAddParticle - 0x195ba0
