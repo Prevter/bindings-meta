@@ -4103,6 +4103,9 @@ PlayerObject::getActiveMode - 0x38294c
 PlayerObject::hitGround - 0x37951c
 PlayerObject::incrementJumps - 0x3728d8
 PlayerObject::init - 0x36a954
+PlayerObject::isFlying - 0x37097c
+PlayerObject::isInBasicMode - 0x37b8c8
+PlayerObject::isInNormalMode - 0x36f5a8
 PlayerObject::loadFromCheckpoint - 0x3880ac
 PlayerObject::lockPlayer - 0x3869b4
 PlayerObject::placeStreakPoint - 0x3725a0
