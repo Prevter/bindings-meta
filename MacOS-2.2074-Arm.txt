@@ -2941,6 +2941,8 @@ GJBaseGameLayer::setupReplay - 0x11cd28
 GJBaseGameLayer::sortSectionVector - 0x10a4a8
 GJBaseGameLayer::spawnParticle - 0x120f7c
 GJBaseGameLayer::switchToFlyMode - 0xf3300
+GJBaseGameLayer::switchToRobotMode - 0xf3504
+GJBaseGameLayer::switchToRollMode - 0xf3458
 GJBaseGameLayer::switchToSpiderMode - 0xf35b0
 GJBaseGameLayer::syncBGTextures - 0x11dbd8
 GJBaseGameLayer::teleportPlayer - 0xf00d8

@@ -1432,6 +1432,9 @@ GJBaseGameLayer::sortSectionVector - 0x221cc0
 GJBaseGameLayer::spawnParticle - 0x239d50
 GJBaseGameLayer::speedForShaderTarget - 0x21e250
 GJBaseGameLayer::staticObjectsInRect - 0x20bda0
+GJBaseGameLayer::switchToRobotMode - 0x20d760
+GJBaseGameLayer::switchToRollMode - 0x20d940
+GJBaseGameLayer::switchToSpiderMode - 0x20d850
 GJBaseGameLayer::syncBGTextures - 0x234a10
 GJBaseGameLayer::teleportPlayer - 0x20aa80
 GJBaseGameLayer::toggleAudioVisualizer - 0x242550
