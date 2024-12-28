@@ -2938,6 +2938,7 @@ GJBaseGameLayer::setStartPosObject - 0xf2870
 GJBaseGameLayer::setupLayers - 0xe24c4
 GJBaseGameLayer::setupLevelStart - 0xf28b8
 GJBaseGameLayer::setupReplay - 0x11cd28
+GJBaseGameLayer::shouldExitHackedLevel - 0xe49d0
 GJBaseGameLayer::sortSectionVector - 0x10a4a8
 GJBaseGameLayer::spawnParticle - 0x120f7c
 GJBaseGameLayer::switchToFlyMode - 0xf3300
@@ -4143,6 +4144,7 @@ PlayerObject::toggleRobotMode - 0x384e24
 PlayerObject::toggleRollMode - 0x384a4c
 PlayerObject::toggleSpiderMode - 0x38525c
 PlayerObject::toggleSwingMode - 0x383a5c
+PlayerObject::toggleVisibility - 0x37219c
 PlayerObject::tryPlaceCheckpoint - 0x371f50
 PlayerObject::updateCollide - 0x379b88
 PlayerObject::updateDashAnimation - 0x370a18
