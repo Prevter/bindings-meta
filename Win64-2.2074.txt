@@ -1048,6 +1048,7 @@ FriendsProfilePage::forceReloadList - 0x13ed90
 FriendsProfilePage::init - 0x13e160
 FriendsProfilePage::onBlocked - 0x13ef50
 FriendsProfilePage::onClose - 0x13efe0
+FriendsProfilePage::onUpdate - 0x13ee30
 FriendsProfilePage::setupUsersBrowser - 0x13e870
 GameCell::init - 0x3c7f0
 GameCell::draw - 0x3cbf0
