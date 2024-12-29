@@ -1746,6 +1746,7 @@ GJWriteMessagePopup::uploadMessageFailed - 0x293740
 GJWriteMessagePopup::onClosePopup - 0x2937f0
 GJWriteMessagePopup::FLAlert_Clicked - 0x293890
 GraphicsReloadLayer::performReload - 0x366490
+GravityEffectSprite::init - 0x3a4390
 HardStreak::create - 0x2b1680
 HardStreak::addPoint - 0x2b2130
 HardStreak::stopStroke - 0x2b17f0
