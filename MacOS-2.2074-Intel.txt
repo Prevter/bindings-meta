@@ -1425,6 +1425,7 @@ CCSpritePlus::initWithSpriteFrameName - 0x46ec20
 CCSpritePlus::setFlipX - 0x46ee60
 CCSpritePlus::setFlipY - 0x46ef30
 CCSpritePlus::addFollower - 0x46f180
+GameObject::GameObject - 0x1e2350
 GameObject::createWithFrame - 0x58a280
 GameObject::createWithKey - 0x585720
 GameObject::update - 0x5926c0

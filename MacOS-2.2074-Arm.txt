@@ -1366,6 +1366,7 @@ CCSpritePlus::initWithTexture - 0x3dde98
 CCSpritePlus::initWithSpriteFrameName - 0x3dde8c
 CCSpritePlus::setFlipX - 0x3de07c
 CCSpritePlus::setFlipY - 0x3de12c
+GameObject::GameObject - 0x199f78
 GameObject::createWithFrame - 0x4d7884
 GameObject::createWithKey - 0x4d73bc
 GameObject::objectFromVector - 0x4e2090
