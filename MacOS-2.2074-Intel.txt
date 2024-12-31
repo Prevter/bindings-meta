@@ -2383,6 +2383,7 @@ EditorUI::moveObjectCall - 0x49970
 EditorUI::moveObjectCall - 0x4a9d0
 EditorUI::onCreate - 0x2e600
 EditorUI::onCreateButton - 0x34d30
+EditorUI::onCreateObject - 0x35170
 EditorUI::onDeleteInfo - 0x32320
 EditorUI::onDeleteSelected - 0xc7a0
 EditorUI::onDeleteSelectedType - 0x32240
@@ -2440,6 +2441,8 @@ EndLevelLayer::customSetup - 0x4acc80
 EndLevelLayer::showLayer - 0x4af060
 EndLevelLayer::enterAnimFinished - 0x4afd90
 EndLevelLayer::keyUp - 0x4b06b0
+EndLevelLayer::coinEnterFinished - 0x4b0230
+EndLevelLayer::coinEnterFinishedO - 0x4b01f0
 EndLevelLayer::getCoinString - 0x4ae840
 EndLevelLayer::getEndText - 0x4aea80
 EndLevelLayer::onHideLayer - 0x4aef70
