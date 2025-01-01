@@ -4409,6 +4409,7 @@ SecretLayer::textChanged - 0x51837c
 SecretLayer::FLAlert_Clicked - 0x518184
 SecretLayer::getThreadMessage - 0x518564
 SecretLayer::onSubmit - 0x516584
+SecretLayer2::scene - 0x3f7288
 SecretLayer2::init - 0x3f73b4
 SecretLayer2::onExit - 0x3fce88
 SecretLayer2::keyBackClicked - 0x3fcd9c
