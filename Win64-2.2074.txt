@@ -1657,6 +1657,7 @@ GJPathsLayer::onClose - 0x27dac0
 GJPathSprite::create - 0x281720
 GJPathSprite::addShardSprite - 0x281d90
 GJPathSprite::changeToLockedArt - 0x281ad0
+GJPathSprite::updateState - 0x2818f0
 GJPFollowCommandLayer::textChanged - 0x284d20
 GJPromoPopup::onExit - 0x29d890
 GJPromoPopup::init - 0x29d590

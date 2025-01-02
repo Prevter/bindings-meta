@@ -3167,6 +3167,7 @@ GJPathSprite::create - 0x284ad4
 GJPathSprite::addRankLabel - 0x288c2c
 GJPathSprite::addShardSprite - 0x2886c0
 GJPathSprite::changeToLockedArt - 0x287840
+GJPathSprite::init - 0x288b0c
 GJPathSprite::updateState - 0x284b80
 GJPFollowCommandLayer::determineStartValues - 0x2e7324
 GJPFollowCommandLayer::onClose - 0x2e7e78

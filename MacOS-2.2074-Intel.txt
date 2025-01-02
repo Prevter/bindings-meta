@@ -3369,9 +3369,12 @@ GJPathsLayer::keyBackClicked - 0x2eaa80
 GJPathsLayer::show - 0x2eab90
 GJPathsLayer::darkenButtons - 0x2ea780
 GJPathsLayer::onPath - 0x2ea6b0
+GJPathSprite::create - 0x2ea590
+GJPathSprite::addRankLabel - 0x2eeb50
 GJPathSprite::addShardSprite - 0x2ee610
 GJPathSprite::changeToLockedArt - 0x2ed5b0
 GJPathSprite::init - 0x2eea20
+GJPathSprite::updateState - 0x2ea630
 GJPFollowCommandLayer::determineStartValues - 0x353270
 GJPFollowCommandLayer::onClose - 0x354000
 GJPFollowCommandLayer::textChanged - 0x353890
