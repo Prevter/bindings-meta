@@ -1899,6 +1899,7 @@ CheckpointGameObject::restoreObject - 0x1c5190
 CheckpointGameObject::updateSyncedAnimation - 0x1c40f0
 EnterEffectInstance::updateTransitions - 0x5bb680
 CheckpointObject::CheckpointObject - 0xcaa60
+CheckpointObject::create - 0xbc3a0
 CheckpointObject::init - 0xbfa20
 CollisionBlockPopup::keyBackClicked - 0x2753b0
 CollisionBlockPopup::show - 0x275350

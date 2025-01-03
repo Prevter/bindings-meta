@@ -1826,6 +1826,8 @@ CheckpointGameObject::restoreObject - 0x1825c4
 CheckpointGameObject::updateSyncedAnimation - 0x181770
 EnterEffectInstance::updateTransitions - 0x4f1338
 GJGameState::stopTweenAction - 0x4d160
+CheckpointObject::CheckpointObject - 0xb4190
+CheckpointObject::create - 0xab538
 CheckpointObject::init - 0xae344
 CollisionBlockPopup::keyBackClicked - 0x220028
 CollisionBlockPopup::show - 0x21ffdc
@@ -4214,6 +4216,7 @@ PlayLayer::circleWaveWillBeRemoved - 0xaa9e4
 PlayLayer::dialogClosed - 0xaa9b0
 PlayLayer::addObject - 0xa2668
 PlayLayer::canPauseGame - 0xadc4c
+PlayLayer::createCheckpoint - 0xab024
 PlayLayer::createObjectsFromSetupFinished - 0xa6fc4
 PlayLayer::delayedFullReset - 0xad4a0
 PlayLayer::delayedResetLevel - 0xaa970
