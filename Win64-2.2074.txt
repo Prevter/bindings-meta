@@ -286,6 +286,7 @@ CCAnimateFrameCache::sharedSpriteFrameCache - 0x41450
 CCAnimateFrameCache::addDict - 0x41670
 CCAnimateFrameCache::addSpriteFramesWithFile - 0x414e0
 CCAnimateFrameCache::spriteFrameByName - 0x41c40
+CCBlockLayer::CCBlockLayer - 0x42360
 CCBlockLayer::init - 0x424e0
 CCBlockLayer::draw - 0x426f0
 CCBlockLayer::registerWithTouchDispatcher - 0x425d0
@@ -776,7 +777,6 @@ EditorPauseLayer::keyBackClicked - 0xdd0c0
 EditorPauseLayer::keyDown - 0xdd0d0
 EditorPauseLayer::customSetup - 0xd9020
 EditorPauseLayer::FLAlert_Clicked - 0xdcfa0
-EditorPauseLayer::doResetUnused - 0x2d2b80
 EditorPauseLayer::init - 0xd8990
 EditorPauseLayer::onAlignX - 0xdb9e0
 EditorPauseLayer::onAlignY - 0xdba10
@@ -1980,6 +1980,7 @@ LevelEditorLayer::onStopPlaytest - 0x2d7f50
 LevelEditorLayer::quickUpdateAllPositions - 0x2d70c0
 LevelEditorLayer::removeAllObjectsOfType - 0x2cdbb0
 LevelEditorLayer::removeSpecial - 0x2cfbb0
+LevelEditorLayer::resetUnusedColorChannels - 0x2d2b80
 LevelEditorLayer::tryUpdateSpeedObject - 0x2d0190
 LevelEditorLayer::typeExistsAtPosition - 0x2cc340
 LevelEditorLayer::updateEditor - 0x2d0330
@@ -2413,7 +2414,7 @@ PauseLayer::customSetup - 0x366b00
 PauseLayer::FLAlert_Clicked - 0x368de0
 PauseLayer::goEdit - 0x368b80
 PauseLayer::musicSliderChanged - 0x3683c0
-PauseLayer::onEdit - 0x3687e0
+PauseLayer::onEdit - 0x368990
 PauseLayer::onNormalMode - 0x368530
 PauseLayer::onPracticeMode - 0x368450
 PauseLayer::onQuit - 0x368e50
@@ -2421,6 +2422,7 @@ PauseLayer::onRestart - 0x3686a0
 PauseLayer::onRestartFull - 0x368740
 PauseLayer::onResume - 0x368610
 PauseLayer::onSettings - 0x3677d0
+PauseLayer::onTryEdit - 0x3687e0
 PauseLayer::sfxSliderChanged - 0x35cd70
 PauseLayer::tryQuit - 0x368c50
 PlatformToolbox::getDisplaySize - 0x786d0
