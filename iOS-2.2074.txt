@@ -497,6 +497,7 @@ cocos2d::CCIMEDelegate::detachWithIME - 0x1d48b8
 cocos2d::CCIMEDelegate::deleteForward - 0xd590
 cocos2d::CCDirector::sharedDirector - 0x178534
 cocos2d::CCDirector::getWinSize - 0x1791c4
+cocos2d::CCDirector::drawScene - 0x178c64
 cocos2d::CCDirector::pushScene - 0x179580
 cocos2d::CCDirector::replaceScene - 0x179608
 cocos2d::CCDirector::resetSmoothFixCounter - 0x178ff4
@@ -648,9 +649,11 @@ cocos2d::CCAnimation::copyWithZone - 0x1a7710
 cocos2d::CCAnimation::getDuration - 0x1a7704
 cocos2d::CCApplication::sharedApplication - 0x1af428
 cocos2d::CCApplication::openURL - 0x1af380
+cocos2d::CCArray::insertObject - 0x2494f4
 cocos2d::CCDictionary::create - 0x41c0c4
 cocos2d::CCDictionary::CCDictionary - 0x41a508
 cocos2d::CCDictionary::~CCDictionary - 0x41a6a0
+cocos2d::CCDictionary::objectForKey - 0x41aba8
 cocos2d::CCDictionary::copyWithZone - 0x41bfa4
 cocos2d::CCDictionary::acceptVisitor - 0x41c1c8
 cocos2d::CCRenderTexture::draw - 0x3b908c
@@ -1553,6 +1556,7 @@ FMODAudioEngine::getBackgroundMusicVolume - 0x140278
 FMODAudioEngine::isMusicPlaying - 0x1402b4
 FMODAudioEngine::loadMusic - 0x13d3f4
 FMODAudioEngine::pauseAllMusic - 0x1402f0
+FMODAudioEngine::pitchForIdx - 0x13e698
 FMODAudioEngine::playEffect - 0x13ea50
 FMODAudioEngine::playEffect - 0x13e9b4
 FMODAudioEngine::playEffectAdvanced - 0x13d8c4
@@ -1658,6 +1662,9 @@ GameToolbox::addBackButton - 0x4829c
 GameToolbox::createToggleButton - 0x47bcc
 GameToolbox::fast_srand - 0x49534
 GameToolbox::intToShortString - 0x4bd08
+GameToolbox::particleFromString - 0x4b190
+GameToolbox::particleFromStruct - 0x4b264
+GameToolbox::particleStringToStruct - 0x4a7fc
 GameToolbox::postClipVisit - 0x47a90
 GameToolbox::preVisitWithClippingRect - 0x479ac
 GauntletLayer::init - 0x2320d4
@@ -1678,6 +1685,7 @@ GJAccountSettingsLayer::keyBackClicked - 0x2d7798
 GJAccountSettingsLayer::textInputShouldOffset - 0x2d734c
 GJAccountSettingsLayer::textInputReturn - 0x2d73b8
 GJActionManager::init - 0x2fe634
+GJBaseGameLayer::activatedAudioTrigger - 0x207e20
 GJBaseGameLayer::applyShake - 0x20574c
 GJBaseGameLayer::bumpPlayer - 0x1eab1c
 GJBaseGameLayer::canBeActivatedByPlayer - 0x1ea898
@@ -1698,9 +1706,12 @@ GJBaseGameLayer::flipGravity - 0x1e7c68
 GJBaseGameLayer::gameEventTriggered - 0x1e5c54
 GJBaseGameLayer::getBumpMod - 0x1ec028
 GJBaseGameLayer::getCameraEdgeValue - 0x1ff2e4
+GJBaseGameLayer::getGroup - 0x1e39cc
 GJBaseGameLayer::getMaxPortalY - 0x1e8750
 GJBaseGameLayer::getMinPortalY - 0x1e8680
 GJBaseGameLayer::getModifiedDelta - 0x200a54
+GJBaseGameLayer::getOptimizedGroup - 0x1f4024
+GJBaseGameLayer::getStaticGroup - 0x1f4088
 GJBaseGameLayer::gravBumpPlayer - 0x1eac54
 GJBaseGameLayer::handleButton - 0x1fcb90
 GJBaseGameLayer::hasUniqueCoin - 0x1eb0e8
@@ -1754,6 +1765,7 @@ GJBaseGameLayer::updateCollisionBlocks - 0x1ec828
 GJBaseGameLayer::updateDualGround - 0x1e7b4c
 GJBaseGameLayer::updateGradientLayers - 0x1f1910
 GJBaseGameLayer::updateGuideArt - 0x201694
+GJBaseGameLayer::updateKeyframeOrder - 0x1fd218
 GJBaseGameLayer::updateLayerCapacity - 0x1df99c
 GJBaseGameLayer::updateLevelColors - 0x1dec94
 GJBaseGameLayer::updateMaxGameplayY - 0x203ec4

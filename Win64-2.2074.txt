@@ -608,7 +608,7 @@ CustomizeObjectLayer::getActiveMode - 0xa8cb0
 CustomizeObjectLayer::getButtonByTag - 0xa9520
 CustomizeObjectLayer::highlightSelected - 0xa97d0
 CustomizeObjectLayer::init - 0xa4d00
-CustomizeObjectLayer::onClose - 0xa9900
+CustomizeObjectLayer::onClose - 0xa990
 CustomizeObjectLayer::onHSV - 0xa8470
 CustomizeObjectLayer::onSelectColor - 0xa95a0
 CustomizeObjectLayer::onSelectMode - 0xa88e0

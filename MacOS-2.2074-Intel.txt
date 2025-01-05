@@ -1967,6 +1967,7 @@ ColorSelectPopup::colorSelectClosed - 0x715130
 ColorSelectPopup::keyBackClicked - 0x712fc0
 ColorSelectPopup::closeColorSelect - 0x711290
 ColorSelectPopup::init - 0x70eb40
+ColorSelectPopup::onUpdateCopyColor - 0x712170
 ColorSelectPopup::updateDurLabel - 0x7116c0
 CommentCell::init - 0x242d60
 CommentCell::draw - 0x243070
@@ -2024,6 +2025,8 @@ CreateGuidelinesLayer::doClearGuidelines - 0x4f6470
 CreateGuidelinesLayer::init - 0x4f5320
 CreateGuidelinesLayer::onClearGuidelines - 0x4f6280
 CreateMenuItem::create - 0x2f300
+CreateParticlePopup::create - 0x45bde0
+CreateParticlePopup::create - 0x45bb70
 CreateParticlePopup::create - 0x45bb50
 CreateParticlePopup::update - 0x463940
 CreateParticlePopup::ccTouchBegan - 0x4644c0
@@ -2093,6 +2096,8 @@ CustomizeObjectLayer::colorSetupClosed - 0x1e6a60
 CustomizeObjectLayer::getActiveMode - 0x1e63e0
 CustomizeObjectLayer::highlightSelected - 0x1e6d00
 CustomizeObjectLayer::init - 0x1e3120
+CustomizeObjectLayer::onClose - 0x1e5320
+CustomizeObjectLayer::onHSV - 0x1e5740
 CustomizeObjectLayer::onSelectColor - 0x1e5a90
 CustomizeObjectLayer::onSelectMode - 0x1e5500
 CustomizeObjectLayer::onUpdateCustomColor - 0x1e5b40
@@ -2250,7 +2255,10 @@ DungeonBarsSprite::visit - 0x4954b0
 EditButtonBar::create - 0x5c99e0
 EditButtonBar::init - 0x5c9ad0
 EditButtonBar::loadFromItems - 0x5c9b80
+EditButtonBar::onLeft - 0x5ca250
+EditButtonBar::onRight - 0x5ca2a0
 EditButtonBar::reloadItems - 0x5ca140
+EditLevelLayer::create - 0x1e8670
 EditLevelLayer::scene - 0x1e8510
 EditLevelLayer::keyBackClicked - 0x1ec740
 EditLevelLayer::keyDown - 0x1ec770
@@ -2297,6 +2305,7 @@ EditorPauseLayer::keyDown - 0x283150
 EditorPauseLayer::customSetup - 0x27fa70
 EditorPauseLayer::FLAlert_Clicked - 0x282f80
 EditorPauseLayer::init - 0x27f220
+EditorPauseLayer::onExitEditor - 0x282f40
 EditorPauseLayer::onExitNoSave - 0x281ad0
 EditorPauseLayer::onResetUnusedColors - 0x281e30
 EditorPauseLayer::onResume - 0x2818a0
@@ -2306,6 +2315,7 @@ EditorPauseLayer::onSaveAndPlay - 0x281910
 EditorPauseLayer::onSelectAllLeft - 0x2820b0
 EditorPauseLayer::onSelectAllRight - 0x2820d0
 EditorPauseLayer::saveLevel - 0x282980
+EditorPauseLayer::togglePreviewAnim - 0x282270
 EditorPauseLayer::uncheckAllPortals - 0x281d60
 EditorUI::create - 0x96b0
 EditorUI::draw - 0x4e7d0
@@ -2347,6 +2357,7 @@ EditorUI::scaleChangeEnded - 0x3fcb0
 EditorUI::scaleXChanged - 0x3fcd0
 EditorUI::scaleYChanged - 0x40440
 EditorUI::scaleXYChanged - 0x40590
+EditorUI::activateRotationControl - 0x3dc70
 EditorUI::activateTransformControl - 0x40720
 EditorUI::assignNewGroups - 0x45970
 EditorUI::clickOnPosition - 0x2dfa0
@@ -2362,6 +2373,7 @@ EditorUI::deselectObject - 0x33450
 EditorUI::deselectObject - 0x331a0
 EditorUI::deselectTargetPortals - 0x32e10
 EditorUI::doCopyObjects - 0x3e700
+EditorUI::doPasteObjects - 0x3e820
 EditorUI::dynamicGroupUpdate - 0x44e10
 EditorUI::editButton2Usable - 0x492e0
 EditorUI::editButtonUsable - 0x48580
@@ -2391,6 +2403,7 @@ EditorUI::onDeleteInfo - 0x32320
 EditorUI::onDeleteSelected - 0xc7a0
 EditorUI::onDeleteSelectedType - 0x32240
 EditorUI::onGroupSticky - 0xcf70
+EditorUI::onLockLayer - 0x2cc80
 EditorUI::onNewCustomItem - 0x30d30
 EditorUI::onPause - 0x2ad50
 EditorUI::onPlayback - 0xc930
@@ -2433,6 +2446,7 @@ EditorUI::updateGridNodeSize - 0x2f620
 EditorUI::updateGroupIDLabel - 0x2ccd0
 EditorUI::updateObjectInfoLabel - 0x2f870
 EditorUI::updatePlaybackBtn - 0x2d5f0
+EditorUI::updateZoom - 0x3e050
 EditorUI::zoomIn - 0xced0
 EditorUI::zoomOut - 0xcf20
 EditTriggersPopup::determineStartValues - 0x288da0
@@ -2916,6 +2930,8 @@ GameToolbox::pointsToString - 0x4e49f0
 GameToolbox::preVisitWithClippingRect - 0x4dbc50
 GameToolbox::saveParticleToString - 0x4deb00
 GameToolbox::timestampToHumanReadable - 0x4e4690
+GameToolbox::transformColor - 0x4dcb20
+GameToolbox::transformColor - 0x4dcaf0
 GauntletLayer::create - 0x37f700
 GauntletLayer::scene - 0x37f5f0
 GauntletLayer::keyBackClicked - 0x381960
@@ -3442,12 +3458,14 @@ GJScaleControl::ccTouchMoved - 0x52b20
 GJScaleControl::ccTouchEnded - 0x52ff0
 GJScaleControl::ccTouchCancelled - 0x53150
 GJScaleControl::loadValues - 0x3f670
+GJScaleControl::onToggleLockScale - 0x52690
 GJScaleControl::scaleFromValue - 0x52860
 GJScaleControl::skewFromValue - 0x528a0
 GJScaleControl::sliderChanged - 0x526f0
 GJScaleControl::updateLabelX - 0x52740
 GJScaleControl::updateLabelXY - 0x52800
 GJScaleControl::updateLabelY - 0x527a0
+GJScaleControl::valueFromScale - 0x528f0
 GJScoreCell::init - 0x243750
 GJScoreCell::draw - 0x243a20
 GJScoreCell::FLAlert_Clicked - 0x243960
@@ -3741,6 +3759,7 @@ LevelEditorLayer::activatedAudioTrigger - 0xf20a0
 LevelEditorLayer::checkpointActivated - 0xf20d0
 LevelEditorLayer::addKeyframe - 0xf3180
 LevelEditorLayer::levelSettingsUpdated - 0xdf4f0
+LevelEditorLayer::addSpecial - 0xe0390
 LevelEditorLayer::addToUndoList - 0xe0210
 LevelEditorLayer::createObjectsFromString - 0xdf9e0
 LevelEditorLayer::getLastObjectX - 0xed530
@@ -3768,6 +3787,7 @@ LevelEditorLayer::updateEditor - 0xddb40
 LevelEditorLayer::updateEditorMode - 0xdeeb0
 LevelEditorLayer::updateGameObjects - 0xddf40
 LevelEditorLayer::updateKeyframeObjects - 0xeb650
+LevelEditorLayer::updateLevelFont - 0xefe30
 LevelEditorLayer::updateObjectColors - 0xeb700
 LevelEditorLayer::updateOptions - 0xdc880
 LevelEditorLayer::updatePreviewParticle - 0x1a1820
@@ -4795,7 +4815,9 @@ SetGroupIDLayer::textChanged - 0x302ee0
 SetGroupIDLayer::init - 0x2fe5f0
 SetGroupIDLayer::onAddGroup - 0x300d30
 SetGroupIDLayer::onAddGroupParent - 0x300d40
+SetGroupIDLayer::onNextGroupID1 - 0x300d00
 SetGroupIDLayer::onRemoveFromGroup - 0x3032f0
+SetGroupIDLayer::updateGroupIDLabel - 0x301720
 SetItemIDLayer::onClose - 0x9c7f0
 SetItemIDLayer::valueDidChange - 0x9c700
 SetItemIDLayer::onCustomToggleTriggerValue - 0x9c5e0
