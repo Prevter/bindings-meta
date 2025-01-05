@@ -2754,6 +2754,7 @@ GameStatsManager::setupIconCredits - 0x2acd6c
 GameStatsManager::storeChallenge - 0x663ec
 GameStatsManager::storeQueuedChallenge - 0x66620
 GameStatsManager::toggleEnableItem - 0x6ad1c
+GameStatsManager::unlockSpecialChest - 0x6b8c8
 GameToolbox::addBackButton - 0x43f944
 GameToolbox::addRThumbScrollButton - 0x43fa2c
 GameToolbox::alignItemsHorisontally - 0x43e460

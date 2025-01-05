@@ -1261,6 +1261,7 @@ GameStatsManager::setupIconCredits - 0x1c1190
 GameStatsManager::toggleEnableItem - 0x1e2c00
 GameStatsManager::tryFixPathBug - 0x1d1810
 GameStatsManager::uncompleteLevel - 0x1dbbc0
+GameStatsManager::unlockSpecialChest - 0x1e7250
 GameStatsManager::verifyPathAchievements - 0x1d1f80
 GameStatsManager::verifyUserCoins - 0x1dcc30
 GameToolbox::addBackButton - 0x65010
