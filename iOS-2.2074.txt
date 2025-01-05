@@ -2330,6 +2330,7 @@ MusicBrowser::cellPerformedAction - 0x3baedc
 MusicBrowser::getSelectedCellIdx - 0x3baf34
 MusicBrowser::FLAlert_Clicked - 0x3bb07c
 MusicDownloadManager::sharedState - 0x156e20
+MusicDownloadManager::getSongInfoObject - 0x157b4c
 MusicDownloadManager::incrementPriorityForSong - 0x157b18
 MusicDownloadManager::pathForSFX - 0x15a508
 MusicDownloadManager::init - 0x157718
