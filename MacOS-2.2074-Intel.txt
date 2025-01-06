@@ -1302,6 +1302,7 @@ cocos2d::CCLightning::updateDisplayedColor - 0x5c6010
 cocos2d::CCLightning::isCascadeColorEnabled - 0x5c6050
 cocos2d::CCLightning::setCascadeColorEnabled - 0x5c6070
 cocos2d::CCConfiguration::sharedConfiguration - 0x503d50
+cocos2d::CCPoolManager::pop - 0x3e4f70
 GJDropDownLayer::create - 0x5cfc90
 GJDropDownLayer::create - 0x5d01d0
 GJDropDownLayer::draw - 0x5d05d0
