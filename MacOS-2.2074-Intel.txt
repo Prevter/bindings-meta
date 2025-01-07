@@ -2097,8 +2097,10 @@ CustomizeObjectLayer::colorSetupClosed - 0x1e6a60
 CustomizeObjectLayer::getActiveMode - 0x1e63e0
 CustomizeObjectLayer::highlightSelected - 0x1e6d00
 CustomizeObjectLayer::init - 0x1e3120
+CustomizeObjectLayer::onBreakApart - 0x1e6010
 CustomizeObjectLayer::onClose - 0x1e5320
 CustomizeObjectLayer::onHSV - 0x1e5740
+CustomizeObjectLayer::onLiveEdit - 0x1e5d80
 CustomizeObjectLayer::onSelectColor - 0x1e5a90
 CustomizeObjectLayer::onSelectMode - 0x1e5500
 CustomizeObjectLayer::onUpdateCustomColor - 0x1e5b40
