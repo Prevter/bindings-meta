@@ -5446,8 +5446,10 @@ UILayer::handleKeypress - 0x4b5d70
 UILayer::init - 0x4b49b0
 UILayer::isJumpButtonPressed - 0x4b6720
 UILayer::onPause - 0x4b51e0
+UILayer::processUINodesTouch - 0x4b6880
 UILayer::refreshDpad - 0x4b55f0
 UILayer::resetAllButtons - 0x4b6620
+UILayer::resetUINodeState - 0x4b5990
 UILayer::toggleMenuVisibility - 0x4b64e0
 UILayer::togglePlatformerMode - 0x4b5470
 UIObjectSettingsPopup::onCustomToggleTriggerValue - 0x566bc0

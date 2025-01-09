@@ -2599,6 +2599,7 @@ PlayLayer::showCompleteEffect - 0x391fd0
 PlayLayer::showCompleteText - 0x3919a0
 PlayLayer::showHint - 0x39d8c0
 PlayLayer::showNewBest - 0x3925f0
+PlayLayer::showRetryLayer - 0x3959c0
 PlayLayer::startGame - 0x390bd0
 PlayLayer::startMusic - 0x3a3c60
 PlayLayer::storeCheckpoint - 0x3a0610
@@ -2684,7 +2685,6 @@ RateStarsLayer::onClose - 0x3b3b50
 RateStarsLayer::onFeature - 0x3b3440
 RateStarsLayer::onRate - 0x3b37a0
 RateStarsLayer::selectRating - 0x3b35b0
-RetryLevelLayer::create - 0x3959c0
 RetryLevelLayer::keyBackClicked - 0x3b4c40
 RetryLevelLayer::keyDown - 0x3b4ad0
 RetryLevelLayer::customSetup - 0x3b3d00
@@ -3160,6 +3160,7 @@ UILayer::keyUp - 0x4b52f0
 UILayer::handleKeypress - 0x4b4c40
 UILayer::init - 0x4b3f20
 UILayer::onPause - 0x4b53c0
+UILayer::processUINodesTouch - 0x4b5820
 UILayer::processUINodeTouch - 0x4b58d0
 UILayer::resetUINodeState - 0x4b4aa0
 UIOptionsLayer::create - 0x2995e0

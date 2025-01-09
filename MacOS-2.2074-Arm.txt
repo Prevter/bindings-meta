@@ -5179,6 +5179,7 @@ UILayer::handleKeypress - 0x41de7c
 UILayer::init - 0x41cbc4
 UILayer::isJumpButtonPressed - 0x41e598
 UILayer::onPause - 0x41d39c
+UILayer::processUINodesTouch - 0x41e6ec
 UILayer::resetAllButtons - 0x41e4b4
 UILayer::resetUINodeState - 0x41dac0
 UILayer::toggleMenuVisibility - 0x41e384
