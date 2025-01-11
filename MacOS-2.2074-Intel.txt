@@ -2320,6 +2320,7 @@ EditorPauseLayer::onSelectAllRight - 0x2820d0
 EditorPauseLayer::saveLevel - 0x282980
 EditorPauseLayer::togglePreviewAnim - 0x282270
 EditorPauseLayer::uncheckAllPortals - 0x281d60
+GameObjectEditorState::loadValues - 0x9370
 EditorUI::create - 0x96b0
 EditorUI::draw - 0x4e7d0
 EditorUI::ccTouchBegan - 0x4f290
@@ -4791,7 +4792,7 @@ SelectSettingLayer::valueToIdx - 0x25efa0
 SelectSettingLayer::keyBackClicked - 0x25f2e0
 SelectSettingLayer::getSelectedFrame - 0x25ccd0
 SelectSettingLayer::getSelectedValue - 0x25cca0
-SelectSettingLayer::init - 0x4870a0
+SelectSettingLayer::init - 0x25e9f0
 SelectSettingLayer::onSelect - 0x25f1b0
 SelectSFXSortLayer::create - 0x42c860
 SelectSFXSortLayer::keyBackClicked - 0x42d760

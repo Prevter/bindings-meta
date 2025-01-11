@@ -2070,7 +2070,7 @@ CustomSongLayer::dropDownLayerWillClose - 0x1b98b8
 CustomSongLayer::musicBrowserClosed - 0x1b9980
 CustomSongLayer::init - 0x1b83c0
 CustomSongLayer::onMusicBrowser - 0x1b902c
-CustomSongLayer::onOptions - 0x30eaf4
+CustomSongLayer::onOptions - 0x1b90cc
 CustomSongLayer::onSearch - 0x1b90ec
 CustomSongLayer::onSongBrowser - 0x1b8fac
 CustomSongLayer::showNewgroundsMessage - 0x1b9264
@@ -2242,6 +2242,7 @@ EditorPauseLayer::onSelectAllLeft - 0x22ba48
 EditorPauseLayer::onSelectAllRight - 0x22ba58
 EditorPauseLayer::saveLevel - 0x22c274
 EditorPauseLayer::togglePreviewAnim - 0x22bba4
+GameObjectEditorState::loadValues - 0xaa8c
 EditorUI::create - 0xaccc
 EditorUI::draw - 0x463fc
 EditorUI::ccTouchBegan - 0x46de4
