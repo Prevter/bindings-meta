@@ -1119,6 +1119,7 @@ GameLevelManager::getUserList - 0x15ffa0
 GameLevelManager::getUsers - 0x1571c0
 GameLevelManager::gotoLevelPage - 0x1473c0
 GameLevelManager::handleIt - 0x140e00
+GameLevelManager::hasDownloadedLevel - 0x151630
 GameLevelManager::hasLikedItem - 0x1623d0
 GameLevelManager::hasLikedItemFullCheck - 0x162340
 GameLevelManager::hasRatedDemon - 0x152280
@@ -3071,7 +3072,7 @@ SmartGameObject::customObjectSetup - 0x4873d0
 SmartGameObject::getSaveString - 0x487260
 SmartGameObject::updateSmartFrame - 0x487070
 SmartTemplateCell::init - 0x3c7f0
-SmartTemplateCell::draw - 0xad7f0
+SmartTemplateCell::draw - 0xad710
 SmartTemplateCell::loadFromObject - 0xbd8c0
 SmartTemplateCell::onClick - 0xbdda0
 SmartTemplateCell::updateBGColor - 0xbdcb0

@@ -2575,6 +2575,7 @@ GameLevelManager::getSavedDailyLevelFromLevelID - 0x47d650
 GameLevelManager::getSavedGauntletLevel - 0x47d448
 GameLevelManager::getSavedLevel - 0x4780e4
 GameLevelManager::getSavedLevel - 0x47d54c
+GameLevelManager::getSavedLevelList - 0x48795c
 GameLevelManager::getSavedLevels - 0x47af84
 GameLevelManager::getSearchScene - 0x47edb8
 GameLevelManager::getStoredLevelComments - 0x494a28
@@ -2592,7 +2593,8 @@ GameLevelManager::handleIt - 0x46479c
 GameLevelManager::handleItDelayed - 0x4669d0
 GameLevelManager::handleItND - 0x466ce4
 GameLevelManager::hasDailyStateBeenLoaded - 0x49c950
-GameLevelManager::hasDownloadedList - 0x48911c
+GameLevelManager::hasDownloadedLevel - 0x48911c
+GameLevelManager::hasDownloadedList - 0x485a5c
 GameLevelManager::hasLikedItemFullCheck - 0x49a5c4
 GameLevelManager::hasRatedDemon - 0x48b328
 GameLevelManager::invalidateUserList - 0x4996f8
