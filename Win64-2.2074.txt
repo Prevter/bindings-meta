@@ -3134,6 +3134,7 @@ StarInfoPopup::createFromStringMoons - 0x3b0a00
 StarInfoPopup::init - 0x3b0df0
 StatsCell::draw - 0xad710
 StatsCell::loadFromObject - 0xb2630
+StatsLayer::customSetup - 0x4af100
 SupportLayer::uploadActionFinished - 0x4b0fb0
 SupportLayer::uploadActionFailed - 0x4b10f0
 SupportLayer::onClosePopup - 0x4b0f70
