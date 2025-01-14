@@ -704,6 +704,9 @@ cocos2d::CCDirector::convertToGL - 0x3dfd04
 cocos2d::CCDirector::drawScene - 0x3deef0
 cocos2d::CCDirector::popScene - 0x3e025c
 cocos2d::CCDirector::popSceneWithTransition - 0x3e02e8
+cocos2d::CCDirector::popToRootScene - 0x3e03b8
+cocos2d::CCDirector::popToSceneInStack - 0x3e0514
+cocos2d::CCDirector::popToSceneStackLevel - 0x3e03c0
 cocos2d::CCDirector::pushScene - 0x3e0034
 cocos2d::CCDirector::removeStatsLabel - 0x3e0734
 cocos2d::CCDirector::replaceScene - 0x3e00fc

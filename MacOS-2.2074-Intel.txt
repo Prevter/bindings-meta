@@ -720,6 +720,9 @@ cocos2d::CCDirector::convertToGL - 0x470e50
 cocos2d::CCDirector::drawScene - 0x46fe90
 cocos2d::CCDirector::popScene - 0x471430
 cocos2d::CCDirector::popSceneWithTransition - 0x4714c0
+cocos2d::CCDirector::popToRootScene - 0x4715a0
+cocos2d::CCDirector::popToSceneInStack - 0x471720
+cocos2d::CCDirector::popToSceneStackLevel - 0x4715b0
 cocos2d::CCDirector::purgeDirector - 0x471780
 cocos2d::CCDirector::pushScene - 0x471230
 cocos2d::CCDirector::removeStatsLabel - 0x471990
