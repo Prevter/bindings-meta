@@ -525,6 +525,7 @@ ColorSelectPopup::updateHSVMode - 0x93540
 ColorSelectPopup::updateOpacity - 0x912b0
 ColorSelectPopup::updateOpacityLabel - 0x91430
 CommentCell::init - 0xb5460
+CommentCell::draw - 0xad710
 CommentCell::likedItem - 0xb7750
 CommentCell::FLAlert_Clicked - 0xb79c0
 CommentCell::loadFromComment - 0xb5480
