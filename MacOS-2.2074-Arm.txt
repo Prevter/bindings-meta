@@ -118,6 +118,7 @@ cocos2d::CCNode::scheduleUpdate - 0x20ddf0
 cocos2d::CCNode::stopAction - 0x20dd6c
 cocos2d::CCNode::stopActionByTag - 0x20dd74
 cocos2d::CCNode::stopAllActions - 0x20cbec
+cocos2d::CCNode::transform - 0x20d820
 cocos2d::CCNode::unschedule - 0x20df6c
 cocos2d::CCNode::unscheduleAllSelectors - 0x20cbf8
 cocos2d::CCNode::unscheduleUpdate - 0x20de9c
@@ -3809,8 +3810,10 @@ LoadingCircle::ccTouchCancelled - 0x8fb0
 LoadingCircle::registerWithTouchDispatcher - 0x415230
 LoadingCircle::fadeAndRemove - 0x415170
 LoadingCircle::show - 0x415078
+LoadingCircleSprite::create - 0x415268
 LoadingCircleSprite::fadeInCircle - 0x4153e4
 LoadingCircleSprite::hideCircle - 0x415470
+LoadingCircleSprite::init - 0x41534c
 LoadingLayer::scene - 0x31e17c
 LoadingLayer::getLoadingString - 0x31ea9c
 LoadingLayer::init - 0x31e314

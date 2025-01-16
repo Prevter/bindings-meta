@@ -120,6 +120,7 @@ cocos2d::CCNode::scheduleUpdateWithPriorityLua - 0x2620f0
 cocos2d::CCNode::stopAction - 0x261fb0
 cocos2d::CCNode::stopActionByTag - 0x261fd0
 cocos2d::CCNode::stopAllActions - 0x260e30
+cocos2d::CCNode::transform - 0x261a70
 cocos2d::CCNode::unschedule - 0x262270
 cocos2d::CCNode::unscheduleAllSelectors - 0x260e50
 cocos2d::CCNode::unscheduleUpdate - 0x262160
@@ -4040,6 +4041,8 @@ LoadingCircle::fadeAndRemove - 0x4ac0a0
 LoadingCircle::show - 0x4abfb0
 LoadingCircleSprite::create - 0x4ac190
 LoadingCircleSprite::fadeInCircle - 0x4ac330
+LoadingCircleSprite::hideCircle - 0x4ac3b0
+LoadingCircleSprite::init - 0x4ac270
 LoadingLayer::create - 0x38f480
 LoadingLayer::getLoadingString - 0x38fcf0
 LoadingLayer::init - 0x38f560
@@ -4417,6 +4420,8 @@ PlayerObject::saveToCheckpoint - 0x40a6b0
 PlayerObject::setSecondColor - 0x3ec3a0
 PlayerObject::setupStreak - 0x3eab20
 PlayerObject::spawnScaleCircle - 0x401fe0
+PlayerObject::spiderTestJump - 0x3f1ae0
+PlayerObject::spiderTestJumpInternal - 0x3fbe50
 PlayerObject::startDashing - 0x3ffa00
 PlayerObject::stopPlatformerJumpAnimation - 0x3f2500
 PlayerObject::stopStreak2 - 0x409d20
