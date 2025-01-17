@@ -4424,6 +4424,7 @@ PlayerObject::spawnScaleCircle - 0x401fe0
 PlayerObject::spiderTestJump - 0x3f1ae0
 PlayerObject::spiderTestJumpInternal - 0x3fbe50
 PlayerObject::startDashing - 0x3ffa00
+PlayerObject::stopDashing - 0x3efe00
 PlayerObject::stopPlatformerJumpAnimation - 0x3f2500
 PlayerObject::stopStreak2 - 0x409d20
 PlayerObject::switchedToMode - 0x401440

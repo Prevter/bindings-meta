@@ -2338,6 +2338,7 @@ EditorUI::onSettings - 0x2b46c
 EditorUI::onStopPlaytest - 0xe134
 EditorUI::onUngroupSticky - 0xe318
 EditorUI::pasteObjects - 0x35f00
+EditorUI::playtestStopped - 0x38a54
 EditorUI::resetUI - 0x2aeac
 EditorUI::rotateObjects - 0x37044
 EditorUI::selectBuildTab - 0x33974
@@ -4184,6 +4185,7 @@ PlayerObject::setupStreak - 0x36c84c
 PlayerObject::spiderTestJump - 0x3727c8
 PlayerObject::spiderTestJumpInternal - 0x37ad3c
 PlayerObject::startDashing - 0x37e290
+PlayerObject::stopDashing - 0x370c60
 PlayerObject::stopPlatformerJumpAnimation - 0x37314c
 PlayerObject::stopStreak2 - 0x387654
 PlayerObject::switchedToMode - 0x37f824
