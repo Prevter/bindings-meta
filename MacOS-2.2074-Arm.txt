@@ -2324,6 +2324,7 @@ EditorUI::onCreateObject - 0x34758
 EditorUI::onDeleteInfo - 0x3198c
 EditorUI::onDeleteSelected - 0xdb78
 EditorUI::onDeselectAll - 0x2c478
+EditorUI::onDuplicate - 0x2b4dc
 EditorUI::onGroupIDFilter - 0x31a68
 EditorUI::onGroupSticky - 0xe2d4
 EditorUI::onLockLayer - 0x2c7fc

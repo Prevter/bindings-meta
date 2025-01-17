@@ -2417,6 +2417,7 @@ EditorUI::onCreateObject - 0x35170
 EditorUI::onDeleteInfo - 0x32320
 EditorUI::onDeleteSelected - 0xc7a0
 EditorUI::onDeleteSelectedType - 0x32240
+EditorUI::onDuplicate - 0x2b2e0
 EditorUI::onGroupSticky - 0xcf70
 EditorUI::onLockLayer - 0x2cc80
 EditorUI::onNewCustomItem - 0x30d30
