@@ -4461,6 +4461,7 @@ PlayerObject::updateRotation - 0x3f0d20
 PlayerObject::updateRotation - 0x3fb360
 PlayerObject::updateSpecial - 0x3f0f70
 PlayerObject::updateStreakBlend - 0x3eb160
+PlayerObject::updateSwingFire - 0x4049f0
 PlayerObject::updateTimeMod - 0x3ea990
 PlayLayer::PlayLayer - 0xbfcd0
 PlayLayer::~PlayLayer - 0xab980

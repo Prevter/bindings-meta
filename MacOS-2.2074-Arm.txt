@@ -4202,6 +4202,7 @@ PlayerObject::toggleVisibility - 0x37219c
 PlayerObject::tryPlaceCheckpoint - 0x371f50
 PlayerObject::updateCollide - 0x379b88
 PlayerObject::updateDashAnimation - 0x370a18
+PlayerObject::updateEffects - 0x371df0
 PlayerObject::updateGlowColor - 0x386264
 PlayerObject::updateJump - 0x36ddf4
 PlayerObject::updatePlayerArt - 0x3823c4
@@ -4218,6 +4219,7 @@ PlayerObject::updatePlayerSpiderFrame - 0x386958
 PlayerObject::updatePlayerSwingFrame - 0x383e58
 PlayerObject::updateRotation - 0x371b20
 PlayerObject::updateRotation - 0x37a378
+PlayerObject::updateSwingFire - 0x382814
 PlayerObject::updateTimeMod - 0x36c61c
 PlayLayer::create - 0x9ccd0
 PlayLayer::scene - 0x9cc10
