@@ -849,6 +849,7 @@ EditorUI::activateScaleControl - 0x113280
 EditorUI::activateTransformControl - 0x1138d0
 EditorUI::addObjectsToSmartTemplate - 0x114390
 EditorUI::applyOffset - 0x120d40
+EditorUI::canSelectObject - 0x10ec30
 EditorUI::checkDiffAfterTransformAnchor - 0x1140e0
 EditorUI::clickOnPosition - 0xe1040
 EditorUI::colorSelectClosed - 0x11dcd0
@@ -2001,6 +2002,7 @@ LevelEditorLayer::onResumePlaytest - 0x2d7d60
 LevelEditorLayer::onStopPlaytest - 0x2d7f50
 LevelEditorLayer::quickUpdateAllPositions - 0x2d70c0
 LevelEditorLayer::removeAllObjectsOfType - 0x2cdbb0
+LevelEditorLayer::removeObject - 0x2cda70
 LevelEditorLayer::removeSpecial - 0x2cfbb0
 LevelEditorLayer::resetUnusedColorChannels - 0x2d2b80
 LevelEditorLayer::tryUpdateSpeedObject - 0x2d0190

@@ -2295,6 +2295,7 @@ EditorUI::scaleYChanged - 0x3abec
 EditorUI::scaleXYChanged - 0x3ad30
 EditorUI::activateRotationControl - 0x3878c
 EditorUI::activateTransformControl - 0x3aec4
+EditorUI::canSelectObject - 0x373c8
 EditorUI::clickOnPosition - 0x2d9d4
 EditorUI::constrainGameLayerPosition - 0x2b208
 EditorUI::copyObjects - 0x309d4
