@@ -857,6 +857,7 @@ EditorUI::constrainGameLayerPosition - 0x120dd0
 EditorUI::constrainGameLayerPosition - 0x120dd0
 EditorUI::copyObjects - 0x111560
 EditorUI::createCustomItems - 0xe30e0
+EditorUI::createLoop - 0x117c90
 EditorUI::createMoveMenu - 0x119350
 EditorUI::createObject - 0x10e840
 EditorUI::createPrefab - 0x1160f0
