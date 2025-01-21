@@ -2213,6 +2213,7 @@ LevelTools::getLevel - 0x310320
 LevelTools::nameForArtist - 0x3143f0
 LevelTools::ngURLForArtist - 0x315a10
 LevelTools::posForTimeInternal - 0x317ea0
+LevelTools::timeForPos - 0x3174c0
 LevelTools::urlForAudio - 0x3146f0
 LevelTools::verifyLevelIntegrity - 0x318500
 LevelTools::ytURLForArtist - 0x315eb0
