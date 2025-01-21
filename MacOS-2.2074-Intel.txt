@@ -225,6 +225,7 @@ cocos2d::CCNode::removeComponent - 0x262f80
 cocos2d::CCNode::removeAllComponents - 0x262fa0
 cocos2d::CCNode::updateTweenAction - 0x262eb0
 cocos2d::CCNode::updateTweenActionInt - 0x262ec0
+cocos2d::CCNodeRGBA::create - 0x2630c0
 cocos2d::CCNodeRGBA::CCNodeRGBA - 0x262fc0
 cocos2d::CCNodeRGBA::~CCNodeRGBA - 0x263070
 cocos2d::CCNodeRGBA::init - 0x2630a0
