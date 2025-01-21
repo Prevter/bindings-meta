@@ -175,6 +175,7 @@ GameObject::editorColorForMode - 0x19e0a0
 GameObject::groupOpacityMod - 0x199d30
 GameObject::isFacingDown - 0x19e990
 GameObject::isFacingLeft - 0x19ea50
+GameObject::isSpawnableTrigger - 0x19f730
 GameObject::playDestroyObjectAnim - 0x1a7520
 GameObject::playPickupAnimation - 0x1a7040
 GameObject::playPickupAnimation - 0x1a6f50
