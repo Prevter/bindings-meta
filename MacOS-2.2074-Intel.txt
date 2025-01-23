@@ -4022,6 +4022,7 @@ LevelTools::getLevelList - 0x4e82b0
 LevelTools::getSongObject - 0x4ee330
 LevelTools::ngURLForArtist - 0x4ec2c0
 LevelTools::sortSpeedObjects - 0x66d20
+LevelTools::timeForPos - 0x4ed380
 LevelTools::urlForAudio - 0x4eb7f0
 LevelTools::verifyLevelIntegrity - 0x4ee730
 LevelTools::ytURLForArtist - 0x4ec5c0
