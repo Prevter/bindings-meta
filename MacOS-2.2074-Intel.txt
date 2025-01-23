@@ -3781,6 +3781,7 @@ LevelEditorLayer::activatedAudioTrigger - 0xf20a0
 LevelEditorLayer::checkpointActivated - 0xf20d0
 LevelEditorLayer::addKeyframe - 0xf3180
 LevelEditorLayer::levelSettingsUpdated - 0xdf4f0
+LevelEditorLayer::addObjectToGroup - 0xef840
 LevelEditorLayer::addSpecial - 0xe0390
 LevelEditorLayer::addToUndoList - 0xe0210
 LevelEditorLayer::createObjectsFromString - 0xdf9e0

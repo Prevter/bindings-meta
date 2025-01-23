@@ -3564,6 +3564,7 @@ LevelEditorLayer::activatedAudioTrigger - 0xd6d1c
 LevelEditorLayer::checkpointActivated - 0xd6d34
 LevelEditorLayer::addKeyframe - 0xd7d8c
 LevelEditorLayer::levelSettingsUpdated - 0xc699c
+LevelEditorLayer::addObjectToGroup - 0xd494c
 LevelEditorLayer::addSpecial - 0xc7674
 LevelEditorLayer::createObjectsFromString - 0xc6e60
 LevelEditorLayer::getNextFreeGroupID - 0xd1514
