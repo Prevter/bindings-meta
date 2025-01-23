@@ -1990,6 +1990,7 @@ LevelEditorLayer::levelSettingsUpdated - 0x2cb030
 LevelEditorLayer::addSpecial - 0x2cf4a0
 LevelEditorLayer::createObject - 0x2cbf90
 LevelEditorLayer::createObjectsFromString - 0x2cb920
+LevelEditorLayer::dirtifyTriggers - 0x22b740
 LevelEditorLayer::getLevelString - 0x2ce530
 LevelEditorLayer::getNextFreeAreaEffectID - 0x2d26d0
 LevelEditorLayer::getNextFreeGradientID - 0x2d27b0
