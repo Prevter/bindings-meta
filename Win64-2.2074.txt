@@ -2011,6 +2011,7 @@ LevelEditorLayer::addSpecial - 0x2cf4a0
 LevelEditorLayer::createObject - 0x2cbf90
 LevelEditorLayer::createObjectsFromString - 0x2cb920
 LevelEditorLayer::dirtifyTriggers - 0x22b740
+LevelEditorLayer::getLastObjectX - 0x2d5fd0
 LevelEditorLayer::getLevelString - 0x2ce530
 LevelEditorLayer::getNextFreeAreaEffectID - 0x2d26d0
 LevelEditorLayer::getNextFreeGradientID - 0x2d27b0
@@ -3058,6 +3059,12 @@ SetupSpawnPopup::onDeleteRemap - 0x446a80
 SetupSpawnPopup::onSelectRemap - 0x447440
 SetupSpawnPopup::queueUpdateButtons - 0x447510
 SetupSpawnPopup::updateRemapButtons - 0x446c20
+SetupTimeWarpPopup::create - 0x44ad30
+SetupTimeWarpPopup::determineStartValues - 0x44b2c0
+SetupTimeWarpPopup::onClose - 0x287920
+SetupTimeWarpPopup::init - 0x44ae50
+SetupTimeWarpPopup::sliderChanged - 0x44b3d0
+SetupTimeWarpPopup::updateTimeWarpLabel - 0x44b4a0
 SetupTouchTogglePopup::textChanged - 0x44c760
 SFXBrowser::keyBackClicked - 0x4687f0
 SFXBrowser::musicActionFinished - 0x467360

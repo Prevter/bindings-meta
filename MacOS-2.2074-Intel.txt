@@ -2265,6 +2265,7 @@ DialogObject::init - 0x3b3eb0
 DrawGridLayer::update - 0xf5c30
 DrawGridLayer::draw - 0xf5dc0
 DrawGridLayer::loadTimeMarkers - 0xdf600
+DrawGridLayer::timeForPos - 0xed530
 DungeonBarsSprite::init - 0x495430
 DungeonBarsSprite::visit - 0x4954b0
 EditButtonBar::create - 0x5c99e0
@@ -3785,7 +3786,7 @@ LevelEditorLayer::addObjectToGroup - 0xef840
 LevelEditorLayer::addSpecial - 0xe0390
 LevelEditorLayer::addToUndoList - 0xe0210
 LevelEditorLayer::createObjectsFromString - 0xdf9e0
-LevelEditorLayer::getLastObjectX - 0xed530
+LevelEditorLayer::getLastObjectX - 0xef3e0
 LevelEditorLayer::getLevelString - 0xe3a60
 LevelEditorLayer::getNextFreeGroupID - 0xebbf0
 LevelEditorLayer::getSavedEditorPosition - 0xe9750
@@ -5142,9 +5143,12 @@ SetupTimerControlTriggerPopup::onCustomToggleTriggerValue - 0x38f290
 SetupTimerControlTriggerPopup::init - 0x38ee40
 SetupTimerEventTriggerPopup::init - 0x38e680
 SetupTimerTriggerPopup::init - 0x38db20
+SetupTimeWarpPopup::create - 0x4ef5f0
 SetupTimeWarpPopup::determineStartValues - 0x4efdd0
 SetupTimeWarpPopup::onClose - 0x4eff60
 SetupTimeWarpPopup::init - 0x4ef830
+SetupTimeWarpPopup::sliderChanged - 0x4efc70
+SetupTimeWarpPopup::updateTimeWarp - 0x4efed0
 SetupTimeWarpPopup::updateTimeWarpLabel - 0x4efd80
 SetupTouchTogglePopup::determineStartValues - 0x2a6270
 SetupTouchTogglePopup::onClose - 0x2a65b0

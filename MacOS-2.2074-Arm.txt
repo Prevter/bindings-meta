@@ -2183,6 +2183,7 @@ DialogObject::create - 0x33f4ac
 DialogObject::init - 0x33f664
 DrawGridLayer::update - 0xd9cd8
 DrawGridLayer::draw - 0xd9de8
+DrawGridLayer::timeForPos - 0xd2ce4
 DungeonBarsSprite::init - 0x401c4c
 DungeonBarsSprite::visit - 0x401ccc
 EditButtonBar::create - 0x4fe2c0
@@ -3042,6 +3043,7 @@ GJDifficultySprite::updateDifficultyFrame - 0x24a5b0
 GJDifficultySprite::updateFeatureState - 0x24a728
 GJDifficultySprite::updateFeatureStateFromLevel - 0x24a6f0
 GJEffectManager::init - 0x26c924
+GJEffectManager::colorExists - 0x26e578
 GJEffectManager::countForItem - 0x2777b8
 GJEffectManager::getColorAction - 0x26d3c4
 GJEffectManager::reset - 0x26cb18
@@ -3567,6 +3569,7 @@ LevelEditorLayer::levelSettingsUpdated - 0xc699c
 LevelEditorLayer::addObjectToGroup - 0xd494c
 LevelEditorLayer::addSpecial - 0xc7674
 LevelEditorLayer::createObjectsFromString - 0xc6e60
+LevelEditorLayer::getLastObjectX - 0xd44fc
 LevelEditorLayer::getNextFreeGroupID - 0xd1514
 LevelEditorLayer::handleAction - 0xca1b0
 LevelEditorLayer::init - 0xc3124
@@ -4897,9 +4900,12 @@ SetupTimerControlTriggerPopup::onCustomToggleTriggerValue - 0x31e0b4
 SetupTimerControlTriggerPopup::init - 0x31dcd8
 SetupTimerEventTriggerPopup::init - 0x31d690
 SetupTimerTriggerPopup::init - 0x31cd50
+SetupTimeWarpPopup::create - 0x45090c
 SetupTimeWarpPopup::determineStartValues - 0x450fe4
 SetupTimeWarpPopup::onClose - 0x451134
 SetupTimeWarpPopup::init - 0x450a9c
+SetupTimeWarpPopup::sliderChanged - 0x450eb8
+SetupTimeWarpPopup::updateTimeWarp - 0x4510c8
 SetupTimeWarpPopup::updateTimeWarpLabel - 0x450f94
 SetupTouchTogglePopup::determineStartValues - 0x24cb44
 SetupTouchTogglePopup::onClose - 0x24ce10
