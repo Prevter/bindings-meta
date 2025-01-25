@@ -1705,13 +1705,6 @@ BrowseSmartKeyLayer::onBack - 0x4d9020
 BrowseSmartKeyLayer::init - 0x4d7c90
 ButtonSprite::create - 0x92640
 ButtonSprite::create - 0x91db0
-ButtonSprite::create - 0x91d90
-ButtonSprite::create - 0x925c0
-ButtonSprite::create - 0x92610
-ButtonSprite::create - 0x92780
-ButtonSprite::create - 0x925f0
-ButtonSprite::create - 0x91d90
-ButtonSprite::create - 0x91d60
 ButtonSprite::init - 0x92790
 ButtonSprite::init - 0x91f00
 ButtonSprite::setString - 0x92a40

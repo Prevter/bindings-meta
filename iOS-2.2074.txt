@@ -525,6 +525,8 @@ cocos2d::CCDirector::sharedDirector - 0x178534
 cocos2d::CCDirector::getWinSize - 0x1791c4
 cocos2d::CCDirector::convertToGL - 0x1793d8
 cocos2d::CCDirector::drawScene - 0x178c64
+cocos2d::CCDirector::popScene - 0x1796e8
+cocos2d::CCDirector::popToSceneStackLevel - 0x179844
 cocos2d::CCDirector::pushScene - 0x179580
 cocos2d::CCDirector::replaceScene - 0x179608
 cocos2d::CCDirector::resetSmoothFixCounter - 0x178ff4
