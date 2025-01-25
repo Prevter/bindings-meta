@@ -320,6 +320,7 @@ cocos2d::CCTintTo::update - 0x3a8630
 cocos2d::CCTintTo::startWithTarget - 0x3a85d0
 cocos2d::CCScene::create - 0x27eef0
 cocos2d::CCScene::getHighestChildZ - 0x27efb0
+cocos2d::CCScene::CCScene - 0x27ed80
 cocos2d::CCScene::~CCScene - 0x27ee70
 cocos2d::CCScene::init - 0x27eea0
 cocos2d::CCSet::CCSet - 0x79def0
@@ -717,6 +718,7 @@ cocos2d::CCDirector::setDepthTest - 0x46fc40
 cocos2d::CCDirector::setGLDefaultValues - 0x46fbd0
 cocos2d::CCDirector::setNextScene - 0x470340
 cocos2d::CCDirector::setNotificationNode - 0x471a70
+cocos2d::CCDirector::setProjection - 0x46fc80
 cocos2d::CCDirector::setViewport - 0x470d60
 cocos2d::CCDirector::convertToGL - 0x470e50
 cocos2d::CCDirector::drawScene - 0x46fe90
@@ -5478,6 +5480,7 @@ UILayer::editorPlaytest - 0x4b5c50
 UILayer::handleKeypress - 0x4b5d70
 UILayer::init - 0x4b49b0
 UILayer::isJumpButtonPressed - 0x4b6720
+UILayer::onCheck - 0x4b5230
 UILayer::onPause - 0x4b51e0
 UILayer::processUINodesTouch - 0x4b6880
 UILayer::refreshDpad - 0x4b55f0

@@ -3235,6 +3235,7 @@ UILayer::keyDown - 0x4b52e0
 UILayer::keyUp - 0x4b52f0
 UILayer::handleKeypress - 0x4b4c40
 UILayer::init - 0x4b3f20
+UILayer::onCheck - 0x4b54d0
 UILayer::onPause - 0x4b53c0
 UILayer::processUINodesTouch - 0x4b5820
 UILayer::processUINodeTouch - 0x4b58d0

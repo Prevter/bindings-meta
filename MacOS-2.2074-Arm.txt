@@ -315,6 +315,7 @@ cocos2d::CCTintTo::update - 0x3349e4
 cocos2d::CCTintTo::startWithTarget - 0x334978
 cocos2d::CCScene::create - 0x2288ec
 cocos2d::CCScene::getHighestChildZ - 0x2289cc
+cocos2d::CCScene::CCScene - 0x228780
 cocos2d::CCScene::~CCScene - 0x22887c
 cocos2d::CCScene::init - 0x228894
 cocos2d::CCSet::CCSet - 0x6b03e8
@@ -701,6 +702,7 @@ cocos2d::CCDirector::getWinSize - 0x3df874
 cocos2d::CCDirector::getWinSizeInPixels - 0x3dfeb4
 cocos2d::CCDirector::setDefaultValues - 0x3dea54
 cocos2d::CCDirector::setNotificationNode - 0x3e07d4
+cocos2d::CCDirector::setProjection - 0x3ded3c
 cocos2d::CCDirector::setViewport - 0x3dfc30
 cocos2d::CCDirector::convertToGL - 0x3dfd04
 cocos2d::CCDirector::drawScene - 0x3deef0
@@ -2467,6 +2469,7 @@ FMODAudioEngine::setBackgroundMusicVolume - 0x35ad70
 FMODAudioEngine::setEffectsVolume - 0x35ad90
 FMODAudioEngine::setMusicTimeMS - 0x357488
 FMODAudioEngine::setup - 0x352b4c
+FMODAudioEngine::setupAudioEngine - 0x352f40
 FMODAudioEngine::stopAllEffects - 0x353c3c
 FMODAudioEngine::stopAllMusic - 0x353f28
 FMODAudioEngine::stopAndGetFade - 0x35a2bc
@@ -5219,6 +5222,7 @@ UILayer::keyUp - 0x41e188
 UILayer::handleKeypress - 0x41de7c
 UILayer::init - 0x41cbc4
 UILayer::isJumpButtonPressed - 0x41e598
+UILayer::onCheck - 0x41d3e8
 UILayer::onPause - 0x41d39c
 UILayer::processUINodesTouch - 0x41e6ec
 UILayer::resetAllButtons - 0x41e4b4
