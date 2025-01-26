@@ -360,6 +360,7 @@ CCSpriteWithHue::initWithTexture - 0x48650
 CCSpriteWithHue::initWithTexture - 0x48590
 CCSpriteWithHue::initWithSpriteFrame - 0x48660
 CCSpriteWithHue::getShaderName - 0x48400
+CCSpriteWithHue::shaderBody - 0x48900
 CCSpriteWithHue::updateColor - 0x48910
 CCSpriteWithHue::initShader - 0x486d0
 CCSpriteWithHue::updateColorMatrix - 0x48930
