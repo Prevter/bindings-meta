@@ -2993,7 +2993,9 @@ GauntletSprite::toggleLockedSprite - 0x381930
 GhostTrailEffect::create - 0x5e22a0
 GhostTrailEffect::init - 0x5e2370
 GhostTrailEffect::draw - 0x5e2920
+GhostTrailEffect::doBlendAdditive - 0x5e2900
 GhostTrailEffect::runWithTarget - 0x5e23d0
+GhostTrailEffect::stopTrail - 0x5e28c0
 GhostTrailEffect::trailSnapshot - 0x5e2470
 GJAccountManager::sharedState - 0xcf8d0
 GJAccountManager::init - 0xd2340
