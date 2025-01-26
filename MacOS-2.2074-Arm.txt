@@ -2864,8 +2864,11 @@ GauntletSprite::colorForType - 0x312314
 GauntletSprite::init - 0x311e44
 GauntletSprite::luminanceForType - 0x3122f4
 GauntletSprite::toggleLockedSprite - 0x311d70
+GhostTrailEffect::create - 0x5148f0
 GhostTrailEffect::init - 0x5149c0
 GhostTrailEffect::draw - 0x514f28
+GhostTrailEffect::runWithTarget - 0x514a1c
+GhostTrailEffect::trailSnapshot - 0x514ad0
 GJAccountManager::sharedState - 0xb8518
 GJAccountManager::init - 0xbab8c
 GJAccountManager::backupAccount - 0xbbce4

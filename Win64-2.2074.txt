@@ -176,6 +176,7 @@ GameObject::groupOpacityMod - 0x199d30
 GameObject::isFacingDown - 0x19e990
 GameObject::isFacingLeft - 0x19ea50
 GameObject::isSpawnableTrigger - 0x19f730
+GameObject::isTrigger - 0x19f2c0
 GameObject::playDestroyObjectAnim - 0x1a7520
 GameObject::playPickupAnimation - 0x1a7040
 GameObject::playPickupAnimation - 0x1a6f50
@@ -771,6 +772,8 @@ EditLevelLayer::onBack - 0xd80e0
 EditLevelLayer::onGuidelines - 0xd52e0
 EditLevelLayer::onHelp - 0xd7c50
 EditLevelLayer::onLevelInfo - 0xd5500
+EditLevelLayer::onLevelLeaderboard - 0xd5450
+EditLevelLayer::onLevelOptions - 0xd54d0
 EditLevelLayer::onPlay - 0xd6920
 EditLevelLayer::onSetFolder - 0xd7fc0
 EditLevelLayer::onShare - 0xd6f20
@@ -949,6 +952,7 @@ EditorUI::onPlaytest - 0x1109a0
 EditorUI::onSelectBuildTab - 0x112f60
 EditorUI::onSettings - 0xe0350
 EditorUI::onStopPlaytest - 0x110d40
+EditorUI::onTargetIDChange - 0x120860
 EditorUI::onUngroupSticky - 0x111130
 EditorUI::pasteObjects - 0x111d10
 EditorUI::playtestStopped - 0x110d80
@@ -2019,6 +2023,8 @@ LevelEditorLayer::getNextFreeGradientID - 0x2d27b0
 LevelEditorLayer::getNextFreeGroupID - 0x2d2030
 LevelEditorLayer::getNextFreeItemID - 0x2d22b0
 LevelEditorLayer::getObjectRect - 0x2cd0f0
+LevelEditorLayer::getSFXIDs - 0x2cec40
+LevelEditorLayer::getSongIDs - 0x2ce890
 LevelEditorLayer::handleAction - 0x2cde30
 LevelEditorLayer::init - 0x2c96e0
 LevelEditorLayer::objectAtPosition - 0x2cc940
@@ -3174,6 +3180,8 @@ SongSelectNode::updateAudioLabel - 0xc69c0
 SongSelectNode::updateWidgetVisibility - 0xc6d70
 SongsLayer::create - 0x47bf80
 SongsLayer::customSetup - 0x47c050
+SongTriggerGameObject::customObjectSetup - 0x49fc00
+SongTriggerGameObject::getSaveString - 0x49f9a0
 SpawnTriggerGameObject::init - 0x4a0530
 SpawnTriggerGameObject::triggerObject - 0x4a06a0
 SpawnTriggerGameObject::customObjectSetup - 0x4a0a10
