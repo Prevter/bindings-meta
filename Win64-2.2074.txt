@@ -995,6 +995,7 @@ EditorUI::updateSlider - 0xe14a0
 EditorUI::updateZoom - 0x110ef0
 EditorUI::zoomIn - 0x110e50
 EditorUI::zoomOut - 0x110ea0
+EditTriggersPopup::create - 0x2874a0
 EditTriggersPopup::init - 0x2875b0
 EndLevelLayer::keyBackClicked - 0x133aa0
 EndLevelLayer::keyDown - 0x135140
