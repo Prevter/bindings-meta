@@ -190,6 +190,7 @@ GameObject::updateObjectEditorColor - 0x19e370
 EnhancedGameObject::EnhancedGameObject - 0x188580
 EnhancedGameObject::customSetup - 0x1a1ff0
 EnhancedGameObject::resetObject - 0x1a19b0
+EnhancedGameObject::customObjectSetup - 0x1a1cc0
 EnhancedGameObject::activatedByPlayer - 0x1a1b10
 EnhancedGameObject::updateSyncedAnimation - 0x1a4e30
 EnhancedGameObject::init - 0x1a1800
