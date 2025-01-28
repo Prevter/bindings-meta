@@ -1166,6 +1166,8 @@ GameLevelManager::encodeDataTo - 0x148e00
 GameLevelManager::getBasePostString - 0x14a4b0
 GameLevelManager::getCompletedLevels - 0x145860
 GameLevelManager::getFolderName - 0x148910
+GameLevelManager::getGauntletLevels - 0x14fa90
+GameLevelManager::getGauntlets - 0x14f180
 GameLevelManager::getGJChallenges - 0x164ad0
 GameLevelManager::getGJDailyLevelState - 0x165ec0
 GameLevelManager::getGJRewards - 0x1635e0
