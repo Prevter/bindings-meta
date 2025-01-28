@@ -2398,6 +2398,7 @@ EditorUI::getCreateBtn - 0x33c60
 EditorUI::getCreateMenuItemButton - 0x2f190
 EditorUI::getEditColorTargets - 0x4a120
 EditorUI::getGridSnappedPos - 0x35c40
+EditorUI::getGroupCenter - 0x3c1b0
 EditorUI::getRelativeOffset - 0x4dc100
 EditorUI::getSelectedObjects - 0x3d330
 EditorUI::getSnapAngle - 0x4ad60
@@ -3120,6 +3121,7 @@ GJBaseGameLayer::playerTouchedTrigger - 0x1180f0
 GJBaseGameLayer::playerWillSwitchMode - 0x114200
 GJBaseGameLayer::playExitDualEffect - 0x119250
 GJBaseGameLayer::playSpeedParticle - 0x14c000
+GJBaseGameLayer::positionUIObjects - 0x10bbf0
 GJBaseGameLayer::preResumeGame - 0x141dd0
 GJBaseGameLayer::processActivatedAudioTriggers - 0x14f3a0
 GJBaseGameLayer::processAreaEffects - 0x1308e0

@@ -2316,6 +2316,7 @@ EditorUI::flipObjectsY - 0x3dc18
 EditorUI::getCreateBtn - 0x332f0
 EditorUI::getCreateMenuItemButton - 0x2eb94
 EditorUI::getGridSnappedPos - 0x35130
+EditorUI::getGroupCenter - 0x36e28
 EditorUI::getSelectedObjects - 0x37eac
 EditorUI::getSpriteButton - 0xd6b0
 EditorUI::init - 0xad4c
@@ -2975,6 +2976,7 @@ GJBaseGameLayer::playerTouchedTrigger - 0xf6f88
 GJBaseGameLayer::playerWillSwitchMode - 0xf3a44
 GJBaseGameLayer::playExitDualEffect - 0xf7ff0
 GJBaseGameLayer::playSpeedParticle - 0x121058
+GJBaseGameLayer::positionUIObjects - 0xebbe0
 GJBaseGameLayer::processAreaEffects - 0x10afe8
 GJBaseGameLayer::processAreaMoveGroupAction - 0x10c484
 GJBaseGameLayer::processAreaVisualActions - 0x10d908
