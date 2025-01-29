@@ -2159,6 +2159,7 @@ CustomSongLayer::init - 0x203120
 CustomSongLayer::onMusicBrowser - 0x203e50
 CustomSongLayer::onNCSBrowser - 0x203e30
 CustomSongLayer::onOptions - 0x203f00
+CustomSongLayer::onSearch - 0x203f20
 CustomSongLayer::showNewgroundsMessage - 0x204090
 CustomSongWidget::create - 0x603090
 CustomSongWidget::loadSongInfoFinished - 0x608a80
@@ -3794,6 +3795,8 @@ LevelEditorLayer::getNextFreeGroupID - 0xebbf0
 LevelEditorLayer::getSavedEditorPosition - 0xe9750
 LevelEditorLayer::getSavedEditorPositions - 0xe9790
 LevelEditorLayer::getSectionCount - 0xe9bb0
+LevelEditorLayer::getSFXIDs - 0xe9290
+LevelEditorLayer::getSongIDs - 0xe8d40
 LevelEditorLayer::handleAction - 0xe3140
 LevelEditorLayer::init - 0xdb280
 LevelEditorLayer::objectMoved - 0xea300
