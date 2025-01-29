@@ -218,8 +218,8 @@ EffectGameObject::customSetup - 0x48ffd0
 EffectGameObject::triggerObject - 0x48d7d0
 EffectGameObject::customObjectSetup - 0x490230
 EffectGameObject::getSaveString - 0x4932b0
-EffectGameObject::setRScaleX - 0x482d10
-EffectGameObject::setRScaleY - 0x482d60
+EffectGameObject::setRScaleX - 0x48d210
+EffectGameObject::setRScaleY - 0x48d260
 EffectGameObject::triggerActivated - 0x48ff90
 EffectGameObject::restoreObject - 0x48fd80
 EffectGameObject::spawnXPosition - 0x48ff50
