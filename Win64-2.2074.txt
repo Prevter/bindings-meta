@@ -1621,6 +1621,7 @@ GJGroundLayer::showGround - 0x2774c0
 GJGroundLayer::fadeInGround - 0x2774d0
 GJGroundLayer::fadeOutGround - 0x2776c0
 GJGroundLayer::createLine - 0x277120
+GJGroundLayer::fadeInFinished - 0x2774c0
 GJGroundLayer::init - 0x2768f0
 GJGroundLayer::loadGroundSprites - 0x276e60
 GJGroundLayer::scaleGround - 0x277310
