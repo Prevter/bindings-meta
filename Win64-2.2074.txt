@@ -1528,6 +1528,7 @@ GJBaseGameLayer::resetLevelVariables - 0x234ab0
 GJBaseGameLayer::resetPlayer - 0x20cbf0
 GJBaseGameLayer::resetSpawnChannelIndex - 0x23f890
 GJBaseGameLayer::resetStaticCamera - 0x239850
+GJBaseGameLayer::setGroupParent - 0x21f2d0
 GJBaseGameLayer::setupLayers - 0x203760
 GJBaseGameLayer::setupLevelStart - 0x20cd60
 GJBaseGameLayer::setupReplay - 0x234360
@@ -2052,6 +2053,7 @@ LevelEditorLayer::checkpointActivated - 0x2d87f0
 LevelEditorLayer::addKeyframe - 0x2d9160
 LevelEditorLayer::levelSettingsUpdated - 0x2cb030
 LevelEditorLayer::addSpecial - 0x2cf4a0
+LevelEditorLayer::copyObjectState - 0x2d8bc0
 LevelEditorLayer::createObject - 0x2cbf90
 LevelEditorLayer::createObjectsFromString - 0x2cb920
 LevelEditorLayer::dirtifyTriggers - 0x22b740
@@ -2926,9 +2928,10 @@ SetGroupIDLayer::onArrow - 0x3e39e0
 SetGroupIDLayer::onArrowLeft - 0x3e3980
 SetGroupIDLayer::onArrowRight - 0x3e39b0
 SetGroupIDLayer::onClose - 0x3e5f60
+SetGroupIDLayer::onCopy - 0x3e3ed0
 SetGroupIDLayer::onExtra - 0x3e40d0
 SetGroupIDLayer::onNextGroupID1 - 0x3e48d0
-SetGroupIDLayer::onPaste - 0x111a80
+SetGroupIDLayer::onPaste - 0x3e3f30
 SetGroupIDLayer::onRemoveFromGroup - 0x3e51e0
 SetGroupIDLayer::updateEditorLabel - 0x3e5920
 SetGroupIDLayer::updateEditorLabel2 - 0x3e59b0
