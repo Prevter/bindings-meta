@@ -512,6 +512,7 @@ cocos2d::CCTouchDispatcher::touchesBegan - 0x152d68
 cocos2d::CCTouchDispatcher::touchesMoved - 0x152d94
 cocos2d::CCTouchDispatcher::touchesEnded - 0x152dc0
 cocos2d::CCTouchDispatcher::touchesCancelled - 0x152dec
+cocos2d::CCTouchHandler::getDelegate - 0x10c34
 cocos2d::CCTouchHandler::initWithDelegate - 0x103d4
 cocos2d::CCEGLView::swapBuffers - 0x12da84
 cocos2d::CCImage::initWithImageData - 0x2f5f0
@@ -531,6 +532,7 @@ cocos2d::CCDirector::pushScene - 0x179580
 cocos2d::CCDirector::replaceScene - 0x179608
 cocos2d::CCDirector::resetSmoothFixCounter - 0x178ff4
 cocos2d::CCDirector::updateContentScale - 0x1792dc
+cocos2d::CCDirector::willSwitchToScene - 0x1794fc
 cocos2d::CCDirector::init - 0x178608
 cocos2d::CCDirector::getScheduler - 0x179c2c
 cocos2d::CCDirector::setScheduler - 0x179be4
@@ -2346,6 +2348,7 @@ MenuLayer::endGame - 0x2673f0
 MenuLayer::onCreator - 0x266990
 MenuLayer::onDaily - 0x266e68
 MenuLayer::onGarage - 0x266938
+MenuLayer::onMoreGames - 0x266c58
 MenuLayer::onPlay - 0x2668dc
 MenuLayer::openOptions - 0x2670e0
 MenuLayer::willClose - 0x26548c
