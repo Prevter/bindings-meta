@@ -212,6 +212,7 @@ EnhancedGameObject::updateSyncedAnimation - 0x1a4e30
 EnhancedGameObject::updateAnimateOnTrigger - 0x1a6af0
 EnhancedGameObject::init - 0x1a1800
 EnhancedGameObject::updateUserCoin - 0x1a3970
+EffectGameObject::EffectGameObject - 0x47d040
 EffectGameObject::setOpacity - 0x48d790
 EffectGameObject::firstSetup - 0x48ffb0
 EffectGameObject::customSetup - 0x48ffd0
@@ -465,6 +466,7 @@ ColorChannelSprite::updateOpacity - 0x251870
 ColorSelectLiveOverlay::create - 0x8bc50
 ColorSelectLiveOverlay::keyBackClicked - 0x8d1b0
 ColorSelectLiveOverlay::init - 0x8bda0
+SetupTriggerPopup::SetupTriggerPopup - 0x8d6c0
 SetupTriggerPopup::ccTouchBegan - 0x465a80
 SetupTriggerPopup::keyBackClicked - 0x44f1d0
 SetupTriggerPopup::show - 0x8ba30
@@ -1675,6 +1677,7 @@ GJGarageLayer::setupIconSelect - 0x26d930
 GJGarageLayer::setupPage - 0x26e7b0
 GJGarageLayer::setupSpecialPage - 0x26f1e0
 GJGarageLayer::updatePlayerColors - 0x2701a0
+GJGradientLayer::init - 0x242810
 GJItemIcon::createBrowserItem - 0x273070
 GJItemIcon::createStoreItem - 0x272f40
 GJItemIcon::scaleForType - 0x273d90
@@ -1886,6 +1889,9 @@ GJWriteMessagePopup::uploadMessageFinished - 0x2936c0
 GJWriteMessagePopup::uploadMessageFailed - 0x293740
 GJWriteMessagePopup::onClosePopup - 0x2937f0
 GJWriteMessagePopup::FLAlert_Clicked - 0x293890
+GradientTriggerObject::init - 0x480b40
+GradientTriggerObject::customObjectSetup - 0x4811d0
+GradientTriggerObject::getSaveString - 0x480bc0
 GraphicsReloadLayer::performReload - 0x366490
 GravityEffectSprite::init - 0x3a4390
 HardStreak::create - 0x2b1680
@@ -2988,6 +2994,12 @@ SetupGradientPopup::determineStartValues - 0x409e70
 SetupGradientPopup::onPlusButton - 0x409f80
 SetupGradientPopup::updateToggleItem - 0x40a000
 SetupGradientPopup::valueDidChange - 0x40a410
+SetupGradientPopup::init - 0x408d10
+SetupGradientPopup::onBlending - 0x40a2c0
+SetupGradientPopup::onZLayer - 0x40a1a0
+SetupGradientPopup::updateBlendingLabel - 0x40a380
+SetupGradientPopup::updateGradientLabels - 0x40a090
+SetupGradientPopup::updateZLayerButtons - 0x40a230
 SetupInstantCountPopup::create - 0x40a520
 SetupInstantCountPopup::textChanged - 0x40b740
 SetupInstantCountPopup::init - 0x40a660

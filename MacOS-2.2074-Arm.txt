@@ -1501,6 +1501,7 @@ EnhancedGameObject::stateSensitiveOff - 0x8fb0
 EnhancedGameObject::updateSyncedAnimation - 0x1f7c7c
 EnhancedGameObject::updateAnimateOnTrigger - 0x1f903c
 EnhancedGameObject::updateUserCoin - 0x4e3b94
+EffectGameObject::EffectGameObject - 0x199d84
 EffectGameObject::create - 0x16a0d4
 EffectGameObject::setOpacity - 0x16a470
 EffectGameObject::firstSetup - 0x16b8dc
@@ -3140,6 +3141,7 @@ GJGarageLayer::setupIconSelect - 0x2eb53c
 GJGarageLayer::setupPage - 0x2ecea8
 GJGarageLayer::setupSpecialPage - 0x2ed500
 GJGarageLayer::updatePlayerColors - 0x2eaef4
+GJGradientLayer::create - 0x104788
 GJGradientLayer::init - 0x128178
 GJItemIcon::create - 0x2f0ba0
 GJItemIcon::createBrowserItem - 0x2edf50
@@ -3431,6 +3433,7 @@ GJWriteMessagePopup::init - 0x23d718
 GJWriteMessagePopup::onClearBody - 0x23e900
 GJWriteMessagePopup::onSend - 0x23e4e0
 GooglePlayManager::init - 0x3d51f8
+GradientTriggerObject::create - 0x151ee4
 GradientTriggerObject::init - 0x151fc0
 GradientTriggerObject::customObjectSetup - 0x1533c4
 GradientTriggerObject::getSaveString - 0x152014
@@ -4761,11 +4764,19 @@ SetupGameplayOffsetPopup::triggerValueFromSliderValue - 0x697418
 SetupGameplayOffsetPopup::triggerSliderValueFromValue - 0x697450
 SetupGameplayOffsetPopup::onCustomToggleTriggerValue - 0x697384
 SetupGameplayOffsetPopup::init - 0x696c90
+SetupGradientPopup::create - 0x50d1d0
 SetupGradientPopup::determineStartValues - 0x50e9cc
 SetupGradientPopup::onPlusButton - 0x50eafc
 SetupGradientPopup::updateToggleItem - 0x50eb58
 SetupGradientPopup::valueDidChange - 0x50ed10
 SetupGradientPopup::init - 0x50d368
+SetupGradientPopup::onBlending - 0x50e720
+SetupGradientPopup::onZLayer - 0x50e850
+SetupGradientPopup::sliderChanged - 0x50ec70
+SetupGradientPopup::updateBlending - 0x50eca0
+SetupGradientPopup::updateBlendingLabel - 0x50e66c
+SetupGradientPopup::updateGradientLabels - 0x50e564
+SetupGradientPopup::updateZLayerButtons - 0x50e93c
 SetupGravityModPopup::keyBackClicked - 0x34fa14
 SetupGravityModPopup::show - 0x34f9c8
 SetupGravityModPopup::textInputClosed - 0x34f8cc
