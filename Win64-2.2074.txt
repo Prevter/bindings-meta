@@ -1717,6 +1717,9 @@ GJMessagePopup::uploadActionFailed - 0x2916d0
 GJMessagePopup::onClosePopup - 0x2917a0
 GJMessagePopup::FLAlert_Clicked - 0x291820
 GJMessagePopup::loadFromGJMessage - 0x290760
+GJMGLayer::showGround - 0x2774c0
+GJMGLayer::init - 0x2776d0
+GJMGLayer::loadGroundSprites - 0x277bd0
 GJMoreGamesLayer::create - 0x278610
 GJMoreGamesLayer::customSetup - 0x278cf0
 GJMoreGamesLayer::getMoreGamesList - 0x278950
