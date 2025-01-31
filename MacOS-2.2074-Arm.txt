@@ -3622,6 +3622,7 @@ LevelEditorLayer::onStopPlaytest - 0xd67f8
 LevelEditorLayer::processLoadedMoveActions - 0xa7448
 LevelEditorLayer::removeObject - 0xc98e4
 LevelEditorLayer::removeSpecial - 0xc99a4
+LevelEditorLayer::tryUpdateSpeedObject - 0xcfe2c
 LevelEditorLayer::updateEditor - 0xc53b8
 LevelEditorLayer::updateEditorMode - 0xc6370
 LevelEditorLayer::updateGameObjects - 0xc57c0
