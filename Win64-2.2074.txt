@@ -914,6 +914,7 @@ EditorUI::copyObjects - 0x111560
 EditorUI::createCustomItems - 0xe30e0
 EditorUI::createLoop - 0x117c90
 EditorUI::createMoveMenu - 0x119350
+EditorUI::createNewKeyframeAnim - 0x1179f0
 EditorUI::createObject - 0x10e840
 EditorUI::createPrefab - 0x1160f0
 EditorUI::createRockBases - 0x12da00
@@ -1520,6 +1521,7 @@ GJBaseGameLayer::processTransformActions - 0x2273a0
 GJBaseGameLayer::refreshCounterLabels - 0x22fe50
 GJBaseGameLayer::refreshKeyframeAnims - 0x22e580
 GJBaseGameLayer::removeFromGroups - 0x21ed10
+GJBaseGameLayer::removeGroupParent - 0x21f3e0
 GJBaseGameLayer::removeObjectFromSection - 0x221a80
 GJBaseGameLayer::resetActiveEnterEffects - 0x209060
 GJBaseGameLayer::resetAreaObjectValues - 0x222950
@@ -2934,6 +2936,7 @@ SetGroupIDLayer::textChanged - 0x3e4400
 SetGroupIDLayer::init - 0x3e1260
 SetGroupIDLayer::onAddGroup - 0x3e52b0
 SetGroupIDLayer::onAddGroupParent - 0x3e5420
+SetGroupIDLayer::onAnim - 0x3e4390
 SetGroupIDLayer::onArrow - 0x3e39e0
 SetGroupIDLayer::onArrowLeft - 0x3e3980
 SetGroupIDLayer::onArrowRight - 0x3e39b0
