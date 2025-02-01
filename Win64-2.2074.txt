@@ -987,6 +987,7 @@ EditorUI::onTargetIDChange - 0x120860
 EditorUI::onUngroupSticky - 0x111130
 EditorUI::pasteObjects - 0x111d10
 EditorUI::playtestStopped - 0x110d80
+EditorUI::processSelectObjects - 0x110060
 EditorUI::processSmartObjectsFromType - 0x116b80
 EditorUI::redoLastAction - 0x110190
 EditorUI::removeOffset - 0x120cb0
