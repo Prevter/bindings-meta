@@ -3233,6 +3233,7 @@ GJEffectManager::getColorSprite - 0x2ca3a0
 GJEffectManager::getSaveString - 0x2d9360
 GJEffectManager::hasBeenTriggered - 0x2d5fd0
 GJEffectManager::objectsCollided - 0x2cc680
+GJEffectManager::playerButton - 0x2d61b0
 GJEffectManager::postCollisionCheck - 0x2cc390
 GJEffectManager::postMoveActions - 0x2d4110
 GJEffectManager::preCollisionCheck - 0x2cc370

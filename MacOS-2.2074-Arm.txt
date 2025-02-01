@@ -3057,6 +3057,7 @@ GJEffectManager::init - 0x26c924
 GJEffectManager::colorExists - 0x26e578
 GJEffectManager::countForItem - 0x2777b8
 GJEffectManager::getColorAction - 0x26d3c4
+GJEffectManager::playerButton - 0x277110
 GJEffectManager::reset - 0x26cb18
 GJEffectManager::setColorAction - 0x26e4cc
 GJEffectManager::updateColorEffects - 0x26e6c0
@@ -4392,6 +4393,7 @@ ProfilePage::onSettings - 0x6ba868
 ProfilePage::onStatInfo - 0x6b89e4
 ProfilePage::onTwitch - 0x6b9124
 ProfilePage::onTwitter - 0x6b8f6c
+ProfilePage::onUpdate - 0x6b6288
 ProfilePage::onYouTube - 0x6b8dbc
 ProfilePage::setupComments - 0x6b5e30
 ProfilePage::setupCommentsBrowser - 0x6b64fc
