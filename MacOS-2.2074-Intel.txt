@@ -2380,6 +2380,7 @@ EditorUI::constrainGameLayerPosition - 0x2afb0
 EditorUI::copyObjects - 0x31280
 EditorUI::createCustomItems - 0x31b80
 EditorUI::createMoveMenu - 0x464d0
+EditorUI::createObject - 0x3aa80
 EditorUI::createRockBases - 0x5fd600
 EditorUI::createUndoObject - 0x3d3e0
 EditorUI::deleteObject - 0x32f70
@@ -3815,6 +3816,7 @@ LevelEditorLayer::levelSettingsUpdated - 0xdf4f0
 LevelEditorLayer::addObjectToGroup - 0xef840
 LevelEditorLayer::addSpecial - 0xe0390
 LevelEditorLayer::addToUndoList - 0xe0210
+LevelEditorLayer::createObject - 0xe0940
 LevelEditorLayer::createObjectsFromString - 0xdf9e0
 LevelEditorLayer::getLastObjectX - 0xef3e0
 LevelEditorLayer::getLevelString - 0xe3a60
