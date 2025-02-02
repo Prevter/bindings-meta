@@ -4438,6 +4438,7 @@ RateStarsLayer::onClosePopup - 0x224c78
 RateStarsLayer::init - 0x223bd8
 RateStarsLayer::onClose - 0x224850
 RateStarsLayer::onRate - 0x2248ac
+RateStarsLayer::selectRating - 0x22466c
 RetryLevelLayer::keyBackClicked - 0x4485ec
 RetryLevelLayer::keyDown - 0x448540
 RetryLevelLayer::customSetup - 0x4474c4
