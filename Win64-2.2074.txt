@@ -928,6 +928,7 @@ EditorUI::deleteSmartBlocksFromObjects - 0x116500
 EditorUI::deselectAll - 0x10fd80
 EditorUI::deselectObject - 0x10fc60
 EditorUI::deselectObject - 0x10fc60
+EditorUI::deselectTargetPortals - 0xe51b0
 EditorUI::doCopyObjects - 0x111900
 EditorUI::doPasteObjects - 0x111a90
 EditorUI::dynamicGroupUpdate - 0x117000
@@ -2083,6 +2084,7 @@ LevelEditorLayer::getSongIDs - 0x2ce890
 LevelEditorLayer::handleAction - 0x2cde30
 LevelEditorLayer::init - 0x2c96e0
 LevelEditorLayer::objectAtPosition - 0x2cc940
+LevelEditorLayer::objectsAtPosition - 0x2ccd00
 LevelEditorLayer::onPlaytest - 0x2d7330
 LevelEditorLayer::onResumePlaytest - 0x2d7d60
 LevelEditorLayer::onStopPlaytest - 0x2d7f50
@@ -3257,6 +3259,7 @@ StarInfoPopup::create - 0x3b0cb0
 StarInfoPopup::createFromString - 0x3b0720
 StarInfoPopup::createFromStringMoons - 0x3b0a00
 StarInfoPopup::init - 0x3b0df0
+StartPosObject::loadSettingsFromString - 0x499510
 StatsCell::draw - 0xad710
 StatsCell::loadFromObject - 0xb2630
 StatsLayer::customSetup - 0x4af100

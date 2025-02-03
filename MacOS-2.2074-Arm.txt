@@ -2974,6 +2974,7 @@ GJBaseGameLayer::handleButton - 0x1136ec
 GJBaseGameLayer::hasUniqueCoin - 0xf72cc
 GJBaseGameLayer::lightningFlash - 0xf089c
 GJBaseGameLayer::loadLevelSettings - 0x11d8c0
+GJBaseGameLayer::loadStartPosObject - 0x116658
 GJBaseGameLayer::pickupItem - 0xf7400
 GJBaseGameLayer::playerTouchedRing - 0xf6eb0
 GJBaseGameLayer::playerTouchedTrigger - 0xf6f88
@@ -5170,6 +5171,7 @@ StarInfoPopup::init - 0x6bdeb0
 StartPosObject::init - 0x16d800
 StartPosObject::customObjectSetup - 0x16d93c
 StartPosObject::getSaveString - 0x16d940
+StartPosObject::loadSettingsFromString - 0x16d8dc
 StatsCell::init - 0x1f05d8
 StatsCell::draw - 0x1f1224
 StatsCell::getTitleFromKey - 0x1f05e0
