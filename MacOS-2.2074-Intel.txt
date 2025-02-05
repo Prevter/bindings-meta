@@ -3303,6 +3303,7 @@ GJGameLoadingLayer::onEnter - 0x154bb0
 GJGameLoadingLayer::onEnterTransitionDidFinish - 0x154ba0
 GJGameLoadingLayer::init - 0x154a40
 GJGameLoadingLayer::loadLevel - 0x154b40
+GJGarageLayer::node - 0x355a30
 GJGarageLayer::scene - 0x3559f0
 GJGarageLayer::init - 0x355ba0
 GJGarageLayer::keyBackClicked - 0x35c850
