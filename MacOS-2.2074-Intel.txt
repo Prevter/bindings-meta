@@ -1807,6 +1807,8 @@ CCScrollLayerExt::moveToTop - 0x41baa0
 CCScrollLayerExt::moveToTopWithOffset - 0x41ba00
 CCScrollLayerExt::scrollLayer - 0x41c650
 CCSpriteCOpacity::setOpacity - 0x46f410
+CCSpriteWithHue::createWithSpriteFrame - 0x5d8690
+CCSpriteWithHue::createWithSpriteFrameName - 0x5d8770
 CCSpriteWithHue::draw - 0x5d9120
 CCSpriteWithHue::initWithTexture - 0x5d89f0
 CCSpriteWithHue::initWithTexture - 0x5d8a60
@@ -4692,11 +4694,13 @@ RewardUnlockLayer::create - 0x209900
 RewardUnlockLayer::keyBackClicked - 0x20dd60
 RewardUnlockLayer::currencyWillExit - 0x20dd20
 RewardUnlockLayer::connectionTimeout - 0x20b430
+RewardUnlockLayer::init - 0x20a3e0
 RewardUnlockLayer::onClose - 0x20b3d0
 RewardUnlockLayer::playLabelEffect - 0x20d5c0
 RewardUnlockLayer::readyToCollect - 0x209c10
 RewardUnlockLayer::showCloseButton - 0x20dc90
 RewardUnlockLayer::showCollectReward - 0x209c30
+RewardUnlockLayer::step2 - 0x20b300
 RewardUnlockLayer::step3 - 0x20d5a0
 RotateGameplayGameObject::init - 0x1dfcf0
 RotateGameplayGameObject::updateStartValues - 0x1e1a10

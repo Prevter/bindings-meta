@@ -2816,6 +2816,7 @@ RewardsPage::onReward - 0x3b5fe0
 RewardUnlockLayer::create - 0x3b6950
 RewardUnlockLayer::currencyWillExit - 0x3ba210
 RewardUnlockLayer::connectionTimeout - 0x3b7850
+RewardUnlockLayer::init - 0x3b6a80
 RewardUnlockLayer::onClose - 0x3ba220
 RewardUnlockLayer::playDropSound - 0x3b78b0
 RewardUnlockLayer::showCollectReward - 0x3b7790
