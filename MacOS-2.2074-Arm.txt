@@ -1550,6 +1550,7 @@ CCAnimatedSprite::cleanupSprite - 0x2d2ebc
 CCAnimatedSprite::initWithType - 0x2d2594
 CCAnimatedSprite::loadType - 0x2d2790
 CCAnimatedSprite::runAnimation - 0x2d3058
+CCAnimatedSprite::runAnimationForced - 0x2d30f0
 CCAnimatedSprite::stopTween - 0x2d359c
 CCAnimatedSprite::switchToMode - 0x2d2f4c
 CCAnimatedSprite::tweenToAnimation - 0x2d31c4
@@ -5162,6 +5163,8 @@ SpecialAnimGameObject::updateSecondaryColor - 0x165518
 SpecialAnimGameObject::updateSyncedAnimation - 0x1f8eac
 SpriteAnimationManager::createAnimations - 0x62a3ac
 SpriteAnimationManager::loadAnimations - 0x62b214
+SpriteAnimationManager::overridePrio - 0x62cb2c
+SpriteAnimationManager::runAnimation - 0x62c1e8
 SpriteDescription::createDescription - 0x4ac3e8
 SpriteDescription::createDescription - 0x4acb54
 SpriteDescription::initDescription - 0x4acfc4

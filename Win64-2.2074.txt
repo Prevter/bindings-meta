@@ -3256,6 +3256,7 @@ SpawnTriggerGameObject::customObjectSetup - 0x4a0a10
 SpawnTriggerGameObject::getSaveString - 0x4a0d50
 SpawnTriggerGameObject::updateRemapKeys - 0x4a05a0
 SpriteAnimationManager::overridePrio - 0x74420
+SpriteAnimationManager::runAnimation - 0x73dd0
 SpriteDescription::initDescription - 0x41cf0
 StarInfoPopup::create - 0x3b0cb0
 StarInfoPopup::createFromString - 0x3b0720

@@ -1617,6 +1617,7 @@ CCAnimatedSprite::cleanupSprite - 0x33ca60
 CCAnimatedSprite::initWithType - 0x33c100
 CCAnimatedSprite::loadType - 0x33c2f0
 CCAnimatedSprite::runAnimation - 0x33cc20
+CCAnimatedSprite::runAnimationForced - 0x33cca0
 CCAnimatedSprite::switchToMode - 0x33cb00
 CCAnimatedSprite::tweenToAnimation - 0x33cd60
 AnimatedShopKeeper::create - 0x3101f0
@@ -5404,6 +5405,8 @@ SpecialAnimGameObject::updateMainColor - 0x1a2c90
 SpecialAnimGameObject::updateSecondaryColor - 0x1a2cb0
 SpecialAnimGameObject::updateSyncedAnimation - 0x24b7d0
 SpriteAnimationManager::offsetCurrentAnimation - 0x70e0d0
+SpriteAnimationManager::overridePrio - 0x70dbc0
+SpriteAnimationManager::runAnimation - 0x70d190
 SpriteAnimationManager::updateAnimationSpeed - 0x70cf30
 SpriteDescription::createDescription - 0x555800
 SpriteDescription::createDescription - 0x555f80
