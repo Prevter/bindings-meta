@@ -2165,6 +2165,7 @@ CustomSongLayer::onMusicBrowser - 0x203e50
 CustomSongLayer::onNCSBrowser - 0x203e30
 CustomSongLayer::onOptions - 0x203f00
 CustomSongLayer::onSearch - 0x203f20
+CustomSongLayer::onSongBrowser - 0x203dd0
 CustomSongLayer::showNewgroundsMessage - 0x204090
 CustomSongWidget::create - 0x603090
 CustomSongWidget::loadSongInfoFinished - 0x608a80

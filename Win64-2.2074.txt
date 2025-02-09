@@ -695,6 +695,7 @@ CustomSongLayer::onClose - 0xc3690
 CustomSongLayer::onMusicBrowser - 0xc31a0
 CustomSongLayer::onNewgroundsBrowser - 0xc3300
 CustomSongLayer::onSearch - 0xc2c80
+CustomSongLayer::onSongBrowser - 0xc3120
 CustomSongWidget::create - 0xc74f0
 CustomSongWidget::loadSongInfoFinished - 0xcbd40
 CustomSongWidget::loadSongInfoFailed - 0xcbe90
