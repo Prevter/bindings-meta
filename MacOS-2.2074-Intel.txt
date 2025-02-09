@@ -1997,6 +1997,7 @@ CommunityCreditsPage::init - 0x30a500
 CommunityCreditsPage::registerWithTouchDispatcher - 0x30ca60
 CommunityCreditsPage::keyBackClicked - 0x30c9f0
 CommunityCreditsPage::show - 0x30c860
+CommunityCreditsPage::goToPage - 0x30c750
 ConfigureHSVWidget::create - 0x41cf70
 ConfigureHSVWidget::getHSV - 0x41ead0
 ConfigureHSVWidget::textInputOpened - 0x41e810
@@ -5407,6 +5408,7 @@ SpecialAnimGameObject::updateSyncedAnimation - 0x24b7d0
 SpriteAnimationManager::offsetCurrentAnimation - 0x70e0d0
 SpriteAnimationManager::overridePrio - 0x70dbc0
 SpriteAnimationManager::runAnimation - 0x70d190
+SpriteAnimationManager::stopAnimations - 0x70ddb0
 SpriteAnimationManager::updateAnimationSpeed - 0x70cf30
 SpriteDescription::createDescription - 0x555800
 SpriteDescription::createDescription - 0x555f80

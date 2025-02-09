@@ -5165,6 +5165,7 @@ SpriteAnimationManager::createAnimations - 0x62a3ac
 SpriteAnimationManager::loadAnimations - 0x62b214
 SpriteAnimationManager::overridePrio - 0x62cb2c
 SpriteAnimationManager::runAnimation - 0x62c1e8
+SpriteAnimationManager::stopAnimations - 0x62cd30
 SpriteDescription::createDescription - 0x4ac3e8
 SpriteDescription::createDescription - 0x4acb54
 SpriteDescription::initDescription - 0x4acfc4
