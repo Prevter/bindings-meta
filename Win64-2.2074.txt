@@ -274,6 +274,9 @@ AppDelegate::platformShutdown - 0x82560
 AppDelegate::resumeSound - 0x83270
 AppDelegate::setupGLView - 0x82580
 ArtistCell::loadFromObject - 0xb4e90
+ArtTriggerGameObject::triggerObject - 0x4a98a0
+ArtTriggerGameObject::customObjectSetup - 0x4a9820
+ArtTriggerGameObject::getSaveString - 0x4a98a0
 AudioEffectsLayer::audioStep - 0x84d80
 BitmapFontCache::fontWithConfigFile - 0x3b380
 BoomListView::setupList - 0x3c350
@@ -3024,6 +3027,9 @@ SetupAnimationPopup::updateAnimationID - 0x3f23e0
 SetupAnimationPopup::updateAnimationTextInputLabel - 0x3f2290
 SetupAnimationPopup::updateTargetID - 0x3f2310
 SetupAnimationPopup::updateTextInputLabel - 0x3f2210
+SetupAnimSettingsPopup::create - 0x3f2500
+SetupAnimSettingsPopup::onClose - 0x3f2e90
+SetupAnimSettingsPopup::init - 0x3f2610
 SetupAreaMoveTriggerPopup::updateInputValue - 0x3f63f0
 SetupAreaMoveTriggerPopup::updateDefaultTriggerValues - 0x3f5d20
 SetupAreaMoveTriggerPopup::updateInputNode - 0x3f63c0
@@ -3034,7 +3040,10 @@ SetupAreaTintTriggerPopup::determineStartValues - 0x3f8840
 SetupAreaTintTriggerPopup::onClose - 0x3f8b50
 SetupAreaTintTriggerPopup::valueDidChange - 0x3f8680
 SetupAreaTintTriggerPopup::hsvPopupClosed - 0x3f8a60
+SetupArtSwitchPopup::create - 0x459210
 SetupArtSwitchPopup::selectArtClosed - 0x459ed0
+SetupArtSwitchPopup::init - 0x4594d0
+SetupArtSwitchPopup::onArt - 0x459e80
 SetupAudioLineGuidePopup::selectSettingClosed - 0x4581a0
 SetupAudioTriggerPopup::valueDidChange - 0x42e390
 SetupCameraEdgePopup::textChanged - 0x3fbfc0
@@ -3332,6 +3341,12 @@ SpawnTriggerGameObject::triggerObject - 0x4a06a0
 SpawnTriggerGameObject::customObjectSetup - 0x4a0a10
 SpawnTriggerGameObject::getSaveString - 0x4a0d50
 SpawnTriggerGameObject::updateRemapKeys - 0x4a05a0
+SpecialAnimGameObject::resetObject - 0x489380
+SpecialAnimGameObject::customObjectSetup - 0x489390
+SpecialAnimGameObject::getSaveString - 0x489400
+SpecialAnimGameObject::updateMainColor - 0x489340
+SpecialAnimGameObject::updateSecondaryColor - 0x489360
+SpecialAnimGameObject::updateSyncedAnimation - 0x1a69c0
 SpriteAnimationManager::overridePrio - 0x74420
 SpriteAnimationManager::runAnimation - 0x73dd0
 SpriteDescription::initDescription - 0x41cf0
