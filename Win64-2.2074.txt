@@ -950,7 +950,9 @@ EditorUI::activateRotationControl - 0x121420
 EditorUI::activateScaleControl - 0x113280
 EditorUI::activateTransformControl - 0x1138d0
 EditorUI::addObjectsToSmartTemplate - 0x114390
+EditorUI::alignObjects - 0x1203a0
 EditorUI::applyOffset - 0x120d40
+EditorUI::assignNewGroups - 0x1178c0
 EditorUI::canSelectObject - 0x10ec30
 EditorUI::checkDiffAfterTransformAnchor - 0x1140e0
 EditorUI::clickOnPosition - 0xe1040
@@ -1576,6 +1578,7 @@ GJBaseGameLayer::processAreaTransformGroupAction - 0x223f40
 GJBaseGameLayer::processCommands - 0x234170
 GJBaseGameLayer::processDynamicObjectActions - 0x228fa0
 GJBaseGameLayer::processFollowActions - 0x22b2a0
+GJBaseGameLayer::processItems - 0x210db0
 GJBaseGameLayer::processMoveActions - 0x2282d0
 GJBaseGameLayer::processMoveActionsStep - 0x2262f0
 GJBaseGameLayer::processOptionsTrigger - 0x21e9a0
