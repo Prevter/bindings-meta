@@ -4183,6 +4183,7 @@ MenuLayer::onNewgrounds - 0x37e430
 MenuLayer::onOptions - 0x37e3b0
 MenuLayer::onPlay - 0x37e1c0
 MenuLayer::onQuit - 0x37e640
+MenuLayer::onRobTop - 0x37e500
 MenuLayer::onStats - 0x37e3f0
 MenuLayer::onTrailer - 0x37ed80
 MenuLayer::showGCQuestion - 0x37e9f0
