@@ -888,6 +888,7 @@ cocos2d::CCAnimation::getDuration - 0x22e714
 cocos2d::CCApplication::sharedApplication - 0x2ab200
 cocos2d::CCApplication::openURL - 0x2aba20
 cocos2d::CCArray::fastRemoveObjectAtIndex - 0x629530
+cocos2d::CCArray::stringAtIndex - 0x629390
 cocos2d::CCDictionary::create - 0x294464
 cocos2d::CCDictionary::createWithContentsOfFile - 0x294600
 cocos2d::CCDictionary::createWithContentsOfFileThreadSafe - 0x2944e8
@@ -1056,6 +1057,7 @@ cocos2d::CCString::createWithData - 0x6a8b3c
 cocos2d::CCString::getCString - 0x6a84a8
 cocos2d::CCString::boolValue - 0x6a8838
 cocos2d::CCString::intValue - 0x6a874c
+cocos2d::CCString::floatValue - 0x6a87bc
 cocos2d::CCMenuItem::~CCMenuItem - 0x337768
 cocos2d::CCMenuItem::create - 0x3375e0
 cocos2d::CCMenuItem::create - 0x337538

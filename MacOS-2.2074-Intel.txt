@@ -1109,6 +1109,7 @@ cocos2d::CCString::createWithData - 0x7956c0
 cocos2d::CCString::getCString - 0x7950f0
 cocos2d::CCString::boolValue - 0x7954b0
 cocos2d::CCString::intValue - 0x7953c0
+cocos2d::CCString::floatValue - 0x795440
 cocos2d::CCMenuItem::~CCMenuItem - 0x3ab940
 cocos2d::CCMenuItem::create - 0x3ab790
 cocos2d::CCMenuItem::create - 0x3ab6d0
