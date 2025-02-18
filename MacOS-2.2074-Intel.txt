@@ -2294,9 +2294,12 @@ DialogLayer::updateChatPlacement - 0x3b4de0
 DialogLayer::updateNavButtonFrame - 0x3b4d70
 DialogObject::create - 0x3b3d20
 DialogObject::init - 0x3b3eb0
+DrawGridLayer::create - 0xdd0d0
 DrawGridLayer::update - 0xf5c30
 DrawGridLayer::draw - 0xf5dc0
+DrawGridLayer::init - 0xf59b0
 DrawGridLayer::loadTimeMarkers - 0xdf600
+DrawGridLayer::posForTime - 0xef340
 DrawGridLayer::timeForPos - 0xed530
 DungeonBarsSprite::init - 0x495430
 DungeonBarsSprite::visit - 0x4954b0

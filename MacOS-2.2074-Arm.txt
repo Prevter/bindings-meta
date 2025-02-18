@@ -2216,8 +2216,12 @@ DialogLayer::init - 0x33fa48
 DialogLayer::updateChatPlacement - 0x340408
 DialogObject::create - 0x33f4ac
 DialogObject::init - 0x33f664
+DrawGridLayer::create - 0xc4b04
 DrawGridLayer::update - 0xd9cd8
 DrawGridLayer::draw - 0xd9de8
+DrawGridLayer::init - 0xd9aa0
+DrawGridLayer::loadTimeMarkers - 0xc6aa4
+DrawGridLayer::posForTime - 0xd449c
 DrawGridLayer::timeForPos - 0xd2ce4
 DungeonBarsSprite::init - 0x401c4c
 DungeonBarsSprite::visit - 0x401ccc
