@@ -2343,6 +2343,7 @@ EditorUI::copyObjects - 0x309d4
 EditorUI::createCustomItems - 0x3122c
 EditorUI::createMoveMenu - 0x400a8
 EditorUI::createObject - 0x35d7c
+EditorUI::createUndoObject - 0x37f50
 EditorUI::deselectAll - 0x328b0
 EditorUI::deselectObject - 0x32a98
 EditorUI::deselectObject - 0x32808
@@ -2358,7 +2359,9 @@ EditorUI::getCreateMenuItemButton - 0x2eb94
 EditorUI::getGridSnappedPos - 0x35130
 EditorUI::getGroupCenter - 0x36e28
 EditorUI::getSelectedObjects - 0x37eac
+EditorUI::getSpriteButton - 0xd81c
 EditorUI::getSpriteButton - 0xd6b0
+EditorUI::getSpriteButton - 0x2e9a0
 EditorUI::init - 0xad4c
 EditorUI::menuItemFromObjectString - 0x315a4
 EditorUI::moveForCommand - 0x435fc
@@ -2770,6 +2773,8 @@ GameManager::toggleGameVariable - 0x301b54
 GameManager::unloadIcon - 0x30016c
 GameManager::unlockTypeToIconType - 0x2f7528
 GameManager::verifyAchievementUnlocks - 0x2f93b0
+GameObjectCopy::create - 0xca710
+GameObjectCopy::resetObject - 0xca828
 GameOptionsLayer::create - 0x244f94
 GameOptionsLayer::setupOptions - 0x24519c
 GameOptionsLayer::didToggle - 0x245e98
@@ -5367,7 +5372,6 @@ UISettingsGameObject::init - 0x1872d4
 UISettingsGameObject::customObjectSetup - 0x187f74
 UISettingsGameObject::getSaveString - 0x187324
 UndoObject::create - 0xc7594
-UndoObject::init - 0xca710
 UpdateAccountSettingsPopup::keyBackClicked - 0x238b68
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x238964
 UpdateAccountSettingsPopup::updateSettingsFailed - 0x238a7c

@@ -2443,7 +2443,9 @@ EditorUI::getGroupCenter - 0x3c1b0
 EditorUI::getRelativeOffset - 0x4dc100
 EditorUI::getSelectedObjects - 0x3d330
 EditorUI::getSnapAngle - 0x4ad60
+EditorUI::getSpriteButton - 0xc440
 EditorUI::getSpriteButton - 0xc2d0
+EditorUI::getSpriteButton - 0x2efb0
 EditorUI::getXMin - 0x2f470
 EditorUI::init - 0x9710
 EditorUI::isSpecialSnapObject - 0x4c2f0
@@ -5613,6 +5615,7 @@ UISaveLoadLayer::onSave - 0x2a23a0
 UISettingsGameObject::init - 0x1cb1b0
 UISettingsGameObject::customObjectSetup - 0x1cc0f0
 UISettingsGameObject::getSaveString - 0x1cb200
+UndoObject::create - 0xe0290
 UpdateAccountSettingsPopup::keyBackClicked - 0x2905c0
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x2903b0
 UpdateAccountSettingsPopup::updateSettingsFailed - 0x2904d0
