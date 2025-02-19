@@ -3677,6 +3677,7 @@ HardStreak::init - 0x9ca80
 HardStreak::addPoint - 0x9d500
 HardStreak::reset - 0x9d4e0
 HardStreak::resumeStroke - 0x9d480
+HardStreak::stopStroke - 0x9d4a0
 HardStreak::updateStroke - 0x9cc30
 HSVLiveOverlay::create - 0x258800
 HSVLiveOverlay::keyBackClicked - 0x259080
@@ -4461,6 +4462,7 @@ PlayerObject::collidedWithObject - 0x3f4c90
 PlayerObject::collidedWithObject - 0x3fb520
 PlayerObject::collidedWithSlope - 0x3f4d30
 PlayerObject::copyAttributes - 0x409ed0
+PlayerObject::createFadeOutDartStreak - 0x4042d0
 PlayerObject::createRobot - 0x3ea2a0
 PlayerObject::createSpider - 0x3ea650
 PlayerObject::deactivateParticle - 0x3efb60
