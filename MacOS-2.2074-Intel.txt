@@ -1578,6 +1578,8 @@ GameObject::removeGlow - 0x58cb90
 GameObject::setLastPosition - 0x5b2aa0
 GameObject::shouldShowPickupEffects - 0x24c330
 GameObject::spawnDefaultPickupParticle - 0x24c390
+GameObject::updateCustomScaleX - 0x591ed0
+GameObject::updateCustomScaleY - 0x591f50
 GameObject::updateIsOriented - 0x5b1730
 GameObject::updateStartPos - 0x591af0
 EnhancedGameObject::customSetup - 0x5b42e0

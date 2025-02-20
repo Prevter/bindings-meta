@@ -1513,6 +1513,8 @@ GameObject::isFacingLeft - 0x4ea7d0
 GameObject::isSettingsObject - 0x4ebf78
 GameObject::playDestroyObjectAnim - 0x1f9910
 GameObject::playShineEffect - 0x4df690
+GameObject::updateCustomScaleX - 0x4d922c
+GameObject::updateCustomScaleY - 0x4d928c
 GameObject::updateIsOriented - 0x4ea58c
 EnhancedGameObject::customSetup - 0x4ec86c
 EnhancedGameObject::resetObject - 0x4ec1fc
