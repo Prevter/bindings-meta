@@ -1197,6 +1197,9 @@ cocos2d::extension::CCControl::addTargetWithActionForControlEvents - 0x2d4060
 cocos2d::extension::CCControl::removeTargetWithActionForControlEvents - 0x2d4520
 cocos2d::extension::CCControl::getTouchLocation - 0x2d49b8
 cocos2d::extension::CCControl::isTouchInside - 0x2d4a04
+ObjectDecoder::sharedDecoder - 0x690e28
+ObjectDecoder::getDecodedObject - 0x690ea0
+ObjectDecoder::init - 0x690e9c
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x2d7fe0
 cocos2d::extension::CCControlColourPicker::init - 0x2d7a70
 cocos2d::extension::CCControlColourPicker::ccTouchBegan - 0x2d81b8
@@ -4141,8 +4144,14 @@ MusicSearchResult::stateChanged - 0x4d4710
 MusicSearchResult::applyArtistFilters - 0x4d41c8
 MusicSearchResult::applyTagFilters - 0x4d4004
 MusicSearchResult::getFilesMatchingSearch - 0x4d49d8
+NCSInfoLayer::create - 0x1b96c0
 NCSInfoLayer::keyBackClicked - 0x1bbda8
 NCSInfoLayer::init - 0x1bb640
+NCSInfoLayer::onClose - 0x1bb2d0
+NCSInfoLayer::onLibrary - 0x1bbc9c
+NCSInfoLayer::onNCS - 0x1bbd00
+NCSInfoLayer::onNCSIO - 0x1bbd24
+NCSInfoLayer::onNCSUsage - 0x1bbd48
 NewgroundsInfoLayer::init - 0x1baac0
 NewgroundsInfoLayer::keyBackClicked - 0x1bb5c4
 NewgroundsInfoLayer::FLAlert_Clicked - 0x1bb56c

@@ -1478,6 +1478,7 @@ GJAccountManager::onUpdateAccountSettingsCompleted - 0x1fed80
 GJAccountManager::ProcessHttpRequest - 0x1fb070
 GJAccountSettingsLayer::keyBackClicked - 0x28d1f0
 GJAccountSettingsLayer::init - 0x28a850
+GJBaseGameLayer::GJBaseGameLayer - 0x2c7b10
 GJBaseGameLayer::~GJBaseGameLayer - 0x200540
 GJBaseGameLayer::update - 0x232100
 GJBaseGameLayer::init - 0x201cc0
@@ -1800,6 +1801,8 @@ GJMoreGamesLayer::create - 0x278610
 GJMoreGamesLayer::customSetup - 0x278cf0
 GJMoreGamesLayer::getMoreGamesList - 0x278950
 GJMultiplayerManager::sharedState - 0x27acc0
+GJObjectDecoder::sharedDecoder - 0x27c690
+GJObjectDecoder::init - 0x77db0
 GJObjectDecoder::getDecodedObject - 0x27c730
 GJPathPage::create - 0x27db80
 GJPathPage::keyBackClicked - 0x281710
@@ -2584,6 +2587,13 @@ MusicSearchResult::updateObjects - 0x331610
 MusicSearchResult::stateChanged - 0x331600
 MusicSearchResult::applyTagFilters - 0x331530
 MusicSearchResult::getFilesMatchingSearch - 0x331b60
+NCSInfoLayer::keyBackClicked - 0x84650
+NCSInfoLayer::init - 0xc56c0
+NCSInfoLayer::onClose - 0x84620
+NCSInfoLayer::onLibrary - 0xc5f10
+NCSInfoLayer::onNCS - 0xc5eb0
+NCSInfoLayer::onNCSIO - 0xc5ed0
+NCSInfoLayer::onNCSUsage - 0xc5ef0
 NewgroundsInfoLayer::FLAlert_Clicked - 0xc5690
 NumberInputLayer::init - 0x3326e0
 NumberInputLayer::registerWithTouchDispatcher - 0x52d60
@@ -2777,6 +2787,7 @@ PlayerObject::updateRotation - 0x37b1f0
 PlayerObject::updateShipRotation - 0x37ae10
 PlayerObject::updateSwingFire - 0x385040
 PlayerObject::updateTimeMod - 0x38afc0
+PlayLayer::PlayLayer - 0x38df50
 PlayLayer::~PlayLayer - 0x38e920
 PlayLayer::scene - 0x38ebc0
 PlayLayer::onEnterTransitionDidFinish - 0x3a4190

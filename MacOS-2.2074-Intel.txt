@@ -1247,6 +1247,9 @@ cocos2d::extension::CCControl::addTargetWithActionForControlEvents - 0x33de60
 cocos2d::extension::CCControl::removeTargetWithActionForControlEvents - 0x33e300
 cocos2d::extension::CCControl::getTouchLocation - 0x33e7b0
 cocos2d::extension::CCControl::isTouchInside - 0x33e800
+ObjectDecoder::sharedDecoder - 0x77c040
+ObjectDecoder::getDecodedObject - 0x77c0c0
+ObjectDecoder::init - 0x77c0b0
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x3424e0
 cocos2d::extension::CCControlColourPicker::init - 0x341e50
 cocos2d::extension::CCControlColourPicker::ccTouchBegan - 0x342760
@@ -3462,6 +3465,7 @@ GJMultiplayerManager::exitLobby - 0x644e40
 GJMultiplayerManager::getBasePostString - 0x644700
 GJMultiplayerManager::joinLobby - 0x644380
 GJMultiplayerManager::uploadComment - 0x645130
+GJObjectDecoder::sharedDecoder - 0x70e4e0
 GJObjectDecoder::init - 0x70e560
 GJObjectDecoder::getDecodedObject - 0x70e570
 GJPathPage::create - 0x2ea7c0
@@ -4337,8 +4341,11 @@ MusicSearchResult::stateChanged - 0x581fd0
 MusicSearchResult::applyTagFilters - 0x581670
 MusicSearchResult::getFilesMatchingSearch - 0x582340
 MusicSearchResult::init - 0x581380
+NCSInfoLayer::create - 0x2044d0
 NCSInfoLayer::keyBackClicked - 0x206d40
 NCSInfoLayer::init - 0x2065a0
+NCSInfoLayer::onClose - 0x2062a0
+NCSInfoLayer::onLibrary - 0x206c40
 NCSInfoLayer::onNCS - 0x206cb0
 NCSInfoLayer::onNCSIO - 0x206cd0
 NCSInfoLayer::onNCSUsage - 0x206cf0
