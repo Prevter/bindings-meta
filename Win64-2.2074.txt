@@ -2036,6 +2036,7 @@ ItemTriggerGameObject::customObjectSetup - 0x4a8280
 ItemTriggerGameObject::getSaveString - 0x4a7300
 KeybindingsLayer::create - 0x2b81d0
 KeybindingsLayer::init - 0x2b82c0
+KeybindingsLayer::keyBackClicked - 0x84650
 KeybindingsLayer::addKeyPair - 0x2b8bd0
 KeybindingsLayer::countForPage - 0x2b8f80
 KeybindingsLayer::goToPage - 0x2b9220
@@ -2043,6 +2044,7 @@ KeybindingsLayer::layerForPage - 0x2b9050
 KeybindingsLayer::onClose - 0x84620
 KeybindingsLayer::onNextPage - 0x2b9200
 KeybindingsLayer::onPrevPage - 0x2b9210
+KeybindingsManager::sharedState - 0x2b96b0
 KeyframeAnimTriggerObject::init - 0x498a40
 KeyframeAnimTriggerObject::customObjectSetup - 0x498eb0
 KeyframeAnimTriggerObject::getSaveString - 0x498ab0
