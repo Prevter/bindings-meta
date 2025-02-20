@@ -2732,7 +2732,6 @@ PlayerObject::rotateGameplayObject - 0x37b5c0
 PlayerObject::runBallRotation - 0x3775c0
 PlayerObject::runBallRotation2 - 0x3776f0
 PlayerObject::runNormalRotation - 0x377490
-PlayerObject::runRotateAction - 0x3775c0
 PlayerObject::setSecondColor - 0x387610
 PlayerObject::setupStreak - 0x372a50
 PlayerObject::setYVelocity - 0x372fa0

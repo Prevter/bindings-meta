@@ -320,7 +320,7 @@ cocos2d::CCTintTo::update - 0x3a8630
 cocos2d::CCTintTo::startWithTarget - 0x3a85d0
 cocos2d::CCScene::create - 0x27eef0
 cocos2d::CCScene::getHighestChildZ - 0x27efb0
-cocos2d::CCScene::CCScene - 0x27ed80
+cocos2d::CCScene::CCScene - 0x260210
 cocos2d::CCScene::~CCScene - 0x27ee70
 cocos2d::CCScene::init - 0x27eea0
 cocos2d::CCSet::CCSet - 0x79def0
@@ -522,6 +522,7 @@ cocos2d::CCFileUtils::sharedFileUtils - 0x5f4090
 cocos2d::CCFileUtils::shouldUseHD - 0x4273c0
 cocos2d::CCFileUtils::writeToFile - 0x426ce0
 cocos2d::CCGLProgram::initWithVertexShaderByteArray - 0x417e60
+cocos2d::CCGLProgram::initWithVertexShaderFilename - 0x417f00
 cocos2d::CCGLProgram::getUniformLocationForName - 0x418b80
 cocos2d::CCGLProgram::setUniformsForBuiltins - 0x419200
 cocos2d::CCGLProgram::~CCGLProgram - 0x417cb0
@@ -952,6 +953,7 @@ cocos2d::CCRepeat::startWithTarget - 0x3a34c0
 cocos2d::CCRepeat::stop - 0x3a3510
 cocos2d::CCRepeat::reverse - 0x3a3680
 cocos2d::CCRepeatForever::create - 0x3a3770
+cocos2d::CCRepeatForever::initWithAction - 0x3a37e0
 cocos2d::CCRepeatForever::copyWithZone - 0x3a3800
 cocos2d::CCRepeatForever::isDone - 0x3a3990
 cocos2d::CCRepeatForever::startWithTarget - 0x3a38e0
@@ -2340,6 +2342,7 @@ GJOptionsLayer::didToggle - 0x7150
 GJOptionsLayer::addGVToggle - 0x28a650
 GJOptionsLayer::addToggle - 0x28ac90
 GJOptionsLayer::addToggleInternal - 0x28a780
+GJOptionsLayer::countForPage - 0x28b620
 GJOptionsLayer::init - 0x289e50
 GJOptionsLayer::layerForPage - 0x28ada0
 GJOptionsLayer::nextPosition - 0x28aca0
@@ -2775,6 +2778,7 @@ GameLevelManager::limitSavedLevels - 0x5236b0
 GameLevelManager::makeTimeStamp - 0x522290
 GameLevelManager::markLevelAsRatedDemon - 0x530870
 GameLevelManager::onDeleteServerLevelListCompleted - 0x514f40
+GameLevelManager::onGetFriendRequestsCompleted - 0x50e7b0
 GameLevelManager::onGetGJChallengesCompleted - 0x510b00
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x512730
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x50a9d0
@@ -2898,6 +2902,8 @@ GameOptionsLayer::setupOptions - 0x29da00
 GameOptionsLayer::didToggle - 0x29e7e0
 GameOptionsLayer::init - 0x29d9b0
 GameOptionsLayer::onPracticeMusicSync - 0x29e1b0
+GameOptionsLayer::onUIOptions - 0x29e120
+GameOptionsLayer::onUIPOptions - 0x29e140
 GameOptionsLayer::showPracticeMusicSyncUnlockInfo - 0x29e230
 GameOptionsTrigger::customObjectSetup - 0x19fa20
 GameOptionsTrigger::getSaveString - 0x19db40
@@ -3390,6 +3396,7 @@ GJLevelList::create - 0x51bac0
 GJLevelList::encodeWithCoder - 0x54d230
 GJLevelList::canEncode - 0x54d4a0
 GJLevelList::init - 0x54b420
+GJLevelList::addLevelToList - 0x54bdf0
 GJLevelList::completedLevels - 0x54ca00
 GJLevelList::dataLoaded - 0x54cef0
 GJLevelList::frameForListDifficulty - 0x54d4b0
@@ -3397,6 +3404,7 @@ GJLevelList::getUnpackedDescription - 0x54b670
 GJLevelList::handleStatsConflict - 0x54b4a0
 GJLevelList::hasMatchingLevels - 0x54b4c0
 GJLevelList::parseListLevels - 0x52ca10
+GJLevelList::reorderLevel - 0x54c400
 GJLevelList::showListInfo - 0x54ca50
 GJLevelList::totalLevels - 0x54c9e0
 GJLevelScoreCell::init - 0x243de0
@@ -4461,6 +4469,7 @@ PlayerObject::bumpPlayer - 0x409440
 PlayerObject::collidedWithObject - 0x3f4c90
 PlayerObject::collidedWithObject - 0x3fb520
 PlayerObject::collidedWithSlope - 0x3f4d30
+PlayerObject::collidedWithSlopeInternal - 0x3f5410
 PlayerObject::copyAttributes - 0x409ed0
 PlayerObject::createFadeOutDartStreak - 0x4042d0
 PlayerObject::createRobot - 0x3ea2a0
@@ -4504,7 +4513,9 @@ PlayerObject::resetStreak - 0x3f16d0
 PlayerObject::resetTouchedRings - 0x4010d0
 PlayerObject::reversePlayer - 0x4041e0
 PlayerObject::ringJump - 0x402c50
+PlayerObject::runBallRotation - 0x3f26a0
 PlayerObject::runNormalRotation - 0x3ee220
+PlayerObject::runRotateAction - 0x3f0b00
 PlayerObject::saveToCheckpoint - 0x40a6b0
 PlayerObject::setSecondColor - 0x3ec3a0
 PlayerObject::setupStreak - 0x3eab20
@@ -4631,6 +4642,7 @@ PlayLayer::startGame - 0xb3c00
 PlayLayer::startGameDelayed - 0xb3fe0
 PlayLayer::startMusic - 0xb3ef0
 PlayLayer::storeCheckpoint - 0xbdf30
+PlayLayer::toggleIgnoreDamage - 0xacbb0
 PlayLayer::togglePracticeMode - 0xbeca0
 PlayLayer::updateAttempts - 0xbeeb0
 PlayLayer::updateEffectPositions - 0xbb690

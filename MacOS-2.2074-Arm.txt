@@ -242,6 +242,7 @@ cocos2d::CCNodeRGBA::updateDisplayedOpacity - 0x20eee0
 cocos2d::CCMotionStreak::initWithFade - 0x4b6180
 cocos2d::CCMotionStreak::initWithFade - 0x4b5ffc
 cocos2d::CCMotionStreak::CCMotionStreak - 0x4b5cf4
+cocos2d::CCMotionStreak::reset - 0x4b6c48
 cocos2d::CCMotionStreak::resumeStroke - 0x4b6510
 cocos2d::CCMotionStreak::stopStroke - 0x4b6508
 cocos2d::CCMotionStreak::~CCMotionStreak - 0x4b5e2c
@@ -315,7 +316,7 @@ cocos2d::CCTintTo::update - 0x3349e4
 cocos2d::CCTintTo::startWithTarget - 0x334978
 cocos2d::CCScene::create - 0x2288ec
 cocos2d::CCScene::getHighestChildZ - 0x2289cc
-cocos2d::CCScene::CCScene - 0x228780
+cocos2d::CCScene::CCScene - 0x20c1a8
 cocos2d::CCScene::~CCScene - 0x22887c
 cocos2d::CCScene::init - 0x228894
 cocos2d::CCSet::CCSet - 0x6b03e8
@@ -515,6 +516,7 @@ cocos2d::CCFileUtils::sharedFileUtils - 0x523b94
 cocos2d::CCFileUtils::shouldUseHD - 0x3a21d0
 cocos2d::CCFileUtils::writeToFile - 0x3a1a68
 cocos2d::CCGLProgram::initWithVertexShaderByteArray - 0x393990
+cocos2d::CCGLProgram::initWithVertexShaderFilename - 0x393a34
 cocos2d::CCGLProgram::getUniformLocationForName - 0x3947a0
 cocos2d::CCGLProgram::setUniformsForBuiltins - 0x394f28
 cocos2d::CCGLProgram::~CCGLProgram - 0x3937f0
@@ -690,8 +692,8 @@ cocos2d::CCIMEDelegate::attachWithIME - 0x411f90
 cocos2d::CCIMEDelegate::detachWithIME - 0x4121d0
 cocos2d::CCIMEDelegate::deleteForward - 0x8fb0
 cocos2d::CCIMEDispatcher::sharedDispatcher - 0x411d04
-cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x4124e0
-cocos2d::CCIMEDispatcher::dispatchDeleteForward - 0x412500
+cocos2d::CCIMEDispatcher::dispatchDeleteBackward - 0x412500
+cocos2d::CCIMEDispatcher::dispatchDeleteForward - 0x4124e0
 cocos2d::CCIMEDispatcher::dispatchInsertText - 0x4124b4
 cocos2d::CCIMEDispatcher::hasDelegate - 0x4124a0
 cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG - 0x1a8028
@@ -928,6 +930,7 @@ cocos2d::CCRepeat::startWithTarget - 0x3301ec
 cocos2d::CCRepeat::stop - 0x330244
 cocos2d::CCRepeat::reverse - 0x3303f4
 cocos2d::CCRepeatForever::create - 0x3304dc
+cocos2d::CCRepeatForever::initWithAction - 0x330548
 cocos2d::CCRepeatForever::copyWithZone - 0x330578
 cocos2d::CCRepeatForever::isDone - 0x330728
 cocos2d::CCRepeatForever::startWithTarget - 0x330650
@@ -2266,6 +2269,7 @@ GJOptionsLayer::didToggle - 0x8fb0
 GJOptionsLayer::addGVToggle - 0x2333cc
 GJOptionsLayer::addToggle - 0x2339d0
 GJOptionsLayer::addToggleInternal - 0x233518
+GJOptionsLayer::countForPage - 0x234378
 GJOptionsLayer::init - 0x232c90
 GJOptionsLayer::layerForPage - 0x233acc
 GJOptionsLayer::nextPosition - 0x2339d4
@@ -2675,6 +2679,7 @@ GameLevelManager::likeItem - 0x499d68
 GameLevelManager::limitSavedLevels - 0x47f58c
 GameLevelManager::makeTimeStamp - 0x47e18c
 GameLevelManager::markLevelAsRatedDemon - 0x48b1c8
+GameLevelManager::onGetFriendRequestsCompleted - 0x46c964
 GameLevelManager::onGetGJChallengesCompleted - 0x46f5b0
 GameLevelManager::onGetGJDailyLevelStateCompleted - 0x470324
 GameLevelManager::onGetLeaderboardScoresCompleted - 0x468fa0
@@ -2781,6 +2786,7 @@ GameOptionsLayer::create - 0x244f94
 GameOptionsLayer::setupOptions - 0x24519c
 GameOptionsLayer::didToggle - 0x245e98
 GameOptionsLayer::onPracticeMusicSync - 0x2458f4
+GameOptionsLayer::onUIOptions - 0x245868
 GameOptionsLayer::onUIPOptions - 0x245888
 GameOptionsLayer::showPracticeMusicSyncUnlockInfo - 0x245968
 GameOptionsTrigger::customObjectSetup - 0x162644
@@ -3047,7 +3053,7 @@ GJBaseGameLayer::resetActiveEnterEffects - 0xed248
 GJBaseGameLayer::resetAudio - 0x119004
 GJBaseGameLayer::resetCamera - 0x11e7d4
 GJBaseGameLayer::resetLevelVariables - 0x11dcf0
-GJBaseGameLayer::resetPlayer - 0xf2608
+GJBaseGameLayer::resetPlayer - 0x1164a0
 GJBaseGameLayer::resetSpawnChannelIndex - 0x11ea94
 GJBaseGameLayer::setStartPosObject - 0xf2870
 GJBaseGameLayer::setupLayers - 0xe24c4
@@ -3210,6 +3216,7 @@ GJLevelList::create - 0x478394
 GJLevelList::encodeWithCoder - 0x4a5298
 GJLevelList::canEncode - 0x4a54d0
 GJLevelList::init - 0x4a3784
+GJLevelList::addLevelToList - 0x4a3fbc
 GJLevelList::completedLevels - 0x4a4a48
 GJLevelList::createWithCoder - 0x4a4f38
 GJLevelList::dataLoaded - 0x4a4f68
@@ -3218,6 +3225,7 @@ GJLevelList::getUnpackedDescription - 0x4a39d0
 GJLevelList::handleStatsConflict - 0x4a37fc
 GJLevelList::hasMatchingLevels - 0x4a3814
 GJLevelList::parseListLevels - 0x487a60
+GJLevelList::reorderLevel - 0x4a44e0
 GJLevelList::showListInfo - 0x4a4aac
 GJLevelList::totalLevels - 0x4a4a38
 GJLevelScoreCell::init - 0x1f2e24
@@ -4255,6 +4263,7 @@ PlayerObject::bumpPlayer - 0x386e2c
 PlayerObject::collidedWithObject - 0x3751b8
 PlayerObject::collidedWithObject - 0x37a504
 PlayerObject::collidedWithObjectInternal - 0x376dd8
+PlayerObject::collidedWithSlopeInternal - 0x375914
 PlayerObject::copyAttributes - 0x3877bc
 PlayerObject::createFadeOutDartStreak - 0x382128
 PlayerObject::createRobot - 0x36c034
@@ -4290,9 +4299,12 @@ PlayerObject::pushButton - 0x380a44
 PlayerObject::releaseAllButtons - 0x386970
 PlayerObject::releaseButton - 0x381b48
 PlayerObject::resetPlayerIcon - 0x383208
+PlayerObject::resetStreak - 0x3723f4
 PlayerObject::reversePlayer - 0x382044
 PlayerObject::ringJump - 0x380dec
+PlayerObject::runBallRotation - 0x3732c0
 PlayerObject::runNormalRotation - 0x36f618
+PlayerObject::runRotateAction - 0x371934
 PlayerObject::setSecondColor - 0x36dd8c
 PlayerObject::setupStreak - 0x36c84c
 PlayerObject::spiderTestJump - 0x3727c8
@@ -4407,6 +4419,7 @@ PlayLayer::spawnFirework - 0xa5800
 PlayLayer::startGame - 0xa3c50
 PlayLayer::startMusic - 0xa3f14
 PlayLayer::storeCheckpoint - 0xac964
+PlayLayer::toggleIgnoreDamage - 0x9d9c8
 PlayLayer::togglePracticeMode - 0xad654
 PlayLayer::updateAttempts - 0xad858
 PlayLayer::updateEffectPositions - 0xaa9fc
