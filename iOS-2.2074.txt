@@ -258,6 +258,7 @@ cocos2d::CCTintTo::update - 0x190760
 cocos2d::CCTintTo::startWithTarget - 0x1906f4
 cocos2d::CCScene::create - 0x240218
 cocos2d::CCScene::getHighestChildZ - 0x24028c
+cocos2d::CCScene::CCScene - 0x2508a4
 cocos2d::CCScene::~CCScene - 0x23ac80
 cocos2d::CCScene::init - 0x2401c0
 cocos2d::CCSet::begin - 0x1afa04
@@ -901,6 +902,7 @@ cocos2d::extension::CCControl::addTargetWithActionForControlEvents - 0x1a8eb4
 cocos2d::extension::CCControl::removeTargetWithActionForControlEvents - 0x1a8f7c
 cocos2d::extension::CCControl::getTouchLocation - 0x1a91b4
 cocos2d::extension::CCControl::isTouchInside - 0x1a9200
+ObjectDecoder::init - 0x235898
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x1b1bd8
 cocos2d::extension::CCControlColourPicker::init - 0x1b1744
 cocos2d::extension::CCControlColourPicker::ccTouchBegan - 0x1b1d2c
@@ -1782,6 +1784,7 @@ EditorUI::toggleStickyControls - 0x3de424
 EditorUI::transformObjectCall - 0x3ee598
 EditorUI::updateCreateMenu - 0x3def70
 EditorUI::updateGridNodeSize - 0x3df914
+EditorUI::updateObjectInfoLabel - 0x3dfae0
 EditorUI::updateSlider - 0x3dca34
 EditorUI::updateZoom - 0x3e6980
 EditorUI::zoomIn - 0x3bfee8

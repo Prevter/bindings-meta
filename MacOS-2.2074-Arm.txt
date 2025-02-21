@@ -3058,7 +3058,7 @@ GJBaseGameLayer::resetActiveEnterEffects - 0xed248
 GJBaseGameLayer::resetAudio - 0x119004
 GJBaseGameLayer::resetCamera - 0x11e7d4
 GJBaseGameLayer::resetLevelVariables - 0x11dcf0
-GJBaseGameLayer::resetPlayer - 0x1164a0
+GJBaseGameLayer::resetPlayer - 0xf2608
 GJBaseGameLayer::resetSpawnChannelIndex - 0x11ea94
 GJBaseGameLayer::setStartPosObject - 0xf2870
 GJBaseGameLayer::setupLayers - 0xe24c4
