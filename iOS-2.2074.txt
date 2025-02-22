@@ -2759,6 +2759,7 @@ MoreOptionsLayer::textInputShouldOffset - 0xf2bac
 MoreOptionsLayer::textInputReturn - 0xf2c18
 MoreOptionsLayer::googlePlaySignedIn - 0xf2c78
 MoreOptionsLayer::dropDownLayerWillClose - 0xf2ac4
+MoreOptionsLayer::goToPage - 0xf2024
 MoreSearchLayer::init - 0x58bc4
 MoreSearchLayer::keyBackClicked - 0x5a8b8
 MoreSearchLayer::textInputShouldOffset - 0x5a7ec

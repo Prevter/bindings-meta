@@ -482,6 +482,8 @@ CheckpointObject::CheckpointObject - 0x38e330
 CheckpointObject::init - 0x77db0
 CollisionBlockPopup::keyBackClicked - 0x8bb20
 CollisionBlockPopup::textChanged - 0x8b7a0
+CollisionBlockPopup::init - 0x8a9f0
+CollisionBlockPopup::onItemIDArrow - 0x8b600
 ColorAction::create - 0x251b40
 ColorAction::setupFromMap - 0x252800
 ColorAction::setupFromString - 0x252720
@@ -1705,6 +1707,8 @@ GJGroundLayer::updateShadows - 0x277550
 GJGroundLayer::updateShadowXPos - 0x2775f0
 GJFollowCommandLayer::textChanged - 0x26a850
 GJFollowCommandLayer::init - 0x268e30
+GJFollowCommandLayer::onUpdateGroupID - 0x26a790
+GJFollowCommandLayer::onUpdateGroupID2 - 0x26a7f0
 GJGameLevel::create - 0x169b40
 GJGameLevel::create - 0x1683e0
 GJGameLevel::lengthKeyToString - 0x16a0d0
@@ -1825,6 +1829,8 @@ GJPathSprite::addShardSprite - 0x281d90
 GJPathSprite::changeToLockedArt - 0x281ad0
 GJPathSprite::updateState - 0x2818f0
 GJPFollowCommandLayer::textChanged - 0x284d20
+GJPFollowCommandLayer::init - 0x282ed0
+GJPFollowCommandLayer::onUpdateGroupID - 0x284cc0
 GJPromoPopup::onExit - 0x29d890
 GJPromoPopup::init - 0x29d590
 GJRequestCell::FLAlert_Clicked - 0xbc1f0
@@ -3247,6 +3253,10 @@ SetupCheckpointPopup::init - 0x450a20
 SetupInstantCollisionTriggerPopup::updateDefaultTriggerValues - 0x402bc0
 SetupInstantCollisionTriggerPopup::valueDidChange - 0x402990
 SetupCollisionTriggerPopup::textChanged - 0x401ac0
+SetupCollisionTriggerPopup::init - 0x400660
+SetupCollisionTriggerPopup::onItemID2Arrow - 0x4019f0
+SetupCollisionTriggerPopup::onItemIDArrow - 0x401a30
+SetupCollisionTriggerPopup::onTargetIDArrow - 0x401a70
 SetupCountTriggerPopup::create - 0x4031a0
 SetupCountTriggerPopup::determineStartValues - 0x404390
 SetupCountTriggerPopup::onClose - 0x404b30
@@ -3395,6 +3405,7 @@ SetupObjectOptionsPopup::onToggleAreaParent - 0x3e8a10
 SetupObjectOptionsPopup::onToggleGroupParent - 0x3e8980
 SetupOpacityPopup::textChanged - 0x413a50
 SetupOpacityPopup::init - 0x412860
+SetupOpacityPopup::onTargetIDArrow - 0x4137f0
 SetupOptionsTriggerPopup::onCustomToggleTriggerValue - 0x41e720
 SetupOptionsTriggerPopup::addOption - 0x41e4c0
 SetupOptionsTriggerPopup::init - 0x41dcc0
@@ -3451,6 +3462,9 @@ SetupRandAdvTriggerPopup::onAddChance - 0x426790
 SetupRandAdvTriggerPopup::onRemoveFromGroup - 0x4266c0
 SetupRandAdvTriggerPopup::updateGroupIDButtons - 0x425bd0
 SetupRandTriggerPopup::textChanged - 0x4288e0
+SetupRandTriggerPopup::init - 0x427860
+SetupRandTriggerPopup::onTargetID2Arrow - 0x428890
+SetupRandTriggerPopup::onTargetIDArrow - 0x428840
 SetupReverbPopup::onClose - 0x42eda0
 SetupReverbPopup::init - 0x42e510
 SetupReverbPopup::onPlay - 0x42ead0
@@ -3593,6 +3607,8 @@ SetupTimeWarpPopup::init - 0x44ae50
 SetupTimeWarpPopup::sliderChanged - 0x44b3d0
 SetupTimeWarpPopup::updateTimeWarpLabel - 0x44b4a0
 SetupTouchTogglePopup::textChanged - 0x44c760
+SetupTouchTogglePopup::init - 0x44b720
+SetupTouchTogglePopup::onTargetIDArrow - 0x3fbf70
 SetupTransformPopup::create - 0x44c920
 SetupTransformPopup::init - 0x44ca30
 SFXBrowser::keyBackClicked - 0x4687f0

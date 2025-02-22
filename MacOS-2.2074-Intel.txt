@@ -1955,6 +1955,7 @@ CollisionBlockPopup::textChanged - 0x2751d0
 CollisionBlockPopup::textInputShouldOffset - 0x2753e0
 CollisionBlockPopup::textInputReturn - 0x2754a0
 CollisionBlockPopup::init - 0x273e80
+CollisionBlockPopup::onItemIDArrow - 0x274b60
 ColorAction::create - 0x2c5030
 ColorAction::setupFromString - 0x2c7390
 ColorActionSprite::init - 0x2c4e30
@@ -3333,6 +3334,8 @@ GJFollowCommandLayer::determineStartValues - 0x2c39d0
 GJFollowCommandLayer::onClose - 0x2c45a0
 GJFollowCommandLayer::textChanged - 0x2c3fe0
 GJFollowCommandLayer::init - 0x2c1fb0
+GJFollowCommandLayer::onUpdateGroupID - 0x2c33a0
+GJFollowCommandLayer::onUpdateGroupID2 - 0x2c3460
 GJFriendRequest::init - 0x549d80
 GJGameLevel::create - 0x5168e0
 GJGameLevel::create - 0x519030
@@ -3505,6 +3508,7 @@ GJPFollowCommandLayer::determineStartValues - 0x353270
 GJPFollowCommandLayer::onClose - 0x354000
 GJPFollowCommandLayer::textChanged - 0x353890
 GJPFollowCommandLayer::init - 0x351320
+GJPFollowCommandLayer::onUpdateGroupID - 0x352bb0
 GJPromoPopup::onExit - 0x2a3260
 GJPromoPopup::registerWithTouchDispatcher - 0x2a3370
 GJPromoPopup::keyBackClicked - 0x2a32a0
@@ -5037,6 +5041,9 @@ SetupCollisionTriggerPopup::determineStartValues - 0x383820
 SetupCollisionTriggerPopup::onClose - 0x383eb0
 SetupCollisionTriggerPopup::textChanged - 0x383bc0
 SetupCollisionTriggerPopup::init - 0x382240
+SetupCollisionTriggerPopup::onItemID2Arrow - 0x382f70
+SetupCollisionTriggerPopup::onItemIDArrow - 0x382eb0
+SetupCollisionTriggerPopup::onTargetIDArrow - 0x383030
 SetupCountTriggerPopup::determineStartValues - 0x2a8e10
 SetupCountTriggerPopup::onClose - 0x2a93a0
 SetupCountTriggerPopup::textChanged - 0x2a9140
@@ -5136,6 +5143,7 @@ SetupOpacityPopup::onClose - 0x58d80
 SetupOpacityPopup::textInputClosed - 0x58ae0
 SetupOpacityPopup::textChanged - 0x58b20
 SetupOpacityPopup::init - 0x57560
+SetupOpacityPopup::onTargetIDArrow - 0x581c0
 SetupOptionsTriggerPopup::onCustomToggleTriggerValue - 0x5cf620
 SetupOptionsTriggerPopup::init - 0x5ceaf0
 SetupPersistentItemTriggerPopup::init - 0x56c420
@@ -5165,6 +5173,8 @@ SetupRandTriggerPopup::determineStartValues - 0x5ce3b0
 SetupRandTriggerPopup::onClose - 0x5ce990
 SetupRandTriggerPopup::textChanged - 0x5ce6a0
 SetupRandTriggerPopup::init - 0x5cd0b0
+SetupRandTriggerPopup::onTargetID2Arrow - 0x5cdd00
+SetupRandTriggerPopup::onTargetIDArrow - 0x5cddc0
 SetupResetTriggerPopup::init - 0x566eb0
 SetupReverbPopup::onClose - 0x4a51d0
 SetupReverbPopup::init - 0x4a4a70
@@ -5267,6 +5277,7 @@ SetupTouchTogglePopup::determineStartValues - 0x2a6270
 SetupTouchTogglePopup::onClose - 0x2a65b0
 SetupTouchTogglePopup::textChanged - 0x2a6490
 SetupTouchTogglePopup::init - 0x2a51e0
+SetupTouchTogglePopup::onTargetIDArrow - 0x2a5dd0
 SetupTransformPopup::init - 0x4faa20
 SetupZoomTriggerPopup::determineStartValues - 0x30d1e0
 SetupZoomTriggerPopup::onClose - 0x30d1f0
