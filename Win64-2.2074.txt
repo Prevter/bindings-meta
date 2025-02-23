@@ -701,6 +701,7 @@ CustomizeObjectLayer::updateHSVButtons - 0xa8270
 CustomizeObjectLayer::updateSelected - 0xa9660
 CustomizeObjectSettingsPopup::onClose - 0xa9e50
 CustomizeObjectSettingsPopup::onCustomToggleTriggerValue - 0xa9da0
+CustomizeObjectSettingsPopup::init - 0xa99f0
 CustomListView::create - 0xaa010
 CustomListView::setupList - 0xab5c0
 CustomListView::getListCell - 0xaa140
@@ -3103,6 +3104,7 @@ SetFolderPopup::init - 0x294fd0
 SetFolderPopup::onSetFolderName - 0x295390
 SetGroupIDLayer::keyBackClicked - 0x3e62e0
 SetGroupIDLayer::textChanged - 0x3e4400
+SetGroupIDLayer::createTextInput - 0x3e34b0
 SetGroupIDLayer::init - 0x3e1260
 SetGroupIDLayer::onAddGroup - 0x3e52b0
 SetGroupIDLayer::onAddGroupParent - 0x3e5420

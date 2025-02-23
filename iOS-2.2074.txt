@@ -816,7 +816,9 @@ cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x3b5070
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x3b5508
 cocos2d::CCString::createWithData - 0x26800c
 cocos2d::CCString::getCString - 0x267ca4
+cocos2d::CCString::boolValue - 0x267e58
 cocos2d::CCString::intValue - 0x267da8
+cocos2d::CCString::floatValue - 0x267dec
 cocos2d::CCMenuItem::~CCMenuItem - 0x505dc
 cocos2d::CCMenuItem::activate - 0x506b4
 cocos2d::CCMenuItem::selected - 0x50630
@@ -2920,6 +2922,7 @@ PlayerObject::placeStreakPoint - 0x21e8b8
 PlayerObject::playDeathEffect - 0x5b138
 PlayerObject::playerDestroyed - 0x22853c
 PlayerObject::playingEndEffect - 0x22d27c
+PlayerObject::playSpawnEffect - 0x227ff8
 PlayerObject::playSpiderDashEffect - 0x225fe0
 PlayerObject::postCollision - 0x21f410
 PlayerObject::preCollision - 0x21f300
@@ -3598,6 +3601,7 @@ UILayer::editorPlaytest - 0x4d808
 UILayer::enableMenu - 0x4dc44
 UILayer::handleKeypress - 0x4d858
 UILayer::init - 0x4cc00
+UILayer::onCheck - 0x4d1b0
 UILayer::onPause - 0x4d164
 UILayer::refreshDpad - 0x4d47c
 UILayer::resetAllButtons - 0x4dcb4

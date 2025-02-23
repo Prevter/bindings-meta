@@ -1934,6 +1934,8 @@ SetupTriggerPopup::createToggleValueControlAdvanced - 0x1da73c
 SetupTriggerPopup::createValueControlAdvanced - 0x1d9550
 SetupTriggerPopup::getTriggerValue - 0x1db6b4
 SetupTriggerPopup::init - 0x1d5eb4
+SetupTriggerPopup::triggerArrowLeft - 0x1d91ac
+SetupTriggerPopup::triggerArrowRight - 0x1d92d8
 SetupTriggerPopup::updateValue - 0x1da380
 SetupTriggerPopup::updateValueControls - 0x1d9370
 SetupTriggerPopup::valueChanged - 0x1d7e68
@@ -3658,6 +3660,7 @@ LevelCell::onClick - 0x1ef99c
 LevelCell::onViewProfile - 0x1efb00
 LevelCell::updateCellMode - 0x1ec39c
 LevelEditorLayer::create - 0xc3090
+LevelEditorLayer::updateObjectLabel - 0xcf94c
 LevelEditorLayer::draw - 0xd9514
 LevelEditorLayer::postUpdate - 0xd6df4
 LevelEditorLayer::updateVisibility - 0xd04e0
@@ -3689,6 +3692,7 @@ LevelEditorLayer::getSFXIDs - 0xcf114
 LevelEditorLayer::getSongIDs - 0xcecb0
 LevelEditorLayer::handleAction - 0xca1b0
 LevelEditorLayer::init - 0xc3124
+LevelEditorLayer::objectAtPosition - 0xc8ab0
 LevelEditorLayer::onPlaytest - 0xd5d40
 LevelEditorLayer::onStopPlaytest - 0xd67f8
 LevelEditorLayer::processLoadedMoveActions - 0xa7448
@@ -4727,12 +4731,17 @@ SetGroupIDLayer::create - 0x2965a4
 SetGroupIDLayer::keyBackClicked - 0x29b16c
 SetGroupIDLayer::textInputClosed - 0x29aa40
 SetGroupIDLayer::textChanged - 0x29aa5c
+SetGroupIDLayer::createTextInput - 0x298718
 SetGroupIDLayer::init - 0x296704
 SetGroupIDLayer::onAddGroup - 0x298c74
 SetGroupIDLayer::onAddGroupParent - 0x298c7c
+SetGroupIDLayer::onArrow - 0x29a170
+SetGroupIDLayer::onArrowLeft - 0x29a100
+SetGroupIDLayer::onArrowRight - 0x29a138
 SetGroupIDLayer::onClose - 0x298444
 SetGroupIDLayer::onNextGroupID1 - 0x298c40
 SetGroupIDLayer::onRemoveFromGroup - 0x29ae48
+SetGroupIDLayer::updateGroupIDButtons - 0x299a60
 SetGroupIDLayer::updateGroupIDLabel - 0x29950c
 SetItemIDLayer::onClose - 0x8f4a0
 SetItemIDLayer::valueDidChange - 0x8f3ac
@@ -4797,6 +4806,9 @@ SetupCameraEdgePopup::determineStartValues - 0x4c63b8
 SetupCameraEdgePopup::onClose - 0x4c6600
 SetupCameraEdgePopup::textChanged - 0x4c6518
 SetupCameraEdgePopup::init - 0x4c54c0
+SetupCameraEdgePopup::onCameraEdge - 0x4c624c
+SetupCameraEdgePopup::onTargetIDArrow - 0x4c6094
+SetupCameraEdgePopup::onUnlockEdge - 0x4c633c
 SetupCameraGuidePopup::init - 0x4c2408
 SetupCameraModePopup::determineStartValues - 0x402fc0
 SetupCameraModePopup::onClose - 0x403274
@@ -4830,6 +4842,9 @@ SetupCountTriggerPopup::determineStartValues - 0x24f140
 SetupCountTriggerPopup::onClose - 0x24f618
 SetupCountTriggerPopup::textChanged - 0x24f3f4
 SetupCountTriggerPopup::init - 0x24de94
+SetupCountTriggerPopup::onItemIDArrow - 0x24eba4
+SetupCountTriggerPopup::onTargetCountArrow - 0x24ec4c
+SetupCountTriggerPopup::onTargetIDArrow - 0x24ecdc
 SetupDashRingPopup::init - 0x4c4750
 SetupEndPopup::determineStartValues - 0x57aac8
 SetupEndPopup::onClose - 0x57ad48
@@ -4881,6 +4896,9 @@ SetupInstantCountPopup::determineStartValues - 0x505b58
 SetupInstantCountPopup::onClose - 0x506090
 SetupInstantCountPopup::textChanged - 0x505e14
 SetupInstantCountPopup::init - 0x504958
+SetupInstantCountPopup::onTargetCountArrow - 0x5055c8
+SetupInstantCountPopup::onTargetID2Arrow - 0x505658
+SetupInstantCountPopup::onTargetIDArrow - 0x505520
 SetupInteractObjectPopup::onClose - 0x45904c
 SetupInteractObjectPopup::onPlusButton - 0x458f68
 SetupInteractObjectPopup::valueDidChange - 0x458fa0
@@ -4975,6 +4993,7 @@ SetupRotatePopup::onCustomToggleTriggerValue - 0x4d71b4
 SetupRotatePopup::init - 0x4d6c50
 SetupSequenceTriggerPopup::onCustomToggleTriggerValue - 0x430be8
 SetupSequenceTriggerPopup::init - 0x42f9c4
+SetupSequenceTriggerPopup::onSelect - 0x430ccc
 SetupSequenceTriggerPopup::updateGroupIDButtons - 0x4308b0
 SetupSFXEditPopup::init - 0x411118
 SetupSFXPopup::create - 0x40f2fc
@@ -5335,6 +5354,7 @@ TextGameObject::customObjectSetup - 0x4ef584
 TextGameObject::getSaveString - 0x4ef6f0
 TextGameObject::updateTextKerning - 0x4ef2d0
 TextGameObject::getTextKerning - 0x4efef4
+TextGameObject::updateTextObject - 0x4ef2d8
 TextStyleSection::createInstantSection - 0x3e4cd8
 TextStyleSection::init - 0x3e5004
 TimerTriggerGameObject::triggerObject - 0x18bdc8

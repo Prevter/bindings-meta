@@ -2002,6 +2002,8 @@ SetupTriggerPopup::createToggleValueControlAdvanced - 0x228d30
 SetupTriggerPopup::createValueControlAdvanced - 0x227b30
 SetupTriggerPopup::getTriggerValue - 0x229d20
 SetupTriggerPopup::init - 0x222f20
+SetupTriggerPopup::triggerArrowLeft - 0x2277b0
+SetupTriggerPopup::triggerArrowRight - 0x2278c0
 SetupTriggerPopup::updateValue - 0x2289d0
 SetupTriggerPopup::updateValueControls - 0x227950
 SetupTriggerPopup::valueChanged - 0x225210
@@ -3889,6 +3891,7 @@ LevelEditorLayer::getSFXIDs - 0xe9290
 LevelEditorLayer::getSongIDs - 0xe8d40
 LevelEditorLayer::handleAction - 0xe3140
 LevelEditorLayer::init - 0xdb280
+LevelEditorLayer::objectAtPosition - 0xe1870
 LevelEditorLayer::objectMoved - 0xea300
 LevelEditorLayer::onPlaytest - 0xf0f00
 LevelEditorLayer::onStopPlaytest - 0xf1ae0
@@ -4947,11 +4950,16 @@ SetGroupIDLayer::create - 0x2fe420
 SetGroupIDLayer::keyBackClicked - 0x303620
 SetGroupIDLayer::textInputClosed - 0x302ea0
 SetGroupIDLayer::textChanged - 0x302ee0
+SetGroupIDLayer::createTextInput - 0x300800
 SetGroupIDLayer::init - 0x2fe5f0
 SetGroupIDLayer::onAddGroup - 0x300d30
 SetGroupIDLayer::onAddGroupParent - 0x300d40
+SetGroupIDLayer::onArrow - 0x302410
+SetGroupIDLayer::onArrowLeft - 0x3023b0
+SetGroupIDLayer::onArrowRight - 0x3023e0
 SetGroupIDLayer::onNextGroupID1 - 0x300d00
 SetGroupIDLayer::onRemoveFromGroup - 0x3032f0
+SetGroupIDLayer::updateGroupIDButtons - 0x301c70
 SetGroupIDLayer::updateGroupIDLabel - 0x301720
 SetItemIDLayer::onClose - 0x9c7f0
 SetItemIDLayer::valueDidChange - 0x9c700
@@ -5015,6 +5023,9 @@ SetupCameraEdgePopup::determineStartValues - 0x5720f0
 SetupCameraEdgePopup::onClose - 0x572390
 SetupCameraEdgePopup::textChanged - 0x572280
 SetupCameraEdgePopup::init - 0x571060
+SetupCameraEdgePopup::onCameraEdge - 0x571f20
+SetupCameraEdgePopup::onTargetIDArrow - 0x571d40
+SetupCameraEdgePopup::onUnlockEdge - 0x572050
 SetupCameraGuidePopup::init - 0x56d690
 SetupCameraModePopup::determineStartValues - 0x496b80
 SetupCameraModePopup::onClose - 0x496e70
@@ -5048,6 +5059,9 @@ SetupCountTriggerPopup::determineStartValues - 0x2a8e10
 SetupCountTriggerPopup::onClose - 0x2a93a0
 SetupCountTriggerPopup::textChanged - 0x2a9140
 SetupCountTriggerPopup::init - 0x2a7950
+SetupCountTriggerPopup::onItemIDArrow - 0x2a87d0
+SetupCountTriggerPopup::onTargetCountArrow - 0x2a8890
+SetupCountTriggerPopup::onTargetIDArrow - 0x2a8940
 SetupDashRingPopup::init - 0x56ffe0
 SetupEndPopup::determineStartValues - 0x653460
 SetupEndPopup::onClose - 0x653780
@@ -5099,6 +5113,9 @@ SetupInstantCountPopup::determineStartValues - 0x5d1dc0
 SetupInstantCountPopup::onClose - 0x5d23f0
 SetupInstantCountPopup::textChanged - 0x5d2100
 SetupInstantCountPopup::init - 0x5d09c0
+SetupInstantCountPopup::onTargetCountArrow - 0x5d1780
+SetupInstantCountPopup::onTargetID2Arrow - 0x5d16c0
+SetupInstantCountPopup::onTargetIDArrow - 0x5d1830
 SetupInteractObjectPopup::onClose - 0x4f8bf0
 SetupInteractObjectPopup::onPlusButton - 0x4f8b00
 SetupInteractObjectPopup::valueDidChange - 0x4f8b40
@@ -5192,6 +5209,7 @@ SetupRotatePopup::onCustomToggleTriggerValue - 0x5854e0
 SetupRotatePopup::init - 0x584ec0
 SetupSequenceTriggerPopup::onCustomToggleTriggerValue - 0x4cb860
 SetupSequenceTriggerPopup::init - 0x4ca480
+SetupSequenceTriggerPopup::onSelect - 0x4cb950
 SetupSequenceTriggerPopup::updateGroupIDButtons - 0x4cb510
 SetupSFXEditPopup::init - 0x4a7b50
 SetupSFXPopup::pageChanged - 0x4a6f10
