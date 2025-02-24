@@ -1032,8 +1032,8 @@ EditorUI::dynamicGroupUpdate - 0x117000
 EditorUI::editGroup - 0x11d880
 EditorUI::editObject - 0x11a510
 EditorUI::editObjectSpecial - 0x11c4b0
-EditorUI::findSnapObject - 0x121690
 EditorUI::findSnapObject - 0x121790
+EditorUI::findSnapObject - 0x121690
 EditorUI::flipObjectsX - 0x11f0f0
 EditorUI::flipObjectsY - 0x11f2d0
 EditorUI::getCreateBtn - 0x10d2a0
