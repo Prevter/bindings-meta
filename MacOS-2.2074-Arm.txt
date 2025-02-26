@@ -1177,6 +1177,14 @@ DS_Dictionary::setIntegerForKey - 0x13a930
 DS_Dictionary::setStringForKey - 0x13b008
 DS_Dictionary::stepIntoSubDictWithKey - 0x138dc0
 DS_Dictionary::stepOutOfSubDict - 0x138ff0
+CCContentManager::sharedManager - 0x13ff04
+CCContentManager::addDict - 0x140068
+CCContentManager::addDictDS - 0x14022c
+CCContentManager::clearCache - 0x14042c
+CCContentManager::init - 0x13ff84
+ObjectDecoder::sharedDecoder - 0x690e28
+ObjectDecoder::getDecodedObject - 0x690ea0
+ObjectDecoder::init - 0x690e9c
 cocos2d::extension::CCControl::CCControl - 0x2d38b4
 cocos2d::extension::CCControl::~CCControl - 0x2d3b80
 cocos2d::extension::CCControl::init - 0x2d3a44
@@ -1197,9 +1205,6 @@ cocos2d::extension::CCControl::addTargetWithActionForControlEvents - 0x2d4060
 cocos2d::extension::CCControl::removeTargetWithActionForControlEvents - 0x2d4520
 cocos2d::extension::CCControl::getTouchLocation - 0x2d49b8
 cocos2d::extension::CCControl::isTouchInside - 0x2d4a04
-ObjectDecoder::sharedDecoder - 0x690e28
-ObjectDecoder::getDecodedObject - 0x690ea0
-ObjectDecoder::init - 0x690e9c
 cocos2d::extension::CCControlColourPicker::colourPicker - 0x2d7fe0
 cocos2d::extension::CCControlColourPicker::init - 0x2d7a70
 cocos2d::extension::CCControlColourPicker::ccTouchBegan - 0x2d81b8
