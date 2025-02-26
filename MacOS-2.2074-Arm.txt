@@ -3596,6 +3596,8 @@ LeaderboardsLayer::init - 0x45c030
 LeaderboardsLayer::onInfo - 0x45c5c0
 LeaderboardsLayer::selectLeaderboard - 0x45cc24
 LeaderboardsLayer::setupTabs - 0x45c848
+LevelAreaInnerLayer::create - 0x213514
+LevelAreaInnerLayer::scene - 0x2132c4
 LevelAreaInnerLayer::keyBackClicked - 0x21538c
 LevelAreaInnerLayer::dialogClosed - 0x215164
 LevelAreaInnerLayer::onExit - 0x21533c
