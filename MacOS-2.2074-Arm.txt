@@ -1256,7 +1256,11 @@ cocos2d::extension::CCHttpClient::lazyInitThreadSemphore - 0x3a0864
 cocos2d::ZipUtils::base64URLDecode - 0x1a9990
 cocos2d::ZipUtils::base64URLEncode - 0x1a9aa0
 cocos2d::ZipUtils::ccDeflateMemory - 0x1a8dd8
+cocos2d::ZipUtils::ccInflateMemory - 0x1a91b0
+cocos2d::ZipUtils::ccInflateMemoryWithHint - 0x1aa1b8
+cocos2d::ZipUtils::ccInflateMemoryWithHint - 0x1aa2e0
 cocos2d::ZipUtils::compressString - 0x1a8b18
+cocos2d::ZipUtils::decompressString2 - 0x1a8efc
 cocos2d::ZipUtils::decompressString - 0x1a921c
 cocos2d::extension::CCControlUtils::addSpriteToTargetWithPosAndAnchor - 0x3247f0
 cocos2d::extension::CCControlUtils::HSVfromRGB - 0x324868
@@ -2548,6 +2552,7 @@ FMODAudioEngine::setupAudioEngine - 0x352f40
 FMODAudioEngine::stopAllEffects - 0x353c3c
 FMODAudioEngine::stopAllMusic - 0x353f28
 FMODAudioEngine::stopAndGetFade - 0x35a2bc
+FMODAudioEngine::updateReverb - 0x353444
 FMODLevelVisualizer::create - 0x244748
 FMODLevelVisualizer::init - 0x2447d0
 FMODLevelVisualizer::updateVisualizer - 0x244c40

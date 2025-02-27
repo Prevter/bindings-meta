@@ -1760,6 +1760,7 @@ GJEffectManager::updateCountForItem - 0x25b120
 GJEffectManager::updateEffects - 0x254b10
 GJEffectManager::updatePulseEffects - 0x259e30
 GJEffectManager::updateSpawnTriggers - 0x25aa10
+GJEffectManager::updateTimer - 0x25b850
 GJEffectManager::updateTimers - 0x25b9e0
 GJGroundLayer::create - 0x276870
 GJGroundLayer::showGround - 0x2774c0
