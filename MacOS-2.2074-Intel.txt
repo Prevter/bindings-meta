@@ -1582,6 +1582,8 @@ GameObject::makeInvisible - 0x5a53a0
 GameObject::playDestroyObjectAnim - 0x24c560
 GameObject::playShineEffect - 0x5a5440
 GameObject::removeGlow - 0x58cb90
+GameObject::resetGroupDisabled - 0x591eb0
+GameObject::resetGroups - 0x5a66a0
 GameObject::setLastPosition - 0x5b2aa0
 GameObject::shouldShowPickupEffects - 0x24c330
 GameObject::spawnDefaultPickupParticle - 0x24c390
@@ -2104,6 +2106,9 @@ CreateParticlePopup::textInputClosed - 0x463ab0
 CreateParticlePopup::textChanged - 0x463af0
 CreateParticlePopup::init - 0x45be60
 CreateParticlePopup::onClose - 0x460450
+CreateParticlePopup::updateInputNodeStringForType - 0x462470
+CreateParticlePopup::updateParticleValueForType - 0x462960
+CreateParticlePopup::updateSliderForType - 0x462740
 CreatorLayer::create - 0x285610
 CreatorLayer::scene - 0x2854f0
 CreatorLayer::init - 0x2856f0
@@ -2473,6 +2478,7 @@ EditorUI::moveGamelayer - 0x2f800
 EditorUI::moveObject - 0x3ef90
 EditorUI::moveObjectCall - 0x49970
 EditorUI::moveObjectCall - 0x4a9d0
+EditorUI::onCopyState - 0x2c960
 EditorUI::onCreate - 0x2e600
 EditorUI::onCreateButton - 0x34d30
 EditorUI::onCreateObject - 0x35170
@@ -2483,6 +2489,7 @@ EditorUI::onDuplicate - 0x2b2e0
 EditorUI::onGroupSticky - 0xcf70
 EditorUI::onLockLayer - 0x2cc80
 EditorUI::onNewCustomItem - 0x30d30
+EditorUI::onPasteState - 0x2c9a0
 EditorUI::onPause - 0x2ad50
 EditorUI::onPlayback - 0xc930
 EditorUI::onPlaytest - 0xcb90
@@ -3886,11 +3893,13 @@ LevelEditorLayer::levelSettingsUpdated - 0xdf4f0
 LevelEditorLayer::addObjectToGroup - 0xef840
 LevelEditorLayer::addSpecial - 0xe0390
 LevelEditorLayer::addToUndoList - 0xe0210
+LevelEditorLayer::copyObjectState - 0xf2600
 LevelEditorLayer::createObject - 0xe0940
 LevelEditorLayer::createObjectsFromString - 0xdf9e0
 LevelEditorLayer::getLastObjectX - 0xef3e0
 LevelEditorLayer::getLevelString - 0xe3a60
 LevelEditorLayer::getNextFreeGroupID - 0xebbf0
+LevelEditorLayer::getNextFreeItemID - 0xebf10
 LevelEditorLayer::getSavedEditorPosition - 0xe9750
 LevelEditorLayer::getSavedEditorPositions - 0xe9790
 LevelEditorLayer::getSectionCount - 0xe9bb0
@@ -3902,6 +3911,8 @@ LevelEditorLayer::objectAtPosition - 0xe1870
 LevelEditorLayer::objectMoved - 0xea300
 LevelEditorLayer::onPlaytest - 0xf0f00
 LevelEditorLayer::onStopPlaytest - 0xf1ae0
+LevelEditorLayer::pasteAttributeState - 0xf2930
+LevelEditorLayer::pasteGroupState - 0xf2a30
 LevelEditorLayer::processLoadedMoveActions - 0xb7920
 LevelEditorLayer::recreateGroups - 0xef9c0
 LevelEditorLayer::removeObject - 0xe27e0

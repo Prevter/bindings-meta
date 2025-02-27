@@ -1519,6 +1519,8 @@ GameObject::isFacingLeft - 0x4ea7d0
 GameObject::isSettingsObject - 0x4ebf78
 GameObject::playDestroyObjectAnim - 0x1f9910
 GameObject::playShineEffect - 0x4df690
+GameObject::resetGroupDisabled - 0x4d9220
+GameObject::resetGroups - 0x4e0b1c
 GameObject::updateCustomScaleX - 0x4d922c
 GameObject::updateCustomScaleY - 0x4d928c
 GameObject::updateIsOriented - 0x4ea58c
@@ -2035,6 +2037,9 @@ CreateParticlePopup::textChanged - 0x3d3ba8
 CreateParticlePopup::init - 0x3ccd08
 CreateParticlePopup::onClose - 0x3d0ad8
 CreateParticlePopup::titleForParticleValue - 0x3e51c0
+CreateParticlePopup::updateInputNodeStringForType - 0x3d295c
+CreateParticlePopup::updateParticleValueForType - 0x3d2e28
+CreateParticlePopup::updateSliderForType - 0x3d2c3c
 CreatorLayer::create - 0x22ec24
 CreatorLayer::scene - 0x22eb40
 CreatorLayer::init - 0x22ece0
@@ -2388,6 +2393,7 @@ EditorUI::moveForCommand - 0x435fc
 EditorUI::moveGamelayer - 0x2f18c
 EditorUI::moveObject - 0x399d4
 EditorUI::moveObjectCall - 0x437a8
+EditorUI::onCopyState - 0xd7240
 EditorUI::onCreate - 0x2dfac
 EditorUI::onCreateButton - 0x342c0
 EditorUI::onCreateObject - 0x34758
@@ -3061,6 +3067,7 @@ GJBaseGameLayer::processOptionsTrigger - 0x107a5c
 GJBaseGameLayer::processQueuedButtons - 0x113650
 GJBaseGameLayer::queueButton - 0x1134ec
 GJBaseGameLayer::refreshKeyframeAnims - 0xecb14
+GJBaseGameLayer::removeFromGroups - 0x107f34
 GJBaseGameLayer::removeObjectFromSection - 0x109388
 GJBaseGameLayer::removeTemporaryParticles - 0x11e718
 GJBaseGameLayer::resetActiveEnterEffects - 0xed248
@@ -3692,10 +3699,12 @@ LevelEditorLayer::addKeyframe - 0xd7d8c
 LevelEditorLayer::levelSettingsUpdated - 0xc699c
 LevelEditorLayer::addObjectToGroup - 0xd494c
 LevelEditorLayer::addSpecial - 0xc7674
+LevelEditorLayer::copyObjectState - 0xd7240
 LevelEditorLayer::createObject - 0xc7be8
 LevelEditorLayer::createObjectsFromString - 0xc6e60
 LevelEditorLayer::getLastObjectX - 0xd44fc
 LevelEditorLayer::getNextFreeGroupID - 0xd1514
+LevelEditorLayer::getNextFreeItemID - 0xd1810
 LevelEditorLayer::getSFXIDs - 0xcf114
 LevelEditorLayer::getSongIDs - 0xcecb0
 LevelEditorLayer::handleAction - 0xca1b0
@@ -3703,6 +3712,8 @@ LevelEditorLayer::init - 0xc3124
 LevelEditorLayer::objectAtPosition - 0xc8ab0
 LevelEditorLayer::onPlaytest - 0xd5d40
 LevelEditorLayer::onStopPlaytest - 0xd67f8
+LevelEditorLayer::pasteAttributeState - 0xd7594
+LevelEditorLayer::pasteGroupState - 0xd769c
 LevelEditorLayer::processLoadedMoveActions - 0xa7448
 LevelEditorLayer::removeObject - 0xc98e4
 LevelEditorLayer::removeSpecial - 0xc99a4

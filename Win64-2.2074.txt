@@ -677,6 +677,11 @@ CreateParticlePopup::textInputClosed - 0x8b790
 CreateParticlePopup::textChanged - 0x41a6b0
 CreateParticlePopup::init - 0x414370
 CreateParticlePopup::onClose - 0x41cf20
+CreateParticlePopup::particleValueIsInt - 0x41c920
+CreateParticlePopup::updateInputNodeStringForType - 0x41c990
+CreateParticlePopup::updateParticleValueForType - 0x41ba90
+CreateParticlePopup::updateSliderForType - 0x41c700
+CreateParticlePopup::valueForParticleValue - 0x41b210
 CreatorLayer::scene - 0x9b9a0
 CreatorLayer::init - 0x9bb10
 CreatorLayer::keyBackClicked - 0x9f2b0
@@ -2317,6 +2322,7 @@ LevelEditorLayer::checkpointActivated - 0x2d87f0
 LevelEditorLayer::addKeyframe - 0x2d9160
 LevelEditorLayer::levelSettingsUpdated - 0x2cb030
 LevelEditorLayer::addSpecial - 0x2cf4a0
+LevelEditorLayer::applyGroupState - 0x2d8d60
 LevelEditorLayer::copyObjectState - 0x2d8bc0
 LevelEditorLayer::createObject - 0x2cbf90
 LevelEditorLayer::createObjectsFromString - 0x2cb920
