@@ -4616,6 +4616,7 @@ SecretGame01Layer::gameStep02 - 0x3dc890
 SecretGame01Layer::getCountForDifficulty - 0x3dc418
 SecretGame01Layer::getFrameForDifficulty - 0x3dc440
 SecretGame01Layer::getRowsForDifficulty - 0x3dc3f4
+SecretGame01Layer::getTimeForDifficulty - 0x3dc504
 SecretGame01Layer::onSelectButton - 0x3dc528
 SecretGame01Layer::resetGame - 0x3db904
 SecretGame01Layer::resetGameTimer - 0x3dc9d8
