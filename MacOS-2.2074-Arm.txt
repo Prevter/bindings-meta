@@ -627,6 +627,7 @@ cocos2d::CCOrbitCamera::update - 0x2e853c
 cocos2d::CCOrbitCamera::startWithTarget - 0x2e82a8
 cocos2d::CCMouseDispatcher::dispatchScrollMSG - 0x4b0cb4
 cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x3dd8b8
+cocos2d::CCTexture2D::setDefaultAlphaPixelFormat - 0x3d683c
 cocos2d::CCTexture2D::initPremultipliedATextureWithImage - 0x3d590c
 cocos2d::CCTexture2D::initWithData - 0x3d557c
 cocos2d::CCTexture2D::initWithETCFile - 0x3d65b4
@@ -720,6 +721,7 @@ cocos2d::CCDirector::removeStatsLabel - 0x3e0734
 cocos2d::CCDirector::replaceScene - 0x3e00fc
 cocos2d::CCDirector::showFPSLabel - 0x3df4dc
 cocos2d::CCDirector::toggleShowFPS - 0x3df778
+cocos2d::CCDirector::updateContentScale - 0x3dfb18
 cocos2d::CCDirector::willSwitchToScene - 0x3dff18
 cocos2d::CCDirector::init - 0x3de7f4
 cocos2d::CCDirector::getScheduler - 0x3e0870
@@ -1050,6 +1052,7 @@ cocos2d::CCSpriteFrame::setOffsetInPixels - 0x2d9fec
 cocos2d::CCSpriteFrame::setRect - 0x2d9e34
 cocos2d::CCSpriteFrame::setRectInPixels - 0x2d9ed0
 cocos2d::CCSpriteFrame::setTexture - 0x2d9df0
+cocos2d::CCSpriteFrame::~CCSpriteFrame - 0x2d9be8
 cocos2d::CCSpriteFrame::copyWithZone - 0x2d9cd8
 cocos2d::CCSpriteFrameCache::sharedSpriteFrameCache - 0x29eb7c
 cocos2d::CCSpriteFrameCache::addSpriteFrame - 0x29fe38
