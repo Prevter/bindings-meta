@@ -2326,6 +2326,7 @@ LevelEditorLayer::addSpecial - 0x2cf4a0
 LevelEditorLayer::applyGroupState - 0x2d8d60
 LevelEditorLayer::copyObjectState - 0x2d8bc0
 LevelEditorLayer::createObject - 0x2cbf90
+LevelEditorLayer::createObjectsFromSetup - 0x2cb110
 LevelEditorLayer::createObjectsFromString - 0x2cb920
 LevelEditorLayer::dirtifyTriggers - 0x22b740
 LevelEditorLayer::getLastObjectX - 0x2d5fd0

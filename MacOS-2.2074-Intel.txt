@@ -3902,6 +3902,7 @@ LevelEditorLayer::addSpecial - 0xe0390
 LevelEditorLayer::addToUndoList - 0xe0210
 LevelEditorLayer::copyObjectState - 0xf2600
 LevelEditorLayer::createObject - 0xe0940
+LevelEditorLayer::createObjectsFromSetup - 0xdd250
 LevelEditorLayer::createObjectsFromString - 0xdf9e0
 LevelEditorLayer::getLastObjectX - 0xef3e0
 LevelEditorLayer::getLevelString - 0xe3a60
