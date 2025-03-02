@@ -1693,6 +1693,7 @@ GJBaseGameLayer::teleportPlayer - 0x20aa80
 GJBaseGameLayer::toggleAudioVisualizer - 0x242550
 GJBaseGameLayer::toggleDualMode - 0x2113f0
 GJBaseGameLayer::toggleFlipped - 0x240240
+GJBaseGameLayer::toggleGroup - 0x21e810
 GJBaseGameLayer::triggerGradientCommand - 0x21a3a0
 GJBaseGameLayer::tryGetMainObject - 0x21f170
 GJBaseGameLayer::tryGetObject - 0x21f1e0
