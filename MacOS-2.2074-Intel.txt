@@ -1102,7 +1102,6 @@ cocos2d::CCSpriteFrame::setOffsetInPixels - 0x344d00
 cocos2d::CCSpriteFrame::setRect - 0x344a90
 cocos2d::CCSpriteFrame::setRectInPixels - 0x344b70
 cocos2d::CCSpriteFrame::setTexture - 0x344a50
-cocos2d::CCSpriteFrame::~CCSpriteFrame - 0x344810
 cocos2d::CCSpriteFrame::copyWithZone - 0x3448f0
 cocos2d::CCSpriteFrameCache::sharedSpriteFrameCache - 0x307a40
 cocos2d::CCSpriteFrameCache::addSpriteFrame - 0x308cb0
@@ -4422,6 +4421,7 @@ OptionsLayer::onAccount - 0x784bf0
 OptionsLayer::onHelp - 0x784c10
 OptionsLayer::onOptions - 0x784c30
 OptionsLayer::onSecretVault - 0x784f20
+OptionsLayer::onSoundtracks - 0x784c90
 OptionsLayer::onSupport - 0x784cb0
 OptionsLayer::sfxSliderChanged - 0x7851b0
 OptionsLayer::tryEnableRecord - 0x785540
