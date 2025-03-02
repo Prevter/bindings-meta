@@ -1057,7 +1057,9 @@ cocos2d::CCSpriteFrame::copyWithZone - 0x2d9cd8
 cocos2d::CCSpriteFrameCache::sharedSpriteFrameCache - 0x29eb7c
 cocos2d::CCSpriteFrameCache::addSpriteFrame - 0x29fe38
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithDictionary - 0x29ee50
+cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x29f928
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x29f998
+cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x29f8e0
 cocos2d::CCSpriteFrameCache::removeSpriteFrameByName - 0x2a0020
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x2a0b38
 cocos2d::CCString::createWithData - 0x6a8b3c
