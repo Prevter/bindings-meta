@@ -4536,6 +4536,7 @@ PlayerObject::init - 0x3e8970
 PlayerObject::isFlying - 0x3efb00
 PlayerObject::isInBasicMode - 0x3fcbc0
 PlayerObject::isInNormalMode - 0x3ee1c0
+PlayerObject::levelFlipping - 0x3efb30
 PlayerObject::levelWillFlip - 0x3f1930
 PlayerObject::loadFromCheckpoint - 0x40a910
 PlayerObject::lockPlayer - 0x408fe0

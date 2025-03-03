@@ -2892,6 +2892,7 @@ PlayerObject::hitGround - 0x3861a0
 PlayerObject::incrementJumps - 0x376e10
 PlayerObject::init - 0x370a00
 PlayerObject::levelFlipFinished - 0x3759e0
+PlayerObject::levelFlipping - 0x385760
 PlayerObject::loadFromCheckpoint - 0x38bc30
 PlayerObject::lockPlayer - 0x389540
 PlayerObject::placeStreakPoint - 0x38a8f0
