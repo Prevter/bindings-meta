@@ -1943,7 +1943,9 @@ CharacterColorPage::init - 0x646910
 CharacterColorPage::registerWithTouchDispatcher - 0x6488c0
 CharacterColorPage::keyBackClicked - 0x648820
 CharacterColorPage::show - 0x648690
+CharacterColorPage::activeColorForMode - 0x6485e0
 CharacterColorPage::colorForIndex - 0x648300
+CharacterColorPage::createColorMenu - 0x6479b0
 CharacterColorPage::offsetForIndex - 0x648570
 CharacterColorPage::onClose - 0x647590
 CharacterColorPage::onMode - 0x647690
@@ -3405,6 +3407,7 @@ GJGarageLayer::onSelect - 0x35a860
 GJGarageLayer::onSelectTab - 0x359430
 GJGarageLayer::onShards - 0x358a80
 GJGarageLayer::onShop - 0x358a20
+GJGarageLayer::onSpecial - 0x35a790
 GJGarageLayer::onToggleItem - 0x35b0c0
 GJGarageLayer::playRainbowEffect - 0x35b4b0
 GJGarageLayer::selectTab - 0x3595c0

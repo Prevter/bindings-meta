@@ -1880,12 +1880,15 @@ CharacterColorPage::init - 0x56ef58
 CharacterColorPage::registerWithTouchDispatcher - 0x570eb4
 CharacterColorPage::keyBackClicked - 0x570e08
 CharacterColorPage::show - 0x570c80
+CharacterColorPage::activeColorForMode - 0x570bac
 CharacterColorPage::createColorMenu - 0x56ffac
 CharacterColorPage::onClose - 0x56fb64
 CharacterColorPage::onMode - 0x56fc80
 CharacterColorPage::onPlayerColor - 0x570904
 CharacterColorPage::toggleGlow - 0x570384
 CharacterColorPage::toggleShip - 0x56fbb8
+CharacterColorPage::updateColorMode - 0x5703bc
+CharacterColorPage::updateIconColors - 0x56fe6c
 CheckpointGameObject::init - 0x180db0
 CheckpointGameObject::setupCustomSprites - 0x1811f0
 CheckpointGameObject::resetObject - 0x18256c
@@ -3226,6 +3229,7 @@ GJGarageLayer::onSelect - 0x2edf90
 GJGarageLayer::onSelectTab - 0x2ecc08
 GJGarageLayer::onShards - 0x2ec208
 GJGarageLayer::onShop - 0x2ec1a8
+GJGarageLayer::onSpecial - 0x2ededc
 GJGarageLayer::playRainbowEffect - 0x2ee9a4
 GJGarageLayer::selectTab - 0x2ecd78
 GJGarageLayer::setupIconSelect - 0x2eb53c

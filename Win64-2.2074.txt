@@ -455,12 +455,14 @@ ChanceTriggerGameObject::remapChanceObjects - 0x49b580
 CharacterColorPage::init - 0x87f30
 CharacterColorPage::registerWithTouchDispatcher - 0x425d0
 CharacterColorPage::keyBackClicked - 0x8a7a0
+CharacterColorPage::activeColorForMode - 0x89440
 CharacterColorPage::createColorMenu - 0x88e50
 CharacterColorPage::onClose - 0x8a760
 CharacterColorPage::onMode - 0x89550
 CharacterColorPage::onPlayerColor - 0x89d60
 CharacterColorPage::toggleGlow - 0x88da0
 CharacterColorPage::toggleShip - 0x88c80
+CharacterColorPage::updateColorMode - 0x897f0
 CharacterColorPage::updateIconColors - 0x8a540
 CheckpointGameObject::init - 0x4a1240
 CheckpointGameObject::setupCustomSprites - 0x4a1680
@@ -1833,6 +1835,7 @@ GJGarageLayer::onSelect - 0x26f890
 GJGarageLayer::onSelectTab - 0x26e6c0
 GJGarageLayer::onShards - 0x271420
 GJGarageLayer::onShop - 0x2716f0
+GJGarageLayer::onSpecial - 0x270120
 GJGarageLayer::onToggleItem - 0x26ff30
 GJGarageLayer::playRainbowEffect - 0x271230
 GJGarageLayer::selectTab - 0x26e6f0
@@ -2620,6 +2623,7 @@ MenuLayer::firstNetworkTest - 0x320430
 MenuLayer::onAchievements - 0x320960
 MenuLayer::onCreator - 0x320e70
 MenuLayer::onDaily - 0x3201e0
+MenuLayer::onDiscord - 0x320860
 MenuLayer::onGarage - 0x320f00
 MenuLayer::onMoreGames - 0x320880
 MenuLayer::onMyProfile - 0x320720
@@ -2629,6 +2633,8 @@ MenuLayer::onPlay - 0x320b10
 MenuLayer::onQuit - 0x3210d0
 MenuLayer::onRobTop - 0x3207c0
 MenuLayer::onStats - 0x320d50
+MenuLayer::onTwitch - 0x320840
+MenuLayer::onYouTube - 0x320820
 MenuLayer::openOptions - 0x320bd0
 MenuLayer::showTOS - 0x320600
 MenuLayer::updateUserProfileButton - 0x320330
