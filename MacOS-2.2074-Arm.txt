@@ -4033,6 +4033,8 @@ MenuLayer::endGame - 0x30f72c
 MenuLayer::onAchievements - 0x30eaa8
 MenuLayer::onCreator - 0x30ea2c
 MenuLayer::onDaily - 0x30f028
+MenuLayer::onDiscord - 0x30ed18
+MenuLayer::onFacebook - 0x30ec88
 MenuLayer::onGarage - 0x30e9b0
 MenuLayer::onGooglePlayGames - 0x30f23c
 MenuLayer::onMoreGames - 0x30ed3c
@@ -4045,6 +4047,9 @@ MenuLayer::onQuit - 0x30edc0
 MenuLayer::onRobTop - 0x30ec64
 MenuLayer::onStats - 0x30eb40
 MenuLayer::onTrailer - 0x30f470
+MenuLayer::onTwitch - 0x30ecf4
+MenuLayer::onTwitter - 0x30ecac
+MenuLayer::onYouTube - 0x30ecd0
 MenuLayer::openOptions - 0x30f360
 MenuLayer::showGCQuestion - 0x30f144
 MenuLayer::showTOS - 0x30f044
