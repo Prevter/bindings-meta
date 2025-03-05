@@ -171,6 +171,7 @@ GameObject::addGlow - 0x18af60
 GameObject::commonSetup - 0x18ad70
 GameObject::copyGroups - 0x1999c0
 GameObject::createAndAddParticle - 0x195ba0
+GameObject::createGroupContainer - 0x199740
 GameObject::determineSlopeDirection - 0x199340
 GameObject::duplicateValues - 0x19ee40
 GameObject::editorColorForMode - 0x19e0a0
@@ -180,6 +181,7 @@ GameObject::isFacingDown - 0x19e990
 GameObject::isFacingLeft - 0x19ea50
 GameObject::isSpawnableTrigger - 0x19f730
 GameObject::isTrigger - 0x19f2c0
+GameObject::loadGroupsFromString - 0x199b50
 GameObject::playDestroyObjectAnim - 0x1a7520
 GameObject::playPickupAnimation - 0x1a7040
 GameObject::playPickupAnimation - 0x1a6f50
