@@ -5431,6 +5431,8 @@ TriggerControlGameObject::updateTriggerControlFrame - 0x196494
 TutorialLayer::init - 0x42e988
 TutorialLayer::keyBackClicked - 0x42f414
 TutorialLayer::loadPage - 0x42ef60
+TutorialLayer::onClose - 0x42ee10
+TutorialLayer::onNext - 0x42eea4
 TutorialPopup::keyBackClicked - 0x4f1a04
 TutorialPopup::show - 0x4f1ad8
 TutorialPopup::init - 0x4f17a0
