@@ -1525,6 +1525,7 @@ GameObject::init - 0x4d7914
 GameObject::isFacingDown - 0x4ea740
 GameObject::isFacingLeft - 0x4ea7d0
 GameObject::isSettingsObject - 0x4ebf78
+GameObject::isTrigger - 0x4dca68
 GameObject::playDestroyObjectAnim - 0x1f9910
 GameObject::playShineEffect - 0x4df690
 GameObject::resetGroupDisabled - 0x4d9220
@@ -1573,6 +1574,7 @@ EffectGameObject::canBeOrdered - 0x16baec
 EffectGameObject::getObjectLabel - 0x199b10
 EffectGameObject::setObjectLabel - 0x199b18
 EffectGameObject::stateSensitiveOff - 0x16b578
+EffectGameObject::setTargetID - 0x157c40
 AdvancedFollowTriggerObject::customObjectSetup - 0x15ee0c
 AdvancedFollowTriggerObject::getSaveString - 0x157e00
 AdvancedFollowEditObject::customObjectSetup - 0x160b78
@@ -3225,11 +3227,13 @@ GJGarageLayer::onArrow - 0x2ecc3c
 GJGarageLayer::onBack - 0x2ec048
 GJGarageLayer::onInfo - 0x2ec28c
 GJGarageLayer::onNavigate - 0x2ed4c8
+GJGarageLayer::onPaint - 0x2ec234
 GJGarageLayer::onSelect - 0x2edf90
 GJGarageLayer::onSelectTab - 0x2ecc08
 GJGarageLayer::onShards - 0x2ec208
 GJGarageLayer::onShop - 0x2ec1a8
 GJGarageLayer::onSpecial - 0x2ededc
+GJGarageLayer::onToggleItem - 0x2ee60c
 GJGarageLayer::playRainbowEffect - 0x2ee9a4
 GJGarageLayer::selectTab - 0x2ecd78
 GJGarageLayer::setupIconSelect - 0x2eb53c
@@ -3661,6 +3665,7 @@ LevelBrowserLayer::FLAlert_Clicked - 0x3ec7a4
 LevelBrowserLayer::setIDPopupClosed - 0x3ec01c
 LevelBrowserLayer::updateResultArray - 0x3ecf38
 LevelBrowserLayer::cellPerformedAction - 0x3eccf0
+LevelBrowserLayer::getItemsMatchingSearch - 0x3eabe4
 LevelBrowserLayer::getSearchTitle - 0x3eb248
 LevelBrowserLayer::init - 0x3e66c8
 LevelBrowserLayer::loadPage - 0x3e99f0
@@ -3673,6 +3678,7 @@ LevelBrowserLayer::onNextPage - 0x3e8068
 LevelBrowserLayer::onPrevPage - 0x3e8034
 LevelBrowserLayer::onRefresh - 0x3e909c
 LevelBrowserLayer::onRemoveAllFavorites - 0x3e8b28
+LevelBrowserLayer::onSaved - 0x3e8e64
 LevelBrowserLayer::onSearch - 0x3e96b4
 LevelBrowserLayer::setupLevelBrowser - 0x3eafb8
 LevelBrowserLayer::show - 0x3ece8c
@@ -4151,6 +4157,7 @@ MusicDownloadManager::sharedState - 0x4c6c2c
 MusicDownloadManager::init - 0x4c7abc
 MusicDownloadManager::addDLToActive - 0x4cba2c
 MusicDownloadManager::clearSong - 0x4cae00
+MusicDownloadManager::clearUnusedSongs - 0x4cb000
 MusicDownloadManager::createSongsInfo - 0x4c998c
 MusicDownloadManager::dataLoaded - 0x4cc790
 MusicDownloadManager::deleteSong - 0x4cada0
