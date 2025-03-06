@@ -1759,6 +1759,7 @@ CCLightStrip::create - 0x451a40
 CCLightStrip::draw - 0x452008
 CCLightStrip::updateTweenAction - 0x452160
 CCLightStrip::init - 0x451ef0
+CCMenuItemSpriteExtra::CCMenuItemSpriteExtra - 0x4bbf4
 CCMenuItemSpriteExtra::create - 0x2105c0
 CCMenuItemSpriteExtra::activate - 0x210804
 CCMenuItemSpriteExtra::selected - 0x210964

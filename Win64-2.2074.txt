@@ -374,6 +374,7 @@ CCLightFlash::removeLights - 0x43c20
 CCLightFlash::showFlash - 0x438e0
 CCLightStrip::draw - 0x43cb0
 CCLightStrip::updateTweenAction - 0x43e70
+CCMenuItemSpriteExtra::CCMenuItemSpriteExtra - 0x449f0
 CCMenuItemSpriteExtra::create - 0x44b40
 CCMenuItemSpriteExtra::activate - 0x44d40
 CCMenuItemSpriteExtra::selected - 0x44e50
