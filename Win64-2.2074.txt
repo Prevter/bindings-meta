@@ -2631,6 +2631,7 @@ MenuLayer::onFacebook - 0x3207e0
 MenuLayer::onGarage - 0x320f00
 MenuLayer::onMoreGames - 0x320880
 MenuLayer::onMyProfile - 0x320720
+MenuLayer::onNewgrounds - 0x320f90
 MenuLayer::onOptions - 0x320bb0
 MenuLayer::onOptionsInstant - 0x320bc0
 MenuLayer::onPlay - 0x320b10

@@ -4237,6 +4237,8 @@ MenuLayer::endGame - 0x37f070
 MenuLayer::onAchievements - 0x37e370
 MenuLayer::onCreator - 0x37e2e0
 MenuLayer::onDaily - 0x37e8b0
+MenuLayer::onDiscord - 0x37e5a0
+MenuLayer::onFacebook - 0x37e520
 MenuLayer::onGarage - 0x37e250
 MenuLayer::onMoreGames - 0x37e5c0
 MenuLayer::onMyProfile - 0x37e710
@@ -4247,6 +4249,9 @@ MenuLayer::onQuit - 0x37e640
 MenuLayer::onRobTop - 0x37e500
 MenuLayer::onStats - 0x37e3f0
 MenuLayer::onTrailer - 0x37ed80
+MenuLayer::onTwitch - 0x37e580
+MenuLayer::onTwitter - 0x37e540
+MenuLayer::onYouTube - 0x37e560
 MenuLayer::showGCQuestion - 0x37e9f0
 MenuLayer::videoOptionsOpened - 0x37ecd0
 MessagesProfilePage::create - 0x21ba30
@@ -5652,6 +5657,8 @@ TriggerControlGameObject::updateTriggerControlFrame - 0x1ddbe0
 TutorialLayer::init - 0x4c9280
 TutorialLayer::keyBackClicked - 0x4c9cc0
 TutorialLayer::loadPage - 0x4c9800
+TutorialLayer::onClose - 0x4c96e0
+TutorialLayer::onNext - 0x4c9760
 TutorialPopup::keyBackClicked - 0x5bbe00
 TutorialPopup::show - 0x5bbed0
 TutorialPopup::init - 0x5bbba0
