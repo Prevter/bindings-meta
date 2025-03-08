@@ -2509,6 +2509,7 @@ EditorUI::onSelectBuildTab - 0x34310
 EditorUI::onSettings - 0x2b270
 EditorUI::onStopPlaytest - 0xcdd0
 EditorUI::onUngroupSticky - 0xcfc0
+EditorUI::onUpdateDeleteFilter - 0x32290
 EditorUI::pasteObjects - 0x3ac10
 EditorUI::playtestStopped - 0x3df80
 EditorUI::processSelectObjects - 0x3d880

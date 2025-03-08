@@ -1093,6 +1093,7 @@ EditorUI::onSettings - 0xe0350
 EditorUI::onStopPlaytest - 0x110d40
 EditorUI::onTargetIDChange - 0x120860
 EditorUI::onUngroupSticky - 0x111130
+EditorUI::onUpdateDeleteFilter - 0xe5e30
 EditorUI::pasteObjects - 0x111d10
 EditorUI::playtestStopped - 0x110d80
 EditorUI::processSelectObjects - 0x110060
