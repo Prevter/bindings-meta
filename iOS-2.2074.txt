@@ -2400,6 +2400,7 @@ GJMessagePopup::uploadActionFinished - 0x2db51c
 GJMessagePopup::uploadActionFailed - 0x2db640
 GJMessagePopup::onClosePopup - 0x2db6dc
 GJMessagePopup::FLAlert_Clicked - 0x2db774
+GJMessagePopup::loadFromGJMessage - 0x2da894
 GJMGLayer::draw - 0x31548
 GJMGLayer::showGround - 0x3153c
 GJMoreGamesLayer::customSetup - 0x6911c

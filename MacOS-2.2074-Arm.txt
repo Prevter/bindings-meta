@@ -108,6 +108,7 @@ cocos2d::CCNode::convertToNodeSpace - 0x20e94c
 cocos2d::CCNode::convertToWorldSpace - 0x20e994
 cocos2d::CCNode::convertTouchToNodeSpace - 0x20eaf8
 cocos2d::CCNode::description - 0x20cc04
+cocos2d::CCNode::pauseSchedulerAndActions - 0x20dc28
 cocos2d::CCNode::resumeSchedulerAndActions - 0x20da08
 cocos2d::CCNode::runAction - 0x20dd34
 cocos2d::CCNode::schedule - 0x20dee8
