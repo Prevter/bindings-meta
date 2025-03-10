@@ -265,8 +265,12 @@ cocos2d::CCScene::getHighestChildZ - 0x24028c
 cocos2d::CCScene::CCScene - 0x2508a4
 cocos2d::CCScene::~CCScene - 0x23ac80
 cocos2d::CCScene::init - 0x2401c0
+cocos2d::CCSet::CCSet - 0x1af6b0
+cocos2d::CCSet::~CCSet - 0x1af7e8
+cocos2d::CCSet::addObject - 0x1af93c
 cocos2d::CCSet::begin - 0x1afa04
 cocos2d::CCSet::containsObject - 0x1af9b4
+cocos2d::CCSet::copy - 0x1af8e4
 cocos2d::CCSet::end - 0x1afa10
 cocos2d::CCSet::acceptVisitor - 0x1af8cc
 cocos2d::CCShaderCache::sharedShaderCache - 0x12b5e4
@@ -536,6 +540,7 @@ cocos2d::CCLayerGradient::getVector - 0x14d9d8
 cocos2d::CCLayerGradient::setVector - 0x14d9a8
 cocos2d::CCLayerGradient::setCompressedInterpolation - 0x14da5c
 cocos2d::CCLayerGradient::isCompressedInterpolation - 0x14da54
+cocos2d::CCTargetedTouchHandler::getClaimedTouches - 0x10540
 cocos2d::CCTexture2D::initWithData - 0x1307ac
 cocos2d::CCTexture2D::initWithImage - 0x130a5c
 cocos2d::CCTexture2D::setAliasTexParameters - 0x1311e0
@@ -754,6 +759,7 @@ cocos2d::CCAnimation::copyWithZone - 0x1a7710
 cocos2d::CCAnimation::getDuration - 0x1a7704
 cocos2d::CCApplication::sharedApplication - 0x1af428
 cocos2d::CCApplication::openURL - 0x1af380
+cocos2d::CCArray::createWithObject - 0x249270
 cocos2d::CCArray::insertObject - 0x2494f4
 cocos2d::CCDictionary::create - 0x41c0c4
 cocos2d::CCDictionary::createWithContentsOfFile - 0x41c1e0
@@ -1192,6 +1198,7 @@ GameObject::makeInvisible - 0x25b45c
 GameObject::playDestroyObjectAnim - 0x349078
 GameObject::playShineEffect - 0x25b4d8
 GameObject::setLastPosition - 0x26167c
+GameObject::updateBlendMode - 0x25be2c
 GameObject::updateCustomScaleX - 0x25529c
 GameObject::updateCustomScaleY - 0x2552fc
 GameObject::updateIsOriented - 0x260be4
@@ -1302,8 +1309,16 @@ BoomScrollLayer::ccTouchEnded - 0x12faa4
 BoomScrollLayer::ccTouchCancelled - 0x12f780
 BoomScrollLayer::registerWithTouchDispatcher - 0x12f648
 BoomScrollLayer::init - 0x12e320
+BoomScrollLayer::instantMoveToPage - 0x12f2c0
+BoomScrollLayer::moveToPage - 0x12f398
+BoomScrollLayer::moveToPageEnded - 0x12f234
+BoomScrollLayer::quickUpdate - 0x12f5f0
+BoomScrollLayer::repositionPagesLooped - 0x12e79c
 BoomScrollLayer::setPagesIndicatorPosition - 0x12e65c
+BoomScrollLayer::setupDynamicScrolling - 0x12eaac
 BoomScrollLayer::togglePageIndicators - 0x12f170
+BoomScrollLayer::updateDots - 0x12ed10
+BoomScrollLayer::updatePages - 0x12e684
 BrowseSmartTemplateLayer::keyBackClicked - 0x76884
 BrowseSmartTemplateLayer::onBack - 0x768a8
 BrowseSmartKeyLayer::onBack - 0x779e0
@@ -1415,6 +1430,7 @@ CCTextInputNode::keyboardWillHide - 0x170cb8
 CCTextInputNode::onTextFieldInsertText - 0x170e00
 CCTextInputNode::onTextFieldAttachWithIME - 0x1711fc
 CCTextInputNode::onTextFieldDetachWithIME - 0x171468
+CCTextInputNode::addTextArea - 0x170150
 CCTextInputNode::getString - 0x1705d4
 CCTextInputNode::refreshLabel - 0x170608
 CCTextInputNode::setAllowedChars - 0x1704b4
@@ -1842,6 +1858,7 @@ EditorUI::setupCreateMenu - 0x3c09dc
 EditorUI::setupDeleteMenu - 0x3c0020
 EditorUI::showUI - 0x3e6770
 EditorUI::sliderChanged - 0x3bf328
+EditorUI::spriteFromObjectString - 0x3e2af4
 EditorUI::toggleEnableRotate - 0x3bf870
 EditorUI::toggleFreeMove - 0x3bf790
 EditorUI::toggleMode - 0x3dc7b8
@@ -2056,6 +2073,7 @@ GameManager::setGameVariable - 0x318f14
 GameManager::setIntGameVariable - 0x319274
 GameManager::setUGV - 0x3190a8
 GameManager::sheetNameForIcon - 0x317a00
+GameManager::stringForCustomObject - 0x3195f0
 GameManager::toggleGameVariable - 0x319068
 GameManager::unloadIcon - 0x317ea4
 GameManager::unlockTypeToIconType - 0x312d64
@@ -2362,10 +2380,12 @@ GJGarageLayer::setupIconSelect - 0x303b74
 GJGarageLayer::setupPage - 0x304de4
 GJGarageLayer::setupSpecialPage - 0x3053b0
 GJGradientLayer::init - 0x20b450
+GJItemIcon::create - 0x307bd8
 GJItemIcon::createBrowserItem - 0x307bd8
 GJItemIcon::scaleForType - 0x305b68
 GJItemIcon::setOpacity - 0x308148
 GJItemIcon::changeToLockedState - 0x306088
+GJItemIcon::init - 0x307c98
 GJLevelList::create - 0x96cac
 GJLevelList::create - 0x99114
 GJLevelList::encodeWithCoder - 0xb5668
@@ -2693,6 +2713,7 @@ LevelEditorLayer::updateBlendValues - 0x360b9c
 LevelEditorLayer::updateEditorMode - 0x358880
 LevelEditorLayer::updateGameObjects - 0x357eb4
 LevelEditorLayer::updateLevelFont - 0x3618c8
+LevelEditorLayer::updateObjectColors - 0x35ea84
 LevelEditorLayer::updateOptions - 0x357150
 LevelEditorLayer::updatePreviewParticles - 0x35fd34
 LevelInfoLayer::create - 0x2874c

@@ -1061,6 +1061,11 @@ cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x29f928
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x29f998
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithFile - 0x29f8e0
 cocos2d::CCSpriteFrameCache::removeSpriteFrameByName - 0x2a0020
+cocos2d::CCSpriteFrameCache::removeSpriteFrames - 0x29ff44
+cocos2d::CCSpriteFrameCache::removeSpriteFramesFromDictionary - 0x2a05e4
+cocos2d::CCSpriteFrameCache::removeSpriteFramesFromFile - 0x2a030c
+cocos2d::CCSpriteFrameCache::removeSpriteFramesFromTexture - 0x2a0830
+cocos2d::CCSpriteFrameCache::removeUnusedSpriteFrames - 0x29ff90
 cocos2d::CCSpriteFrameCache::spriteFrameByName - 0x2a0b38
 cocos2d::CCString::createWithData - 0x6a8b3c
 cocos2d::CCString::getCString - 0x6a84a8
