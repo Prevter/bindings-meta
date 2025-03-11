@@ -3409,6 +3409,7 @@ GJGarageLayer::onArrow - 0x359460
 GJGarageLayer::onBack - 0x3588c0
 GJGarageLayer::onInfo - 0x358b10
 GJGarageLayer::onNavigate - 0x359d50
+GJGarageLayer::onPaint - 0x358ab0
 GJGarageLayer::onSelect - 0x35a860
 GJGarageLayer::onSelectTab - 0x359430
 GJGarageLayer::onShards - 0x358a80
@@ -3432,6 +3433,7 @@ GJItemIcon::setOpacity - 0x35dfc0
 GJItemIcon::changeToLockedState - 0x35af50
 GJItemIcon::darkenStoreItem - 0x35e160
 GJItemIcon::init - 0x35da60
+GJItemIcon::toggleEnabledState - 0x35b000
 GJLevelList::create - 0x517750
 GJLevelList::create - 0x51bac0
 GJLevelList::encodeWithCoder - 0x54d230

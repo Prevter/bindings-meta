@@ -2413,7 +2413,7 @@ EditorUI::moveForCommand - 0x435fc
 EditorUI::moveGamelayer - 0x2f18c
 EditorUI::moveObject - 0x399d4
 EditorUI::moveObjectCall - 0x437a8
-EditorUI::onCopyState - 0xd7240
+EditorUI::onCopyState - 0x2c538
 EditorUI::onCreate - 0x2dfac
 EditorUI::onCreateButton - 0x342c0
 EditorUI::onCreateObject - 0x34758
@@ -3259,6 +3259,7 @@ GJItemIcon::setOpacity - 0x2f11e0
 GJItemIcon::changeToLockedState - 0x2ee474
 GJItemIcon::darkenStoreItem - 0x2f1374
 GJItemIcon::init - 0x2f0cb0
+GJItemIcon::toggleEnabledState - 0x2ee554
 GJLevelList::create - 0x474a98
 GJLevelList::create - 0x478394
 GJLevelList::encodeWithCoder - 0x4a5298
