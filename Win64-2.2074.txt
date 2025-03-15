@@ -680,6 +680,7 @@ CreateParticlePopup::textInputShouldOffset - 0x7b5c0
 CreateParticlePopup::textInputReturn - 0x7b620
 CreateParticlePopup::textInputClosed - 0x8b790
 CreateParticlePopup::textChanged - 0x41a6b0
+CreateParticlePopup::createParticleSlider - 0x4188d0
 CreateParticlePopup::init - 0x414370
 CreateParticlePopup::onClose - 0x41cf20
 CreateParticlePopup::particleValueIsInt - 0x41c920
@@ -1064,6 +1065,7 @@ EditorUI::moveObject - 0x11e290
 EditorUI::moveObjectCall - 0x11e000
 EditorUI::moveObjectCall - 0x11e000
 EditorUI::offsetForKey - 0x124bf0
+EditorUI::onColorFilter - 0xe5bd0
 EditorUI::onCopyState - 0x112ac0
 EditorUI::onCreate - 0x10dd10
 EditorUI::onCreateButton - 0x10d880
