@@ -717,6 +717,7 @@ cocos2d::CCKeyboardDispatcher::keyToString - 0x1f1aa0
 cocos2d::CCKeyboardDispatcher::updateModifierKeys - 0x1f1a70
 cocos2d::CCDirector::sharedDirector - 0x46f500
 cocos2d::CCDirector::getNotificationNode - 0x471a60
+cocos2d::CCDirector::getVisibleSize - 0x4710c0
 cocos2d::CCDirector::getWinSize - 0x470920
 cocos2d::CCDirector::getWinSizeInPixels - 0x471080
 cocos2d::CCDirector::setDefaultValues - 0x46f8f0
@@ -4150,6 +4151,7 @@ LevelSettingsLayer::updateGameplayModeButtons - 0x25c0e0
 LevelSettingsObject::objectFromDict - 0xf7bf0
 LevelSettingsObject::init - 0xf7a30
 LevelSettingsObject::setupColorsFromLegacyMode - 0xf93f0
+LevelTools::artistForAudio - 0x4eb660
 LevelTools::base64EncodeString - 0x4ee880
 LevelTools::createStarPackDict - 0x4ee920
 LevelTools::fbURLForArtist - 0x4ec970
@@ -4159,6 +4161,7 @@ LevelTools::getAudioTitle - 0x4eab80
 LevelTools::getLevel - 0x4e8620
 LevelTools::getLevelList - 0x4e82b0
 LevelTools::getSongObject - 0x4ee330
+LevelTools::nameForArtist - 0x4eb680
 LevelTools::ngURLForArtist - 0x4ec2c0
 LevelTools::posForTime - 0x4edd00
 LevelTools::posForTimeInternal - 0x4edd30
@@ -4204,6 +4207,7 @@ LocalLevelManager::dataLoaded - 0x5e0670
 LocalLevelManager::firstLoad - 0x5e0580
 LocalLevelManager::getCreatedLevels - 0x5e0390
 LocalLevelManager::getCreatedLists - 0x5e04f0
+LocalLevelManager::getMainLevelString - 0x5df620
 LocalLevelManager::tryLoadMainLevelString - 0x5df200
 LocalLevelManager::updateLevelRevision - 0x5dfd20
 MapPackCell::init - 0x2406c0
@@ -5510,6 +5514,7 @@ SongCell::loadFromObject - 0x235330
 SongInfoLayer::keyBackClicked - 0x5ea640
 SongInfoLayer::init - 0x5e9240
 SongInfoLayer::showCustomMusicUnlockInfo - 0x5ea430
+SongInfoObject::create - 0x57c260
 SongInfoObject::create - 0x57f2e0
 SongInfoObject::encodeWithCoder - 0x5800d0
 SongInfoObject::canEncode - 0x580290
