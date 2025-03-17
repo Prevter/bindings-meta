@@ -4268,7 +4268,7 @@ ObjectControlGameObject::getSaveString - 0x1955ec
 ObjectManager::instance - 0x694044
 ObjectManager::init - 0x69410c
 ObjectManager::loadCopiedSets - 0x6945cc
-ObjectManager::setup - 0x693934
+ObjectManager::setup - 0x694934
 ObjectToolbox::sharedState - 0x57b4a8
 ObjectToolbox::init - 0x57b5d0
 ObjectToolbox::gridNodeSizeForKey - 0x6282d0
