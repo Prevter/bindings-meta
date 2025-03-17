@@ -2211,6 +2211,7 @@ CustomizeObjectLayer::toggleVisible - 0x1e7220
 CustomizeObjectLayer::updateChannelLabel - 0x1e6680
 CustomizeObjectLayer::updateColorSprite - 0x1e65b0
 CustomizeObjectLayer::updateCustomColorLabels - 0x1e5c10
+CustomizeObjectLayer::updateHSVButtons - 0x1e58e0
 CustomizeObjectLayer::updateSelected - 0x1e6b70
 CustomizeObjectSettingsPopup::onClose - 0x1e7d20
 CustomizeObjectSettingsPopup::onCustomToggleTriggerValue - 0x1e7cb0
