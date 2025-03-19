@@ -1403,6 +1403,7 @@ GameManager::getGameVariable - 0x1800f0
 GameManager::getIntGameVariable - 0x1806f0
 GameManager::getMenuMusicFile - 0x178700
 GameManager::getUGV - 0x180480
+GameManager::getUnlockForAchievement - 0x179980
 GameManager::iconKey - 0x1792b0
 GameManager::iconTypeToUnlockType - 0x1795c0
 GameManager::isColorUnlocked - 0x1798c0
@@ -1418,6 +1419,7 @@ GameManager::reloadAllStep2 - 0x187540
 GameManager::reloadAllStep5 - 0x187850
 GameManager::reportAchievementWithID - 0x17afd0
 GameManager::reportPercentageForLevel - 0x17a5f0
+GameManager::resetAchievement - 0x17a390
 GameManager::resolutionForKey - 0x187890
 GameManager::returnToLastScene - 0x187030
 GameManager::safePopScene - 0x1873e0
@@ -1478,6 +1480,7 @@ GameStatsManager::isItemUnlocked - 0x1e2850
 GameStatsManager::isSpecialChestUnlocked - 0x1e7160
 GameStatsManager::preSaveGameStats - 0x1f0630
 GameStatsManager::processChallengeQueue - 0x1df950
+GameStatsManager::purchaseItem - 0x1d12e0
 GameStatsManager::removeErrorFromSpecialChests - 0x1f0310
 GameStatsManager::setStarsForMapPack - 0x1dc090
 GameStatsManager::setStat - 0x1d2300
@@ -1485,6 +1488,7 @@ GameStatsManager::setupIconCredits - 0x1c1190
 GameStatsManager::toggleEnableItem - 0x1e2c00
 GameStatsManager::tryFixPathBug - 0x1d1810
 GameStatsManager::uncompleteLevel - 0x1dbbc0
+GameStatsManager::unlockSecretChest - 0x1e75a0
 GameStatsManager::unlockSpecialChest - 0x1e7250
 GameStatsManager::verifyPathAchievements - 0x1d1f80
 GameStatsManager::verifyUserCoins - 0x1dcc30

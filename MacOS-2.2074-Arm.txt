@@ -2823,6 +2823,7 @@ GameManager::getIntGameVariable - 0x3020bc
 GameManager::getMenuMusicFile - 0x2f63c0
 GameManager::getPracticeMusicFile - 0x2f6540
 GameManager::getUGV - 0x301df0
+GameManager::getUnlockForAchievement - 0x2f7a94
 GameManager::iconTypeToUnlockType - 0x2f7498
 GameManager::isColorUnlocked - 0x2f78a8
 GameManager::isIconUnlocked - 0x2f7388
@@ -2840,6 +2841,7 @@ GameManager::reloadAllStep2 - 0x3094e8
 GameManager::reloadAllStep5 - 0x3096c0
 GameManager::reportAchievementWithID - 0x2f9160
 GameManager::reportPercentageForLevel - 0x2f87b4
+GameManager::resetAchievement - 0x2f8614
 GameManager::returnToLastScene - 0x308f8c
 GameManager::safePopScene - 0x309298
 GameManager::setGameVariable - 0x3018c0
@@ -2917,6 +2919,7 @@ GameStatsManager::isItemUnlocked - 0x5ee84
 GameStatsManager::isSecretCoin - 0x63c18
 GameStatsManager::isSpecialChestUnlocked - 0x6a794
 GameStatsManager::processChallengeQueue - 0x67160
+GameStatsManager::purchaseItem - 0x5aa80
 GameStatsManager::recountSpecialStats - 0x69188
 GameStatsManager::removeChallenge - 0x6650c
 GameStatsManager::removeQueuedChallenge - 0x66740
@@ -2927,6 +2930,7 @@ GameStatsManager::setupIconCredits - 0x2acd6c
 GameStatsManager::storeChallenge - 0x663ec
 GameStatsManager::storeQueuedChallenge - 0x66620
 GameStatsManager::toggleEnableItem - 0x6ad1c
+GameStatsManager::unlockSecretChest - 0x7f6f4
 GameStatsManager::unlockSpecialChest - 0x6b8c8
 GameToolbox::addBackButton - 0x43f944
 GameToolbox::addRThumbScrollButton - 0x43fa2c

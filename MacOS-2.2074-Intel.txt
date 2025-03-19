@@ -2913,6 +2913,7 @@ GameManager::activeIconForType - 0x36d480
 GameManager::addNewCustomObject - 0x370fd0
 GameManager::checkUsedIcons - 0x36b860
 GameManager::colorForIdx - 0x36c520
+GameManager::completedAchievement - 0x365aa0
 GameManager::countForType - 0x36d6f0
 GameManager::didExitPlayscene - 0x378540
 GameManager::dpadConfigToString - 0x374330
@@ -2927,6 +2928,7 @@ GameManager::getMenuMusicFile - 0x3636f0
 GameManager::getOrderedCustomObjectKeys - 0x370e40
 GameManager::getPracticeMusicFile - 0x363850
 GameManager::getUGV - 0x370a10
+GameManager::getUnlockForAchievement - 0x3650e0
 GameManager::iconTypeToUnlockType - 0x364990
 GameManager::isColorUnlocked - 0x364f40
 GameManager::isIconLoaded - 0x36d8f0
@@ -2949,6 +2951,7 @@ GameManager::reloadAllStep2 - 0x378f90
 GameManager::reloadAllStep5 - 0x379180
 GameManager::reportAchievementWithID - 0x366830
 GameManager::reportPercentageForLevel - 0x365da0
+GameManager::resetAchievement - 0x365c30
 GameManager::resolutionForKey - 0x3791c0
 GameManager::returnToLastScene - 0x3789d0
 GameManager::safePopScene - 0x378d40
@@ -3026,6 +3029,7 @@ GameStatsManager::isSecretCoin - 0x70200
 GameStatsManager::isSpecialChestUnlocked - 0x76f10
 GameStatsManager::keyCostForSecretChest - 0x76a40
 GameStatsManager::processChallengeQueue - 0x73590
+GameStatsManager::purchaseItem - 0x663e0
 GameStatsManager::removeChallenge - 0x72ae0
 GameStatsManager::removeQueuedChallenge - 0x72cf0
 GameStatsManager::removeQueuedSecondaryChallenge - 0x72f00
