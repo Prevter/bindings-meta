@@ -167,6 +167,7 @@ GameObject::getType - 0x136040
 GameObject::setType - 0x136050
 GameObject::getStartPos - 0x136060
 GameObject::addColorSprite - 0x18b830
+GameObject::addColorSpriteToSelf - 0x199240
 GameObject::addGlow - 0x18af60
 GameObject::commonSetup - 0x18ad70
 GameObject::copyGroups - 0x1999c0
@@ -187,6 +188,7 @@ GameObject::playDestroyObjectAnim - 0x1a7520
 GameObject::playPickupAnimation - 0x1a7040
 GameObject::playPickupAnimation - 0x1a6f50
 GameObject::playShineEffect - 0x196430
+GameObject::shouldBlendColor - 0x18dd00
 GameObject::slopeYPos - 0x19e430
 GameObject::slopeYPos - 0x19e430
 GameObject::updateCustomScaleX - 0x1956d0
@@ -1036,7 +1038,6 @@ EditorUI::deactivateScaleControl - 0x113480
 EditorUI::deactivateTransformControl - 0x113ad0
 EditorUI::deleteSmartBlocksFromObjects - 0x116500
 EditorUI::deselectAll - 0x10fd80
-EditorUI::deselectObject - 0x10fc60
 EditorUI::deselectObject - 0x10fc60
 EditorUI::deselectTargetPortals - 0xe51b0
 EditorUI::doCopyObjects - 0x111900

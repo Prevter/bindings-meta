@@ -47,6 +47,7 @@ cocos2d::CCActionEase::stop - 0x45dfbc
 cocos2d::CCActionEase::update - 0x45dfec
 cocos2d::CCActionEase::reverse - 0x45dffc
 cocos2d::CCActionEase::getInnerAction - 0x45e01c
+cocos2d::CCEaseRateAction::~CCEaseRateAction - 0x45e26c
 cocos2d::CCEaseRateAction::copyWithZone - 0x45e138
 cocos2d::CCEaseRateAction::reverse - 0x45e2e8
 cocos2d::CCEaseIn::create - 0x45e024
@@ -977,6 +978,7 @@ cocos2d::CCRepeat::stop - 0x330244
 cocos2d::CCRepeat::reverse - 0x3303f4
 cocos2d::CCRepeatForever::create - 0x3304dc
 cocos2d::CCRepeatForever::initWithAction - 0x330548
+cocos2d::CCRepeatForever::~CCRepeatForever - 0x330460
 cocos2d::CCRepeatForever::copyWithZone - 0x330578
 cocos2d::CCRepeatForever::isDone - 0x330728
 cocos2d::CCRepeatForever::startWithTarget - 0x330650
@@ -1096,6 +1098,7 @@ cocos2d::CCSpriteFrame::setOffsetInPixels - 0x2d9fec
 cocos2d::CCSpriteFrame::setRect - 0x2d9e34
 cocos2d::CCSpriteFrame::setRectInPixels - 0x2d9ed0
 cocos2d::CCSpriteFrame::setTexture - 0x2d9df0
+cocos2d::CCSpriteFrame::~CCSpriteFrame - 0x2d9be8
 cocos2d::CCSpriteFrame::copyWithZone - 0x2d9cd8
 cocos2d::CCSpriteFrameCache::sharedSpriteFrameCache - 0x29eb7c
 cocos2d::CCSpriteFrameCache::addSpriteFrame - 0x29fe38
