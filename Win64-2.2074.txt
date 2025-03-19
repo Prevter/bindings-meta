@@ -182,6 +182,7 @@ GameObject::isFacingLeft - 0x19ea50
 GameObject::isSpawnableTrigger - 0x19f730
 GameObject::isTrigger - 0x19f2c0
 GameObject::loadGroupsFromString - 0x199b50
+GameObject::parentForZLayer - 0x198f60
 GameObject::playDestroyObjectAnim - 0x1a7520
 GameObject::playPickupAnimation - 0x1a7040
 GameObject::playPickupAnimation - 0x1a6f50
