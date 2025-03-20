@@ -1335,6 +1335,7 @@ GameLevelManager::getStoredLevelComments - 0x15b420
 GameLevelManager::getStoredOnlineLevels - 0x147780
 GameLevelManager::getTimeLeft - 0x147dd0
 GameLevelManager::getUserList - 0x15ffa0
+GameLevelManager::getUserMessages - 0x157c30
 GameLevelManager::getUsers - 0x1571c0
 GameLevelManager::gotoLevelPage - 0x1473c0
 GameLevelManager::handleIt - 0x140e00
