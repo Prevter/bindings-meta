@@ -974,6 +974,7 @@ EditLevelLayer::onShare - 0xd6f20
 EditLevelLayer::setupLevelInfo - 0xd5720
 EditLevelLayer::verifyLevelName - 0xd8290
 GJOptionsLayer::GJOptionsLayer - 0x285940
+GJOptionsLayer::didToggleGV - 0x1f2810
 GJOptionsLayer::addGVToggle - 0x288470
 GJOptionsLayer::addToggleInternal - 0x2885b0
 GJOptionsLayer::incrementCountForPage - 0x288b80

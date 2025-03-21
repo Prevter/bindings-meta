@@ -835,6 +835,7 @@ cocos2d::CCDrawNode::draw - 0x45cf8
 cocos2d::CCSpriteFrame::create - 0x24d078
 cocos2d::CCSpriteFrame::initWithTexture - 0x24d17c
 cocos2d::CCSpriteFrame::getTexture - 0x24d5f4
+cocos2d::CCSpriteFrame::~CCSpriteFrame - 0x24d438
 cocos2d::CCSpriteFrame::copyWithZone - 0x24d4ac
 cocos2d::CCSpriteFrameCache::sharedSpriteFrameCache - 0x3b462c
 cocos2d::CCSpriteFrameCache::addSpriteFramesWithDictionary - 0x3b47bc
@@ -1618,7 +1619,9 @@ CreatorLayer::onSecretVault - 0xb95f0
 CreatorLayer::onTopLists - 0xb9364
 CreatorLayer::onTreasureRoom - 0xb97c8
 CreatorLayer::onWeeklyLevel - 0xb9274
+CurrencyRewardLayer::create - 0x31e9b4
 CurrencyRewardLayer::update - 0x3212a4
+CurrencyRewardLayer::init - 0x31eabc
 CustomizeObjectLayer::keyBackClicked - 0x546e4
 CustomizeObjectLayer::textInputOpened - 0x543f4
 CustomizeObjectLayer::textInputClosed - 0x54554
@@ -2775,6 +2778,8 @@ LevelListCell::draw - 0x115bf8
 LevelListCell::loadFromList - 0x10698c
 LevelListCell::onClick - 0x115ae8
 LevelListCell::updateBGColor - 0x107e24
+LevelListLayer::create - 0x24218c
+LevelListLayer::scene - 0x242140
 LevelListLayer::onEnter - 0x2450b4
 LevelListLayer::onExit - 0x2450ec
 LevelListLayer::loadLevelsFinished - 0x2453b8
@@ -3730,6 +3735,10 @@ TeleportPortalObject::removeFromGroup - 0x3808fc
 TeleportPortalObject::setRotation2 - 0x38087c
 TeleportPortalObject::addToGroup2 - 0x380880
 TeleportPortalObject::removeFromGroup2 - 0x380884
+TextAlertPopup::create - 0x2dfdec
+TextAlertPopup::init - 0x2dff58
+TextAlertPopup::setAlertPosition - 0x2e0280
+TextAlertPopup::setLabelColor - 0x2e0244
 TextArea::create - 0xf9894
 TextArea::update - 0xf9ff4
 TextArea::draw - 0xf9ff0
