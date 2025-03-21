@@ -958,6 +958,7 @@ cocos2d::CCDictionary::acceptVisitor - 0x2945e8
 cocos2d::CCRenderTexture::create - 0x510d58
 cocos2d::CCRenderTexture::create - 0x510844
 cocos2d::CCRenderTexture::initWithWidthAndHeight - 0x510a0c
+cocos2d::CCRenderTexture::CCRenderTexture - 0x510664
 cocos2d::CCRenderTexture::~CCRenderTexture - 0x5106fc
 cocos2d::CCRenderTexture::begin - 0x510e4c
 cocos2d::CCRenderTexture::beginWithClear - 0x5110d8
