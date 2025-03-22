@@ -778,6 +778,8 @@ cocos2d::CCSprite::setFlipX - 0x222e04
 cocos2d::CCSprite::setFlipY - 0x222e38
 cocos2d::CCSprite::CCSprite - 0x221864
 cocos2d::CCSprite::~CCSprite - 0x221938
+cocos2d::CCSprite::isFlipX - 0x222e30
+cocos2d::CCSprite::isFlipY - 0x222e64
 cocos2d::CCSprite::init - 0x2214d4
 cocos2d::CCSprite::setVertexZ - 0x222cb0
 cocos2d::CCSprite::setScaleX - 0x222b2c
@@ -2482,6 +2484,7 @@ EndLevelLayer::coinEnterFinishedO - 0x418e4c
 EndLevelLayer::getCoinString - 0x4174b8
 EndLevelLayer::getEndText - 0x6c7abc
 EndLevelLayer::onHideLayer - 0x417c94
+EndLevelLayer::playCoinEffect - 0x41825c
 EndPortalObject::init - 0x318a2c
 EndPortalObject::setPosition - 0x318ec4
 EndPortalObject::setVisible - 0x318fbc
