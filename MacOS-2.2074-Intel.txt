@@ -3146,6 +3146,7 @@ GJBaseGameLayer::addKeyframe - 0x13b940
 GJBaseGameLayer::activateItemEditTrigger - 0x13c800
 GJBaseGameLayer::activateSFXTrigger - 0x149850
 GJBaseGameLayer::activateSongEditTrigger - 0x1495f0
+GJBaseGameLayer::activateSongTrigger - 0x1492c0
 GJBaseGameLayer::addGuideArt - 0x151740
 GJBaseGameLayer::addRemapTargets - 0x105880
 GJBaseGameLayer::addToGroups - 0x12cc30

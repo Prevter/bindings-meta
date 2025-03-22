@@ -1669,6 +1669,7 @@ GJBaseGameLayer::activateItemEditTrigger - 0x22eaf0
 GJBaseGameLayer::activateSFXEditTrigger - 0x23b8c0
 GJBaseGameLayer::activateSFXTrigger - 0x23b6c0
 GJBaseGameLayer::activateSongEditTrigger - 0x23b3b0
+GJBaseGameLayer::activateSongTrigger - 0x23b030
 GJBaseGameLayer::addToGroups - 0x21eb90
 GJBaseGameLayer::animateInDualGroundNew - 0x20deb0
 GJBaseGameLayer::applyRemap - 0x215ce0

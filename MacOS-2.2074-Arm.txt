@@ -3030,6 +3030,7 @@ GJBaseGameLayer::addKeyframe - 0x113f9c
 GJBaseGameLayer::activateItemEditTrigger - 0x114c0c
 GJBaseGameLayer::activateSFXTrigger - 0x11f100
 GJBaseGameLayer::activateSongEditTrigger - 0x11eec4
+GJBaseGameLayer::activateSongTrigger - 0x11ec1c
 GJBaseGameLayer::addGuideArt - 0x125938
 GJBaseGameLayer::addToGroups - 0x107cdc
 GJBaseGameLayer::bumpPlayer - 0xf6b04
