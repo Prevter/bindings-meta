@@ -1454,7 +1454,6 @@ GameLevelOptionsLayer::setupOptions - 0x299520
 GameLevelOptionsLayer::didToggle - 0x2995a0
 UIButtonConfig::reset - 0x1779e0
 UIButtonConfig::resetOneBtn - 0x177a50
-GameManager::~GameManager - 0x177af0
 GameManager::sharedState - 0x178480
 GameManager::update - 0x186c40
 GameManager::init - 0x1784d0
