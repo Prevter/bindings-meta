@@ -1472,6 +1472,7 @@ GameLevelManager::rateDemon - 0x152e80
 GameLevelManager::removeDelimiterChars - 0x167f10
 GameLevelManager::removeDLFromActive - 0x147ae0
 GameLevelManager::resetCommentTimersForLevelID - 0x15c770
+GameLevelManager::resetTimerForKey - 0x147fe0
 GameLevelManager::saveFetchedLevels - 0x144960
 GameLevelManager::saveLevel - 0x146d40
 GameLevelManager::saveLevelList - 0x14ee60

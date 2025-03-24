@@ -2850,6 +2850,7 @@ GameLevelManager::requestUserAccess - 0x5419f0
 GameLevelManager::resetCommentTimersForLevelID - 0x53c490
 GameLevelManager::resetDailyLevelState - 0x543920
 GameLevelManager::resetStoredUserInfo - 0x536fc0
+GameLevelManager::resetTimerForKey - 0x522d00
 GameLevelManager::restoreItems - 0x543a30
 GameLevelManager::saveFetchedLevels - 0x51b540
 GameLevelManager::saveLevel - 0x521650
@@ -4374,7 +4375,7 @@ MusicDownloadManager::pathForSong - 0x577270
 MusicDownloadManager::pathForSongFolder - 0x578290
 MusicDownloadManager::ProcessHttpGetRequest - 0x572e60
 MusicDownloadManager::ProcessHttpRequest - 0x572b10
-MusicDownloadManager::removeDLFromActive - 0x522d00
+MusicDownloadManager::removeDLFromActive - 0x573ec0
 MusicDownloadManager::showTOS - 0x578c60
 MusicDownloadManager::songStateChanged - 0x573fa0
 MusicDownloadManager::stopDownload - 0x573d80
