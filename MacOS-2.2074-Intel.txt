@@ -2394,6 +2394,10 @@ EditorPauseLayer::keyDown - 0x283150
 EditorPauseLayer::customSetup - 0x27fa70
 EditorPauseLayer::FLAlert_Clicked - 0x282f80
 EditorPauseLayer::init - 0x27f220
+EditorPauseLayer::onAlignX - 0x282020
+EditorPauseLayer::onAlignY - 0x282050
+EditorPauseLayer::onBuildHelper - 0x281fc0
+EditorPauseLayer::onCreateLoop - 0x281fe0
 EditorPauseLayer::onExitEditor - 0x282f40
 EditorPauseLayer::onExitNoSave - 0x281ad0
 EditorPauseLayer::onResetUnusedColors - 0x281e30
@@ -2401,6 +2405,7 @@ EditorPauseLayer::onResume - 0x2818a0
 EditorPauseLayer::onSave - 0x2819f0
 EditorPauseLayer::onSaveAndExit - 0x281980
 EditorPauseLayer::onSaveAndPlay - 0x281910
+EditorPauseLayer::onSelectAll - 0x282090
 EditorPauseLayer::onSelectAllLeft - 0x2820b0
 EditorPauseLayer::onSelectAllRight - 0x2820d0
 EditorPauseLayer::saveLevel - 0x282980
@@ -2448,6 +2453,7 @@ EditorUI::scaleXChanged - 0x3fcd0
 EditorUI::scaleYChanged - 0x40440
 EditorUI::scaleXYChanged - 0x40590
 EditorUI::activateRotationControl - 0x3dc70
+EditorUI::activateScaleControl - 0x3f250
 EditorUI::activateTransformControl - 0x40720
 EditorUI::assignNewGroups - 0x45970
 EditorUI::canSelectObject - 0x3c770
@@ -2471,6 +2477,7 @@ EditorUI::editButton2Usable - 0x492e0
 EditorUI::editButtonUsable - 0x48580
 EditorUI::editGroup - 0x2c8f0
 EditorUI::editObject - 0x2b550
+EditorUI::editObjectSpecial - 0x499d0
 EditorUI::flipObjectsX - 0x43d70
 EditorUI::flipObjectsY - 0x43ba0
 EditorUI::getCreateBtn - 0x33c60
@@ -2504,6 +2511,7 @@ EditorUI::onDuplicate - 0x2b2e0
 EditorUI::onGroupSticky - 0xcf70
 EditorUI::onLockLayer - 0x2cc80
 EditorUI::onNewCustomItem - 0x30d30
+EditorUI::onPasteColor - 0x2ca00
 EditorUI::onPasteState - 0x2c9a0
 EditorUI::onPause - 0x2ad50
 EditorUI::onPlayback - 0xc930
