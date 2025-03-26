@@ -2872,6 +2872,7 @@ GameStatsManager::getBaseDiamonds - 0x64c64
 GameStatsManager::getBonusDiamonds - 0x64c78
 GameStatsManager::getChallenge - 0x66a90
 GameStatsManager::getChallengeKey - 0x66e24
+GameStatsManager::getCollectedCoinsForLevel - 0x608b4
 GameStatsManager::getCompletedMapPacks - 0x6230c
 GameStatsManager::getCurrencyKey - 0x64184
 GameStatsManager::getDemonLevelKey - 0x60c5c

@@ -2981,6 +2981,7 @@ GameStatsManager::getBaseDiamonds - 0x71240
 GameStatsManager::getBonusDiamonds - 0x71260
 GameStatsManager::getChallenge - 0x73000
 GameStatsManager::getChallengeKey - 0x73370
+GameStatsManager::getCollectedCoinsForLevel - 0x6cd40
 GameStatsManager::getCompletedMapPacks - 0x6e6c0
 GameStatsManager::getCurrencyKey - 0x70790
 GameStatsManager::getDemonLevelKey - 0x6d140
