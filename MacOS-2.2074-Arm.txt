@@ -2490,7 +2490,11 @@ EndLevelLayer::coinEnterFinished - 0x418e98
 EndLevelLayer::coinEnterFinishedO - 0x418e4c
 EndLevelLayer::getCoinString - 0x4174b8
 EndLevelLayer::getEndText - 0x6c7abc
+EndLevelLayer::onEdit - 0x417a1c
 EndLevelLayer::onHideLayer - 0x417c94
+EndLevelLayer::onMenu - 0x417918
+EndLevelLayer::onReplay - 0x4177f4
+EndLevelLayer::onRestartCheckpoint - 0x417ab8
 EndLevelLayer::playCoinEffect - 0x41825c
 EndPortalObject::init - 0x318a2c
 EndPortalObject::setPosition - 0x318ec4
