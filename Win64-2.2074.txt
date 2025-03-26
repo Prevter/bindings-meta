@@ -1261,7 +1261,9 @@ EventLinkTrigger::init - 0x49fce0
 EventLinkTrigger::triggerObject - 0x49fd50
 EventLinkTrigger::customObjectSetup - 0x4a0220
 EventLinkTrigger::getSaveString - 0x49fe30
+ExplodeItemNode::create - 0x36e780
 ExplodeItemNode::update - 0x36f1f0
+ExplodeItemNode::createSprites - 0x36e840
 ExplodeItemSprite::init - 0x36f5c0
 ExtendedLayer::init - 0x3ec90
 ExtendedLayer::setPosition - 0x3ecb0
