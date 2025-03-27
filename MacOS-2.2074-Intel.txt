@@ -2947,6 +2947,7 @@ GameManager::sheetNameForIcon - 0x36dcb0
 GameManager::stringForCustomObject - 0x371170
 GameManager::toggleGameVariable - 0x3707d0
 GameManager::unloadIcon - 0x36ee80
+GameManager::unloadIcons - 0x36f5c0
 GameManager::unlockTypeToIconType - 0x364ba0
 GameManager::updateCustomFPS - 0x379480
 GameObjectCopy::create - 0xe3820

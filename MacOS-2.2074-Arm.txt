@@ -2837,6 +2837,7 @@ GameManager::sheetNameForIcon - 0x2ff040
 GameManager::stringForCustomObject - 0x3025a0
 GameManager::toggleGameVariable - 0x301b54
 GameManager::unloadIcon - 0x30016c
+GameManager::unloadIcons - 0x3008e4
 GameManager::unlockTypeToIconType - 0x2f7528
 GameManager::verifyAchievementUnlocks - 0x2f93b0
 GameObjectCopy::create - 0xca710

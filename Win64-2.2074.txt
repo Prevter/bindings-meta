@@ -1546,6 +1546,7 @@ GameManager::sheetNameForIcon - 0x17f470
 GameManager::stringForCustomObject - 0x180950
 GameManager::toggleGameVariable - 0x180270
 GameManager::unloadIcon - 0x17f050
+GameManager::unloadIcons - 0x17f310
 GameManager::unlockTypeToIconType - 0x1796e0
 GameManager::updateCustomFPS - 0x187cc0
 GameManager::verifyCoinUnlocks - 0x17b580
