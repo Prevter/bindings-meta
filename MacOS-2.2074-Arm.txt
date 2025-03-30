@@ -4421,6 +4421,7 @@ PlayerObject::updatePlayerSpiderFrame - 0x386958
 PlayerObject::updatePlayerSwingFrame - 0x383e58
 PlayerObject::updateRotation - 0x371b20
 PlayerObject::updateRotation - 0x37a378
+PlayerObject::updateStreakBlend - 0x36ce30
 PlayerObject::updateSwingFire - 0x382814
 PlayerObject::updateTimeMod - 0x36c61c
 PlayLayer::create - 0x9ccd0
