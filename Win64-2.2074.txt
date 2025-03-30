@@ -571,6 +571,7 @@ ColorSelectLiveOverlay::sliderChanged - 0x8cd30
 ColorSelectLiveOverlay::toggleControls - 0x8d640
 ColorSelectLiveOverlay::updateColorLabel - 0x8d480
 SetupTriggerPopup::SetupTriggerPopup - 0x8d6c0
+SetupTriggerPopup::~SetupTriggerPopup - 0x45b6e0
 SetupTriggerPopup::ccTouchBegan - 0x465a80
 SetupTriggerPopup::keyBackClicked - 0x44f1d0
 SetupTriggerPopup::show - 0x8ba30

@@ -1998,6 +1998,7 @@ ColorSelectLiveOverlay::create - 0x551c50
 ColorSelectLiveOverlay::keyBackClicked - 0x553950
 ColorSelectLiveOverlay::show - 0x553a00
 ColorSelectLiveOverlay::init - 0x551e20
+SetupTriggerPopup::~SetupTriggerPopup - 0x222a30
 SetupTriggerPopup::ccTouchBegan - 0x22e3e0
 SetupTriggerPopup::keyBackClicked - 0x227290
 SetupTriggerPopup::show - 0x2270d0
