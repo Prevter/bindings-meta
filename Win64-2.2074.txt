@@ -3417,6 +3417,7 @@ RewardUnlockLayer::init - 0x3b6a80
 RewardUnlockLayer::onClose - 0x3ba220
 RewardUnlockLayer::playDropSound - 0x3b78b0
 RewardUnlockLayer::playRewardEffect - 0x3b7a70
+RewardUnlockLayer::showCloseButton - 0x3b9110
 RewardUnlockLayer::showCollectReward - 0x3b7790
 RewardUnlockLayer::step2 - 0x3b7950
 RewardUnlockLayer::step3 - 0x3b7a50

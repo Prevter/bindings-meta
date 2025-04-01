@@ -3655,6 +3655,7 @@ LevelAreaLayer::onExit - 0x2133a4
 LevelAreaLayer::addTorch - 0x2124b0
 LevelAreaLayer::onEnterTower - 0x21322c
 LevelAreaLayer::showDialog - 0x212f20
+LevelBrowserLayer::~LevelBrowserLayer - 0x3e63f8
 LevelBrowserLayer::create - 0x3e6590
 LevelBrowserLayer::scene - 0x3e6544
 LevelBrowserLayer::onEnter - 0x3ecc44
