@@ -2475,6 +2475,7 @@ EditorUI::updateCreateMenu - 0x2e0e4
 EditorUI::updateDeleteButtons - 0x31c94
 EditorUI::updateGridNodeSize - 0x2f000
 EditorUI::updateObjectInfoLabel - 0x2f208
+EditorUI::updatePlaybackBtn - 0x2d08c
 EditorUI::updateZoom - 0x38b14
 EditorUI::zoomIn - 0xe218
 EditorUI::zoomOut - 0xe270
@@ -4798,6 +4799,7 @@ SetGroupIDLayer::onArrow - 0x29a170
 SetGroupIDLayer::onArrowLeft - 0x29a100
 SetGroupIDLayer::onArrowRight - 0x29a138
 SetGroupIDLayer::onClose - 0x298444
+SetGroupIDLayer::onExtra - 0x29a028
 SetGroupIDLayer::onNextGroupID1 - 0x298c40
 SetGroupIDLayer::onRemoveFromGroup - 0x29ae48
 SetGroupIDLayer::updateGroupIDButtons - 0x299a60

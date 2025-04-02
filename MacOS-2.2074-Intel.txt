@@ -5002,6 +5002,7 @@ SetGroupIDLayer::onAddGroupParent - 0x300d40
 SetGroupIDLayer::onArrow - 0x302410
 SetGroupIDLayer::onArrowLeft - 0x3023b0
 SetGroupIDLayer::onArrowRight - 0x3023e0
+SetGroupIDLayer::onExtra - 0x3022c0
 SetGroupIDLayer::onNextGroupID1 - 0x300d00
 SetGroupIDLayer::onRemoveFromGroup - 0x3032f0
 SetGroupIDLayer::updateGroupIDButtons - 0x301c70
