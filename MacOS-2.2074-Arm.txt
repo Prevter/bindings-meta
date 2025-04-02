@@ -1386,6 +1386,7 @@ AccountLayer::doBackup - 0xb6708
 AccountLayer::doSync - 0xb67e4
 AccountLayer::onBackup - 0xb5a14
 AccountLayer::onHelp - 0xb5f34
+AccountLayer::onRegister - 0xb59f8
 AccountLayer::onSync - 0xb5d2c
 AccountLayer::updatePage - 0xb601c
 FLAlertLayer::create - 0x3f5598
@@ -1428,6 +1429,7 @@ AccountRegisterLayer::registerAccountFailed - 0x3f1a3c
 AccountRegisterLayer::resetLabel - 0x3f1f50
 AccountRegisterLayer::resetLabels - 0x3f1e20
 AccountRegisterLayer::updateLabel - 0x3f1b0c
+AchievementBar::create - 0x52f02c
 AchievementBar::setOpacity - 0x53086c
 AchievementBar::init - 0x52f0fc
 TableViewCell::TableViewCell - 0x53c9ec
@@ -1440,6 +1442,7 @@ AchievementManager::achievementForUnlock - 0x682554
 AchievementManager::addManualAchievements - 0x633f7c
 AchievementManager::isAchievementEarned - 0x682198
 AchievementManager::limitForAchievement - 0x68248c
+AchievementManager::notifyAchievement - 0x682bcc
 AchievementManager::percentForAchievement - 0x6821b4
 AchievementManager::reportAchievementWithID - 0x682d28
 AchievementNotifier::sharedState - 0x6beb0c
