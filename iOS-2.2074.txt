@@ -473,7 +473,7 @@ cocos2d::CCScheduler::unscheduleSelector - 0x1ad400
 cocos2d::CCScheduler::update - 0x1aef78
 cocos2d::CCLayer::create - 0x14bd1c
 cocos2d::CCLayer::CCLayer - 0x14bb5c
-cocos2d::CCLayer::~CCLayer - 0x14bc88
+cocos2d::CCLayer::~CCLayer - 0x14bc08
 cocos2d::CCLayer::init - 0x14bcc0
 cocos2d::CCLayer::onEnter - 0x14c3ac
 cocos2d::CCLayer::onEnterTransitionDidFinish - 0x14c540
@@ -510,8 +510,8 @@ cocos2d::CCLayer::didAccelerate - 0x14c090
 cocos2d::CCLayer::keyBackClicked - 0x14c284
 cocos2d::CCLayer::keyMenuClicked - 0x14c2e0
 cocos2d::CCLayer::keyDown - 0x14c370
-cocos2d::CCLayerRGBA::CCLayerRGBA - 0x14bb5c
-cocos2d::CCLayerRGBA::~CCLayerRGBA - 0x14bc08
+cocos2d::CCLayerRGBA::CCLayerRGBA - 0x14ca90
+cocos2d::CCLayerRGBA::~CCLayerRGBA - 0x14cae4
 cocos2d::CCLayerRGBA::init - 0x14cb1c
 cocos2d::CCLayerRGBA::setColor - 0x14cc58
 cocos2d::CCLayerRGBA::getColor - 0x14cc38
@@ -528,7 +528,7 @@ cocos2d::CCLayerRGBA::updateDisplayedOpacity - 0x14cd28
 cocos2d::CCLayerColor::create - 0x14d0c8
 cocos2d::CCLayerColor::create - 0x14cfec
 cocos2d::CCLayerColor::CCLayerColor - 0x14cf2c
-cocos2d::CCLayerColor::~CCLayerColor - 0x14bc08
+cocos2d::CCLayerColor::~CCLayerColor - 0x14cf94
 cocos2d::CCLayerColor::init - 0x14d18c
 cocos2d::CCLayerColor::setContentSize - 0x14d33c
 cocos2d::CCLayerColor::draw - 0x14d3a8
@@ -3970,6 +3970,7 @@ UIOptionsLayer::registerWithTouchDispatcher - 0x2e43c8
 UIOptionsLayer::onClose - 0x2e3ba4
 UIOptionsLayer::valueDidChange - 0x2e3cf4
 UIOptionsLayer::getValue - 0x2e3ecc
+UIOptionsLayer::init - 0x2e22a4
 UIPOptionsLayer::init - 0x2e58fc
 UIPOptionsLayer::ccTouchBegan - 0x2e5fd0
 UIPOptionsLayer::ccTouchMoved - 0x2e6098
