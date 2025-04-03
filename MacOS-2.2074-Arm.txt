@@ -136,6 +136,7 @@ cocos2d::CCNode::getActionByTag - 0x20dd80
 cocos2d::CCNode::boundingBox - 0x20ca74
 cocos2d::CCNode::convertToNodeSpace - 0x20e94c
 cocos2d::CCNode::convertToWorldSpace - 0x20e994
+cocos2d::CCNode::convertToWorldSpaceAR - 0x20ea40
 cocos2d::CCNode::convertTouchToNodeSpace - 0x20eaf8
 cocos2d::CCNode::description - 0x20cc04
 cocos2d::CCNode::pauseSchedulerAndActions - 0x20dc28
