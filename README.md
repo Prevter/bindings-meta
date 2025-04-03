@@ -4,9 +4,9 @@
 Simple github workflow script that periodically checks the [Geode bindings repo](https://github.com/geode-sdk/bindings), and uploads all function offsets from it.
 
 Bindings are generated for:
-- **Windows**: 2.204, 2.206 
-- **macOS**: 2.200 (intel only), 2.206
-- **iOS**: 2.206
+- **Windows**: 2.204, 2.206, 2.2074
+- **macOS**: 2.200 (intel only), 2.206, 2.2074
+- **iOS**: 2.206, 2.2074
 
 In addition, the script also adds some custom bindings for entry points and STL functions, which are not present in the bingings repo. 
 (if you want to add more, feel free to make a PR to files in `extras` directory)
