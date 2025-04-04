@@ -1783,6 +1783,8 @@ DemonFilterSelectLayer::init - 0x5a968
 DemonFilterSelectLayer::keyBackClicked - 0x5aebc
 DemonInfoPopup::keyBackClicked - 0x1a0b9c
 DemonInfoPopup::init - 0x1a02a8
+DialogLayer::create - 0x8a89c
+DialogLayer::createDialogLayer - 0x8a8a8
 DialogLayer::createWithObjects - 0x8a934
 DialogLayer::onEnter - 0x8b544
 DialogLayer::ccTouchBegan - 0x8b428
@@ -1796,7 +1798,14 @@ DialogLayer::fadeInTextFinished - 0x8b548
 DialogLayer::addToMainScene - 0x8b3c4
 DialogLayer::animateIn - 0x8b61c
 DialogLayer::animateInRandomSide - 0x8b5c4
+DialogLayer::displayDialogObject - 0x8add0
+DialogLayer::displayNextObject - 0x8ad70
+DialogLayer::finishCurrentAnimation - 0x8b2dc
+DialogLayer::handleDialogTap - 0x8b214
+DialogLayer::init - 0x8a944
+DialogLayer::onClose - 0x8b334
 DialogLayer::updateChatPlacement - 0x8b158
+DialogLayer::updateNavButtonFrame - 0x8b0f8
 DialogObject::create - 0x8a650
 DrawGridLayer::update - 0x3657b8
 DrawGridLayer::draw - 0x3658c8
@@ -2630,6 +2639,10 @@ GJShopLayer::didPurchaseItem - 0x14fb3c
 GJShopLayer::rewardedVideoFinished - 0x14f6b4
 GJShopLayer::dialogClosed - 0x150c68
 GJShopLayer::init - 0x14dd64
+GJShopLayer::onBack - 0x14f27c
+GJShopLayer::onCommunityCredits - 0x14f250
+GJShopLayer::onSelectItem - 0x14f408
+GJShopLayer::showCantAffordMessage - 0x14f74c
 GJSmartBlockPreviewSprite::init - 0xd46c
 GJSmartBlockPreviewSprite::visit - 0xd470
 GJSmartPrefab::encodeWithCoder - 0xc604
@@ -3191,6 +3204,7 @@ PauseLayer::onRestart - 0x146b60
 PauseLayer::onRestartFull - 0x1469a0
 PauseLayer::onResume - 0x146a48
 PauseLayer::onSettings - 0x146b9c
+PauseLayer::sfxSliderChanged - 0x146bfc
 PauseLayer::tryQuit - 0x146a80
 PlatformToolbox::gameDidSave - 0x16f388
 PlatformToolbox::hideCursor - 0x16f40c
@@ -3425,7 +3439,11 @@ ProfilePage::onCommentHistory - 0x19d948
 ProfilePage::onFriend - 0x19e02c
 ProfilePage::onStatInfo - 0x19d1a0
 ProfilePage::toggleShip - 0x19d480
+PurchaseItemPopup::create - 0x14fa80
 PurchaseItemPopup::keyBackClicked - 0x151c10
+PurchaseItemPopup::init - 0x151228
+PurchaseItemPopup::onClose - 0x151b60
+PurchaseItemPopup::onPurchase - 0x151b9c
 RandTriggerGameObject::init - 0x38250c
 RandTriggerGameObject::triggerObject - 0x382630
 RandTriggerGameObject::customObjectSetup - 0x382708
