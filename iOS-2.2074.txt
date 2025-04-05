@@ -813,6 +813,8 @@ cocos2d::CCRenderTexture::create - 0x3b8bc8
 cocos2d::CCRenderTexture::initWithWidthAndHeight - 0x3b8888
 cocos2d::CCRenderTexture::~CCRenderTexture - 0x3b86dc
 cocos2d::CCRenderTexture::begin - 0x3b8cac
+cocos2d::CCRenderTexture::beginWithClear - 0x3b8e8c
+cocos2d::CCRenderTexture::beginWithClear - 0x3b8e7c
 cocos2d::CCRenderTexture::end - 0x3b8fb4
 cocos2d::CCRenderTexture::draw - 0x3b908c
 cocos2d::CCRenderTexture::visit - 0x3b9000
