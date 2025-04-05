@@ -2569,6 +2569,7 @@ FMODAudioEngine::isMusicPlaying - 0x35ada4
 FMODAudioEngine::loadMusic - 0x356464
 FMODAudioEngine::pauseAllAudio - 0x353afc
 FMODAudioEngine::pauseAllMusic - 0x35ade0
+FMODAudioEngine::pauseMusic - 0x35d91c
 FMODAudioEngine::playEffect - 0x358870
 FMODAudioEngine::playEffect - 0x3587c0
 FMODAudioEngine::playEffectAdvanced - 0x356ac0

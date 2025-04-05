@@ -1596,6 +1596,7 @@ CommentCell::likedItem - 0x113a64
 CommentCell::FLAlert_Clicked - 0x113bdc
 CommentCell::loadFromComment - 0x108cb0
 CommentCell::onConfirmDelete - 0x1138fc
+CommentCell::onGoToLevel - 0x113768
 CommentCell::onLike - 0x11381c
 CommentCell::updateBGColor - 0x10a674
 CommunityCreditsPage::init - 0x1a3788
@@ -1979,6 +1980,7 @@ EndPortalObject::init - 0x3f66b0
 EndPortalObject::setPosition - 0x3f6b38
 EndPortalObject::setVisible - 0x3f6c30
 EndPortalObject::triggerObject - 0x3f6a50
+EndPortalObject::updateEndPos - 0x3f6c94
 EndTriggerGameObject::init - 0x38ad10
 EndTriggerGameObject::triggerObject - 0x38ad60
 EndTriggerGameObject::customObjectSetup - 0x38b0ec
@@ -2036,6 +2038,8 @@ FMODAudioEngine::playEffect - 0x13ea50
 FMODAudioEngine::playEffect - 0x13e9b4
 FMODAudioEngine::playEffectAdvanced - 0x13d8c4
 FMODAudioEngine::playMusic - 0x1405b0
+FMODAudioEngine::preloadEffect - 0x13b644
+FMODAudioEngine::preloadMusic - 0x1408d0
 FMODAudioEngine::queueStartMusic - 0x140e60
 FMODAudioEngine::resumeAllAudio - 0x13bb8c
 FMODAudioEngine::resumeAllEffects - 0x140064
@@ -2114,6 +2118,7 @@ GameLevelManager::getOnlineLevels - 0xa0fec
 GameLevelManager::getSavedDailyLevel - 0x9c644
 GameLevelManager::getSavedLevel - 0x98f70
 GameLevelManager::getSavedLevel - 0x9c74c
+GameLevelManager::getSavedLevelList - 0xa2a30
 GameLevelManager::getSavedLevels - 0x9afb4
 GameLevelManager::getSearchScene - 0x9d558
 GameLevelManager::getStoredOnlineLevels - 0x9d020
@@ -2122,6 +2127,7 @@ GameLevelManager::getUserMessages - 0xa8114
 GameLevelManager::getUsers - 0xa79b0
 GameLevelManager::gotoLevelPage - 0x9cd20
 GameLevelManager::handleIt - 0x8c0bc
+GameLevelManager::hasDownloadedLevel - 0xa3854
 GameLevelManager::isFollowingUser - 0x9df80
 GameLevelManager::limitSavedLevels - 0x9d9e8
 GameLevelManager::makeTimeStamp - 0x9cf68
@@ -2502,6 +2508,7 @@ GJGarageLayer::playerColorChanged - 0x306698
 GJGarageLayer::rewardedVideoFinished - 0x304934
 GJGarageLayer::getItems - 0x3058b8
 GJGarageLayer::onArrow - 0x304c48
+GJGarageLayer::onBack - 0x304604
 GJGarageLayer::onNavigate - 0x305378
 GJGarageLayer::onSelect - 0x305b88
 GJGarageLayer::onShards - 0x3047b4
@@ -2628,6 +2635,7 @@ GJSearchObject::create - 0xb3894
 GJSearchObject::createFromKey - 0x9d57c
 GJSearchObject::getKey - 0xa1778
 GJSearchObject::isLevelSearchObject - 0xb4078
+GJShopLayer::create - 0x14dc8c
 GJShopLayer::onExit - 0x14f518
 GJShopLayer::ccTouchBegan - 0x150e28
 GJShopLayer::ccTouchMoved - 0x151120
@@ -2896,6 +2904,7 @@ LevelInfoLayer::onGarage - 0x2d2e4
 LevelInfoLayer::onLevelInfo - 0x2d0f8
 LevelInfoLayer::onLevelLeaderboard - 0x2c85c
 LevelInfoLayer::onPlay - 0x2a9d0
+LevelInfoLayer::onUpdate - 0x2c79c
 LevelInfoLayer::onViewProfile - 0x2a958
 LevelInfoLayer::playStep3 - 0x2eb24
 LevelInfoLayer::setupPlatformerStats - 0x2bc9c
@@ -3114,7 +3123,7 @@ MusicBrowser::getSelectedCellIdx - 0x3baf34
 MusicBrowser::FLAlert_Clicked - 0x3bb07c
 MusicDownloadManager::sharedState - 0x156e20
 MusicDownloadManager::init - 0x157718
-MusicDownloadManager::clearSong - 0xa2a30
+MusicDownloadManager::clearSong - 0x159868
 MusicDownloadManager::clearUnusedSongs - 0x1599b8
 MusicDownloadManager::createSongsInfo - 0x158a10
 MusicDownloadManager::deleteSong - 0x159818
@@ -3437,7 +3446,10 @@ ProfilePage::loadPageFromUserInfo - 0x19b0d8
 ProfilePage::onClose - 0x19a8dc
 ProfilePage::onCommentHistory - 0x19d948
 ProfilePage::onFriend - 0x19e02c
+ProfilePage::onMyLevels - 0x19e44c
+ProfilePage::onMyLists - 0x19e58c
 ProfilePage::onStatInfo - 0x19d1a0
+ProfilePage::setupCommentsBrowser - 0x19afa8
 ProfilePage::toggleShip - 0x19d480
 PurchaseItemPopup::create - 0x14fa80
 PurchaseItemPopup::keyBackClicked - 0x151c10
@@ -3809,6 +3821,7 @@ ShareCommentLayer::textChanged - 0x1d6850
 ShareCommentLayer::uploadActionFinished - 0x1d6a10
 ShareCommentLayer::uploadActionFailed - 0x1d6aa0
 ShareCommentLayer::onClosePopup - 0x1d6b24
+ShareCommentLayer::init - 0x1d53f0
 ShareCommentLayer::updateCharCountLabel - 0x1d690c
 ShareLevelLayer::create - 0x27405c
 ShareLevelLayer::keyBackClicked - 0x275560
