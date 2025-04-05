@@ -1220,6 +1220,7 @@ FMOD::Sound::getSystemObject - 0x4b61a0
 FMOD::Sound::getNumSyncPoints - 0x4b8314
 FMOD::Sound::getSyncPointInfo - 0x4b8584
 FMOD::Sound::get3DConeSettings - 0x4b6dfc
+FMOD::Sound::getSubSoundParent - 0x4b73d8
 FMOD::Sound::set3DConeSettings - 0x4b6c44
 FMOD::Sound::get3DCustomRolloff - 0x4b710c
 FMOD::Sound::set3DCustomRolloff - 0x4b6f98
@@ -1264,6 +1265,7 @@ FMOD::System::createSound - 0x4c3768
 FMOD::System::getCPUUsage - 0x4c354c
 FMOD::System::getUserData - 0x4c6010
 FMOD::System::isRecording - 0x4c545c
+FMOD::System::mixerResume - 0x4c2ff0
 FMOD::System::recordStart - 0x4c5220
 FMOD::System::registerDSP - 0x4c1b90
 FMOD::System::setCallback - 0x4c0b10
@@ -1271,7 +1273,7 @@ FMOD::System::setUserData - 0x4c5f48
 FMOD::System::createStream - 0x4c38ec
 FMOD::System::getFileUsage - 0x4c3614
 FMOD::System::loadGeometry - 0x4c58a0
-FMOD::System::mixerSuspend - 0x4c2ff0
+FMOD::System::mixerSuspend - 0x4c2f2c
 FMOD::System::unloadPlugin - 0x4c0e78
 FMOD::System::get3DSettings - 0x4c27b4
 FMOD::System::getDriverInfo - 0x4bf9e8
