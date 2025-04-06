@@ -1066,6 +1066,8 @@ cocos2d::CCCallFuncO::copyWithZone - 0x6aaf78
 cocos2d::CCCallFuncO::execute - 0x6aae18
 cocos2d::CCClippingNode::create - 0x628634
 cocos2d::CCClippingNode::create - 0x6286bc
+cocos2d::CCClippingNode::CCClippingNode - 0x628524
+cocos2d::CCClippingNode::~CCClippingNode - 0x6285b8
 cocos2d::CCClippingNode::init - 0x62875c
 cocos2d::CCClippingNode::init - 0x62876c
 cocos2d::CCClippingNode::onEnter - 0x6287dc
