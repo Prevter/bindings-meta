@@ -210,7 +210,7 @@ cocos2d::CCNode::removeAllComponents - 0x23ce30
 cocos2d::CCNode::updateTweenAction - 0x23cda0
 cocos2d::CCNode::updateTweenActionInt - 0x23cda4
 cocos2d::CCNodeRGBA::CCNodeRGBA - 0x23ce40
-cocos2d::CCNodeRGBA::~CCNodeRGBA - 0x23ac80
+cocos2d::CCNodeRGBA::~CCNodeRGBA - 0x23ce74
 cocos2d::CCNodeRGBA::init - 0x23ce8c
 cocos2d::CCNodeRGBA::setColor - 0x23d064
 cocos2d::CCNodeRGBA::getColor - 0x23d044
@@ -265,8 +265,8 @@ cocos2d::CCTintTo::update - 0x190760
 cocos2d::CCTintTo::startWithTarget - 0x1906f4
 cocos2d::CCScene::create - 0x240218
 cocos2d::CCScene::getHighestChildZ - 0x24028c
-cocos2d::CCScene::CCScene - 0x2508a4
-cocos2d::CCScene::~CCScene - 0x23ac80
+cocos2d::CCScene::CCScene - 0x240128
+cocos2d::CCScene::~CCScene - 0x2401a8
 cocos2d::CCScene::init - 0x2401c0
 cocos2d::CCSet::CCSet - 0x1af6b0
 cocos2d::CCSet::~CCSet - 0x1af7e8
@@ -613,6 +613,8 @@ cocos2d::CCDirector::getWinSize - 0x1791c4
 cocos2d::CCDirector::getWinSizeInPixels - 0x1794e0
 cocos2d::CCDirector::setProjection - 0x178aec
 cocos2d::CCDirector::setViewport - 0x179380
+cocos2d::CCDirector::CCDirector - 0x1785a4
+cocos2d::CCDirector::~CCDirector - 0x17895c
 cocos2d::CCDirector::convertToGL - 0x1793d8
 cocos2d::CCDirector::drawScene - 0x178c64
 cocos2d::CCDirector::popScene - 0x1796e8
@@ -1054,6 +1056,10 @@ cocos2d::CCLightning::isCascadeColorEnabled - 0x347514
 cocos2d::CCLightning::setCascadeColorEnabled - 0x347524
 cocos2d::CCConfiguration::sharedConfiguration - 0x3252e4
 cocos2d::CCPoolManager::pop - 0x1b43d0
+cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x179e68
+cocos2d::CCDisplayLinkDirector::stopAnimation - 0x179e5c
+cocos2d::CCDisplayLinkDirector::startAnimation - 0x179de4
+cocos2d::CCDisplayLinkDirector::mainLoop - 0x179e20
 FMOD::Channel::getPosition - 0x44cf08
 FMOD::Channel::getPriority - 0x44ccfc
 FMOD::Channel::setPosition - 0x44cde0
@@ -1427,7 +1433,7 @@ FLAlertLayer::init - 0x2ab0e4
 FLAlertLayer::init - 0x2aba58
 FLAlertLayer::onBtn1 - 0x2abb58
 FLAlertLayer::onBtn2 - 0x2abbb8
-AccountLoginLayer::create - 0x16e934
+AccountLoginLayer::create - 0x87068
 AccountLoginLayer::registerWithTouchDispatcher - 0x88580
 AccountLoginLayer::keyBackClicked - 0x88494
 AccountLoginLayer::FLAlert_Clicked - 0x8839c
@@ -1650,7 +1656,7 @@ ArtistCell::draw - 0x1135cc
 ArtTriggerGameObject::triggerObject - 0x390034
 ArtTriggerGameObject::customObjectSetup - 0x38ffcc
 ArtTriggerGameObject::getSaveString - 0x38fe3c
-AudioAssetsBrowser::create - 0xf9894
+AudioAssetsBrowser::create - 0x1d225c
 AudioAssetsBrowser::registerWithTouchDispatcher - 0x1d30fc
 AudioAssetsBrowser::keyBackClicked - 0x1d3080
 AudioAssetsBrowser::musicActionFinished - 0x1d3034
@@ -1701,7 +1707,7 @@ BoomScrollLayer::updatePages - 0x12e684
 BrowseSmartTemplateLayer::keyBackClicked - 0x76884
 BrowseSmartTemplateLayer::onBack - 0x768a8
 BrowseSmartKeyLayer::onBack - 0x779e0
-ButtonPage::create - 0x61d5c
+ButtonPage::create - 0x419250
 ButtonSprite::ButtonSprite - 0x63804
 ButtonSprite::create - 0x62f8c
 ButtonSprite::create - 0x62878
@@ -2838,7 +2844,6 @@ GJGarageLayer::setupSpecialPage - 0x3053b0
 GJGarageLayer::updatePlayerColors - 0x3035e8
 GJGradientLayer::init - 0x20b450
 GJItemIcon::create - 0x307bd8
-GJItemIcon::createBrowserItem - 0x307bd8
 GJItemIcon::scaleForType - 0x305b68
 GJItemIcon::setOpacity - 0x308148
 GJItemIcon::changeToLockedState - 0x306088
@@ -3093,6 +3098,7 @@ LeaderboardsLayer::loadLeaderboardFinished - 0x3aa300
 LeaderboardsLayer::loadLeaderboardFailed - 0x3aa638
 LeaderboardsLayer::init - 0x3a91e8
 LevelAreaInnerLayer::create - 0x345028
+LevelAreaInnerLayer::scene - 0x344f48
 LevelAreaInnerLayer::keyBackClicked - 0x3467b8
 LevelAreaInnerLayer::dialogClosed - 0x346614
 LevelAreaInnerLayer::onExit - 0x346768

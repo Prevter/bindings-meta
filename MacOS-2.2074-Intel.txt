@@ -745,6 +745,8 @@ cocos2d::CCDirector::setNextScene - 0x470340
 cocos2d::CCDirector::setNotificationNode - 0x471a70
 cocos2d::CCDirector::setProjection - 0x46fc80
 cocos2d::CCDirector::setViewport - 0x470d60
+cocos2d::CCDirector::CCDirector - 0x46f5d0
+cocos2d::CCDirector::~CCDirector - 0x46fa50
 cocos2d::CCDirector::convertToGL - 0x470e50
 cocos2d::CCDirector::drawScene - 0x46fe90
 cocos2d::CCDirector::popScene - 0x471430
@@ -1391,6 +1393,10 @@ cocos2d::CCLightning::isCascadeColorEnabled - 0x5c6050
 cocos2d::CCLightning::setCascadeColorEnabled - 0x5c6070
 cocos2d::CCConfiguration::sharedConfiguration - 0x503d50
 cocos2d::CCPoolManager::pop - 0x3e4f70
+cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0x471d80
+cocos2d::CCDisplayLinkDirector::stopAnimation - 0x471d70
+cocos2d::CCDisplayLinkDirector::startAnimation - 0x471cf0
+cocos2d::CCDisplayLinkDirector::mainLoop - 0x471d30
 GJDropDownLayer::create - 0x5cfc90
 GJDropDownLayer::create - 0x5d01d0
 GJDropDownLayer::draw - 0x5d05d0

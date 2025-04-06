@@ -19,6 +19,10 @@ cocos2d::CCLightning::setColor - 0x44950
 cocos2d::CCLightning::updateDisplayedColor - 0x449c0
 cocos2d::CCLightning::isCascadeColorEnabled - 0x449d0
 cocos2d::CCLightning::setCascadeColorEnabled - 0x449e0
+cocos2d::CCDisplayLinkDirector::setAnimationInterval - 0xbcf10
+cocos2d::CCDisplayLinkDirector::stopAnimation - 0xbda50
+cocos2d::CCDisplayLinkDirector::startAnimation - 0xbda10
+cocos2d::CCDisplayLinkDirector::mainLoop - 0xbc600
 GJDropDownLayer::draw - 0x426f0
 GJDropDownLayer::registerWithTouchDispatcher - 0x425d0
 GJDropDownLayer::keyBackClicked - 0x250330
