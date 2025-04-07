@@ -868,7 +868,7 @@ cocos2d::CCDrawNode::drawSegment - 0x462c0
 cocos2d::CCDrawNode::ensureCapacity - 0x45b14
 cocos2d::CCDrawNode::init - 0x45b68
 cocos2d::CCDrawNode::draw - 0x45cf8
-cocos2d::CCSpriteFrame::create - 0x24d078
+cocos2d::CCSpriteFrame::createWithTexture - 0x24d078
 cocos2d::CCSpriteFrame::initWithTexture - 0x24d17c
 cocos2d::CCSpriteFrame::initWithTextureFilename - 0x24d2dc
 cocos2d::CCSpriteFrame::getTexture - 0x24d5f4
