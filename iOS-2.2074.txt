@@ -3446,6 +3446,7 @@ MusicBrowser::getSelectedCellIdx - 0x3baf34
 MusicBrowser::FLAlert_Clicked - 0x3bb07c
 MusicDownloadManager::sharedState - 0x156e20
 MusicDownloadManager::init - 0x157718
+MusicDownloadManager::addMusicDownloadDelegate - 0x157810
 MusicDownloadManager::clearSong - 0x159868
 MusicDownloadManager::clearUnusedSongs - 0x1599b8
 MusicDownloadManager::createSongsInfo - 0x158a10
@@ -3463,6 +3464,7 @@ MusicDownloadManager::onGetSongInfoCompleted - 0x157414
 MusicDownloadManager::onProcessHttpRequestCompleted - 0x15701c
 MusicDownloadManager::pathForSFX - 0x15a508
 MusicDownloadManager::pathForSong - 0x1598e4
+MusicDownloadManager::removeMusicDownloadDelegate - 0x157894
 MusicDownloadManager::songStateChanged - 0x157abc
 MusicSearchResult::updateObjects - 0x15ff50
 MusicSearchResult::stateChanged - 0x15ff20

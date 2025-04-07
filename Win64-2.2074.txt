@@ -2995,6 +2995,7 @@ MusicDownloadManager::pathForSong - 0x329f00
 MusicDownloadManager::pathForSongFolder - 0x329db0
 MusicDownloadManager::ProcessHttpGetRequest - 0x327a80
 MusicDownloadManager::ProcessHttpRequest - 0x327940
+MusicDownloadManager::removeMusicDownloadDelegate - 0x328010
 MusicDownloadManager::showTOS - 0x32a2f0
 MusicDownloadManager::songStateChanged - 0x328120
 MusicSearchResult::MusicSearchResult - 0x326990
