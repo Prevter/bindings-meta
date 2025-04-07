@@ -3105,6 +3105,7 @@ LevelAreaInnerLayer::onExit - 0x346768
 LevelAreaInnerLayer::init - 0x3450dc
 LevelAreaInnerLayer::onBack - 0x345c0c
 LevelAreaInnerLayer::onDoor - 0x345c64
+LevelAreaInnerLayer::onInfo - 0x345ecc
 LevelAreaInnerLayer::playStep1 - 0x3466a8
 LevelAreaInnerLayer::showFloor1CompleteDialog - 0x346294
 LevelAreaLayer::init - 0x34353c
@@ -3452,11 +3453,14 @@ MusicDownloadManager::clearUnusedSongs - 0x1599b8
 MusicDownloadManager::createSongsInfo - 0x158a10
 MusicDownloadManager::deleteSong - 0x159818
 MusicDownloadManager::downloadCustomSong - 0x159d0c
+MusicDownloadManager::downloadSFX - 0x15ced4
 MusicDownloadManager::downloadSong - 0x159a58
+MusicDownloadManager::getCustomContentURL - 0x15ab1c
 MusicDownloadManager::getDownloadedSongs - 0x1595bc
 MusicDownloadManager::getSongInfo - 0x157c10
 MusicDownloadManager::getSongInfoObject - 0x157b4c
 MusicDownloadManager::incrementPriorityForSong - 0x157b18
+MusicDownloadManager::isSFXDownloaded - 0x15a418
 MusicDownloadManager::isSongDownloaded - 0x159650
 MusicDownloadManager::limitDownloadedSongs - 0x159790
 MusicDownloadManager::onDownloadSongCompleted - 0x159f80

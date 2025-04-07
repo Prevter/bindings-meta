@@ -2978,6 +2978,7 @@ MusicDownloadManager::createArtistsInfo - 0x328c50
 MusicDownloadManager::createSongsInfo - 0x3288a0
 MusicDownloadManager::dataLoaded - 0x32a450
 MusicDownloadManager::downloadCustomSong - 0x32ad40
+MusicDownloadManager::downloadSFX - 0x32ca80
 MusicDownloadManager::downloadSong - 0x329460
 MusicDownloadManager::generateCustomContentURL - 0x32e2e0
 MusicDownloadManager::getCustomContentURL - 0x32a940
@@ -2985,6 +2986,7 @@ MusicDownloadManager::getDLObject - 0x39d70
 MusicDownloadManager::getDownloadedSongs - 0x3290a0
 MusicDownloadManager::getSongInfo - 0x328180
 MusicDownloadManager::getSongInfoObject - 0x329b70
+MusicDownloadManager::isSFXDownloaded - 0x329fb0
 MusicDownloadManager::isSongDownloaded - 0x329c80
 MusicDownloadManager::loadSongInfoFinished - 0x32ec70
 MusicDownloadManager::onDownloadSongCompleted - 0x329750
