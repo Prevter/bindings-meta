@@ -3037,6 +3037,7 @@ HardStreak::create - 0x61464
 HardStreak::init - 0x614d8
 HardStreak::addPoint - 0x61c40
 HardStreak::firstSetup - 0x61518
+HardStreak::reset - 0x61c1c
 HardStreak::resumeStroke - 0x61bd4
 HardStreak::updateStroke - 0x615ac
 HSVLiveOverlay::keyBackClicked - 0x1a3304
