@@ -2332,6 +2332,7 @@ DialogLayer::registerWithTouchDispatcher - 0x3b53d0
 DialogLayer::keyBackClicked - 0x3b5190
 DialogLayer::keyDown - 0x3b57b0
 DialogLayer::fadeInTextFinished - 0x3b5420
+DialogLayer::addToMainScene - 0x3b5140
 DialogLayer::animateIn - 0x3b5560
 DialogLayer::animateInDialog - 0x3b57a0
 DialogLayer::animateInRandomSide - 0x3b5510
