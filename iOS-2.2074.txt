@@ -2536,6 +2536,7 @@ GameStatsManager::completedLevel - 0x330d54
 GameStatsManager::createStoreItems - 0x325a70
 GameStatsManager::encodeDataTo - 0x33ec78
 GameStatsManager::getAwardedCurrencyForLevel - 0x3326e0
+GameStatsManager::getAwardedDiamondsForLevel - 0x332bac
 GameStatsManager::getBaseCurrencyForLevel - 0x3325b8
 GameStatsManager::getChallenge - 0x333cf4
 GameStatsManager::getCompletedMapPacks - 0x331520
