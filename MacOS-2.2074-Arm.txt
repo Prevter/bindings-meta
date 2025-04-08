@@ -314,7 +314,7 @@ cocos2d::CCScaleTo::copyWithZone - 0x3337fc
 cocos2d::CCScaleTo::update - 0x333960
 cocos2d::CCScaleTo::startWithTarget - 0x3338f4
 cocos2d::CCScaleBy::create - 0x3339d0
-cocos2d::CCScaleBy::create - 0x333a60
+cocos2d::CCScaleBy::create - 0x333a68
 cocos2d::CCScaleBy::copyWithZone - 0x333b0c
 cocos2d::CCScaleBy::startWithTarget - 0x333c04
 cocos2d::CCScaleBy::reverse - 0x333c74
