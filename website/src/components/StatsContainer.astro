@@ -23,32 +23,37 @@ type FunctionBindings = {
 type PlatformCount = {
     platform: Platform;
     cocos: FunctionBindings;
+    fmod: FunctionBindings;
     gd: FunctionBindings;
 };
 
 function getPlatformCount(platform): PlatformCount {
     let cocos = { available: 0, linked: 0, inlines: 0, missing: 0 };
+    let fmod = { available: 0, linked: 0, inlines: 0, missing: 0 };
     let gd = { available: 0, linked: 0, inlines: 0, missing: 0 };
     CodegenData.classes.forEach(
         (cls) => {
             const isCocos =
                 cls.name.startsWith("cocos2d") ||
                 cls.name.startsWith("DS_Dictionary") ||
-                cls.name.startsWith("pugi::xml_");
+                cls.name.startsWith("pugi::xml_") ||
+                cls.name.startsWith("ObjectDecoder") ||
+                cls.name.startsWith("CCContentManager");
+            const isFmod = cls.name.startsWith("FMOD::") || cls.name == "FMOD";
             cls.functions.forEach((fn) => {
                 if (fn.bindings[platform] === "link") {
-                    isCocos ? cocos.linked++ : gd.linked++;
+                    isCocos ? cocos.linked++ : isFmod ? fmod.linked++ : gd.linked++;
                 } else if (fn.bindings[platform] === "inline") {
-                    isCocos ? cocos.inlines++ : gd.inlines++;
+                    isCocos ? cocos.inlines++ : isFmod ? fmod.inlines++ : gd.inlines++;
                 } else if (fn.bindings[platform] === null) {
-                    isCocos ? cocos.missing++ : gd.missing++;
+                    isCocos ? cocos.missing++ : isFmod ? fmod.missing++ : gd.missing++;
                 } else {
-                    isCocos ? cocos.available++ : gd.available++;
+                    isCocos ? cocos.available++ : isFmod ? fmod.available++ : gd.available++;
                 }
             });
         },
     );
-    return { platform, cocos, gd };
+    return { platform, cocos, fmod, gd };
 }
 
 const platformNames = {
