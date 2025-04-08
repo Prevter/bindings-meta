@@ -36,7 +36,9 @@ function getPlatformCount(platform): PlatformCount {
             const isCocos =
                 cls.name.startsWith("cocos2d") ||
                 cls.name.startsWith("DS_Dictionary") ||
-                cls.name.startsWith("pugi::xml_");
+                cls.name.startsWith("pugi::xml_") ||
+                cls.name.startsWith("ObjectDecoder") ||
+                cls.name.startsWith("CCContentManager");
             const isFmod = cls.name.startsWith("FMOD::") || cls.name == "FMOD";
             cls.functions.forEach((fn) => {
                 if (fn.bindings[platform] === "link") {
