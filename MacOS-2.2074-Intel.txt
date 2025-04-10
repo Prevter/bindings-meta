@@ -1427,6 +1427,7 @@ AccountHelpLayer::onAccountManagement - 0xcefa0
 AccountHelpLayer::onUnlink - 0xcf070
 AccountHelpLayer::updatePage - 0xcf230
 AccountHelpLayer::verifyUnlink - 0xcf580
+AccountLayer::create - 0xcc0d0
 AccountLayer::customSetup - 0xcc490
 AccountLayer::layerHidden - 0xce520
 AccountLayer::backupAccountFinished - 0xcda30
@@ -2041,6 +2042,7 @@ SetupTriggerPopup::updateValue - 0x2289d0
 SetupTriggerPopup::updateValueControls - 0x227950
 SetupTriggerPopup::valueChanged - 0x225210
 ColorSelectPopup::create - 0x70e810
+ColorSelectPopup::create - 0x70eb10
 ColorSelectPopup::create - 0x70eaf0
 ColorSelectPopup::show - 0x714aa0
 ColorSelectPopup::determineStartValues - 0x712800

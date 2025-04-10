@@ -1383,6 +1383,7 @@ AccountHelpLayer::onAccountManagement - 0xb7bf0
 AccountHelpLayer::onUnlink - 0xb7cc4
 AccountHelpLayer::updatePage - 0xb7e88
 AccountHelpLayer::verifyUnlink - 0xb81d4
+AccountLayer::create - 0xb507c
 AccountLayer::customSetup - 0xb530c
 AccountLayer::layerHidden - 0xb72fc
 AccountLayer::backupAccountFinished - 0xb6888
@@ -1941,6 +1942,7 @@ CollisionBlockPopup::textInputShouldOffset - 0x220034
 CollisionBlockPopup::textInputReturn - 0x220104
 CollisionBlockPopup::init - 0x21ec48
 CollisionBlockPopup::onItemIDArrow - 0x21f87c
+ColorAction::create - 0x268edc
 ColorActionSprite::init - 0x268d18
 ColorChannelSprite::create - 0x2685c0
 ColorChannelSprite::init - 0x268668
@@ -1983,8 +1985,9 @@ SetupTriggerPopup::triggerArrowRight - 0x1d92d8
 SetupTriggerPopup::updateValue - 0x1da380
 SetupTriggerPopup::updateValueControls - 0x1d9370
 SetupTriggerPopup::valueChanged - 0x1d7e68
-ColorSelectPopup::create - 0x62d8a8
 ColorSelectPopup::create - 0x62d6a0
+ColorSelectPopup::create - 0x62d8a8
+ColorSelectPopup::create - 0x62d898
 ColorSelectPopup::show - 0x6332dc
 ColorSelectPopup::determineStartValues - 0x631010
 ColorSelectPopup::textChanged - 0x6333a8
