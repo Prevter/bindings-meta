@@ -1994,6 +1994,7 @@ ColorSelectPopup::textChanged - 0x6333a8
 ColorSelectPopup::colorValueChanged - 0x6316b0
 ColorSelectPopup::colorSelectClosed - 0x633898
 ColorSelectPopup::keyBackClicked - 0x6316a4
+ColorSelectPopup::closeColorSelect - 0x62fc94
 ColorSelectPopup::init - 0x62d8e4
 ColorSelectPopup::onDefault - 0x630280
 ColorSelectPopup::onPaste - 0x630234

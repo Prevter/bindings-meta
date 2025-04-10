@@ -2136,6 +2136,7 @@ DialogLayer::updateNavButtonFrame - 0x8b0f8
 DialogObject::create - 0x8a650
 DrawGridLayer::update - 0x3657b8
 DrawGridLayer::draw - 0x3658c8
+DrawGridLayer::timeForPos - 0x360104
 DungeonBarsSprite::init - 0x3119ac
 DungeonBarsSprite::visit - 0x311a2c
 EditButtonBar::create - 0x418b98
@@ -2469,6 +2470,7 @@ GameLevelManager::setIntForKey - 0xaf4c0
 GameLevelManager::storeSearchResult - 0x9ce4c
 GameLevelManager::storeUserName - 0x97218
 GameLevelManager::tryGetUsername - 0x9742c
+GameLevelManager::updateLevel - 0xa44a0
 GameLevelManager::updateSavedLevelList - 0xa2948
 GameLevelManager::updateUserScore - 0xa5620
 GameLevelManager::uploadUserMessage - 0xa8ba4

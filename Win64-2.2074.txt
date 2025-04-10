@@ -1487,6 +1487,7 @@ GameLevelManager::storeSearchResult - 0x147570
 GameLevelManager::storeUserName - 0x143ca0
 GameLevelManager::storeUserNames - 0x1439a0
 GameLevelManager::tryGetUsername - 0x144000
+GameLevelManager::updateLevel - 0x151700
 GameLevelManager::updateLevelOrders - 0x145680
 GameLevelManager::updateLevelRewards - 0x144380
 GameLevelManager::updateSavedLevelList - 0x14ef40
