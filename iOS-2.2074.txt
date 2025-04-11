@@ -1877,6 +1877,7 @@ CollisionBlockPopup::textInputClosed - 0x89988
 CollisionBlockPopup::textChanged - 0x899a4
 CollisionBlockPopup::textInputShouldOffset - 0x89a7c
 CollisionBlockPopup::textInputReturn - 0x89ae8
+ColorAction::create - 0x10ea4
 ColorActionSprite::init - 0x10d8c
 ColorChannelSprite::create - 0x106c8
 ColorChannelSprite::init - 0x10764
@@ -1905,6 +1906,7 @@ SetupTriggerPopup::getValue - 0x1365f8
 SetupTriggerPopup::triggerValueFromSliderValue - 0x1367f8
 SetupTriggerPopup::triggerSliderValueFromValue - 0x136864
 SetupTriggerPopup::valuePopupClosed - 0x13733c
+SetupTriggerPopup::init - 0x13154c
 SetupTriggerPopup::updateValueControls - 0x134094
 SetupTriggerPopup::valueChanged - 0x132fa0
 ColorSelectPopup::ColorSelectPopup - 0x41893c
@@ -1914,6 +1916,7 @@ ColorSelectPopup::textChanged - 0x418364
 ColorSelectPopup::colorValueChanged - 0x417894
 ColorSelectPopup::colorSelectClosed - 0x418764
 ColorSelectPopup::keyBackClicked - 0x417888
+ColorSelectPopup::closeColorSelect - 0x4164b0
 ColorSelectPopup::init - 0x414324
 ColorSelectPopup::onUpdateCopyColor - 0x416e98
 CommentCell::init - 0x11371c
@@ -2227,6 +2230,7 @@ EditorUI::constrainGameLayerPosition - 0x3dc880
 EditorUI::copyObjects - 0x3e0a08
 EditorUI::createCustomItems - 0x3e0ec8
 EditorUI::createMoveMenu - 0x3ebe14
+EditorUI::createUndoObject - 0x3e62ac
 EditorUI::deselectAll - 0x3e1f84
 EditorUI::doCopyObjects - 0x3e6d64
 EditorUI::doPasteObjects - 0x3e6e5c
@@ -2234,8 +2238,10 @@ EditorUI::dynamicGroupUpdate - 0x3eafa8
 EditorUI::editObject - 0x3dcd18
 EditorUI::getCreateBtn - 0x3e24b8
 EditorUI::getCreateMenuItemButton - 0x3df54c
+EditorUI::getGroupCenter - 0x3e5280
 EditorUI::getSelectedObjects - 0x3e6210
 EditorUI::getSpriteButton - 0x3bf6f8
+EditorUI::getSpriteButton - 0x3df454
 EditorUI::init - 0x3bd3d4
 EditorUI::menuItemFromObjectString - 0x3e1170
 EditorUI::moveForCommand - 0x3ee010
@@ -3189,10 +3195,12 @@ LevelEditorLayer::addKeyframe - 0x363cfc
 LevelEditorLayer::levelSettingsUpdated - 0x358cb4
 LevelEditorLayer::addSpecial - 0x3595d8
 LevelEditorLayer::createObject - 0x359a70
+LevelEditorLayer::createObjectsFromSetup - 0x3576e8
 LevelEditorLayer::createObjectsFromString - 0x3590e4
 LevelEditorLayer::findStartPosObject - 0x362134
 LevelEditorLayer::handleAction - 0x35b654
 LevelEditorLayer::init - 0x35643c
+LevelEditorLayer::objectAtPosition - 0x35a5f4
 LevelEditorLayer::onPlaytest - 0x3624a8
 LevelEditorLayer::onStopPlaytest - 0x362c30
 LevelEditorLayer::recreateGroups - 0x36167c
@@ -3341,6 +3349,8 @@ LevelTools::base64EncodeString - 0x1ac7f4
 LevelTools::getAudioFileName - 0x1ab7f0
 LevelTools::getAudioString - 0x1ab920
 LevelTools::getAudioTitle - 0x1ab7c0
+LevelTools::posForTime - 0x1abfb4
+LevelTools::posForTimeInternal - 0x1abfc4
 LevelTools::timeForPos - 0x1ab94c
 LevelTools::verifyLevelIntegrity - 0x1ac6e8
 LikeItemLayer::keyBackClicked - 0x24c0fc
@@ -3980,6 +3990,7 @@ SetupAreaAnimTriggerPopup::updateDefaultTriggerValues - 0x3e8ec
 SetupAreaAnimTriggerPopup::valueDidChange - 0x3ea50
 SetupArtSwitchPopup::selectArtClosed - 0x4092dc
 SetupAudioLineGuidePopup::selectSettingClosed - 0x408070
+SetupAudioLineGuidePopup::init - 0x407a7c
 SetupAudioTriggerPopup::valueDidChange - 0x182804
 SetupCameraEdgePopup::determineStartValues - 0x23a898
 SetupCameraEdgePopup::onClose - 0x23aa70
@@ -4283,6 +4294,7 @@ TextGameObject::customObjectSetup - 0x264288
 TextGameObject::getSaveString - 0x2643c8
 TextGameObject::updateTextKerning - 0x263fd0
 TextGameObject::getTextKerning - 0x264718
+TextGameObject::updateTextObject - 0x263fd8
 TimerTriggerGameObject::triggerObject - 0x38cf2c
 TimerTriggerGameObject::customObjectSetup - 0x38d63c
 TimerTriggerGameObject::getSaveString - 0x38cfdc
@@ -4350,6 +4362,7 @@ UIPOptionsLayer::getValue - 0x2e5f3c
 UISettingsGameObject::init - 0x38b2f0
 UISettingsGameObject::customObjectSetup - 0x38b69c
 UISettingsGameObject::getSaveString - 0x38b340
+UndoObject::create - 0x359568
 UpdateAccountSettingsPopup::keyBackClicked - 0x2d7f70
 UpdateAccountSettingsPopup::updateSettingsFinished - 0x2d7dc0
 UpdateAccountSettingsPopup::updateSettingsFailed - 0x2d7ea4
