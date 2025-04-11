@@ -1847,6 +1847,7 @@ GJChallengeItem::encodeWithCoder - 0x340730
 GJChallengeItem::canEncode - 0x34080c
 ChallengeNode::create - 0x36c94
 ChallengeNode::init - 0x37094
+CharacterColorPage::create - 0x12be6c
 CharacterColorPage::init - 0x12bf2c
 CharacterColorPage::registerWithTouchDispatcher - 0x12d844
 CharacterColorPage::keyBackClicked - 0x12d7e8
@@ -2846,6 +2847,7 @@ GJGarageLayer::getItems - 0x3058b8
 GJGarageLayer::onArrow - 0x304c48
 GJGarageLayer::onBack - 0x304604
 GJGarageLayer::onNavigate - 0x305378
+GJGarageLayer::onPaint - 0x3047e0
 GJGarageLayer::onSelect - 0x305b88
 GJGarageLayer::onShards - 0x3047b4
 GJGarageLayer::onShop - 0x304754
