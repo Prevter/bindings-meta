@@ -3195,6 +3195,7 @@ LevelEditorLayer::checkpointActivated - 0x362fc0
 LevelEditorLayer::addKeyframe - 0x363cfc
 LevelEditorLayer::levelSettingsUpdated - 0x358cb4
 LevelEditorLayer::addSpecial - 0x3595d8
+LevelEditorLayer::addToUndoList - 0x3594f4
 LevelEditorLayer::createObject - 0x359a70
 LevelEditorLayer::createObjectsFromSetup - 0x3576e8
 LevelEditorLayer::createObjectsFromString - 0x3590e4
