@@ -1470,6 +1470,7 @@ AchievementCell::updateBGColor - 0x1051c8
 AchievementManager::sharedState - 0xb9e4c
 AchievementManager::init - 0xb9ecc
 AchievementManager::achievementForUnlock - 0xeb6d8
+AchievementManager::addAchievement - 0xeb16c
 AchievementManager::isAchievementEarned - 0xeb53c
 AchievementManager::limitForAchievement - 0xeb63c
 AchievementManager::notifyAchievement - 0xeba9c

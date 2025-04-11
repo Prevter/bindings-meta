@@ -1449,6 +1449,7 @@ AchievementCell::loadFromDict - 0x1e0ec4
 AchievementManager::sharedState - 0x633e04
 AchievementManager::init - 0x633ef4
 AchievementManager::achievementForUnlock - 0x682554
+AchievementManager::addAchievement - 0x681c8c
 AchievementManager::addManualAchievements - 0x633f7c
 AchievementManager::isAchievementEarned - 0x682198
 AchievementManager::limitForAchievement - 0x68248c
